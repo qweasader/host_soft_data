@@ -30,8 +30,17 @@ jobs:
           RAW_URL=$(grep -oE 'src="[^"]*raw_json\.js[^"]*"' support_charts.html | head -n1 | cut -d'"' -f2)
           wget "https://software.opswat.com/OESIS_V4/Win/docs/support_charts/${RAW_URL}" -O raw_json.js
           ls -la
-          sleep 10
-          git add raw_json.js
+          sleep $((random % 63))
+          rm support_charts.html
+          wget -O support_charts.html https://software.opswat.com/OESIS_V4/Linux/docs/support_charts/support_charts.html
+          RAW_URL=$(grep -oE 'src="[^"]*raw_json\.js[^"]*"' support_charts.html | head -n1 | cut -d'"' -f2)
+          wget "https://software.opswat.com/OESIS_V4/Win/docs/support_charts/${RAW_URL}" -O raw_json_linux.js
+          rm support_charts.html
+          sleep $((random % 73))
+          wget -O support_charts.html https://software.opswat.com/OESIS_V4/Mac/docs/support_charts/support_charts.html
+          RAW_URL=$(grep -oE 'src="[^"]*raw_json\.js[^"]*"' support_charts.html | head -n1 | cut -d'"' -f2)
+          wget "https://software.opswat.com/OESIS_V4/Mac/docs/support_charts/${RAW_URL}" -O raw_json_mac.js
+          rm support_charts.html
           git add -A 1>/dev/null 2>/dev/null
           git commit -m "Update soft_db files" --quiet
           git push --quiet
