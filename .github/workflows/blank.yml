@@ -24,6 +24,8 @@ jobs:
       # Runs a set of commands using the runners shell
       - name: Run a multi-line script
         run: |
+          git config --global user.name "github-actions[bot]"
+          git config --global user.email "41898282+github-actions[bot]@users.noreply.github.com"
           wget -O support_charts.html https://software.opswat.com/OESIS_V4/Win/docs/support_charts/support_charts.html
           RAW_URL=$(grep -oE 'src="[^"]*raw_json\.js[^"]*"' support_charts.html | head -n1 | cut -d'"' -f2)
           wget "https://software.opswat.com/OESIS_V4/Win/docs/support_charts/${RAW_URL}" -O raw_json.js
