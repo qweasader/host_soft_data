@@ -10878,6 +10878,14 @@ SUPPORT_CHARTS = {
             {
               "version": "1.108.2",
               "signature": 100483
+            },
+            {
+              "methodsStatus": {
+                "102": -1,
+                "103": -1
+              },
+              "version": "1.111.0",
+              "signature": 100483
             }
           ],
           "labels": [],
@@ -30021,6 +30029,10 @@ SUPPORT_CHARTS = {
               },
               "version": "4.48.100",
               "signature": 100119
+            },
+            {
+              "version": "4.48.102",
+              "signature": 100119
             }
           ],
           "labels": [],
@@ -33514,6 +33526,14 @@ SUPPORT_CHARTS = {
             },
             {
               "version": "26.022.0203.0006",
+              "signature": 100159
+            },
+            {
+              "methodsStatus": {
+                "1008": -1,
+                "2000": -1
+              },
+              "version": "26.032.0217.0003",
               "signature": 100159
             }
           ],
@@ -37595,6 +37615,24 @@ SUPPORT_CHARTS = {
                 "108": -1
               },
               "version": "8.26.03.200006",
+              "signature": 100269
+            },
+            {
+              "methodsStatus": {
+                "1000": -1,
+                "1001": -1,
+                "1002": -1,
+                "1003": -1,
+                "1004": -1,
+                "1005": -1,
+                "101": -1,
+                "102": -1,
+                "103": -1,
+                "104": -1,
+                "105": -1,
+                "108": -1
+              },
+              "version": "8.26.03.200007",
               "signature": 100269
             }
           ],
@@ -46988,6 +47026,24 @@ SUPPORT_CHARTS = {
               },
               "version": "8.26.03.200006",
               "signature": 100269
+            },
+            {
+              "methodsStatus": {
+                "1000": -1,
+                "1001": -1,
+                "1002": -1,
+                "1003": -1,
+                "1004": -1,
+                "1005": -1,
+                "101": -1,
+                "102": -1,
+                "103": -1,
+                "104": -1,
+                "105": -1,
+                "108": -1
+              },
+              "version": "8.26.03.200007",
+              "signature": 100269
             }
           ],
           "labels": [],
@@ -53870,7 +53926,11 @@ SUPPORT_CHARTS = {
                 }
               }
             }
-          }
+          },
+          "marketing_names": [
+            "WithSecure Elements EDR and EPP for Computers Premium",
+            "WithSecure Elements EPP for Computers Premium"
+          ]
         },
         "100476": {
           "id": 100476,
@@ -67728,6 +67788,24 @@ SUPPORT_CHARTS = {
                 "108": -1
               },
               "version": "8.26.03.200006",
+              "signature": 100269
+            },
+            {
+              "methodsStatus": {
+                "1000": -1,
+                "1001": -1,
+                "1002": -1,
+                "1003": -1,
+                "1004": -1,
+                "1005": -1,
+                "101": -1,
+                "102": -1,
+                "103": -1,
+                "104": -1,
+                "105": -1,
+                "108": -1
+              },
+              "version": "8.26.03.200007",
               "signature": 100269
             }
           ],
@@ -85138,6 +85216,10 @@ SUPPORT_CHARTS = {
             {
               "version": "5333",
               "signature": 100428
+            },
+            {
+              "version": "5334",
+              "signature": 100428
             }
           ],
           "labels": [],
@@ -89157,7 +89239,11 @@ SUPPORT_CHARTS = {
                 }
               }
             }
-          }
+          },
+          "marketing_names": [
+            "WithSecure Elements EDR and EPP for Computers Premium",
+            "WithSecure Elements EPP for Computers Premium"
+          ]
         },
         "100468": {
           "id": 100468,
@@ -91262,6 +91348,39 @@ SUPPORT_CHARTS = {
                 }
               },
               "sig_name": "Rapid7 Insight Agent",
+              "methods": {}
+            }
+          }
+        },
+        "100530": {
+          "id": 100530,
+          "tested_points": [
+            {
+              "version": "0.0",
+              "signature": 100588
+            }
+          ],
+          "labels": [],
+          "languages": [],
+          "name": "SnapAgent",
+          "signatures": {
+            "100588": {
+              "signature": 100588,
+              "product": {
+                "id": 100530,
+                "name": "SnapAgent"
+              },
+              "vendor": {
+                "id": 100303,
+                "name": "Blackpoint Cyber"
+              },
+              "categories": {
+                "5": {
+                  "id": 5,
+                  "name": "ANTIMALWARE"
+                }
+              },
+              "sig_name": "SnapAgent",
               "methods": {}
             }
           }
@@ -107312,7 +107431,11 @@ SUPPORT_CHARTS = {
                 }
               }
             }
-          }
+          },
+          "marketing_names": [
+            "WithSecure Elements EDR and EPP for Computers Premium",
+            "WithSecure Elements EPP for Computers Premium"
+          ]
         },
         "100488": {
           "id": 100488,
@@ -108712,6 +108835,10 @@ SUPPORT_CHARTS = {
                 "102": -1
               },
               "version": "4.48.100",
+              "signature": 100119
+            },
+            {
+              "version": "4.48.102",
               "signature": 100119
             }
           ],
@@ -113074,6 +113201,14 @@ SUPPORT_CHARTS = {
             {
               "version": "26.022.0203.0006",
               "signature": 100159
+            },
+            {
+              "methodsStatus": {
+                "1008": -1,
+                "2000": -1
+              },
+              "version": "26.032.0217.0003",
+              "signature": 100159
             }
           ],
           "labels": [],
@@ -114078,6 +114213,6 @@ SUPPORT_CHARTS = {
       "name": "CLOUD_STORAGE"
     }
   },
-  "timestamp": "1773724259",
+  "timestamp": "1774335170",
   "support_chart_type": "CATEGORY"
 }

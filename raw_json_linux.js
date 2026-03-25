@@ -12888,6 +12888,10 @@ SUPPORT_CHARTS = {
             {
               "version": "1.8.1",
               "signature": 200186
+            },
+            {
+              "version": "2511.3.1.0",
+              "signature": 200186
             }
           ],
           "labels": [],
@@ -12915,7 +12919,66 @@ SUPPORT_CHARTS = {
                 }
               },
               "sig_name": "Endpoint Protector Client",
-              "methods": {}
+              "methods": {
+                "manageability": {
+                  "101": {
+                    "id": 101,
+                    "meta_data": {
+                      "param_support": {
+                        "input": {
+                          "instance_id": {
+                            "_supported": false,
+                            "_optional": true
+                          }
+                        },
+                        "output": {
+                          "running": {
+                            "_supported": true,
+                            "_optional": false
+                          }
+                        }
+                      },
+                      "admin_required": false,
+                      "notes": ""
+                    },
+                    "name": "GetRunningState"
+                  },
+                  "102": {
+                    "id": 102,
+                    "meta_data": {
+                      "param_support": {
+                        "input": {
+                          "instance_id": {
+                            "_supported": false,
+                            "_optional": true
+                          }
+                        },
+                        "output": []
+                      },
+                      "admin_required": true,
+                      "notes": ""
+                    },
+                    "name": "Run"
+                  },
+                  "103": {
+                    "id": 103,
+                    "meta_data": {
+                      "param_support": {
+                        "input": {
+                          "instance_id": {
+                            "_supported": false,
+                            "_optional": true
+                          }
+                        },
+                        "output": []
+                      },
+                      "admin_required": true,
+                      "notes": ""
+                    },
+                    "name": "TerminateProcesses"
+                  }
+                }
+              }
             }
           }
         }
@@ -13198,7 +13261,8 @@ SUPPORT_CHARTS = {
                                 "moderate": false,
                                 "important": false,
                                 "critical": false,
-                                "unknown": false
+                                "unknown": false,
+                                "not_available": false
                               }
                             },
                             "category_id": {
@@ -14884,7 +14948,8 @@ SUPPORT_CHARTS = {
                                 "moderate": false,
                                 "important": false,
                                 "critical": false,
-                                "unknown": false
+                                "unknown": false,
+                                "not_available": false
                               }
                             },
                             "category_id": {
@@ -22910,6 +22975,10 @@ SUPPORT_CHARTS = {
             {
               "version": "1.8.1",
               "signature": 200186
+            },
+            {
+              "version": "2511.3.1.0",
+              "signature": 200186
             }
           ],
           "labels": [],
@@ -22937,7 +23006,66 @@ SUPPORT_CHARTS = {
                 }
               },
               "sig_name": "Endpoint Protector Client",
-              "methods": {}
+              "methods": {
+                "manageability": {
+                  "101": {
+                    "id": 101,
+                    "meta_data": {
+                      "param_support": {
+                        "input": {
+                          "instance_id": {
+                            "_supported": false,
+                            "_optional": true
+                          }
+                        },
+                        "output": {
+                          "running": {
+                            "_supported": true,
+                            "_optional": false
+                          }
+                        }
+                      },
+                      "admin_required": false,
+                      "notes": ""
+                    },
+                    "name": "GetRunningState"
+                  },
+                  "102": {
+                    "id": 102,
+                    "meta_data": {
+                      "param_support": {
+                        "input": {
+                          "instance_id": {
+                            "_supported": false,
+                            "_optional": true
+                          }
+                        },
+                        "output": []
+                      },
+                      "admin_required": true,
+                      "notes": ""
+                    },
+                    "name": "Run"
+                  },
+                  "103": {
+                    "id": 103,
+                    "meta_data": {
+                      "param_support": {
+                        "input": {
+                          "instance_id": {
+                            "_supported": false,
+                            "_optional": true
+                          }
+                        },
+                        "output": []
+                      },
+                      "admin_required": true,
+                      "notes": ""
+                    },
+                    "name": "TerminateProcesses"
+                  }
+                }
+              }
             }
           }
         }
@@ -41982,6 +42110,6 @@ SUPPORT_CHARTS = {
       "name": "CLOUD_STORAGE"
     }
   },
-  "timestamp": "1773724178",
+  "timestamp": "1774335136",
   "support_chart_type": "CATEGORY"
 }
