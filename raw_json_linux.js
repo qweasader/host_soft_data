@@ -7970,6 +7970,10 @@ SUPPORT_CHARTS = {
             {
               "signature": 200167,
               "version": "4.6.3"
+            },
+            {
+              "signature": 200167,
+              "version": "4.6.4"
             }
           ],
           "labels": [
@@ -9137,6 +9141,11 @@ SUPPORT_CHARTS = {
             {
               "signature": 200188,
               "version": "5.32.1"
+            },
+            {
+              "release": "Beta",
+              "signature": 200188,
+              "version": "5.40.1"
             }
           ],
           "labels": [],
@@ -13123,6 +13132,11 @@ SUPPORT_CHARTS = {
             {
               "signature": 200041,
               "version": "2.7.14"
+            },
+            {
+              "release": "Beta",
+              "signature": 200041,
+              "version": "3.1.16"
             }
           ],
           "labels": [],
@@ -22724,6 +22738,11 @@ SUPPORT_CHARTS = {
             {
               "signature": 200064,
               "version": "2.4.3"
+            },
+            {
+              "release": "Beta",
+              "signature": 200064,
+              "version": "2.8.4"
             }
           ],
           "labels": [],
@@ -23313,6 +23332,10 @@ SUPPORT_CHARTS = {
             {
               "signature": 200002,
               "version": "146.0.7680.164"
+            },
+            {
+              "signature": 200002,
+              "version": "145.0.7632.116"
             }
           ],
           "labels": [],
@@ -23759,15 +23782,6 @@ SUPPORT_CHARTS = {
               "version": "147.0.3"
             },
             {
-              "methodsStatus": {
-                "101": -1,
-                "1010": -1,
-                "1011": -1,
-                "102": -1,
-                "103": -1,
-                "104": -1,
-                "105": -1
-              },
               "signature": 200003,
               "version": "149.0"
             }
@@ -37090,6 +37104,10 @@ SUPPORT_CHARTS = {
             {
               "signature": 200002,
               "version": "146.0.7680.164"
+            },
+            {
+              "signature": 200002,
+              "version": "145.0.7632.116"
             }
           ],
           "labels": [],
@@ -37536,15 +37554,6 @@ SUPPORT_CHARTS = {
               "version": "147.0.3"
             },
             {
-              "methodsStatus": {
-                "101": -1,
-                "1010": -1,
-                "1011": -1,
-                "102": -1,
-                "103": -1,
-                "104": -1,
-                "105": -1
-              },
               "signature": 200003,
               "version": "149.0"
             }
@@ -40298,6 +40307,11 @@ SUPPORT_CHARTS = {
             {
               "signature": 200089,
               "version": "1.0.9"
+            },
+            {
+              "release": "Beta",
+              "signature": 200089,
+              "version": "1.1.6"
             }
           ],
           "labels": [],
@@ -40628,6 +40642,11 @@ SUPPORT_CHARTS = {
             {
               "signature": 200201,
               "version": "0.9.11"
+            },
+            {
+              "release": "Beta",
+              "signature": 200201,
+              "version": "2.3.1"
             }
           ],
           "labels": [],
@@ -42229,6 +42248,6 @@ SUPPORT_CHARTS = {
       "name": "CLOUD_STORAGE"
     }
   },
-  "timestamp": "1774954051",
+  "timestamp": "1775551496",
   "support_chart_type": "CATEGORY"
 }
