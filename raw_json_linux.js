@@ -1530,6 +1530,10 @@ SUPPORT_CHARTS = {
             {
               "version": "3.0.8",
               "signature": 200098
+            },
+            {
+              "version": "3.2.2",
+              "signature": 200098
             }
           ],
           "labels": [],
@@ -9169,9 +9173,9 @@ SUPPORT_CHARTS = {
               "signature": 200188
             },
             {
-              "release": "Beta",
               "version": "5.40.1",
-              "signature": 200188
+              "signature": 200188,
+              "release": "Beta"
             }
           ],
           "labels": [],
@@ -10143,6 +10147,10 @@ SUPPORT_CHARTS = {
             {
               "version": "1.108.2",
               "signature": 200206
+            },
+            {
+              "version": "1.116.0",
+              "signature": 200206
             }
           ],
           "labels": [],
@@ -10780,6 +10788,10 @@ SUPPORT_CHARTS = {
             },
             {
               "version": "26.2.0.3",
+              "signature": 200165
+            },
+            {
+              "version": "26.2.2.2",
               "signature": 200165
             }
           ],
@@ -13193,9 +13205,9 @@ SUPPORT_CHARTS = {
               "signature": 200041
             },
             {
-              "release": "Beta",
               "version": "3.1.16",
-              "signature": 200041
+              "signature": 200041,
+              "release": "Beta"
             }
           ],
           "labels": [],
@@ -22829,9 +22841,9 @@ SUPPORT_CHARTS = {
               "signature": 200064
             },
             {
-              "release": "Beta",
               "version": "2.8.4",
-              "signature": 200064
+              "signature": 200064,
+              "release": "Beta"
             }
           ],
           "labels": [],
@@ -23428,6 +23440,10 @@ SUPPORT_CHARTS = {
             },
             {
               "version": "147.0.7727.55",
+              "signature": 200002
+            },
+            {
+              "version": "147.0.7727.101",
               "signature": 200002
             }
           ],
@@ -28271,9 +28287,9 @@ SUPPORT_CHARTS = {
             },
             {
               "certification": "gold",
-              "release": "14.3 MP1",
               "version": "14.3.1169.0100",
-              "signature": 200027
+              "signature": 200027,
+              "release": "14.3 MP1"
             }
           ],
           "labels": [],
@@ -37242,6 +37258,10 @@ SUPPORT_CHARTS = {
             {
               "version": "147.0.7727.55",
               "signature": 200002
+            },
+            {
+              "version": "147.0.7727.101",
+              "signature": 200002
             }
           ],
           "labels": [],
@@ -40443,9 +40463,9 @@ SUPPORT_CHARTS = {
               "signature": 200089
             },
             {
-              "release": "Beta",
               "version": "1.1.6",
-              "signature": 200089
+              "signature": 200089,
+              "release": "Beta"
             }
           ],
           "labels": [],
@@ -40778,9 +40798,9 @@ SUPPORT_CHARTS = {
               "signature": 200201
             },
             {
-              "release": "Beta",
               "version": "2.3.1",
-              "signature": 200201
+              "signature": 200201,
+              "release": "Beta"
             }
           ],
           "labels": [],
@@ -42420,5 +42440,5 @@ SUPPORT_CHARTS = {
     }
   },
   "support_chart_type": "CATEGORY",
-  "timestamp": "1776154810"
+  "timestamp": "1776758197"
 }

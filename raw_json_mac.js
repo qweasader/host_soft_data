@@ -10924,11 +10924,11 @@ SUPPORT_CHARTS = {
               "signature": 100483
             },
             {
-              "methodsStatus": {
-                "102": -1,
-                "103": -1
-              },
               "version": "1.115.0",
+              "signature": 100483
+            },
+            {
+              "version": "1.116.0",
               "signature": 100483
             }
           ],
@@ -14369,6 +14369,10 @@ SUPPORT_CHARTS = {
             {
               "version": "1.6.3.2",
               "signature": 100568
+            },
+            {
+              "version": "1.6.4.88",
+              "signature": 100568
             }
           ],
           "labels": [],
@@ -14995,6 +14999,109 @@ SUPPORT_CHARTS = {
                 }
               },
               "sig_name": "Amazon WorkSpaces"
+            }
+          }
+        },
+        "100532": {
+          "id": 100532,
+          "tested_points": [
+            {
+              "version": "12.6.1",
+              "signature": 100590
+            },
+            {
+              "version": "12.6.3",
+              "signature": 100590
+            }
+          ],
+          "labels": [],
+          "languages": [],
+          "name": "Postman",
+          "signatures": {
+            "100590": {
+              "signature": 100590,
+              "product": {
+                "id": 100532,
+                "name": "Postman"
+              },
+              "vendor": {
+                "id": 100305,
+                "name": "Postman"
+              },
+              "categories": {
+                "10": {
+                  "id": 10,
+                  "name": "UNCLASSIFIED"
+                }
+              },
+              "methods": {},
+              "sig_name": "Postman"
+            }
+          }
+        },
+        "100536": {
+          "id": 100536,
+          "tested_points": [
+            {
+              "version": "2.12.11",
+              "signature": 100594
+            }
+          ],
+          "labels": [],
+          "languages": [],
+          "name": "Stats",
+          "signatures": {
+            "100594": {
+              "signature": 100594,
+              "product": {
+                "id": 100536,
+                "name": "Stats"
+              },
+              "vendor": {
+                "id": 100309,
+                "name": "Exelban"
+              },
+              "categories": {
+                "10": {
+                  "id": 10,
+                  "name": "UNCLASSIFIED"
+                }
+              },
+              "methods": {},
+              "sig_name": "Stats"
+            }
+          }
+        },
+        "100537": {
+          "id": 100537,
+          "tested_points": [
+            {
+              "version": "3.6.9",
+              "signature": 100595
+            }
+          ],
+          "labels": [],
+          "languages": [],
+          "name": "iTerm2",
+          "signatures": {
+            "100595": {
+              "signature": 100595,
+              "product": {
+                "id": 100537,
+                "name": "iTerm2"
+              },
+              "vendor": {
+                "id": 100310,
+                "name": "George Nachman and Contributors"
+              },
+              "categories": {
+                "10": {
+                  "id": 10,
+                  "name": "UNCLASSIFIED"
+                }
+              },
+              "methods": {},
+              "sig_name": "iTerm2"
             }
           }
         }
@@ -23324,6 +23431,39 @@ SUPPORT_CHARTS = {
               "sig_name": "Cato Client"
             }
           }
+        },
+        "100534": {
+          "id": 100534,
+          "tested_points": [
+            {
+              "version": "3.9.1",
+              "signature": 100592
+            }
+          ],
+          "labels": [],
+          "languages": [],
+          "name": "NordLayer",
+          "signatures": {
+            "100592": {
+              "signature": 100592,
+              "product": {
+                "id": 100534,
+                "name": "NordLayer"
+              },
+              "vendor": {
+                "id": 100307,
+                "name": "Nord Security"
+              },
+              "categories": {
+                "13": {
+                  "id": 13,
+                  "name": "VPN_CLIENT"
+                }
+              },
+              "methods": {},
+              "sig_name": "NordLayer"
+            }
+          }
         }
       },
       "name": "VPN_CLIENT"
@@ -24029,6 +24169,22 @@ SUPPORT_CHARTS = {
             },
             {
               "version": "7.35.20704.0",
+              "signature": 100306
+            },
+            {
+              "methodsStatus": {
+                "1000": -1,
+                "1001": -1,
+                "1007": -1,
+                "101": -1,
+                "1012": -1,
+                "102": -1,
+                "103": -1,
+                "104": -1,
+                "105": -1,
+                "108": -1
+              },
+              "version": "7.36.20807.0",
               "signature": 100306
             }
           ],
@@ -32045,6 +32201,43 @@ SUPPORT_CHARTS = {
               "sig_name": "GoTo"
             }
           }
+        },
+        "100533": {
+          "id": 100533,
+          "tested_points": [
+            {
+              "version": "0.0.385",
+              "signature": 100591
+            }
+          ],
+          "labels": [],
+          "languages": [],
+          "name": "Discord",
+          "signatures": {
+            "100591": {
+              "signature": 100591,
+              "product": {
+                "id": 100533,
+                "name": "Discord"
+              },
+              "vendor": {
+                "id": 100306,
+                "name": "Discord Inc."
+              },
+              "categories": {
+                "18": {
+                  "id": 18,
+                  "name": "WEB_CONFERENCE"
+                },
+                "8": {
+                  "id": 8,
+                  "name": "MESSENGER"
+                }
+              },
+              "methods": {},
+              "sig_name": "Discord"
+            }
+          }
         }
       },
       "name": "WEB_CONFERENCE"
@@ -33920,6 +34113,14 @@ SUPPORT_CHARTS = {
                 "2000": -1
               },
               "version": "26.032.0217.0003",
+              "signature": 100159
+            },
+            {
+              "methodsStatus": {
+                "1008": -1,
+                "2000": -1
+              },
+              "version": "26.055.0323.0004",
               "signature": 100159
             }
           ],
@@ -36582,18 +36783,18 @@ SUPPORT_CHARTS = {
               "signature": 100145
             },
             {
-              "release": "Beta",
               "version": "15.0",
-              "signature": 100145
+              "signature": 100145,
+              "release": "Beta"
             },
             {
               "version": "14.6",
               "signature": 100145
             },
             {
-              "release": "Beta",
               "version": "15.1",
-              "signature": 100145
+              "signature": 100145,
+              "release": "Beta"
             },
             {
               "version": "15.0",
@@ -36624,9 +36825,9 @@ SUPPORT_CHARTS = {
               "signature": 100145
             },
             {
-              "release": "Beta",
               "version": "15.5",
-              "signature": 100145
+              "signature": 100145,
+              "release": "Beta"
             },
             {
               "version": "15.4.1",
@@ -36637,14 +36838,14 @@ SUPPORT_CHARTS = {
               "signature": 100145
             },
             {
-              "release": "Beta",
               "version": "26.0",
-              "signature": 100145
+              "signature": 100145,
+              "release": "Beta"
             },
             {
-              "release": "Beta",
               "version": "15.6",
-              "signature": 100145
+              "signature": 100145,
+              "release": "Beta"
             },
             {
               "version": "15.6",
@@ -36671,32 +36872,14 @@ SUPPORT_CHARTS = {
               "signature": 100145
             },
             {
-              "methodsStatus": {
-                "1009": -1,
-                "101": -1,
-                "102": -1,
-                "103": -1,
-                "104": -1,
-                "105": -1,
-                "108": -1
-              },
-              "version": "26.4",
-              "signature": 100145
-            },
-            {
               "version": "26.3.1",
               "signature": 100145
             },
             {
-              "methodsStatus": {
-                "1009": -1,
-                "101": -1,
-                "102": -1,
-                "103": -1,
-                "104": -1,
-                "105": -1,
-                "108": -1
-              },
+              "version": "26.4",
+              "signature": 100145
+            },
+            {
               "version": "26.4.1",
               "signature": 100145
             }
@@ -38037,20 +38220,6 @@ SUPPORT_CHARTS = {
               "signature": 100269
             },
             {
-              "methodsStatus": {
-                "1000": -1,
-                "1001": -1,
-                "1002": -1,
-                "1003": -1,
-                "1004": -1,
-                "1005": -1,
-                "101": -1,
-                "102": -1,
-                "103": -1,
-                "104": -1,
-                "105": -1,
-                "108": -1
-              },
               "version": "8.26.04.200013",
               "signature": 100269
             }
@@ -39986,6 +40155,10 @@ SUPPORT_CHARTS = {
             {
               "version": "147.0.7727.56",
               "signature": 100004
+            },
+            {
+              "version": "147.0.7727.102",
+              "signature": 100004
             }
           ],
           "labels": [],
@@ -40972,6 +41145,10 @@ SUPPORT_CHARTS = {
             },
             {
               "version": "26.3.1 (21623.2.7.11.7)",
+              "signature": 100190
+            },
+            {
+              "version": "26.4 (21624.1.16.11.4)",
               "signature": 100190
             }
           ],
@@ -46757,6 +46934,25 @@ SUPPORT_CHARTS = {
               },
               "version": "9.1.2000.0",
               "signature": 100256
+            },
+            {
+              "methodsStatus": {
+                "1000": -1,
+                "1001": -1,
+                "1004": -1,
+                "1005": -1,
+                "1006": -1,
+                "1007": -1,
+                "101": -1,
+                "1010": -1,
+                "102": -1,
+                "103": -1,
+                "104": -1,
+                "105": -1,
+                "108": -1
+              },
+              "version": "9.1.2500.0",
+              "signature": 100256
             }
           ],
           "labels": [],
@@ -47485,20 +47681,6 @@ SUPPORT_CHARTS = {
               "signature": 100269
             },
             {
-              "methodsStatus": {
-                "1000": -1,
-                "1001": -1,
-                "1002": -1,
-                "1003": -1,
-                "1004": -1,
-                "1005": -1,
-                "101": -1,
-                "102": -1,
-                "103": -1,
-                "104": -1,
-                "105": -1,
-                "108": -1
-              },
               "version": "8.26.04.200013",
               "signature": 100269
             }
@@ -52865,6 +53047,10 @@ SUPPORT_CHARTS = {
             {
               "version": "147.0.3912.60",
               "signature": 100474
+            },
+            {
+              "version": "147.0.3912.72",
+              "signature": 100474
             }
           ],
           "labels": [],
@@ -55591,6 +55777,43 @@ SUPPORT_CHARTS = {
                 }
               },
               "sig_name": "Comet"
+            }
+          }
+        },
+        "100535": {
+          "id": 100535,
+          "tested_points": [
+            {
+              "version": "03.08.00.0001",
+              "signature": 100593
+            }
+          ],
+          "labels": [],
+          "languages": [],
+          "name": "WatchGuard Endpoint Security Elite",
+          "signatures": {
+            "100593": {
+              "signature": 100593,
+              "product": {
+                "id": 100535,
+                "name": "WatchGuard Endpoint Security Elite"
+              },
+              "vendor": {
+                "id": 100308,
+                "name": "WatchGuard Technologies Inc"
+              },
+              "categories": {
+                "4": {
+                  "id": 4,
+                  "name": "ANTIPHISHING"
+                },
+                "5": {
+                  "id": 5,
+                  "name": "ANTIMALWARE"
+                }
+              },
+              "methods": {},
+              "sig_name": "WatchGuard Endpoint Security Elite"
             }
           }
         }
@@ -62965,18 +63188,18 @@ SUPPORT_CHARTS = {
               "signature": 100141
             },
             {
-              "release": "Beta",
               "version": "15.0",
-              "signature": 100141
+              "signature": 100141,
+              "release": "Beta"
             },
             {
               "version": "15.0",
               "signature": 100141
             },
             {
-              "release": "Beta",
               "version": "15.1",
-              "signature": 100141
+              "signature": 100141,
+              "release": "Beta"
             },
             {
               "version": "15.2",
@@ -63003,9 +63226,9 @@ SUPPORT_CHARTS = {
               "signature": 100141
             },
             {
-              "release": "Beta",
               "version": "15.5",
-              "signature": 100141
+              "signature": 100141,
+              "release": "Beta"
             },
             {
               "version": "15.4.1",
@@ -63016,14 +63239,14 @@ SUPPORT_CHARTS = {
               "signature": 100141
             },
             {
-              "release": "Beta",
               "version": "26.0",
-              "signature": 100141
+              "signature": 100141,
+              "release": "Beta"
             },
             {
-              "release": "Beta",
               "version": "15.6",
-              "signature": 100141
+              "signature": 100141,
+              "release": "Beta"
             },
             {
               "version": "15.6",
@@ -63051,6 +63274,14 @@ SUPPORT_CHARTS = {
             },
             {
               "version": "26.3.1",
+              "signature": 100141
+            },
+            {
+              "version": "26.4",
+              "signature": 100141
+            },
+            {
+              "version": "26.4.1",
               "signature": 100141
             }
           ],
@@ -63956,27 +64187,27 @@ SUPPORT_CHARTS = {
             },
             {
               "certification": "gold",
-              "release": "14.3 RU6",
               "version": "14.3.9204.6000",
-              "signature": 100164
+              "signature": 100164,
+              "release": "14.3 RU6"
             },
             {
               "certification": "gold",
-              "release": "14.3 RU3",
               "version": "14.3.5055.3000",
-              "signature": 100164
+              "signature": 100164,
+              "release": "14.3 RU3"
             },
             {
               "certification": "gold",
-              "release": "14.3 MP1",
               "version": "14.3.1169.0100",
-              "signature": 100164
+              "signature": 100164,
+              "release": "14.3 MP1"
             },
             {
               "certification": "gold",
-              "release": "14.3 RU9",
               "version": "14.3.11240.9000",
-              "signature": 100164
+              "signature": 100164,
+              "release": "14.3 RU9"
             }
           ],
           "labels": [],
@@ -67549,6 +67780,26 @@ SUPPORT_CHARTS = {
               },
               "version": "9.1.2000.0",
               "signature": 100256
+            },
+            {
+              "certification": "gold",
+              "methodsStatus": {
+                "1000": -1,
+                "1001": -1,
+                "1004": -1,
+                "1005": -1,
+                "1006": -1,
+                "1007": -1,
+                "101": -1,
+                "1010": -1,
+                "102": -1,
+                "103": -1,
+                "104": -1,
+                "105": -1,
+                "108": -1
+              },
+              "version": "9.1.2500.0",
+              "signature": 100256
             }
           ],
           "labels": [],
@@ -68458,20 +68709,6 @@ SUPPORT_CHARTS = {
               "signature": 100269
             },
             {
-              "methodsStatus": {
-                "1000": -1,
-                "1001": -1,
-                "1002": -1,
-                "1003": -1,
-                "1004": -1,
-                "1005": -1,
-                "101": -1,
-                "102": -1,
-                "103": -1,
-                "104": -1,
-                "105": -1,
-                "108": -1
-              },
               "version": "8.26.04.200013",
               "signature": 100269
             }
@@ -72148,6 +72385,23 @@ SUPPORT_CHARTS = {
             {
               "certification": "gold",
               "version": "7.35.20704.0",
+              "signature": 100306
+            },
+            {
+              "certification": "gold",
+              "methodsStatus": {
+                "1000": -1,
+                "1001": -1,
+                "1007": -1,
+                "101": -1,
+                "1012": -1,
+                "102": -1,
+                "103": -1,
+                "104": -1,
+                "105": -1,
+                "108": -1
+              },
+              "version": "7.36.20807.0",
               "signature": 100306
             }
           ],
@@ -92325,7 +92579,7 @@ SUPPORT_CHARTS = {
           "id": 100530,
           "tested_points": [
             {
-              "version": "0.0",
+              "version": "0.11.8",
               "signature": 100588
             }
           ],
@@ -92349,8 +92603,184 @@ SUPPORT_CHARTS = {
                   "name": "ANTIMALWARE"
                 }
               },
-              "methods": {},
+              "methods": {
+                "manageability": {
+                  "100": {
+                    "id": 100,
+                    "meta_data": {
+                      "param_support": {
+                        "input": {
+                          "instance_id": {
+                            "_supported": false,
+                            "_optional": true
+                          }
+                        },
+                        "output": {
+                          "version": {
+                            "_supported": true,
+                            "_optional": false
+                          },
+                          "architecture": {
+                            "_supported": true,
+                            "_optional": false,
+                            "name": {
+                              "_supported": true,
+                              "_optional": false
+                            },
+                            "bitness": {
+                              "_supported": true,
+                              "_optional": false
+                            }
+                          },
+                          "language": {
+                            "_supported": true,
+                            "_optional": false,
+                            "code": {
+                              "_supported": true,
+                              "_optional": false
+                            },
+                            "name": {
+                              "_supported": true,
+                              "_optional": false
+                            }
+                          },
+                          "channel": {
+                            "_supported": false,
+                            "_optional": true
+                          },
+                          "release": {
+                            "_supported": false,
+                            "_optional": true
+                          }
+                        }
+                      },
+                      "admin_required": true,
+                      "notes": ""
+                    },
+                    "name": "GetVersion"
+                  },
+                  "101": {
+                    "id": 101,
+                    "meta_data": {
+                      "param_support": {
+                        "input": {
+                          "instance_id": {
+                            "_supported": false,
+                            "_optional": true
+                          }
+                        },
+                        "output": {
+                          "running": {
+                            "_supported": true,
+                            "_optional": false
+                          }
+                        }
+                      },
+                      "admin_required": false,
+                      "notes": ""
+                    },
+                    "name": "GetRunningState"
+                  },
+                  "102": {
+                    "id": 102,
+                    "meta_data": {
+                      "param_support": {
+                        "input": {
+                          "instance_id": {
+                            "_supported": false,
+                            "_optional": true
+                          }
+                        },
+                        "output": []
+                      },
+                      "admin_required": true,
+                      "notes": ""
+                    },
+                    "name": "Run"
+                  },
+                  "103": {
+                    "id": 103,
+                    "meta_data": {
+                      "param_support": {
+                        "input": {
+                          "instance_id": {
+                            "_supported": false,
+                            "_optional": true
+                          }
+                        },
+                        "output": []
+                      },
+                      "admin_required": true,
+                      "notes": ""
+                    },
+                    "name": "TerminateProcesses"
+                  },
+                  "104": {
+                    "id": 104,
+                    "meta_data": {
+                      "param_support": {
+                        "input": {
+                          "instance_id": {
+                            "_supported": false,
+                            "_optional": true
+                          }
+                        },
+                        "output": {
+                          "main": {
+                            "_supported": true,
+                            "_optional": false
+                          },
+                          "directories": {
+                            "_supported": true,
+                            "_optional": false
+                          }
+                        }
+                      },
+                      "admin_required": false,
+                      "notes": ""
+                    },
+                    "name": "GetInstallationDirectories"
+                  }
+                }
+              },
               "sig_name": "SnapAgent"
+            }
+          }
+        },
+        "100535": {
+          "id": 100535,
+          "tested_points": [
+            {
+              "version": "03.08.00.0001",
+              "signature": 100593
+            }
+          ],
+          "labels": [],
+          "languages": [],
+          "name": "WatchGuard Endpoint Security Elite",
+          "signatures": {
+            "100593": {
+              "signature": 100593,
+              "product": {
+                "id": 100535,
+                "name": "WatchGuard Endpoint Security Elite"
+              },
+              "vendor": {
+                "id": 100308,
+                "name": "WatchGuard Technologies Inc"
+              },
+              "categories": {
+                "4": {
+                  "id": 4,
+                  "name": "ANTIPHISHING"
+                },
+                "5": {
+                  "id": 5,
+                  "name": "ANTIMALWARE"
+                }
+              },
+              "methods": {},
+              "sig_name": "WatchGuard Endpoint Security Elite"
             }
           }
         }
@@ -92665,6 +93095,10 @@ SUPPORT_CHARTS = {
             },
             {
               "version": "147.0.7727.56",
+              "signature": 100004
+            },
+            {
+              "version": "147.0.7727.102",
               "signature": 100004
             }
           ],
@@ -93702,6 +94136,10 @@ SUPPORT_CHARTS = {
             },
             {
               "version": "26.3.1 (21623.2.7.11.7)",
+              "signature": 100190
+            },
+            {
+              "version": "26.4 (21624.1.16.11.4)",
               "signature": 100190
             }
           ],
@@ -95575,6 +96013,10 @@ SUPPORT_CHARTS = {
             {
               "version": "147.0.3912.60",
               "signature": 100474
+            },
+            {
+              "version": "147.0.3912.72",
+              "signature": 100474
             }
           ],
           "labels": [],
@@ -96802,14 +97244,14 @@ SUPPORT_CHARTS = {
               "signature": 100189
             },
             {
-              "release": "Beta",
               "version": "15.0",
-              "signature": 100189
+              "signature": 100189,
+              "release": "Beta"
             },
             {
-              "release": "Beta",
               "version": "15.1",
-              "signature": 100189
+              "signature": 100189,
+              "release": "Beta"
             },
             {
               "version": "15.0",
@@ -96840,9 +97282,9 @@ SUPPORT_CHARTS = {
               "signature": 100189
             },
             {
-              "release": "Beta",
               "version": "15.5",
-              "signature": 100189
+              "signature": 100189,
+              "release": "Beta"
             },
             {
               "version": "15.4.1",
@@ -96853,14 +97295,14 @@ SUPPORT_CHARTS = {
               "signature": 100189
             },
             {
-              "release": "Beta",
               "version": "26.0",
-              "signature": 100189
+              "signature": 100189,
+              "release": "Beta"
             },
             {
-              "release": "Beta",
               "version": "15.6",
-              "signature": 100189
+              "signature": 100189,
+              "release": "Beta"
             },
             {
               "version": "15.6",
@@ -96888,6 +97330,14 @@ SUPPORT_CHARTS = {
             },
             {
               "version": "26.3.1",
+              "signature": 100189
+            },
+            {
+              "version": "26.4",
+              "signature": 100189
+            },
+            {
+              "version": "26.4.1",
               "signature": 100189
             }
           ],
@@ -100041,24 +100491,24 @@ SUPPORT_CHARTS = {
               "signature": 100164
             },
             {
-              "release": "14.3 RU6",
               "version": "14.3.9204.6000",
-              "signature": 100164
+              "signature": 100164,
+              "release": "14.3 RU6"
             },
             {
-              "release": "14.3 RU3",
               "version": "14.3.5055.3000",
-              "signature": 100164
+              "signature": 100164,
+              "release": "14.3 RU3"
             },
             {
-              "release": "14.3 MP1",
               "version": "14.3.1169.0100",
-              "signature": 100164
+              "signature": 100164,
+              "release": "14.3 MP1"
             },
             {
-              "release": "14.3 RU9",
               "version": "14.3.11240.9000",
-              "signature": 100164
+              "signature": 100164,
+              "release": "14.3 RU9"
             }
           ],
           "labels": [],
@@ -101813,6 +102263,25 @@ SUPPORT_CHARTS = {
               },
               "version": "9.1.2000.0",
               "signature": 100256
+            },
+            {
+              "methodsStatus": {
+                "1000": -1,
+                "1001": -1,
+                "1004": -1,
+                "1005": -1,
+                "1006": -1,
+                "1007": -1,
+                "101": -1,
+                "1010": -1,
+                "102": -1,
+                "103": -1,
+                "104": -1,
+                "105": -1,
+                "108": -1
+              },
+              "version": "9.1.2500.0",
+              "signature": 100256
             }
           ],
           "labels": [],
@@ -103351,6 +103820,22 @@ SUPPORT_CHARTS = {
             },
             {
               "version": "7.35.20704.0",
+              "signature": 100306
+            },
+            {
+              "methodsStatus": {
+                "1000": -1,
+                "1001": -1,
+                "1007": -1,
+                "101": -1,
+                "1012": -1,
+                "102": -1,
+                "103": -1,
+                "104": -1,
+                "105": -1,
+                "108": -1
+              },
+              "version": "7.36.20807.0",
               "signature": 100306
             }
           ],
@@ -107403,14 +107888,14 @@ SUPPORT_CHARTS = {
               "signature": 100448
             },
             {
-              "release": "Beta",
               "version": "15.0",
-              "signature": 100448
+              "signature": 100448,
+              "release": "Beta"
             },
             {
-              "release": "Beta",
               "version": "15.1",
-              "signature": 100448
+              "signature": 100448,
+              "release": "Beta"
             },
             {
               "version": "15.0",
@@ -107449,9 +107934,9 @@ SUPPORT_CHARTS = {
               "signature": 100448
             },
             {
-              "release": "Beta",
               "version": "15.5",
-              "signature": 100448
+              "signature": 100448,
+              "release": "Beta"
             },
             {
               "version": "15.4.1",
@@ -107462,14 +107947,14 @@ SUPPORT_CHARTS = {
               "signature": 100448
             },
             {
-              "release": "Beta",
               "version": "26.0",
-              "signature": 100448
+              "signature": 100448,
+              "release": "Beta"
             },
             {
-              "release": "Beta",
               "version": "15.6",
-              "signature": 100448
+              "signature": 100448,
+              "release": "Beta"
             },
             {
               "version": "15.6",
@@ -107497,6 +107982,14 @@ SUPPORT_CHARTS = {
             },
             {
               "version": "26.3.1",
+              "signature": 100448
+            },
+            {
+              "version": "26.4",
+              "signature": 100448
+            },
+            {
+              "version": "26.4.1",
               "signature": 100448
             }
           ],
@@ -112424,6 +112917,43 @@ SUPPORT_CHARTS = {
               "sig_name": "FaceTime"
             }
           }
+        },
+        "100533": {
+          "id": 100533,
+          "tested_points": [
+            {
+              "version": "0.0.385",
+              "signature": 100591
+            }
+          ],
+          "labels": [],
+          "languages": [],
+          "name": "Discord",
+          "signatures": {
+            "100591": {
+              "signature": 100591,
+              "product": {
+                "id": 100533,
+                "name": "Discord"
+              },
+              "vendor": {
+                "id": 100306,
+                "name": "Discord Inc."
+              },
+              "categories": {
+                "18": {
+                  "id": 18,
+                  "name": "WEB_CONFERENCE"
+                },
+                "8": {
+                  "id": 8,
+                  "name": "MESSENGER"
+                }
+              },
+              "methods": {},
+              "sig_name": "Discord"
+            }
+          }
         }
       },
       "name": "MESSENGER"
@@ -113636,9 +114166,9 @@ SUPPORT_CHARTS = {
               "signature": 100424
             },
             {
-              "release": "Beta",
               "version": "15.1",
-              "signature": 100424
+              "signature": 100424,
+              "release": "Beta"
             },
             {
               "version": "15.0",
@@ -113669,9 +114199,9 @@ SUPPORT_CHARTS = {
               "signature": 100424
             },
             {
-              "release": "Beta",
               "version": "15.5",
-              "signature": 100424
+              "signature": 100424,
+              "release": "Beta"
             },
             {
               "version": "15.4.1",
@@ -113682,9 +114212,9 @@ SUPPORT_CHARTS = {
               "signature": 100424
             },
             {
-              "release": "Beta",
               "version": "15.6",
-              "signature": 100424
+              "signature": 100424,
+              "release": "Beta"
             },
             {
               "version": "15.6",
@@ -113712,6 +114242,14 @@ SUPPORT_CHARTS = {
             },
             {
               "version": "26.3.1",
+              "signature": 100424
+            },
+            {
+              "version": "26.4",
+              "signature": 100424
+            },
+            {
+              "version": "26.4.1",
               "signature": 100424
             }
           ],
@@ -114336,6 +114874,14 @@ SUPPORT_CHARTS = {
                 "2000": -1
               },
               "version": "26.032.0217.0003",
+              "signature": 100159
+            },
+            {
+              "methodsStatus": {
+                "1008": -1,
+                "2000": -1
+              },
+              "version": "26.055.0323.0004",
               "signature": 100159
             }
           ],
@@ -115342,5 +115888,5 @@ SUPPORT_CHARTS = {
     }
   },
   "support_chart_type": "CATEGORY",
-  "timestamp": "1776155196"
+  "timestamp": "1776758285"
 }
