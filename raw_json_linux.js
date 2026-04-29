@@ -14,12 +14,12 @@ SUPPORT_CHARTS = {
           "id": 200038,
           "tested_points": [
             {
-              "version": "4.0",
-              "signature": 200039
+              "signature": 200039,
+              "version": "4.0"
             },
             {
-              "version": "5.0",
-              "signature": 200039
+              "signature": 200039,
+              "version": "5.0"
             }
           ],
           "labels": [
@@ -57,8 +57,8 @@ SUPPORT_CHARTS = {
           "id": 200122,
           "tested_points": [
             {
-              "version": "2.94",
-              "signature": 200131
+              "signature": 200131,
+              "version": "2.94"
             }
           ],
           "labels": [],
@@ -151,31 +151,20 @@ SUPPORT_CHARTS = {
           "id": 200141,
           "tested_points": [
             {
-              "version": "3.45.1",
-              "signature": 200150
+              "signature": 200150,
+              "version": "3.45.1"
             },
             {
-              "version": "3.15.0.2",
-              "signature": 200150
+              "signature": 200150,
+              "version": "3.15.0.2"
             },
             {
-              "version": "3.67.0",
-              "signature": 200150
+              "signature": 200150,
+              "version": "3.67.0"
             },
             {
-              "version": "3.69.5",
-              "signature": 200150
-            },
-            {
-              "methodsStatus": {
-                "101": -1,
-                "102": -1,
-                "103": -1,
-                "104": -1,
-                "105": -1
-              },
-              "version": "3.69.6",
-              "signature": 200150
+              "signature": 200150,
+              "version": "3.69.5"
             },
             {
               "methodsStatus": {
@@ -185,8 +174,19 @@ SUPPORT_CHARTS = {
                 "104": -1,
                 "105": -1
               },
-              "version": "3.70.0",
-              "signature": 200150
+              "signature": 200150,
+              "version": "3.69.6"
+            },
+            {
+              "methodsStatus": {
+                "101": -1,
+                "102": -1,
+                "103": -1,
+                "104": -1,
+                "105": -1
+              },
+              "signature": 200150,
+              "version": "3.70.0"
             }
           ],
           "labels": [],
@@ -279,8 +279,8 @@ SUPPORT_CHARTS = {
           "id": 200150,
           "tested_points": [
             {
-              "version": "4.1.7",
-              "signature": 200160
+              "signature": 200160,
+              "version": "4.1.7"
             }
           ],
           "labels": [
@@ -318,8 +318,8 @@ SUPPORT_CHARTS = {
           "id": 200163,
           "tested_points": [
             {
-              "version": "7.5.1",
-              "signature": 200172
+              "signature": 200172,
+              "version": "7.5.1"
             }
           ],
           "labels": [],
@@ -362,12 +362,12 @@ SUPPORT_CHARTS = {
           "id": 200052,
           "tested_points": [
             {
-              "version": "26.0.0.151ubuntu0.14.04.1",
-              "signature": 200053
+              "signature": 200053,
+              "version": "26.0.0.151ubuntu0.14.04.1"
             },
             {
-              "version": "31.0.0.108",
-              "signature": 200053
+              "signature": 200053,
+              "version": "31.0.0.108"
             }
           ],
           "labels": [
@@ -421,8 +421,8 @@ SUPPORT_CHARTS = {
           "id": 200065,
           "tested_points": [
             {
-              "version": "2.7.14",
-              "signature": 200066
+              "signature": 200066,
+              "version": "2.7.14"
             }
           ],
           "labels": [],
@@ -454,8 +454,8 @@ SUPPORT_CHARTS = {
           "id": 200067,
           "tested_points": [
             {
-              "version": "0.0",
-              "signature": 200068
+              "signature": 200068,
+              "version": "0.0"
             }
           ],
           "labels": [
@@ -489,24 +489,24 @@ SUPPORT_CHARTS = {
           "id": 200069,
           "tested_points": [
             {
-              "version": "0.63ubuntu1~02",
-              "signature": 200070
+              "signature": 200070,
+              "version": "0.63ubuntu1~02"
             },
             {
-              "version": "11-1",
-              "signature": 200070
+              "signature": 200070,
+              "version": "11-1"
             },
             {
-              "version": "17.0.8",
-              "signature": 200070
+              "signature": 200070,
+              "version": "17.0.8"
             },
             {
-              "version": "22.0.2",
-              "signature": 200070
+              "signature": 200070,
+              "version": "22.0.2"
             },
             {
-              "version": "21.0.4",
-              "signature": 200070
+              "signature": 200070,
+              "version": "21.0.4"
             }
           ],
           "labels": [
@@ -643,12 +643,12 @@ SUPPORT_CHARTS = {
           "id": 200079,
           "tested_points": [
             {
-              "version": "7.2.24",
-              "signature": 200080
+              "signature": 200080,
+              "version": "7.2.24"
             },
             {
-              "version": "8.1.7",
-              "signature": 200080
+              "signature": 200080,
+              "version": "8.1.7"
             }
           ],
           "labels": [
@@ -864,12 +864,12 @@ SUPPORT_CHARTS = {
           "id": 200080,
           "tested_points": [
             {
-              "version": "3.2.6",
-              "signature": 200081
+              "signature": 200081,
+              "version": "3.2.6"
             },
             {
-              "version": "0.8.5",
-              "signature": 200081
+              "signature": 200081,
+              "version": "0.8.5"
             }
           ],
           "labels": [],
@@ -933,8 +933,8 @@ SUPPORT_CHARTS = {
           "id": 200091,
           "tested_points": [
             {
-              "version": "1.8.0",
-              "signature": 200091
+              "signature": 200091,
+              "version": "1.8.0"
             }
           ],
           "labels": [],
@@ -1040,8 +1040,8 @@ SUPPORT_CHARTS = {
           "id": 200092,
           "tested_points": [
             {
-              "version": "0.0",
-              "signature": 200092
+              "signature": 200092,
+              "version": "0.0"
             }
           ],
           "labels": [],
@@ -1073,12 +1073,12 @@ SUPPORT_CHARTS = {
           "id": 200094,
           "tested_points": [
             {
-              "version": "2.1.3",
-              "signature": 200094
+              "signature": 200094,
+              "version": "2.1.3"
             },
             {
-              "version": "2.1.2",
-              "signature": 200094
+              "signature": 200094,
+              "version": "2.1.2"
             }
           ],
           "labels": [],
@@ -1110,8 +1110,8 @@ SUPPORT_CHARTS = {
           "id": 200095,
           "tested_points": [
             {
-              "version": "37.0.0",
-              "signature": 200095
+              "signature": 200095,
+              "version": "37.0.0"
             }
           ],
           "labels": [],
@@ -1184,152 +1184,152 @@ SUPPORT_CHARTS = {
           "id": 200096,
           "tested_points": [
             {
-              "version": "68.7.0",
-              "signature": 200096
+              "signature": 200096,
+              "version": "68.7.0"
             },
             {
-              "version": "68.10.0",
-              "signature": 200096
+              "signature": 200096,
+              "version": "68.10.0"
             },
             {
-              "version": "78.7.0",
-              "signature": 200096
+              "signature": 200096,
+              "version": "78.7.0"
             },
             {
-              "version": "115.12.0",
-              "signature": 200096
+              "signature": 200096,
+              "version": "115.12.0"
             },
             {
-              "version": "115.10.1",
-              "signature": 200096
+              "signature": 200096,
+              "version": "115.10.1"
             },
             {
-              "version": "115.13.0",
-              "signature": 200096
+              "signature": 200096,
+              "version": "115.13.0"
             },
             {
-              "version": "128.1.0",
-              "signature": 200096
+              "signature": 200096,
+              "version": "128.1.0"
             },
             {
-              "version": "128.2.0",
-              "signature": 200096
+              "signature": 200096,
+              "version": "128.2.0"
             },
             {
-              "version": "128.3.0",
-              "signature": 200096
+              "signature": 200096,
+              "version": "128.3.0"
             },
             {
-              "version": "128.8.1",
-              "signature": 200096
+              "signature": 200096,
+              "version": "128.8.1"
             },
             {
-              "version": "128.8.0",
-              "signature": 200096
+              "signature": 200096,
+              "version": "128.8.0"
             },
             {
-              "version": "128.3.1",
-              "signature": 200096
+              "signature": 200096,
+              "version": "128.3.1"
             },
             {
-              "version": "128.4.1",
-              "signature": 200096
+              "signature": 200096,
+              "version": "128.4.1"
             },
             {
-              "version": "128.4.3",
-              "signature": 200096
+              "signature": 200096,
+              "version": "128.4.3"
             },
             {
-              "version": "128.4.4",
-              "signature": 200096
+              "signature": 200096,
+              "version": "128.4.4"
             },
             {
-              "version": "128.5.0",
-              "signature": 200096
+              "signature": 200096,
+              "version": "128.5.0"
             },
             {
-              "version": "128.5.1",
-              "signature": 200096
+              "signature": 200096,
+              "version": "128.5.1"
             },
             {
-              "version": "128.5.2",
-              "signature": 200096
+              "signature": 200096,
+              "version": "128.5.2"
             },
             {
-              "version": "128.6.0",
-              "signature": 200096
+              "signature": 200096,
+              "version": "128.6.0"
             },
             {
-              "version": "128.7.1",
-              "signature": 200096
+              "signature": 200096,
+              "version": "128.7.1"
             },
             {
-              "version": "136.0.1",
-              "signature": 200096
+              "signature": 200096,
+              "version": "136.0.1"
             },
             {
-              "version": "137.0",
-              "signature": 200096
+              "signature": 200096,
+              "version": "137.0"
             },
             {
-              "version": "137.0.1",
-              "signature": 200096
+              "signature": 200096,
+              "version": "137.0.1"
             },
             {
-              "version": "128.9.1",
-              "signature": 200096
+              "signature": 200096,
+              "version": "128.9.1"
             },
             {
-              "version": "128.9.0",
-              "signature": 200096
+              "signature": 200096,
+              "version": "128.9.0"
             },
             {
-              "version": "128.9.2",
-              "signature": 200096
+              "signature": 200096,
+              "version": "128.9.2"
             },
             {
-              "version": "137.0.2",
-              "signature": 200096
+              "signature": 200096,
+              "version": "137.0.2"
             },
             {
-              "version": "128.10.0",
-              "signature": 200096
+              "signature": 200096,
+              "version": "128.10.0"
             },
             {
-              "version": "138.0",
-              "signature": 200096
+              "signature": 200096,
+              "version": "138.0"
             },
             {
-              "version": "138.0.1",
-              "signature": 200096
+              "signature": 200096,
+              "version": "138.0.1"
             },
             {
-              "version": "144.0.1",
-              "signature": 200096
+              "signature": 200096,
+              "version": "144.0.1"
             },
             {
-              "version": "145.0",
-              "signature": 200096
+              "signature": 200096,
+              "version": "145.0"
             },
             {
-              "version": "146.0",
-              "signature": 200096
+              "signature": 200096,
+              "version": "146.0"
             },
             {
-              "version": "146.0.1",
-              "signature": 200096
+              "signature": 200096,
+              "version": "146.0.1"
             },
             {
-              "version": "147.0",
-              "signature": 200096
+              "signature": 200096,
+              "version": "147.0"
             },
             {
-              "version": "147.0.1",
-              "signature": 200096
+              "signature": 200096,
+              "version": "147.0.1"
             },
             {
-              "version": "149.0.2",
-              "signature": 200096
+              "signature": 200096,
+              "version": "149.0.2"
             }
           ],
           "labels": [],
@@ -1500,40 +1500,40 @@ SUPPORT_CHARTS = {
           "id": 200098,
           "tested_points": [
             {
-              "version": "2.10.14",
-              "signature": 200098
+              "signature": 200098,
+              "version": "2.10.14"
             },
             {
-              "version": "2.8.22",
-              "signature": 200098
+              "signature": 200098,
+              "version": "2.8.22"
             },
             {
-              "version": "2.10.18",
-              "signature": 200098
+              "signature": 200098,
+              "version": "2.10.18"
             },
             {
-              "version": "2.10.38",
-              "signature": 200098
+              "signature": 200098,
+              "version": "2.10.38"
             },
             {
-              "version": "3.0.0",
-              "signature": 200098
+              "signature": 200098,
+              "version": "3.0.0"
             },
             {
-              "version": "3.0.2",
-              "signature": 200098
+              "signature": 200098,
+              "version": "3.0.2"
             },
             {
-              "version": "3.0.6",
-              "signature": 200098
+              "signature": 200098,
+              "version": "3.0.6"
             },
             {
-              "version": "3.0.8",
-              "signature": 200098
+              "signature": 200098,
+              "version": "3.0.8"
             },
             {
-              "version": "3.2.2",
-              "signature": 200098
+              "signature": 200098,
+              "version": "3.2.2"
             }
           ],
           "labels": [],
@@ -1704,8 +1704,8 @@ SUPPORT_CHARTS = {
           "id": 200099,
           "tested_points": [
             {
-              "version": "0.0",
-              "signature": 200099
+              "signature": 200099,
+              "version": "0.0"
             }
           ],
           "labels": [],
@@ -1810,8 +1810,8 @@ SUPPORT_CHARTS = {
           "id": 200100,
           "tested_points": [
             {
-              "version": "0.72.1",
-              "signature": 200101
+              "signature": 200101,
+              "version": "0.72.1"
             }
           ],
           "labels": [],
@@ -1916,8 +1916,8 @@ SUPPORT_CHARTS = {
           "id": 200102,
           "tested_points": [
             {
-              "version": "11.1.0",
-              "signature": 200103
+              "signature": 200103,
+              "version": "11.1.0"
             }
           ],
           "labels": [],
@@ -2022,80 +2022,80 @@ SUPPORT_CHARTS = {
           "id": 200103,
           "tested_points": [
             {
-              "version": "3.6.5",
-              "signature": 200065
+              "signature": 200065,
+              "version": "3.6.5"
             },
             {
-              "version": "3.4.1",
-              "signature": 200065
+              "signature": 200065,
+              "version": "3.4.1"
             },
             {
-              "version": "3.5.3",
-              "signature": 200065
+              "signature": 200065,
+              "version": "3.5.3"
             },
             {
-              "version": "3.6.9",
-              "signature": 200065
+              "signature": 200065,
+              "version": "3.6.9"
             },
             {
-              "version": "3.5.9",
-              "signature": 200110
+              "signature": 200110,
+              "version": "3.5.9"
             },
             {
-              "version": "3.6.10",
-              "signature": 200110
+              "signature": 200110,
+              "version": "3.6.10"
             },
             {
-              "version": "3.6.9",
-              "signature": 200110
+              "signature": 200110,
+              "version": "3.6.9"
             },
             {
-              "version": "3.7.7",
-              "signature": 200111
+              "signature": 200111,
+              "version": "3.7.7"
             },
             {
-              "version": "0.0",
-              "signature": 200111
+              "signature": 200111,
+              "version": "0.0"
             },
             {
-              "version": "3.8.3",
-              "signature": 200112
+              "signature": 200112,
+              "version": "3.8.3"
             },
             {
-              "version": "3.4.10",
-              "signature": 200113
+              "signature": 200113,
+              "version": "3.4.10"
             },
             {
-              "version": "0.0",
-              "signature": 200114
+              "signature": 200114,
+              "version": "0.0"
             },
             {
-              "version": "0.0",
-              "signature": 200115
+              "signature": 200115,
+              "version": "0.0"
             },
             {
-              "version": "0.0",
-              "signature": 200116
+              "signature": 200116,
+              "version": "0.0"
             },
             {
-              "version": "0.0",
-              "signature": 200117
+              "signature": 200117,
+              "version": "0.0"
             },
             {
-              "version": "3.9.0",
-              "signature": 200118
+              "signature": 200118,
+              "version": "3.9.0"
             },
             {
-              "version": "3.10.12",
-              "signature": 200211
+              "signature": 200211,
+              "version": "3.10.12"
             },
             {
-              "version": "3.10.13",
-              "signature": 200211
+              "signature": 200211,
+              "version": "3.10.13"
             },
             {
-              "version": "3.10.6",
-              "signature": 200211
+              "signature": 200211,
+              "version": "3.10.6"
             }
           ],
           "labels": [],
@@ -2775,12 +2775,12 @@ SUPPORT_CHARTS = {
           "id": 200104,
           "tested_points": [
             {
-              "version": "1.18.04",
-              "signature": 200104
+              "signature": 200104,
+              "version": "1.18.04"
             },
             {
-              "version": "2.68",
-              "signature": 200104
+              "signature": 200104,
+              "version": "2.68"
             }
           ],
           "labels": [],
@@ -2889,8 +2889,8 @@ SUPPORT_CHARTS = {
           "id": 200106,
           "tested_points": [
             {
-              "version": "2020.03.04",
-              "signature": 200106
+              "signature": 200106,
+              "version": "2020.03.04"
             }
           ],
           "labels": [],
@@ -3007,8 +3007,8 @@ SUPPORT_CHARTS = {
           "id": 200107,
           "tested_points": [
             {
-              "version": "1.2.5042",
-              "signature": 200107
+              "signature": 200107,
+              "version": "1.2.5042"
             }
           ],
           "labels": [],
@@ -3040,8 +3040,8 @@ SUPPORT_CHARTS = {
           "id": 200108,
           "tested_points": [
             {
-              "version": "0.0",
-              "signature": 200108
+              "signature": 200108,
+              "version": "0.0"
             }
           ],
           "labels": [],
@@ -3146,8 +3146,8 @@ SUPPORT_CHARTS = {
           "id": 200109,
           "tested_points": [
             {
-              "version": "3.13.1",
-              "signature": 200109
+              "signature": 200109,
+              "version": "3.13.1"
             }
           ],
           "labels": [
@@ -3281,8 +3281,8 @@ SUPPORT_CHARTS = {
           "id": 200110,
           "tested_points": [
             {
-              "version": "0.0",
-              "signature": 200119
+              "signature": 200119,
+              "version": "0.0"
             }
           ],
           "labels": [],
@@ -3370,8 +3370,8 @@ SUPPORT_CHARTS = {
           "id": 200111,
           "tested_points": [
             {
-              "version": "4.0.0",
-              "signature": 200120
+              "signature": 200120,
+              "version": "4.0.0"
             }
           ],
           "labels": [
@@ -3449,12 +3449,12 @@ SUPPORT_CHARTS = {
           "id": 200112,
           "tested_points": [
             {
-              "version": "11.0.2",
-              "signature": 200121
+              "signature": 200121,
+              "version": "11.0.2"
             },
             {
-              "version": "0.0",
-              "signature": 200121
+              "signature": 200121,
+              "version": "0.0"
             }
           ],
           "labels": [],
@@ -3592,8 +3592,8 @@ SUPPORT_CHARTS = {
           "id": 200113,
           "tested_points": [
             {
-              "version": "9.0.0",
-              "signature": 200122
+              "signature": 200122,
+              "version": "9.0.0"
             }
           ],
           "labels": [],
@@ -3640,12 +3640,12 @@ SUPPORT_CHARTS = {
           "id": 200114,
           "tested_points": [
             {
-              "version": "2.3.3",
-              "signature": 200123
+              "signature": 200123,
+              "version": "2.3.3"
             },
             {
-              "version": "2.6.6",
-              "signature": 200123
+              "signature": 200123,
+              "version": "2.6.6"
             }
           ],
           "labels": [
@@ -3786,8 +3786,8 @@ SUPPORT_CHARTS = {
           "id": 200115,
           "tested_points": [
             {
-              "version": "16.02",
-              "signature": 200124
+              "signature": 200124,
+              "version": "16.02"
             }
           ],
           "labels": [],
@@ -3901,8 +3901,8 @@ SUPPORT_CHARTS = {
           "id": 200116,
           "tested_points": [
             {
-              "version": "1.90",
-              "signature": 200125
+              "signature": 200125,
+              "version": "1.90"
             }
           ],
           "labels": [
@@ -4016,8 +4016,8 @@ SUPPORT_CHARTS = {
           "id": 200117,
           "tested_points": [
             {
-              "version": "2.3.2",
-              "signature": 200126
+              "signature": 200126,
+              "version": "2.3.2"
             }
           ],
           "labels": [
@@ -4051,8 +4051,8 @@ SUPPORT_CHARTS = {
           "id": 200118,
           "tested_points": [
             {
-              "version": "1.7.10",
-              "signature": 200127
+              "signature": 200127,
+              "version": "1.7.10"
             }
           ],
           "labels": [],
@@ -4116,8 +4116,8 @@ SUPPORT_CHARTS = {
           "id": 200119,
           "tested_points": [
             {
-              "version": "0.0",
-              "signature": 200128
+              "signature": 200128,
+              "version": "0.0"
             }
           ],
           "labels": [],
@@ -4222,32 +4222,32 @@ SUPPORT_CHARTS = {
           "id": 200120,
           "tested_points": [
             {
-              "version": "8.0.20",
-              "signature": 200129
+              "signature": 200129,
+              "version": "8.0.20"
             },
             {
-              "version": "6.0.6",
-              "signature": 200129
+              "signature": 200129,
+              "version": "6.0.6"
             },
             {
-              "version": "8.0.36",
-              "signature": 200129
+              "signature": 200129,
+              "version": "8.0.36"
             },
             {
-              "version": "8.0.41",
-              "signature": 200129
+              "signature": 200129,
+              "version": "8.0.41"
             },
             {
-              "version": "8.0.44",
-              "signature": 200129
+              "signature": 200129,
+              "version": "8.0.44"
             },
             {
-              "version": "8.0.45",
-              "signature": 200129
+              "signature": 200129,
+              "version": "8.0.45"
             },
             {
-              "version": "8.0.46",
-              "signature": 200129
+              "signature": 200129,
+              "version": "8.0.46"
             }
           ],
           "labels": [
@@ -4313,12 +4313,12 @@ SUPPORT_CHARTS = {
           "id": 200121,
           "tested_points": [
             {
-              "version": "1.2.0",
-              "signature": 200130
+              "signature": 200130,
+              "version": "1.2.0"
             },
             {
-              "version": "0.0",
-              "signature": 200130
+              "signature": 200130,
+              "version": "0.0"
             }
           ],
           "labels": [],
@@ -4435,8 +4435,8 @@ SUPPORT_CHARTS = {
           "id": 200123,
           "tested_points": [
             {
-              "version": "0.0",
-              "signature": 200132
+              "signature": 200132,
+              "version": "0.0"
             }
           ],
           "labels": [
@@ -4514,8 +4514,8 @@ SUPPORT_CHARTS = {
           "id": 200124,
           "tested_points": [
             {
-              "version": "0.0",
-              "signature": 200133
+              "signature": 200133,
+              "version": "0.0"
             }
           ],
           "labels": [],
@@ -4547,20 +4547,20 @@ SUPPORT_CHARTS = {
           "id": 200125,
           "tested_points": [
             {
-              "version": "8.0.20",
-              "signature": 200134
+              "signature": 200134,
+              "version": "8.0.20"
             },
             {
-              "version": "9.2.0",
-              "signature": 200134
+              "signature": 200134,
+              "version": "9.2.0"
             },
             {
-              "version": "9.5.0",
-              "signature": 200134
+              "signature": 200134,
+              "version": "9.5.0"
             },
             {
-              "version": "9.6.0",
-              "signature": 200134
+              "signature": 200134,
+              "version": "9.6.0"
             }
           ],
           "labels": [
@@ -4707,8 +4707,8 @@ SUPPORT_CHARTS = {
           "id": 200126,
           "tested_points": [
             {
-              "version": "15.0.5",
-              "signature": 200135
+              "signature": 200135,
+              "version": "15.0.5"
             }
           ],
           "labels": [
@@ -4774,12 +4774,12 @@ SUPPORT_CHARTS = {
           "id": 200128,
           "tested_points": [
             {
-              "version": "2.7.4",
-              "signature": 200137
+              "signature": 200137,
+              "version": "2.7.4"
             },
             {
-              "version": "2.7.6",
-              "signature": 200137
+              "signature": 200137,
+              "version": "2.7.6"
             }
           ],
           "labels": [],
@@ -4917,8 +4917,8 @@ SUPPORT_CHARTS = {
           "id": 200130,
           "tested_points": [
             {
-              "version": "4.1.2",
-              "signature": 200139
+              "signature": 200139,
+              "version": "4.1.2"
             }
           ],
           "labels": [
@@ -5058,8 +5058,8 @@ SUPPORT_CHARTS = {
           "id": 200131,
           "tested_points": [
             {
-              "version": "12.0",
-              "signature": 200140
+              "signature": 200140,
+              "version": "12.0"
             }
           ],
           "labels": [],
@@ -5176,8 +5176,8 @@ SUPPORT_CHARTS = {
           "id": 200132,
           "tested_points": [
             {
-              "version": "3.12.3271",
-              "signature": 200141
+              "signature": 200141,
+              "version": "3.12.3271"
             }
           ],
           "labels": [
@@ -5296,8 +5296,8 @@ SUPPORT_CHARTS = {
           "id": 200133,
           "tested_points": [
             {
-              "version": "3.0.4",
-              "signature": 200142
+              "signature": 200142,
+              "version": "3.0.4"
             }
           ],
           "labels": [],
@@ -5373,8 +5373,8 @@ SUPPORT_CHARTS = {
           "id": 200134,
           "tested_points": [
             {
-              "version": "0.7.6",
-              "signature": 200143
+              "signature": 200143,
+              "version": "0.7.6"
             }
           ],
           "labels": [],
@@ -5450,16 +5450,16 @@ SUPPORT_CHARTS = {
           "id": 200136,
           "tested_points": [
             {
-              "version": "0.6.5",
-              "signature": 200145
+              "signature": 200145,
+              "version": "0.6.5"
             },
             {
-              "version": "0.0",
-              "signature": 200145
+              "signature": 200145,
+              "version": "0.0"
             },
             {
-              "version": "0.6.9999",
-              "signature": 200145
+              "signature": 200145,
+              "version": "0.6.9999"
             }
           ],
           "labels": [],
@@ -5580,12 +5580,12 @@ SUPPORT_CHARTS = {
           "id": 200138,
           "tested_points": [
             {
-              "version": "1.3.1",
-              "signature": 200147
+              "signature": 200147,
+              "version": "1.3.1"
             },
             {
-              "version": "1.3.3",
-              "signature": 200147
+              "signature": 200147,
+              "version": "1.3.3"
             }
           ],
           "labels": [],
@@ -5661,8 +5661,8 @@ SUPPORT_CHARTS = {
           "id": 200139,
           "tested_points": [
             {
-              "version": "0.0",
-              "signature": 200148
+              "signature": 200148,
+              "version": "0.0"
             }
           ],
           "labels": [
@@ -5781,8 +5781,8 @@ SUPPORT_CHARTS = {
           "id": 200140,
           "tested_points": [
             {
-              "version": "1.14.1",
-              "signature": 200149
+              "signature": 200149,
+              "version": "1.14.1"
             }
           ],
           "labels": [],
@@ -5887,12 +5887,12 @@ SUPPORT_CHARTS = {
           "id": 200142,
           "tested_points": [
             {
-              "version": "7.3.0",
-              "signature": 200151
+              "signature": 200151,
+              "version": "7.3.0"
             },
             {
-              "version": "7.3.1",
-              "signature": 200151
+              "signature": 200151,
+              "version": "7.3.1"
             }
           ],
           "labels": [],
@@ -5960,36 +5960,36 @@ SUPPORT_CHARTS = {
           "id": 200143,
           "tested_points": [
             {
-              "version": "0.0",
-              "signature": 200152
+              "signature": 200152,
+              "version": "0.0"
             },
             {
-              "version": "01.8.0.490",
-              "signature": 200180
+              "signature": 200180,
+              "version": "01.8.0.490"
             },
             {
-              "version": "2.8.1.537",
-              "signature": 200181
+              "signature": 200181,
+              "version": "2.8.1.537"
             },
             {
-              "version": "0.0",
-              "signature": 200182
+              "signature": 200182,
+              "version": "0.0"
             },
             {
-              "version": "0.0",
-              "signature": 200183
+              "signature": 200183,
+              "version": "0.0"
             },
             {
-              "version": "7.2.4.780",
-              "signature": 200184
+              "signature": 200184,
+              "version": "7.2.4.780"
             },
             {
-              "version": "0.0",
-              "signature": 200190
+              "signature": 200190,
+              "version": "0.0"
             },
             {
-              "version": "0.0",
-              "signature": 200191
+              "signature": 200191,
+              "version": "0.0"
             }
           ],
           "labels": [],
@@ -6794,28 +6794,28 @@ SUPPORT_CHARTS = {
           "id": 200144,
           "tested_points": [
             {
-              "version": "3.0.11",
-              "signature": 200153
+              "signature": 200153,
+              "version": "3.0.11"
             },
             {
-              "version": "2.2.2",
-              "signature": 200153
+              "signature": 200153,
+              "version": "2.2.2"
             },
             {
-              "version": "3.0.19",
-              "signature": 200153
+              "signature": 200153,
+              "version": "3.0.19"
             },
             {
-              "version": "3.0.20",
-              "signature": 200153
+              "signature": 200153,
+              "version": "3.0.20"
             },
             {
-              "version": "3.0.21",
-              "signature": 200153
+              "signature": 200153,
+              "version": "3.0.21"
             },
             {
-              "version": "3.0.23",
-              "signature": 200153
+              "signature": 200153,
+              "version": "3.0.23"
             }
           ],
           "labels": [
@@ -6971,20 +6971,20 @@ SUPPORT_CHARTS = {
           "id": 200145,
           "tested_points": [
             {
-              "version": "1.3.15",
-              "signature": 200154
+              "signature": 200154,
+              "version": "1.3.15"
             },
             {
-              "version": "0.0",
-              "signature": 200154
+              "signature": 200154,
+              "version": "0.0"
             },
             {
-              "version": "2.0.3",
-              "signature": 200154
+              "signature": 200154,
+              "version": "2.0.3"
             },
             {
-              "version": "1.1.13.0",
-              "signature": 200154
+              "signature": 200154,
+              "version": "1.1.13.0"
             }
           ],
           "labels": [
@@ -7107,24 +7107,24 @@ SUPPORT_CHARTS = {
           "id": 200146,
           "tested_points": [
             {
-              "version": "3.0.5.33220",
-              "signature": 200155
+              "signature": 200155,
+              "version": "3.0.5.33220"
             },
             {
-              "version": "5.0.1.1469",
-              "signature": 200155
+              "signature": 200155,
+              "version": "5.0.1.1469"
             },
             {
-              "version": "4.0.5.3140",
-              "signature": 200155
+              "signature": 200155,
+              "version": "4.0.5.3140"
             },
             {
-              "version": "5.0.2.1613",
-              "signature": 200155
+              "signature": 200155,
+              "version": "5.0.2.1613"
             },
             {
-              "version": "5.0.3.1683",
-              "signature": 200155
+              "signature": 200155,
+              "version": "5.0.3.1683"
             }
           ],
           "labels": [
@@ -7297,12 +7297,12 @@ SUPPORT_CHARTS = {
           "id": 200147,
           "tested_points": [
             {
-              "version": "5.30.0",
-              "signature": 200157
+              "signature": 200157,
+              "version": "5.30.0"
             },
             {
-              "version": "5.28.1",
-              "signature": 200157
+              "signature": 200157,
+              "version": "5.28.1"
             }
           ],
           "labels": [
@@ -7418,8 +7418,8 @@ SUPPORT_CHARTS = {
           "id": 200148,
           "tested_points": [
             {
-              "version": "0.0",
-              "signature": 200158
+              "signature": 200158,
+              "version": "0.0"
             }
           ],
           "labels": [],
@@ -7557,8 +7557,8 @@ SUPPORT_CHARTS = {
           "id": 200151,
           "tested_points": [
             {
-              "version": "6.0.8",
-              "signature": 200161
+              "signature": 200161,
+              "version": "6.0.8"
             }
           ],
           "labels": [
@@ -7624,8 +7624,8 @@ SUPPORT_CHARTS = {
           "id": 200152,
           "tested_points": [
             {
-              "version": "0.0",
-              "signature": 200162
+              "signature": 200162,
+              "version": "0.0"
             }
           ],
           "labels": [],
@@ -7701,8 +7701,8 @@ SUPPORT_CHARTS = {
           "id": 200153,
           "tested_points": [
             {
-              "version": "2.4.5.0727",
-              "signature": 200163
+              "signature": 200163,
+              "version": "2.4.5.0727"
             }
           ],
           "labels": [],
@@ -7853,8 +7853,8 @@ SUPPORT_CHARTS = {
           "id": 200154,
           "tested_points": [
             {
-              "version": "0.0",
-              "signature": 200164
+              "signature": 200164,
+              "version": "0.0"
             }
           ],
           "labels": [],
@@ -7930,80 +7930,80 @@ SUPPORT_CHARTS = {
           "id": 200157,
           "tested_points": [
             {
-              "version": "3.2.3",
-              "signature": 200167
+              "signature": 200167,
+              "version": "3.2.3"
             },
             {
-              "version": "2.6.10",
-              "signature": 200167
+              "signature": 200167,
+              "version": "2.6.10"
             },
             {
-              "version": "3.6.20",
-              "signature": 200167
+              "signature": 200167,
+              "version": "3.6.20"
             },
             {
-              "version": "3.67.0",
-              "signature": 200167
+              "signature": 200167,
+              "version": "3.67.0"
             },
             {
-              "version": "3.4.10",
-              "signature": 200167
+              "signature": 200167,
+              "version": "3.4.10"
             },
             {
-              "version": "4.2.6",
-              "signature": 200167
+              "signature": 200167,
+              "version": "4.2.6"
             },
             {
-              "version": "4.2.5",
-              "signature": 200167
+              "signature": 200167,
+              "version": "4.2.5"
             },
             {
-              "version": "3.6.2",
-              "signature": 200167
+              "signature": 200167,
+              "version": "3.6.2"
             },
             {
-              "version": "4.4.0",
-              "signature": 200167
+              "signature": 200167,
+              "version": "4.4.0"
             },
             {
-              "version": "4.4.2",
-              "signature": 200167
+              "signature": 200167,
+              "version": "4.4.2"
             },
             {
-              "version": "4.4.3",
-              "signature": 200167
+              "signature": 200167,
+              "version": "4.4.3"
             },
             {
-              "version": "4.4.4",
-              "signature": 200167
+              "signature": 200167,
+              "version": "4.4.4"
             },
             {
-              "version": "4.4.5",
-              "signature": 200167
+              "signature": 200167,
+              "version": "4.4.5"
             },
             {
-              "version": "4.4.6",
-              "signature": 200167
+              "signature": 200167,
+              "version": "4.4.6"
             },
             {
-              "version": "4.6.0",
-              "signature": 200167
+              "signature": 200167,
+              "version": "4.6.0"
             },
             {
-              "version": "4.6.1",
-              "signature": 200167
+              "signature": 200167,
+              "version": "4.6.1"
             },
             {
-              "version": "4.6.2",
-              "signature": 200167
+              "signature": 200167,
+              "version": "4.6.2"
             },
             {
-              "version": "4.6.3",
-              "signature": 200167
+              "signature": 200167,
+              "version": "4.6.3"
             },
             {
-              "version": "4.6.4",
-              "signature": 200167
+              "signature": 200167,
+              "version": "4.6.4"
             }
           ],
           "labels": [
@@ -8234,8 +8234,8 @@ SUPPORT_CHARTS = {
           "id": 200158,
           "tested_points": [
             {
-              "version": "20.6.0",
-              "signature": 200168
+              "signature": 200168,
+              "version": "20.6.0"
             }
           ],
           "labels": [],
@@ -8267,8 +8267,8 @@ SUPPORT_CHARTS = {
           "id": 200160,
           "tested_points": [
             {
-              "version": "4.1.7",
-              "signature": 200169
+              "signature": 200169,
+              "version": "4.1.7"
             }
           ],
           "labels": [],
@@ -8332,8 +8332,8 @@ SUPPORT_CHARTS = {
           "id": 200162,
           "tested_points": [
             {
-              "version": "0.92.3",
-              "signature": 200171
+              "signature": 200171,
+              "version": "0.92.3"
             }
           ],
           "labels": [],
@@ -8409,8 +8409,8 @@ SUPPORT_CHARTS = {
           "id": 200164,
           "tested_points": [
             {
-              "version": "2.3.3",
-              "signature": 200173
+              "signature": 200173,
+              "version": "2.3.3"
             }
           ],
           "labels": [],
@@ -8442,32 +8442,32 @@ SUPPORT_CHARTS = {
           "id": 200165,
           "tested_points": [
             {
-              "version": "16.0",
-              "signature": 200176
+              "signature": 200176,
+              "version": "16.0"
             },
             {
-              "version": "0.0",
-              "signature": 200176
+              "signature": 200176,
+              "version": "0.0"
             },
             {
-              "version": "16.1",
-              "signature": 200177
+              "signature": 200177,
+              "version": "16.1"
             },
             {
-              "version": "0.0",
-              "signature": 200177
+              "signature": 200177,
+              "version": "0.0"
             },
             {
-              "version": "16.2",
-              "signature": 200178
+              "signature": 200178,
+              "version": "16.2"
             },
             {
-              "version": "16.2",
-              "signature": 200187
+              "signature": 200187,
+              "version": "16.2"
             },
             {
-              "version": "0.0",
-              "signature": 200187
+              "signature": 200187,
+              "version": "0.0"
             }
           ],
           "labels": [],
@@ -8811,8 +8811,8 @@ SUPPORT_CHARTS = {
           "id": 200166,
           "tested_points": [
             {
-              "version": "1.1.10",
-              "signature": 200175
+              "signature": 200175,
+              "version": "1.1.10"
             }
           ],
           "labels": [],
@@ -8950,12 +8950,12 @@ SUPPORT_CHARTS = {
           "id": 200167,
           "tested_points": [
             {
-              "version": "10.19.0",
-              "signature": 200179
+              "signature": 200179,
+              "version": "10.19.0"
             },
             {
-              "version": "8.10.0",
-              "signature": 200179
+              "signature": 200179,
+              "version": "8.10.0"
             }
           ],
           "labels": [],
@@ -9076,8 +9076,8 @@ SUPPORT_CHARTS = {
           "id": 200169,
           "tested_points": [
             {
-              "version": "0.0",
-              "signature": 200144
+              "signature": 200144,
+              "version": "0.0"
             }
           ],
           "labels": [],
@@ -9153,28 +9153,28 @@ SUPPORT_CHARTS = {
           "id": 200171,
           "tested_points": [
             {
-              "version": "5.16.3",
-              "signature": 200188
-            },
-            {
-              "version": "5.30.0",
-              "signature": 200188
-            },
-            {
-              "version": "5.34.0",
-              "signature": 200188
-            },
-            {
-              "version": "5.38.2",
-              "signature": 200188
-            },
-            {
-              "version": "5.32.1",
-              "signature": 200188
-            },
-            {
-              "version": "5.40.1",
               "signature": 200188,
+              "version": "5.16.3"
+            },
+            {
+              "signature": 200188,
+              "version": "5.30.0"
+            },
+            {
+              "signature": 200188,
+              "version": "5.34.0"
+            },
+            {
+              "signature": 200188,
+              "version": "5.38.2"
+            },
+            {
+              "signature": 200188,
+              "version": "5.32.1"
+            },
+            {
+              "signature": 200188,
+              "version": "5.40.1",
               "release": "Beta"
             }
           ],
@@ -9268,12 +9268,12 @@ SUPPORT_CHARTS = {
           "id": 200172,
           "tested_points": [
             {
-              "version": "0.9.8",
-              "signature": 200189
+              "signature": 200189,
+              "version": "0.9.8"
             },
             {
-              "version": "1.0.0-6",
-              "signature": 200189
+              "signature": 200189,
+              "version": "1.0.0-6"
             }
           ],
           "labels": [],
@@ -9530,8 +9530,8 @@ SUPPORT_CHARTS = {
           "id": 200174,
           "tested_points": [
             {
-              "version": "7.2.0",
-              "signature": 200193
+              "signature": 200193,
+              "version": "7.2.0"
             }
           ],
           "labels": [],
@@ -9619,12 +9619,12 @@ SUPPORT_CHARTS = {
           "id": 200175,
           "tested_points": [
             {
-              "version": "6.12.0",
-              "signature": 200194
+              "signature": 200194,
+              "version": "6.12.0"
             },
             {
-              "version": "6.12.0.122",
-              "signature": 200194
+              "signature": 200194,
+              "version": "6.12.0.122"
             }
           ],
           "labels": [],
@@ -9738,60 +9738,60 @@ SUPPORT_CHARTS = {
           "id": 200176,
           "tested_points": [
             {
-              "version": "7.13.0",
-              "signature": 200195
+              "signature": 200195,
+              "version": "7.13.0"
             },
             {
-              "version": "7.13.2",
-              "signature": 200195
+              "signature": 200195,
+              "version": "7.13.2"
             },
             {
-              "version": "7.13.3",
-              "signature": 200195
+              "signature": 200195,
+              "version": "7.13.3"
             },
             {
-              "version": "7.13.1",
-              "signature": 200195
+              "signature": 200195,
+              "version": "7.13.1"
             },
             {
-              "version": "7.14.0",
-              "signature": 200195
+              "signature": 200195,
+              "version": "7.14.0"
             },
             {
-              "version": "8.2.2",
-              "signature": 200195
+              "signature": 200195,
+              "version": "8.2.2"
             },
             {
-              "version": "8.6.1",
-              "signature": 200195
+              "signature": 200195,
+              "version": "8.6.1"
             },
             {
-              "version": "8.4.1",
-              "signature": 200195
+              "signature": 200195,
+              "version": "8.4.1"
             },
             {
-              "version": "8.5.0",
-              "signature": 200195
+              "signature": 200195,
+              "version": "8.5.0"
             },
             {
-              "version": "8.7.0",
-              "signature": 200195
+              "signature": 200195,
+              "version": "8.7.0"
             },
             {
-              "version": "8.8.1",
-              "signature": 200195
+              "signature": 200195,
+              "version": "8.8.1"
             },
             {
-              "version": "8.9.0",
-              "signature": 200195
+              "signature": 200195,
+              "version": "8.9.0"
             },
             {
-              "version": "8.15.2",
-              "signature": 200195
+              "signature": 200195,
+              "version": "8.15.2"
             },
             {
-              "version": "9.1.2",
-              "signature": 200195
+              "signature": 200195,
+              "version": "9.1.2"
             }
           ],
           "labels": [],
@@ -10081,76 +10081,76 @@ SUPPORT_CHARTS = {
           "id": 200187,
           "tested_points": [
             {
-              "version": "1.79.2",
-              "signature": 200206
+              "signature": 200206,
+              "version": "1.79.2"
             },
             {
-              "version": "1.90.2",
-              "signature": 200206
+              "signature": 200206,
+              "version": "1.90.2"
             },
             {
-              "version": "1.91.0",
-              "signature": 200206
+              "signature": 200206,
+              "version": "1.91.0"
             },
             {
-              "version": "1.92.0",
-              "signature": 200206
+              "signature": 200206,
+              "version": "1.92.0"
             },
             {
-              "version": "1.93.1",
-              "signature": 200206
+              "signature": 200206,
+              "version": "1.93.1"
             },
             {
-              "version": "1.94.2",
-              "signature": 200206
+              "signature": 200206,
+              "version": "1.94.2"
             },
             {
-              "version": "1.95.3",
-              "signature": 200206
+              "signature": 200206,
+              "version": "1.95.3"
             },
             {
-              "version": "1.96.0",
-              "signature": 200206
+              "signature": 200206,
+              "version": "1.96.0"
             },
             {
-              "version": "1.105.1",
-              "signature": 200206
+              "signature": 200206,
+              "version": "1.105.1"
             },
             {
-              "version": "1.106.0",
-              "signature": 200206
+              "signature": 200206,
+              "version": "1.106.0"
             },
             {
-              "version": "1.106.1",
-              "signature": 200206
+              "signature": 200206,
+              "version": "1.106.1"
             },
             {
-              "version": "1.106.2",
-              "signature": 200206
+              "signature": 200206,
+              "version": "1.106.2"
             },
             {
-              "version": "1.106.3",
-              "signature": 200206
+              "signature": 200206,
+              "version": "1.106.3"
             },
             {
-              "version": "1.107.1",
-              "signature": 200206
+              "signature": 200206,
+              "version": "1.107.1"
             },
             {
-              "version": "1.108.0",
-              "signature": 200206
+              "signature": 200206,
+              "version": "1.108.0"
             },
             {
-              "version": "1.108.1",
-              "signature": 200206
+              "signature": 200206,
+              "version": "1.108.1"
             },
             {
-              "version": "1.108.2",
-              "signature": 200206
+              "signature": 200206,
+              "version": "1.108.2"
             },
             {
-              "version": "1.116.0",
-              "signature": 200206
+              "signature": 200206,
+              "version": "1.116.0"
             }
           ],
           "labels": [],
@@ -10278,8 +10278,8 @@ SUPPORT_CHARTS = {
           "id": 200192,
           "tested_points": [
             {
-              "version": "6.0.3",
-              "signature": 200212
+              "signature": 200212,
+              "version": "6.0.3"
             }
           ],
           "labels": [],
@@ -10311,8 +10311,8 @@ SUPPORT_CHARTS = {
           "id": 200193,
           "tested_points": [
             {
-              "version": "12.1.5.39265",
-              "signature": 200213
+              "signature": 200213,
+              "version": "12.1.5.39265"
             }
           ],
           "labels": [],
@@ -10457,8 +10457,8 @@ SUPPORT_CHARTS = {
           "id": 200194,
           "tested_points": [
             {
-              "version": "0.0",
-              "signature": 200214
+              "signature": 200214,
+              "version": "0.0"
             }
           ],
           "labels": [],
@@ -10615,8 +10615,8 @@ SUPPORT_CHARTS = {
           "id": 200195,
           "tested_points": [
             {
-              "version": "0.0",
-              "signature": 200215
+              "signature": 200215,
+              "version": "0.0"
             }
           ],
           "labels": [],
@@ -10747,52 +10747,52 @@ SUPPORT_CHARTS = {
           "id": 200197,
           "tested_points": [
             {
-              "version": "6.4.5",
-              "signature": 200165
+              "signature": 200165,
+              "version": "6.4.5"
             },
             {
-              "version": "7.3",
-              "signature": 200165
+              "signature": 200165,
+              "version": "7.3"
             },
             {
-              "version": "24.2.5.2",
-              "signature": 200165
+              "signature": 200165,
+              "version": "24.2.5.2"
             },
             {
-              "version": "24.8.0.3",
-              "signature": 200165
+              "signature": 200165,
+              "version": "24.8.0.3"
             },
             {
-              "version": "24.2.2.1",
-              "signature": 200165
+              "signature": 200165,
+              "version": "24.2.2.1"
             },
             {
-              "version": "24.8.2.1",
-              "signature": 200165
+              "signature": 200165,
+              "version": "24.8.2.1"
             },
             {
-              "version": "25.2.0.3",
-              "signature": 200165
+              "signature": 200165,
+              "version": "25.2.0.3"
             },
             {
-              "version": "25.8.2.2",
-              "signature": 200165
+              "signature": 200165,
+              "version": "25.8.2.2"
             },
             {
-              "version": "25.8.3.2",
-              "signature": 200165
+              "signature": 200165,
+              "version": "25.8.3.2"
             },
             {
-              "version": "25.8.4.2",
-              "signature": 200165
+              "signature": 200165,
+              "version": "25.8.4.2"
             },
             {
-              "version": "26.2.0.3",
-              "signature": 200165
+              "signature": 200165,
+              "version": "26.2.0.3"
             },
             {
-              "version": "26.2.2.2",
-              "signature": 200165
+              "signature": 200165,
+              "version": "26.2.2.2"
             }
           ],
           "labels": [],
@@ -10920,20 +10920,20 @@ SUPPORT_CHARTS = {
           "id": 200199,
           "tested_points": [
             {
-              "version": "24.2.0.65",
-              "signature": 200218
+              "signature": 200218,
+              "version": "24.2.0.65"
             },
             {
-              "version": "22.12.0.12",
-              "signature": 200218
+              "signature": 200218,
+              "version": "22.12.0.12"
             },
             {
-              "version": "24.11.0.85",
-              "signature": 200218
+              "signature": 200218,
+              "version": "24.11.0.85"
             },
             {
-              "version": "25.08.0.88",
-              "signature": 200218
+              "signature": 200218,
+              "version": "25.08.0.88"
             }
           ],
           "labels": [],
@@ -11107,16 +11107,16 @@ SUPPORT_CHARTS = {
           "id": 200201,
           "tested_points": [
             {
-              "version": "2.6.6",
-              "signature": 200220
+              "signature": 200220,
+              "version": "2.6.6"
             },
             {
-              "version": "2.7.6",
-              "signature": 200220
+              "signature": 200220,
+              "version": "2.7.6"
             },
             {
-              "version": "2.7.8",
-              "signature": 200220
+              "signature": 200220,
+              "version": "2.7.8"
             }
           ],
           "labels": [],
@@ -11270,8 +11270,8 @@ SUPPORT_CHARTS = {
           "id": 200202,
           "tested_points": [
             {
-              "version": "0.0",
-              "signature": 200221
+              "signature": 200221,
+              "version": "0.0"
             }
           ],
           "labels": [],
@@ -11403,8 +11403,8 @@ SUPPORT_CHARTS = {
           "id": 200206,
           "tested_points": [
             {
-              "version": "0.0",
-              "signature": 200225
+              "signature": 200225,
+              "version": "0.0"
             }
           ],
           "labels": [],
@@ -11539,8 +11539,8 @@ SUPPORT_CHARTS = {
           "id": 200207,
           "tested_points": [
             {
-              "version": "0.0",
-              "signature": 200226
+              "signature": 200226,
+              "version": "0.0"
             }
           ],
           "labels": [],
@@ -11675,8 +11675,8 @@ SUPPORT_CHARTS = {
           "id": 200208,
           "tested_points": [
             {
-              "version": "0.0",
-              "signature": 200227
+              "signature": 200227,
+              "version": "0.0"
             }
           ],
           "labels": [],
@@ -11811,24 +11811,24 @@ SUPPORT_CHARTS = {
           "id": 200211,
           "tested_points": [
             {
-              "version": "2.43.0",
-              "signature": 200230
+              "signature": 200230,
+              "version": "2.43.0"
             },
             {
-              "version": "2.35.3",
-              "signature": 200230
+              "signature": 200230,
+              "version": "2.35.3"
             },
             {
-              "version": "2.43.5",
-              "signature": 200230
+              "signature": 200230,
+              "version": "2.43.5"
             },
             {
-              "version": "2.39.5",
-              "signature": 200230
+              "signature": 200230,
+              "version": "2.39.5"
             },
             {
-              "version": "2.21.3",
-              "signature": 200230
+              "signature": 200230,
+              "version": "2.21.3"
             }
           ],
           "labels": [],
@@ -11924,12 +11924,12 @@ SUPPORT_CHARTS = {
           "id": 200216,
           "tested_points": [
             {
-              "version": "12.0.1",
-              "signature": 200235
+              "signature": 200235,
+              "version": "12.0.1"
             },
             {
-              "version": "0.0",
-              "signature": 200235
+              "signature": 200235,
+              "version": "0.0"
             }
           ],
           "labels": [],
@@ -12018,8 +12018,8 @@ SUPPORT_CHARTS = {
           "id": 200217,
           "tested_points": [
             {
-              "version": "28.2.2",
-              "signature": 200236
+              "signature": 200236,
+              "version": "28.2.2"
             }
           ],
           "labels": [],
@@ -12108,8 +12108,8 @@ SUPPORT_CHARTS = {
           "id": 200218,
           "tested_points": [
             {
-              "version": "9.0.2",
-              "signature": 200237
+              "signature": 200237,
+              "version": "9.0.2"
             }
           ],
           "labels": [],
@@ -12141,12 +12141,12 @@ SUPPORT_CHARTS = {
           "id": 200219,
           "tested_points": [
             {
-              "version": "23.01",
-              "signature": 200238
+              "signature": 200238,
+              "version": "23.01"
             },
             {
-              "version": "21.07",
-              "signature": 200238
+              "signature": 200238,
+              "version": "21.07"
             }
           ],
           "labels": [],
@@ -12278,12 +12278,12 @@ SUPPORT_CHARTS = {
           "id": 200220,
           "tested_points": [
             {
-              "version": "0.12.112",
-              "signature": 200239
+              "signature": 200239,
+              "version": "0.12.112"
             },
             {
-              "version": "0.13.37",
-              "signature": 200239
+              "signature": 200239,
+              "version": "0.13.37"
             }
           ],
           "labels": [],
@@ -12374,8 +12374,8 @@ SUPPORT_CHARTS = {
           "id": 200221,
           "tested_points": [
             {
-              "version": "8.0.462.0.0.8",
-              "signature": 200240
+              "signature": 200240,
+              "version": "8.0.462.0.0.8"
             }
           ],
           "labels": [],
@@ -12510,8 +12510,8 @@ SUPPORT_CHARTS = {
           "id": 200222,
           "tested_points": [
             {
-              "version": "11.0.28.0.0",
-              "signature": 200241
+              "signature": 200241,
+              "version": "11.0.28.0.0"
             }
           ],
           "labels": [],
@@ -12646,8 +12646,8 @@ SUPPORT_CHARTS = {
           "id": 200223,
           "tested_points": [
             {
-              "version": "17.0.16.0.0.8",
-              "signature": 200242
+              "signature": 200242,
+              "version": "17.0.16.0.0.8"
             }
           ],
           "labels": [],
@@ -12782,8 +12782,8 @@ SUPPORT_CHARTS = {
           "id": 200224,
           "tested_points": [
             {
-              "version": "23.0.2.0.0",
-              "signature": 200243
+              "signature": 200243,
+              "version": "23.0.2.0.0"
             }
           ],
           "labels": [],
@@ -12918,8 +12918,8 @@ SUPPORT_CHARTS = {
           "id": 200228,
           "tested_points": [
             {
-              "version": "2025.1.5524",
-              "signature": 200247
+              "signature": 200247,
+              "version": "2025.1.5524"
             }
           ],
           "labels": [],
@@ -12958,20 +12958,20 @@ SUPPORT_CHARTS = {
           "id": 200170,
           "tested_points": [
             {
-              "version": "1.0.7",
-              "signature": 200186
+              "signature": 200186,
+              "version": "1.0.7"
             },
             {
-              "version": "1.6.0",
-              "signature": 200186
+              "signature": 200186,
+              "version": "1.6.0"
             },
             {
-              "version": "1.8.1",
-              "signature": 200186
+              "signature": 200186,
+              "version": "1.8.1"
             },
             {
-              "version": "2511.3.1.0",
-              "signature": 200186
+              "signature": 200186,
+              "version": "2511.3.1.0"
             }
           ],
           "labels": [],
@@ -13106,8 +13106,8 @@ SUPPORT_CHARTS = {
           "id": 200039,
           "tested_points": [
             {
-              "version": "11.0",
-              "signature": 200040
+              "signature": 200040,
+              "version": "11.0"
             }
           ],
           "labels": [],
@@ -13185,28 +13185,28 @@ SUPPORT_CHARTS = {
           "id": 200040,
           "tested_points": [
             {
-              "version": "1.0",
-              "signature": 200041
-            },
-            {
-              "version": "2.0.2",
-              "signature": 200041
-            },
-            {
-              "version": "2.4.5",
-              "signature": 200041
-            },
-            {
-              "version": "2.6.0",
-              "signature": 200041
-            },
-            {
-              "version": "2.7.14",
-              "signature": 200041
-            },
-            {
-              "version": "3.1.16",
               "signature": 200041,
+              "version": "1.0"
+            },
+            {
+              "signature": 200041,
+              "version": "2.0.2"
+            },
+            {
+              "signature": 200041,
+              "version": "2.4.5"
+            },
+            {
+              "signature": 200041,
+              "version": "2.6.0"
+            },
+            {
+              "signature": 200041,
+              "version": "2.7.14"
+            },
+            {
+              "signature": 200041,
+              "version": "3.1.16",
               "release": "Beta"
             }
           ],
@@ -13770,24 +13770,24 @@ SUPPORT_CHARTS = {
           "id": 200041,
           "tested_points": [
             {
-              "version": "2.0",
-              "signature": 200042
+              "signature": 200042,
+              "version": "2.0"
             },
             {
-              "version": "3.0",
-              "signature": 200042
+              "signature": 200042,
+              "version": "3.0"
             },
             {
-              "version": "4.2.23",
-              "signature": 200042
+              "signature": 200042,
+              "version": "4.2.23"
             },
             {
-              "version": "4.2.17",
-              "signature": 200042
+              "signature": 200042,
+              "version": "4.2.17"
             },
             {
-              "version": "4.9.0",
-              "signature": 200042
+              "signature": 200042,
+              "version": "4.9.0"
             }
           ],
           "labels": [],
@@ -14299,12 +14299,12 @@ SUPPORT_CHARTS = {
           "id": 200050,
           "tested_points": [
             {
-              "version": "1.0",
-              "signature": 200051
+              "signature": 200051,
+              "version": "1.0"
             },
             {
-              "version": "4.9.0",
-              "signature": 200051
+              "signature": 200051,
+              "version": "4.9.0"
             }
           ],
           "labels": [],
@@ -14879,8 +14879,8 @@ SUPPORT_CHARTS = {
           "id": 200057,
           "tested_points": [
             {
-              "version": "1.11.14",
-              "signature": 200058
+              "signature": 200058,
+              "version": "1.11.14"
             }
           ],
           "labels": [],
@@ -15442,8 +15442,8 @@ SUPPORT_CHARTS = {
           "id": 200181,
           "tested_points": [
             {
-              "version": "6.0.1",
-              "signature": 200200
+              "signature": 200200,
+              "version": "6.0.1"
             }
           ],
           "labels": [],
@@ -15640,12 +15640,12 @@ SUPPORT_CHARTS = {
           "id": 200184,
           "tested_points": [
             {
-              "version": "0",
-              "signature": 200203
+              "signature": 200203,
+              "version": "0"
             },
             {
-              "version": "20.08.03.211109",
-              "signature": 200203
+              "signature": 200203,
+              "version": "20.08.03.211109"
             }
           ],
           "labels": [],
@@ -15845,8 +15845,8 @@ SUPPORT_CHARTS = {
           "id": 200189,
           "tested_points": [
             {
-              "version": "13.1.19",
-              "signature": 200208
+              "signature": 200208,
+              "version": "13.1.19"
             }
           ],
           "labels": [],
@@ -15915,12 +15915,12 @@ SUPPORT_CHARTS = {
           "id": 200190,
           "tested_points": [
             {
-              "version": "22.04.1",
-              "signature": 200209
+              "signature": 200209,
+              "version": "22.04.1"
             },
             {
-              "version": "2.60.4",
-              "signature": 200209
+              "signature": 200209,
+              "version": "2.60.4"
             }
           ],
           "labels": [],
@@ -16479,8 +16479,8 @@ SUPPORT_CHARTS = {
           "id": 200196,
           "tested_points": [
             {
-              "version": "11.3.2406.1.L",
-              "signature": 200216
+              "signature": 200216,
+              "version": "11.3.2406.1.L"
             }
           ],
           "labels": [],
@@ -16625,16 +16625,16 @@ SUPPORT_CHARTS = {
           "id": 200214,
           "tested_points": [
             {
-              "version": "4.18.1",
-              "signature": 200233
+              "signature": 200233,
+              "version": "4.18.1"
             },
             {
-              "version": "4.16.1.3",
-              "signature": 200233
+              "signature": 200233,
+              "version": "4.16.1.3"
             },
             {
-              "version": "4.11.3",
-              "signature": 200233
+              "signature": 200233,
+              "version": "4.11.3"
             }
           ],
           "labels": [],
@@ -16740,8 +16740,8 @@ SUPPORT_CHARTS = {
           "id": 200215,
           "tested_points": [
             {
-              "version": "1.14.4",
-              "signature": 200234
+              "signature": 200234,
+              "version": "1.14.4"
             }
           ],
           "labels": [],
@@ -16837,8 +16837,8 @@ SUPPORT_CHARTS = {
           "id": 200049,
           "tested_points": [
             {
-              "version": "10.0",
-              "signature": 200050
+              "signature": 200050,
+              "version": "10.0"
             }
           ],
           "labels": [],
@@ -16873,8 +16873,8 @@ SUPPORT_CHARTS = {
           "id": 200101,
           "tested_points": [
             {
-              "version": "0.0",
-              "signature": 200102
+              "signature": 200102,
+              "version": "0.0"
             }
           ],
           "labels": [],
@@ -16979,8 +16979,8 @@ SUPPORT_CHARTS = {
           "id": 200183,
           "tested_points": [
             {
-              "version": "4.10.05095",
-              "signature": 200202
+              "signature": 200202,
+              "version": "4.10.05095"
             }
           ],
           "labels": [],
@@ -17056,12 +17056,12 @@ SUPPORT_CHARTS = {
           "id": 200209,
           "tested_points": [
             {
-              "version": "3.73.0.0",
-              "signature": 200228
+              "signature": 200228,
+              "version": "3.73.0.0"
             },
             {
-              "version": "3.75.0.0",
-              "signature": 200228
+              "signature": 200228,
+              "version": "3.75.0.0"
             }
           ],
           "labels": [],
@@ -17152,8 +17152,8 @@ SUPPORT_CHARTS = {
           "id": 200226,
           "tested_points": [
             {
-              "version": "5.5.0.2620",
-              "signature": 200245
+              "signature": 200245,
+              "version": "5.5.0.2620"
             }
           ],
           "labels": [],
@@ -17283,8 +17283,8 @@ SUPPORT_CHARTS = {
           "id": 200042,
           "tested_points": [
             {
-              "version": "3.0",
-              "signature": 200043
+              "signature": 200043,
+              "version": "3.0"
             }
           ],
           "labels": [],
@@ -17316,8 +17316,8 @@ SUPPORT_CHARTS = {
           "id": 200043,
           "tested_points": [
             {
-              "version": "1.24.9.2018",
-              "signature": 200044
+              "signature": 200044,
+              "version": "1.24.9.2018"
             }
           ],
           "labels": [],
@@ -17507,8 +17507,8 @@ SUPPORT_CHARTS = {
           "id": 200044,
           "tested_points": [
             {
-              "version": "4.0",
-              "signature": 200045
+              "signature": 200045,
+              "version": "4.0"
             }
           ],
           "labels": [],
@@ -17540,16 +17540,16 @@ SUPPORT_CHARTS = {
           "id": 200045,
           "tested_points": [
             {
-              "version": "6.1.50",
-              "signature": 200046
+              "signature": 200046,
+              "version": "6.1.50"
             },
             {
-              "version": "7.1.10",
-              "signature": 200046
+              "signature": 200046,
+              "version": "7.1.10"
             },
             {
-              "version": "7.1.12",
-              "signature": 200046
+              "signature": 200046,
+              "version": "7.1.12"
             }
           ],
           "labels": [],
@@ -17720,12 +17720,12 @@ SUPPORT_CHARTS = {
           "id": 200046,
           "tested_points": [
             {
-              "version": "1.0",
-              "signature": 200047
+              "signature": 200047,
+              "version": "1.0"
             },
             {
-              "version": "2.0",
-              "signature": 200047
+              "signature": 200047,
+              "version": "2.0"
             }
           ],
           "labels": [],
@@ -17757,8 +17757,8 @@ SUPPORT_CHARTS = {
           "id": 200047,
           "tested_points": [
             {
-              "version": "3.0",
-              "signature": 200048
+              "signature": 200048,
+              "version": "3.0"
             }
           ],
           "labels": [],
@@ -17790,20 +17790,20 @@ SUPPORT_CHARTS = {
           "id": 200048,
           "tested_points": [
             {
-              "version": "3.0",
-              "signature": 200049
+              "signature": 200049,
+              "version": "3.0"
             },
             {
-              "version": "4.0",
-              "signature": 200049
+              "signature": 200049,
+              "version": "4.0"
             },
             {
-              "version": "5.0",
-              "signature": 200049
+              "signature": 200049,
+              "version": "5.0"
             },
             {
-              "version": "6.0",
-              "signature": 200049
+              "signature": 200049,
+              "version": "6.0"
             }
           ],
           "labels": [],
@@ -17879,8 +17879,8 @@ SUPPORT_CHARTS = {
           "id": 200093,
           "tested_points": [
             {
-              "version": "14.1.7",
-              "signature": 200093
+              "signature": 200093,
+              "version": "14.1.7"
             }
           ],
           "labels": [],
@@ -18056,98 +18056,84 @@ SUPPORT_CHARTS = {
           "id": 200056,
           "tested_points": [
             {
-              "version": "4.5.0",
-              "signature": 200057
+              "signature": 200057,
+              "version": "4.5.0"
             },
             {
-              "version": "5.11.0",
-              "signature": 200057
+              "signature": 200057,
+              "version": "5.11.0"
             },
             {
-              "version": "6.24.12103.0",
-              "signature": 200057
+              "signature": 200057,
+              "version": "6.24.12103.0"
             },
             {
-              "version": "6.28.12504.0",
-              "signature": 200057
+              "signature": 200057,
+              "version": "6.28.12504.0"
             },
             {
-              "version": "6.51.14810.0",
-              "signature": 200057
+              "signature": 200057,
+              "version": "6.51.14810.0"
             },
             {
-              "version": "6.37.13402.0",
-              "signature": 200057
+              "signature": 200057,
+              "version": "6.37.13402.0"
             },
             {
-              "version": "6.46.14306.0",
-              "signature": 200057
+              "signature": 200057,
+              "version": "6.46.14306.0"
             },
             {
-              "version": "6.48.14504.0",
-              "signature": 200057
+              "signature": 200057,
+              "version": "6.48.14504.0"
             },
             {
-              "version": "7.02.15705.0",
-              "signature": 200057
+              "signature": 200057,
+              "version": "7.02.15705.0"
             },
             {
-              "version": "7.11.16407.0",
-              "signature": 200057
+              "signature": 200057,
+              "version": "7.11.16407.0"
             },
             {
-              "version": "7.16.16903.0",
-              "signature": 200057
+              "signature": 200057,
+              "version": "7.16.16903.0"
             },
             {
-              "version": "7.17.17005.0",
-              "signature": 200057
+              "signature": 200057,
+              "version": "7.17.17005.0"
             },
             {
-              "version": "7.18.17106.0",
-              "signature": 200057
+              "signature": 200057,
+              "version": "7.18.17106.0"
             },
             {
-              "version": "7.20.17306.0",
-              "signature": 200057
+              "signature": 200057,
+              "version": "7.20.17306.0"
             },
             {
-              "version": "7.25.17804.0",
-              "signature": 200057
+              "signature": 200057,
+              "version": "7.25.17804.0"
             },
             {
-              "version": "7.26.17905.0",
-              "signature": 200057
+              "signature": 200057,
+              "version": "7.26.17905.0"
             },
             {
-              "version": "7.27.18003.0",
-              "signature": 200057
+              "signature": 200057,
+              "version": "7.27.18003.0"
             },
             {
-              "version": "7.28.18108.0",
-              "signature": 200057
+              "signature": 200057,
+              "version": "7.28.18108.0"
             },
             {
-              "version": "7.29.18202.0",
-              "signature": 200057
+              "signature": 200057,
+              "version": "7.29.18202.0"
             },
             {
-              "version": "7.30.18306.0",
-              "signature": 200057
-            },
-            {
-              "methodsStatus": {
-                "1000": -1,
-                "1001": -1,
-                "101": -1,
-                "1012": -1,
-                "102": -1,
-                "103": -1,
-                "104": -1,
-                "105": -1
-              },
-              "version": "7.32.18504.0",
-              "signature": 200057
+              "signature": 200057,
+              "version": "7.30.18306.0"
             },
             {
               "methodsStatus": {
@@ -18160,14 +18146,13 @@ SUPPORT_CHARTS = {
                 "104": -1,
                 "105": -1
               },
-              "version": "7.33.18606.0",
-              "signature": 200057
+              "signature": 200057,
+              "version": "7.32.18504.0"
             },
             {
               "methodsStatus": {
                 "1000": -1,
                 "1001": -1,
-                "1007": -1,
                 "101": -1,
                 "1012": -1,
                 "102": -1,
@@ -18175,8 +18160,8 @@ SUPPORT_CHARTS = {
                 "104": -1,
                 "105": -1
               },
-              "version": "7.34.18708.0",
-              "signature": 200057
+              "signature": 200057,
+              "version": "7.33.18606.0"
             },
             {
               "methodsStatus": {
@@ -18190,8 +18175,23 @@ SUPPORT_CHARTS = {
                 "104": -1,
                 "105": -1
               },
-              "version": "7.35.18803.0",
-              "signature": 200057
+              "signature": 200057,
+              "version": "7.34.18708.0"
+            },
+            {
+              "methodsStatus": {
+                "1000": -1,
+                "1001": -1,
+                "1007": -1,
+                "101": -1,
+                "1012": -1,
+                "102": -1,
+                "103": -1,
+                "104": -1,
+                "105": -1
+              },
+              "signature": 200057,
+              "version": "7.35.18803.0"
             }
           ],
           "labels": [],
@@ -18698,20 +18698,20 @@ SUPPORT_CHARTS = {
           "id": 200074,
           "tested_points": [
             {
-              "version": "15.6.1",
-              "signature": 200075
+              "signature": 200075,
+              "version": "15.6.1"
             },
             {
-              "version": "15.4.74.0",
-              "signature": 200075
+              "signature": 200075,
+              "version": "15.4.74.0"
             },
             {
-              "version": "15.4.77.0",
-              "signature": 200075
+              "signature": 200075,
+              "version": "15.4.77.0"
             },
             {
-              "version": "15.6.74.0",
-              "signature": 200075
+              "signature": 200075,
+              "version": "15.6.74.0"
             }
           ],
           "labels": [],
@@ -18854,76 +18854,76 @@ SUPPORT_CHARTS = {
           "id": 200149,
           "tested_points": [
             {
-              "version": "7.1.1.48398",
-              "signature": 200159
+              "signature": 200159,
+              "version": "7.1.1.48398"
             },
             {
-              "version": "7.0.2.42138",
-              "signature": 200159
+              "signature": 200159,
+              "version": "7.0.2.42138"
             },
             {
-              "version": "7.2.2.8227",
-              "signature": 200159
+              "signature": 200159,
+              "version": "7.2.2.8227"
             },
             {
-              "version": "7.1.0.44806",
-              "signature": 200159
+              "signature": 200159,
+              "version": "7.1.0.44806"
             },
             {
-              "version": "7.3.3.39951",
-              "signature": 200159
+              "signature": 200159,
+              "version": "7.3.3.39951"
             },
             {
-              "version": "7.4.3.39946",
-              "signature": 200159
+              "signature": 200159,
+              "version": "7.4.3.39946"
             },
             {
-              "version": "7.5.1.39945",
-              "signature": 200159
+              "signature": 200159,
+              "version": "7.5.1.39945"
             },
             {
-              "version": "7.6.3.64323",
-              "signature": 200159
+              "signature": 200159,
+              "version": "7.6.3.64323"
             },
             {
-              "version": "7.8.0.68806",
-              "signature": 200159
+              "signature": 200159,
+              "version": "7.8.0.68806"
             },
             {
-              "version": "8.0.0.94458",
-              "signature": 200159
+              "signature": 200159,
+              "version": "8.0.0.94458"
             },
             {
-              "version": "8.1.1.112729",
-              "signature": 200159
+              "signature": 200159,
+              "version": "8.1.1.112729"
             },
             {
-              "version": "8.3.0.120272",
-              "signature": 200159
+              "signature": 200159,
+              "version": "8.3.0.120272"
             },
             {
-              "version": "8.4.0.123266",
-              "signature": 200159
+              "signature": 200159,
+              "version": "8.4.0.123266"
             },
             {
-              "version": "8.5.0.125392",
-              "signature": 200159
+              "signature": 200159,
+              "version": "8.5.0.125392"
             },
             {
-              "version": "8.6.0.127566",
-              "signature": 200159
+              "signature": 200159,
+              "version": "8.6.0.127566"
             },
             {
-              "version": "8.7.0.131113",
-              "signature": 200159
+              "signature": 200159,
+              "version": "8.7.0.131113"
             },
             {
-              "version": "8.8.0.133595",
-              "signature": 200159
+              "signature": 200159,
+              "version": "8.8.0.133595"
             },
             {
-              "version": "9.0.0.140013",
-              "signature": 200159
+              "signature": 200159,
+              "version": "9.0.0.140013"
             }
           ],
           "labels": [],
@@ -19383,20 +19383,20 @@ SUPPORT_CHARTS = {
           "id": 200168,
           "tested_points": [
             {
-              "version": "101.08.40",
-              "signature": 200185
+              "signature": 200185,
+              "version": "101.08.40"
             },
             {
-              "version": "101.25.09",
-              "signature": 200185
+              "signature": 200185,
+              "version": "101.25.09"
             },
             {
-              "version": "101.68.80",
-              "signature": 200185
+              "signature": 200185,
+              "version": "101.68.80"
             },
             {
-              "version": "101.65.77",
-              "signature": 200185
+              "signature": 200185,
+              "version": "101.65.77"
             }
           ],
           "labels": [],
@@ -19878,40 +19878,40 @@ SUPPORT_CHARTS = {
           "id": 200055,
           "tested_points": [
             {
-              "version": "13.0.5494",
-              "signature": 200056
+              "signature": 200056,
+              "version": "13.0.5494"
             },
             {
-              "version": "14.2.8352",
-              "signature": 200056
+              "signature": 200056,
+              "version": "14.2.8352"
             },
             {
-              "version": "10.0.259201",
-              "signature": 200056
+              "signature": 200056,
+              "version": "10.0.259201"
             },
             {
-              "version": "11.0.259199",
-              "signature": 200056
+              "signature": 200056,
+              "version": "11.0.259199"
             },
             {
-              "version": "12.0.259197",
-              "signature": 200056
+              "signature": 200056,
+              "version": "12.0.259197"
             },
             {
-              "version": "13.2.153830",
-              "signature": 200056
+              "signature": 200056,
+              "version": "13.2.153830"
             },
             {
-              "version": "14.7.48671",
-              "signature": 200056
+              "signature": 200056,
+              "version": "14.7.48671"
             },
             {
-              "version": "15.18.5",
-              "signature": 200056
+              "signature": 200056,
+              "version": "15.18.5"
             },
             {
-              "version": "15.54.3",
-              "signature": 200056
+              "signature": 200056,
+              "version": "15.54.3"
             }
           ],
           "labels": [],
@@ -20029,8 +20029,8 @@ SUPPORT_CHARTS = {
           "id": 200068,
           "tested_points": [
             {
-              "version": "0.71",
-              "signature": 200069
+              "signature": 200069,
+              "version": "0.71"
             }
           ],
           "labels": [],
@@ -20082,52 +20082,52 @@ SUPPORT_CHARTS = {
           "id": 200070,
           "tested_points": [
             {
-              "version": "5.9.6.2225",
-              "signature": 200071
+              "signature": 200071,
+              "version": "5.9.6.2225"
             },
             {
-              "version": "6.1.0.198",
-              "signature": 200071
+              "signature": 200071,
+              "version": "6.1.0.198"
             },
             {
-              "version": "6.2.0.1855",
-              "signature": 200071
+              "signature": 200071,
+              "version": "6.2.0.1855"
             },
             {
-              "version": "6.3.0.5527",
-              "signature": 200071
+              "signature": 200071,
+              "version": "6.3.0.5527"
             },
             {
-              "version": "6.4.0.471",
-              "signature": 200071
+              "signature": 200071,
+              "version": "6.4.0.471"
             },
             {
-              "version": "6.4.1.587",
-              "signature": 200071
+              "signature": 200071,
+              "version": "6.4.1.587"
             },
             {
-              "version": "6.5.0.2465",
-              "signature": 200071
+              "signature": 200071,
+              "version": "6.5.0.2465"
             },
             {
-              "version": "6.6.0.4410",
-              "signature": 200071
+              "signature": 200071,
+              "version": "6.6.0.4410"
             },
             {
-              "version": "6.6.11.6052",
-              "signature": 200071
+              "signature": 200071,
+              "version": "6.6.11.6052"
             },
             {
-              "version": "6.7.0.6313",
-              "signature": 200071
+              "signature": 200071,
+              "version": "6.7.0.6313"
             },
             {
-              "version": "6.7.2.6498",
-              "signature": 200071
+              "signature": 200071,
+              "version": "6.7.2.6498"
             },
             {
-              "version": "7.0.0.1666",
-              "signature": 200071
+              "signature": 200071,
+              "version": "7.0.0.1666"
             }
           ],
           "labels": [
@@ -20362,24 +20362,24 @@ SUPPORT_CHARTS = {
           "id": 200075,
           "tested_points": [
             {
-              "version": "6.19.715",
-              "signature": 200076
+              "signature": 200076,
+              "version": "6.19.715"
             },
             {
-              "version": "6.20.113",
-              "signature": 200076
+              "signature": 200076,
+              "version": "6.20.113"
             },
             {
-              "version": "7.12.0",
-              "signature": 200076
+              "signature": 200076,
+              "version": "7.12.0"
             },
             {
-              "version": "7.13.1",
-              "signature": 200076
+              "signature": 200076,
+              "version": "7.13.1"
             },
             {
-              "version": "6.20.113",
-              "signature": 200156
+              "signature": 200156,
+              "version": "6.20.113"
             }
           ],
           "labels": [],
@@ -20487,8 +20487,8 @@ SUPPORT_CHARTS = {
           "id": 200077,
           "tested_points": [
             {
-              "version": "0.78.3",
-              "signature": 200078
+              "signature": 200078,
+              "version": "0.78.3"
             }
           ],
           "labels": [],
@@ -20540,8 +20540,8 @@ SUPPORT_CHARTS = {
           "id": 200078,
           "tested_points": [
             {
-              "version": "1.3.10",
-              "signature": 200079
+              "signature": 200079,
+              "version": "1.3.10"
             }
           ],
           "labels": [],
@@ -20573,8 +20573,8 @@ SUPPORT_CHARTS = {
           "id": 200086,
           "tested_points": [
             {
-              "version": "0.0",
-              "signature": 200087
+              "signature": 200087,
+              "version": "0.0"
             }
           ],
           "labels": [],
@@ -20606,32 +20606,32 @@ SUPPORT_CHARTS = {
           "id": 200200,
           "tested_points": [
             {
-              "version": "7.11.1.26",
-              "signature": 200219
+              "signature": 200219,
+              "version": "7.11.1.26"
             },
             {
-              "version": "6.9.1.46706",
-              "signature": 200219
+              "signature": 200219,
+              "version": "6.9.1.46706"
             },
             {
-              "version": "7.12.0.14",
-              "signature": 200219
+              "signature": 200219,
+              "version": "7.12.0.14"
             },
             {
-              "version": "7.13.1.57",
-              "signature": 200219
+              "signature": 200219,
+              "version": "7.13.1.57"
             },
             {
-              "version": "7.14.0.5",
-              "signature": 200219
+              "signature": 200219,
+              "version": "7.14.0.5"
             },
             {
-              "version": "7.15.0.17",
-              "signature": 200219
+              "signature": 200219,
+              "version": "7.15.0.17"
             },
             {
-              "version": "7.16.0",
-              "signature": 200219
+              "signature": 200219,
+              "version": "7.16.0"
             }
           ],
           "labels": [],
@@ -20776,12 +20776,12 @@ SUPPORT_CHARTS = {
           "id": 200203,
           "tested_points": [
             {
-              "version": "15.54.3",
-              "signature": 200222
+              "signature": 200222,
+              "version": "15.54.3"
             },
             {
-              "version": "15.53.6",
-              "signature": 200222
+              "signature": 200222,
+              "version": "15.53.6"
             }
           ],
           "labels": [],
@@ -20926,8 +20926,8 @@ SUPPORT_CHARTS = {
           "id": 200210,
           "tested_points": [
             {
-              "version": "2024.2.3.1",
-              "signature": 200229
+              "signature": 200229,
+              "version": "2024.2.3.1"
             }
           ],
           "labels": [],
@@ -21088,12 +21088,12 @@ SUPPORT_CHARTS = {
           "id": 200038,
           "tested_points": [
             {
-              "version": "4.0",
-              "signature": 200039
+              "signature": 200039,
+              "version": "4.0"
             },
             {
-              "version": "5.0",
-              "signature": 200039
+              "signature": 200039,
+              "version": "5.0"
             }
           ],
           "labels": [
@@ -21131,8 +21131,8 @@ SUPPORT_CHARTS = {
           "id": 200122,
           "tested_points": [
             {
-              "version": "2.94",
-              "signature": 200131
+              "signature": 200131,
+              "version": "2.94"
             }
           ],
           "labels": [],
@@ -21225,16 +21225,16 @@ SUPPORT_CHARTS = {
           "id": 200136,
           "tested_points": [
             {
-              "version": "0.6.5",
-              "signature": 200145
+              "signature": 200145,
+              "version": "0.6.5"
             },
             {
-              "version": "0.0",
-              "signature": 200145
+              "signature": 200145,
+              "version": "0.0"
             },
             {
-              "version": "0.6.9999",
-              "signature": 200145
+              "signature": 200145,
+              "version": "0.6.9999"
             }
           ],
           "labels": [],
@@ -21355,31 +21355,20 @@ SUPPORT_CHARTS = {
           "id": 200141,
           "tested_points": [
             {
-              "version": "3.45.1",
-              "signature": 200150
+              "signature": 200150,
+              "version": "3.45.1"
             },
             {
-              "version": "3.15.0.2",
-              "signature": 200150
+              "signature": 200150,
+              "version": "3.15.0.2"
             },
             {
-              "version": "3.67.0",
-              "signature": 200150
+              "signature": 200150,
+              "version": "3.67.0"
             },
             {
-              "version": "3.69.5",
-              "signature": 200150
-            },
-            {
-              "methodsStatus": {
-                "101": -1,
-                "102": -1,
-                "103": -1,
-                "104": -1,
-                "105": -1
-              },
-              "version": "3.69.6",
-              "signature": 200150
+              "signature": 200150,
+              "version": "3.69.5"
             },
             {
               "methodsStatus": {
@@ -21389,8 +21378,19 @@ SUPPORT_CHARTS = {
                 "104": -1,
                 "105": -1
               },
-              "version": "3.70.0",
-              "signature": 200150
+              "signature": 200150,
+              "version": "3.69.6"
+            },
+            {
+              "methodsStatus": {
+                "101": -1,
+                "102": -1,
+                "103": -1,
+                "104": -1,
+                "105": -1
+              },
+              "signature": 200150,
+              "version": "3.70.0"
             }
           ],
           "labels": [],
@@ -21483,20 +21483,20 @@ SUPPORT_CHARTS = {
           "id": 200145,
           "tested_points": [
             {
-              "version": "1.3.15",
-              "signature": 200154
+              "signature": 200154,
+              "version": "1.3.15"
             },
             {
-              "version": "0.0",
-              "signature": 200154
+              "signature": 200154,
+              "version": "0.0"
             },
             {
-              "version": "2.0.3",
-              "signature": 200154
+              "signature": 200154,
+              "version": "2.0.3"
             },
             {
-              "version": "1.1.13.0",
-              "signature": 200154
+              "signature": 200154,
+              "version": "1.1.13.0"
             }
           ],
           "labels": [
@@ -21619,8 +21619,8 @@ SUPPORT_CHARTS = {
           "id": 200150,
           "tested_points": [
             {
-              "version": "4.1.7",
-              "signature": 200160
+              "signature": 200160,
+              "version": "4.1.7"
             }
           ],
           "labels": [
@@ -21658,8 +21658,8 @@ SUPPORT_CHARTS = {
           "id": 200163,
           "tested_points": [
             {
-              "version": "7.5.1",
-              "signature": 200172
+              "signature": 200172,
+              "version": "7.5.1"
             }
           ],
           "labels": [],
@@ -21702,8 +21702,8 @@ SUPPORT_CHARTS = {
           "id": 200029,
           "tested_points": [
             {
-              "version": "3.0",
-              "signature": 200030
+              "signature": 200030,
+              "version": "3.0"
             }
           ],
           "labels": [],
@@ -21739,8 +21739,8 @@ SUPPORT_CHARTS = {
           "id": 200031,
           "tested_points": [
             {
-              "version": "4.0",
-              "signature": 200032
+              "signature": 200032,
+              "version": "4.0"
             }
           ],
           "labels": [],
@@ -21776,8 +21776,8 @@ SUPPORT_CHARTS = {
           "id": 200035,
           "tested_points": [
             {
-              "version": "2.0",
-              "signature": 200036
+              "signature": 200036,
+              "version": "2.0"
             }
           ],
           "labels": [],
@@ -21813,8 +21813,8 @@ SUPPORT_CHARTS = {
           "id": 200037,
           "tested_points": [
             {
-              "version": "2.0",
-              "signature": 200038
+              "signature": 200038,
+              "version": "2.0"
             }
           ],
           "labels": [],
@@ -21850,52 +21850,52 @@ SUPPORT_CHARTS = {
           "id": 200070,
           "tested_points": [
             {
-              "version": "5.9.6.2225",
-              "signature": 200071
+              "signature": 200071,
+              "version": "5.9.6.2225"
             },
             {
-              "version": "6.1.0.198",
-              "signature": 200071
+              "signature": 200071,
+              "version": "6.1.0.198"
             },
             {
-              "version": "6.2.0.1855",
-              "signature": 200071
+              "signature": 200071,
+              "version": "6.2.0.1855"
             },
             {
-              "version": "6.3.0.5527",
-              "signature": 200071
+              "signature": 200071,
+              "version": "6.3.0.5527"
             },
             {
-              "version": "6.4.0.471",
-              "signature": 200071
+              "signature": 200071,
+              "version": "6.4.0.471"
             },
             {
-              "version": "6.4.1.587",
-              "signature": 200071
+              "signature": 200071,
+              "version": "6.4.1.587"
             },
             {
-              "version": "6.5.0.2465",
-              "signature": 200071
+              "signature": 200071,
+              "version": "6.5.0.2465"
             },
             {
-              "version": "6.6.0.4410",
-              "signature": 200071
+              "signature": 200071,
+              "version": "6.6.0.4410"
             },
             {
-              "version": "6.6.11.6052",
-              "signature": 200071
+              "signature": 200071,
+              "version": "6.6.11.6052"
             },
             {
-              "version": "6.7.0.6313",
-              "signature": 200071
+              "signature": 200071,
+              "version": "6.7.0.6313"
             },
             {
-              "version": "6.7.2.6498",
-              "signature": 200071
+              "signature": 200071,
+              "version": "6.7.2.6498"
             },
             {
-              "version": "7.0.0.1666",
-              "signature": 200071
+              "signature": 200071,
+              "version": "7.0.0.1666"
             }
           ],
           "labels": [
@@ -22130,12 +22130,12 @@ SUPPORT_CHARTS = {
           "id": 200205,
           "tested_points": [
             {
-              "version": "0.4.0",
-              "signature": 200224
+              "signature": 200224,
+              "version": "0.4.0"
             },
             {
-              "version": "0.3.1",
-              "signature": 200224
+              "signature": 200224,
+              "version": "0.3.1"
             }
           ],
           "labels": [],
@@ -22311,12 +22311,12 @@ SUPPORT_CHARTS = {
           "id": 200027,
           "tested_points": [
             {
-              "version": "3.0",
-              "signature": 200028
+              "signature": 200028,
+              "version": "3.0"
             },
             {
-              "version": "5.3.1",
-              "signature": 200028
+              "signature": 200028,
+              "version": "5.3.1"
             }
           ],
           "labels": [
@@ -22399,8 +22399,8 @@ SUPPORT_CHARTS = {
           "id": 200028,
           "tested_points": [
             {
-              "version": "4.0",
-              "signature": 200029
+              "signature": 200029,
+              "version": "4.0"
             }
           ],
           "labels": [
@@ -22434,12 +22434,12 @@ SUPPORT_CHARTS = {
           "id": 200198,
           "tested_points": [
             {
-              "version": "3.4.2",
-              "signature": 200217
+              "signature": 200217,
+              "version": "3.4.2"
             },
             {
-              "version": "0.0",
-              "signature": 200217
+              "signature": 200217,
+              "version": "0.0"
             }
           ],
           "labels": [],
@@ -22614,6 +22614,12 @@ SUPPORT_CHARTS = {
       "products": {},
       "name": "ARTIFICIAL_INTELLIGENCE"
     },
+    "22": {
+      "id": 22,
+      "methods": {},
+      "products": {},
+      "name": "SYSTEM_DIAGNOSTIC_AND_CLEANUP"
+    },
     "3": {
       "id": 3,
       "methods": {
@@ -22635,12 +22641,12 @@ SUPPORT_CHARTS = {
           "id": 200059,
           "tested_points": [
             {
-              "version": "3.1.108",
-              "signature": 200060
+              "signature": 200060,
+              "version": "3.1.108"
             },
             {
-              "version": "4.0.79",
-              "signature": 200060
+              "signature": 200060,
+              "version": "4.0.79"
             }
           ],
           "labels": [],
@@ -22805,44 +22811,44 @@ SUPPORT_CHARTS = {
           "id": 200063,
           "tested_points": [
             {
-              "version": "1.6.6",
-              "signature": 200064
-            },
-            {
-              "version": "2.0.2",
-              "signature": 200064
-            },
-            {
-              "version": "1.6.4",
-              "signature": 200064
-            },
-            {
-              "version": "1.7.4",
-              "signature": 200064
-            },
-            {
-              "version": "2.0.3",
-              "signature": 200064
-            },
-            {
-              "version": "2.2.2",
-              "signature": 200064
-            },
-            {
-              "version": "1.7.3",
-              "signature": 200064
-            },
-            {
-              "version": "2.4.2",
-              "signature": 200064
-            },
-            {
-              "version": "2.4.3",
-              "signature": 200064
-            },
-            {
-              "version": "2.8.4",
               "signature": 200064,
+              "version": "1.6.6"
+            },
+            {
+              "signature": 200064,
+              "version": "2.0.2"
+            },
+            {
+              "signature": 200064,
+              "version": "1.6.4"
+            },
+            {
+              "signature": 200064,
+              "version": "1.7.4"
+            },
+            {
+              "signature": 200064,
+              "version": "2.0.3"
+            },
+            {
+              "signature": 200064,
+              "version": "2.2.2"
+            },
+            {
+              "signature": 200064,
+              "version": "1.7.3"
+            },
+            {
+              "signature": 200064,
+              "version": "2.4.2"
+            },
+            {
+              "signature": 200064,
+              "version": "2.4.3"
+            },
+            {
+              "signature": 200064,
+              "version": "2.8.4",
               "release": "Beta"
             }
           ],
@@ -23025,12 +23031,12 @@ SUPPORT_CHARTS = {
           "id": 200066,
           "tested_points": [
             {
-              "version": "1.9.5",
-              "signature": 200067
+              "signature": 200067,
+              "version": "1.9.5"
             },
             {
-              "version": "1.9.2",
-              "signature": 200067
+              "signature": 200067,
+              "version": "1.9.2"
             }
           ],
           "labels": [],
@@ -23062,8 +23068,8 @@ SUPPORT_CHARTS = {
           "id": 200161,
           "tested_points": [
             {
-              "version": "0.0",
-              "signature": 200170
+              "signature": 200170,
+              "version": "0.0"
             }
           ],
           "labels": [],
@@ -23139,20 +23145,20 @@ SUPPORT_CHARTS = {
           "id": 200170,
           "tested_points": [
             {
-              "version": "1.0.7",
-              "signature": 200186
+              "signature": 200186,
+              "version": "1.0.7"
             },
             {
-              "version": "1.6.0",
-              "signature": 200186
+              "signature": 200186,
+              "version": "1.6.0"
             },
             {
-              "version": "1.8.1",
-              "signature": 200186
+              "signature": 200186,
+              "version": "1.8.1"
             },
             {
-              "version": "2511.3.1.0",
-              "signature": 200186
+              "signature": 200186,
+              "version": "2511.3.1.0"
             }
           ],
           "labels": [],
@@ -23263,188 +23269,188 @@ SUPPORT_CHARTS = {
           "id": 200001,
           "tested_points": [
             {
-              "version": "33.0",
-              "signature": 200002
+              "signature": 200002,
+              "version": "33.0"
             },
             {
-              "version": "34.0",
-              "signature": 200002
+              "signature": 200002,
+              "version": "34.0"
             },
             {
-              "version": "35.0",
-              "signature": 200002
+              "signature": 200002,
+              "version": "35.0"
             },
             {
-              "version": "36.0",
-              "signature": 200002
+              "signature": 200002,
+              "version": "36.0"
             },
             {
-              "version": "37.0",
-              "signature": 200002
+              "signature": 200002,
+              "version": "37.0"
             },
             {
-              "version": "38.0",
-              "signature": 200002
+              "signature": 200002,
+              "version": "38.0"
             },
             {
-              "version": "39.0",
-              "signature": 200002
+              "signature": 200002,
+              "version": "39.0"
             },
             {
-              "version": "40.0",
-              "signature": 200002
+              "signature": 200002,
+              "version": "40.0"
             },
             {
-              "version": "41.0",
-              "signature": 200002
+              "signature": 200002,
+              "version": "41.0"
             },
             {
-              "version": "100.0.4896.75",
-              "signature": 200002
+              "signature": 200002,
+              "version": "100.0.4896.75"
             },
             {
-              "version": "110.0.5481.177",
-              "signature": 200002
+              "signature": 200002,
+              "version": "110.0.5481.177"
             },
             {
-              "version": "111.0.5563.64",
-              "signature": 200002
+              "signature": 200002,
+              "version": "111.0.5563.64"
             },
             {
-              "version": "123.0.6312.58",
-              "signature": 200002
+              "signature": 200002,
+              "version": "123.0.6312.58"
             },
             {
-              "version": "124.0.6367.155",
-              "signature": 200002
+              "signature": 200002,
+              "version": "124.0.6367.155"
             },
             {
-              "version": "125.0.6422.60",
-              "signature": 200002
+              "signature": 200002,
+              "version": "125.0.6422.60"
             },
             {
-              "version": "125.0.6422.112",
-              "signature": 200002
+              "signature": 200002,
+              "version": "125.0.6422.112"
             },
             {
-              "version": "126.0.6478.55",
-              "signature": 200002
+              "signature": 200002,
+              "version": "126.0.6478.55"
             },
             {
-              "version": "126.0.6478.182",
-              "signature": 200002
+              "signature": 200002,
+              "version": "126.0.6478.182"
             },
             {
-              "version": "127.0.6533.72",
-              "signature": 200002
+              "signature": 200002,
+              "version": "127.0.6533.72"
             },
             {
-              "version": "128.0.6613.84",
-              "signature": 200002
+              "signature": 200002,
+              "version": "128.0.6613.84"
             },
             {
-              "version": "129.0.6668.58",
-              "signature": 200002
+              "signature": 200002,
+              "version": "129.0.6668.58"
             },
             {
-              "version": "130.0.6723.58",
-              "signature": 200002
+              "signature": 200002,
+              "version": "130.0.6723.58"
             },
             {
-              "version": "131.0.6778.69",
-              "signature": 200002
+              "signature": 200002,
+              "version": "131.0.6778.69"
             },
             {
-              "version": "132.0.6834.83",
-              "signature": 200002
+              "signature": 200002,
+              "version": "132.0.6834.83"
             },
             {
-              "version": "133.0.6943.53",
-              "signature": 200002
+              "signature": 200002,
+              "version": "133.0.6943.53"
             },
             {
-              "version": "134.0.6998.35",
-              "signature": 200002
+              "signature": 200002,
+              "version": "134.0.6998.35"
             },
             {
-              "version": "135.0.7049.52",
-              "signature": 200002
+              "signature": 200002,
+              "version": "135.0.7049.52"
             },
             {
-              "version": "136.0.7103.59",
-              "signature": 200002
+              "signature": 200002,
+              "version": "136.0.7103.59"
             },
             {
-              "version": "136.0.7103.113",
-              "signature": 200002
+              "signature": 200002,
+              "version": "136.0.7103.113"
             },
             {
-              "version": "137.0.7151.55",
-              "signature": 200002
+              "signature": 200002,
+              "version": "137.0.7151.55"
             },
             {
-              "version": "138.0.7204.49",
-              "signature": 200002
+              "signature": 200002,
+              "version": "138.0.7204.49"
             },
             {
-              "version": "139.0.7258.66",
-              "signature": 200002
+              "signature": 200002,
+              "version": "139.0.7258.66"
             },
             {
-              "version": "140.0.7339.80",
-              "signature": 200002
+              "signature": 200002,
+              "version": "140.0.7339.80"
             },
             {
-              "version": "141.0.7390.54",
-              "signature": 200002
+              "signature": 200002,
+              "version": "141.0.7390.54"
             },
             {
-              "version": "142.0.7444.59",
-              "signature": 200002
+              "signature": 200002,
+              "version": "142.0.7444.59"
             },
             {
-              "version": "143.0.7499.169",
-              "signature": 200002
+              "signature": 200002,
+              "version": "143.0.7499.169"
             },
             {
-              "version": "143.0.7499.192",
-              "signature": 200002
+              "signature": 200002,
+              "version": "143.0.7499.192"
             },
             {
-              "version": "144.0.7559.59",
-              "signature": 200002
+              "signature": 200002,
+              "version": "144.0.7559.59"
             },
             {
-              "version": "144.0.7559.96",
-              "signature": 200002
+              "signature": 200002,
+              "version": "144.0.7559.96"
             },
             {
-              "version": "144.0.7559.109",
-              "signature": 200002
+              "signature": 200002,
+              "version": "144.0.7559.109"
             },
             {
-              "version": "145.0.7632.45",
-              "signature": 200002
+              "signature": 200002,
+              "version": "145.0.7632.45"
             },
             {
-              "version": "145.0.7632.67",
-              "signature": 200002
+              "signature": 200002,
+              "version": "145.0.7632.67"
             },
             {
-              "version": "146.0.7680.164",
-              "signature": 200002
+              "signature": 200002,
+              "version": "146.0.7680.164"
             },
             {
-              "version": "145.0.7632.116",
-              "signature": 200002
+              "signature": 200002,
+              "version": "145.0.7632.116"
             },
             {
-              "version": "147.0.7727.55",
-              "signature": 200002
+              "signature": 200002,
+              "version": "147.0.7727.55"
             },
             {
-              "version": "147.0.7727.101",
-              "signature": 200002
+              "signature": 200002,
+              "version": "147.0.7727.101"
             }
           ],
           "labels": [],
@@ -23583,316 +23589,324 @@ SUPPORT_CHARTS = {
           "id": 200002,
           "tested_points": [
             {
-              "version": "1.5.0",
-              "signature": 200003
+              "signature": 200003,
+              "version": "1.5.0"
             },
             {
-              "version": "2.0",
-              "signature": 200003
+              "signature": 200003,
+              "version": "2.0"
             },
             {
-              "version": "3.0",
-              "signature": 200003
+              "signature": 200003,
+              "version": "3.0"
             },
             {
-              "version": "32.0",
-              "signature": 200003
+              "signature": 200003,
+              "version": "32.0"
             },
             {
-              "version": "34.0",
-              "signature": 200003
+              "signature": 200003,
+              "version": "34.0"
             },
             {
-              "version": "35.0",
-              "signature": 200003
+              "signature": 200003,
+              "version": "35.0"
             },
             {
-              "version": "4.0",
-              "signature": 200003
+              "signature": 200003,
+              "version": "4.0"
             },
             {
-              "version": "38.0.5",
-              "signature": 200003
+              "signature": 200003,
+              "version": "38.0.5"
             },
             {
-              "version": "28.0",
-              "signature": 200003
+              "signature": 200003,
+              "version": "28.0"
             },
             {
-              "version": "52.2.0",
-              "signature": 200003
+              "signature": 200003,
+              "version": "52.2.0"
             },
             {
-              "version": "60.0",
-              "signature": 200003
+              "signature": 200003,
+              "version": "60.0"
             },
             {
-              "version": "73.0",
-              "signature": 200003
+              "signature": 200003,
+              "version": "73.0"
             },
             {
-              "version": "110.0.1",
-              "signature": 200003
+              "signature": 200003,
+              "version": "110.0.1"
             },
             {
-              "version": "111.0.1",
-              "signature": 200003
+              "signature": 200003,
+              "version": "111.0.1"
             },
             {
-              "version": "113.0",
-              "signature": 200003
+              "signature": 200003,
+              "version": "113.0"
             },
             {
-              "version": "112.0",
-              "signature": 200003
+              "signature": 200003,
+              "version": "112.0"
             },
             {
-              "version": "102.10.0",
-              "signature": 200003
+              "signature": 200003,
+              "version": "102.10.0"
             },
             {
-              "version": "113.0.1",
-              "signature": 200003
+              "signature": 200003,
+              "version": "113.0.1"
             },
             {
-              "version": "116.0",
-              "signature": 200003
+              "signature": 200003,
+              "version": "116.0"
             },
             {
-              "version": "117.0",
-              "signature": 200003
+              "signature": 200003,
+              "version": "117.0"
             },
             {
-              "version": "79.0",
-              "signature": 200003
+              "signature": 200003,
+              "version": "79.0"
             },
             {
-              "version": "124.0.2",
-              "signature": 200003
+              "signature": 200003,
+              "version": "124.0.2"
             },
             {
-              "version": "125.0",
-              "signature": 200003
+              "signature": 200003,
+              "version": "125.0"
             },
             {
-              "version": "125.0.3",
-              "signature": 200003
+              "signature": 200003,
+              "version": "125.0.3"
             },
             {
-              "version": "126.0",
-              "signature": 200003
+              "signature": 200003,
+              "version": "126.0"
             },
             {
-              "version": "126.0.1",
-              "signature": 200003
+              "signature": 200003,
+              "version": "126.0.1"
             },
             {
-              "version": "127.0",
-              "signature": 200003
+              "signature": 200003,
+              "version": "127.0"
             },
             {
-              "version": "127.0.1",
-              "signature": 200003
+              "signature": 200003,
+              "version": "127.0.1"
             },
             {
-              "version": "127.0.2",
-              "signature": 200003
+              "signature": 200003,
+              "version": "127.0.2"
             },
             {
-              "version": "128.0",
-              "signature": 200003
+              "signature": 200003,
+              "version": "128.0"
             },
             {
-              "version": "128.0.3",
-              "signature": 200003
+              "signature": 200003,
+              "version": "128.0.3"
             },
             {
-              "version": "129.0.1",
-              "signature": 200003
+              "signature": 200003,
+              "version": "129.0.1"
             },
             {
-              "version": "129.0.2",
-              "signature": 200003
+              "signature": 200003,
+              "version": "129.0.2"
             },
             {
-              "version": "130.0",
-              "signature": 200003
+              "signature": 200003,
+              "version": "130.0"
             },
             {
-              "version": "130.0.1",
-              "signature": 200003
+              "signature": 200003,
+              "version": "130.0.1"
             },
             {
-              "version": "131.0",
-              "signature": 200003
+              "signature": 200003,
+              "version": "131.0"
             },
             {
-              "version": "131.0.2",
-              "signature": 200003
+              "signature": 200003,
+              "version": "131.0.2"
             },
             {
-              "version": "131.0.3",
-              "signature": 200003
+              "signature": 200003,
+              "version": "131.0.3"
             },
             {
-              "version": "132.0",
-              "signature": 200003
+              "signature": 200003,
+              "version": "132.0"
             },
             {
-              "version": "132.0.1",
-              "signature": 200003
+              "signature": 200003,
+              "version": "132.0.1"
             },
             {
-              "version": "132.0.2",
-              "signature": 200003
+              "signature": 200003,
+              "version": "132.0.2"
             },
             {
-              "version": "133.0",
-              "signature": 200003
+              "signature": 200003,
+              "version": "133.0"
             },
             {
-              "version": "133.0.3",
-              "signature": 200003
+              "signature": 200003,
+              "version": "133.0.3"
             },
             {
-              "version": "134.0",
-              "signature": 200003
+              "signature": 200003,
+              "version": "134.0"
             },
             {
-              "version": "134.0.1",
-              "signature": 200003
+              "signature": 200003,
+              "version": "134.0.1"
             },
             {
-              "version": "134.0.2",
-              "signature": 200003
+              "signature": 200003,
+              "version": "134.0.2"
             },
             {
-              "version": "135.0",
-              "signature": 200003
+              "signature": 200003,
+              "version": "135.0"
             },
             {
-              "version": "135.0.1",
-              "signature": 200003
+              "signature": 200003,
+              "version": "135.0.1"
             },
             {
-              "version": "136.0",
-              "signature": 200003
+              "signature": 200003,
+              "version": "136.0"
             },
             {
-              "version": "136.0.1",
-              "signature": 200003
+              "signature": 200003,
+              "version": "136.0.1"
             },
             {
-              "version": "136.0.2",
-              "signature": 200003
+              "signature": 200003,
+              "version": "136.0.2"
             },
             {
-              "version": "136.0.3",
-              "signature": 200003
+              "signature": 200003,
+              "version": "136.0.3"
             },
             {
-              "version": "136.0.4",
-              "signature": 200003
+              "signature": 200003,
+              "version": "136.0.4"
             },
             {
-              "version": "137.0",
-              "signature": 200003
+              "signature": 200003,
+              "version": "137.0"
             },
             {
-              "version": "137.0.1",
-              "signature": 200003
+              "signature": 200003,
+              "version": "137.0.1"
             },
             {
-              "version": "137.0.2",
-              "signature": 200003
+              "signature": 200003,
+              "version": "137.0.2"
             },
             {
-              "version": "138.0",
-              "signature": 200003
+              "signature": 200003,
+              "version": "138.0"
             },
             {
-              "version": "138.0.1",
-              "signature": 200003
+              "signature": 200003,
+              "version": "138.0.1"
             },
             {
-              "version": "138.0.3",
-              "signature": 200003
+              "signature": 200003,
+              "version": "138.0.3"
             },
             {
-              "version": "138.0.4",
-              "signature": 200003
+              "signature": 200003,
+              "version": "138.0.4"
             },
             {
-              "version": "139.0",
-              "signature": 200003
+              "signature": 200003,
+              "version": "139.0"
             },
             {
-              "version": "140.0",
-              "signature": 200003
+              "signature": 200003,
+              "version": "140.0"
             },
             {
-              "version": "141.0",
-              "signature": 200003
+              "signature": 200003,
+              "version": "141.0"
             },
             {
-              "version": "141.0.2",
-              "signature": 200003
+              "signature": 200003,
+              "version": "141.0.2"
             },
             {
-              "version": "142.0",
-              "signature": 200003
+              "signature": 200003,
+              "version": "142.0"
             },
             {
-              "version": "143.0",
-              "signature": 200003
+              "signature": 200003,
+              "version": "143.0"
             },
             {
-              "version": "143.0.1",
-              "signature": 200003
+              "signature": 200003,
+              "version": "143.0.1"
             },
             {
-              "version": "143.0.3",
-              "signature": 200003
+              "signature": 200003,
+              "version": "143.0.3"
             },
             {
-              "version": "144.0",
-              "signature": 200003
+              "signature": 200003,
+              "version": "144.0"
             },
             {
-              "version": "144.0.2",
-              "signature": 200003
+              "signature": 200003,
+              "version": "144.0.2"
             },
             {
-              "version": "145.0",
-              "signature": 200003
+              "signature": 200003,
+              "version": "145.0"
             },
             {
-              "version": "145.0.1",
-              "signature": 200003
+              "signature": 200003,
+              "version": "145.0.1"
             },
             {
-              "version": "145.0.2",
-              "signature": 200003
+              "signature": 200003,
+              "version": "145.0.2"
             },
             {
-              "version": "146.0",
-              "signature": 200003
+              "signature": 200003,
+              "version": "146.0"
             },
             {
-              "version": "147.0.1",
-              "signature": 200003
+              "signature": 200003,
+              "version": "147.0.1"
             },
             {
-              "version": "147.0.2",
-              "signature": 200003
+              "signature": 200003,
+              "version": "147.0.2"
             },
             {
-              "version": "147.0.3",
-              "signature": 200003
+              "signature": 200003,
+              "version": "147.0.3"
             },
             {
-              "version": "149.0",
-              "signature": 200003
+              "signature": 200003,
+              "version": "149.0"
+            },
+            {
+              "signature": 200003,
+              "version": "150.0"
+            },
+            {
+              "signature": 200003,
+              "version": "149.0.2"
             }
           ],
           "labels": [],
@@ -24101,16 +24115,16 @@ SUPPORT_CHARTS = {
           "id": 200072,
           "tested_points": [
             {
-              "version": "11.0.0",
-              "signature": 200073
+              "signature": 200073,
+              "version": "11.0.0"
             },
             {
-              "version": "12.0.0",
-              "signature": 200073
+              "signature": 200073,
+              "version": "12.0.0"
             },
             {
-              "version": "20.0.0",
-              "signature": 200073
+              "signature": 200073,
+              "version": "20.0.0"
             }
           ],
           "labels": [],
@@ -24437,80 +24451,80 @@ SUPPORT_CHARTS = {
           "id": 200137,
           "tested_points": [
             {
-              "version": "68.9.0",
-              "signature": 200146
+              "signature": 200146,
+              "version": "68.9.0"
             },
             {
-              "version": "115.14.0",
-              "signature": 200146
+              "signature": 200146,
+              "version": "115.14.0"
             },
             {
-              "version": "128.1.0",
-              "signature": 200146
+              "signature": 200146,
+              "version": "128.1.0"
             },
             {
-              "version": "115.15.0",
-              "signature": 200146
+              "signature": 200146,
+              "version": "115.15.0"
             },
             {
-              "version": "128.2.0",
-              "signature": 200146
+              "signature": 200146,
+              "version": "128.2.0"
             },
             {
-              "version": "102.3.0",
-              "signature": 200146
+              "signature": 200146,
+              "version": "102.3.0"
             },
             {
-              "version": "128.3.0",
-              "signature": 200146
+              "signature": 200146,
+              "version": "128.3.0"
             },
             {
-              "version": "128.3.1",
-              "signature": 200146
+              "signature": 200146,
+              "version": "128.3.1"
             },
             {
-              "version": "128.4.0",
-              "signature": 200146
+              "signature": 200146,
+              "version": "128.4.0"
             },
             {
-              "version": "128.5.0",
-              "signature": 200146
+              "signature": 200146,
+              "version": "128.5.0"
             },
             {
-              "version": "128.5.1",
-              "signature": 200146
+              "signature": 200146,
+              "version": "128.5.1"
             },
             {
-              "version": "128.6.0",
-              "signature": 200146
+              "signature": 200146,
+              "version": "128.6.0"
             },
             {
-              "version": "128.7.0",
-              "signature": 200146
+              "signature": 200146,
+              "version": "128.7.0"
             },
             {
-              "version": "128.8.0",
-              "signature": 200146
+              "signature": 200146,
+              "version": "128.8.0"
             },
             {
-              "version": "128.8.1",
-              "signature": 200146
+              "signature": 200146,
+              "version": "128.8.1"
             },
             {
-              "version": "128.9.0",
-              "signature": 200146
+              "signature": 200146,
+              "version": "128.9.0"
             },
             {
-              "version": "128.10.0",
-              "signature": 200146
+              "signature": 200146,
+              "version": "128.10.0"
             },
             {
-              "version": "140.3.0",
-              "signature": 200146
+              "signature": 200146,
+              "version": "140.3.0"
             },
             {
-              "version": "128.14.0",
-              "signature": 200146
+              "signature": 200146,
+              "version": "128.14.0"
             }
           ],
           "labels": [],
@@ -24827,8 +24841,8 @@ SUPPORT_CHARTS = {
           "id": 200225,
           "tested_points": [
             {
-              "version": "2.108.0",
-              "signature": 200244
+              "signature": 200244,
+              "version": "2.108.0"
             }
           ],
           "labels": [],
@@ -24966,8 +24980,8 @@ SUPPORT_CHARTS = {
           "id": 200004,
           "tested_points": [
             {
-              "version": "4.0",
-              "signature": 200005
+              "signature": 200005,
+              "version": "4.0"
             }
           ],
           "labels": [],
@@ -25158,8 +25172,8 @@ SUPPORT_CHARTS = {
           "id": 200005,
           "tested_points": [
             {
-              "version": "1.0",
-              "signature": 200006
+              "signature": 200006,
+              "version": "1.0"
             }
           ],
           "labels": [],
@@ -25300,16 +25314,16 @@ SUPPORT_CHARTS = {
           "id": 200006,
           "tested_points": [
             {
-              "version": "13.0",
-              "signature": 200007
+              "signature": 200007,
+              "version": "13.0"
             },
             {
-              "version": "2013.3118",
-              "signature": 200007
+              "signature": 200007,
+              "version": "2013.3118"
             },
             {
-              "version": "13.0.3118",
-              "signature": 200007
+              "signature": 200007,
+              "version": "13.0.3118"
             }
           ],
           "labels": [],
@@ -25573,12 +25587,12 @@ SUPPORT_CHARTS = {
           "id": 200007,
           "tested_points": [
             {
-              "version": "2.0",
-              "signature": 200008
+              "signature": 200008,
+              "version": "2.0"
             },
             {
-              "version": "3.0",
-              "signature": 200008
+              "signature": 200008,
+              "version": "3.0"
             }
           ],
           "labels": [],
@@ -25777,8 +25791,8 @@ SUPPORT_CHARTS = {
           "id": 200008,
           "tested_points": [
             {
-              "version": "1.0",
-              "signature": 200009
+              "signature": 200009,
+              "version": "1.0"
             }
           ],
           "labels": [],
@@ -25810,16 +25824,16 @@ SUPPORT_CHARTS = {
           "id": 200009,
           "tested_points": [
             {
-              "version": "0.99.2",
-              "signature": 200010
+              "signature": 200010,
+              "version": "0.99.2"
             },
             {
-              "version": "0.104.2",
-              "signature": 200010
+              "signature": 200010,
+              "version": "0.104.2"
             },
             {
-              "version": "0.0",
-              "signature": 200010
+              "signature": 200010,
+              "version": "0.0"
             }
           ],
           "labels": [],
@@ -26100,12 +26114,12 @@ SUPPORT_CHARTS = {
           "id": 200010,
           "tested_points": [
             {
-              "version": "6.0",
-              "signature": 200011
+              "signature": 200011,
+              "version": "6.0"
             },
             {
-              "version": "11.1",
-              "signature": 200011
+              "signature": 200011,
+              "version": "11.1"
             }
           ],
           "labels": [],
@@ -26300,20 +26314,20 @@ SUPPORT_CHARTS = {
           "id": 200011,
           "tested_points": [
             {
-              "version": "4.5.0",
-              "signature": 200012
+              "signature": 200012,
+              "version": "4.5.0"
             },
             {
-              "version": "4.65.0",
-              "signature": 200012
+              "signature": 200012,
+              "version": "4.65.0"
             },
             {
-              "version": "5.0",
-              "signature": 200012
+              "signature": 200012,
+              "version": "5.0"
             },
             {
-              "version": "7.0",
-              "signature": 200012
+              "signature": 200012,
+              "version": "7.0"
             }
           ],
           "labels": [],
@@ -26345,12 +26359,12 @@ SUPPORT_CHARTS = {
           "id": 200012,
           "tested_points": [
             {
-              "version": "4.0",
-              "signature": 200013
+              "signature": 200013,
+              "version": "4.0"
             },
             {
-              "version": "6.0",
-              "signature": 200013
+              "signature": 200013,
+              "version": "6.0"
             }
           ],
           "labels": [],
@@ -26439,12 +26453,12 @@ SUPPORT_CHARTS = {
           "id": 200013,
           "tested_points": [
             {
-              "version": "7.0",
-              "signature": 200014
+              "signature": 200014,
+              "version": "7.0"
             },
             {
-              "version": "8.0",
-              "signature": 200014
+              "signature": 200014,
+              "version": "8.0"
             }
           ],
           "labels": [],
@@ -26476,12 +26490,12 @@ SUPPORT_CHARTS = {
           "id": 200014,
           "tested_points": [
             {
-              "version": "5.0",
-              "signature": 200015
+              "signature": 200015,
+              "version": "5.0"
             },
             {
-              "version": "5.7",
-              "signature": 200015
+              "signature": 200015,
+              "version": "5.7"
             }
           ],
           "labels": [],
@@ -26577,8 +26591,8 @@ SUPPORT_CHARTS = {
           "id": 200015,
           "tested_points": [
             {
-              "version": "8.0",
-              "signature": 200016
+              "signature": 200016,
+              "version": "8.0"
             }
           ],
           "labels": [],
@@ -26654,24 +26668,24 @@ SUPPORT_CHARTS = {
           "id": 200016,
           "tested_points": [
             {
-              "version": "8.0",
-              "signature": 200017
+              "signature": 200017,
+              "version": "8.0"
             },
             {
-              "version": "11.1.0",
-              "signature": 200017
+              "signature": 200017,
+              "version": "11.1.0"
             },
             {
-              "version": "11.2.0",
-              "signature": 200017
+              "signature": 200017,
+              "version": "11.2.0"
             },
             {
-              "version": "12.0.0",
-              "signature": 200017
+              "signature": 200017,
+              "version": "12.0.0"
             },
             {
-              "version": "12.3.0",
-              "signature": 200017
+              "signature": 200017,
+              "version": "12.3.0"
             }
           ],
           "labels": [],
@@ -27213,8 +27227,8 @@ SUPPORT_CHARTS = {
           "id": 200017,
           "tested_points": [
             {
-              "version": "1.0",
-              "signature": 200018
+              "signature": 200018,
+              "version": "1.0"
             }
           ],
           "labels": [],
@@ -27246,8 +27260,8 @@ SUPPORT_CHARTS = {
           "id": 200018,
           "tested_points": [
             {
-              "version": "5.0",
-              "signature": 200019
+              "signature": 200019,
+              "version": "5.0"
             }
           ],
           "labels": [],
@@ -27279,22 +27293,22 @@ SUPPORT_CHARTS = {
           "id": 200019,
           "tested_points": [
             {
-              "version": "1.0",
-              "signature": 200020
+              "signature": 200020,
+              "version": "1.0"
             },
             {
               "certification": "platinum",
-              "version": "2.0",
-              "signature": 200020
+              "signature": 200020,
+              "version": "2.0"
             },
             {
               "certification": "platinum",
-              "version": "2.0.3.29216",
-              "signature": 200020
+              "signature": 200020,
+              "version": "2.0.3.29216"
             },
             {
-              "version": "0.0",
-              "signature": 200020
+              "signature": 200020,
+              "version": "0.0"
             }
           ],
           "labels": [],
@@ -27494,12 +27508,12 @@ SUPPORT_CHARTS = {
           "id": 200020,
           "tested_points": [
             {
-              "version": "2.0",
-              "signature": 200021
+              "signature": 200021,
+              "version": "2.0"
             },
             {
-              "version": "7.0.22",
-              "signature": 200021
+              "signature": 200021,
+              "version": "7.0.22"
             }
           ],
           "labels": [],
@@ -27551,12 +27565,12 @@ SUPPORT_CHARTS = {
           "id": 200021,
           "tested_points": [
             {
-              "version": "9.0",
-              "signature": 200022
+              "signature": 200022,
+              "version": "9.0"
             },
             {
-              "version": "9.04.03.0001",
-              "signature": 200022
+              "signature": 200022,
+              "version": "9.04.03.0001"
             }
           ],
           "labels": [],
@@ -27706,8 +27720,8 @@ SUPPORT_CHARTS = {
           "id": 200022,
           "tested_points": [
             {
-              "version": "1.0",
-              "signature": 200023
+              "signature": 200023,
+              "version": "1.0"
             }
           ],
           "labels": [],
@@ -27739,8 +27753,8 @@ SUPPORT_CHARTS = {
           "id": 200023,
           "tested_points": [
             {
-              "version": "11.0",
-              "signature": 200024
+              "signature": 200024,
+              "version": "11.0"
             }
           ],
           "labels": [],
@@ -27772,20 +27786,20 @@ SUPPORT_CHARTS = {
           "id": 200024,
           "tested_points": [
             {
-              "version": "7.0",
-              "signature": 200025
+              "signature": 200025,
+              "version": "7.0"
             },
             {
-              "version": "7.6-4",
-              "signature": 200025
+              "signature": 200025,
+              "version": "7.6-4"
             },
             {
-              "version": "1.0-4",
-              "signature": 200025
+              "signature": 200025,
+              "version": "1.0-4"
             },
             {
-              "version": "7.7.1-1809",
-              "signature": 200025
+              "signature": 200025,
+              "version": "7.7.1-1809"
             }
           ],
           "labels": [],
@@ -27869,48 +27883,48 @@ SUPPORT_CHARTS = {
           "id": 200025,
           "tested_points": [
             {
-              "version": "3.0",
-              "signature": 200026
+              "signature": 200026,
+              "version": "3.0"
             },
             {
-              "version": "4.0",
-              "signature": 200026
+              "signature": 200026,
+              "version": "4.0"
             },
             {
-              "version": "5.0",
-              "signature": 200026
+              "signature": 200026,
+              "version": "5.0"
             },
             {
-              "version": "6.0",
-              "signature": 200026
+              "signature": 200026,
+              "version": "6.0"
             },
             {
-              "version": "7.0",
-              "signature": 200026
+              "signature": 200026,
+              "version": "7.0"
             },
             {
-              "version": "8.0",
-              "signature": 200026
+              "signature": 200026,
+              "version": "8.0"
             },
             {
-              "version": "9.0",
-              "signature": 200026
+              "signature": 200026,
+              "version": "9.0"
             },
             {
-              "version": "9.14.2",
-              "signature": 200026
+              "signature": 200026,
+              "version": "9.14.2"
             },
             {
-              "version": "9.15.1",
-              "signature": 200026
+              "signature": 200026,
+              "version": "9.15.1"
             },
             {
-              "version": "10.5.0",
-              "signature": 200026
+              "signature": 200026,
+              "version": "10.5.0"
             },
             {
-              "version": "9.17.3",
-              "signature": 200026
+              "signature": 200026,
+              "version": "9.17.3"
             }
           ],
           "labels": [],
@@ -28277,18 +28291,18 @@ SUPPORT_CHARTS = {
           "id": 200026,
           "tested_points": [
             {
-              "version": "1.0",
-              "signature": 200027
-            },
-            {
-              "certification": "gold",
-              "version": "14.2.1031",
-              "signature": 200027
-            },
-            {
-              "certification": "gold",
-              "version": "14.3.1169.0100",
               "signature": 200027,
+              "version": "1.0"
+            },
+            {
+              "certification": "gold",
+              "signature": 200027,
+              "version": "14.2.1031"
+            },
+            {
+              "certification": "gold",
+              "signature": 200027,
+              "version": "14.3.1169.0100",
               "release": "14.3 MP1"
             }
           ],
@@ -28480,28 +28494,28 @@ SUPPORT_CHARTS = {
           "tested_points": [
             {
               "certification": "platinum",
-              "version": "10.0",
-              "signature": 200052
+              "signature": 200052,
+              "version": "10.0"
             },
             {
               "certification": "platinum",
-              "version": "10.2.0-534",
-              "signature": 200052
+              "signature": 200052,
+              "version": "10.2.0-534"
             },
             {
               "certification": "platinum",
-              "version": "10.5.2",
-              "signature": 200052
+              "signature": 200052,
+              "version": "10.5.2"
             },
             {
               "certification": "platinum",
-              "version": "10.7.5-109",
-              "signature": 200052
+              "signature": 200052,
+              "version": "10.7.5-109"
             },
             {
               "certification": "platinum",
-              "version": "10.7.16-27",
-              "signature": 200052
+              "signature": 200052,
+              "version": "10.7.16-27"
             }
           ],
           "labels": [],
@@ -28950,8 +28964,8 @@ SUPPORT_CHARTS = {
           "id": 200053,
           "tested_points": [
             {
-              "version": "6.3.2.5000",
-              "signature": 200054
+              "signature": 200054,
+              "version": "6.3.2.5000"
             }
           ],
           "labels": [],
@@ -28983,326 +28997,326 @@ SUPPORT_CHARTS = {
           "id": 200054,
           "tested_points": [
             {
-              "version": "1.8.4.797",
-              "signature": 200055
+              "signature": 200055,
+              "version": "1.8.4.797"
             },
             {
               "certification": "gold",
-              "version": "2.0.3.1029",
-              "signature": 200055
+              "signature": 200055,
+              "version": "2.0.3.1029"
             },
             {
               "certification": "gold",
-              "version": "2.6.1.1390",
-              "signature": 200055
+              "signature": 200055,
+              "version": "2.6.1.1390"
             },
             {
               "certification": "gold",
-              "version": "3.0.8",
-              "signature": 200055
+              "signature": 200055,
+              "version": "3.0.8"
             },
             {
               "certification": "gold",
-              "version": "3.0.9",
-              "signature": 200055
+              "signature": 200055,
+              "version": "3.0.9"
             },
             {
               "certification": "gold",
-              "version": "3.4.3.10",
-              "signature": 200055
+              "signature": 200055,
+              "version": "3.4.3.10"
             },
             {
               "certification": "gold",
-              "version": "3.5.1.9",
-              "signature": 200055
+              "signature": 200055,
+              "version": "3.5.1.9"
             },
             {
               "certification": "gold",
-              "version": "4.1.1.3",
-              "signature": 200055
+              "signature": 200055,
+              "version": "4.1.1.3"
             },
             {
               "certification": "gold",
-              "version": "4.0.3.11",
-              "signature": 200055
+              "signature": 200055,
+              "version": "4.0.3.11"
             },
             {
               "certification": "gold",
-              "version": "4.0.4.9",
-              "signature": 200055
+              "signature": 200055,
+              "version": "4.0.4.9"
             },
             {
               "certification": "gold",
-              "version": "4.1.3.3",
-              "signature": 200055
+              "signature": 200055,
+              "version": "4.1.3.3"
             },
             {
               "certification": "gold",
-              "version": "4.2.1.6",
-              "signature": 200055
+              "signature": 200055,
+              "version": "4.2.1.6"
             },
             {
               "certification": "gold",
-              "version": "4.2.2.4",
-              "signature": 200055
+              "signature": 200055,
+              "version": "4.2.2.4"
             },
             {
               "certification": "gold",
-              "version": "4.4.1.5",
-              "signature": 200055
+              "signature": 200055,
+              "version": "4.4.1.5"
             },
             {
               "certification": "gold",
-              "version": "4.3.3.1",
-              "signature": 200055
+              "signature": 200055,
+              "version": "4.3.3.1"
             },
             {
               "certification": "gold",
-              "version": "4.4.2.3",
-              "signature": 200055
+              "signature": 200055,
+              "version": "4.4.2.3"
             },
             {
               "certification": "gold",
-              "version": "4.5.1.2",
-              "signature": 200055
+              "signature": 200055,
+              "version": "4.5.1.2"
             },
             {
               "certification": "gold",
-              "version": "4.5.2.4",
-              "signature": 200055
+              "signature": 200055,
+              "version": "4.5.2.4"
             },
             {
               "certification": "gold",
-              "version": "4.5.3.2",
-              "signature": 200055
+              "signature": 200055,
+              "version": "4.5.3.2"
             },
             {
               "certification": "gold",
-              "version": "4.6.1.6",
-              "signature": 200055
+              "signature": 200055,
+              "version": "4.6.1.6"
             },
             {
               "certification": "gold",
-              "version": "4.6.2.6",
-              "signature": 200055
+              "signature": 200055,
+              "version": "4.6.2.6"
             },
             {
               "certification": "gold",
-              "version": "4.6.3.1",
-              "signature": 200055
+              "signature": 200055,
+              "version": "4.6.3.1"
             },
             {
               "certification": "gold",
-              "version": "4.6.4.6",
-              "signature": 200055
+              "signature": 200055,
+              "version": "4.6.4.6"
             },
             {
               "certification": "gold",
-              "version": "4.6.11.5",
-              "signature": 200055
+              "signature": 200055,
+              "version": "4.6.11.5"
             },
             {
-              "version": "5.0.1.3",
-              "signature": 200055
-            },
-            {
-              "certification": "gold",
-              "version": "21.5.2.8",
-              "signature": 200055
+              "signature": 200055,
+              "version": "5.0.1.3"
             },
             {
               "certification": "gold",
-              "version": "21.5.3.2",
-              "signature": 200055
+              "signature": 200055,
+              "version": "21.5.2.8"
             },
             {
               "certification": "gold",
-              "version": "21.6.1.3",
-              "signature": 200055
+              "signature": 200055,
+              "version": "21.5.3.2"
             },
             {
               "certification": "gold",
-              "version": "21.6.2.5",
-              "signature": 200055
+              "signature": 200055,
+              "version": "21.6.1.3"
             },
             {
               "certification": "gold",
-              "version": "21.6.3.7",
-              "signature": 200055
+              "signature": 200055,
+              "version": "21.6.2.5"
             },
             {
               "certification": "gold",
-              "version": "21.7.1.10",
-              "signature": 200055
+              "signature": 200055,
+              "version": "21.6.3.7"
             },
             {
               "certification": "gold",
-              "version": "21.7.2.5",
-              "signature": 200055
+              "signature": 200055,
+              "version": "21.7.1.10"
             },
             {
               "certification": "gold",
-              "version": "21.7.3.6",
-              "signature": 200055
+              "signature": 200055,
+              "version": "21.7.2.5"
             },
             {
               "certification": "gold",
-              "version": "21.10.1.6",
-              "signature": 200055
+              "signature": 200055,
+              "version": "21.7.3.6"
             },
             {
               "certification": "gold",
-              "version": "21.10.2.12",
-              "signature": 200055
+              "signature": 200055,
+              "version": "21.10.1.6"
             },
             {
               "certification": "gold",
-              "version": "21.10.3.3",
-              "signature": 200055
+              "signature": 200055,
+              "version": "21.10.2.12"
             },
             {
               "certification": "gold",
-              "version": "21.7.4.22",
-              "signature": 200055
+              "signature": 200055,
+              "version": "21.10.3.3"
             },
             {
               "certification": "gold",
-              "version": "21.10.4.9",
-              "signature": 200055
+              "signature": 200055,
+              "version": "21.7.4.22"
             },
             {
               "certification": "gold",
-              "version": "22.1.1.4",
-              "signature": 200055
+              "signature": 200055,
+              "version": "21.10.4.9"
             },
             {
               "certification": "gold",
-              "version": "22.1.1.4",
-              "signature": 200055
+              "signature": 200055,
+              "version": "22.1.1.4"
             },
             {
               "certification": "gold",
-              "version": "22.1.2.7",
-              "signature": 200055
+              "signature": 200055,
+              "version": "22.1.1.4"
             },
             {
               "certification": "gold",
-              "version": "22.2.1.3",
-              "signature": 200055
+              "signature": 200055,
+              "version": "22.1.2.7"
             },
             {
               "certification": "gold",
-              "version": "22.2.2.2",
-              "signature": 200055
+              "signature": 200055,
+              "version": "22.2.1.3"
             },
             {
               "certification": "gold",
-              "version": "22.3.1.7",
-              "signature": 200055
+              "signature": 200055,
+              "version": "22.2.2.2"
             },
             {
               "certification": "gold",
-              "version": "22.3.2.5",
-              "signature": 200055
+              "signature": 200055,
+              "version": "22.3.1.7"
             },
             {
               "certification": "gold",
-              "version": "22.3.3.11",
-              "signature": 200055
+              "signature": 200055,
+              "version": "22.3.2.5"
             },
             {
               "certification": "gold",
-              "version": "22.4.1.2",
-              "signature": 200055
+              "signature": 200055,
+              "version": "22.3.3.11"
             },
             {
               "certification": "gold",
-              "version": "22.4.2.4",
-              "signature": 200055
+              "signature": 200055,
+              "version": "22.4.1.2"
             },
             {
-              "version": "23.1.1.7",
-              "signature": 200055
+              "certification": "gold",
+              "signature": 200055,
+              "version": "22.4.2.4"
             },
             {
-              "version": "23.1.2.9",
-              "signature": 200055
+              "signature": 200055,
+              "version": "23.1.1.7"
             },
             {
-              "version": "23.2.1.2",
-              "signature": 200055
+              "signature": 200055,
+              "version": "23.1.2.9"
             },
             {
-              "version": "23.2.2.4",
-              "signature": 200055
+              "signature": 200055,
+              "version": "23.2.1.2"
             },
             {
-              "version": "23.3.1.7",
-              "signature": 200055
+              "signature": 200055,
+              "version": "23.2.2.4"
             },
             {
-              "version": "23.3.2.12",
-              "signature": 200055
+              "signature": 200055,
+              "version": "23.3.1.7"
             },
             {
-              "version": "23.4.1.4",
-              "signature": 200055
+              "signature": 200055,
+              "version": "23.3.2.12"
             },
             {
-              "version": "23.4.2.14",
-              "signature": 200055
+              "signature": 200055,
+              "version": "23.4.1.4"
             },
             {
-              "version": "24.1.1.16",
-              "signature": 200055
+              "signature": 200055,
+              "version": "23.4.2.14"
             },
             {
-              "version": "24.1.2.6",
-              "signature": 200055
+              "signature": 200055,
+              "version": "24.1.1.16"
             },
             {
-              "version": "24.2.1.8",
-              "signature": 200055
+              "signature": 200055,
+              "version": "24.1.2.6"
             },
             {
-              "version": "24.2.2.20",
-              "signature": 200055
+              "signature": 200055,
+              "version": "24.2.1.8"
             },
             {
-              "version": "24.3.1.29",
-              "signature": 200055
+              "signature": 200055,
+              "version": "24.2.2.20"
             },
             {
-              "version": "24.3.2.6",
-              "signature": 200055
+              "signature": 200055,
+              "version": "24.3.1.29"
             },
             {
-              "version": "24.3.3.6",
-              "signature": 200055
+              "signature": 200055,
+              "version": "24.3.2.6"
             },
             {
-              "version": "25.1.1.14",
-              "signature": 200055
+              "signature": 200055,
+              "version": "24.3.3.6"
             },
             {
-              "version": "25.1.2.17",
-              "signature": 200055
+              "signature": 200055,
+              "version": "25.1.1.14"
             },
             {
-              "version": "25.1.3.6",
-              "signature": 200055
+              "signature": 200055,
+              "version": "25.1.2.17"
             },
             {
-              "version": "25.2.1.20",
-              "signature": 200055
+              "signature": 200055,
+              "version": "25.1.3.6"
+            },
+            {
+              "signature": 200055,
+              "version": "25.2.1.20"
             },
             {
               "methodsStatus": {
                 "1004": -1,
                 "1007": -1
               },
-              "version": "25.2.2.14",
-              "signature": 200055
+              "signature": 200055,
+              "version": "25.2.2.14"
             }
           ],
           "labels": [],
@@ -29562,118 +29576,103 @@ SUPPORT_CHARTS = {
           "tested_points": [
             {
               "certification": "gold",
-              "version": "4.5.0",
-              "signature": 200057
+              "signature": 200057,
+              "version": "4.5.0"
             },
             {
               "certification": "gold",
-              "version": "5.11.0",
-              "signature": 200057
+              "signature": 200057,
+              "version": "5.11.0"
             },
             {
               "certification": "gold",
-              "version": "6.24.12103.0",
-              "signature": 200057
+              "signature": 200057,
+              "version": "6.24.12103.0"
             },
             {
               "certification": "gold",
-              "version": "6.28.12504.0",
-              "signature": 200057
+              "signature": 200057,
+              "version": "6.28.12504.0"
             },
             {
               "certification": "gold",
-              "version": "6.51.14810.0",
-              "signature": 200057
+              "signature": 200057,
+              "version": "6.51.14810.0"
             },
             {
               "certification": "gold",
-              "version": "6.37.13402.0",
-              "signature": 200057
+              "signature": 200057,
+              "version": "6.37.13402.0"
             },
             {
               "certification": "gold",
-              "version": "6.46.14306.0",
-              "signature": 200057
+              "signature": 200057,
+              "version": "6.46.14306.0"
             },
             {
               "certification": "gold",
-              "version": "6.48.14504.0",
-              "signature": 200057
+              "signature": 200057,
+              "version": "6.48.14504.0"
             },
             {
               "certification": "gold",
-              "version": "7.02.15705.0",
-              "signature": 200057
+              "signature": 200057,
+              "version": "7.02.15705.0"
             },
             {
               "certification": "gold",
-              "version": "7.11.16407.0",
-              "signature": 200057
+              "signature": 200057,
+              "version": "7.11.16407.0"
             },
             {
               "certification": "gold",
-              "version": "7.16.16903.0",
-              "signature": 200057
+              "signature": 200057,
+              "version": "7.16.16903.0"
             },
             {
               "certification": "gold",
-              "version": "7.17.17005.0",
-              "signature": 200057
+              "signature": 200057,
+              "version": "7.17.17005.0"
             },
             {
               "certification": "gold",
-              "version": "7.18.17106.0",
-              "signature": 200057
+              "signature": 200057,
+              "version": "7.18.17106.0"
             },
             {
               "certification": "gold",
-              "version": "7.20.17306.0",
-              "signature": 200057
+              "signature": 200057,
+              "version": "7.20.17306.0"
             },
             {
               "certification": "gold",
-              "version": "7.25.17804.0",
-              "signature": 200057
+              "signature": 200057,
+              "version": "7.25.17804.0"
             },
             {
               "certification": "gold",
-              "version": "7.26.17905.0",
-              "signature": 200057
+              "signature": 200057,
+              "version": "7.26.17905.0"
             },
             {
               "certification": "gold",
-              "version": "7.27.18003.0",
-              "signature": 200057
+              "signature": 200057,
+              "version": "7.27.18003.0"
             },
             {
               "certification": "gold",
-              "version": "7.28.18108.0",
-              "signature": 200057
+              "signature": 200057,
+              "version": "7.28.18108.0"
             },
             {
               "certification": "gold",
-              "version": "7.29.18202.0",
-              "signature": 200057
+              "signature": 200057,
+              "version": "7.29.18202.0"
             },
             {
               "certification": "gold",
-              "version": "7.30.18306.0",
-              "signature": 200057
-            },
-            {
-              "certification": "gold",
-              "methodsStatus": {
-                "1000": -1,
-                "1001": -1,
-                "101": -1,
-                "1012": -1,
-                "102": -1,
-                "103": -1,
-                "104": -1,
-                "105": -1
-              },
-              "version": "7.32.18504.0",
-              "signature": 200057
+              "signature": 200057,
+              "version": "7.30.18306.0"
             },
             {
               "certification": "gold",
@@ -29687,15 +29686,14 @@ SUPPORT_CHARTS = {
                 "104": -1,
                 "105": -1
               },
-              "version": "7.33.18606.0",
-              "signature": 200057
+              "signature": 200057,
+              "version": "7.32.18504.0"
             },
             {
               "certification": "gold",
               "methodsStatus": {
                 "1000": -1,
                 "1001": -1,
-                "1007": -1,
                 "101": -1,
                 "1012": -1,
                 "102": -1,
@@ -29703,8 +29701,8 @@ SUPPORT_CHARTS = {
                 "104": -1,
                 "105": -1
               },
-              "version": "7.34.18708.0",
-              "signature": 200057
+              "signature": 200057,
+              "version": "7.33.18606.0"
             },
             {
               "certification": "gold",
@@ -29719,8 +29717,24 @@ SUPPORT_CHARTS = {
                 "104": -1,
                 "105": -1
               },
-              "version": "7.35.18803.0",
-              "signature": 200057
+              "signature": 200057,
+              "version": "7.34.18708.0"
+            },
+            {
+              "certification": "gold",
+              "methodsStatus": {
+                "1000": -1,
+                "1001": -1,
+                "1007": -1,
+                "101": -1,
+                "1012": -1,
+                "102": -1,
+                "103": -1,
+                "104": -1,
+                "105": -1
+              },
+              "signature": 200057,
+              "version": "7.35.18803.0"
             }
           ],
           "labels": [],
@@ -30227,8 +30241,8 @@ SUPPORT_CHARTS = {
           "id": 200058,
           "tested_points": [
             {
-              "version": "3.0",
-              "signature": 200059
+              "signature": 200059,
+              "version": "3.0"
             }
           ],
           "labels": [],
@@ -30431,36 +30445,36 @@ SUPPORT_CHARTS = {
           "id": 200061,
           "tested_points": [
             {
-              "version": "6.2.20.87",
-              "signature": 200062
+              "signature": 200062,
+              "version": "6.2.20.87"
             },
             {
-              "version": "6.2.21.42",
-              "signature": 200062
+              "signature": 200062,
+              "version": "6.2.21.42"
             },
             {
-              "version": "7.0.3-2004",
-              "signature": 200062
+              "signature": 200062,
+              "version": "7.0.3-2004"
             },
             {
-              "version": "7.0.5-200049",
-              "signature": 200062
+              "signature": 200062,
+              "version": "7.0.5-200049"
             },
             {
-              "version": "7.4.0-200181",
-              "signature": 200062
+              "signature": 200062,
+              "version": "7.4.0-200181"
             },
             {
-              "version": "7.4.1-200200",
-              "signature": 200062
+              "signature": 200062,
+              "version": "7.4.1-200200"
             },
             {
-              "version": "7.8.0-200269",
-              "signature": 200062
+              "signature": 200062,
+              "version": "7.8.0-200269"
             },
             {
-              "version": "7.8.0",
-              "signature": 200062
+              "signature": 200062,
+              "version": "7.8.0"
             }
           ],
           "labels": [],
@@ -30901,16 +30915,16 @@ SUPPORT_CHARTS = {
           "tested_points": [
             {
               "certification": "gold",
-              "version": "6.0.3",
-              "signature": 200063
+              "signature": 200063,
+              "version": "6.0.3"
             },
             {
-              "version": "7.0.8",
-              "signature": 200063
+              "signature": 200063,
+              "version": "7.0.8"
             },
             {
-              "version": "7.4.3.1736",
-              "signature": 200063
+              "signature": 200063,
+              "version": "7.4.3.1736"
             }
           ],
           "labels": [],
@@ -31146,18 +31160,18 @@ SUPPORT_CHARTS = {
           "id": 200072,
           "tested_points": [
             {
-              "version": "11.0.0",
-              "signature": 200073
+              "signature": 200073,
+              "version": "11.0.0"
             },
             {
               "certification": "gold",
-              "version": "12.0.0",
-              "signature": 200073
+              "signature": 200073,
+              "version": "12.0.0"
             },
             {
               "certification": "gold",
-              "version": "20.0.0",
-              "signature": 200073
+              "signature": 200073,
+              "version": "20.0.0"
             }
           ],
           "labels": [],
@@ -31484,8 +31498,8 @@ SUPPORT_CHARTS = {
           "id": 200073,
           "tested_points": [
             {
-              "version": "2.0.1534",
-              "signature": 200074
+              "signature": 200074,
+              "version": "2.0.1534"
             }
           ],
           "labels": [],
@@ -31632,28 +31646,28 @@ SUPPORT_CHARTS = {
           "tested_points": [
             {
               "certification": "gold",
-              "version": "30.19.3",
-              "signature": 200077
+              "signature": 200077,
+              "version": "30.19.3"
             },
             {
               "certification": "gold",
-              "version": "31.28.1",
-              "signature": 200077
+              "signature": 200077,
+              "version": "31.28.1"
             },
             {
               "certification": "gold",
-              "version": "32.21.0",
-              "signature": 200077
+              "signature": 200077,
+              "version": "32.21.0"
             },
             {
               "certification": "gold",
-              "version": "33.46.0",
-              "signature": 200077
+              "signature": 200077,
+              "version": "33.46.0"
             },
             {
               "certification": "gold",
-              "version": "34.28.0",
-              "signature": 200077
+              "signature": 200077,
+              "version": "34.28.0"
             }
           ],
           "labels": [],
@@ -31800,17 +31814,17 @@ SUPPORT_CHARTS = {
           "tested_points": [
             {
               "certification": "gold",
-              "version": "2.4.0.3",
-              "signature": 200082
+              "signature": 200082,
+              "version": "2.4.0.3"
             },
             {
               "certification": "gold",
-              "version": "2.11.3.629089",
-              "signature": 200082
+              "signature": 200082,
+              "version": "2.11.3.629089"
             },
             {
-              "version": "0.0",
-              "signature": 200082
+              "signature": 200082,
+              "version": "0.0"
             }
           ],
           "labels": [],
@@ -31973,8 +31987,8 @@ SUPPORT_CHARTS = {
           "id": 200082,
           "tested_points": [
             {
-              "version": "0.53",
-              "signature": 200083
+              "signature": 200083,
+              "version": "0.53"
             }
           ],
           "labels": [],
@@ -32026,12 +32040,12 @@ SUPPORT_CHARTS = {
           "id": 200083,
           "tested_points": [
             {
-              "version": "1.1.268025",
-              "signature": 200084
+              "signature": 200084,
+              "version": "1.1.268025"
             },
             {
-              "version": "1.1.268025.1",
-              "signature": 200084
+              "signature": 200084,
+              "version": "1.1.268025.1"
             }
           ],
           "labels": [],
@@ -32250,8 +32264,8 @@ SUPPORT_CHARTS = {
           "id": 200084,
           "tested_points": [
             {
-              "version": "1.4.2",
-              "signature": 200085
+              "signature": 200085,
+              "version": "1.4.2"
             }
           ],
           "labels": [],
@@ -32320,8 +32334,8 @@ SUPPORT_CHARTS = {
           "id": 200087,
           "tested_points": [
             {
-              "version": "6.14",
-              "signature": 200088
+              "signature": 200088,
+              "version": "6.14"
             }
           ],
           "labels": [],
@@ -32403,8 +32417,8 @@ SUPPORT_CHARTS = {
           "tested_points": [
             {
               "certification": "gold",
-              "version": "6.1.4.1680",
-              "signature": 200090
+              "signature": 200090,
+              "version": "6.1.4.1680"
             }
           ],
           "labels": [],
@@ -32645,12 +32659,12 @@ SUPPORT_CHARTS = {
           "tested_points": [
             {
               "certification": "gold",
-              "version": "2.00.06.0001",
-              "signature": 200105
+              "signature": 200105,
+              "version": "2.00.06.0001"
             },
             {
-              "version": "0",
-              "signature": 200105
+              "signature": 200105,
+              "version": "0"
             }
           ],
           "labels": [],
@@ -32832,12 +32846,12 @@ SUPPORT_CHARTS = {
           "id": 200127,
           "tested_points": [
             {
-              "version": "02.00.06.0001",
-              "signature": 200136
+              "signature": 200136,
+              "version": "02.00.06.0001"
             },
             {
-              "version": "0.0",
-              "signature": 200136
+              "signature": 200136,
+              "version": "0.0"
             }
           ],
           "labels": [],
@@ -33015,50 +33029,50 @@ SUPPORT_CHARTS = {
           "id": 200129,
           "tested_points": [
             {
-              "version": "7.1.6.0",
-              "signature": 200138
+              "signature": 200138,
+              "version": "7.1.6.0"
             },
             {
-              "version": "9.1.11.0",
-              "signature": 200138
-            },
-            {
-              "certification": "gold",
-              "version": "10.2.2.0",
-              "signature": 200138
-            },
-            {
-              "version": "8.1.12.0",
-              "signature": 200138
-            },
-            {
-              "version": "9.1.13.0",
-              "signature": 200138
+              "signature": 200138,
+              "version": "9.1.11.0"
             },
             {
               "certification": "gold",
-              "version": "11.0.17.0",
-              "signature": 200138
+              "signature": 200138,
+              "version": "10.2.2.0"
+            },
+            {
+              "signature": 200138,
+              "version": "8.1.12.0"
+            },
+            {
+              "signature": 200138,
+              "version": "9.1.13.0"
             },
             {
               "certification": "gold",
-              "version": "11.1.3.0",
-              "signature": 200138
+              "signature": 200138,
+              "version": "11.0.17.0"
             },
             {
               "certification": "gold",
-              "version": "10.3.4.0",
-              "signature": 200138
+              "signature": 200138,
+              "version": "11.1.3.0"
             },
             {
               "certification": "gold",
-              "version": "11.1.3.0",
-              "signature": 200138
+              "signature": 200138,
+              "version": "10.3.4.0"
             },
             {
               "certification": "gold",
-              "version": "12.2.5.0",
-              "signature": 200138
+              "signature": 200138,
+              "version": "11.1.3.0"
+            },
+            {
+              "certification": "gold",
+              "signature": 200138,
+              "version": "12.2.5.0"
             }
           ],
           "labels": [],
@@ -33437,93 +33451,93 @@ SUPPORT_CHARTS = {
           "tested_points": [
             {
               "certification": "gold",
-              "version": "7.1.1.48398",
-              "signature": 200159
+              "signature": 200159,
+              "version": "7.1.1.48398"
             },
             {
               "certification": "gold",
-              "version": "7.0.2.42138",
-              "signature": 200159
+              "signature": 200159,
+              "version": "7.0.2.42138"
             },
             {
               "certification": "gold",
-              "version": "7.2.2.8227",
-              "signature": 200159
+              "signature": 200159,
+              "version": "7.2.2.8227"
             },
             {
               "certification": "gold",
-              "version": "7.1.0.44806",
-              "signature": 200159
+              "signature": 200159,
+              "version": "7.1.0.44806"
             },
             {
               "certification": "gold",
-              "version": "7.3.3.39951",
-              "signature": 200159
+              "signature": 200159,
+              "version": "7.3.3.39951"
             },
             {
               "certification": "gold",
-              "version": "7.4.3.39946",
-              "signature": 200159
+              "signature": 200159,
+              "version": "7.4.3.39946"
             },
             {
               "certification": "gold",
-              "version": "7.5.1.39945",
-              "signature": 200159
+              "signature": 200159,
+              "version": "7.5.1.39945"
             },
             {
               "certification": "gold",
-              "version": "7.6.3.64323",
-              "signature": 200159
+              "signature": 200159,
+              "version": "7.6.3.64323"
             },
             {
               "certification": "gold",
-              "version": "7.8.0.68806",
-              "signature": 200159
+              "signature": 200159,
+              "version": "7.8.0.68806"
             },
             {
               "certification": "gold",
-              "version": "8.0.0.94458",
-              "signature": 200159
+              "signature": 200159,
+              "version": "8.0.0.94458"
             },
             {
               "certification": "gold",
-              "version": "8.1.1.112729",
-              "signature": 200159
+              "signature": 200159,
+              "version": "8.1.1.112729"
             },
             {
               "certification": "gold",
-              "version": "8.3.0.120272",
-              "signature": 200159
+              "signature": 200159,
+              "version": "8.3.0.120272"
             },
             {
               "certification": "gold",
-              "version": "8.4.0.123266",
-              "signature": 200159
+              "signature": 200159,
+              "version": "8.4.0.123266"
             },
             {
               "certification": "gold",
-              "version": "8.5.0.125392",
-              "signature": 200159
+              "signature": 200159,
+              "version": "8.5.0.125392"
             },
             {
               "certification": "gold",
-              "version": "8.6.0.127566",
-              "signature": 200159
+              "signature": 200159,
+              "version": "8.6.0.127566"
             },
             {
               "certification": "gold",
-              "version": "8.7.0.131113",
-              "signature": 200159
+              "signature": 200159,
+              "version": "8.7.0.131113"
             },
             {
               "certification": "gold",
-              "version": "8.8.0.133595",
-              "signature": 200159
+              "signature": 200159,
+              "version": "8.8.0.133595"
             },
             {
               "certification": "gold",
-              "version": "9.0.0.140013",
-              "signature": 200159
+              "signature": 200159,
+              "version": "9.0.0.140013"
             }
           ],
           "labels": [],
@@ -33983,20 +33997,20 @@ SUPPORT_CHARTS = {
           "id": 200168,
           "tested_points": [
             {
-              "version": "101.08.40",
-              "signature": 200185
+              "signature": 200185,
+              "version": "101.08.40"
             },
             {
-              "version": "101.25.09",
-              "signature": 200185
+              "signature": 200185,
+              "version": "101.25.09"
             },
             {
-              "version": "101.68.80",
-              "signature": 200185
+              "signature": 200185,
+              "version": "101.68.80"
             },
             {
-              "version": "101.65.77",
-              "signature": 200185
+              "signature": 200185,
+              "version": "101.65.77"
             }
           ],
           "labels": [],
@@ -34472,73 +34486,73 @@ SUPPORT_CHARTS = {
           "tested_points": [
             {
               "certification": "gold",
-              "version": "7.13.0",
-              "signature": 200195
+              "signature": 200195,
+              "version": "7.13.0"
             },
             {
               "certification": "gold",
-              "version": "7.13.2",
-              "signature": 200195
+              "signature": 200195,
+              "version": "7.13.2"
             },
             {
               "certification": "gold",
-              "version": "7.13.3",
-              "signature": 200195
+              "signature": 200195,
+              "version": "7.13.3"
             },
             {
               "certification": "gold",
-              "version": "7.13.1",
-              "signature": 200195
+              "signature": 200195,
+              "version": "7.13.1"
             },
             {
               "certification": "gold",
-              "version": "7.14.0",
-              "signature": 200195
+              "signature": 200195,
+              "version": "7.14.0"
             },
             {
               "certification": "gold",
-              "version": "8.2.2",
-              "signature": 200195
+              "signature": 200195,
+              "version": "8.2.2"
             },
             {
               "certification": "gold",
-              "version": "8.6.1",
-              "signature": 200195
+              "signature": 200195,
+              "version": "8.6.1"
             },
             {
               "certification": "gold",
-              "version": "8.4.1",
-              "signature": 200195
+              "signature": 200195,
+              "version": "8.4.1"
             },
             {
               "certification": "gold",
-              "version": "8.5.0",
-              "signature": 200195
+              "signature": 200195,
+              "version": "8.5.0"
             },
             {
               "certification": "gold",
-              "version": "8.7.0",
-              "signature": 200195
+              "signature": 200195,
+              "version": "8.7.0"
             },
             {
               "certification": "gold",
-              "version": "8.8.1",
-              "signature": 200195
+              "signature": 200195,
+              "version": "8.8.1"
             },
             {
               "certification": "gold",
-              "version": "8.9.0",
-              "signature": 200195
+              "signature": 200195,
+              "version": "8.9.0"
             },
             {
               "certification": "gold",
-              "version": "8.15.2",
-              "signature": 200195
+              "signature": 200195,
+              "version": "8.15.2"
             },
             {
               "certification": "gold",
-              "version": "9.1.2",
-              "signature": 200195
+              "signature": 200195,
+              "version": "9.1.2"
             }
           ],
           "labels": [],
@@ -34829,8 +34843,8 @@ SUPPORT_CHARTS = {
           "tested_points": [
             {
               "certification": "gold",
-              "version": "4.3.7",
-              "signature": 200196
+              "signature": 200196,
+              "version": "4.3.7"
             }
           ],
           "labels": [],
@@ -34968,33 +34982,33 @@ SUPPORT_CHARTS = {
           "tested_points": [
             {
               "certification": "gold",
-              "version": "21.1.204",
-              "signature": 200197
+              "signature": 200197,
+              "version": "21.1.204"
             },
             {
               "certification": "gold",
-              "version": "21.2.270",
-              "signature": 200197
+              "signature": 200197,
+              "version": "21.2.270"
             },
             {
               "certification": "gold",
-              "version": "22.1.27",
-              "signature": 200197
+              "signature": 200197,
+              "version": "22.1.27"
             },
             {
               "certification": "gold",
-              "version": "23.1.44",
-              "signature": 200197
+              "signature": 200197,
+              "version": "23.1.44"
             },
             {
               "certification": "gold",
-              "version": "23.2.67.0",
-              "signature": 200197
+              "signature": 200197,
+              "version": "23.2.67.0"
             },
             {
               "certification": "gold",
-              "version": "24.1.81.0",
-              "signature": 200197
+              "signature": 200197,
+              "version": "24.1.81.0"
             }
           ],
           "labels": [],
@@ -35132,23 +35146,23 @@ SUPPORT_CHARTS = {
           "tested_points": [
             {
               "certification": "gold",
-              "version": "1.16.2",
-              "signature": 200198
+              "signature": 200198,
+              "version": "1.16.2"
             },
             {
               "certification": "gold",
-              "version": "1.19.1",
-              "signature": 200198
+              "signature": 200198,
+              "version": "1.19.1"
             },
             {
               "certification": "gold",
-              "version": "1.23.0",
-              "signature": 200198
+              "signature": 200198,
+              "version": "1.23.0"
             },
             {
               "certification": "gold",
-              "version": "1.24.0.999",
-              "signature": 200198
+              "signature": 200198,
+              "version": "1.24.0.999"
             }
           ],
           "labels": [],
@@ -35358,40 +35372,40 @@ SUPPORT_CHARTS = {
           "id": 200180,
           "tested_points": [
             {
-              "version": "0.104.2",
-              "signature": 200199
+              "signature": 200199,
+              "version": "0.104.2"
             },
             {
-              "version": "0.105.1",
-              "signature": 200199
+              "signature": 200199,
+              "version": "0.105.1"
             },
             {
-              "version": "0.103.8",
-              "signature": 200199
+              "signature": 200199,
+              "version": "0.103.8"
             },
             {
-              "version": "0.103.5",
-              "signature": 200199
+              "signature": 200199,
+              "version": "0.103.5"
             },
             {
-              "version": "0.103.9",
-              "signature": 200199
+              "signature": 200199,
+              "version": "0.103.9"
             },
             {
-              "version": "1.0.2",
-              "signature": 200199
+              "signature": 200199,
+              "version": "1.0.2"
             },
             {
-              "version": "1.4.1",
-              "signature": 200199
+              "signature": 200199,
+              "version": "1.4.1"
             },
             {
-              "version": "1.0.7",
-              "signature": 200199
+              "signature": 200199,
+              "version": "1.0.7"
             },
             {
-              "version": "1.4.3",
-              "signature": 200199
+              "signature": 200199,
+              "version": "1.4.3"
             }
           ],
           "labels": [],
@@ -35684,12 +35698,12 @@ SUPPORT_CHARTS = {
           "id": 200186,
           "tested_points": [
             {
-              "version": "1.2.1.3",
-              "signature": 200205
+              "signature": 200205,
+              "version": "1.2.1.3"
             },
             {
-              "version": "2025.1.0.59",
-              "signature": 200205
+              "signature": 200205,
+              "version": "2025.1.0.59"
             }
           ],
           "labels": [],
@@ -36126,16 +36140,16 @@ SUPPORT_CHARTS = {
           "id": 200188,
           "tested_points": [
             {
-              "version": "1.12.00",
-              "signature": 200207
+              "signature": 200207,
+              "version": "1.12.00"
             },
             {
-              "version": "1.11.05",
-              "signature": 200207
+              "signature": 200207,
+              "version": "1.11.05"
             },
             {
-              "version": "03.03.00.0001",
-              "signature": 200207
+              "signature": 200207,
+              "version": "03.03.00.0001"
             }
           ],
           "labels": [],
@@ -36348,13 +36362,13 @@ SUPPORT_CHARTS = {
           "tested_points": [
             {
               "certification": "platinum",
-              "version": "7.0.5",
-              "signature": 200223
+              "signature": 200223,
+              "version": "7.0.5"
             },
             {
               "certification": "platinum",
-              "version": "7.0.5.410019",
-              "signature": 200223
+              "signature": 200223,
+              "version": "7.0.5.410019"
             }
           ],
           "labels": [],
@@ -36728,8 +36742,8 @@ SUPPORT_CHARTS = {
           "id": 200212,
           "tested_points": [
             {
-              "version": "0.0",
-              "signature": 200231
+              "signature": 200231,
+              "version": "0.0"
             }
           ],
           "labels": [],
@@ -36762,8 +36776,8 @@ SUPPORT_CHARTS = {
           "tested_points": [
             {
               "certification": "gold",
-              "version": "3.17.0.2673",
-              "signature": 200232
+              "signature": 200232,
+              "version": "3.17.0.2673"
             }
           ],
           "labels": [],
@@ -37031,8 +37045,8 @@ SUPPORT_CHARTS = {
           "id": 200227,
           "tested_points": [
             {
-              "version": "1.17.00.0000",
-              "signature": 200246
+              "signature": 200246,
+              "version": "1.17.00.0000"
             }
           ],
           "labels": [],
@@ -37080,188 +37094,188 @@ SUPPORT_CHARTS = {
           "id": 200001,
           "tested_points": [
             {
-              "version": "33.0",
-              "signature": 200002
+              "signature": 200002,
+              "version": "33.0"
             },
             {
-              "version": "34.0",
-              "signature": 200002
+              "signature": 200002,
+              "version": "34.0"
             },
             {
-              "version": "35.0",
-              "signature": 200002
+              "signature": 200002,
+              "version": "35.0"
             },
             {
-              "version": "36.0",
-              "signature": 200002
+              "signature": 200002,
+              "version": "36.0"
             },
             {
-              "version": "37.0",
-              "signature": 200002
+              "signature": 200002,
+              "version": "37.0"
             },
             {
-              "version": "38.0",
-              "signature": 200002
+              "signature": 200002,
+              "version": "38.0"
             },
             {
-              "version": "39.0",
-              "signature": 200002
+              "signature": 200002,
+              "version": "39.0"
             },
             {
-              "version": "40.0",
-              "signature": 200002
+              "signature": 200002,
+              "version": "40.0"
             },
             {
-              "version": "41.0",
-              "signature": 200002
+              "signature": 200002,
+              "version": "41.0"
             },
             {
-              "version": "100.0.4896.75",
-              "signature": 200002
+              "signature": 200002,
+              "version": "100.0.4896.75"
             },
             {
-              "version": "110.0.5481.177",
-              "signature": 200002
+              "signature": 200002,
+              "version": "110.0.5481.177"
             },
             {
-              "version": "111.0.5563.64",
-              "signature": 200002
+              "signature": 200002,
+              "version": "111.0.5563.64"
             },
             {
-              "version": "123.0.6312.58",
-              "signature": 200002
+              "signature": 200002,
+              "version": "123.0.6312.58"
             },
             {
-              "version": "124.0.6367.155",
-              "signature": 200002
+              "signature": 200002,
+              "version": "124.0.6367.155"
             },
             {
-              "version": "125.0.6422.60",
-              "signature": 200002
+              "signature": 200002,
+              "version": "125.0.6422.60"
             },
             {
-              "version": "125.0.6422.112",
-              "signature": 200002
+              "signature": 200002,
+              "version": "125.0.6422.112"
             },
             {
-              "version": "126.0.6478.55",
-              "signature": 200002
+              "signature": 200002,
+              "version": "126.0.6478.55"
             },
             {
-              "version": "126.0.6478.182",
-              "signature": 200002
+              "signature": 200002,
+              "version": "126.0.6478.182"
             },
             {
-              "version": "127.0.6533.72",
-              "signature": 200002
+              "signature": 200002,
+              "version": "127.0.6533.72"
             },
             {
-              "version": "128.0.6613.84",
-              "signature": 200002
+              "signature": 200002,
+              "version": "128.0.6613.84"
             },
             {
-              "version": "129.0.6668.58",
-              "signature": 200002
+              "signature": 200002,
+              "version": "129.0.6668.58"
             },
             {
-              "version": "130.0.6723.58",
-              "signature": 200002
+              "signature": 200002,
+              "version": "130.0.6723.58"
             },
             {
-              "version": "131.0.6778.69",
-              "signature": 200002
+              "signature": 200002,
+              "version": "131.0.6778.69"
             },
             {
-              "version": "132.0.6834.83",
-              "signature": 200002
+              "signature": 200002,
+              "version": "132.0.6834.83"
             },
             {
-              "version": "133.0.6943.53",
-              "signature": 200002
+              "signature": 200002,
+              "version": "133.0.6943.53"
             },
             {
-              "version": "134.0.6998.35",
-              "signature": 200002
+              "signature": 200002,
+              "version": "134.0.6998.35"
             },
             {
-              "version": "135.0.7049.52",
-              "signature": 200002
+              "signature": 200002,
+              "version": "135.0.7049.52"
             },
             {
-              "version": "136.0.7103.59",
-              "signature": 200002
+              "signature": 200002,
+              "version": "136.0.7103.59"
             },
             {
-              "version": "136.0.7103.113",
-              "signature": 200002
+              "signature": 200002,
+              "version": "136.0.7103.113"
             },
             {
-              "version": "137.0.7151.55",
-              "signature": 200002
+              "signature": 200002,
+              "version": "137.0.7151.55"
             },
             {
-              "version": "138.0.7204.49",
-              "signature": 200002
+              "signature": 200002,
+              "version": "138.0.7204.49"
             },
             {
-              "version": "139.0.7258.66",
-              "signature": 200002
+              "signature": 200002,
+              "version": "139.0.7258.66"
             },
             {
-              "version": "140.0.7339.80",
-              "signature": 200002
+              "signature": 200002,
+              "version": "140.0.7339.80"
             },
             {
-              "version": "141.0.7390.54",
-              "signature": 200002
+              "signature": 200002,
+              "version": "141.0.7390.54"
             },
             {
-              "version": "142.0.7444.59",
-              "signature": 200002
+              "signature": 200002,
+              "version": "142.0.7444.59"
             },
             {
-              "version": "143.0.7499.169",
-              "signature": 200002
+              "signature": 200002,
+              "version": "143.0.7499.169"
             },
             {
-              "version": "143.0.7499.192",
-              "signature": 200002
+              "signature": 200002,
+              "version": "143.0.7499.192"
             },
             {
-              "version": "144.0.7559.59",
-              "signature": 200002
+              "signature": 200002,
+              "version": "144.0.7559.59"
             },
             {
-              "version": "144.0.7559.96",
-              "signature": 200002
+              "signature": 200002,
+              "version": "144.0.7559.96"
             },
             {
-              "version": "144.0.7559.109",
-              "signature": 200002
+              "signature": 200002,
+              "version": "144.0.7559.109"
             },
             {
-              "version": "145.0.7632.45",
-              "signature": 200002
+              "signature": 200002,
+              "version": "145.0.7632.45"
             },
             {
-              "version": "145.0.7632.67",
-              "signature": 200002
+              "signature": 200002,
+              "version": "145.0.7632.67"
             },
             {
-              "version": "146.0.7680.164",
-              "signature": 200002
+              "signature": 200002,
+              "version": "146.0.7680.164"
             },
             {
-              "version": "145.0.7632.116",
-              "signature": 200002
+              "signature": 200002,
+              "version": "145.0.7632.116"
             },
             {
-              "version": "147.0.7727.55",
-              "signature": 200002
+              "signature": 200002,
+              "version": "147.0.7727.55"
             },
             {
-              "version": "147.0.7727.101",
-              "signature": 200002
+              "signature": 200002,
+              "version": "147.0.7727.101"
             }
           ],
           "labels": [],
@@ -37400,316 +37414,324 @@ SUPPORT_CHARTS = {
           "id": 200002,
           "tested_points": [
             {
-              "version": "1.5.0",
-              "signature": 200003
+              "signature": 200003,
+              "version": "1.5.0"
             },
             {
-              "version": "2.0",
-              "signature": 200003
+              "signature": 200003,
+              "version": "2.0"
             },
             {
-              "version": "3.0",
-              "signature": 200003
+              "signature": 200003,
+              "version": "3.0"
             },
             {
-              "version": "32.0",
-              "signature": 200003
+              "signature": 200003,
+              "version": "32.0"
             },
             {
-              "version": "34.0",
-              "signature": 200003
+              "signature": 200003,
+              "version": "34.0"
             },
             {
-              "version": "35.0",
-              "signature": 200003
+              "signature": 200003,
+              "version": "35.0"
             },
             {
-              "version": "4.0",
-              "signature": 200003
+              "signature": 200003,
+              "version": "4.0"
             },
             {
-              "version": "38.0.5",
-              "signature": 200003
+              "signature": 200003,
+              "version": "38.0.5"
             },
             {
-              "version": "28.0",
-              "signature": 200003
+              "signature": 200003,
+              "version": "28.0"
             },
             {
-              "version": "52.2.0",
-              "signature": 200003
+              "signature": 200003,
+              "version": "52.2.0"
             },
             {
-              "version": "60.0",
-              "signature": 200003
+              "signature": 200003,
+              "version": "60.0"
             },
             {
-              "version": "73.0",
-              "signature": 200003
+              "signature": 200003,
+              "version": "73.0"
             },
             {
-              "version": "110.0.1",
-              "signature": 200003
+              "signature": 200003,
+              "version": "110.0.1"
             },
             {
-              "version": "111.0.1",
-              "signature": 200003
+              "signature": 200003,
+              "version": "111.0.1"
             },
             {
-              "version": "113.0",
-              "signature": 200003
+              "signature": 200003,
+              "version": "113.0"
             },
             {
-              "version": "112.0",
-              "signature": 200003
+              "signature": 200003,
+              "version": "112.0"
             },
             {
-              "version": "102.10.0",
-              "signature": 200003
+              "signature": 200003,
+              "version": "102.10.0"
             },
             {
-              "version": "113.0.1",
-              "signature": 200003
+              "signature": 200003,
+              "version": "113.0.1"
             },
             {
-              "version": "116.0",
-              "signature": 200003
+              "signature": 200003,
+              "version": "116.0"
             },
             {
-              "version": "117.0",
-              "signature": 200003
+              "signature": 200003,
+              "version": "117.0"
             },
             {
-              "version": "79.0",
-              "signature": 200003
+              "signature": 200003,
+              "version": "79.0"
             },
             {
-              "version": "124.0.2",
-              "signature": 200003
+              "signature": 200003,
+              "version": "124.0.2"
             },
             {
-              "version": "125.0",
-              "signature": 200003
+              "signature": 200003,
+              "version": "125.0"
             },
             {
-              "version": "125.0.3",
-              "signature": 200003
+              "signature": 200003,
+              "version": "125.0.3"
             },
             {
-              "version": "126.0",
-              "signature": 200003
+              "signature": 200003,
+              "version": "126.0"
             },
             {
-              "version": "126.0.1",
-              "signature": 200003
+              "signature": 200003,
+              "version": "126.0.1"
             },
             {
-              "version": "127.0",
-              "signature": 200003
+              "signature": 200003,
+              "version": "127.0"
             },
             {
-              "version": "127.0.1",
-              "signature": 200003
+              "signature": 200003,
+              "version": "127.0.1"
             },
             {
-              "version": "127.0.2",
-              "signature": 200003
+              "signature": 200003,
+              "version": "127.0.2"
             },
             {
-              "version": "128.0",
-              "signature": 200003
+              "signature": 200003,
+              "version": "128.0"
             },
             {
-              "version": "128.0.3",
-              "signature": 200003
+              "signature": 200003,
+              "version": "128.0.3"
             },
             {
-              "version": "129.0.1",
-              "signature": 200003
+              "signature": 200003,
+              "version": "129.0.1"
             },
             {
-              "version": "129.0.2",
-              "signature": 200003
+              "signature": 200003,
+              "version": "129.0.2"
             },
             {
-              "version": "130.0",
-              "signature": 200003
+              "signature": 200003,
+              "version": "130.0"
             },
             {
-              "version": "130.0.1",
-              "signature": 200003
+              "signature": 200003,
+              "version": "130.0.1"
             },
             {
-              "version": "131.0",
-              "signature": 200003
+              "signature": 200003,
+              "version": "131.0"
             },
             {
-              "version": "131.0.2",
-              "signature": 200003
+              "signature": 200003,
+              "version": "131.0.2"
             },
             {
-              "version": "131.0.3",
-              "signature": 200003
+              "signature": 200003,
+              "version": "131.0.3"
             },
             {
-              "version": "132.0",
-              "signature": 200003
+              "signature": 200003,
+              "version": "132.0"
             },
             {
-              "version": "132.0.1",
-              "signature": 200003
+              "signature": 200003,
+              "version": "132.0.1"
             },
             {
-              "version": "132.0.2",
-              "signature": 200003
+              "signature": 200003,
+              "version": "132.0.2"
             },
             {
-              "version": "133.0",
-              "signature": 200003
+              "signature": 200003,
+              "version": "133.0"
             },
             {
-              "version": "133.0.3",
-              "signature": 200003
+              "signature": 200003,
+              "version": "133.0.3"
             },
             {
-              "version": "134.0",
-              "signature": 200003
+              "signature": 200003,
+              "version": "134.0"
             },
             {
-              "version": "134.0.1",
-              "signature": 200003
+              "signature": 200003,
+              "version": "134.0.1"
             },
             {
-              "version": "134.0.2",
-              "signature": 200003
+              "signature": 200003,
+              "version": "134.0.2"
             },
             {
-              "version": "135.0",
-              "signature": 200003
+              "signature": 200003,
+              "version": "135.0"
             },
             {
-              "version": "135.0.1",
-              "signature": 200003
+              "signature": 200003,
+              "version": "135.0.1"
             },
             {
-              "version": "136.0",
-              "signature": 200003
+              "signature": 200003,
+              "version": "136.0"
             },
             {
-              "version": "136.0.1",
-              "signature": 200003
+              "signature": 200003,
+              "version": "136.0.1"
             },
             {
-              "version": "136.0.2",
-              "signature": 200003
+              "signature": 200003,
+              "version": "136.0.2"
             },
             {
-              "version": "136.0.3",
-              "signature": 200003
+              "signature": 200003,
+              "version": "136.0.3"
             },
             {
-              "version": "136.0.4",
-              "signature": 200003
+              "signature": 200003,
+              "version": "136.0.4"
             },
             {
-              "version": "137.0",
-              "signature": 200003
+              "signature": 200003,
+              "version": "137.0"
             },
             {
-              "version": "137.0.1",
-              "signature": 200003
+              "signature": 200003,
+              "version": "137.0.1"
             },
             {
-              "version": "137.0.2",
-              "signature": 200003
+              "signature": 200003,
+              "version": "137.0.2"
             },
             {
-              "version": "138.0",
-              "signature": 200003
+              "signature": 200003,
+              "version": "138.0"
             },
             {
-              "version": "138.0.1",
-              "signature": 200003
+              "signature": 200003,
+              "version": "138.0.1"
             },
             {
-              "version": "138.0.3",
-              "signature": 200003
+              "signature": 200003,
+              "version": "138.0.3"
             },
             {
-              "version": "138.0.4",
-              "signature": 200003
+              "signature": 200003,
+              "version": "138.0.4"
             },
             {
-              "version": "139.0",
-              "signature": 200003
+              "signature": 200003,
+              "version": "139.0"
             },
             {
-              "version": "140.0",
-              "signature": 200003
+              "signature": 200003,
+              "version": "140.0"
             },
             {
-              "version": "141.0",
-              "signature": 200003
+              "signature": 200003,
+              "version": "141.0"
             },
             {
-              "version": "141.0.2",
-              "signature": 200003
+              "signature": 200003,
+              "version": "141.0.2"
             },
             {
-              "version": "142.0",
-              "signature": 200003
+              "signature": 200003,
+              "version": "142.0"
             },
             {
-              "version": "143.0",
-              "signature": 200003
+              "signature": 200003,
+              "version": "143.0"
             },
             {
-              "version": "143.0.1",
-              "signature": 200003
+              "signature": 200003,
+              "version": "143.0.1"
             },
             {
-              "version": "143.0.3",
-              "signature": 200003
+              "signature": 200003,
+              "version": "143.0.3"
             },
             {
-              "version": "144.0",
-              "signature": 200003
+              "signature": 200003,
+              "version": "144.0"
             },
             {
-              "version": "144.0.2",
-              "signature": 200003
+              "signature": 200003,
+              "version": "144.0.2"
             },
             {
-              "version": "145.0",
-              "signature": 200003
+              "signature": 200003,
+              "version": "145.0"
             },
             {
-              "version": "145.0.1",
-              "signature": 200003
+              "signature": 200003,
+              "version": "145.0.1"
             },
             {
-              "version": "145.0.2",
-              "signature": 200003
+              "signature": 200003,
+              "version": "145.0.2"
             },
             {
-              "version": "146.0",
-              "signature": 200003
+              "signature": 200003,
+              "version": "146.0"
             },
             {
-              "version": "147.0.1",
-              "signature": 200003
+              "signature": 200003,
+              "version": "147.0.1"
             },
             {
-              "version": "147.0.2",
-              "signature": 200003
+              "signature": 200003,
+              "version": "147.0.2"
             },
             {
-              "version": "147.0.3",
-              "signature": 200003
+              "signature": 200003,
+              "version": "147.0.3"
             },
             {
-              "version": "149.0",
-              "signature": 200003
+              "signature": 200003,
+              "version": "149.0"
+            },
+            {
+              "signature": 200003,
+              "version": "150.0"
+            },
+            {
+              "signature": 200003,
+              "version": "149.0.2"
             }
           ],
           "labels": [],
@@ -37918,12 +37940,12 @@ SUPPORT_CHARTS = {
           "id": 200003,
           "tested_points": [
             {
-              "version": "11.0",
-              "signature": 200004
+              "signature": 200004,
+              "version": "11.0"
             },
             {
-              "version": "12.0",
-              "signature": 200004
+              "signature": 200004,
+              "version": "12.0"
             }
           ],
           "labels": [],
@@ -38051,12 +38073,12 @@ SUPPORT_CHARTS = {
           "id": 200097,
           "tested_points": [
             {
-              "version": "2.53.2",
-              "signature": 200097
+              "signature": 200097,
+              "version": "2.53.2"
             },
             {
-              "version": "0.0",
-              "signature": 200100
+              "signature": 200100,
+              "version": "0.0"
             }
           ],
           "labels": [],
@@ -38219,80 +38241,80 @@ SUPPORT_CHARTS = {
           "id": 200137,
           "tested_points": [
             {
-              "version": "68.9.0",
-              "signature": 200146
+              "signature": 200146,
+              "version": "68.9.0"
             },
             {
-              "version": "115.14.0",
-              "signature": 200146
+              "signature": 200146,
+              "version": "115.14.0"
             },
             {
-              "version": "128.1.0",
-              "signature": 200146
+              "signature": 200146,
+              "version": "128.1.0"
             },
             {
-              "version": "115.15.0",
-              "signature": 200146
+              "signature": 200146,
+              "version": "115.15.0"
             },
             {
-              "version": "128.2.0",
-              "signature": 200146
+              "signature": 200146,
+              "version": "128.2.0"
             },
             {
-              "version": "102.3.0",
-              "signature": 200146
+              "signature": 200146,
+              "version": "102.3.0"
             },
             {
-              "version": "128.3.0",
-              "signature": 200146
+              "signature": 200146,
+              "version": "128.3.0"
             },
             {
-              "version": "128.3.1",
-              "signature": 200146
+              "signature": 200146,
+              "version": "128.3.1"
             },
             {
-              "version": "128.4.0",
-              "signature": 200146
+              "signature": 200146,
+              "version": "128.4.0"
             },
             {
-              "version": "128.5.0",
-              "signature": 200146
+              "signature": 200146,
+              "version": "128.5.0"
             },
             {
-              "version": "128.5.1",
-              "signature": 200146
+              "signature": 200146,
+              "version": "128.5.1"
             },
             {
-              "version": "128.6.0",
-              "signature": 200146
+              "signature": 200146,
+              "version": "128.6.0"
             },
             {
-              "version": "128.7.0",
-              "signature": 200146
+              "signature": 200146,
+              "version": "128.7.0"
             },
             {
-              "version": "128.8.0",
-              "signature": 200146
+              "signature": 200146,
+              "version": "128.8.0"
             },
             {
-              "version": "128.8.1",
-              "signature": 200146
+              "signature": 200146,
+              "version": "128.8.1"
             },
             {
-              "version": "128.9.0",
-              "signature": 200146
+              "signature": 200146,
+              "version": "128.9.0"
             },
             {
-              "version": "128.10.0",
-              "signature": 200146
+              "signature": 200146,
+              "version": "128.10.0"
             },
             {
-              "version": "140.3.0",
-              "signature": 200146
+              "signature": 200146,
+              "version": "140.3.0"
             },
             {
-              "version": "128.14.0",
-              "signature": 200146
+              "signature": 200146,
+              "version": "128.14.0"
             }
           ],
           "labels": [],
@@ -38625,24 +38647,24 @@ SUPPORT_CHARTS = {
           "id": 200016,
           "tested_points": [
             {
-              "version": "8.0",
-              "signature": 200017
+              "signature": 200017,
+              "version": "8.0"
             },
             {
-              "version": "11.1.0",
-              "signature": 200017
+              "signature": 200017,
+              "version": "11.1.0"
             },
             {
-              "version": "11.2.0",
-              "signature": 200017
+              "signature": 200017,
+              "version": "11.2.0"
             },
             {
-              "version": "12.0.0",
-              "signature": 200017
+              "signature": 200017,
+              "version": "12.0.0"
             },
             {
-              "version": "12.3.0",
-              "signature": 200017
+              "signature": 200017,
+              "version": "12.3.0"
             }
           ],
           "labels": [],
@@ -39184,24 +39206,24 @@ SUPPORT_CHARTS = {
           "id": 200033,
           "tested_points": [
             {
-              "version": "1.0",
-              "signature": 200034
+              "signature": 200034,
+              "version": "1.0"
             },
             {
-              "version": "1.8.4",
-              "signature": 200034
+              "signature": 200034,
+              "version": "1.8.4"
             },
             {
-              "version": "1.8.7",
-              "signature": 200034
+              "signature": 200034,
+              "version": "1.8.7"
             },
             {
-              "version": "1.8.10",
-              "signature": 200034
+              "signature": 200034,
+              "version": "1.8.10"
             },
             {
-              "version": "1.8.11",
-              "signature": 200034
+              "signature": 200034,
+              "version": "1.8.11"
             }
           ],
           "labels": [],
@@ -39374,98 +39396,84 @@ SUPPORT_CHARTS = {
           "id": 200056,
           "tested_points": [
             {
-              "version": "4.5.0",
-              "signature": 200057
+              "signature": 200057,
+              "version": "4.5.0"
             },
             {
-              "version": "5.11.0",
-              "signature": 200057
+              "signature": 200057,
+              "version": "5.11.0"
             },
             {
-              "version": "6.24.12103.0",
-              "signature": 200057
+              "signature": 200057,
+              "version": "6.24.12103.0"
             },
             {
-              "version": "6.28.12504.0",
-              "signature": 200057
+              "signature": 200057,
+              "version": "6.28.12504.0"
             },
             {
-              "version": "6.51.14810.0",
-              "signature": 200057
+              "signature": 200057,
+              "version": "6.51.14810.0"
             },
             {
-              "version": "6.37.13402.0",
-              "signature": 200057
+              "signature": 200057,
+              "version": "6.37.13402.0"
             },
             {
-              "version": "6.46.14306.0",
-              "signature": 200057
+              "signature": 200057,
+              "version": "6.46.14306.0"
             },
             {
-              "version": "6.48.14504.0",
-              "signature": 200057
+              "signature": 200057,
+              "version": "6.48.14504.0"
             },
             {
-              "version": "7.02.15705.0",
-              "signature": 200057
+              "signature": 200057,
+              "version": "7.02.15705.0"
             },
             {
-              "version": "7.11.16407.0",
-              "signature": 200057
+              "signature": 200057,
+              "version": "7.11.16407.0"
             },
             {
-              "version": "7.16.16903.0",
-              "signature": 200057
+              "signature": 200057,
+              "version": "7.16.16903.0"
             },
             {
-              "version": "7.17.17005.0",
-              "signature": 200057
+              "signature": 200057,
+              "version": "7.17.17005.0"
             },
             {
-              "version": "7.18.17106.0",
-              "signature": 200057
+              "signature": 200057,
+              "version": "7.18.17106.0"
             },
             {
-              "version": "7.20.17306.0",
-              "signature": 200057
+              "signature": 200057,
+              "version": "7.20.17306.0"
             },
             {
-              "version": "7.25.17804.0",
-              "signature": 200057
+              "signature": 200057,
+              "version": "7.25.17804.0"
             },
             {
-              "version": "7.26.17905.0",
-              "signature": 200057
+              "signature": 200057,
+              "version": "7.26.17905.0"
             },
             {
-              "version": "7.27.18003.0",
-              "signature": 200057
+              "signature": 200057,
+              "version": "7.27.18003.0"
             },
             {
-              "version": "7.28.18108.0",
-              "signature": 200057
+              "signature": 200057,
+              "version": "7.28.18108.0"
             },
             {
-              "version": "7.29.18202.0",
-              "signature": 200057
+              "signature": 200057,
+              "version": "7.29.18202.0"
             },
             {
-              "version": "7.30.18306.0",
-              "signature": 200057
-            },
-            {
-              "methodsStatus": {
-                "1000": -1,
-                "1001": -1,
-                "101": -1,
-                "1012": -1,
-                "102": -1,
-                "103": -1,
-                "104": -1,
-                "105": -1
-              },
-              "version": "7.32.18504.0",
-              "signature": 200057
+              "signature": 200057,
+              "version": "7.30.18306.0"
             },
             {
               "methodsStatus": {
@@ -39478,14 +39486,13 @@ SUPPORT_CHARTS = {
                 "104": -1,
                 "105": -1
               },
-              "version": "7.33.18606.0",
-              "signature": 200057
+              "signature": 200057,
+              "version": "7.32.18504.0"
             },
             {
               "methodsStatus": {
                 "1000": -1,
                 "1001": -1,
-                "1007": -1,
                 "101": -1,
                 "1012": -1,
                 "102": -1,
@@ -39493,8 +39500,8 @@ SUPPORT_CHARTS = {
                 "104": -1,
                 "105": -1
               },
-              "version": "7.34.18708.0",
-              "signature": 200057
+              "signature": 200057,
+              "version": "7.33.18606.0"
             },
             {
               "methodsStatus": {
@@ -39508,8 +39515,23 @@ SUPPORT_CHARTS = {
                 "104": -1,
                 "105": -1
               },
-              "version": "7.35.18803.0",
-              "signature": 200057
+              "signature": 200057,
+              "version": "7.34.18708.0"
+            },
+            {
+              "methodsStatus": {
+                "1000": -1,
+                "1001": -1,
+                "1007": -1,
+                "101": -1,
+                "1012": -1,
+                "102": -1,
+                "103": -1,
+                "104": -1,
+                "105": -1
+              },
+              "signature": 200057,
+              "version": "7.35.18803.0"
             }
           ],
           "labels": [],
@@ -40016,8 +40038,8 @@ SUPPORT_CHARTS = {
           "id": 200060,
           "tested_points": [
             {
-              "version": "8.0.4",
-              "signature": 200061
+              "signature": 200061,
+              "version": "8.0.4"
             }
           ],
           "labels": [],
@@ -40111,16 +40133,16 @@ SUPPORT_CHARTS = {
           "id": 200072,
           "tested_points": [
             {
-              "version": "11.0.0",
-              "signature": 200073
+              "signature": 200073,
+              "version": "11.0.0"
             },
             {
-              "version": "12.0.0",
-              "signature": 200073
+              "signature": 200073,
+              "version": "12.0.0"
             },
             {
-              "version": "20.0.0",
-              "signature": 200073
+              "signature": 200073,
+              "version": "20.0.0"
             }
           ],
           "labels": [],
@@ -40447,24 +40469,24 @@ SUPPORT_CHARTS = {
           "id": 200088,
           "tested_points": [
             {
-              "version": "0.8.2",
-              "signature": 200089
-            },
-            {
-              "version": "1.0.0",
-              "signature": 200089
-            },
-            {
-              "version": "1.0.2",
-              "signature": 200089
-            },
-            {
-              "version": "1.0.9",
-              "signature": 200089
-            },
-            {
-              "version": "1.1.6",
               "signature": 200089,
+              "version": "0.8.2"
+            },
+            {
+              "signature": 200089,
+              "version": "1.0.0"
+            },
+            {
+              "signature": 200089,
+              "version": "1.0.2"
+            },
+            {
+              "signature": 200089,
+              "version": "1.0.9"
+            },
+            {
+              "signature": 200089,
+              "version": "1.1.6",
               "release": "Beta"
             }
           ],
@@ -40575,12 +40597,12 @@ SUPPORT_CHARTS = {
           "id": 200105,
           "tested_points": [
             {
-              "version": "2.00.06.0001",
-              "signature": 200105
+              "signature": 200105,
+              "version": "2.00.06.0001"
             },
             {
-              "version": "0",
-              "signature": 200105
+              "signature": 200105,
+              "version": "0"
             }
           ],
           "labels": [],
@@ -40762,44 +40784,44 @@ SUPPORT_CHARTS = {
           "id": 200182,
           "tested_points": [
             {
-              "version": "0.8.4",
-              "signature": 200201
-            },
-            {
-              "version": "0.8.2",
-              "signature": 200201
-            },
-            {
-              "version": "0.4.4.6",
-              "signature": 200201
-            },
-            {
-              "version": "1.0.0",
-              "signature": 200201
-            },
-            {
-              "version": "1.1.1",
-              "signature": 200201
-            },
-            {
-              "version": "1.2.0",
-              "signature": 200201
-            },
-            {
-              "version": "1.3.4",
-              "signature": 200201
-            },
-            {
-              "version": "2.1.1",
-              "signature": 200201
-            },
-            {
-              "version": "0.9.11",
-              "signature": 200201
-            },
-            {
-              "version": "2.3.1",
               "signature": 200201,
+              "version": "0.8.4"
+            },
+            {
+              "signature": 200201,
+              "version": "0.8.2"
+            },
+            {
+              "signature": 200201,
+              "version": "0.4.4.6"
+            },
+            {
+              "signature": 200201,
+              "version": "1.0.0"
+            },
+            {
+              "signature": 200201,
+              "version": "1.1.1"
+            },
+            {
+              "signature": 200201,
+              "version": "1.2.0"
+            },
+            {
+              "signature": 200201,
+              "version": "1.3.4"
+            },
+            {
+              "signature": 200201,
+              "version": "2.1.1"
+            },
+            {
+              "signature": 200201,
+              "version": "0.9.11"
+            },
+            {
+              "signature": 200201,
+              "version": "2.3.1",
               "release": "Beta"
             }
           ],
@@ -40990,20 +41012,20 @@ SUPPORT_CHARTS = {
           "id": 200185,
           "tested_points": [
             {
-              "version": "0.35",
-              "signature": 200204
+              "signature": 200204,
+              "version": "0.35"
             },
             {
-              "version": "0.36",
-              "signature": 200204
+              "signature": 200204,
+              "version": "0.36"
             },
             {
-              "version": "0.36.2",
-              "signature": 200204
+              "signature": 200204,
+              "version": "0.36.2"
             },
             {
-              "version": "0.36.1",
-              "signature": 200204
+              "signature": 200204,
+              "version": "0.36.1"
             }
           ],
           "labels": [],
@@ -41234,16 +41256,16 @@ SUPPORT_CHARTS = {
           "id": 200188,
           "tested_points": [
             {
-              "version": "1.12.00",
-              "signature": 200207
+              "signature": 200207,
+              "version": "1.12.00"
             },
             {
-              "version": "1.11.05",
-              "signature": 200207
+              "signature": 200207,
+              "version": "1.11.05"
             },
             {
-              "version": "03.03.00.0001",
-              "signature": 200207
+              "signature": 200207,
+              "version": "03.03.00.0001"
             }
           ],
           "labels": [],
@@ -41455,8 +41477,8 @@ SUPPORT_CHARTS = {
           "id": 200227,
           "tested_points": [
             {
-              "version": "1.17.00.0000",
-              "signature": 200246
+              "signature": 200246,
+              "version": "1.17.00.0000"
             }
           ],
           "labels": [],
@@ -41499,8 +41521,8 @@ SUPPORT_CHARTS = {
           "id": 200029,
           "tested_points": [
             {
-              "version": "3.0",
-              "signature": 200030
+              "signature": 200030,
+              "version": "3.0"
             }
           ],
           "labels": [],
@@ -41536,8 +41558,8 @@ SUPPORT_CHARTS = {
           "id": 200031,
           "tested_points": [
             {
-              "version": "4.0",
-              "signature": 200032
+              "signature": 200032,
+              "version": "4.0"
             }
           ],
           "labels": [],
@@ -41573,8 +41595,8 @@ SUPPORT_CHARTS = {
           "id": 200034,
           "tested_points": [
             {
-              "version": "1.0",
-              "signature": 200035
+              "signature": 200035,
+              "version": "1.0"
             }
           ],
           "labels": [],
@@ -41606,8 +41628,8 @@ SUPPORT_CHARTS = {
           "id": 200035,
           "tested_points": [
             {
-              "version": "2.0",
-              "signature": 200036
+              "signature": 200036,
+              "version": "2.0"
             }
           ],
           "labels": [],
@@ -41643,8 +41665,8 @@ SUPPORT_CHARTS = {
           "id": 200036,
           "tested_points": [
             {
-              "version": "1.0",
-              "signature": 200037
+              "signature": 200037,
+              "version": "1.0"
             }
           ],
           "labels": [],
@@ -41676,8 +41698,8 @@ SUPPORT_CHARTS = {
           "id": 200037,
           "tested_points": [
             {
-              "version": "2.0",
-              "signature": 200038
+              "signature": 200038,
+              "version": "2.0"
             }
           ],
           "labels": [],
@@ -41713,12 +41735,12 @@ SUPPORT_CHARTS = {
           "id": 200156,
           "tested_points": [
             {
-              "version": "1.1.3",
-              "signature": 200166
+              "signature": 200166,
+              "version": "1.1.3"
             },
             {
-              "version": "1.0.1",
-              "signature": 200166
+              "signature": 200166,
+              "version": "1.0.1"
             }
           ],
           "labels": [],
@@ -41835,140 +41857,140 @@ SUPPORT_CHARTS = {
           "id": 200191,
           "tested_points": [
             {
-              "version": "6.38.0",
-              "signature": 200210
+              "signature": 200210,
+              "version": "6.38.0"
             },
             {
-              "version": "6.42.1",
-              "signature": 200210
+              "signature": 200210,
+              "version": "6.42.1"
             },
             {
-              "version": "7.19.0",
-              "signature": 200210
+              "signature": 200210,
+              "version": "7.19.0"
             },
             {
-              "version": "7.30.0",
-              "signature": 200210
+              "signature": 200210,
+              "version": "7.30.0"
             },
             {
-              "version": "7.31.0",
-              "signature": 200210
+              "signature": 200210,
+              "version": "7.31.0"
             },
             {
-              "version": "7.39.0",
-              "signature": 200210
+              "signature": 200210,
+              "version": "7.39.0"
             },
             {
-              "version": "7.41.0",
-              "signature": 200210
+              "signature": 200210,
+              "version": "7.41.0"
             },
             {
-              "version": "7.42.0",
-              "signature": 200210
+              "signature": 200210,
+              "version": "7.42.0"
             },
             {
-              "version": "7.43.0",
-              "signature": 200210
+              "signature": 200210,
+              "version": "7.43.0"
             },
             {
-              "version": "7.44.0",
-              "signature": 200210
+              "signature": 200210,
+              "version": "7.44.0"
             },
             {
-              "version": "7.45.1",
-              "signature": 200210
+              "signature": 200210,
+              "version": "7.45.1"
             },
             {
-              "version": "7.46.0",
-              "signature": 200210
+              "signature": 200210,
+              "version": "7.46.0"
             },
             {
-              "version": "7.46.1",
-              "signature": 200210
+              "signature": 200210,
+              "version": "7.46.1"
             },
             {
-              "version": "7.47.0",
-              "signature": 200210
+              "signature": 200210,
+              "version": "7.47.0"
             },
             {
-              "version": "7.48.0",
-              "signature": 200210
+              "signature": 200210,
+              "version": "7.48.0"
             },
             {
-              "version": "7.49.0",
-              "signature": 200210
+              "signature": 200210,
+              "version": "7.49.0"
             },
             {
-              "version": "7.50.0",
-              "signature": 200210
+              "signature": 200210,
+              "version": "7.50.0"
             },
             {
-              "version": "7.51.0",
-              "signature": 200210
+              "signature": 200210,
+              "version": "7.51.0"
             },
             {
-              "version": "7.52.0",
-              "signature": 200210
+              "signature": 200210,
+              "version": "7.52.0"
             },
             {
-              "version": "7.53.0",
-              "signature": 200210
+              "signature": 200210,
+              "version": "7.53.0"
             },
             {
-              "version": "7.77.1",
-              "signature": 200210
+              "signature": 200210,
+              "version": "7.77.1"
             },
             {
-              "version": "7.78.0",
-              "signature": 200210
+              "signature": 200210,
+              "version": "7.78.0"
             },
             {
-              "version": "7.79.0",
-              "signature": 200210
+              "signature": 200210,
+              "version": "7.79.0"
             },
             {
-              "version": "7.80.0",
-              "signature": 200210
+              "signature": 200210,
+              "version": "7.80.0"
             },
             {
-              "version": "7.80.1",
-              "signature": 200210
+              "signature": 200210,
+              "version": "7.80.1"
             },
             {
-              "version": "7.81.0",
-              "signature": 200210
+              "signature": 200210,
+              "version": "7.81.0"
             },
             {
-              "version": "7.82.0",
-              "signature": 200210
+              "signature": 200210,
+              "version": "7.82.0"
             },
             {
-              "version": "7.83.0",
-              "signature": 200210
+              "signature": 200210,
+              "version": "7.83.0"
             },
             {
-              "version": "7.84.0",
-              "signature": 200210
+              "signature": 200210,
+              "version": "7.84.0"
             },
             {
-              "version": "7.85.0",
-              "signature": 200210
+              "signature": 200210,
+              "version": "7.85.0"
             },
             {
-              "version": "7.86.0",
-              "signature": 200210
+              "signature": 200210,
+              "version": "7.86.0"
             },
             {
-              "version": "7.87.0",
-              "signature": 200210
+              "signature": 200210,
+              "version": "7.87.0"
             },
             {
-              "version": "7.88.0",
-              "signature": 200210
+              "signature": 200210,
+              "version": "7.88.0"
             },
             {
-              "version": "7.89.0",
-              "signature": 200210
+              "signature": 200210,
+              "version": "7.89.0"
             }
           ],
           "labels": [],
@@ -42100,12 +42122,12 @@ SUPPORT_CHARTS = {
           "id": 200205,
           "tested_points": [
             {
-              "version": "0.4.0",
-              "signature": 200224
+              "signature": 200224,
+              "version": "0.4.0"
             },
             {
-              "version": "0.3.1",
-              "signature": 200224
+              "signature": 200224,
+              "version": "0.3.1"
             }
           ],
           "labels": [],
@@ -42270,12 +42292,12 @@ SUPPORT_CHARTS = {
           "id": 200198,
           "tested_points": [
             {
-              "version": "3.4.2",
-              "signature": 200217
+              "signature": 200217,
+              "version": "3.4.2"
             },
             {
-              "version": "0.0",
-              "signature": 200217
+              "signature": 200217,
+              "version": "0.0"
             }
           ],
           "labels": [],
@@ -42439,6 +42461,6 @@ SUPPORT_CHARTS = {
       "name": "CLOUD_STORAGE"
     }
   },
-  "support_chart_type": "CATEGORY",
-  "timestamp": "1776758197"
+  "timestamp": "1777364892",
+  "support_chart_type": "CATEGORY"
 }
