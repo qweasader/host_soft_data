@@ -3239,155 +3239,6 @@ SUPPORT_CHARTS = {
             }
           }
         },
-        "100251": {
-          "id": 100251,
-          "tested_points": [
-            {
-              "signature": 100308,
-              "version": "1.14.451"
-            },
-            {
-              "signature": 100308,
-              "version": "1.18.30"
-            },
-            {
-              "signature": 100308,
-              "version": "2.3.137"
-            }
-          ],
-          "labels": [
-            "pua"
-          ],
-          "languages": [],
-          "name": "CCleaner",
-          "signatures": {
-            "100308": {
-              "signature": 100308,
-              "product": {
-                "id": 100251,
-                "name": "CCleaner"
-              },
-              "vendor": {
-                "id": 100178,
-                "name": "Piriform Ltd"
-              },
-              "categories": {
-                "10": {
-                  "id": 10,
-                  "name": "UNCLASSIFIED"
-                }
-              },
-              "methods": {
-                "manageability": {
-                  "100": {
-                    "id": 100,
-                    "meta_data": {
-                      "param_support": {
-                        "input": [],
-                        "output": {
-                          "version": {
-                            "_supported": true,
-                            "_optional": false
-                          },
-                          "architecture": {
-                            "_supported": true,
-                            "_optional": false,
-                            "name": {
-                              "_supported": false,
-                              "_optional": true
-                            },
-                            "bitness": {
-                              "_supported": false,
-                              "_optional": true
-                            }
-                          },
-                          "language": {
-                            "_supported": true,
-                            "_optional": false,
-                            "code": {
-                              "_supported": true,
-                              "_optional": false
-                            },
-                            "name": {
-                              "_supported": true,
-                              "_optional": false
-                            }
-                          }
-                        }
-                      },
-                      "admin_required": false,
-                      "notes": ""
-                    },
-                    "name": "GetVersion"
-                  },
-                  "101": {
-                    "id": 101,
-                    "meta_data": {
-                      "param_support": {
-                        "input": [],
-                        "output": {
-                          "running": {
-                            "_supported": true,
-                            "_optional": false
-                          }
-                        }
-                      },
-                      "admin_required": false,
-                      "notes": ""
-                    },
-                    "name": "GetRunningState"
-                  },
-                  "102": {
-                    "id": 102,
-                    "meta_data": {
-                      "param_support": {
-                        "input": [],
-                        "output": []
-                      },
-                      "admin_required": false,
-                      "notes": ""
-                    },
-                    "name": "Run"
-                  },
-                  "103": {
-                    "id": 103,
-                    "meta_data": {
-                      "param_support": {
-                        "input": [],
-                        "output": []
-                      },
-                      "admin_required": false,
-                      "notes": ""
-                    },
-                    "name": "TerminateProcesses"
-                  },
-                  "104": {
-                    "id": 104,
-                    "meta_data": {
-                      "param_support": {
-                        "input": [],
-                        "output": {
-                          "main": {
-                            "_supported": true,
-                            "_optional": false
-                          },
-                          "directories": {
-                            "_supported": true,
-                            "_optional": false
-                          }
-                        }
-                      },
-                      "admin_required": false,
-                      "notes": ""
-                    },
-                    "name": "GetInstallationDirectories"
-                  }
-                }
-              },
-              "sig_name": "CCleaner"
-            }
-          }
-        },
         "100252": {
           "id": 100252,
           "tested_points": [
@@ -10936,13 +10787,17 @@ SUPPORT_CHARTS = {
               "version": "1.116.0"
             },
             {
+              "signature": 100483,
+              "version": "1.117.0"
+            },
+            {
               "methodsStatus": {
                 "101": -1,
                 "102": -1,
                 "103": -1
               },
               "signature": 100483,
-              "version": "1.117.0"
+              "version": "1.118.0"
             }
           ],
           "labels": [],
@@ -15025,6 +14880,10 @@ SUPPORT_CHARTS = {
             {
               "signature": 100590,
               "version": "12.6.3"
+            },
+            {
+              "signature": 100590,
+              "version": "12.8.1"
             }
           ],
           "labels": [],
@@ -25464,6 +25323,16 @@ SUPPORT_CHARTS = {
               },
               "signature": 100379,
               "version": "9.1.0"
+            },
+            {
+              "methodsStatus": {
+                "1000": -1,
+                "1001": -1,
+                "1004": -1,
+                "1012": -1
+              },
+              "signature": 100379,
+              "version": "9.2.0"
             }
           ],
           "labels": [],
@@ -36542,7 +36411,157 @@ SUPPORT_CHARTS = {
     "22": {
       "id": 22,
       "methods": {},
-      "products": {},
+      "products": {
+        "100251": {
+          "id": 100251,
+          "tested_points": [
+            {
+              "signature": 100308,
+              "version": "1.14.451"
+            },
+            {
+              "signature": 100308,
+              "version": "1.18.30"
+            },
+            {
+              "signature": 100308,
+              "version": "2.3.137"
+            }
+          ],
+          "labels": [
+            "pua"
+          ],
+          "languages": [],
+          "name": "CCleaner",
+          "signatures": {
+            "100308": {
+              "signature": 100308,
+              "product": {
+                "id": 100251,
+                "name": "CCleaner"
+              },
+              "vendor": {
+                "id": 100178,
+                "name": "Piriform Ltd"
+              },
+              "categories": {
+                "22": {
+                  "id": 22,
+                  "name": "SYSTEM_DIAGNOSTIC_AND_CLEANUP"
+                }
+              },
+              "methods": {
+                "manageability": {
+                  "100": {
+                    "id": 100,
+                    "meta_data": {
+                      "param_support": {
+                        "input": [],
+                        "output": {
+                          "version": {
+                            "_supported": true,
+                            "_optional": false
+                          },
+                          "architecture": {
+                            "_supported": true,
+                            "_optional": false,
+                            "name": {
+                              "_supported": false,
+                              "_optional": true
+                            },
+                            "bitness": {
+                              "_supported": false,
+                              "_optional": true
+                            }
+                          },
+                          "language": {
+                            "_supported": true,
+                            "_optional": false,
+                            "code": {
+                              "_supported": true,
+                              "_optional": false
+                            },
+                            "name": {
+                              "_supported": true,
+                              "_optional": false
+                            }
+                          }
+                        }
+                      },
+                      "admin_required": false,
+                      "notes": ""
+                    },
+                    "name": "GetVersion"
+                  },
+                  "101": {
+                    "id": 101,
+                    "meta_data": {
+                      "param_support": {
+                        "input": [],
+                        "output": {
+                          "running": {
+                            "_supported": true,
+                            "_optional": false
+                          }
+                        }
+                      },
+                      "admin_required": false,
+                      "notes": ""
+                    },
+                    "name": "GetRunningState"
+                  },
+                  "102": {
+                    "id": 102,
+                    "meta_data": {
+                      "param_support": {
+                        "input": [],
+                        "output": []
+                      },
+                      "admin_required": false,
+                      "notes": ""
+                    },
+                    "name": "Run"
+                  },
+                  "103": {
+                    "id": 103,
+                    "meta_data": {
+                      "param_support": {
+                        "input": [],
+                        "output": []
+                      },
+                      "admin_required": false,
+                      "notes": ""
+                    },
+                    "name": "TerminateProcesses"
+                  },
+                  "104": {
+                    "id": 104,
+                    "meta_data": {
+                      "param_support": {
+                        "input": [],
+                        "output": {
+                          "main": {
+                            "_supported": true,
+                            "_optional": false
+                          },
+                          "directories": {
+                            "_supported": true,
+                            "_optional": false
+                          }
+                        }
+                      },
+                      "admin_required": false,
+                      "notes": ""
+                    },
+                    "name": "GetInstallationDirectories"
+                  }
+                }
+              },
+              "sig_name": "CCleaner"
+            }
+          }
+        }
+      },
       "name": "SYSTEM_DIAGNOSTIC_AND_CLEANUP"
     },
     "3": {
@@ -40190,6 +40209,16 @@ SUPPORT_CHARTS = {
             {
               "signature": 100004,
               "version": "147.0.7727.117"
+            },
+            {
+              "methodsStatus": {
+                "101": -1,
+                "1011": -1,
+                "103": -1,
+                "2000": -1
+              },
+              "signature": 100004,
+              "version": "147.0.7727.138"
             }
           ],
           "labels": [],
@@ -41848,6 +41877,10 @@ SUPPORT_CHARTS = {
             {
               "signature": 100292,
               "version": "150.0"
+            },
+            {
+              "signature": 100292,
+              "version": "150.0.1"
             }
           ],
           "labels": [],
@@ -53090,6 +53123,15 @@ SUPPORT_CHARTS = {
             {
               "signature": 100474,
               "version": "147.0.3912.86"
+            },
+            {
+              "methodsStatus": {
+                "1010": -1,
+                "1011": -1,
+                "2000": -1
+              },
+              "signature": 100474,
+              "version": "147.0.3912.98"
             }
           ],
           "labels": [],
@@ -81961,6 +82003,17 @@ SUPPORT_CHARTS = {
               },
               "signature": 100379,
               "version": "9.1.0"
+            },
+            {
+              "certification": "gold",
+              "methodsStatus": {
+                "1000": -1,
+                "1001": -1,
+                "1004": -1,
+                "1012": -1
+              },
+              "signature": 100379,
+              "version": "9.2.0"
             }
           ],
           "labels": [],
@@ -86233,6 +86286,10 @@ SUPPORT_CHARTS = {
             {
               "signature": 100428,
               "version": "5338"
+            },
+            {
+              "signature": 100428,
+              "version": "5341"
             }
           ],
           "labels": [],
@@ -93159,6 +93216,16 @@ SUPPORT_CHARTS = {
             {
               "signature": 100004,
               "version": "147.0.7727.117"
+            },
+            {
+              "methodsStatus": {
+                "101": -1,
+                "1011": -1,
+                "103": -1,
+                "2000": -1
+              },
+              "signature": 100004,
+              "version": "147.0.7727.138"
             }
           ],
           "labels": [],
@@ -94867,6 +94934,10 @@ SUPPORT_CHARTS = {
             {
               "signature": 100292,
               "version": "150.0"
+            },
+            {
+              "signature": 100292,
+              "version": "150.0.1"
             }
           ],
           "labels": [],
@@ -96084,6 +96155,15 @@ SUPPORT_CHARTS = {
             {
               "signature": 100474,
               "version": "147.0.3912.86"
+            },
+            {
+              "methodsStatus": {
+                "1010": -1,
+                "1011": -1,
+                "2000": -1
+              },
+              "signature": 100474,
+              "version": "147.0.3912.98"
             }
           ],
           "labels": [],
@@ -115962,6 +116042,6 @@ SUPPORT_CHARTS = {
       "name": "CLOUD_STORAGE"
     }
   },
-  "timestamp": "1777364976",
+  "timestamp": "1777722313",
   "support_chart_type": "CATEGORY"
 }
