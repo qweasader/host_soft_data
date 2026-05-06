@@ -1302,6 +1302,10 @@ SUPPORT_CHARTS = {
             {
               "signature": 100015,
               "version": "150.0"
+            },
+            {
+              "signature": 100015,
+              "version": "150.0.1"
             }
           ],
           "labels": [],
@@ -10798,6 +10802,10 @@ SUPPORT_CHARTS = {
               },
               "signature": 100483,
               "version": "1.118.0"
+            },
+            {
+              "signature": 100483,
+              "version": "1.118.1"
             }
           ],
           "labels": [],
@@ -14917,6 +14925,14 @@ SUPPORT_CHARTS = {
             {
               "signature": 100594,
               "version": "2.12.11"
+            },
+            {
+              "signature": 100594,
+              "version": "2.12.12"
+            },
+            {
+              "signature": 100594,
+              "version": "2.12.13"
             }
           ],
           "labels": [],
@@ -14950,6 +14966,10 @@ SUPPORT_CHARTS = {
             {
               "signature": 100595,
               "version": "3.6.9"
+            },
+            {
+              "signature": 100595,
+              "version": "3.6.10"
             }
           ],
           "labels": [],
@@ -14974,6 +14994,39 @@ SUPPORT_CHARTS = {
               },
               "methods": {},
               "sig_name": "iTerm2"
+            }
+          }
+        },
+        "100538": {
+          "id": 100538,
+          "tested_points": [
+            {
+              "signature": 100596,
+              "version": "1.162.2"
+            }
+          ],
+          "labels": [],
+          "languages": [],
+          "name": "Grammarly Desktop",
+          "signatures": {
+            "100596": {
+              "signature": 100596,
+              "product": {
+                "id": 100538,
+                "name": "Grammarly Desktop"
+              },
+              "vendor": {
+                "id": 100311,
+                "name": "Grammarly, Inc."
+              },
+              "categories": {
+                "10": {
+                  "id": 10,
+                  "name": "UNCLASSIFIED"
+                }
+              },
+              "methods": {},
+              "sig_name": "Grammarly Desktop"
             }
           }
         }
@@ -24044,18 +24097,6 @@ SUPPORT_CHARTS = {
               "version": "7.35.20704.0"
             },
             {
-              "methodsStatus": {
-                "1000": -1,
-                "1001": -1,
-                "1007": -1,
-                "101": -1,
-                "1012": -1,
-                "102": -1,
-                "103": -1,
-                "104": -1,
-                "105": -1,
-                "108": -1
-              },
               "signature": 100306,
               "version": "7.36.20807.0"
             }
@@ -40211,12 +40252,6 @@ SUPPORT_CHARTS = {
               "version": "147.0.7727.117"
             },
             {
-              "methodsStatus": {
-                "101": -1,
-                "1011": -1,
-                "103": -1,
-                "2000": -1
-              },
               "signature": 100004,
               "version": "147.0.7727.138"
             }
@@ -53125,11 +53160,6 @@ SUPPORT_CHARTS = {
               "version": "147.0.3912.86"
             },
             {
-              "methodsStatus": {
-                "1010": -1,
-                "1011": -1,
-                "2000": -1
-              },
               "signature": 100474,
               "version": "147.0.3912.98"
             }
@@ -72478,18 +72508,6 @@ SUPPORT_CHARTS = {
             },
             {
               "certification": "gold",
-              "methodsStatus": {
-                "1000": -1,
-                "1001": -1,
-                "1007": -1,
-                "101": -1,
-                "1012": -1,
-                "102": -1,
-                "103": -1,
-                "104": -1,
-                "105": -1,
-                "108": -1
-              },
               "signature": 100306,
               "version": "7.36.20807.0"
             }
@@ -93218,12 +93236,6 @@ SUPPORT_CHARTS = {
               "version": "147.0.7727.117"
             },
             {
-              "methodsStatus": {
-                "101": -1,
-                "1011": -1,
-                "103": -1,
-                "2000": -1
-              },
               "signature": 100004,
               "version": "147.0.7727.138"
             }
@@ -96157,11 +96169,6 @@ SUPPORT_CHARTS = {
               "version": "147.0.3912.86"
             },
             {
-              "methodsStatus": {
-                "1010": -1,
-                "1011": -1,
-                "2000": -1
-              },
               "signature": 100474,
               "version": "147.0.3912.98"
             }
@@ -101795,7 +101802,12 @@ SUPPORT_CHARTS = {
                     "id": 100,
                     "meta_data": {
                       "param_support": {
-                        "input": [],
+                        "input": {
+                          "instance_id": {
+                            "_supported": false,
+                            "_optional": true
+                          }
+                        },
                         "output": {
                           "version": {
                             "_supported": true,
@@ -101806,11 +101818,11 @@ SUPPORT_CHARTS = {
                             "_optional": false,
                             "name": {
                               "_supported": false,
-                              "_optional": true
+                              "_optional": false
                             },
                             "bitness": {
                               "_supported": false,
-                              "_optional": true
+                              "_optional": false
                             }
                           },
                           "language": {
@@ -101824,6 +101836,14 @@ SUPPORT_CHARTS = {
                               "_supported": true,
                               "_optional": false
                             }
+                          },
+                          "channel": {
+                            "_supported": false,
+                            "_optional": true
+                          },
+                          "release": {
+                            "_supported": false,
+                            "_optional": true
                           }
                         }
                       },
@@ -103970,18 +103990,6 @@ SUPPORT_CHARTS = {
               "version": "7.35.20704.0"
             },
             {
-              "methodsStatus": {
-                "1000": -1,
-                "1001": -1,
-                "1007": -1,
-                "101": -1,
-                "1012": -1,
-                "102": -1,
-                "103": -1,
-                "104": -1,
-                "105": -1,
-                "108": -1
-              },
               "signature": 100306,
               "version": "7.36.20807.0"
             }
@@ -116042,6 +116050,6 @@ SUPPORT_CHARTS = {
       "name": "CLOUD_STORAGE"
     }
   },
-  "timestamp": "1777722313",
+  "timestamp": "1777967430",
   "support_chart_type": "CATEGORY"
 }

@@ -9174,8 +9174,7 @@ SUPPORT_CHARTS = {
             },
             {
               "signature": 200188,
-              "version": "5.40.1",
-              "release": "Beta"
+              "version": "5.40.1"
             }
           ],
           "labels": [],
@@ -13208,6 +13207,10 @@ SUPPORT_CHARTS = {
               "signature": 200041,
               "version": "3.1.16",
               "release": "Beta"
+            },
+            {
+              "signature": 200041,
+              "version": "3.2.0"
             }
           ],
           "labels": [],
@@ -22848,8 +22851,7 @@ SUPPORT_CHARTS = {
             },
             {
               "signature": 200064,
-              "version": "2.8.4",
-              "release": "Beta"
+              "version": "2.8.4"
             }
           ],
           "labels": [],
@@ -40486,8 +40488,7 @@ SUPPORT_CHARTS = {
             },
             {
               "signature": 200089,
-              "version": "1.1.6",
-              "release": "Beta"
+              "version": "1.1.6"
             }
           ],
           "labels": [],
@@ -40821,8 +40822,7 @@ SUPPORT_CHARTS = {
             },
             {
               "signature": 200201,
-              "version": "2.3.1",
-              "release": "Beta"
+              "version": "2.3.1"
             }
           ],
           "labels": [],
@@ -42461,6 +42461,6 @@ SUPPORT_CHARTS = {
       "name": "CLOUD_STORAGE"
     }
   },
-  "timestamp": "1777364892",
+  "timestamp": "1777967414",
   "support_chart_type": "CATEGORY"
 }
