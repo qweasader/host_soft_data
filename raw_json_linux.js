@@ -1330,6 +1330,10 @@ SUPPORT_CHARTS = {
             {
               "signature": 200096,
               "version": "149.0.2"
+            },
+            {
+              "signature": 200096,
+              "version": "150.0.2"
             }
           ],
           "labels": [],
@@ -23453,6 +23457,10 @@ SUPPORT_CHARTS = {
             {
               "signature": 200002,
               "version": "147.0.7727.101"
+            },
+            {
+              "signature": 200002,
+              "version": "148.0.7778.96"
             }
           ],
           "labels": [],
@@ -37048,7 +37056,7 @@ SUPPORT_CHARTS = {
           "tested_points": [
             {
               "signature": 200246,
-              "version": "1.17.00.0000"
+              "version": "03.08.00.0001"
             }
           ],
           "labels": [],
@@ -37075,7 +37083,20 @@ SUPPORT_CHARTS = {
                   "name": "FIREWALL"
                 }
               },
-              "methods": {},
+              "methods": {
+                "constant": {
+                  "102": {
+                    "id": 102,
+                    "code": -11,
+                    "name": "Run"
+                  },
+                  "103": {
+                    "id": 103,
+                    "code": -11,
+                    "name": "TerminateProcesses"
+                  }
+                }
+              },
               "sig_name": "WatchGuard Endpoint Security Elite"
             }
           }
@@ -37278,6 +37299,10 @@ SUPPORT_CHARTS = {
             {
               "signature": 200002,
               "version": "147.0.7727.101"
+            },
+            {
+              "signature": 200002,
+              "version": "148.0.7778.96"
             }
           ],
           "labels": [],
@@ -41478,7 +41503,7 @@ SUPPORT_CHARTS = {
           "tested_points": [
             {
               "signature": 200246,
-              "version": "1.17.00.0000"
+              "version": "03.08.00.0001"
             }
           ],
           "labels": [],
@@ -41505,7 +41530,20 @@ SUPPORT_CHARTS = {
                   "name": "FIREWALL"
                 }
               },
-              "methods": {},
+              "methods": {
+                "constant": {
+                  "102": {
+                    "id": 102,
+                    "code": -11,
+                    "name": "Run"
+                  },
+                  "103": {
+                    "id": 103,
+                    "code": -11,
+                    "name": "TerminateProcesses"
+                  }
+                }
+              },
               "sig_name": "WatchGuard Endpoint Security Elite"
             }
           }
@@ -42461,6 +42499,6 @@ SUPPORT_CHARTS = {
       "name": "CLOUD_STORAGE"
     }
   },
-  "timestamp": "1777967414",
+  "timestamp": "1778574962",
   "support_chart_type": "CATEGORY"
 }

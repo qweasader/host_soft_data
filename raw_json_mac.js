@@ -1306,6 +1306,10 @@ SUPPORT_CHARTS = {
             {
               "signature": 100015,
               "version": "150.0.1"
+            },
+            {
+              "signature": 100015,
+              "version": "150.0.2"
             }
           ],
           "labels": [],
@@ -10806,6 +10810,15 @@ SUPPORT_CHARTS = {
             {
               "signature": 100483,
               "version": "1.118.1"
+            },
+            {
+              "methodsStatus": {
+                "101": -1,
+                "102": -1,
+                "103": -1
+              },
+              "signature": 100483,
+              "version": "1.119.0"
             }
           ],
           "labels": [],
@@ -15027,6 +15040,72 @@ SUPPORT_CHARTS = {
               },
               "methods": {},
               "sig_name": "Grammarly Desktop"
+            }
+          }
+        },
+        "100539": {
+          "id": 100539,
+          "tested_points": [
+            {
+              "signature": 100597,
+              "version": "0.95"
+            }
+          ],
+          "labels": [],
+          "languages": [],
+          "name": "Rectangle",
+          "signatures": {
+            "100597": {
+              "signature": 100597,
+              "product": {
+                "id": 100539,
+                "name": "Rectangle"
+              },
+              "vendor": {
+                "id": 100312,
+                "name": "Ryan Hanson"
+              },
+              "categories": {
+                "10": {
+                  "id": 10,
+                  "name": "UNCLASSIFIED"
+                }
+              },
+              "methods": {},
+              "sig_name": "Rectangle"
+            }
+          }
+        },
+        "100540": {
+          "id": 100540,
+          "tested_points": [
+            {
+              "signature": 100598,
+              "version": "126.3.12"
+            }
+          ],
+          "labels": [],
+          "languages": [],
+          "name": "Figma",
+          "signatures": {
+            "100598": {
+              "signature": 100598,
+              "product": {
+                "id": 100540,
+                "name": "Figma"
+              },
+              "vendor": {
+                "id": 100313,
+                "name": "Figma, Inc."
+              },
+              "categories": {
+                "10": {
+                  "id": 10,
+                  "name": "UNCLASSIFIED"
+                }
+              },
+              "methods": {},
+              "sig_name": "Figma"
             }
           }
         }
@@ -36445,6 +36524,175 @@ SUPPORT_CHARTS = {
               "sig_name": "Ollama"
             }
           }
+        },
+        "100541": {
+          "id": 100541,
+          "tested_points": [
+            {
+              "signature": 100599,
+              "version": "25.6.440430001"
+            }
+          ],
+          "labels": [],
+          "languages": [],
+          "name": "Copilot",
+          "signatures": {
+            "100599": {
+              "signature": 100599,
+              "product": {
+                "id": 100541,
+                "name": "Copilot"
+              },
+              "vendor": {
+                "id": 100090,
+                "name": "Microsoft Corporation"
+              },
+              "categories": {
+                "21": {
+                  "id": 21,
+                  "name": "ARTIFICIAL_INTELLIGENCE"
+                }
+              },
+              "methods": {},
+              "sig_name": "Copilot"
+            }
+          }
+        },
+        "100542": {
+          "id": 100542,
+          "tested_points": [
+            {
+              "signature": 100600,
+              "version": "1.2026.104"
+            },
+            {
+              "signature": 100600,
+              "version": "1.2026.118"
+            }
+          ],
+          "labels": [],
+          "languages": [],
+          "name": "ChatGPT",
+          "signatures": {
+            "100600": {
+              "signature": 100600,
+              "product": {
+                "id": 100542,
+                "name": "ChatGPT"
+              },
+              "vendor": {
+                "id": 100314,
+                "name": "OpenAI"
+              },
+              "categories": {
+                "21": {
+                  "id": 21,
+                  "name": "ARTIFICIAL_INTELLIGENCE"
+                }
+              },
+              "methods": {},
+              "sig_name": "ChatGPT"
+            }
+          }
+        },
+        "100543": {
+          "id": 100543,
+          "tested_points": [
+            {
+              "signature": 100601,
+              "version": "1.53.0.262"
+            }
+          ],
+          "labels": [],
+          "languages": [],
+          "name": "Gemini",
+          "signatures": {
+            "100601": {
+              "signature": 100601,
+              "product": {
+                "id": 100543,
+                "name": "Gemini"
+              },
+              "vendor": {
+                "id": 100315,
+                "name": "Google LLC"
+              },
+              "categories": {
+                "21": {
+                  "id": 21,
+                  "name": "ARTIFICIAL_INTELLIGENCE"
+                }
+              },
+              "methods": {},
+              "sig_name": "Gemini"
+            }
+          }
+        },
+        "100544": {
+          "id": 100544,
+          "tested_points": [
+            {
+              "signature": 100602,
+              "version": "3.5.208"
+            }
+          ],
+          "labels": [],
+          "languages": [],
+          "name": "ClickUp",
+          "signatures": {
+            "100602": {
+              "signature": 100602,
+              "product": {
+                "id": 100544,
+                "name": "ClickUp"
+              },
+              "vendor": {
+                "id": 100316,
+                "name": "ClickUp"
+              },
+              "categories": {
+                "21": {
+                  "id": 21,
+                  "name": "ARTIFICIAL_INTELLIGENCE"
+                }
+              },
+              "methods": {},
+              "sig_name": "ClickUp"
+            }
+          }
+        },
+        "100545": {
+          "id": 100545,
+          "tested_points": [
+            {
+              "signature": 100603,
+              "version": "1.122.0"
+            }
+          ],
+          "labels": [],
+          "languages": [],
+          "name": "Canva",
+          "signatures": {
+            "100603": {
+              "signature": 100603,
+              "product": {
+                "id": 100545,
+                "name": "Canva"
+              },
+              "vendor": {
+                "id": 100317,
+                "name": "Canva"
+              },
+              "categories": {
+                "21": {
+                  "id": 21,
+                  "name": "ARTIFICIAL_INTELLIGENCE"
+                }
+              },
+              "methods": {},
+              "sig_name": "Canva"
+            }
+          }
         }
       },
       "name": "ARTIFICIAL_INTELLIGENCE"
@@ -40254,6 +40502,10 @@ SUPPORT_CHARTS = {
             {
               "signature": 100004,
               "version": "147.0.7727.138"
+            },
+            {
+              "signature": 100004,
+              "version": "148.0.7778.97"
             }
           ],
           "labels": [],
@@ -41418,12 +41670,6 @@ SUPPORT_CHARTS = {
                     },
                     "name": "GetPlugins"
                   }
-                },
-                "removal": {
-                  "40000": {
-                    "id": 40000,
-                    "name": "Uninstall"
-                  }
                 }
               },
               "sig_name": "Safari"
@@ -41916,6 +42162,10 @@ SUPPORT_CHARTS = {
             {
               "signature": 100292,
               "version": "150.0.1"
+            },
+            {
+              "signature": 100292,
+              "version": "150.0.2"
             }
           ],
           "labels": [],
@@ -53162,6 +53412,10 @@ SUPPORT_CHARTS = {
             {
               "signature": 100474,
               "version": "147.0.3912.98"
+            },
+            {
+              "signature": 100474,
+              "version": "148.0.3967.54"
             }
           ],
           "labels": [],
@@ -55929,6 +56183,127 @@ SUPPORT_CHARTS = {
                     "id": 103,
                     "code": -11,
                     "name": "TerminateProcesses"
+                  }
+                },
+                "manageability": {
+                  "1000": {
+                    "id": 1000,
+                    "meta_data": {
+                      "param_support": {
+                        "input": {
+                          "skip_connection_check": {
+                            "_supported": false,
+                            "_optional": true
+                          }
+                        },
+                        "output": {
+                          "enabled": {
+                            "_supported": true,
+                            "_optional": false
+                          },
+                          "has_internet_connectivity": {
+                            "_supported": false,
+                            "_optional": true
+                          },
+                          "details": {
+                            "_supported": true,
+                            "_optional": false,
+                            "antivirus": {
+                              "_supported": false,
+                              "_optional": true
+                            },
+                            "antispyware": {
+                              "_supported": false,
+                              "_optional": true
+                            },
+                            "other": {
+                              "_supported": false,
+                              "_optional": true,
+                              "name": {
+                                "_supported": false,
+                                "_optional": true
+                              },
+                              "state": {
+                                "_supported": false,
+                                "_optional": true
+                              }
+                            }
+                          }
+                        }
+                      },
+                      "admin_required": false,
+                      "notes": ""
+                    },
+                    "name": "GetRealTimeProtectionState"
+                  },
+                  "1001": {
+                    "id": 1001,
+                    "meta_data": {
+                      "param_support": {
+                        "input": {
+                          "timeframe": {
+                            "_supported": false,
+                            "_optional": true
+                          },
+                          "skip_connection_check": {
+                            "_supported": false,
+                            "_optional": true
+                          }
+                        },
+                        "output": {
+                          "is_recent": {
+                            "_supported": true,
+                            "_optional": false
+                          },
+                          "has_internet_connectivity": {
+                            "_supported": false,
+                            "_optional": true
+                          },
+                          "definitions": {
+                            "_supported": true,
+                            "_optional": false,
+                            "name": {
+                              "_supported": true,
+                              "_optional": false
+                            },
+                            "type": {
+                              "_supported": true,
+                              "_optional": false,
+                              "_values": {
+                                "antimalware": false,
+                                "antivirus": false,
+                                "antispyware": false
+                              }
+                            },
+                            "version": {
+                              "_supported": true,
+                              "_optional": false
+                            },
+                            "engine_version": {
+                              "_supported": false,
+                              "_optional": true
+                            },
+                            "last_update": {
+                              "_optional": false,
+                              "_supported": true,
+                              "_optional_override": true
+                            },
+                            "source_time": {
+                              "_optional": false,
+                              "_supported": true,
+                              "_optional_override": true
+                            },
+                            "count": {
+                              "_supported": false,
+                              "_optional": true
+                            }
+                          }
+                        }
+                      },
+                      "admin_required": false,
+                      "notes": ""
+                    },
+                    "name": "GetDefinitionState"
                   }
                 }
               },
@@ -68802,6 +69177,7 @@ SUPPORT_CHARTS = {
               "version": "7.23.56.200141"
             },
             {
+              "certification": "platinum",
               "methodsStatus": {
                 "1000": -1,
                 "1001": -1,
@@ -68820,14 +69196,17 @@ SUPPORT_CHARTS = {
               "version": "8.26.03.200006"
             },
             {
+              "certification": "platinum",
               "signature": 100269,
               "version": "8.26.03.200007"
             },
             {
+              "certification": "platinum",
               "signature": 100269,
               "version": "8.26.03.200011"
             },
             {
+              "certification": "platinum",
               "signature": 100269,
               "version": "8.26.04.200013"
             }
@@ -86308,6 +86687,10 @@ SUPPORT_CHARTS = {
             {
               "signature": 100428,
               "version": "5341"
+            },
+            {
+              "signature": 100428,
+              "version": "5342"
             }
           ],
           "labels": [],
@@ -86640,6 +87023,10 @@ SUPPORT_CHARTS = {
               },
               "signature": 100429,
               "version": "26.3"
+            },
+            {
+              "signature": 100429,
+              "version": "26.4"
             }
           ],
           "labels": [],
@@ -91096,6 +91483,10 @@ SUPPORT_CHARTS = {
               },
               "signature": 100548,
               "version": "26.3.1"
+            },
+            {
+              "signature": 100548,
+              "version": "26.4.0"
             }
           ],
           "labels": [],
@@ -92908,6 +93299,127 @@ SUPPORT_CHARTS = {
                     "code": -11,
                     "name": "TerminateProcesses"
                   }
+                },
+                "manageability": {
+                  "1000": {
+                    "id": 1000,
+                    "meta_data": {
+                      "param_support": {
+                        "input": {
+                          "skip_connection_check": {
+                            "_supported": false,
+                            "_optional": true
+                          }
+                        },
+                        "output": {
+                          "enabled": {
+                            "_supported": true,
+                            "_optional": false
+                          },
+                          "has_internet_connectivity": {
+                            "_supported": false,
+                            "_optional": true
+                          },
+                          "details": {
+                            "_supported": true,
+                            "_optional": false,
+                            "antivirus": {
+                              "_supported": false,
+                              "_optional": true
+                            },
+                            "antispyware": {
+                              "_supported": false,
+                              "_optional": true
+                            },
+                            "other": {
+                              "_supported": false,
+                              "_optional": true,
+                              "name": {
+                                "_supported": false,
+                                "_optional": true
+                              },
+                              "state": {
+                                "_supported": false,
+                                "_optional": true
+                              }
+                            }
+                          }
+                        }
+                      },
+                      "admin_required": false,
+                      "notes": ""
+                    },
+                    "name": "GetRealTimeProtectionState"
+                  },
+                  "1001": {
+                    "id": 1001,
+                    "meta_data": {
+                      "param_support": {
+                        "input": {
+                          "timeframe": {
+                            "_supported": false,
+                            "_optional": true
+                          },
+                          "skip_connection_check": {
+                            "_supported": false,
+                            "_optional": true
+                          }
+                        },
+                        "output": {
+                          "is_recent": {
+                            "_supported": true,
+                            "_optional": false
+                          },
+                          "has_internet_connectivity": {
+                            "_supported": false,
+                            "_optional": true
+                          },
+                          "definitions": {
+                            "_supported": true,
+                            "_optional": false,
+                            "name": {
+                              "_supported": true,
+                              "_optional": false
+                            },
+                            "type": {
+                              "_supported": true,
+                              "_optional": false,
+                              "_values": {
+                                "antimalware": false,
+                                "antivirus": false,
+                                "antispyware": false
+                              }
+                            },
+                            "version": {
+                              "_supported": true,
+                              "_optional": false
+                            },
+                            "engine_version": {
+                              "_supported": false,
+                              "_optional": true
+                            },
+                            "last_update": {
+                              "_optional": false,
+                              "_supported": true,
+                              "_optional_override": true
+                            },
+                            "source_time": {
+                              "_optional": false,
+                              "_supported": true,
+                              "_optional_override": true
+                            },
+                            "count": {
+                              "_supported": false,
+                              "_optional": true
+                            }
+                          }
+                        }
+                      },
+                      "admin_required": false,
+                      "notes": ""
+                    },
+                    "name": "GetDefinitionState"
+                  }
                 }
               },
               "sig_name": "WatchGuard Endpoint Security Elite"
@@ -93238,6 +93750,10 @@ SUPPORT_CHARTS = {
             {
               "signature": 100004,
               "version": "147.0.7727.138"
+            },
+            {
+              "signature": 100004,
+              "version": "148.0.7778.97"
             }
           ],
           "labels": [],
@@ -94452,12 +94968,6 @@ SUPPORT_CHARTS = {
                     },
                     "name": "GetPlugins"
                   }
-                },
-                "removal": {
-                  "40000": {
-                    "id": 40000,
-                    "name": "Uninstall"
-                  }
                 }
               },
               "sig_name": "Safari"
@@ -94950,6 +95460,10 @@ SUPPORT_CHARTS = {
             {
               "signature": 100292,
               "version": "150.0.1"
+            },
+            {
+              "signature": 100292,
+              "version": "150.0.2"
             }
           ],
           "labels": [],
@@ -96171,6 +96685,10 @@ SUPPORT_CHARTS = {
             {
               "signature": 100474,
               "version": "147.0.3912.98"
+            },
+            {
+              "signature": 100474,
+              "version": "148.0.3967.54"
             }
           ],
           "labels": [],
@@ -107690,6 +108208,10 @@ SUPPORT_CHARTS = {
               },
               "signature": 100429,
               "version": "26.3"
+            },
+            {
+              "signature": 100429,
+              "version": "26.4"
             }
           ],
           "labels": [],
@@ -109264,6 +109786,10 @@ SUPPORT_CHARTS = {
               },
               "signature": 100548,
               "version": "26.3.1"
+            },
+            {
+              "signature": 100548,
+              "version": "26.4.0"
             }
           ],
           "labels": [],
@@ -111241,14 +111767,7 @@ SUPPORT_CHARTS = {
                   "name": "MESSENGER"
                 }
               },
-              "methods": {
-                "removal": {
-                  "40000": {
-                    "id": 40000,
-                    "name": "Uninstall"
-                  }
-                }
-              },
+              "methods": {},
               "sig_name": "iCall"
             }
           }
@@ -116050,6 +116569,6 @@ SUPPORT_CHARTS = {
       "name": "CLOUD_STORAGE"
     }
   },
-  "timestamp": "1777967430",
+  "timestamp": "1778575067",
   "support_chart_type": "CATEGORY"
 }
