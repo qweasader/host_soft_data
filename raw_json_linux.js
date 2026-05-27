@@ -13490,6 +13490,10 @@ SUPPORT_CHARTS = {
                             "_supported": false,
                             "_optional": true
                           },
+                          "username": {
+                            "_supported": false,
+                            "_optional": true
+                          },
                           "password": {
                             "_supported": false,
                             "_optional": true
@@ -13521,6 +13525,14 @@ SUPPORT_CHARTS = {
                           "restart_action": {
                             "_supported": false,
                             "_optional": true
+                          },
+                          "auto_repair": {
+                            "_supported": false,
+                            "_optional": true,
+                            "_values": {
+                              "none": false,
+                              "auto": false
+                            }
                           }
                         },
                         "output": {
@@ -18211,6 +18223,32 @@ SUPPORT_CHARTS = {
               },
               "signature": 200057,
               "version": "7.35.18803.0"
+            },
+            {
+              "methodsStatus": {
+                "1001": -1,
+                "1007": -1,
+                "1012": -1,
+                "102": -1,
+                "103": -1,
+                "104": -1,
+                "105": -1
+              },
+              "signature": 200057,
+              "version": "7.36.18909.0"
+            },
+            {
+              "methodsStatus": {
+                "1001": -1,
+                "1007": -1,
+                "1012": -1,
+                "102": -1,
+                "103": -1,
+                "104": -1,
+                "105": -1
+              },
+              "signature": 200057,
+              "version": "7.37.19004.0"
             }
           ],
           "labels": [],
@@ -23929,6 +23967,46 @@ SUPPORT_CHARTS = {
             {
               "signature": 200003,
               "version": "149.0.2"
+            },
+            {
+              "signature": 200003,
+              "version": "150.0.2"
+            },
+            {
+              "methodsStatus": {
+                "1010": -1,
+                "1011": -1,
+                "102": -1,
+                "103": -1,
+                "104": -1,
+                "105": -1
+              },
+              "signature": 200003,
+              "version": "150.0.3"
+            },
+            {
+              "methodsStatus": {
+                "1010": -1,
+                "1011": -1,
+                "102": -1,
+                "103": -1,
+                "104": -1,
+                "105": -1
+              },
+              "signature": 200003,
+              "version": "151.0.0"
+            },
+            {
+              "methodsStatus": {
+                "1010": -1,
+                "1011": -1,
+                "102": -1,
+                "103": -1,
+                "104": -1,
+                "105": -1
+              },
+              "signature": 200003,
+              "version": "151.0.1"
             }
           ],
           "labels": [],
@@ -29757,6 +29835,34 @@ SUPPORT_CHARTS = {
               },
               "signature": 200057,
               "version": "7.35.18803.0"
+            },
+            {
+              "certification": "gold",
+              "methodsStatus": {
+                "1001": -1,
+                "1007": -1,
+                "1012": -1,
+                "102": -1,
+                "103": -1,
+                "104": -1,
+                "105": -1
+              },
+              "signature": 200057,
+              "version": "7.36.18909.0"
+            },
+            {
+              "certification": "gold",
+              "methodsStatus": {
+                "1001": -1,
+                "1007": -1,
+                "1012": -1,
+                "102": -1,
+                "103": -1,
+                "104": -1,
+                "105": -1
+              },
+              "signature": 200057,
+              "version": "7.37.19004.0"
             }
           ],
           "labels": [],
@@ -37946,6 +38052,46 @@ SUPPORT_CHARTS = {
             {
               "signature": 200003,
               "version": "149.0.2"
+            },
+            {
+              "signature": 200003,
+              "version": "150.0.2"
+            },
+            {
+              "methodsStatus": {
+                "1010": -1,
+                "1011": -1,
+                "102": -1,
+                "103": -1,
+                "104": -1,
+                "105": -1
+              },
+              "signature": 200003,
+              "version": "150.0.3"
+            },
+            {
+              "methodsStatus": {
+                "1010": -1,
+                "1011": -1,
+                "102": -1,
+                "103": -1,
+                "104": -1,
+                "105": -1
+              },
+              "signature": 200003,
+              "version": "151.0.0"
+            },
+            {
+              "methodsStatus": {
+                "1010": -1,
+                "1011": -1,
+                "102": -1,
+                "103": -1,
+                "104": -1,
+                "105": -1
+              },
+              "signature": 200003,
+              "version": "151.0.1"
             }
           ],
           "labels": [],
@@ -39746,6 +39892,32 @@ SUPPORT_CHARTS = {
               },
               "signature": 200057,
               "version": "7.35.18803.0"
+            },
+            {
+              "methodsStatus": {
+                "1001": -1,
+                "1007": -1,
+                "1012": -1,
+                "102": -1,
+                "103": -1,
+                "104": -1,
+                "105": -1
+              },
+              "signature": 200057,
+              "version": "7.36.18909.0"
+            },
+            {
+              "methodsStatus": {
+                "1001": -1,
+                "1007": -1,
+                "1012": -1,
+                "102": -1,
+                "103": -1,
+                "104": -1,
+                "105": -1
+              },
+              "signature": 200057,
+              "version": "7.37.19004.0"
             }
           ],
           "labels": [],
@@ -42862,5 +43034,5 @@ SUPPORT_CHARTS = {
     }
   },
   "support_chart_type": "CATEGORY",
-  "timestamp": "1779182971"
+  "timestamp": "1779793508"
 }
