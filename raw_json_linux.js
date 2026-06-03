@@ -178,15 +178,8 @@ SUPPORT_CHARTS = {
               "version": "3.69.6"
             },
             {
-              "methodsStatus": {
-                "101": -1,
-                "102": -1,
-                "103": -1,
-                "104": -1,
-                "105": -1
-              },
               "signature": 200150,
-              "version": "3.70.0"
+              "version": "3.70.5"
             }
           ],
           "labels": [],
@@ -17912,6 +17905,18 @@ SUPPORT_CHARTS = {
             {
               "signature": 200093,
               "version": "14.1.7"
+            },
+            {
+              "signature": 200093,
+              "version": "25.0.1"
+            },
+            {
+              "signature": 200093,
+              "version": "25.0.0"
+            },
+            {
+              "signature": 200093,
+              "version": "26.0.0"
             }
           ],
           "labels": [],
@@ -17982,7 +17987,12 @@ SUPPORT_CHARTS = {
                     "id": 101,
                     "meta_data": {
                       "param_support": {
-                        "input": [],
+                        "input": {
+                          "instance_id": {
+                            "_supported": false,
+                            "_optional": true
+                          }
+                        },
                         "output": {
                           "running": {
                             "_supported": true,
@@ -18058,7 +18068,12 @@ SUPPORT_CHARTS = {
                     "id": 103,
                     "meta_data": {
                       "param_support": {
-                        "input": [],
+                        "input": {
+                          "instance_id": {
+                            "_supported": false,
+                            "_optional": true
+                          }
+                        },
                         "output": []
                       },
                       "admin_required": false,
@@ -21439,15 +21454,8 @@ SUPPORT_CHARTS = {
               "version": "3.69.6"
             },
             {
-              "methodsStatus": {
-                "101": -1,
-                "102": -1,
-                "103": -1,
-                "104": -1,
-                "105": -1
-              },
               "signature": 200150,
-              "version": "3.70.0"
+              "version": "3.70.5"
             }
           ],
           "labels": [],
@@ -24007,6 +24015,10 @@ SUPPORT_CHARTS = {
               },
               "signature": 200003,
               "version": "151.0.1"
+            },
+            {
+              "signature": 200003,
+              "version": "151.0.2"
             }
           ],
           "labels": [],
@@ -38092,6 +38104,10 @@ SUPPORT_CHARTS = {
               },
               "signature": 200003,
               "version": "151.0.1"
+            },
+            {
+              "signature": 200003,
+              "version": "151.0.2"
             }
           ],
           "labels": [],
@@ -43034,5 +43050,5 @@ SUPPORT_CHARTS = {
     }
   },
   "support_chart_type": "CATEGORY",
-  "timestamp": "1779793508"
+  "timestamp": "1780379782"
 }
