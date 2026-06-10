@@ -4161,6 +4161,10 @@ SUPPORT_CHARTS = {
             {
               "signature": 100350,
               "version": "26.001.21563"
+            },
+            {
+              "signature": 100350,
+              "version": "26.001.21651"
             }
           ],
           "labels": [],
@@ -10860,6 +10864,10 @@ SUPPORT_CHARTS = {
             {
               "signature": 100483,
               "version": "1.122.1"
+            },
+            {
+              "signature": 100483,
+              "version": "1.123.0"
             }
           ],
           "labels": [],
@@ -21575,6 +21583,10 @@ SUPPORT_CHARTS = {
             {
               "signature": 100608,
               "version": "11.5.2614.04.M"
+            },
+            {
+              "signature": 100608,
+              "version": "11.5.2616.08.M"
             }
           ],
           "labels": [],
@@ -21598,7 +21610,239 @@ SUPPORT_CHARTS = {
                 }
               },
               "sig_name": "ManageEngine Endpoint Central Agent",
-              "methods": {}
+              "methods": {
+                "manageability": {
+                  "101": {
+                    "id": 101,
+                    "meta_data": {
+                      "param_support": {
+                        "input": {
+                          "instance_id": {
+                            "_supported": false,
+                            "_optional": true
+                          }
+                        },
+                        "output": {
+                          "running": {
+                            "_supported": true,
+                            "_optional": false
+                          }
+                        }
+                      },
+                      "admin_required": false,
+                      "notes": ""
+                    },
+                    "name": "GetRunningState"
+                  },
+                  "102": {
+                    "id": 102,
+                    "meta_data": {
+                      "param_support": {
+                        "input": {
+                          "instance_id": {
+                            "_supported": false,
+                            "_optional": true
+                          }
+                        },
+                        "output": []
+                      },
+                      "admin_required": false,
+                      "notes": ""
+                    },
+                    "name": "Run"
+                  },
+                  "103": {
+                    "id": 103,
+                    "meta_data": {
+                      "param_support": {
+                        "input": {
+                          "instance_id": {
+                            "_supported": false,
+                            "_optional": true
+                          }
+                        },
+                        "output": []
+                      },
+                      "admin_required": true,
+                      "notes": ""
+                    },
+                    "name": "TerminateProcesses"
+                  }
+                }
+              }
+            }
+          }
+        },
+        "100552": {
+          "id": 100552,
+          "tested_points": [
+            {
+              "signature": 100609,
+              "version": "5.1.13"
+            }
+          ],
+          "labels": [],
+          "languages": [],
+          "name": "Iru Agent",
+          "signatures": {
+            "100609": {
+              "signature": 100609,
+              "product": {
+                "id": 100552,
+                "name": "Iru Agent"
+              },
+              "vendor": {
+                "id": 100322,
+                "name": "Iru, Inc."
+              },
+              "categories": {
+                "12": {
+                  "id": 12,
+                  "name": "PATCH_MANAGEMENT"
+                }
+              },
+              "sig_name": "Iru Agent",
+              "methods": {
+                "constant": {
+                  "103": {
+                    "id": 103,
+                    "code": -11,
+                    "name": "TerminateProcesses"
+                  }
+                },
+                "manageability": {
+                  "101": {
+                    "id": 101,
+                    "meta_data": {
+                      "param_support": {
+                        "input": {
+                          "instance_id": {
+                            "_supported": false,
+                            "_optional": true
+                          }
+                        },
+                        "output": {
+                          "running": {
+                            "_supported": true,
+                            "_optional": false
+                          }
+                        }
+                      },
+                      "admin_required": false,
+                      "notes": ""
+                    },
+                    "name": "GetRunningState"
+                  },
+                  "1012": {
+                    "id": 1012,
+                    "meta_data": {
+                      "param_support": {
+                        "input": {
+                          "retrieve_agent_info": {
+                            "_supported": false,
+                            "_optional": true
+                          },
+                          "assessment_queries": {
+                            "_supported": false,
+                            "_optional": true,
+                            "data_type": {
+                              "_supported": true,
+                              "_optional": false,
+                              "_values": {
+                                "zta_score": false,
+                                "last_server_connect_time": false
+                              }
+                            },
+                            "credentials": {
+                              "_supported": false,
+                              "_optional": true,
+                              "base_url": {
+                                "_supported": false,
+                                "_optional": true
+                              },
+                              "client_id": {
+                                "_supported": false,
+                                "_optional": true
+                              },
+                              "client_secret": {
+                                "_supported": false,
+                                "_optional": true
+                              }
+                            }
+                          }
+                        },
+                        "output": {
+                          "enabled": {
+                            "_supported": true,
+                            "_optional": false
+                          },
+                          "status": {
+                            "_supported": false,
+                            "_optional": true,
+                            "_values": {
+                              "good": false,
+                              "poor": false,
+                              "unmonitored": false
+                            }
+                          },
+                          "startup_type": {
+                            "_supported": false,
+                            "_optional": true
+                          },
+                          "agent_id": {
+                            "_supported": false,
+                            "_optional": true
+                          },
+                          "assessment_results": {
+                            "_supported": false,
+                            "_optional": true,
+                            "data_type": {
+                              "_supported": true,
+                              "_optional": false,
+                              "_values": {
+                                "zta_score": false,
+                                "last_server_connect_time": false
+                              }
+                            },
+                            "return_code": {
+                              "_supported": true,
+                              "_optional": false
+                            },
+                            "value": {
+                              "_supported": false,
+                              "_optional": true
+                            },
+                            "message": {
+                              "_supported": false,
+                              "_optional": true
+                            }
+                          }
+                        }
+                      },
+                      "admin_required": false,
+                      "notes": ""
+                    },
+                    "name": "GetAgentState"
+                  },
+                  "102": {
+                    "id": 102,
+                    "meta_data": {
+                      "param_support": {
+                        "input": {
+                          "instance_id": {
+                            "_supported": false,
+                            "_optional": true
+                          }
+                        },
+                        "output": []
+                      },
+                      "admin_required": false,
+                      "notes": ""
+                    },
+                    "name": "Run"
+                  }
+                }
+              }
             }
           }
         }
@@ -22348,6 +22592,23 @@ SUPPORT_CHARTS = {
                     },
                     "name": "GetRunningState"
                   },
+                  "102": {
+                    "id": 102,
+                    "meta_data": {
+                      "param_support": {
+                        "input": {
+                          "instance_id": {
+                            "_supported": false,
+                            "_optional": true
+                          }
+                        },
+                        "output": []
+                      },
+                      "admin_required": false,
+                      "notes": ""
+                    },
+                    "name": "Run"
+                  },
                   "103": {
                     "id": 103,
                     "meta_data": {
@@ -22359,6 +22620,32 @@ SUPPORT_CHARTS = {
                       "notes": ""
                     },
                     "name": "TerminateProcesses"
+                  },
+                  "104": {
+                    "id": 104,
+                    "meta_data": {
+                      "param_support": {
+                        "input": {
+                          "instance_id": {
+                            "_supported": false,
+                            "_optional": true
+                          }
+                        },
+                        "output": {
+                          "main": {
+                            "_supported": true,
+                            "_optional": false
+                          },
+                          "directories": {
+                            "_supported": true,
+                            "_optional": false
+                          }
+                        }
+                      },
+                      "admin_required": false,
+                      "notes": ""
+                    },
+                    "name": "GetInstallationDirectories"
                   }
                 }
               }
@@ -22615,14 +22902,6 @@ SUPPORT_CHARTS = {
               "version": "7.4.6.1926"
             },
             {
-              "methodsStatus": {
-                "1001": -1,
-                "102": -1,
-                "103": -1,
-                "104": -1,
-                "105": -1,
-                "108": -1
-              },
               "signature": 100363,
               "version": "7.4.7.1928"
             }
@@ -24279,22 +24558,6 @@ SUPPORT_CHARTS = {
               "version": "7.33.20503.0"
             },
             {
-              "methodsStatus": {
-                "1000": -1,
-                "1001": -1,
-                "1007": -1,
-                "101": -1,
-                "1012": -1,
-                "102": -1,
-                "103": -1,
-                "104": -1,
-                "105": -1,
-                "108": -1
-              },
-              "signature": 100306,
-              "version": "7.34.20604.0"
-            },
-            {
               "signature": 100306,
               "version": "7.35.20704.0"
             },
@@ -24305,6 +24568,14 @@ SUPPORT_CHARTS = {
             {
               "signature": 100306,
               "version": "7.37.20904.0"
+            },
+            {
+              "signature": 100306,
+              "version": "7.38.21003.0"
+            },
+            {
+              "signature": 100306,
+              "version": "7.34.20604.0"
             }
           ],
           "labels": [],
@@ -24971,21 +25242,10 @@ SUPPORT_CHARTS = {
               "version": "101.25052.0012"
             },
             {
-              "methodsStatus": {
-                "1000": -1,
-                "1001": -1,
-                "1003": -1,
-                "1004": -1,
-                "1005": -1,
-                "1007": -1,
-                "101": -1,
-                "102": -1,
-                "104": -1,
-                "105": -1,
-                "106": -1,
-                "108": -1,
-                "110": -1
-              },
+              "signature": 100369,
+              "version": "101.26032.0016"
+            },
+            {
               "signature": 100369,
               "version": "101.25082.0006"
             }
@@ -36950,6 +37210,39 @@ SUPPORT_CHARTS = {
               "methods": {}
             }
           }
+        },
+        "100553": {
+          "id": 100553,
+          "tested_points": [
+            {
+              "signature": 100610,
+              "version": "0.1.32"
+            }
+          ],
+          "labels": [],
+          "languages": [],
+          "name": "Fireflies",
+          "signatures": {
+            "100610": {
+              "signature": 100610,
+              "product": {
+                "id": 100553,
+                "name": "Fireflies"
+              },
+              "vendor": {
+                "id": 100323,
+                "name": "Fireflies.ai"
+              },
+              "categories": {
+                "21": {
+                  "id": 21,
+                  "name": "ARTIFICIAL_INTELLIGENCE"
+                }
+              },
+              "sig_name": "Fireflies",
+              "methods": {}
+            }
+          }
         }
       },
       "name": "ARTIFICIAL_INTELLIGENCE"
@@ -37482,6 +37775,18 @@ SUPPORT_CHARTS = {
             {
               "signature": 100145,
               "version": "26.5"
+            },
+            {
+              "methodsStatus": {
+                "1009": -1,
+                "102": -1,
+                "103": -1,
+                "104": -1,
+                "105": -1,
+                "108": -1
+              },
+              "signature": 100145,
+              "version": "26.5.1"
             }
           ],
           "labels": [],
@@ -38511,6 +38816,23 @@ SUPPORT_CHARTS = {
                     },
                     "name": "GetRunningState"
                   },
+                  "102": {
+                    "id": 102,
+                    "meta_data": {
+                      "param_support": {
+                        "input": {
+                          "instance_id": {
+                            "_supported": false,
+                            "_optional": true
+                          }
+                        },
+                        "output": []
+                      },
+                      "admin_required": false,
+                      "notes": ""
+                    },
+                    "name": "Run"
+                  },
                   "103": {
                     "id": 103,
                     "meta_data": {
@@ -38522,6 +38844,32 @@ SUPPORT_CHARTS = {
                       "notes": ""
                     },
                     "name": "TerminateProcesses"
+                  },
+                  "104": {
+                    "id": 104,
+                    "meta_data": {
+                      "param_support": {
+                        "input": {
+                          "instance_id": {
+                            "_supported": false,
+                            "_optional": true
+                          }
+                        },
+                        "output": {
+                          "main": {
+                            "_supported": true,
+                            "_optional": false
+                          },
+                          "directories": {
+                            "_supported": true,
+                            "_optional": false
+                          }
+                        }
+                      },
+                      "admin_required": false,
+                      "notes": ""
+                    },
+                    "name": "GetInstallationDirectories"
                   }
                 }
               }
@@ -38824,20 +39172,12 @@ SUPPORT_CHARTS = {
               "version": "8.26.04.200013"
             },
             {
-              "methodsStatus": {
-                "1001": -1,
-                "1002": -1,
-                "1003": -1,
-                "1004": -1,
-                "1005": -1,
-                "102": -1,
-                "103": -1,
-                "104": -1,
-                "105": -1,
-                "108": -1
-              },
               "signature": 100269,
               "version": "8.26.05.200019"
+            },
+            {
+              "signature": 100269,
+              "version": "8.26.06.200022"
             }
           ],
           "labels": [],
@@ -39368,16 +39708,6 @@ SUPPORT_CHARTS = {
               "version": "2025.3.1.3"
             },
             {
-              "methodsStatus": {
-                "1001": -1,
-                "1004": -1,
-                "1006": -1,
-                "102": -1,
-                "103": -1,
-                "104": -1,
-                "105": -1,
-                "108": -1
-              },
               "signature": 100362,
               "version": "2025.3.2.4"
             }
@@ -40813,6 +41143,10 @@ SUPPORT_CHARTS = {
             {
               "signature": 100004,
               "version": "148.0.7778.216"
+            },
+            {
+              "signature": 100004,
+              "version": "149.0.7827.54"
             }
           ],
           "labels": [],
@@ -42451,10 +42785,6 @@ SUPPORT_CHARTS = {
               "version": "148.0"
             },
             {
-              "methodsStatus": {
-                "1011": -1,
-                "2000": -1
-              },
               "signature": 100292,
               "version": "148.0.2"
             },
@@ -42483,36 +42813,20 @@ SUPPORT_CHARTS = {
               "version": "150.0.3"
             },
             {
-              "methodsStatus": {
-                "1010": -1,
-                "1011": -1,
-                "102": -1,
-                "103": -1,
-                "104": -1,
-                "105": -1,
-                "108": -1,
-                "2000": -1
-              },
               "signature": 100292,
               "version": "151.0.0"
             },
             {
-              "methodsStatus": {
-                "1010": -1,
-                "1011": -1,
-                "102": -1,
-                "103": -1,
-                "104": -1,
-                "105": -1,
-                "108": -1,
-                "2000": -1
-              },
               "signature": 100292,
               "version": "151.0.1"
             },
             {
               "signature": 100292,
               "version": "151.0.2"
+            },
+            {
+              "signature": 100292,
+              "version": "151.0.3"
             }
           ],
           "labels": [],
@@ -42684,7 +42998,7 @@ SUPPORT_CHARTS = {
                             "_supported": true,
                             "_optional": false,
                             "id": {
-                              "_supported": false,
+                              "_supported": true,
                               "_optional": true
                             },
                             "name": {
@@ -42704,7 +43018,7 @@ SUPPORT_CHARTS = {
                               }
                             },
                             "details": {
-                              "_supported": false,
+                              "_supported": true,
                               "_optional": true
                             }
                           }
@@ -47641,21 +47955,6 @@ SUPPORT_CHARTS = {
               "version": "9.1.2000.0"
             },
             {
-              "methodsStatus": {
-                "1000": -1,
-                "1001": -1,
-                "1004": -1,
-                "1005": -1,
-                "1006": -1,
-                "1007": -1,
-                "101": -1,
-                "1010": -1,
-                "102": -1,
-                "103": -1,
-                "104": -1,
-                "105": -1,
-                "108": -1
-              },
               "signature": 100256,
               "version": "9.1.2500.0"
             }
@@ -48390,20 +48689,12 @@ SUPPORT_CHARTS = {
               "version": "8.26.04.200013"
             },
             {
-              "methodsStatus": {
-                "1001": -1,
-                "1002": -1,
-                "1003": -1,
-                "1004": -1,
-                "1005": -1,
-                "102": -1,
-                "103": -1,
-                "104": -1,
-                "105": -1,
-                "108": -1
-              },
               "signature": 100269,
               "version": "8.26.05.200019"
+            },
+            {
+              "signature": 100269,
+              "version": "8.26.06.200022"
             }
           ],
           "labels": [],
@@ -49154,6 +49445,10 @@ SUPPORT_CHARTS = {
             {
               "signature": 100279,
               "version": "12.1.0.553"
+            },
+            {
+              "signature": 100279,
+              "version": "12.2.0.694"
             }
           ],
           "labels": [],
@@ -49520,7 +49815,7 @@ SUPPORT_CHARTS = {
                         },
                         "output": []
                       },
-                      "admin_required": false,
+                      "admin_required": true,
                       "notes": ""
                     },
                     "name": "TerminateProcesses"
@@ -51527,14 +51822,6 @@ SUPPORT_CHARTS = {
               "version": "7.4.6.1926"
             },
             {
-              "methodsStatus": {
-                "1001": -1,
-                "102": -1,
-                "103": -1,
-                "104": -1,
-                "105": -1,
-                "108": -1
-              },
               "signature": 100363,
               "version": "7.4.7.1928"
             }
@@ -53264,20 +53551,6 @@ SUPPORT_CHARTS = {
               "version": "20.0.0.246"
             },
             {
-              "methodsStatus": {
-                "1000": -1,
-                "1001": -1,
-                "1002": -1,
-                "1004": -1,
-                "101": -1,
-                "1010": -1,
-                "102": -1,
-                "103": -1,
-                "104": -1,
-                "105": -1,
-                "106": -1,
-                "108": -1
-              },
               "signature": 100461,
               "version": "20.0.0.252"
             }
@@ -53808,6 +54081,10 @@ SUPPORT_CHARTS = {
             {
               "signature": 100474,
               "version": "148.0.3967.96"
+            },
+            {
+              "signature": 100474,
+              "version": "149.0.4022.52"
             }
           ],
           "labels": [],
@@ -60737,6 +61014,10 @@ SUPPORT_CHARTS = {
             {
               "signature": 100213,
               "version": "10.2.7.2"
+            },
+            {
+              "signature": 100213,
+              "version": "10.3.2.3"
             }
           ],
           "labels": [],
@@ -66004,6 +66285,23 @@ SUPPORT_CHARTS = {
                     },
                     "name": "GetRunningState"
                   },
+                  "102": {
+                    "id": 102,
+                    "meta_data": {
+                      "param_support": {
+                        "input": {
+                          "instance_id": {
+                            "_supported": false,
+                            "_optional": true
+                          }
+                        },
+                        "output": []
+                      },
+                      "admin_required": false,
+                      "notes": ""
+                    },
+                    "name": "Run"
+                  },
                   "103": {
                     "id": 103,
                     "meta_data": {
@@ -66015,6 +66313,32 @@ SUPPORT_CHARTS = {
                       "notes": ""
                     },
                     "name": "TerminateProcesses"
+                  },
+                  "104": {
+                    "id": 104,
+                    "meta_data": {
+                      "param_support": {
+                        "input": {
+                          "instance_id": {
+                            "_supported": false,
+                            "_optional": true
+                          }
+                        },
+                        "output": {
+                          "main": {
+                            "_supported": true,
+                            "_optional": false
+                          },
+                          "directories": {
+                            "_supported": true,
+                            "_optional": false
+                          }
+                        }
+                      },
+                      "admin_required": false,
+                      "notes": ""
+                    },
+                    "name": "GetInstallationDirectories"
                   }
                 }
               }
@@ -68677,21 +69001,6 @@ SUPPORT_CHARTS = {
             },
             {
               "certification": "gold",
-              "methodsStatus": {
-                "1000": -1,
-                "1001": -1,
-                "1004": -1,
-                "1005": -1,
-                "1006": -1,
-                "1007": -1,
-                "101": -1,
-                "1010": -1,
-                "102": -1,
-                "103": -1,
-                "104": -1,
-                "105": -1,
-                "108": -1
-              },
               "signature": 100256,
               "version": "9.1.2500.0"
             }
@@ -69612,20 +69921,13 @@ SUPPORT_CHARTS = {
             },
             {
               "certification": "platinum",
-              "methodsStatus": {
-                "1001": -1,
-                "1002": -1,
-                "1003": -1,
-                "1004": -1,
-                "1005": -1,
-                "102": -1,
-                "103": -1,
-                "104": -1,
-                "105": -1,
-                "108": -1
-              },
               "signature": 100269,
               "version": "8.26.05.200019"
+            },
+            {
+              "certification": "platinum",
+              "signature": 100269,
+              "version": "8.26.06.200022"
             }
           ],
           "labels": [],
@@ -70521,6 +70823,11 @@ SUPPORT_CHARTS = {
               "certification": "platinum",
               "signature": 100279,
               "version": "12.1.0.553"
+            },
+            {
+              "certification": "platinum",
+              "signature": 100279,
+              "version": "12.2.0.694"
             }
           ],
           "labels": [],
@@ -70887,7 +71194,7 @@ SUPPORT_CHARTS = {
                         },
                         "output": []
                       },
-                      "admin_required": false,
+                      "admin_required": true,
                       "notes": ""
                     },
                     "name": "TerminateProcesses"
@@ -73282,23 +73589,6 @@ SUPPORT_CHARTS = {
             },
             {
               "certification": "gold",
-              "methodsStatus": {
-                "1000": -1,
-                "1001": -1,
-                "1007": -1,
-                "101": -1,
-                "1012": -1,
-                "102": -1,
-                "103": -1,
-                "104": -1,
-                "105": -1,
-                "108": -1
-              },
-              "signature": 100306,
-              "version": "7.34.20604.0"
-            },
-            {
-              "certification": "gold",
               "signature": 100306,
               "version": "7.35.20704.0"
             },
@@ -73311,6 +73601,16 @@ SUPPORT_CHARTS = {
               "certification": "gold",
               "signature": 100306,
               "version": "7.37.20904.0"
+            },
+            {
+              "certification": "gold",
+              "signature": 100306,
+              "version": "7.38.21003.0"
+            },
+            {
+              "certification": "gold",
+              "signature": 100306,
+              "version": "7.34.20604.0"
             }
           ],
           "labels": [],
@@ -73770,6 +74070,10 @@ SUPPORT_CHARTS = {
             {
               "signature": 100372,
               "version": "5.20.0.3620"
+            },
+            {
+              "signature": 100372,
+              "version": "5.23.1.3862"
             }
           ],
           "labels": [],
@@ -79863,16 +80167,6 @@ SUPPORT_CHARTS = {
               "version": "2025.3.1.3"
             },
             {
-              "methodsStatus": {
-                "1001": -1,
-                "1004": -1,
-                "1006": -1,
-                "102": -1,
-                "103": -1,
-                "104": -1,
-                "105": -1,
-                "108": -1
-              },
               "signature": 100362,
               "version": "2025.3.2.4"
             }
@@ -80237,14 +80531,6 @@ SUPPORT_CHARTS = {
             },
             {
               "certification": "gold",
-              "methodsStatus": {
-                "1001": -1,
-                "102": -1,
-                "103": -1,
-                "104": -1,
-                "105": -1,
-                "108": -1
-              },
               "signature": 100363,
               "version": "7.4.7.1928"
             }
@@ -81246,21 +81532,11 @@ SUPPORT_CHARTS = {
             },
             {
               "certification": "platinum",
-              "methodsStatus": {
-                "1000": -1,
-                "1001": -1,
-                "1003": -1,
-                "1004": -1,
-                "1005": -1,
-                "1007": -1,
-                "101": -1,
-                "102": -1,
-                "104": -1,
-                "105": -1,
-                "106": -1,
-                "108": -1,
-                "110": -1
-              },
+              "signature": 100369,
+              "version": "101.26032.0016"
+            },
+            {
+              "certification": "platinum",
               "signature": 100369,
               "version": "101.25082.0006"
             }
@@ -84115,6 +84391,10 @@ SUPPORT_CHARTS = {
               },
               "signature": 100392,
               "version": "11.9.36"
+            },
+            {
+              "signature": 100392,
+              "version": "11.9.1043"
             }
           ],
           "labels": [],
@@ -87143,6 +87423,10 @@ SUPPORT_CHARTS = {
             {
               "signature": 100428,
               "version": "5346"
+            },
+            {
+              "signature": 100428,
+              "version": "5347"
             }
           ],
           "labels": [],
@@ -88941,20 +89225,6 @@ SUPPORT_CHARTS = {
             },
             {
               "certification": "gold",
-              "methodsStatus": {
-                "1000": -1,
-                "1001": -1,
-                "1002": -1,
-                "1004": -1,
-                "101": -1,
-                "1010": -1,
-                "102": -1,
-                "103": -1,
-                "104": -1,
-                "105": -1,
-                "106": -1,
-                "108": -1
-              },
               "signature": 100461,
               "version": "20.0.0.252"
             }
@@ -94222,6 +94492,10 @@ SUPPORT_CHARTS = {
             {
               "signature": 100004,
               "version": "148.0.7778.216"
+            },
+            {
+              "signature": 100004,
+              "version": "149.0.7827.54"
             }
           ],
           "labels": [],
@@ -95910,10 +96184,6 @@ SUPPORT_CHARTS = {
               "version": "148.0"
             },
             {
-              "methodsStatus": {
-                "1011": -1,
-                "2000": -1
-              },
               "signature": 100292,
               "version": "148.0.2"
             },
@@ -95942,36 +96212,20 @@ SUPPORT_CHARTS = {
               "version": "150.0.3"
             },
             {
-              "methodsStatus": {
-                "1010": -1,
-                "1011": -1,
-                "102": -1,
-                "103": -1,
-                "104": -1,
-                "105": -1,
-                "108": -1,
-                "2000": -1
-              },
               "signature": 100292,
               "version": "151.0.0"
             },
             {
-              "methodsStatus": {
-                "1010": -1,
-                "1011": -1,
-                "102": -1,
-                "103": -1,
-                "104": -1,
-                "105": -1,
-                "108": -1,
-                "2000": -1
-              },
               "signature": 100292,
               "version": "151.0.1"
             },
             {
               "signature": 100292,
               "version": "151.0.2"
+            },
+            {
+              "signature": 100292,
+              "version": "151.0.3"
             }
           ],
           "labels": [],
@@ -96143,7 +96397,7 @@ SUPPORT_CHARTS = {
                             "_supported": true,
                             "_optional": false,
                             "id": {
-                              "_supported": false,
+                              "_supported": true,
                               "_optional": true
                             },
                             "name": {
@@ -96163,7 +96417,7 @@ SUPPORT_CHARTS = {
                               }
                             },
                             "details": {
-                              "_supported": false,
+                              "_supported": true,
                               "_optional": true
                             }
                           }
@@ -97214,6 +97468,10 @@ SUPPORT_CHARTS = {
             {
               "signature": 100474,
               "version": "148.0.3967.96"
+            },
+            {
+              "signature": 100474,
+              "version": "149.0.4022.52"
             }
           ],
           "labels": [],
@@ -102445,6 +102703,23 @@ SUPPORT_CHARTS = {
                     },
                     "name": "GetRunningState"
                   },
+                  "102": {
+                    "id": 102,
+                    "meta_data": {
+                      "param_support": {
+                        "input": {
+                          "instance_id": {
+                            "_supported": false,
+                            "_optional": true
+                          }
+                        },
+                        "output": []
+                      },
+                      "admin_required": false,
+                      "notes": ""
+                    },
+                    "name": "Run"
+                  },
                   "103": {
                     "id": 103,
                     "meta_data": {
@@ -102456,6 +102731,32 @@ SUPPORT_CHARTS = {
                       "notes": ""
                     },
                     "name": "TerminateProcesses"
+                  },
+                  "104": {
+                    "id": 104,
+                    "meta_data": {
+                      "param_support": {
+                        "input": {
+                          "instance_id": {
+                            "_supported": false,
+                            "_optional": true
+                          }
+                        },
+                        "output": {
+                          "main": {
+                            "_supported": true,
+                            "_optional": false
+                          },
+                          "directories": {
+                            "_supported": true,
+                            "_optional": false
+                          }
+                        }
+                      },
+                      "admin_required": false,
+                      "notes": ""
+                    },
+                    "name": "GetInstallationDirectories"
                   }
                 }
               }
@@ -103483,21 +103784,6 @@ SUPPORT_CHARTS = {
               "version": "9.1.2000.0"
             },
             {
-              "methodsStatus": {
-                "1000": -1,
-                "1001": -1,
-                "1004": -1,
-                "1005": -1,
-                "1006": -1,
-                "1007": -1,
-                "101": -1,
-                "1010": -1,
-                "102": -1,
-                "103": -1,
-                "104": -1,
-                "105": -1,
-                "108": -1
-              },
               "signature": 100256,
               "version": "9.1.2500.0"
             }
@@ -105021,22 +105307,6 @@ SUPPORT_CHARTS = {
               "version": "7.33.20503.0"
             },
             {
-              "methodsStatus": {
-                "1000": -1,
-                "1001": -1,
-                "1007": -1,
-                "101": -1,
-                "1012": -1,
-                "102": -1,
-                "103": -1,
-                "104": -1,
-                "105": -1,
-                "108": -1
-              },
-              "signature": 100306,
-              "version": "7.34.20604.0"
-            },
-            {
               "signature": 100306,
               "version": "7.35.20704.0"
             },
@@ -105047,6 +105317,14 @@ SUPPORT_CHARTS = {
             {
               "signature": 100306,
               "version": "7.37.20904.0"
+            },
+            {
+              "signature": 100306,
+              "version": "7.38.21003.0"
+            },
+            {
+              "signature": 100306,
+              "version": "7.34.20604.0"
             }
           ],
           "labels": [],
@@ -107989,14 +108267,6 @@ SUPPORT_CHARTS = {
               "version": "7.4.6.1926"
             },
             {
-              "methodsStatus": {
-                "1001": -1,
-                "102": -1,
-                "103": -1,
-                "104": -1,
-                "105": -1,
-                "108": -1
-              },
               "signature": 100363,
               "version": "7.4.7.1928"
             }
@@ -117163,5 +117433,5 @@ SUPPORT_CHARTS = {
     }
   },
   "support_chart_type": "CATEGORY",
-  "timestamp": "1780379795"
+  "timestamp": "1780993222"
 }
