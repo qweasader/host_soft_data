@@ -14,12 +14,12 @@ SUPPORT_CHARTS = {
           "id": 200038,
           "tested_points": [
             {
-              "signature": 200039,
-              "version": "4.0"
+              "version": "4.0",
+              "signature": 200039
             },
             {
-              "signature": 200039,
-              "version": "5.0"
+              "version": "5.0",
+              "signature": 200039
             }
           ],
           "labels": [
@@ -48,8 +48,8 @@ SUPPORT_CHARTS = {
                   "name": "P2PA"
                 }
               },
-              "sig_name": "BitTorrent",
-              "methods": {}
+              "methods": {},
+              "sig_name": "BitTorrent"
             }
           }
         },
@@ -57,8 +57,8 @@ SUPPORT_CHARTS = {
           "id": 200122,
           "tested_points": [
             {
-              "signature": 200131,
-              "version": "2.94"
+              "version": "2.94",
+              "signature": 200131
             }
           ],
           "labels": [],
@@ -85,7 +85,6 @@ SUPPORT_CHARTS = {
                   "name": "P2PA"
                 }
               },
-              "sig_name": "Transmission",
               "methods": {
                 "manageability": {
                   "100": {
@@ -143,7 +142,8 @@ SUPPORT_CHARTS = {
                     "name": "GetVersion"
                   }
                 }
-              }
+              },
+              "sig_name": "Transmission"
             }
           }
         },
@@ -151,20 +151,20 @@ SUPPORT_CHARTS = {
           "id": 200141,
           "tested_points": [
             {
-              "signature": 200150,
-              "version": "3.45.1"
+              "version": "3.45.1",
+              "signature": 200150
             },
             {
-              "signature": 200150,
-              "version": "3.15.0.2"
+              "version": "3.15.0.2",
+              "signature": 200150
             },
             {
-              "signature": 200150,
-              "version": "3.67.0"
+              "version": "3.67.0",
+              "signature": 200150
             },
             {
-              "signature": 200150,
-              "version": "3.69.5"
+              "version": "3.69.5",
+              "signature": 200150
             },
             {
               "methodsStatus": {
@@ -174,16 +174,16 @@ SUPPORT_CHARTS = {
                 "104": -1,
                 "105": -1
               },
-              "signature": 200150,
-              "version": "3.69.6"
+              "version": "3.69.6",
+              "signature": 200150
             },
             {
-              "signature": 200150,
-              "version": "3.70.5"
+              "version": "3.70.5",
+              "signature": 200150
             },
             {
-              "signature": 200150,
-              "version": "3.70.6"
+              "version": "3.70.6",
+              "signature": 200150
             }
           ],
           "labels": [],
@@ -210,7 +210,6 @@ SUPPORT_CHARTS = {
                   "name": "P2PA"
                 }
               },
-              "sig_name": "FileZilla",
               "methods": {
                 "manageability": {
                   "100": {
@@ -266,9 +265,75 @@ SUPPORT_CHARTS = {
                       "notes": ""
                     },
                     "name": "GetVersion"
+                  },
+                  "101": {
+                    "id": 101,
+                    "meta_data": {
+                      "param_support": {
+                        "input": {
+                          "instance_id": {
+                            "_supported": false,
+                            "_optional": true
+                          }
+                        },
+                        "output": {
+                          "running": {
+                            "_supported": true,
+                            "_optional": false
+                          }
+                        }
+                      },
+                      "admin_required": false,
+                      "notes": "I added the GetRunningState method to return the status for any path, not just /usr/bin"
+                    },
+                    "name": "GetRunningState"
+                  },
+                  "102": {
+                    "id": 102,
+                    "meta_data": {
+                      "param_support": {
+                        "input": {
+                          "instance_id": {
+                            "_supported": false,
+                            "_optional": true
+                          }
+                        },
+                        "output": []
+                      },
+                      "admin_required": false,
+                      "notes": ""
+                    },
+                    "name": "Run"
+                  },
+                  "104": {
+                    "id": 104,
+                    "meta_data": {
+                      "param_support": {
+                        "input": {
+                          "instance_id": {
+                            "_supported": false,
+                            "_optional": true
+                          }
+                        },
+                        "output": {
+                          "main": {
+                            "_supported": true,
+                            "_optional": false
+                          },
+                          "directories": {
+                            "_supported": true,
+                            "_optional": false
+                          }
+                        }
+                      },
+                      "admin_required": false,
+                      "notes": ""
+                    },
+                    "name": "GetInstallationDirectories"
                   }
                 }
-              }
+              },
+              "sig_name": "FileZilla"
             }
           }
         },
@@ -276,8 +341,8 @@ SUPPORT_CHARTS = {
           "id": 200150,
           "tested_points": [
             {
-              "signature": 200160,
-              "version": "4.1.7"
+              "version": "4.1.7",
+              "signature": 200160
             }
           ],
           "labels": [
@@ -306,8 +371,8 @@ SUPPORT_CHARTS = {
                   "name": "P2PA"
                 }
               },
-              "sig_name": "qBittorrent",
-              "methods": {}
+              "methods": {},
+              "sig_name": "qBittorrent"
             }
           }
         },
@@ -315,8 +380,8 @@ SUPPORT_CHARTS = {
           "id": 200163,
           "tested_points": [
             {
-              "signature": 200172,
-              "version": "7.5.1"
+              "version": "7.5.1",
+              "signature": 200172
             }
           ],
           "labels": [],
@@ -343,8 +408,8 @@ SUPPORT_CHARTS = {
                   "name": "P2PA"
                 }
               },
-              "sig_name": "Tribler",
-              "methods": {}
+              "methods": {},
+              "sig_name": "Tribler"
             }
           }
         }
@@ -359,12 +424,12 @@ SUPPORT_CHARTS = {
           "id": 200052,
           "tested_points": [
             {
-              "signature": 200053,
-              "version": "26.0.0.151ubuntu0.14.04.1"
+              "version": "26.0.0.151ubuntu0.14.04.1",
+              "signature": 200053
             },
             {
-              "signature": 200053,
-              "version": "31.0.0.108"
+              "version": "31.0.0.108",
+              "signature": 200053
             }
           ],
           "labels": [
@@ -389,7 +454,6 @@ SUPPORT_CHARTS = {
                   "name": "UNCLASSIFIED"
                 }
               },
-              "sig_name": "Adobe Flash Player",
               "methods": {
                 "manageability": {
                   "100": {
@@ -410,7 +474,8 @@ SUPPORT_CHARTS = {
                     "name": "GetVersion"
                   }
                 }
-              }
+              },
+              "sig_name": "Adobe Flash Player"
             }
           }
         },
@@ -418,8 +483,8 @@ SUPPORT_CHARTS = {
           "id": 200065,
           "tested_points": [
             {
-              "signature": 200066,
-              "version": "2.7.14"
+              "version": "2.7.14",
+              "signature": 200066
             }
           ],
           "labels": [],
@@ -442,8 +507,8 @@ SUPPORT_CHARTS = {
                   "name": "UNCLASSIFIED"
                 }
               },
-              "sig_name": "Python",
-              "methods": {}
+              "methods": {},
+              "sig_name": "Python"
             }
           }
         },
@@ -451,8 +516,8 @@ SUPPORT_CHARTS = {
           "id": 200067,
           "tested_points": [
             {
-              "signature": 200068,
-              "version": "0.0"
+              "version": "0.0",
+              "signature": 200068
             }
           ],
           "labels": [
@@ -477,8 +542,8 @@ SUPPORT_CHARTS = {
                   "name": "UNCLASSIFIED"
                 }
               },
-              "sig_name": "Code::Blocks",
-              "methods": {}
+              "methods": {},
+              "sig_name": "Code::Blocks"
             }
           }
         },
@@ -486,24 +551,24 @@ SUPPORT_CHARTS = {
           "id": 200069,
           "tested_points": [
             {
-              "signature": 200070,
-              "version": "0.63ubuntu1~02"
+              "version": "0.63ubuntu1~02",
+              "signature": 200070
             },
             {
-              "signature": 200070,
-              "version": "11-1"
+              "version": "11-1",
+              "signature": 200070
             },
             {
-              "signature": 200070,
-              "version": "17.0.8"
+              "version": "17.0.8",
+              "signature": 200070
             },
             {
-              "signature": 200070,
-              "version": "22.0.2"
+              "version": "22.0.2",
+              "signature": 200070
             },
             {
-              "signature": 200070,
-              "version": "21.0.4"
+              "version": "21.0.4",
+              "signature": 200070
             }
           ],
           "labels": [
@@ -528,7 +593,6 @@ SUPPORT_CHARTS = {
                   "name": "UNCLASSIFIED"
                 }
               },
-              "sig_name": "Java",
               "methods": {
                 "constant": {
                   "102": {
@@ -632,7 +696,8 @@ SUPPORT_CHARTS = {
                     "name": "TerminateProcesses"
                   }
                 }
-              }
+              },
+              "sig_name": "Java"
             }
           }
         },
@@ -640,12 +705,12 @@ SUPPORT_CHARTS = {
           "id": 200079,
           "tested_points": [
             {
-              "signature": 200080,
-              "version": "7.2.24"
+              "version": "7.2.24",
+              "signature": 200080
             },
             {
-              "signature": 200080,
-              "version": "8.1.7"
+              "version": "8.1.7",
+              "signature": 200080
             }
           ],
           "labels": [
@@ -670,7 +735,6 @@ SUPPORT_CHARTS = {
                   "name": "UNCLASSIFIED"
                 }
               },
-              "sig_name": "PHP",
               "methods": {
                 "constant": {
                   "102": {
@@ -853,7 +917,8 @@ SUPPORT_CHARTS = {
                     "name": "GetComponents"
                   }
                 }
-              }
+              },
+              "sig_name": "PHP"
             }
           }
         },
@@ -861,12 +926,12 @@ SUPPORT_CHARTS = {
           "id": 200080,
           "tested_points": [
             {
-              "signature": 200081,
-              "version": "3.2.6"
+              "version": "3.2.6",
+              "signature": 200081
             },
             {
-              "signature": 200081,
-              "version": "0.8.5"
+              "version": "0.8.5",
+              "signature": 200081
             }
           ],
           "labels": [],
@@ -889,7 +954,6 @@ SUPPORT_CHARTS = {
                   "name": "UNCLASSIFIED"
                 }
               },
-              "sig_name": "SopCast",
               "methods": {
                 "manageability": {
                   "101": {
@@ -922,7 +986,8 @@ SUPPORT_CHARTS = {
                     "name": "TerminateProcesses"
                   }
                 }
-              }
+              },
+              "sig_name": "SopCast"
             }
           }
         },
@@ -930,8 +995,8 @@ SUPPORT_CHARTS = {
           "id": 200091,
           "tested_points": [
             {
-              "signature": 200091,
-              "version": "1.8.0"
+              "version": "1.8.0",
+              "signature": 200091
             }
           ],
           "labels": [],
@@ -954,7 +1019,6 @@ SUPPORT_CHARTS = {
                   "name": "UNCLASSIFIED"
                 }
               },
-              "sig_name": "Java SE Development Kit",
               "methods": {
                 "constant": {
                   "101": {
@@ -1029,7 +1093,8 @@ SUPPORT_CHARTS = {
                     "name": "GetVersion"
                   }
                 }
-              }
+              },
+              "sig_name": "Java SE Development Kit"
             }
           }
         },
@@ -1037,8 +1102,8 @@ SUPPORT_CHARTS = {
           "id": 200092,
           "tested_points": [
             {
-              "signature": 200092,
-              "version": "0.0"
+              "version": "0.0",
+              "signature": 200092
             }
           ],
           "labels": [],
@@ -1061,8 +1126,8 @@ SUPPORT_CHARTS = {
                   "name": "UNCLASSIFIED"
                 }
               },
-              "sig_name": "Doxygen",
-              "methods": {}
+              "methods": {},
+              "sig_name": "Doxygen"
             }
           }
         },
@@ -1070,12 +1135,12 @@ SUPPORT_CHARTS = {
           "id": 200094,
           "tested_points": [
             {
-              "signature": 200094,
-              "version": "2.1.3"
+              "version": "2.1.3",
+              "signature": 200094
             },
             {
-              "signature": 200094,
-              "version": "2.1.2"
+              "version": "2.1.2",
+              "signature": 200094
             }
           ],
           "labels": [],
@@ -1098,8 +1163,8 @@ SUPPORT_CHARTS = {
                   "name": "UNCLASSIFIED"
                 }
               },
-              "sig_name": "LibreCAD",
-              "methods": {}
+              "methods": {},
+              "sig_name": "LibreCAD"
             }
           }
         },
@@ -1107,8 +1172,8 @@ SUPPORT_CHARTS = {
           "id": 200095,
           "tested_points": [
             {
-              "signature": 200095,
-              "version": "37.0.0"
+              "version": "37.0.0",
+              "signature": 200095
             }
           ],
           "labels": [],
@@ -1131,7 +1196,6 @@ SUPPORT_CHARTS = {
                   "name": "UNCLASSIFIED"
                 }
               },
-              "sig_name": "MKVToolNix",
               "methods": {
                 "constant": {
                   "101": {
@@ -1173,7 +1237,8 @@ SUPPORT_CHARTS = {
                     "name": "GetInstallationDirectories"
                   }
                 }
-              }
+              },
+              "sig_name": "MKVToolNix"
             }
           }
         },
@@ -1181,156 +1246,156 @@ SUPPORT_CHARTS = {
           "id": 200096,
           "tested_points": [
             {
-              "signature": 200096,
-              "version": "68.7.0"
+              "version": "68.7.0",
+              "signature": 200096
             },
             {
-              "signature": 200096,
-              "version": "68.10.0"
+              "version": "68.10.0",
+              "signature": 200096
             },
             {
-              "signature": 200096,
-              "version": "78.7.0"
+              "version": "78.7.0",
+              "signature": 200096
             },
             {
-              "signature": 200096,
-              "version": "115.12.0"
+              "version": "115.12.0",
+              "signature": 200096
             },
             {
-              "signature": 200096,
-              "version": "115.10.1"
+              "version": "115.10.1",
+              "signature": 200096
             },
             {
-              "signature": 200096,
-              "version": "115.13.0"
+              "version": "115.13.0",
+              "signature": 200096
             },
             {
-              "signature": 200096,
-              "version": "128.1.0"
+              "version": "128.1.0",
+              "signature": 200096
             },
             {
-              "signature": 200096,
-              "version": "128.2.0"
+              "version": "128.2.0",
+              "signature": 200096
             },
             {
-              "signature": 200096,
-              "version": "128.3.0"
+              "version": "128.3.0",
+              "signature": 200096
             },
             {
-              "signature": 200096,
-              "version": "128.8.1"
+              "version": "128.8.1",
+              "signature": 200096
             },
             {
-              "signature": 200096,
-              "version": "128.8.0"
+              "version": "128.8.0",
+              "signature": 200096
             },
             {
-              "signature": 200096,
-              "version": "128.3.1"
+              "version": "128.3.1",
+              "signature": 200096
             },
             {
-              "signature": 200096,
-              "version": "128.4.1"
+              "version": "128.4.1",
+              "signature": 200096
             },
             {
-              "signature": 200096,
-              "version": "128.4.3"
+              "version": "128.4.3",
+              "signature": 200096
             },
             {
-              "signature": 200096,
-              "version": "128.4.4"
+              "version": "128.4.4",
+              "signature": 200096
             },
             {
-              "signature": 200096,
-              "version": "128.5.0"
+              "version": "128.5.0",
+              "signature": 200096
             },
             {
-              "signature": 200096,
-              "version": "128.5.1"
+              "version": "128.5.1",
+              "signature": 200096
             },
             {
-              "signature": 200096,
-              "version": "128.5.2"
+              "version": "128.5.2",
+              "signature": 200096
             },
             {
-              "signature": 200096,
-              "version": "128.6.0"
+              "version": "128.6.0",
+              "signature": 200096
             },
             {
-              "signature": 200096,
-              "version": "128.7.1"
+              "version": "128.7.1",
+              "signature": 200096
             },
             {
-              "signature": 200096,
-              "version": "136.0.1"
+              "version": "136.0.1",
+              "signature": 200096
             },
             {
-              "signature": 200096,
-              "version": "137.0"
+              "version": "137.0",
+              "signature": 200096
             },
             {
-              "signature": 200096,
-              "version": "137.0.1"
+              "version": "137.0.1",
+              "signature": 200096
             },
             {
-              "signature": 200096,
-              "version": "128.9.1"
+              "version": "128.9.1",
+              "signature": 200096
             },
             {
-              "signature": 200096,
-              "version": "128.9.0"
+              "version": "128.9.0",
+              "signature": 200096
             },
             {
-              "signature": 200096,
-              "version": "128.9.2"
+              "version": "128.9.2",
+              "signature": 200096
             },
             {
-              "signature": 200096,
-              "version": "137.0.2"
+              "version": "137.0.2",
+              "signature": 200096
             },
             {
-              "signature": 200096,
-              "version": "128.10.0"
+              "version": "128.10.0",
+              "signature": 200096
             },
             {
-              "signature": 200096,
-              "version": "138.0"
+              "version": "138.0",
+              "signature": 200096
             },
             {
-              "signature": 200096,
-              "version": "138.0.1"
+              "version": "138.0.1",
+              "signature": 200096
             },
             {
-              "signature": 200096,
-              "version": "144.0.1"
+              "version": "144.0.1",
+              "signature": 200096
             },
             {
-              "signature": 200096,
-              "version": "145.0"
+              "version": "145.0",
+              "signature": 200096
             },
             {
-              "signature": 200096,
-              "version": "146.0"
+              "version": "146.0",
+              "signature": 200096
             },
             {
-              "signature": 200096,
-              "version": "146.0.1"
+              "version": "146.0.1",
+              "signature": 200096
             },
             {
-              "signature": 200096,
-              "version": "147.0"
+              "version": "147.0",
+              "signature": 200096
             },
             {
-              "signature": 200096,
-              "version": "147.0.1"
+              "version": "147.0.1",
+              "signature": 200096
             },
             {
-              "signature": 200096,
-              "version": "149.0.2"
+              "version": "149.0.2",
+              "signature": 200096
             },
             {
-              "signature": 200096,
-              "version": "150.0.2"
+              "version": "150.0.2",
+              "signature": 200096
             }
           ],
           "labels": [],
@@ -1353,7 +1418,6 @@ SUPPORT_CHARTS = {
                   "name": "UNCLASSIFIED"
                 }
               },
-              "sig_name": "Thunderbird",
               "methods": {
                 "manageability": {
                   "100": {
@@ -1493,7 +1557,8 @@ SUPPORT_CHARTS = {
                     "name": "GetInstallationDirectories"
                   }
                 }
-              }
+              },
+              "sig_name": "Thunderbird"
             }
           }
         },
@@ -1501,44 +1566,44 @@ SUPPORT_CHARTS = {
           "id": 200098,
           "tested_points": [
             {
-              "signature": 200098,
-              "version": "2.10.14"
+              "version": "2.10.14",
+              "signature": 200098
             },
             {
-              "signature": 200098,
-              "version": "2.8.22"
+              "version": "2.8.22",
+              "signature": 200098
             },
             {
-              "signature": 200098,
-              "version": "2.10.18"
+              "version": "2.10.18",
+              "signature": 200098
             },
             {
-              "signature": 200098,
-              "version": "2.10.38"
+              "version": "2.10.38",
+              "signature": 200098
             },
             {
-              "signature": 200098,
-              "version": "3.0.0"
+              "version": "3.0.0",
+              "signature": 200098
             },
             {
-              "signature": 200098,
-              "version": "3.0.2"
+              "version": "3.0.2",
+              "signature": 200098
             },
             {
-              "signature": 200098,
-              "version": "3.0.6"
+              "version": "3.0.6",
+              "signature": 200098
             },
             {
-              "signature": 200098,
-              "version": "3.0.8"
+              "version": "3.0.8",
+              "signature": 200098
             },
             {
-              "signature": 200098,
-              "version": "3.2.2"
+              "version": "3.2.2",
+              "signature": 200098
             },
             {
-              "signature": 200098,
-              "version": "3.2.4"
+              "version": "3.2.4",
+              "signature": 200098
             }
           ],
           "labels": [],
@@ -1561,7 +1626,6 @@ SUPPORT_CHARTS = {
                   "name": "UNCLASSIFIED"
                 }
               },
-              "sig_name": "GIMP",
               "methods": {
                 "manageability": {
                   "100": {
@@ -1701,7 +1765,8 @@ SUPPORT_CHARTS = {
                     "name": "GetInstallationDirectories"
                   }
                 }
-              }
+              },
+              "sig_name": "GIMP"
             }
           }
         },
@@ -1709,8 +1774,8 @@ SUPPORT_CHARTS = {
           "id": 200099,
           "tested_points": [
             {
-              "signature": 200099,
-              "version": "0.0"
+              "version": "0.0",
+              "signature": 200099
             }
           ],
           "labels": [],
@@ -1733,7 +1798,6 @@ SUPPORT_CHARTS = {
                   "name": "UNCLASSIFIED"
                 }
               },
-              "sig_name": "Zimbra Desktop",
               "methods": {
                 "manageability": {
                   "100": {
@@ -1807,7 +1871,8 @@ SUPPORT_CHARTS = {
                     "name": "TerminateProcesses"
                   }
                 }
-              }
+              },
+              "sig_name": "Zimbra Desktop"
             }
           }
         },
@@ -1815,8 +1880,8 @@ SUPPORT_CHARTS = {
           "id": 200100,
           "tested_points": [
             {
-              "signature": 200101,
-              "version": "0.72.1"
+              "version": "0.72.1",
+              "signature": 200101
             }
           ],
           "labels": [],
@@ -1839,7 +1904,6 @@ SUPPORT_CHARTS = {
                   "name": "UNCLASSIFIED"
                 }
               },
-              "sig_name": "Zim",
               "methods": {
                 "manageability": {
                   "100": {
@@ -1913,7 +1977,8 @@ SUPPORT_CHARTS = {
                     "name": "TerminateProcesses"
                   }
                 }
-              }
+              },
+              "sig_name": "Zim"
             }
           }
         },
@@ -1921,8 +1986,8 @@ SUPPORT_CHARTS = {
           "id": 200102,
           "tested_points": [
             {
-              "signature": 200103,
-              "version": "11.1.0"
+              "version": "11.1.0",
+              "signature": 200103
             }
           ],
           "labels": [],
@@ -1945,7 +2010,6 @@ SUPPORT_CHARTS = {
                   "name": "UNCLASSIFIED"
                 }
               },
-              "sig_name": "WPS Office",
               "methods": {
                 "manageability": {
                   "100": {
@@ -2019,7 +2083,8 @@ SUPPORT_CHARTS = {
                     "name": "TerminateProcesses"
                   }
                 }
-              }
+              },
+              "sig_name": "WPS Office"
             }
           }
         },
@@ -2027,80 +2092,80 @@ SUPPORT_CHARTS = {
           "id": 200103,
           "tested_points": [
             {
-              "signature": 200065,
-              "version": "3.6.5"
+              "version": "3.6.5",
+              "signature": 200065
             },
             {
-              "signature": 200065,
-              "version": "3.4.1"
+              "version": "3.4.1",
+              "signature": 200065
             },
             {
-              "signature": 200065,
-              "version": "3.5.3"
+              "version": "3.5.3",
+              "signature": 200065
             },
             {
-              "signature": 200065,
-              "version": "3.6.9"
+              "version": "3.6.9",
+              "signature": 200065
             },
             {
-              "signature": 200110,
-              "version": "3.5.9"
+              "version": "3.5.9",
+              "signature": 200110
             },
             {
-              "signature": 200110,
-              "version": "3.6.10"
+              "version": "3.6.10",
+              "signature": 200110
             },
             {
-              "signature": 200110,
-              "version": "3.6.9"
+              "version": "3.6.9",
+              "signature": 200110
             },
             {
-              "signature": 200111,
-              "version": "3.7.7"
+              "version": "3.7.7",
+              "signature": 200111
             },
             {
-              "signature": 200111,
-              "version": "0.0"
+              "version": "0.0",
+              "signature": 200111
             },
             {
-              "signature": 200112,
-              "version": "3.8.3"
+              "version": "3.8.3",
+              "signature": 200112
             },
             {
-              "signature": 200113,
-              "version": "3.4.10"
+              "version": "3.4.10",
+              "signature": 200113
             },
             {
-              "signature": 200114,
-              "version": "0.0"
+              "version": "0.0",
+              "signature": 200114
             },
             {
-              "signature": 200115,
-              "version": "0.0"
+              "version": "0.0",
+              "signature": 200115
             },
             {
-              "signature": 200116,
-              "version": "0.0"
+              "version": "0.0",
+              "signature": 200116
             },
             {
-              "signature": 200117,
-              "version": "0.0"
+              "version": "0.0",
+              "signature": 200117
             },
             {
-              "signature": 200118,
-              "version": "3.9.0"
+              "version": "3.9.0",
+              "signature": 200118
             },
             {
-              "signature": 200211,
-              "version": "3.10.12"
+              "version": "3.10.12",
+              "signature": 200211
             },
             {
-              "signature": 200211,
-              "version": "3.10.13"
+              "version": "3.10.13",
+              "signature": 200211
             },
             {
-              "signature": 200211,
-              "version": "3.10.6"
+              "version": "3.10.6",
+              "signature": 200211
             }
           ],
           "labels": [],
@@ -2123,7 +2188,6 @@ SUPPORT_CHARTS = {
                   "name": "UNCLASSIFIED"
                 }
               },
-              "sig_name": "Python 3.5",
               "methods": {
                 "manageability": {
                   "100": {
@@ -2168,7 +2232,8 @@ SUPPORT_CHARTS = {
                     "name": "GetVersion"
                   }
                 }
-              }
+              },
+              "sig_name": "Python 3.5"
             },
             "200110": {
               "signature": 200110,
@@ -2186,7 +2251,6 @@ SUPPORT_CHARTS = {
                   "name": "UNCLASSIFIED"
                 }
               },
-              "sig_name": "Python 3.6",
               "methods": {
                 "manageability": {
                   "100": {
@@ -2231,7 +2295,8 @@ SUPPORT_CHARTS = {
                     "name": "GetVersion"
                   }
                 }
-              }
+              },
+              "sig_name": "Python 3.6"
             },
             "200111": {
               "signature": 200111,
@@ -2249,7 +2314,6 @@ SUPPORT_CHARTS = {
                   "name": "UNCLASSIFIED"
                 }
               },
-              "sig_name": "Python 3.7",
               "methods": {
                 "manageability": {
                   "100": {
@@ -2294,7 +2358,8 @@ SUPPORT_CHARTS = {
                     "name": "GetVersion"
                   }
                 }
-              }
+              },
+              "sig_name": "Python 3.7"
             },
             "200112": {
               "signature": 200112,
@@ -2312,7 +2377,6 @@ SUPPORT_CHARTS = {
                   "name": "UNCLASSIFIED"
                 }
               },
-              "sig_name": "Python 3.8",
               "methods": {
                 "manageability": {
                   "100": {
@@ -2357,7 +2421,8 @@ SUPPORT_CHARTS = {
                     "name": "GetVersion"
                   }
                 }
-              }
+              },
+              "sig_name": "Python 3.8"
             },
             "200113": {
               "signature": 200113,
@@ -2375,7 +2440,6 @@ SUPPORT_CHARTS = {
                   "name": "UNCLASSIFIED"
                 }
               },
-              "sig_name": "Python 3.4",
               "methods": {
                 "manageability": {
                   "100": {
@@ -2420,7 +2484,8 @@ SUPPORT_CHARTS = {
                     "name": "GetVersion"
                   }
                 }
-              }
+              },
+              "sig_name": "Python 3.4"
             },
             "200114": {
               "signature": 200114,
@@ -2438,7 +2503,6 @@ SUPPORT_CHARTS = {
                   "name": "UNCLASSIFIED"
                 }
               },
-              "sig_name": "Python 3.0",
               "methods": {
                 "manageability": {
                   "100": {
@@ -2483,7 +2547,8 @@ SUPPORT_CHARTS = {
                     "name": "GetVersion"
                   }
                 }
-              }
+              },
+              "sig_name": "Python 3.0"
             },
             "200115": {
               "signature": 200115,
@@ -2501,7 +2566,6 @@ SUPPORT_CHARTS = {
                   "name": "UNCLASSIFIED"
                 }
               },
-              "sig_name": "Python 3.1",
               "methods": {
                 "manageability": {
                   "100": {
@@ -2546,7 +2610,8 @@ SUPPORT_CHARTS = {
                     "name": "GetVersion"
                   }
                 }
-              }
+              },
+              "sig_name": "Python 3.1"
             },
             "200116": {
               "signature": 200116,
@@ -2564,7 +2629,6 @@ SUPPORT_CHARTS = {
                   "name": "UNCLASSIFIED"
                 }
               },
-              "sig_name": "Python 3.2",
               "methods": {
                 "manageability": {
                   "100": {
@@ -2609,7 +2673,8 @@ SUPPORT_CHARTS = {
                     "name": "GetVersion"
                   }
                 }
-              }
+              },
+              "sig_name": "Python 3.2"
             },
             "200117": {
               "signature": 200117,
@@ -2627,7 +2692,6 @@ SUPPORT_CHARTS = {
                   "name": "UNCLASSIFIED"
                 }
               },
-              "sig_name": "Python 3.3",
               "methods": {
                 "manageability": {
                   "100": {
@@ -2672,7 +2736,8 @@ SUPPORT_CHARTS = {
                     "name": "GetVersion"
                   }
                 }
-              }
+              },
+              "sig_name": "Python 3.3"
             },
             "200118": {
               "signature": 200118,
@@ -2690,7 +2755,6 @@ SUPPORT_CHARTS = {
                   "name": "UNCLASSIFIED"
                 }
               },
-              "sig_name": "Python 3.9",
               "methods": {
                 "manageability": {
                   "100": {
@@ -2735,7 +2799,8 @@ SUPPORT_CHARTS = {
                     "name": "GetVersion"
                   }
                 }
-              }
+              },
+              "sig_name": "Python 3.9"
             },
             "200211": {
               "signature": 200211,
@@ -2753,7 +2818,6 @@ SUPPORT_CHARTS = {
                   "name": "UNCLASSIFIED"
                 }
               },
-              "sig_name": "Python 3.10",
               "methods": {
                 "constant": {
                   "101": {
@@ -2772,7 +2836,8 @@ SUPPORT_CHARTS = {
                     "name": "TerminateProcesses"
                   }
                 }
-              }
+              },
+              "sig_name": "Python 3.10"
             }
           }
         },
@@ -2780,12 +2845,12 @@ SUPPORT_CHARTS = {
           "id": 200104,
           "tested_points": [
             {
-              "signature": 200104,
-              "version": "1.18.04"
+              "version": "1.18.04",
+              "signature": 200104
             },
             {
-              "signature": 200104,
-              "version": "2.68"
+              "version": "2.68",
+              "signature": 200104
             }
           ],
           "labels": [],
@@ -2808,7 +2873,6 @@ SUPPORT_CHARTS = {
                   "name": "UNCLASSIFIED"
                 }
               },
-              "sig_name": "Blender",
               "methods": {
                 "manageability": {
                   "100": {
@@ -2886,7 +2950,8 @@ SUPPORT_CHARTS = {
                     "name": "GetInstallationDirectories"
                   }
                 }
-              }
+              },
+              "sig_name": "Blender"
             }
           }
         },
@@ -2894,8 +2959,8 @@ SUPPORT_CHARTS = {
           "id": 200106,
           "tested_points": [
             {
-              "signature": 200106,
-              "version": "2020.03.04"
+              "version": "2020.03.04",
+              "signature": 200106
             }
           ],
           "labels": [],
@@ -2918,7 +2983,6 @@ SUPPORT_CHARTS = {
                   "name": "UNCLASSIFIED"
                 }
               },
-              "sig_name": "Dropbox",
               "methods": {
                 "manageability": {
                   "100": {
@@ -3004,7 +3068,8 @@ SUPPORT_CHARTS = {
                     "name": "TerminateProcesses"
                   }
                 }
-              }
+              },
+              "sig_name": "Dropbox"
             }
           }
         },
@@ -3012,8 +3077,8 @@ SUPPORT_CHARTS = {
           "id": 200107,
           "tested_points": [
             {
-              "signature": 200107,
-              "version": "1.2.5042"
+              "version": "1.2.5042",
+              "signature": 200107
             }
           ],
           "labels": [],
@@ -3036,8 +3101,8 @@ SUPPORT_CHARTS = {
                   "name": "UNCLASSIFIED"
                 }
               },
-              "sig_name": "RStudio",
-              "methods": {}
+              "methods": {},
+              "sig_name": "RStudio"
             }
           }
         },
@@ -3045,8 +3110,8 @@ SUPPORT_CHARTS = {
           "id": 200108,
           "tested_points": [
             {
-              "signature": 200108,
-              "version": "0.0"
+              "version": "0.0",
+              "signature": 200108
             }
           ],
           "labels": [],
@@ -3069,7 +3134,6 @@ SUPPORT_CHARTS = {
                   "name": "UNCLASSIFIED"
                 }
               },
-              "sig_name": "Guiffy",
               "methods": {
                 "manageability": {
                   "100": {
@@ -3143,7 +3207,8 @@ SUPPORT_CHARTS = {
                     "name": "TerminateProcesses"
                   }
                 }
-              }
+              },
+              "sig_name": "Guiffy"
             }
           }
         },
@@ -3151,8 +3216,8 @@ SUPPORT_CHARTS = {
           "id": 200109,
           "tested_points": [
             {
-              "signature": 200109,
-              "version": "3.13.1"
+              "version": "3.13.1",
+              "signature": 200109
             }
           ],
           "labels": [
@@ -3177,7 +3242,6 @@ SUPPORT_CHARTS = {
                   "name": "UNCLASSIFIED"
                 }
               },
-              "sig_name": "DB Browser for SQLite",
               "methods": {
                 "manageability": {
                   "100": {
@@ -3278,7 +3342,8 @@ SUPPORT_CHARTS = {
                     "name": "GetInstallationDirectories"
                   }
                 }
-              }
+              },
+              "sig_name": "DB Browser for SQLite"
             }
           }
         },
@@ -3286,8 +3351,8 @@ SUPPORT_CHARTS = {
           "id": 200110,
           "tested_points": [
             {
-              "signature": 200119,
-              "version": "0.0"
+              "version": "0.0",
+              "signature": 200119
             }
           ],
           "labels": [],
@@ -3310,7 +3375,6 @@ SUPPORT_CHARTS = {
                   "name": "UNCLASSIFIED"
                 }
               },
-              "sig_name": "Geany",
               "methods": {
                 "manageability": {
                   "100": {
@@ -3367,7 +3431,8 @@ SUPPORT_CHARTS = {
                     "name": "Run"
                   }
                 }
-              }
+              },
+              "sig_name": "Geany"
             }
           }
         },
@@ -3375,8 +3440,8 @@ SUPPORT_CHARTS = {
           "id": 200111,
           "tested_points": [
             {
-              "signature": 200120,
-              "version": "4.0.0"
+              "version": "4.0.0",
+              "signature": 200120
             }
           ],
           "labels": [
@@ -3401,7 +3466,6 @@ SUPPORT_CHARTS = {
                   "name": "UNCLASSIFIED"
                 }
               },
-              "sig_name": "Nero Linux",
               "methods": {
                 "manageability": {
                   "100": {
@@ -3446,7 +3510,8 @@ SUPPORT_CHARTS = {
                     "name": "GetVersion"
                   }
                 }
-              }
+              },
+              "sig_name": "Nero Linux"
             }
           }
         },
@@ -3454,12 +3519,12 @@ SUPPORT_CHARTS = {
           "id": 200112,
           "tested_points": [
             {
-              "signature": 200121,
-              "version": "11.0.2"
+              "version": "11.0.2",
+              "signature": 200121
             },
             {
-              "signature": 200121,
-              "version": "0.0"
+              "version": "0.0",
+              "signature": 200121
             }
           ],
           "labels": [],
@@ -3482,7 +3547,6 @@ SUPPORT_CHARTS = {
                   "name": "UNCLASSIFIED"
                 }
               },
-              "sig_name": "DbVisualizer",
               "methods": {
                 "manageability": {
                   "100": {
@@ -3589,7 +3653,8 @@ SUPPORT_CHARTS = {
                     "name": "GetInstallationDirectories"
                   }
                 }
-              }
+              },
+              "sig_name": "DbVisualizer"
             }
           }
         },
@@ -3597,8 +3662,8 @@ SUPPORT_CHARTS = {
           "id": 200113,
           "tested_points": [
             {
-              "signature": 200122,
-              "version": "9.0.0"
+              "version": "9.0.0",
+              "signature": 200122
             }
           ],
           "labels": [],
@@ -3621,7 +3686,6 @@ SUPPORT_CHARTS = {
                   "name": "UNCLASSIFIED"
                 }
               },
-              "sig_name": "USB Network Gate",
               "methods": {
                 "manageability": {
                   "102": {
@@ -3637,7 +3701,8 @@ SUPPORT_CHARTS = {
                     "name": "Run"
                   }
                 }
-              }
+              },
+              "sig_name": "USB Network Gate"
             }
           }
         },
@@ -3645,12 +3710,12 @@ SUPPORT_CHARTS = {
           "id": 200114,
           "tested_points": [
             {
-              "signature": 200123,
-              "version": "2.3.3"
+              "version": "2.3.3",
+              "signature": 200123
             },
             {
-              "signature": 200123,
-              "version": "2.6.6"
+              "version": "2.6.6",
+              "signature": 200123
             }
           ],
           "labels": [
@@ -3675,7 +3740,6 @@ SUPPORT_CHARTS = {
                   "name": "UNCLASSIFIED"
                 }
               },
-              "sig_name": "Ruby",
               "methods": {
                 "constant": {
                   "102": {
@@ -3783,7 +3847,8 @@ SUPPORT_CHARTS = {
                     "name": "GetInstallationDirectories"
                   }
                 }
-              }
+              },
+              "sig_name": "Ruby"
             }
           }
         },
@@ -3791,8 +3856,8 @@ SUPPORT_CHARTS = {
           "id": 200115,
           "tested_points": [
             {
-              "signature": 200124,
-              "version": "16.02"
+              "version": "16.02",
+              "signature": 200124
             }
           ],
           "labels": [],
@@ -3815,7 +3880,6 @@ SUPPORT_CHARTS = {
                   "name": "UNCLASSIFIED"
                 }
               },
-              "sig_name": "P7Zip",
               "methods": {
                 "constant": {
                   "101": {
@@ -3898,7 +3962,8 @@ SUPPORT_CHARTS = {
                     "name": "GetInstallationDirectories"
                   }
                 }
-              }
+              },
+              "sig_name": "P7Zip"
             }
           }
         },
@@ -3906,8 +3971,8 @@ SUPPORT_CHARTS = {
           "id": 200116,
           "tested_points": [
             {
-              "signature": 200125,
-              "version": "1.90"
+              "version": "1.90",
+              "signature": 200125
             }
           ],
           "labels": [
@@ -3932,7 +3997,6 @@ SUPPORT_CHARTS = {
                   "name": "UNCLASSIFIED"
                 }
               },
-              "sig_name": "Cppcheck",
               "methods": {
                 "constant": {
                   "102": {
@@ -4013,7 +4077,8 @@ SUPPORT_CHARTS = {
                     "name": "TerminateProcesses"
                   }
                 }
-              }
+              },
+              "sig_name": "Cppcheck"
             }
           }
         },
@@ -4021,8 +4086,8 @@ SUPPORT_CHARTS = {
           "id": 200117,
           "tested_points": [
             {
-              "signature": 200126,
-              "version": "2.3.2"
+              "version": "2.3.2",
+              "signature": 200126
             }
           ],
           "labels": [
@@ -4047,8 +4112,8 @@ SUPPORT_CHARTS = {
                   "name": "UNCLASSIFIED"
                 }
               },
-              "sig_name": "aMule",
-              "methods": {}
+              "methods": {},
+              "sig_name": "aMule"
             }
           }
         },
@@ -4056,8 +4121,8 @@ SUPPORT_CHARTS = {
           "id": 200118,
           "tested_points": [
             {
-              "signature": 200127,
-              "version": "1.7.10"
+              "version": "1.7.10",
+              "signature": 200127
             }
           ],
           "labels": [],
@@ -4080,7 +4145,6 @@ SUPPORT_CHARTS = {
                   "name": "UNCLASSIFIED"
                 }
               },
-              "sig_name": "Freeplane",
               "methods": {
                 "manageability": {
                   "101": {
@@ -4113,7 +4177,8 @@ SUPPORT_CHARTS = {
                     "name": "TerminateProcesses"
                   }
                 }
-              }
+              },
+              "sig_name": "Freeplane"
             }
           }
         },
@@ -4121,8 +4186,8 @@ SUPPORT_CHARTS = {
           "id": 200119,
           "tested_points": [
             {
-              "signature": 200128,
-              "version": "0.0"
+              "version": "0.0",
+              "signature": 200128
             }
           ],
           "labels": [],
@@ -4145,7 +4210,6 @@ SUPPORT_CHARTS = {
                   "name": "UNCLASSIFIED"
                 }
               },
-              "sig_name": "Kodi",
               "methods": {
                 "manageability": {
                   "100": {
@@ -4219,7 +4283,8 @@ SUPPORT_CHARTS = {
                     "name": "TerminateProcesses"
                   }
                 }
-              }
+              },
+              "sig_name": "Kodi"
             }
           }
         },
@@ -4227,32 +4292,32 @@ SUPPORT_CHARTS = {
           "id": 200120,
           "tested_points": [
             {
-              "signature": 200129,
-              "version": "8.0.20"
+              "version": "8.0.20",
+              "signature": 200129
             },
             {
-              "signature": 200129,
-              "version": "6.0.6"
+              "version": "6.0.6",
+              "signature": 200129
             },
             {
-              "signature": 200129,
-              "version": "8.0.36"
+              "version": "8.0.36",
+              "signature": 200129
             },
             {
-              "signature": 200129,
-              "version": "8.0.41"
+              "version": "8.0.41",
+              "signature": 200129
             },
             {
-              "signature": 200129,
-              "version": "8.0.44"
+              "version": "8.0.44",
+              "signature": 200129
             },
             {
-              "signature": 200129,
-              "version": "8.0.45"
+              "version": "8.0.45",
+              "signature": 200129
             },
             {
-              "signature": 200129,
-              "version": "8.0.46"
+              "version": "8.0.46",
+              "signature": 200129
             }
           ],
           "labels": [
@@ -4277,7 +4342,6 @@ SUPPORT_CHARTS = {
                   "name": "UNCLASSIFIED"
                 }
               },
-              "sig_name": "MySQL Workbench",
               "methods": {
                 "manageability": {
                   "101": {
@@ -4310,7 +4374,8 @@ SUPPORT_CHARTS = {
                     "name": "TerminateProcesses"
                   }
                 }
-              }
+              },
+              "sig_name": "MySQL Workbench"
             }
           }
         },
@@ -4318,12 +4383,12 @@ SUPPORT_CHARTS = {
           "id": 200121,
           "tested_points": [
             {
-              "signature": 200130,
-              "version": "1.2.0"
+              "version": "1.2.0",
+              "signature": 200130
             },
             {
-              "signature": 200130,
-              "version": "0.0"
+              "version": "0.0",
+              "signature": 200130
             }
           ],
           "labels": [],
@@ -4346,7 +4411,6 @@ SUPPORT_CHARTS = {
                   "name": "UNCLASSIFIED"
                 }
               },
-              "sig_name": "F.lux",
               "methods": {
                 "manageability": {
                   "100": {
@@ -4432,7 +4496,8 @@ SUPPORT_CHARTS = {
                     "name": "TerminateProcesses"
                   }
                 }
-              }
+              },
+              "sig_name": "F.lux"
             }
           }
         },
@@ -4440,8 +4505,8 @@ SUPPORT_CHARTS = {
           "id": 200123,
           "tested_points": [
             {
-              "signature": 200132,
-              "version": "0.0"
+              "version": "0.0",
+              "signature": 200132
             }
           ],
           "labels": [
@@ -4466,7 +4531,6 @@ SUPPORT_CHARTS = {
                   "name": "UNCLASSIFIED"
                 }
               },
-              "sig_name": "Tixati",
               "methods": {
                 "manageability": {
                   "100": {
@@ -4511,7 +4575,8 @@ SUPPORT_CHARTS = {
                     "name": "GetVersion"
                   }
                 }
-              }
+              },
+              "sig_name": "Tixati"
             }
           }
         },
@@ -4519,8 +4584,8 @@ SUPPORT_CHARTS = {
           "id": 200124,
           "tested_points": [
             {
-              "signature": 200133,
-              "version": "0.0"
+              "version": "0.0",
+              "signature": 200133
             }
           ],
           "labels": [],
@@ -4543,8 +4608,8 @@ SUPPORT_CHARTS = {
                   "name": "UNCLASSIFIED"
                 }
               },
-              "sig_name": "PhpStorm",
-              "methods": {}
+              "methods": {},
+              "sig_name": "PhpStorm"
             }
           }
         },
@@ -4552,20 +4617,20 @@ SUPPORT_CHARTS = {
           "id": 200125,
           "tested_points": [
             {
-              "signature": 200134,
-              "version": "8.0.20"
+              "version": "8.0.20",
+              "signature": 200134
             },
             {
-              "signature": 200134,
-              "version": "9.2.0"
+              "version": "9.2.0",
+              "signature": 200134
             },
             {
-              "signature": 200134,
-              "version": "9.5.0"
+              "version": "9.5.0",
+              "signature": 200134
             },
             {
-              "signature": 200134,
-              "version": "9.6.0"
+              "version": "9.6.0",
+              "signature": 200134
             }
           ],
           "labels": [
@@ -4590,7 +4655,6 @@ SUPPORT_CHARTS = {
                   "name": "UNCLASSIFIED"
                 }
               },
-              "sig_name": "MySQL Server",
               "methods": {
                 "manageability": {
                   "100": {
@@ -4704,7 +4768,8 @@ SUPPORT_CHARTS = {
                     "name": "TerminateProcesses"
                   }
                 }
-              }
+              },
+              "sig_name": "MySQL Server"
             }
           }
         },
@@ -4712,8 +4777,8 @@ SUPPORT_CHARTS = {
           "id": 200126,
           "tested_points": [
             {
-              "signature": 200135,
-              "version": "15.0.5"
+              "version": "15.0.5",
+              "signature": 200135
             }
           ],
           "labels": [
@@ -4738,7 +4803,6 @@ SUPPORT_CHARTS = {
                   "name": "UNCLASSIFIED"
                 }
               },
-              "sig_name": "Able2Extract",
               "methods": {
                 "manageability": {
                   "101": {
@@ -4771,7 +4835,8 @@ SUPPORT_CHARTS = {
                     "name": "TerminateProcesses"
                   }
                 }
-              }
+              },
+              "sig_name": "Able2Extract"
             }
           }
         },
@@ -4779,12 +4844,12 @@ SUPPORT_CHARTS = {
           "id": 200128,
           "tested_points": [
             {
-              "signature": 200137,
-              "version": "2.7.4"
+              "version": "2.7.4",
+              "signature": 200137
             },
             {
-              "signature": 200137,
-              "version": "2.7.6"
+              "version": "2.7.6",
+              "signature": 200137
             }
           ],
           "labels": [],
@@ -4807,7 +4872,6 @@ SUPPORT_CHARTS = {
                   "name": "UNCLASSIFIED"
                 }
               },
-              "sig_name": "Avidemux",
               "methods": {
                 "manageability": {
                   "100": {
@@ -4914,7 +4978,8 @@ SUPPORT_CHARTS = {
                     "name": "GetInstallationDirectories"
                   }
                 }
-              }
+              },
+              "sig_name": "Avidemux"
             }
           }
         },
@@ -4922,8 +4987,8 @@ SUPPORT_CHARTS = {
           "id": 200130,
           "tested_points": [
             {
-              "signature": 200139,
-              "version": "4.1.2"
+              "version": "4.1.2",
+              "signature": 200139
             }
           ],
           "labels": [
@@ -4948,7 +5013,6 @@ SUPPORT_CHARTS = {
                   "name": "UNCLASSIFIED"
                 }
               },
-              "sig_name": "Android Studio",
               "methods": {
                 "manageability": {
                   "100": {
@@ -5055,7 +5119,8 @@ SUPPORT_CHARTS = {
                     "name": "GetInstallationDirectories"
                   }
                 }
-              }
+              },
+              "sig_name": "Android Studio"
             }
           }
         },
@@ -5063,8 +5128,8 @@ SUPPORT_CHARTS = {
           "id": 200131,
           "tested_points": [
             {
-              "signature": 200140,
-              "version": "12.0"
+              "version": "12.0",
+              "signature": 200140
             }
           ],
           "labels": [],
@@ -5087,7 +5152,6 @@ SUPPORT_CHARTS = {
                   "name": "UNCLASSIFIED"
                 }
               },
-              "sig_name": "Apache NetBeans IDE",
               "methods": {
                 "manageability": {
                   "100": {
@@ -5173,7 +5237,8 @@ SUPPORT_CHARTS = {
                     "name": "TerminateProcesses"
                   }
                 }
-              }
+              },
+              "sig_name": "Apache NetBeans IDE"
             }
           }
         },
@@ -5181,8 +5246,8 @@ SUPPORT_CHARTS = {
           "id": 200132,
           "tested_points": [
             {
-              "signature": 200141,
-              "version": "3.12.3271"
+              "version": "3.12.3271",
+              "signature": 200141
             }
           ],
           "labels": [
@@ -5207,7 +5272,6 @@ SUPPORT_CHARTS = {
                   "name": "UNCLASSIFIED"
                 }
               },
-              "sig_name": "Simply Fortran",
               "methods": {
                 "manageability": {
                   "100": {
@@ -5293,7 +5357,8 @@ SUPPORT_CHARTS = {
                     "name": "TerminateProcesses"
                   }
                 }
-              }
+              },
+              "sig_name": "Simply Fortran"
             }
           }
         },
@@ -5301,8 +5366,8 @@ SUPPORT_CHARTS = {
           "id": 200133,
           "tested_points": [
             {
-              "signature": 200142,
-              "version": "3.0.4"
+              "version": "3.0.4",
+              "signature": 200142
             }
           ],
           "labels": [],
@@ -5325,7 +5390,6 @@ SUPPORT_CHARTS = {
                   "name": "UNCLASSIFIED"
                 }
               },
-              "sig_name": "Free Pascal Compiler",
               "methods": {
                 "manageability": {
                   "100": {
@@ -5370,7 +5434,8 @@ SUPPORT_CHARTS = {
                     "name": "GetVersion"
                   }
                 }
-              }
+              },
+              "sig_name": "Free Pascal Compiler"
             }
           }
         },
@@ -5378,8 +5443,8 @@ SUPPORT_CHARTS = {
           "id": 200134,
           "tested_points": [
             {
-              "signature": 200143,
-              "version": "0.7.6"
+              "version": "0.7.6",
+              "signature": 200143
             }
           ],
           "labels": [],
@@ -5402,7 +5467,6 @@ SUPPORT_CHARTS = {
                   "name": "UNCLASSIFIED"
                 }
               },
-              "sig_name": "BitMeter",
               "methods": {
                 "manageability": {
                   "101": {
@@ -5447,7 +5511,8 @@ SUPPORT_CHARTS = {
                     "name": "TerminateProcesses"
                   }
                 }
-              }
+              },
+              "sig_name": "BitMeter"
             }
           }
         },
@@ -5455,16 +5520,16 @@ SUPPORT_CHARTS = {
           "id": 200136,
           "tested_points": [
             {
-              "signature": 200145,
-              "version": "0.6.5"
+              "version": "0.6.5",
+              "signature": 200145
             },
             {
-              "signature": 200145,
-              "version": "0.0"
+              "version": "0.0",
+              "signature": 200145
             },
             {
-              "signature": 200145,
-              "version": "0.6.9999"
+              "version": "0.6.9999",
+              "signature": 200145
             }
           ],
           "labels": [],
@@ -5491,7 +5556,6 @@ SUPPORT_CHARTS = {
                   "name": "P2PA"
                 }
               },
-              "sig_name": "Retroshare",
               "methods": {
                 "manageability": {
                   "100": {
@@ -5577,7 +5641,8 @@ SUPPORT_CHARTS = {
                     "name": "TerminateProcesses"
                   }
                 }
-              }
+              },
+              "sig_name": "Retroshare"
             }
           }
         },
@@ -5585,12 +5650,12 @@ SUPPORT_CHARTS = {
           "id": 200138,
           "tested_points": [
             {
-              "signature": 200147,
-              "version": "1.3.1"
+              "version": "1.3.1",
+              "signature": 200147
             },
             {
-              "signature": 200147,
-              "version": "1.3.3"
+              "version": "1.3.3",
+              "signature": 200147
             }
           ],
           "labels": [],
@@ -5613,7 +5678,6 @@ SUPPORT_CHARTS = {
                   "name": "UNCLASSIFIED"
                 }
               },
-              "sig_name": "HandBrake",
               "methods": {
                 "manageability": {
                   "100": {
@@ -5658,7 +5722,8 @@ SUPPORT_CHARTS = {
                     "name": "GetVersion"
                   }
                 }
-              }
+              },
+              "sig_name": "HandBrake"
             }
           }
         },
@@ -5666,8 +5731,8 @@ SUPPORT_CHARTS = {
           "id": 200139,
           "tested_points": [
             {
-              "signature": 200148,
-              "version": "0.0"
+              "version": "0.0",
+              "signature": 200148
             }
           ],
           "labels": [
@@ -5692,7 +5757,6 @@ SUPPORT_CHARTS = {
                   "name": "UNCLASSIFIED"
                 }
               },
-              "sig_name": "Mongo Management Studio",
               "methods": {
                 "manageability": {
                   "100": {
@@ -5778,7 +5842,8 @@ SUPPORT_CHARTS = {
                     "name": "TerminateProcesses"
                   }
                 }
-              }
+              },
+              "sig_name": "Mongo Management Studio"
             }
           }
         },
@@ -5786,8 +5851,8 @@ SUPPORT_CHARTS = {
           "id": 200140,
           "tested_points": [
             {
-              "signature": 200149,
-              "version": "1.14.1"
+              "version": "1.14.1",
+              "signature": 200149
             }
           ],
           "labels": [],
@@ -5810,7 +5875,6 @@ SUPPORT_CHARTS = {
                   "name": "UNCLASSIFIED"
                 }
               },
-              "sig_name": "Brackets",
               "methods": {
                 "manageability": {
                   "100": {
@@ -5884,7 +5948,8 @@ SUPPORT_CHARTS = {
                     "name": "TerminateProcesses"
                   }
                 }
-              }
+              },
+              "sig_name": "Brackets"
             }
           }
         },
@@ -5892,12 +5957,12 @@ SUPPORT_CHARTS = {
           "id": 200142,
           "tested_points": [
             {
-              "signature": 200151,
-              "version": "7.3.0"
+              "version": "7.3.0",
+              "signature": 200151
             },
             {
-              "signature": 200151,
-              "version": "7.3.1"
+              "version": "7.3.1",
+              "signature": 200151
             }
           ],
           "labels": [],
@@ -5920,7 +5985,6 @@ SUPPORT_CHARTS = {
                   "name": "UNCLASSIFIED"
                 }
               },
-              "sig_name": "PeaZip",
               "methods": {
                 "manageability": {
                   "102": {
@@ -5957,7 +6021,8 @@ SUPPORT_CHARTS = {
                     "name": "GetInstallationDirectories"
                   }
                 }
-              }
+              },
+              "sig_name": "PeaZip"
             }
           }
         },
@@ -5965,36 +6030,36 @@ SUPPORT_CHARTS = {
           "id": 200143,
           "tested_points": [
             {
-              "signature": 200152,
-              "version": "0.0"
+              "version": "0.0",
+              "signature": 200152
             },
             {
-              "signature": 200180,
-              "version": "01.8.0.490"
+              "version": "01.8.0.490",
+              "signature": 200180
             },
             {
-              "signature": 200181,
-              "version": "2.8.1.537"
+              "version": "2.8.1.537",
+              "signature": 200181
             },
             {
-              "signature": 200182,
-              "version": "0.0"
+              "version": "0.0",
+              "signature": 200182
             },
             {
-              "signature": 200183,
-              "version": "0.0"
+              "version": "0.0",
+              "signature": 200183
             },
             {
-              "signature": 200184,
-              "version": "7.2.4.780"
+              "version": "7.2.4.780",
+              "signature": 200184
             },
             {
-              "signature": 200190,
-              "version": "0.0"
+              "version": "0.0",
+              "signature": 200190
             },
             {
-              "signature": 200191,
-              "version": "0.0"
+              "version": "0.0",
+              "signature": 200191
             }
           ],
           "labels": [],
@@ -6017,7 +6082,6 @@ SUPPORT_CHARTS = {
                   "name": "UNCLASSIFIED"
                 }
               },
-              "sig_name": "Lauyan TOWeb V8",
               "methods": {
                 "constant": {
                   "102": {
@@ -6098,7 +6162,8 @@ SUPPORT_CHARTS = {
                     "name": "TerminateProcesses"
                   }
                 }
-              }
+              },
+              "sig_name": "Lauyan TOWeb V8"
             },
             "200180": {
               "signature": 200180,
@@ -6116,7 +6181,6 @@ SUPPORT_CHARTS = {
                   "name": "UNCLASSIFIED"
                 }
               },
-              "sig_name": "Lauyan TOWeb V1",
               "methods": {
                 "constant": {
                   "102": {
@@ -6197,7 +6261,8 @@ SUPPORT_CHARTS = {
                     "name": "TerminateProcesses"
                   }
                 }
-              }
+              },
+              "sig_name": "Lauyan TOWeb V1"
             },
             "200181": {
               "signature": 200181,
@@ -6215,7 +6280,6 @@ SUPPORT_CHARTS = {
                   "name": "UNCLASSIFIED"
                 }
               },
-              "sig_name": "Lauyan TOWeb V2",
               "methods": {
                 "constant": {
                   "102": {
@@ -6296,7 +6360,8 @@ SUPPORT_CHARTS = {
                     "name": "TerminateProcesses"
                   }
                 }
-              }
+              },
+              "sig_name": "Lauyan TOWeb V2"
             },
             "200182": {
               "signature": 200182,
@@ -6314,7 +6379,6 @@ SUPPORT_CHARTS = {
                   "name": "UNCLASSIFIED"
                 }
               },
-              "sig_name": "Lauyan TOWeb V3",
               "methods": {
                 "constant": {
                   "102": {
@@ -6395,7 +6459,8 @@ SUPPORT_CHARTS = {
                     "name": "TerminateProcesses"
                   }
                 }
-              }
+              },
+              "sig_name": "Lauyan TOWeb V3"
             },
             "200183": {
               "signature": 200183,
@@ -6413,7 +6478,6 @@ SUPPORT_CHARTS = {
                   "name": "UNCLASSIFIED"
                 }
               },
-              "sig_name": "Lauyan TOWeb V5",
               "methods": {
                 "constant": {
                   "102": {
@@ -6494,7 +6558,8 @@ SUPPORT_CHARTS = {
                     "name": "TerminateProcesses"
                   }
                 }
-              }
+              },
+              "sig_name": "Lauyan TOWeb V5"
             },
             "200184": {
               "signature": 200184,
@@ -6512,7 +6577,6 @@ SUPPORT_CHARTS = {
                   "name": "UNCLASSIFIED"
                 }
               },
-              "sig_name": "Lauyan TOWeb V7",
               "methods": {
                 "constant": {
                   "102": {
@@ -6593,7 +6657,8 @@ SUPPORT_CHARTS = {
                     "name": "TerminateProcesses"
                   }
                 }
-              }
+              },
+              "sig_name": "Lauyan TOWeb V7"
             },
             "200190": {
               "signature": 200190,
@@ -6611,7 +6676,6 @@ SUPPORT_CHARTS = {
                   "name": "UNCLASSIFIED"
                 }
               },
-              "sig_name": "Lauyan TOWeb V9",
               "methods": {
                 "constant": {
                   "102": {
@@ -6692,7 +6756,8 @@ SUPPORT_CHARTS = {
                     "name": "TerminateProcesses"
                   }
                 }
-              }
+              },
+              "sig_name": "Lauyan TOWeb V9"
             },
             "200191": {
               "signature": 200191,
@@ -6710,7 +6775,6 @@ SUPPORT_CHARTS = {
                   "name": "UNCLASSIFIED"
                 }
               },
-              "sig_name": "Lauyan TOWeb V4",
               "methods": {
                 "constant": {
                   "102": {
@@ -6791,7 +6855,8 @@ SUPPORT_CHARTS = {
                     "name": "TerminateProcesses"
                   }
                 }
-              }
+              },
+              "sig_name": "Lauyan TOWeb V4"
             }
           }
         },
@@ -6799,28 +6864,28 @@ SUPPORT_CHARTS = {
           "id": 200144,
           "tested_points": [
             {
-              "signature": 200153,
-              "version": "3.0.11"
+              "version": "3.0.11",
+              "signature": 200153
             },
             {
-              "signature": 200153,
-              "version": "2.2.2"
+              "version": "2.2.2",
+              "signature": 200153
             },
             {
-              "signature": 200153,
-              "version": "3.0.19"
+              "version": "3.0.19",
+              "signature": 200153
             },
             {
-              "signature": 200153,
-              "version": "3.0.20"
+              "version": "3.0.20",
+              "signature": 200153
             },
             {
-              "signature": 200153,
-              "version": "3.0.21"
+              "version": "3.0.21",
+              "signature": 200153
             },
             {
-              "signature": 200153,
-              "version": "3.0.23"
+              "version": "3.0.23",
+              "signature": 200153
             }
           ],
           "labels": [
@@ -6845,7 +6910,6 @@ SUPPORT_CHARTS = {
                   "name": "UNCLASSIFIED"
                 }
               },
-              "sig_name": "VLC media player",
               "methods": {
                 "manageability": {
                   "100": {
@@ -6968,7 +7032,8 @@ SUPPORT_CHARTS = {
                     "name": "GetInstallationDirectories"
                   }
                 }
-              }
+              },
+              "sig_name": "VLC media player"
             }
           }
         },
@@ -6976,20 +7041,20 @@ SUPPORT_CHARTS = {
           "id": 200145,
           "tested_points": [
             {
-              "signature": 200154,
-              "version": "1.3.15"
+              "version": "1.3.15",
+              "signature": 200154
             },
             {
-              "signature": 200154,
-              "version": "0.0"
+              "version": "0.0",
+              "signature": 200154
             },
             {
-              "signature": 200154,
-              "version": "2.0.3"
+              "version": "2.0.3",
+              "signature": 200154
             },
             {
-              "signature": 200154,
-              "version": "1.1.13.0"
+              "version": "1.1.13.0",
+              "signature": 200154
             }
           ],
           "labels": [
@@ -7018,7 +7083,6 @@ SUPPORT_CHARTS = {
                   "name": "P2PA"
                 }
               },
-              "sig_name": "Deluge",
               "methods": {
                 "manageability": {
                   "100": {
@@ -7104,7 +7168,8 @@ SUPPORT_CHARTS = {
                     "name": "TerminateProcesses"
                   }
                 }
-              }
+              },
+              "sig_name": "Deluge"
             }
           }
         },
@@ -7112,24 +7177,24 @@ SUPPORT_CHARTS = {
           "id": 200146,
           "tested_points": [
             {
-              "signature": 200155,
-              "version": "3.0.5.33220"
+              "version": "3.0.5.33220",
+              "signature": 200155
             },
             {
-              "signature": 200155,
-              "version": "5.0.1.1469"
+              "version": "5.0.1.1469",
+              "signature": 200155
             },
             {
-              "signature": 200155,
-              "version": "4.0.5.3140"
+              "version": "4.0.5.3140",
+              "signature": 200155
             },
             {
-              "signature": 200155,
-              "version": "5.0.2.1613"
+              "version": "5.0.2.1613",
+              "signature": 200155
             },
             {
-              "signature": 200155,
-              "version": "5.0.3.1683"
+              "version": "5.0.3.1683",
+              "signature": 200155
             }
           ],
           "labels": [
@@ -7154,7 +7219,6 @@ SUPPORT_CHARTS = {
                   "name": "UNCLASSIFIED"
                 }
               },
-              "sig_name": "Firebird SQL Server",
               "methods": {
                 "manageability": {
                   "100": {
@@ -7294,7 +7358,8 @@ SUPPORT_CHARTS = {
                     "name": "GetInstallationDirectories"
                   }
                 }
-              }
+              },
+              "sig_name": "Firebird SQL Server"
             }
           }
         },
@@ -7302,12 +7367,12 @@ SUPPORT_CHARTS = {
           "id": 200147,
           "tested_points": [
             {
-              "signature": 200157,
-              "version": "5.30.0"
+              "version": "5.30.0",
+              "signature": 200157
             },
             {
-              "signature": 200157,
-              "version": "5.28.1"
+              "version": "5.28.1",
+              "signature": 200157
             }
           ],
           "labels": [
@@ -7332,7 +7397,6 @@ SUPPORT_CHARTS = {
                   "name": "UNCLASSIFIED"
                 }
               },
-              "sig_name": "ActivePerl 5",
               "methods": {
                 "constant": {
                   "101": {
@@ -7415,7 +7479,8 @@ SUPPORT_CHARTS = {
                     "name": "GetInstallationDirectories"
                   }
                 }
-              }
+              },
+              "sig_name": "ActivePerl 5"
             }
           }
         },
@@ -7423,8 +7488,8 @@ SUPPORT_CHARTS = {
           "id": 200148,
           "tested_points": [
             {
-              "signature": 200158,
-              "version": "0.0"
+              "version": "0.0",
+              "signature": 200158
             }
           ],
           "labels": [],
@@ -7447,7 +7512,6 @@ SUPPORT_CHARTS = {
                   "name": "UNCLASSIFIED"
                 }
               },
-              "sig_name": "UltraEdit",
               "methods": {
                 "manageability": {
                   "100": {
@@ -7554,7 +7618,8 @@ SUPPORT_CHARTS = {
                     "name": "GetInstallationDirectories"
                   }
                 }
-              }
+              },
+              "sig_name": "UltraEdit"
             }
           }
         },
@@ -7562,8 +7627,8 @@ SUPPORT_CHARTS = {
           "id": 200151,
           "tested_points": [
             {
-              "signature": 200161,
-              "version": "6.0.8"
+              "version": "6.0.8",
+              "signature": 200161
             }
           ],
           "labels": [
@@ -7588,7 +7653,6 @@ SUPPORT_CHARTS = {
                   "name": "UNCLASSIFIED"
                 }
               },
-              "sig_name": "FrostWire",
               "methods": {
                 "manageability": {
                   "101": {
@@ -7621,7 +7685,8 @@ SUPPORT_CHARTS = {
                     "name": "TerminateProcesses"
                   }
                 }
-              }
+              },
+              "sig_name": "FrostWire"
             }
           }
         },
@@ -7629,8 +7694,8 @@ SUPPORT_CHARTS = {
           "id": 200152,
           "tested_points": [
             {
-              "signature": 200162,
-              "version": "0.0"
+              "version": "0.0",
+              "signature": 200162
             }
           ],
           "labels": [],
@@ -7653,7 +7718,6 @@ SUPPORT_CHARTS = {
                   "name": "UNCLASSIFIED"
                 }
               },
-              "sig_name": "010 Editor",
               "methods": {
                 "manageability": {
                   "100": {
@@ -7698,7 +7762,8 @@ SUPPORT_CHARTS = {
                     "name": "GetVersion"
                   }
                 }
-              }
+              },
+              "sig_name": "010 Editor"
             }
           }
         },
@@ -7706,8 +7771,8 @@ SUPPORT_CHARTS = {
           "id": 200153,
           "tested_points": [
             {
-              "signature": 200163,
-              "version": "2.4.5.0727"
+              "version": "2.4.5.0727",
+              "signature": 200163
             }
           ],
           "labels": [],
@@ -7730,7 +7795,6 @@ SUPPORT_CHARTS = {
                   "name": "UNCLASSIFIED"
                 }
               },
-              "sig_name": "FoxitReader",
               "methods": {
                 "manageability": {
                   "100": {
@@ -7850,7 +7914,8 @@ SUPPORT_CHARTS = {
                     "name": "GetInstallationDirectories"
                   }
                 }
-              }
+              },
+              "sig_name": "FoxitReader"
             }
           }
         },
@@ -7858,8 +7923,8 @@ SUPPORT_CHARTS = {
           "id": 200154,
           "tested_points": [
             {
-              "signature": 200164,
-              "version": "0.0"
+              "version": "0.0",
+              "signature": 200164
             }
           ],
           "labels": [],
@@ -7882,7 +7947,6 @@ SUPPORT_CHARTS = {
                   "name": "UNCLASSIFIED"
                 }
               },
-              "sig_name": "Sublime Text 3",
               "methods": {
                 "manageability": {
                   "100": {
@@ -7927,7 +7991,8 @@ SUPPORT_CHARTS = {
                     "name": "GetVersion"
                   }
                 }
-              }
+              },
+              "sig_name": "Sublime Text 3"
             }
           }
         },
@@ -7935,84 +8000,88 @@ SUPPORT_CHARTS = {
           "id": 200157,
           "tested_points": [
             {
-              "signature": 200167,
-              "version": "3.2.3"
+              "version": "3.2.3",
+              "signature": 200167
             },
             {
-              "signature": 200167,
-              "version": "2.6.10"
+              "version": "2.6.10",
+              "signature": 200167
             },
             {
-              "signature": 200167,
-              "version": "3.6.20"
+              "version": "3.6.20",
+              "signature": 200167
             },
             {
-              "signature": 200167,
-              "version": "3.67.0"
+              "version": "3.67.0",
+              "signature": 200167
             },
             {
-              "signature": 200167,
-              "version": "3.4.10"
+              "version": "3.4.10",
+              "signature": 200167
             },
             {
-              "signature": 200167,
-              "version": "4.2.6"
+              "version": "4.2.6",
+              "signature": 200167
             },
             {
-              "signature": 200167,
-              "version": "4.2.5"
+              "version": "4.2.5",
+              "signature": 200167
             },
             {
-              "signature": 200167,
-              "version": "3.6.2"
+              "version": "3.6.2",
+              "signature": 200167
             },
             {
-              "signature": 200167,
-              "version": "4.4.0"
+              "version": "4.4.0",
+              "signature": 200167
             },
             {
-              "signature": 200167,
-              "version": "4.4.2"
+              "version": "4.4.2",
+              "signature": 200167
             },
             {
-              "signature": 200167,
-              "version": "4.4.3"
+              "version": "4.4.3",
+              "signature": 200167
             },
             {
-              "signature": 200167,
-              "version": "4.4.4"
+              "version": "4.4.4",
+              "signature": 200167
             },
             {
-              "signature": 200167,
-              "version": "4.4.5"
+              "version": "4.4.5",
+              "signature": 200167
             },
             {
-              "signature": 200167,
-              "version": "4.4.6"
+              "version": "4.4.6",
+              "signature": 200167
             },
             {
-              "signature": 200167,
-              "version": "4.6.0"
+              "version": "4.6.0",
+              "signature": 200167
             },
             {
-              "signature": 200167,
-              "version": "4.6.1"
+              "version": "4.6.1",
+              "signature": 200167
             },
             {
-              "signature": 200167,
-              "version": "4.6.2"
+              "version": "4.6.2",
+              "signature": 200167
             },
             {
-              "signature": 200167,
-              "version": "4.6.3"
+              "version": "4.6.3",
+              "signature": 200167
             },
             {
-              "signature": 200167,
-              "version": "4.6.4"
+              "version": "4.6.4",
+              "signature": 200167
             },
             {
-              "signature": 200167,
-              "version": "4.6.5"
+              "version": "4.6.5",
+              "signature": 200167
+            },
+            {
+              "version": "4.6.6",
+              "signature": 200167
             }
           ],
           "labels": [
@@ -8037,7 +8106,6 @@ SUPPORT_CHARTS = {
                   "name": "UNCLASSIFIED"
                 }
               },
-              "sig_name": "Wireshark",
               "methods": {
                 "manageability": {
                   "100": {
@@ -8235,7 +8303,8 @@ SUPPORT_CHARTS = {
                     "name": "GetComponents"
                   }
                 }
-              }
+              },
+              "sig_name": "Wireshark"
             }
           }
         },
@@ -8243,8 +8312,8 @@ SUPPORT_CHARTS = {
           "id": 200158,
           "tested_points": [
             {
-              "signature": 200168,
-              "version": "20.6.0"
+              "version": "20.6.0",
+              "signature": 200168
             }
           ],
           "labels": [],
@@ -8267,8 +8336,8 @@ SUPPORT_CHARTS = {
                   "name": "UNCLASSIFIED"
                 }
               },
-              "sig_name": "SMPlayer",
-              "methods": {}
+              "methods": {},
+              "sig_name": "SMPlayer"
             }
           }
         },
@@ -8276,8 +8345,8 @@ SUPPORT_CHARTS = {
           "id": 200160,
           "tested_points": [
             {
-              "signature": 200169,
-              "version": "4.1.7"
+              "version": "4.1.7",
+              "signature": 200169
             }
           ],
           "labels": [],
@@ -8300,7 +8369,6 @@ SUPPORT_CHARTS = {
                   "name": "UNCLASSIFIED"
                 }
               },
-              "sig_name": "Apache OpenOffice",
               "methods": {
                 "manageability": {
                   "101": {
@@ -8333,7 +8401,8 @@ SUPPORT_CHARTS = {
                     "name": "TerminateProcesses"
                   }
                 }
-              }
+              },
+              "sig_name": "Apache OpenOffice"
             }
           }
         },
@@ -8341,8 +8410,8 @@ SUPPORT_CHARTS = {
           "id": 200162,
           "tested_points": [
             {
-              "signature": 200171,
-              "version": "0.92.3"
+              "version": "0.92.3",
+              "signature": 200171
             }
           ],
           "labels": [],
@@ -8365,7 +8434,6 @@ SUPPORT_CHARTS = {
                   "name": "UNCLASSIFIED"
                 }
               },
-              "sig_name": "Inkscape",
               "methods": {
                 "manageability": {
                   "100": {
@@ -8410,7 +8478,8 @@ SUPPORT_CHARTS = {
                     "name": "GetVersion"
                   }
                 }
-              }
+              },
+              "sig_name": "Inkscape"
             }
           }
         },
@@ -8418,8 +8487,8 @@ SUPPORT_CHARTS = {
           "id": 200164,
           "tested_points": [
             {
-              "signature": 200173,
-              "version": "2.3.3"
+              "version": "2.3.3",
+              "signature": 200173
             }
           ],
           "labels": [],
@@ -8442,8 +8511,8 @@ SUPPORT_CHARTS = {
                   "name": "UNCLASSIFIED"
                 }
               },
-              "sig_name": "Audacity",
-              "methods": {}
+              "methods": {},
+              "sig_name": "Audacity"
             }
           }
         },
@@ -8451,32 +8520,32 @@ SUPPORT_CHARTS = {
           "id": 200165,
           "tested_points": [
             {
-              "signature": 200176,
-              "version": "16.0"
+              "version": "16.0",
+              "signature": 200176
             },
             {
-              "signature": 200176,
-              "version": "0.0"
+              "version": "0.0",
+              "signature": 200176
             },
             {
-              "signature": 200177,
-              "version": "16.1"
+              "version": "16.1",
+              "signature": 200177
             },
             {
-              "signature": 200177,
-              "version": "0.0"
+              "version": "0.0",
+              "signature": 200177
             },
             {
-              "signature": 200178,
-              "version": "16.2"
+              "version": "16.2",
+              "signature": 200178
             },
             {
-              "signature": 200187,
-              "version": "16.2"
+              "version": "16.2",
+              "signature": 200187
             },
             {
-              "signature": 200187,
-              "version": "0.0"
+              "version": "0.0",
+              "signature": 200187
             }
           ],
           "labels": [],
@@ -8499,7 +8568,6 @@ SUPPORT_CHARTS = {
                   "name": "UNCLASSIFIED"
                 }
               },
-              "sig_name": "Visual Paradigm 16.0",
               "methods": {
                 "manageability": {
                   "100": {
@@ -8585,7 +8653,8 @@ SUPPORT_CHARTS = {
                     "name": "TerminateProcesses"
                   }
                 }
-              }
+              },
+              "sig_name": "Visual Paradigm 16.0"
             },
             "200177": {
               "signature": 200177,
@@ -8603,7 +8672,6 @@ SUPPORT_CHARTS = {
                   "name": "UNCLASSIFIED"
                 }
               },
-              "sig_name": "Visual Paradigm 16.1",
               "methods": {
                 "manageability": {
                   "100": {
@@ -8689,7 +8757,8 @@ SUPPORT_CHARTS = {
                     "name": "TerminateProcesses"
                   }
                 }
-              }
+              },
+              "sig_name": "Visual Paradigm 16.1"
             },
             "200178": {
               "signature": 200178,
@@ -8707,7 +8776,6 @@ SUPPORT_CHARTS = {
                   "name": "UNCLASSIFIED"
                 }
               },
-              "sig_name": "Visual Paradigm 16.2",
               "methods": {
                 "manageability": {
                   "100": {
@@ -8793,7 +8861,8 @@ SUPPORT_CHARTS = {
                     "name": "TerminateProcesses"
                   }
                 }
-              }
+              },
+              "sig_name": "Visual Paradigm 16.2"
             },
             "200187": {
               "signature": 200187,
@@ -8811,8 +8880,8 @@ SUPPORT_CHARTS = {
                   "name": "UNCLASSIFIED"
                 }
               },
-              "sig_name": "Visual Paradigm 16.2",
-              "methods": {}
+              "methods": {},
+              "sig_name": "Visual Paradigm 16.2"
             }
           }
         },
@@ -8820,8 +8889,8 @@ SUPPORT_CHARTS = {
           "id": 200166,
           "tested_points": [
             {
-              "signature": 200175,
-              "version": "1.1.10"
+              "version": "1.1.10",
+              "signature": 200175
             }
           ],
           "labels": [],
@@ -8844,7 +8913,6 @@ SUPPORT_CHARTS = {
                   "name": "UNCLASSIFIED"
                 }
               },
-              "sig_name": "Spotify",
               "methods": {
                 "manageability": {
                   "100": {
@@ -8951,7 +9019,8 @@ SUPPORT_CHARTS = {
                     "name": "GetInstallationDirectories"
                   }
                 }
-              }
+              },
+              "sig_name": "Spotify"
             }
           }
         },
@@ -8959,12 +9028,12 @@ SUPPORT_CHARTS = {
           "id": 200167,
           "tested_points": [
             {
-              "signature": 200179,
-              "version": "10.19.0"
+              "version": "10.19.0",
+              "signature": 200179
             },
             {
-              "signature": 200179,
-              "version": "8.10.0"
+              "version": "8.10.0",
+              "signature": 200179
             }
           ],
           "labels": [],
@@ -8987,7 +9056,6 @@ SUPPORT_CHARTS = {
                   "name": "UNCLASSIFIED"
                 }
               },
-              "sig_name": "Node.js",
               "methods": {
                 "constant": {
                   "102": {
@@ -9077,7 +9145,8 @@ SUPPORT_CHARTS = {
                     "name": "TerminateProcesses"
                   }
                 }
-              }
+              },
+              "sig_name": "Node.js"
             }
           }
         },
@@ -9085,8 +9154,8 @@ SUPPORT_CHARTS = {
           "id": 200169,
           "tested_points": [
             {
-              "signature": 200144,
-              "version": "0.0"
+              "version": "0.0",
+              "signature": 200144
             }
           ],
           "labels": [],
@@ -9109,7 +9178,6 @@ SUPPORT_CHARTS = {
                   "name": "UNCLASSIFIED"
                 }
               },
-              "sig_name": "pgAdmin 4",
               "methods": {
                 "manageability": {
                   "100": {
@@ -9154,7 +9222,8 @@ SUPPORT_CHARTS = {
                     "name": "GetVersion"
                   }
                 }
-              }
+              },
+              "sig_name": "pgAdmin 4"
             }
           }
         },
@@ -9162,28 +9231,28 @@ SUPPORT_CHARTS = {
           "id": 200171,
           "tested_points": [
             {
-              "signature": 200188,
-              "version": "5.16.3"
+              "version": "5.16.3",
+              "signature": 200188
             },
             {
-              "signature": 200188,
-              "version": "5.30.0"
+              "version": "5.30.0",
+              "signature": 200188
             },
             {
-              "signature": 200188,
-              "version": "5.34.0"
+              "version": "5.34.0",
+              "signature": 200188
             },
             {
-              "signature": 200188,
-              "version": "5.38.2"
+              "version": "5.38.2",
+              "signature": 200188
             },
             {
-              "signature": 200188,
-              "version": "5.32.1"
+              "version": "5.32.1",
+              "signature": 200188
             },
             {
-              "signature": 200188,
-              "version": "5.40.1"
+              "version": "5.40.1",
+              "signature": 200188
             }
           ],
           "labels": [],
@@ -9206,7 +9275,6 @@ SUPPORT_CHARTS = {
                   "name": "UNCLASSIFIED"
                 }
               },
-              "sig_name": "perl-base",
               "methods": {
                 "constant": {
                   "101": {
@@ -9268,7 +9336,8 @@ SUPPORT_CHARTS = {
                     "name": "GetVersion"
                   }
                 }
-              }
+              },
+              "sig_name": "perl-base"
             }
           }
         },
@@ -9276,12 +9345,12 @@ SUPPORT_CHARTS = {
           "id": 200172,
           "tested_points": [
             {
-              "signature": 200189,
-              "version": "0.9.8"
+              "version": "0.9.8",
+              "signature": 200189
             },
             {
-              "signature": 200189,
-              "version": "1.0.0-6"
+              "version": "1.0.0-6",
+              "signature": 200189
             }
           ],
           "labels": [],
@@ -9304,7 +9373,6 @@ SUPPORT_CHARTS = {
                   "name": "UNCLASSIFIED"
                 }
               },
-              "sig_name": "Vesta Control Panel",
               "methods": {
                 "manageability": {
                   "100": {
@@ -9420,7 +9488,8 @@ SUPPORT_CHARTS = {
                     "name": "GetInstallationDirectories"
                   }
                 }
-              }
+              },
+              "sig_name": "Vesta Control Panel"
             }
           }
         },
@@ -9447,7 +9516,6 @@ SUPPORT_CHARTS = {
                   "name": "UNCLASSIFIED"
                 }
               },
-              "sig_name": ".NET",
               "methods": {
                 "constant": {
                   "101": {
@@ -9530,7 +9598,8 @@ SUPPORT_CHARTS = {
                     "name": "GetInstallationDirectories"
                   }
                 }
-              }
+              },
+              "sig_name": ".NET"
             }
           }
         },
@@ -9538,8 +9607,8 @@ SUPPORT_CHARTS = {
           "id": 200174,
           "tested_points": [
             {
-              "signature": 200193,
-              "version": "7.2.0"
+              "version": "7.2.0",
+              "signature": 200193
             }
           ],
           "labels": [],
@@ -9562,7 +9631,6 @@ SUPPORT_CHARTS = {
                   "name": "UNCLASSIFIED"
                 }
               },
-              "sig_name": "Powershell Core",
               "methods": {
                 "manageability": {
                   "100": {
@@ -9619,7 +9687,8 @@ SUPPORT_CHARTS = {
                     "name": "Run"
                   }
                 }
-              }
+              },
+              "sig_name": "Powershell Core"
             }
           }
         },
@@ -9627,12 +9696,12 @@ SUPPORT_CHARTS = {
           "id": 200175,
           "tested_points": [
             {
-              "signature": 200194,
-              "version": "6.12.0"
+              "version": "6.12.0",
+              "signature": 200194
             },
             {
-              "signature": 200194,
-              "version": "6.12.0.122"
+              "version": "6.12.0.122",
+              "signature": 200194
             }
           ],
           "labels": [],
@@ -9655,7 +9724,6 @@ SUPPORT_CHARTS = {
                   "name": "UNCLASSIFIED"
                 }
               },
-              "sig_name": "Mono",
               "methods": {
                 "constant": {
                   "101": {
@@ -9738,7 +9806,8 @@ SUPPORT_CHARTS = {
                     "name": "GetInstallationDirectories"
                   }
                 }
-              }
+              },
+              "sig_name": "Mono"
             }
           }
         },
@@ -9746,60 +9815,60 @@ SUPPORT_CHARTS = {
           "id": 200176,
           "tested_points": [
             {
-              "signature": 200195,
-              "version": "7.13.0"
+              "version": "7.13.0",
+              "signature": 200195
             },
             {
-              "signature": 200195,
-              "version": "7.13.2"
+              "version": "7.13.2",
+              "signature": 200195
             },
             {
-              "signature": 200195,
-              "version": "7.13.3"
+              "version": "7.13.3",
+              "signature": 200195
             },
             {
-              "signature": 200195,
-              "version": "7.13.1"
+              "version": "7.13.1",
+              "signature": 200195
             },
             {
-              "signature": 200195,
-              "version": "7.14.0"
+              "version": "7.14.0",
+              "signature": 200195
             },
             {
-              "signature": 200195,
-              "version": "8.2.2"
+              "version": "8.2.2",
+              "signature": 200195
             },
             {
-              "signature": 200195,
-              "version": "8.6.1"
+              "version": "8.6.1",
+              "signature": 200195
             },
             {
-              "signature": 200195,
-              "version": "8.4.1"
+              "version": "8.4.1",
+              "signature": 200195
             },
             {
-              "signature": 200195,
-              "version": "8.5.0"
+              "version": "8.5.0",
+              "signature": 200195
             },
             {
-              "signature": 200195,
-              "version": "8.7.0"
+              "version": "8.7.0",
+              "signature": 200195
             },
             {
-              "signature": 200195,
-              "version": "8.8.1"
+              "version": "8.8.1",
+              "signature": 200195
             },
             {
-              "signature": 200195,
-              "version": "8.9.0"
+              "version": "8.9.0",
+              "signature": 200195
             },
             {
-              "signature": 200195,
-              "version": "8.15.2"
+              "version": "8.15.2",
+              "signature": 200195
             },
             {
-              "signature": 200195,
-              "version": "9.1.2"
+              "version": "9.1.2",
+              "signature": 200195
             }
           ],
           "labels": [],
@@ -9826,7 +9895,6 @@ SUPPORT_CHARTS = {
                   "name": "ANTIMALWARE"
                 }
               },
-              "sig_name": "Elastic Agent",
               "methods": {
                 "manageability": {
                   "100": {
@@ -10081,7 +10149,8 @@ SUPPORT_CHARTS = {
                     "name": "GetInstallationDirectories"
                   }
                 }
-              }
+              },
+              "sig_name": "Elastic Agent"
             }
           }
         },
@@ -10089,80 +10158,104 @@ SUPPORT_CHARTS = {
           "id": 200187,
           "tested_points": [
             {
-              "signature": 200206,
-              "version": "1.79.2"
+              "version": "1.79.2",
+              "signature": 200206
             },
             {
-              "signature": 200206,
-              "version": "1.90.2"
+              "version": "1.90.2",
+              "signature": 200206
             },
             {
-              "signature": 200206,
-              "version": "1.91.0"
+              "version": "1.91.0",
+              "signature": 200206
             },
             {
-              "signature": 200206,
-              "version": "1.92.0"
+              "version": "1.92.0",
+              "signature": 200206
             },
             {
-              "signature": 200206,
-              "version": "1.93.1"
+              "version": "1.93.1",
+              "signature": 200206
             },
             {
-              "signature": 200206,
-              "version": "1.94.2"
+              "version": "1.94.2",
+              "signature": 200206
             },
             {
-              "signature": 200206,
-              "version": "1.95.3"
+              "version": "1.95.3",
+              "signature": 200206
             },
             {
-              "signature": 200206,
-              "version": "1.96.0"
+              "version": "1.96.0",
+              "signature": 200206
             },
             {
-              "signature": 200206,
-              "version": "1.105.1"
+              "version": "1.105.1",
+              "signature": 200206
             },
             {
-              "signature": 200206,
-              "version": "1.106.0"
+              "version": "1.106.0",
+              "signature": 200206
             },
             {
-              "signature": 200206,
-              "version": "1.106.1"
+              "version": "1.106.1",
+              "signature": 200206
             },
             {
-              "signature": 200206,
-              "version": "1.106.2"
+              "version": "1.106.2",
+              "signature": 200206
             },
             {
-              "signature": 200206,
-              "version": "1.106.3"
+              "version": "1.106.3",
+              "signature": 200206
             },
             {
-              "signature": 200206,
-              "version": "1.107.1"
+              "version": "1.107.1",
+              "signature": 200206
             },
             {
-              "signature": 200206,
-              "version": "1.108.0"
+              "version": "1.108.0",
+              "signature": 200206
             },
             {
-              "signature": 200206,
-              "version": "1.108.1"
+              "version": "1.108.1",
+              "signature": 200206
             },
             {
-              "signature": 200206,
-              "version": "1.108.2"
+              "version": "1.108.2",
+              "signature": 200206
             },
             {
-              "signature": 200206,
-              "version": "1.116.0"
+              "version": "1.116.0",
+              "signature": 200206
             },
             {
-              "signature": 200206,
-              "version": "1.120.0"
+              "version": "1.120.0",
+              "signature": 200206
+            },
+            {
+              "version": "1.121.0",
+              "signature": 200206
+            },
+            {
+              "version": "1.122.0",
+              "signature": 200206
+            },
+            {
+              "version": "1.122.1",
+              "signature": 200206
+            },
+            {
+              "version": "1.123.0",
+              "signature": 200206
+            },
+            {
+              "version": "1.123.1",
+              "signature": 200206
+            },
+            {
+              "version": "1.123.2",
+              "signature": 200206
             }
           ],
           "labels": [],
@@ -10185,7 +10278,6 @@ SUPPORT_CHARTS = {
                   "name": "UNCLASSIFIED"
                 }
               },
-              "sig_name": "Visual Studio Code",
               "methods": {
                 "manageability": {
                   "100": {
@@ -10282,7 +10374,8 @@ SUPPORT_CHARTS = {
                     "name": "Run"
                   }
                 }
-              }
+              },
+              "sig_name": "Visual Studio Code"
             }
           }
         },
@@ -10290,8 +10383,8 @@ SUPPORT_CHARTS = {
           "id": 200192,
           "tested_points": [
             {
-              "signature": 200212,
-              "version": "6.0.3"
+              "version": "6.0.3",
+              "signature": 200212
             }
           ],
           "labels": [],
@@ -10314,8 +10407,8 @@ SUPPORT_CHARTS = {
                   "name": "UNCLASSIFIED"
                 }
               },
-              "sig_name": "wine",
-              "methods": {}
+              "methods": {},
+              "sig_name": "wine"
             }
           }
         },
@@ -10323,8 +10416,8 @@ SUPPORT_CHARTS = {
           "id": 200193,
           "tested_points": [
             {
-              "signature": 200213,
-              "version": "12.1.5.39265"
+              "version": "12.1.5.39265",
+              "signature": 200213
             }
           ],
           "labels": [],
@@ -10347,7 +10440,6 @@ SUPPORT_CHARTS = {
                   "name": "UNCLASSIFIED"
                 }
               },
-              "sig_name": "Open VM Tools",
               "methods": {
                 "manageability": {
                   "100": {
@@ -10461,7 +10553,8 @@ SUPPORT_CHARTS = {
                     "name": "TerminateProcesses"
                   }
                 }
-              }
+              },
+              "sig_name": "Open VM Tools"
             }
           }
         },
@@ -10469,8 +10562,8 @@ SUPPORT_CHARTS = {
           "id": 200194,
           "tested_points": [
             {
-              "signature": 200214,
-              "version": "0.0"
+              "version": "0.0",
+              "signature": 200214
             }
           ],
           "labels": [],
@@ -10493,7 +10586,6 @@ SUPPORT_CHARTS = {
                   "name": "UNCLASSIFIED"
                 }
               },
-              "sig_name": "Qt",
               "methods": {
                 "constant": {
                   "102": {
@@ -10619,7 +10711,8 @@ SUPPORT_CHARTS = {
                     "name": "GetInstallationDirectories"
                   }
                 }
-              }
+              },
+              "sig_name": "Qt"
             }
           }
         },
@@ -10627,8 +10720,8 @@ SUPPORT_CHARTS = {
           "id": 200195,
           "tested_points": [
             {
-              "signature": 200215,
-              "version": "0.0"
+              "version": "0.0",
+              "signature": 200215
             }
           ],
           "labels": [],
@@ -10651,7 +10744,6 @@ SUPPORT_CHARTS = {
                   "name": "UNCLASSIFIED"
                 }
               },
-              "sig_name": "Go",
               "methods": {
                 "constant": {
                   "102": {
@@ -10751,7 +10843,8 @@ SUPPORT_CHARTS = {
                     "name": "TerminateProcesses"
                   }
                 }
-              }
+              },
+              "sig_name": "Go"
             }
           }
         },
@@ -10759,52 +10852,52 @@ SUPPORT_CHARTS = {
           "id": 200197,
           "tested_points": [
             {
-              "signature": 200165,
-              "version": "6.4.5"
+              "version": "6.4.5",
+              "signature": 200165
             },
             {
-              "signature": 200165,
-              "version": "7.3"
+              "version": "7.3",
+              "signature": 200165
             },
             {
-              "signature": 200165,
-              "version": "24.2.5.2"
+              "version": "24.2.5.2",
+              "signature": 200165
             },
             {
-              "signature": 200165,
-              "version": "24.8.0.3"
+              "version": "24.8.0.3",
+              "signature": 200165
             },
             {
-              "signature": 200165,
-              "version": "24.2.2.1"
+              "version": "24.2.2.1",
+              "signature": 200165
             },
             {
-              "signature": 200165,
-              "version": "24.8.2.1"
+              "version": "24.8.2.1",
+              "signature": 200165
             },
             {
-              "signature": 200165,
-              "version": "25.2.0.3"
+              "version": "25.2.0.3",
+              "signature": 200165
             },
             {
-              "signature": 200165,
-              "version": "25.8.2.2"
+              "version": "25.8.2.2",
+              "signature": 200165
             },
             {
-              "signature": 200165,
-              "version": "25.8.3.2"
+              "version": "25.8.3.2",
+              "signature": 200165
             },
             {
-              "signature": 200165,
-              "version": "25.8.4.2"
+              "version": "25.8.4.2",
+              "signature": 200165
             },
             {
-              "signature": 200165,
-              "version": "26.2.0.3"
+              "version": "26.2.0.3",
+              "signature": 200165
             },
             {
-              "signature": 200165,
-              "version": "26.2.2.2"
+              "version": "26.2.2.2",
+              "signature": 200165
             }
           ],
           "labels": [],
@@ -10827,7 +10920,6 @@ SUPPORT_CHARTS = {
                   "name": "UNCLASSIFIED"
                 }
               },
-              "sig_name": "LibreOffice",
               "methods": {
                 "manageability": {
                   "100": {
@@ -10924,7 +11016,8 @@ SUPPORT_CHARTS = {
                     "name": "TerminateProcesses"
                   }
                 }
-              }
+              },
+              "sig_name": "LibreOffice"
             }
           }
         },
@@ -10932,20 +11025,20 @@ SUPPORT_CHARTS = {
           "id": 200199,
           "tested_points": [
             {
-              "signature": 200218,
-              "version": "24.2.0.65"
+              "version": "24.2.0.65",
+              "signature": 200218
             },
             {
-              "signature": 200218,
-              "version": "22.12.0.12"
+              "version": "22.12.0.12",
+              "signature": 200218
             },
             {
-              "signature": 200218,
-              "version": "24.11.0.85"
+              "version": "24.11.0.85",
+              "signature": 200218
             },
             {
-              "signature": 200218,
-              "version": "25.08.0.88"
+              "version": "25.08.0.88",
+              "signature": 200218
             }
           ],
           "labels": [],
@@ -10968,7 +11061,6 @@ SUPPORT_CHARTS = {
                   "name": "UNCLASSIFIED"
                 }
               },
-              "sig_name": "Citrix Workspace",
               "methods": {
                 "manageability": {
                   "100": {
@@ -11108,7 +11200,8 @@ SUPPORT_CHARTS = {
                     "name": "GetInstallationDirectories"
                   }
                 }
-              }
+              },
+              "sig_name": "Citrix Workspace"
             }
           },
           "marketing_names": [
@@ -11119,16 +11212,16 @@ SUPPORT_CHARTS = {
           "id": 200201,
           "tested_points": [
             {
-              "signature": 200220,
-              "version": "2.6.6"
+              "version": "2.6.6",
+              "signature": 200220
             },
             {
-              "signature": 200220,
-              "version": "2.7.6"
+              "version": "2.7.6",
+              "signature": 200220
             },
             {
-              "signature": 200220,
-              "version": "2.7.8"
+              "version": "2.7.8",
+              "signature": 200220
             }
           ],
           "labels": [],
@@ -11151,7 +11244,6 @@ SUPPORT_CHARTS = {
                   "name": "UNCLASSIFIED"
                 }
               },
-              "sig_name": "KeePassXC",
               "methods": {
                 "manageability": {
                   "100": {
@@ -11274,7 +11366,8 @@ SUPPORT_CHARTS = {
                     "name": "GetInstallationDirectories"
                   }
                 }
-              }
+              },
+              "sig_name": "KeePassXC"
             }
           }
         },
@@ -11282,8 +11375,8 @@ SUPPORT_CHARTS = {
           "id": 200202,
           "tested_points": [
             {
-              "signature": 200221,
-              "version": "0.0"
+              "version": "0.0",
+              "signature": 200221
             }
           ],
           "labels": [],
@@ -11306,7 +11399,6 @@ SUPPORT_CHARTS = {
                   "name": "UNCLASSIFIED"
                 }
               },
-              "sig_name": "Xmind",
               "methods": {
                 "manageability": {
                   "100": {
@@ -11407,7 +11499,8 @@ SUPPORT_CHARTS = {
                     "name": "GetInstallationDirectories"
                   }
                 }
-              }
+              },
+              "sig_name": "Xmind"
             }
           }
         },
@@ -11415,8 +11508,8 @@ SUPPORT_CHARTS = {
           "id": 200206,
           "tested_points": [
             {
-              "signature": 200225,
-              "version": "0.0"
+              "version": "0.0",
+              "signature": 200225
             }
           ],
           "labels": [],
@@ -11439,7 +11532,6 @@ SUPPORT_CHARTS = {
                   "name": "UNCLASSIFIED"
                 }
               },
-              "sig_name": "Eclipse Temurin JDK with Hotspot 20",
               "methods": {
                 "constant": {
                   "102": {
@@ -11543,7 +11635,8 @@ SUPPORT_CHARTS = {
                     "name": "TerminateProcesses"
                   }
                 }
-              }
+              },
+              "sig_name": "Eclipse Temurin JDK with Hotspot 20"
             }
           }
         },
@@ -11551,8 +11644,8 @@ SUPPORT_CHARTS = {
           "id": 200207,
           "tested_points": [
             {
-              "signature": 200226,
-              "version": "0.0"
+              "version": "0.0",
+              "signature": 200226
             }
           ],
           "labels": [],
@@ -11575,7 +11668,6 @@ SUPPORT_CHARTS = {
                   "name": "UNCLASSIFIED"
                 }
               },
-              "sig_name": "Eclipse Temurin JDK with Hotspot 21",
               "methods": {
                 "constant": {
                   "102": {
@@ -11679,7 +11771,8 @@ SUPPORT_CHARTS = {
                     "name": "TerminateProcesses"
                   }
                 }
-              }
+              },
+              "sig_name": "Eclipse Temurin JDK with Hotspot 21"
             }
           }
         },
@@ -11687,8 +11780,8 @@ SUPPORT_CHARTS = {
           "id": 200208,
           "tested_points": [
             {
-              "signature": 200227,
-              "version": "0.0"
+              "version": "0.0",
+              "signature": 200227
             }
           ],
           "labels": [],
@@ -11711,7 +11804,6 @@ SUPPORT_CHARTS = {
                   "name": "UNCLASSIFIED"
                 }
               },
-              "sig_name": "Eclipse Temurin JDK with Hotspot 22",
               "methods": {
                 "constant": {
                   "102": {
@@ -11815,7 +11907,8 @@ SUPPORT_CHARTS = {
                     "name": "TerminateProcesses"
                   }
                 }
-              }
+              },
+              "sig_name": "Eclipse Temurin JDK with Hotspot 22"
             }
           }
         },
@@ -11823,24 +11916,24 @@ SUPPORT_CHARTS = {
           "id": 200211,
           "tested_points": [
             {
-              "signature": 200230,
-              "version": "2.43.0"
+              "version": "2.43.0",
+              "signature": 200230
             },
             {
-              "signature": 200230,
-              "version": "2.35.3"
+              "version": "2.35.3",
+              "signature": 200230
             },
             {
-              "signature": 200230,
-              "version": "2.43.5"
+              "version": "2.43.5",
+              "signature": 200230
             },
             {
-              "signature": 200230,
-              "version": "2.39.5"
+              "version": "2.39.5",
+              "signature": 200230
             },
             {
-              "signature": 200230,
-              "version": "2.21.3"
+              "version": "2.21.3",
+              "signature": 200230
             }
           ],
           "labels": [],
@@ -11863,7 +11956,6 @@ SUPPORT_CHARTS = {
                   "name": "UNCLASSIFIED"
                 }
               },
-              "sig_name": "Git",
               "methods": {
                 "constant": {
                   "102": {
@@ -11928,7 +12020,8 @@ SUPPORT_CHARTS = {
                     "name": "GetVersion"
                   }
                 }
-              }
+              },
+              "sig_name": "Git"
             }
           }
         },
@@ -11936,12 +12029,12 @@ SUPPORT_CHARTS = {
           "id": 200216,
           "tested_points": [
             {
-              "signature": 200235,
-              "version": "12.0.1"
+              "version": "12.0.1",
+              "signature": 200235
             },
             {
-              "signature": 200235,
-              "version": "0.0"
+              "version": "0.0",
+              "signature": 200235
             }
           ],
           "labels": [],
@@ -11964,7 +12057,6 @@ SUPPORT_CHARTS = {
                   "name": "UNCLASSIFIED"
                 }
               },
-              "sig_name": "Grafana",
               "methods": {
                 "manageability": {
                   "100": {
@@ -12022,7 +12114,8 @@ SUPPORT_CHARTS = {
                     "name": "GetVersion"
                   }
                 }
-              }
+              },
+              "sig_name": "Grafana"
             }
           }
         },
@@ -12030,8 +12123,8 @@ SUPPORT_CHARTS = {
           "id": 200217,
           "tested_points": [
             {
-              "signature": 200236,
-              "version": "28.2.2"
+              "version": "28.2.2",
+              "signature": 200236
             }
           ],
           "labels": [],
@@ -12054,7 +12147,6 @@ SUPPORT_CHARTS = {
                   "name": "UNCLASSIFIED"
                 }
               },
-              "sig_name": "Docker Engine",
               "methods": {
                 "manageability": {
                   "100": {
@@ -12112,7 +12204,8 @@ SUPPORT_CHARTS = {
                     "name": "GetVersion"
                   }
                 }
-              }
+              },
+              "sig_name": "Docker Engine"
             }
           }
         },
@@ -12120,8 +12213,8 @@ SUPPORT_CHARTS = {
           "id": 200218,
           "tested_points": [
             {
-              "signature": 200237,
-              "version": "9.0.2"
+              "version": "9.0.2",
+              "signature": 200237
             }
           ],
           "labels": [],
@@ -12144,8 +12237,8 @@ SUPPORT_CHARTS = {
                   "name": "UNCLASSIFIED"
                 }
               },
-              "sig_name": "Elasticsearch",
-              "methods": {}
+              "methods": {},
+              "sig_name": "Elasticsearch"
             }
           }
         },
@@ -12153,12 +12246,12 @@ SUPPORT_CHARTS = {
           "id": 200219,
           "tested_points": [
             {
-              "signature": 200238,
-              "version": "23.01"
+              "version": "23.01",
+              "signature": 200238
             },
             {
-              "signature": 200238,
-              "version": "21.07"
+              "version": "21.07",
+              "signature": 200238
             }
           ],
           "labels": [],
@@ -12181,7 +12274,6 @@ SUPPORT_CHARTS = {
                   "name": "UNCLASSIFIED"
                 }
               },
-              "sig_name": "7zip",
               "methods": {
                 "constant": {
                   "101": {
@@ -12282,7 +12374,8 @@ SUPPORT_CHARTS = {
                     "name": "GetInstallationDirectories"
                   }
                 }
-              }
+              },
+              "sig_name": "7zip"
             }
           }
         },
@@ -12290,12 +12383,12 @@ SUPPORT_CHARTS = {
           "id": 200220,
           "tested_points": [
             {
-              "signature": 200239,
-              "version": "0.12.112"
+              "version": "0.12.112",
+              "signature": 200239
             },
             {
-              "signature": 200239,
-              "version": "0.13.37"
+              "version": "0.13.37",
+              "signature": 200239
             }
           ],
           "labels": [],
@@ -12318,7 +12411,6 @@ SUPPORT_CHARTS = {
                   "name": "UNCLASSIFIED"
                 }
               },
-              "sig_name": "Claude",
               "methods": {
                 "manageability": {
                   "101": {
@@ -12378,7 +12470,8 @@ SUPPORT_CHARTS = {
                     "name": "TerminateProcesses"
                   }
                 }
-              }
+              },
+              "sig_name": "Claude"
             }
           }
         },
@@ -12386,8 +12479,8 @@ SUPPORT_CHARTS = {
           "id": 200221,
           "tested_points": [
             {
-              "signature": 200240,
-              "version": "8.0.462.0.0.8"
+              "version": "8.0.462.0.0.8",
+              "signature": 200240
             }
           ],
           "labels": [],
@@ -12410,7 +12503,6 @@ SUPPORT_CHARTS = {
                   "name": "UNCLASSIFIED"
                 }
               },
-              "sig_name": "Eclipse Temurin JDK with Hotspot 8",
               "methods": {
                 "constant": {
                   "102": {
@@ -12514,7 +12606,8 @@ SUPPORT_CHARTS = {
                     "name": "TerminateProcesses"
                   }
                 }
-              }
+              },
+              "sig_name": "Eclipse Temurin JDK with Hotspot 8"
             }
           }
         },
@@ -12522,8 +12615,8 @@ SUPPORT_CHARTS = {
           "id": 200222,
           "tested_points": [
             {
-              "signature": 200241,
-              "version": "11.0.28.0.0"
+              "version": "11.0.28.0.0",
+              "signature": 200241
             }
           ],
           "labels": [],
@@ -12546,7 +12639,6 @@ SUPPORT_CHARTS = {
                   "name": "UNCLASSIFIED"
                 }
               },
-              "sig_name": "Eclipse Temurin JDK with Hotspot 11",
               "methods": {
                 "constant": {
                   "102": {
@@ -12650,7 +12742,8 @@ SUPPORT_CHARTS = {
                     "name": "TerminateProcesses"
                   }
                 }
-              }
+              },
+              "sig_name": "Eclipse Temurin JDK with Hotspot 11"
             }
           }
         },
@@ -12658,8 +12751,8 @@ SUPPORT_CHARTS = {
           "id": 200223,
           "tested_points": [
             {
-              "signature": 200242,
-              "version": "17.0.16.0.0.8"
+              "version": "17.0.16.0.0.8",
+              "signature": 200242
             }
           ],
           "labels": [],
@@ -12682,7 +12775,6 @@ SUPPORT_CHARTS = {
                   "name": "UNCLASSIFIED"
                 }
               },
-              "sig_name": "Eclipse Temurin JDK with Hotspot 17",
               "methods": {
                 "constant": {
                   "102": {
@@ -12786,7 +12878,8 @@ SUPPORT_CHARTS = {
                     "name": "TerminateProcesses"
                   }
                 }
-              }
+              },
+              "sig_name": "Eclipse Temurin JDK with Hotspot 17"
             }
           }
         },
@@ -12794,8 +12887,8 @@ SUPPORT_CHARTS = {
           "id": 200224,
           "tested_points": [
             {
-              "signature": 200243,
-              "version": "23.0.2.0.0"
+              "version": "23.0.2.0.0",
+              "signature": 200243
             }
           ],
           "labels": [],
@@ -12818,7 +12911,6 @@ SUPPORT_CHARTS = {
                   "name": "UNCLASSIFIED"
                 }
               },
-              "sig_name": "Eclipse Temurin JDK with Hotspot 23",
               "methods": {
                 "constant": {
                   "102": {
@@ -12922,7 +13014,8 @@ SUPPORT_CHARTS = {
                     "name": "TerminateProcesses"
                   }
                 }
-              }
+              },
+              "sig_name": "Eclipse Temurin JDK with Hotspot 23"
             }
           }
         },
@@ -12930,8 +13023,8 @@ SUPPORT_CHARTS = {
           "id": 200228,
           "tested_points": [
             {
-              "signature": 200247,
-              "version": "2025.1.5524"
+              "version": "2025.1.5524",
+              "signature": 200247
             }
           ],
           "labels": [],
@@ -12954,8 +13047,8 @@ SUPPORT_CHARTS = {
                   "name": "UNCLASSIFIED"
                 }
               },
-              "sig_name": "Amazon WorkSpaces",
-              "methods": {}
+              "methods": {},
+              "sig_name": "Amazon WorkSpaces"
             }
           }
         }
@@ -12970,20 +13063,20 @@ SUPPORT_CHARTS = {
           "id": 200170,
           "tested_points": [
             {
-              "signature": 200186,
-              "version": "1.0.7"
+              "version": "1.0.7",
+              "signature": 200186
             },
             {
-              "signature": 200186,
-              "version": "1.6.0"
+              "version": "1.6.0",
+              "signature": 200186
             },
             {
-              "signature": 200186,
-              "version": "1.8.1"
+              "version": "1.8.1",
+              "signature": 200186
             },
             {
-              "signature": 200186,
-              "version": "2511.3.1.0"
+              "version": "2511.3.1.0",
+              "signature": 200186
             }
           ],
           "labels": [],
@@ -13010,7 +13103,6 @@ SUPPORT_CHARTS = {
                   "name": "ENCRYPTION"
                 }
               },
-              "sig_name": "Endpoint Protector Client",
               "methods": {
                 "manageability": {
                   "101": {
@@ -13070,7 +13162,8 @@ SUPPORT_CHARTS = {
                     "name": "TerminateProcesses"
                   }
                 }
-              }
+              },
+              "sig_name": "Endpoint Protector Client"
             }
           }
         }
@@ -13118,8 +13211,8 @@ SUPPORT_CHARTS = {
           "id": 200039,
           "tested_points": [
             {
-              "signature": 200040,
-              "version": "11.0"
+              "version": "11.0",
+              "signature": 200040
             }
           ],
           "labels": [],
@@ -13142,7 +13235,6 @@ SUPPORT_CHARTS = {
                   "name": "PATCH_MANAGEMENT"
                 }
               },
-              "sig_name": "BMC FootPrints Asset Core",
               "methods": {
                 "manageability": {
                   "1012": {
@@ -13189,7 +13281,8 @@ SUPPORT_CHARTS = {
                     "name": "SetAgentState"
                   }
                 }
-              }
+              },
+              "sig_name": "BMC FootPrints Asset Core"
             }
           }
         },
@@ -13197,33 +13290,33 @@ SUPPORT_CHARTS = {
           "id": 200040,
           "tested_points": [
             {
-              "signature": 200041,
-              "version": "1.0"
+              "version": "1.0",
+              "signature": 200041
             },
             {
-              "signature": 200041,
-              "version": "2.0.2"
+              "version": "2.0.2",
+              "signature": 200041
             },
             {
-              "signature": 200041,
-              "version": "2.4.5"
+              "version": "2.4.5",
+              "signature": 200041
             },
             {
-              "signature": 200041,
-              "version": "2.6.0"
+              "version": "2.6.0",
+              "signature": 200041
             },
             {
-              "signature": 200041,
-              "version": "2.7.14"
+              "version": "2.7.14",
+              "signature": 200041
             },
             {
-              "signature": 200041,
+              "release": "Beta",
               "version": "3.1.16",
-              "release": "Beta"
+              "signature": 200041
             },
             {
-              "signature": 200041,
-              "version": "3.2.0"
+              "version": "3.2.0",
+              "signature": 200041
             }
           ],
           "labels": [],
@@ -13246,7 +13339,6 @@ SUPPORT_CHARTS = {
                   "name": "PATCH_MANAGEMENT"
                 }
               },
-              "sig_name": "Advanced Packaging Tool",
               "methods": {
                 "constant": {
                   "101": {
@@ -13790,7 +13882,8 @@ SUPPORT_CHARTS = {
                     "name": "GetInstalledPatches"
                   }
                 }
-              }
+              },
+              "sig_name": "Advanced Packaging Tool"
             }
           }
         },
@@ -13798,24 +13891,28 @@ SUPPORT_CHARTS = {
           "id": 200041,
           "tested_points": [
             {
-              "signature": 200042,
-              "version": "2.0"
+              "version": "2.0",
+              "signature": 200042
             },
             {
-              "signature": 200042,
-              "version": "3.0"
+              "version": "3.0",
+              "signature": 200042
             },
             {
-              "signature": 200042,
-              "version": "4.2.23"
+              "version": "4.2.23",
+              "signature": 200042
             },
             {
-              "signature": 200042,
-              "version": "4.2.17"
+              "version": "4.2.17",
+              "signature": 200042
             },
             {
-              "signature": 200042,
-              "version": "4.9.0"
+              "version": "4.9.0",
+              "signature": 200042
+            },
+            {
+              "version": "4.20.0",
+              "signature": 200042
             }
           ],
           "labels": [],
@@ -13838,7 +13935,6 @@ SUPPORT_CHARTS = {
                   "name": "PATCH_MANAGEMENT"
                 }
               },
-              "sig_name": "Yum",
               "methods": {
                 "constant": {
                   "101": {
@@ -14319,7 +14415,8 @@ SUPPORT_CHARTS = {
                     "name": "GetInstalledPatches"
                   }
                 }
-              }
+              },
+              "sig_name": "Yum"
             }
           }
         },
@@ -14327,12 +14424,12 @@ SUPPORT_CHARTS = {
           "id": 200050,
           "tested_points": [
             {
-              "signature": 200051,
-              "version": "1.0"
+              "version": "1.0",
+              "signature": 200051
             },
             {
-              "signature": 200051,
-              "version": "4.9.0"
+              "version": "4.9.0",
+              "signature": 200051
             }
           ],
           "labels": [],
@@ -14355,7 +14452,6 @@ SUPPORT_CHARTS = {
                   "name": "PATCH_MANAGEMENT"
                 }
               },
-              "sig_name": "Dandified Yum",
               "methods": {
                 "constant": {
                   "101": {
@@ -14899,7 +14995,8 @@ SUPPORT_CHARTS = {
                     "name": "GetInstalledPatches"
                   }
                 }
-              }
+              },
+              "sig_name": "Dandified Yum"
             }
           }
         },
@@ -14907,8 +15004,8 @@ SUPPORT_CHARTS = {
           "id": 200057,
           "tested_points": [
             {
-              "signature": 200058,
-              "version": "1.11.14"
+              "version": "1.11.14",
+              "signature": 200058
             }
           ],
           "labels": [],
@@ -14931,7 +15028,6 @@ SUPPORT_CHARTS = {
                   "name": "PATCH_MANAGEMENT"
                 }
               },
-              "sig_name": "Zypper",
               "methods": {
                 "constant": {
                   "102": {
@@ -15462,7 +15558,8 @@ SUPPORT_CHARTS = {
                     "name": "FetchRemoteData"
                   }
                 }
-              }
+              },
+              "sig_name": "Zypper"
             }
           }
         },
@@ -15470,8 +15567,8 @@ SUPPORT_CHARTS = {
           "id": 200181,
           "tested_points": [
             {
-              "signature": 200200,
-              "version": "6.0.1"
+              "version": "6.0.1",
+              "signature": 200200
             }
           ],
           "labels": [],
@@ -15494,7 +15591,6 @@ SUPPORT_CHARTS = {
                   "name": "PATCH_MANAGEMENT"
                 }
               },
-              "sig_name": "pacman",
               "methods": {
                 "constant": {
                   "101": {
@@ -15660,7 +15756,8 @@ SUPPORT_CHARTS = {
                     "name": "InstallMissingPatches"
                   }
                 }
-              }
+              },
+              "sig_name": "pacman"
             }
           }
         },
@@ -15668,12 +15765,12 @@ SUPPORT_CHARTS = {
           "id": 200184,
           "tested_points": [
             {
-              "signature": 200203,
-              "version": "0"
+              "version": "0",
+              "signature": 200203
             },
             {
-              "signature": 200203,
-              "version": "20.08.03.211109"
+              "version": "20.08.03.211109",
+              "signature": 200203
             }
           ],
           "labels": [],
@@ -15696,7 +15793,6 @@ SUPPORT_CHARTS = {
                   "name": "PATCH_MANAGEMENT"
                 }
               },
-              "sig_name": "BMC Client Management Agent",
               "methods": {
                 "constant": {
                   "1013": {
@@ -15865,7 +15961,8 @@ SUPPORT_CHARTS = {
                     "name": "GetInstallationDirectories"
                   }
                 }
-              }
+              },
+              "sig_name": "BMC Client Management Agent"
             }
           }
         },
@@ -15873,8 +15970,8 @@ SUPPORT_CHARTS = {
           "id": 200189,
           "tested_points": [
             {
-              "signature": 200208,
-              "version": "13.1.19"
+              "version": "13.1.19",
+              "signature": 200208
             }
           ],
           "labels": [],
@@ -15897,7 +15994,6 @@ SUPPORT_CHARTS = {
                   "name": "PATCH_MANAGEMENT"
                 }
               },
-              "sig_name": "Quest KACE Agent",
               "methods": {
                 "manageability": {
                   "102": {
@@ -15935,7 +16031,8 @@ SUPPORT_CHARTS = {
                     "name": "TerminateProcesses"
                   }
                 }
-              }
+              },
+              "sig_name": "Quest KACE Agent"
             }
           }
         },
@@ -15943,12 +16040,12 @@ SUPPORT_CHARTS = {
           "id": 200190,
           "tested_points": [
             {
-              "signature": 200209,
-              "version": "22.04.1"
+              "version": "22.04.1",
+              "signature": 200209
             },
             {
-              "signature": 200209,
-              "version": "2.60.4"
+              "version": "2.60.4",
+              "signature": 200209
             }
           ],
           "labels": [],
@@ -15971,7 +16068,6 @@ SUPPORT_CHARTS = {
                   "name": "PATCH_MANAGEMENT"
                 }
               },
-              "sig_name": "Snap",
               "methods": {
                 "manageability": {
                   "100": {
@@ -16499,7 +16595,8 @@ SUPPORT_CHARTS = {
                     "name": "TerminateProcesses"
                   }
                 }
-              }
+              },
+              "sig_name": "Snap"
             }
           }
         },
@@ -16507,8 +16604,8 @@ SUPPORT_CHARTS = {
           "id": 200196,
           "tested_points": [
             {
-              "signature": 200216,
-              "version": "11.3.2406.1.L"
+              "version": "11.3.2406.1.L",
+              "signature": 200216
             }
           ],
           "labels": [],
@@ -16531,7 +16628,6 @@ SUPPORT_CHARTS = {
                   "name": "PATCH_MANAGEMENT"
                 }
               },
-              "sig_name": "ManageEngine Patch Manager Plus Agent",
               "methods": {
                 "manageability": {
                   "100": {
@@ -16645,7 +16741,8 @@ SUPPORT_CHARTS = {
                     "name": "GetInstallationDirectories"
                   }
                 }
-              }
+              },
+              "sig_name": "ManageEngine Patch Manager Plus Agent"
             }
           }
         },
@@ -16653,16 +16750,16 @@ SUPPORT_CHARTS = {
           "id": 200214,
           "tested_points": [
             {
-              "signature": 200233,
-              "version": "4.18.1"
+              "version": "4.18.1",
+              "signature": 200233
             },
             {
-              "signature": 200233,
-              "version": "4.16.1.3"
+              "version": "4.16.1.3",
+              "signature": 200233
             },
             {
-              "signature": 200233,
-              "version": "4.11.3"
+              "version": "4.11.3",
+              "signature": 200233
             }
           ],
           "labels": [],
@@ -16685,7 +16782,6 @@ SUPPORT_CHARTS = {
                   "name": "PATCH_MANAGEMENT"
                 }
               },
-              "sig_name": "RPM Package Manager",
               "methods": {
                 "constant": {
                   "101": {
@@ -16760,7 +16856,8 @@ SUPPORT_CHARTS = {
                     "name": "GetVersion"
                   }
                 }
-              }
+              },
+              "sig_name": "RPM Package Manager"
             }
           }
         },
@@ -16768,8 +16865,8 @@ SUPPORT_CHARTS = {
           "id": 200215,
           "tested_points": [
             {
-              "signature": 200234,
-              "version": "1.14.4"
+              "version": "1.14.4",
+              "signature": 200234
             }
           ],
           "labels": [],
@@ -16792,7 +16889,6 @@ SUPPORT_CHARTS = {
                   "name": "PATCH_MANAGEMENT"
                 }
               },
-              "sig_name": "Flatpak",
               "methods": {
                 "manageability": {
                   "100": {
@@ -16850,7 +16946,8 @@ SUPPORT_CHARTS = {
                     "name": "GetVersion"
                   }
                 }
-              }
+              },
+              "sig_name": "Flatpak"
             }
           }
         }
@@ -16865,8 +16962,8 @@ SUPPORT_CHARTS = {
           "id": 200049,
           "tested_points": [
             {
-              "signature": 200050,
-              "version": "10.0"
+              "version": "10.0",
+              "signature": 200050
             }
           ],
           "labels": [],
@@ -16889,8 +16986,8 @@ SUPPORT_CHARTS = {
                   "name": "VPN_CLIENT"
                 }
               },
-              "sig_name": "Aventail Connect",
-              "methods": {}
+              "methods": {},
+              "sig_name": "Aventail Connect"
             }
           },
           "marketing_names": [
@@ -16901,8 +16998,8 @@ SUPPORT_CHARTS = {
           "id": 200101,
           "tested_points": [
             {
-              "signature": 200102,
-              "version": "0.0"
+              "version": "0.0",
+              "signature": 200102
             }
           ],
           "labels": [],
@@ -16925,7 +17022,6 @@ SUPPORT_CHARTS = {
                   "name": "VPN_CLIENT"
                 }
               },
-              "sig_name": "Pulse Connect Secure",
               "methods": {
                 "manageability": {
                   "100": {
@@ -16999,7 +17095,8 @@ SUPPORT_CHARTS = {
                     "name": "TerminateProcesses"
                   }
                 }
-              }
+              },
+              "sig_name": "Pulse Connect Secure"
             }
           }
         },
@@ -17007,8 +17104,8 @@ SUPPORT_CHARTS = {
           "id": 200183,
           "tested_points": [
             {
-              "signature": 200202,
-              "version": "4.10.05095"
+              "version": "4.10.05095",
+              "signature": 200202
             }
           ],
           "labels": [],
@@ -17031,7 +17128,6 @@ SUPPORT_CHARTS = {
                   "name": "VPN_CLIENT"
                 }
               },
-              "sig_name": "Cisco AnyConnect Secure Mobility Client",
               "methods": {
                 "manageability": {
                   "100": {
@@ -17076,7 +17172,8 @@ SUPPORT_CHARTS = {
                     "name": "GetVersion"
                   }
                 }
-              }
+              },
+              "sig_name": "Cisco AnyConnect Secure Mobility Client"
             }
           }
         },
@@ -17084,12 +17181,12 @@ SUPPORT_CHARTS = {
           "id": 200209,
           "tested_points": [
             {
-              "signature": 200228,
-              "version": "3.73.0.0"
+              "version": "3.73.0.0",
+              "signature": 200228
             },
             {
-              "signature": 200228,
-              "version": "3.75.0.0"
+              "version": "3.75.0.0",
+              "signature": 200228
             }
           ],
           "labels": [],
@@ -17112,7 +17209,6 @@ SUPPORT_CHARTS = {
                   "name": "VPN_CLIENT"
                 }
               },
-              "sig_name": "ExpressVPN",
               "methods": {
                 "manageability": {
                   "101": {
@@ -17172,7 +17268,8 @@ SUPPORT_CHARTS = {
                     "name": "TerminateProcesses"
                   }
                 }
-              }
+              },
+              "sig_name": "ExpressVPN"
             }
           }
         },
@@ -17180,8 +17277,8 @@ SUPPORT_CHARTS = {
           "id": 200226,
           "tested_points": [
             {
-              "signature": 200245,
-              "version": "5.5.0.2620"
+              "version": "5.5.0.2620",
+              "signature": 200245
             }
           ],
           "labels": [],
@@ -17204,7 +17301,6 @@ SUPPORT_CHARTS = {
                   "name": "VPN_CLIENT"
                 }
               },
-              "sig_name": "Cato Client",
               "methods": {
                 "manageability": {
                   "100": {
@@ -17279,7 +17375,8 @@ SUPPORT_CHARTS = {
                     "name": "Run"
                   }
                 }
-              }
+              },
+              "sig_name": "Cato Client"
             }
           }
         }
@@ -17311,8 +17408,8 @@ SUPPORT_CHARTS = {
           "id": 200042,
           "tested_points": [
             {
-              "signature": 200043,
-              "version": "3.0"
+              "version": "3.0",
+              "signature": 200043
             }
           ],
           "labels": [],
@@ -17335,8 +17432,8 @@ SUPPORT_CHARTS = {
                   "name": "VIRTUAL_MACHINE"
                 }
               },
-              "sig_name": "Xen",
-              "methods": {}
+              "methods": {},
+              "sig_name": "Xen"
             }
           }
         },
@@ -17344,8 +17441,8 @@ SUPPORT_CHARTS = {
           "id": 200043,
           "tested_points": [
             {
-              "signature": 200044,
-              "version": "1.24.9.2018"
+              "version": "1.24.9.2018",
+              "signature": 200044
             }
           ],
           "labels": [],
@@ -17368,7 +17465,6 @@ SUPPORT_CHARTS = {
                   "name": "VIRTUAL_MACHINE"
                 }
               },
-              "sig_name": "KVM",
               "methods": {
                 "constant": {
                   "101": {
@@ -17527,7 +17623,8 @@ SUPPORT_CHARTS = {
                     "name": "GetComponents"
                   }
                 }
-              }
+              },
+              "sig_name": "KVM"
             }
           }
         },
@@ -17535,8 +17632,8 @@ SUPPORT_CHARTS = {
           "id": 200044,
           "tested_points": [
             {
-              "signature": 200045,
-              "version": "4.0"
+              "version": "4.0",
+              "signature": 200045
             }
           ],
           "labels": [],
@@ -17559,8 +17656,8 @@ SUPPORT_CHARTS = {
                   "name": "VIRTUAL_MACHINE"
                 }
               },
-              "sig_name": "Xen",
-              "methods": {}
+              "methods": {},
+              "sig_name": "Xen"
             }
           }
         },
@@ -17568,16 +17665,16 @@ SUPPORT_CHARTS = {
           "id": 200045,
           "tested_points": [
             {
-              "signature": 200046,
-              "version": "6.1.50"
+              "version": "6.1.50",
+              "signature": 200046
             },
             {
-              "signature": 200046,
-              "version": "7.1.10"
+              "version": "7.1.10",
+              "signature": 200046
             },
             {
-              "signature": 200046,
-              "version": "7.1.12"
+              "version": "7.1.12",
+              "signature": 200046
             }
           ],
           "labels": [],
@@ -17600,7 +17697,6 @@ SUPPORT_CHARTS = {
                   "name": "VIRTUAL_MACHINE"
                 }
               },
-              "sig_name": "Oracle VM VirtualBox",
               "methods": {
                 "manageability": {
                   "100": {
@@ -17740,7 +17836,8 @@ SUPPORT_CHARTS = {
                     "name": "GetInstallationDirectories"
                   }
                 }
-              }
+              },
+              "sig_name": "Oracle VM VirtualBox"
             }
           }
         },
@@ -17748,12 +17845,12 @@ SUPPORT_CHARTS = {
           "id": 200046,
           "tested_points": [
             {
-              "signature": 200047,
-              "version": "1.0"
+              "version": "1.0",
+              "signature": 200047
             },
             {
-              "signature": 200047,
-              "version": "2.0"
+              "version": "2.0",
+              "signature": 200047
             }
           ],
           "labels": [],
@@ -17776,8 +17873,8 @@ SUPPORT_CHARTS = {
                   "name": "VIRTUAL_MACHINE"
                 }
               },
-              "sig_name": "QEMU",
-              "methods": {}
+              "methods": {},
+              "sig_name": "QEMU"
             }
           }
         },
@@ -17785,8 +17882,8 @@ SUPPORT_CHARTS = {
           "id": 200047,
           "tested_points": [
             {
-              "signature": 200048,
-              "version": "3.0"
+              "version": "3.0",
+              "signature": 200048
             }
           ],
           "labels": [],
@@ -17809,8 +17906,8 @@ SUPPORT_CHARTS = {
                   "name": "VIRTUAL_MACHINE"
                 }
               },
-              "sig_name": "VirtualBox",
-              "methods": {}
+              "methods": {},
+              "sig_name": "VirtualBox"
             }
           }
         },
@@ -17818,20 +17915,20 @@ SUPPORT_CHARTS = {
           "id": 200048,
           "tested_points": [
             {
-              "signature": 200049,
-              "version": "3.0"
+              "version": "3.0",
+              "signature": 200049
             },
             {
-              "signature": 200049,
-              "version": "4.0"
+              "version": "4.0",
+              "signature": 200049
             },
             {
-              "signature": 200049,
-              "version": "5.0"
+              "version": "5.0",
+              "signature": 200049
             },
             {
-              "signature": 200049,
-              "version": "6.0"
+              "version": "6.0",
+              "signature": 200049
             }
           ],
           "labels": [],
@@ -17854,7 +17951,6 @@ SUPPORT_CHARTS = {
                   "name": "VIRTUAL_MACHINE"
                 }
               },
-              "sig_name": "VMware Player",
               "methods": {
                 "manageability": {
                   "100": {
@@ -17899,7 +17995,8 @@ SUPPORT_CHARTS = {
                     "name": "GetVersion"
                   }
                 }
-              }
+              },
+              "sig_name": "VMware Player"
             }
           }
         },
@@ -17907,20 +18004,20 @@ SUPPORT_CHARTS = {
           "id": 200093,
           "tested_points": [
             {
-              "signature": 200093,
-              "version": "14.1.7"
+              "version": "14.1.7",
+              "signature": 200093
             },
             {
-              "signature": 200093,
-              "version": "25.0.1"
+              "version": "25.0.1",
+              "signature": 200093
             },
             {
-              "signature": 200093,
-              "version": "25.0.0"
+              "version": "25.0.0",
+              "signature": 200093
             },
             {
-              "signature": 200093,
-              "version": "26.0.0"
+              "version": "26.0.0",
+              "signature": 200093
             }
           ],
           "labels": [],
@@ -17943,7 +18040,6 @@ SUPPORT_CHARTS = {
                   "name": "VIRTUAL_MACHINE"
                 }
               },
-              "sig_name": "VMware Workstation",
               "methods": {
                 "manageability": {
                   "100": {
@@ -18086,7 +18182,8 @@ SUPPORT_CHARTS = {
                     "name": "TerminateProcesses"
                   }
                 }
-              }
+              },
+              "sig_name": "VMware Workstation"
             }
           }
         }
@@ -18106,112 +18203,112 @@ SUPPORT_CHARTS = {
           "id": 200056,
           "tested_points": [
             {
-              "signature": 200057,
-              "version": "4.5.0"
+              "version": "4.5.0",
+              "signature": 200057
             },
             {
-              "signature": 200057,
-              "version": "5.11.0"
+              "version": "5.11.0",
+              "signature": 200057
             },
             {
-              "signature": 200057,
-              "version": "6.24.12103.0"
+              "version": "6.24.12103.0",
+              "signature": 200057
             },
             {
-              "signature": 200057,
-              "version": "6.28.12504.0"
+              "version": "6.28.12504.0",
+              "signature": 200057
             },
             {
-              "signature": 200057,
-              "version": "6.51.14810.0"
+              "version": "6.51.14810.0",
+              "signature": 200057
             },
             {
-              "signature": 200057,
-              "version": "6.37.13402.0"
+              "version": "6.37.13402.0",
+              "signature": 200057
             },
             {
-              "signature": 200057,
-              "version": "6.46.14306.0"
+              "version": "6.46.14306.0",
+              "signature": 200057
             },
             {
-              "signature": 200057,
-              "version": "6.48.14504.0"
+              "version": "6.48.14504.0",
+              "signature": 200057
             },
             {
-              "signature": 200057,
-              "version": "7.02.15705.0"
+              "version": "7.02.15705.0",
+              "signature": 200057
             },
             {
-              "signature": 200057,
-              "version": "7.11.16407.0"
+              "version": "7.11.16407.0",
+              "signature": 200057
             },
             {
-              "signature": 200057,
-              "version": "7.16.16903.0"
+              "version": "7.16.16903.0",
+              "signature": 200057
             },
             {
-              "signature": 200057,
-              "version": "7.17.17005.0"
+              "version": "7.17.17005.0",
+              "signature": 200057
             },
             {
-              "signature": 200057,
-              "version": "7.18.17106.0"
+              "version": "7.18.17106.0",
+              "signature": 200057
             },
             {
-              "signature": 200057,
-              "version": "7.20.17306.0"
+              "version": "7.20.17306.0",
+              "signature": 200057
             },
             {
-              "signature": 200057,
-              "version": "7.25.17804.0"
+              "version": "7.25.17804.0",
+              "signature": 200057
             },
             {
-              "signature": 200057,
-              "version": "7.26.17905.0"
+              "version": "7.26.17905.0",
+              "signature": 200057
             },
             {
-              "signature": 200057,
-              "version": "7.27.18003.0"
+              "version": "7.27.18003.0",
+              "signature": 200057
             },
             {
-              "signature": 200057,
-              "version": "7.28.18108.0"
+              "version": "7.28.18108.0",
+              "signature": 200057
             },
             {
-              "signature": 200057,
-              "version": "7.29.18202.0"
+              "version": "7.29.18202.0",
+              "signature": 200057
             },
             {
-              "signature": 200057,
-              "version": "7.30.18306.0"
+              "version": "7.30.18306.0",
+              "signature": 200057
             },
             {
-              "signature": 200057,
-              "version": "7.32.18504.0"
+              "version": "7.32.18504.0",
+              "signature": 200057
             },
             {
-              "signature": 200057,
-              "version": "7.33.18606.0"
+              "version": "7.33.18606.0",
+              "signature": 200057
             },
             {
-              "signature": 200057,
-              "version": "7.34.18708.0"
+              "version": "7.34.18708.0",
+              "signature": 200057
             },
             {
-              "signature": 200057,
-              "version": "7.35.18803.0"
+              "version": "7.35.18803.0",
+              "signature": 200057
             },
             {
-              "signature": 200057,
-              "version": "7.36.18909.0"
+              "version": "7.36.18909.0",
+              "signature": 200057
             },
             {
-              "signature": 200057,
-              "version": "7.37.19004.0"
+              "version": "7.37.19004.0",
+              "signature": 200057
             },
             {
-              "signature": 200057,
-              "version": "7.38.19102.0"
+              "version": "7.38.19102.0",
+              "signature": 200057
             }
           ],
           "labels": [],
@@ -18242,7 +18339,6 @@ SUPPORT_CHARTS = {
                   "name": "FIREWALL"
                 }
               },
-              "sig_name": "Crowdstrike Falcon",
               "methods": {
                 "manageability": {
                   "100": {
@@ -18710,7 +18806,8 @@ SUPPORT_CHARTS = {
                     "name": "GetComponents"
                   }
                 }
-              }
+              },
+              "sig_name": "Crowdstrike Falcon"
             }
           }
         },
@@ -18718,20 +18815,20 @@ SUPPORT_CHARTS = {
           "id": 200074,
           "tested_points": [
             {
-              "signature": 200075,
-              "version": "15.6.1"
+              "version": "15.6.1",
+              "signature": 200075
             },
             {
-              "signature": 200075,
-              "version": "15.4.74.0"
+              "version": "15.4.74.0",
+              "signature": 200075
             },
             {
-              "signature": 200075,
-              "version": "15.4.77.0"
+              "version": "15.4.77.0",
+              "signature": 200075
             },
             {
-              "signature": 200075,
-              "version": "15.6.74.0"
+              "version": "15.6.74.0",
+              "signature": 200075
             }
           ],
           "labels": [],
@@ -18754,7 +18851,6 @@ SUPPORT_CHARTS = {
                   "name": "HEALTH_AGENT"
                 }
               },
-              "sig_name": "OPSWAT Client",
               "methods": {
                 "manageability": {
                   "100": {
@@ -18866,7 +18962,8 @@ SUPPORT_CHARTS = {
                     "name": "TerminateProcesses"
                   }
                 }
-              }
+              },
+              "sig_name": "OPSWAT Client"
             }
           }
         },
@@ -18874,76 +18971,76 @@ SUPPORT_CHARTS = {
           "id": 200149,
           "tested_points": [
             {
-              "signature": 200159,
-              "version": "7.1.1.48398"
+              "version": "7.1.1.48398",
+              "signature": 200159
             },
             {
-              "signature": 200159,
-              "version": "7.0.2.42138"
+              "version": "7.0.2.42138",
+              "signature": 200159
             },
             {
-              "signature": 200159,
-              "version": "7.2.2.8227"
+              "version": "7.2.2.8227",
+              "signature": 200159
             },
             {
-              "signature": 200159,
-              "version": "7.1.0.44806"
+              "version": "7.1.0.44806",
+              "signature": 200159
             },
             {
-              "signature": 200159,
-              "version": "7.3.3.39951"
+              "version": "7.3.3.39951",
+              "signature": 200159
             },
             {
-              "signature": 200159,
-              "version": "7.4.3.39946"
+              "version": "7.4.3.39946",
+              "signature": 200159
             },
             {
-              "signature": 200159,
-              "version": "7.5.1.39945"
+              "version": "7.5.1.39945",
+              "signature": 200159
             },
             {
-              "signature": 200159,
-              "version": "7.6.3.64323"
+              "version": "7.6.3.64323",
+              "signature": 200159
             },
             {
-              "signature": 200159,
-              "version": "7.8.0.68806"
+              "version": "7.8.0.68806",
+              "signature": 200159
             },
             {
-              "signature": 200159,
-              "version": "8.0.0.94458"
+              "version": "8.0.0.94458",
+              "signature": 200159
             },
             {
-              "signature": 200159,
-              "version": "8.1.1.112729"
+              "version": "8.1.1.112729",
+              "signature": 200159
             },
             {
-              "signature": 200159,
-              "version": "8.3.0.120272"
+              "version": "8.3.0.120272",
+              "signature": 200159
             },
             {
-              "signature": 200159,
-              "version": "8.4.0.123266"
+              "version": "8.4.0.123266",
+              "signature": 200159
             },
             {
-              "signature": 200159,
-              "version": "8.5.0.125392"
+              "version": "8.5.0.125392",
+              "signature": 200159
             },
             {
-              "signature": 200159,
-              "version": "8.6.0.127566"
+              "version": "8.6.0.127566",
+              "signature": 200159
             },
             {
-              "signature": 200159,
-              "version": "8.7.0.131113"
+              "version": "8.7.0.131113",
+              "signature": 200159
             },
             {
-              "signature": 200159,
-              "version": "8.8.0.133595"
+              "version": "8.8.0.133595",
+              "signature": 200159
             },
             {
-              "signature": 200159,
-              "version": "9.0.0.140013"
+              "version": "9.0.0.140013",
+              "signature": 200159
             }
           ],
           "labels": [],
@@ -18970,7 +19067,6 @@ SUPPORT_CHARTS = {
                   "name": "ANTIMALWARE"
                 }
               },
-              "sig_name": "Cortex",
               "methods": {
                 "manageability": {
                   "100": {
@@ -19395,7 +19491,8 @@ SUPPORT_CHARTS = {
                     "name": "GetComponents"
                   }
                 }
-              }
+              },
+              "sig_name": "Cortex"
             }
           }
         },
@@ -19403,20 +19500,20 @@ SUPPORT_CHARTS = {
           "id": 200168,
           "tested_points": [
             {
-              "signature": 200185,
-              "version": "101.08.40"
+              "version": "101.08.40",
+              "signature": 200185
             },
             {
-              "signature": 200185,
-              "version": "101.25.09"
+              "version": "101.25.09",
+              "signature": 200185
             },
             {
-              "signature": 200185,
-              "version": "101.68.80"
+              "version": "101.68.80",
+              "signature": 200185
             },
             {
-              "signature": 200185,
-              "version": "101.65.77"
+              "version": "101.65.77",
+              "signature": 200185
             }
           ],
           "labels": [],
@@ -19443,7 +19540,6 @@ SUPPORT_CHARTS = {
                   "name": "ANTIMALWARE"
                 }
               },
-              "sig_name": "Microsoft Defender ATP",
               "methods": {
                 "manageability": {
                   "1000": {
@@ -19883,7 +19979,8 @@ SUPPORT_CHARTS = {
                     "name": "TerminateProcesses"
                   }
                 }
-              }
+              },
+              "sig_name": "Microsoft Defender ATP"
             }
           }
         }
@@ -19898,40 +19995,40 @@ SUPPORT_CHARTS = {
           "id": 200055,
           "tested_points": [
             {
-              "signature": 200056,
-              "version": "13.0.5494"
+              "version": "13.0.5494",
+              "signature": 200056
             },
             {
-              "signature": 200056,
-              "version": "14.2.8352"
+              "version": "14.2.8352",
+              "signature": 200056
             },
             {
-              "signature": 200056,
-              "version": "10.0.259201"
+              "version": "10.0.259201",
+              "signature": 200056
             },
             {
-              "signature": 200056,
-              "version": "11.0.259199"
+              "version": "11.0.259199",
+              "signature": 200056
             },
             {
-              "signature": 200056,
-              "version": "12.0.259197"
+              "version": "12.0.259197",
+              "signature": 200056
             },
             {
-              "signature": 200056,
-              "version": "13.2.153830"
+              "version": "13.2.153830",
+              "signature": 200056
             },
             {
-              "signature": 200056,
-              "version": "14.7.48671"
+              "version": "14.7.48671",
+              "signature": 200056
             },
             {
-              "signature": 200056,
-              "version": "15.18.5"
+              "version": "15.18.5",
+              "signature": 200056
             },
             {
-              "signature": 200056,
-              "version": "15.54.3"
+              "version": "15.54.3",
+              "signature": 200056
             }
           ],
           "labels": [],
@@ -19954,7 +20051,6 @@ SUPPORT_CHARTS = {
                   "name": "REMOTE_CONTROL"
                 }
               },
-              "sig_name": "TeamViewer",
               "methods": {
                 "manageability": {
                   "100": {
@@ -20041,7 +20137,8 @@ SUPPORT_CHARTS = {
                     "name": "TerminateProcesses"
                   }
                 }
-              }
+              },
+              "sig_name": "TeamViewer"
             }
           }
         },
@@ -20049,8 +20146,8 @@ SUPPORT_CHARTS = {
           "id": 200068,
           "tested_points": [
             {
-              "signature": 200069,
-              "version": "0.71"
+              "version": "0.71",
+              "signature": 200069
             }
           ],
           "labels": [],
@@ -20073,7 +20170,6 @@ SUPPORT_CHARTS = {
                   "name": "REMOTE_CONTROL"
                 }
               },
-              "sig_name": "PuTTY",
               "methods": {
                 "manageability": {
                   "100": {
@@ -20094,7 +20190,8 @@ SUPPORT_CHARTS = {
                     "name": "GetVersion"
                   }
                 }
-              }
+              },
+              "sig_name": "PuTTY"
             }
           }
         },
@@ -20102,52 +20199,56 @@ SUPPORT_CHARTS = {
           "id": 200070,
           "tested_points": [
             {
-              "signature": 200071,
-              "version": "5.9.6.2225"
+              "version": "5.9.6.2225",
+              "signature": 200071
             },
             {
-              "signature": 200071,
-              "version": "6.1.0.198"
+              "version": "6.1.0.198",
+              "signature": 200071
             },
             {
-              "signature": 200071,
-              "version": "6.2.0.1855"
+              "version": "6.2.0.1855",
+              "signature": 200071
             },
             {
-              "signature": 200071,
-              "version": "6.3.0.5527"
+              "version": "6.3.0.5527",
+              "signature": 200071
             },
             {
-              "signature": 200071,
-              "version": "6.4.0.471"
+              "version": "6.4.0.471",
+              "signature": 200071
             },
             {
-              "signature": 200071,
-              "version": "6.4.1.587"
+              "version": "6.4.1.587",
+              "signature": 200071
             },
             {
-              "signature": 200071,
-              "version": "6.5.0.2465"
+              "version": "6.5.0.2465",
+              "signature": 200071
             },
             {
-              "signature": 200071,
-              "version": "6.6.0.4410"
+              "version": "6.6.0.4410",
+              "signature": 200071
             },
             {
-              "signature": 200071,
-              "version": "6.6.11.6052"
+              "version": "6.6.11.6052",
+              "signature": 200071
             },
             {
-              "signature": 200071,
-              "version": "6.7.0.6313"
+              "version": "6.7.0.6313",
+              "signature": 200071
             },
             {
-              "signature": 200071,
-              "version": "6.7.2.6498"
+              "version": "6.7.2.6498",
+              "signature": 200071
             },
             {
-              "signature": 200071,
-              "version": "7.0.0.1666"
+              "version": "7.0.0.1666",
+              "signature": 200071
+            },
+            {
+              "version": "7.0.5.3034",
+              "signature": 200071
             }
           ],
           "labels": [
@@ -20176,7 +20277,6 @@ SUPPORT_CHARTS = {
                   "name": "WEB_CONFERENCE"
                 }
               },
-              "sig_name": "Zoom",
               "methods": {
                 "manageability": {
                   "100": {
@@ -20374,7 +20474,8 @@ SUPPORT_CHARTS = {
                     "name": "GetComponents"
                   }
                 }
-              }
+              },
+              "sig_name": "Zoom"
             }
           }
         },
@@ -20382,24 +20483,24 @@ SUPPORT_CHARTS = {
           "id": 200075,
           "tested_points": [
             {
-              "signature": 200076,
-              "version": "6.19.715"
+              "version": "6.19.715",
+              "signature": 200076
             },
             {
-              "signature": 200076,
-              "version": "6.20.113"
+              "version": "6.20.113",
+              "signature": 200076
             },
             {
-              "signature": 200076,
-              "version": "7.12.0"
+              "version": "7.12.0",
+              "signature": 200076
             },
             {
-              "signature": 200076,
-              "version": "7.13.1"
+              "version": "7.13.1",
+              "signature": 200076
             },
             {
-              "signature": 200156,
-              "version": "6.20.113"
+              "version": "6.20.113",
+              "signature": 200156
             }
           ],
           "labels": [],
@@ -20422,7 +20523,6 @@ SUPPORT_CHARTS = {
                   "name": "REMOTE_CONTROL"
                 }
               },
-              "sig_name": "VNC Viewer",
               "methods": {
                 "manageability": {
                   "100": {
@@ -20480,7 +20580,8 @@ SUPPORT_CHARTS = {
                     "name": "GetVersion"
                   }
                 }
-              }
+              },
+              "sig_name": "VNC Viewer"
             },
             "200156": {
               "signature": 200156,
@@ -20498,8 +20599,8 @@ SUPPORT_CHARTS = {
                   "name": "REMOTE_CONTROL"
                 }
               },
-              "sig_name": "VNC Viewer (deprecated)",
-              "methods": {}
+              "methods": {},
+              "sig_name": "VNC Viewer (deprecated)"
             }
           }
         },
@@ -20507,8 +20608,8 @@ SUPPORT_CHARTS = {
           "id": 200077,
           "tested_points": [
             {
-              "signature": 200078,
-              "version": "0.78.3"
+              "version": "0.78.3",
+              "signature": 200078
             }
           ],
           "labels": [],
@@ -20531,7 +20632,6 @@ SUPPORT_CHARTS = {
                   "name": "REMOTE_CONTROL"
                 }
               },
-              "sig_name": "sshuttle",
               "methods": {
                 "manageability": {
                   "100": {
@@ -20552,7 +20652,8 @@ SUPPORT_CHARTS = {
                     "name": "GetVersion"
                   }
                 }
-              }
+              },
+              "sig_name": "sshuttle"
             }
           }
         },
@@ -20560,8 +20661,8 @@ SUPPORT_CHARTS = {
           "id": 200078,
           "tested_points": [
             {
-              "signature": 200079,
-              "version": "1.3.10"
+              "version": "1.3.10",
+              "signature": 200079
             }
           ],
           "labels": [],
@@ -20584,8 +20685,8 @@ SUPPORT_CHARTS = {
                   "name": "REMOTE_CONTROL"
                 }
               },
-              "sig_name": "TightVNC",
-              "methods": {}
+              "methods": {},
+              "sig_name": "TightVNC"
             }
           }
         },
@@ -20593,8 +20694,8 @@ SUPPORT_CHARTS = {
           "id": 200086,
           "tested_points": [
             {
-              "signature": 200087,
-              "version": "0.0"
+              "version": "0.0",
+              "signature": 200087
             }
           ],
           "labels": [],
@@ -20617,8 +20718,8 @@ SUPPORT_CHARTS = {
                   "name": "REMOTE_CONTROL"
                 }
               },
-              "sig_name": "rdesktop",
-              "methods": {}
+              "methods": {},
+              "sig_name": "rdesktop"
             }
           }
         },
@@ -20626,32 +20727,32 @@ SUPPORT_CHARTS = {
           "id": 200200,
           "tested_points": [
             {
-              "signature": 200219,
-              "version": "7.11.1.26"
+              "version": "7.11.1.26",
+              "signature": 200219
             },
             {
-              "signature": 200219,
-              "version": "6.9.1.46706"
+              "version": "6.9.1.46706",
+              "signature": 200219
             },
             {
-              "signature": 200219,
-              "version": "7.12.0.14"
+              "version": "7.12.0.14",
+              "signature": 200219
             },
             {
-              "signature": 200219,
-              "version": "7.13.1.57"
+              "version": "7.13.1.57",
+              "signature": 200219
             },
             {
-              "signature": 200219,
-              "version": "7.14.0.5"
+              "version": "7.14.0.5",
+              "signature": 200219
             },
             {
-              "signature": 200219,
-              "version": "7.15.0.17"
+              "version": "7.15.0.17",
+              "signature": 200219
             },
             {
-              "signature": 200219,
-              "version": "7.16.0"
+              "version": "7.16.0",
+              "signature": 200219
             }
           ],
           "labels": [],
@@ -20674,7 +20775,6 @@ SUPPORT_CHARTS = {
                   "name": "REMOTE_CONTROL"
                 }
               },
-              "sig_name": "RealVNC Server",
               "methods": {
                 "manageability": {
                   "100": {
@@ -20788,7 +20888,8 @@ SUPPORT_CHARTS = {
                     "name": "TerminateProcesses"
                   }
                 }
-              }
+              },
+              "sig_name": "RealVNC Server"
             }
           }
         },
@@ -20796,12 +20897,12 @@ SUPPORT_CHARTS = {
           "id": 200203,
           "tested_points": [
             {
-              "signature": 200222,
-              "version": "15.54.3"
+              "version": "15.54.3",
+              "signature": 200222
             },
             {
-              "signature": 200222,
-              "version": "15.53.6"
+              "version": "15.53.6",
+              "signature": 200222
             }
           ],
           "labels": [],
@@ -20824,7 +20925,6 @@ SUPPORT_CHARTS = {
                   "name": "REMOTE_CONTROL"
                 }
               },
-              "sig_name": "TeamViewer Host",
               "methods": {
                 "manageability": {
                   "100": {
@@ -20938,7 +21038,8 @@ SUPPORT_CHARTS = {
                     "name": "TerminateProcesses"
                   }
                 }
-              }
+              },
+              "sig_name": "TeamViewer Host"
             }
           }
         },
@@ -20946,8 +21047,8 @@ SUPPORT_CHARTS = {
           "id": 200210,
           "tested_points": [
             {
-              "signature": 200229,
-              "version": "2024.2.3.1"
+              "version": "2024.2.3.1",
+              "signature": 200229
             }
           ],
           "labels": [],
@@ -20970,7 +21071,6 @@ SUPPORT_CHARTS = {
                   "name": "REMOTE_CONTROL"
                 }
               },
-              "sig_name": "Remote Desktop Manager",
               "methods": {
                 "manageability": {
                   "100": {
@@ -21093,7 +21193,8 @@ SUPPORT_CHARTS = {
                     "name": "GetInstallationDirectories"
                   }
                 }
-              }
+              },
+              "sig_name": "Remote Desktop Manager"
             }
           }
         }
@@ -21108,12 +21209,12 @@ SUPPORT_CHARTS = {
           "id": 200038,
           "tested_points": [
             {
-              "signature": 200039,
-              "version": "4.0"
+              "version": "4.0",
+              "signature": 200039
             },
             {
-              "signature": 200039,
-              "version": "5.0"
+              "version": "5.0",
+              "signature": 200039
             }
           ],
           "labels": [
@@ -21142,8 +21243,8 @@ SUPPORT_CHARTS = {
                   "name": "P2PA"
                 }
               },
-              "sig_name": "BitTorrent",
-              "methods": {}
+              "methods": {},
+              "sig_name": "BitTorrent"
             }
           }
         },
@@ -21151,8 +21252,8 @@ SUPPORT_CHARTS = {
           "id": 200122,
           "tested_points": [
             {
-              "signature": 200131,
-              "version": "2.94"
+              "version": "2.94",
+              "signature": 200131
             }
           ],
           "labels": [],
@@ -21179,7 +21280,6 @@ SUPPORT_CHARTS = {
                   "name": "P2PA"
                 }
               },
-              "sig_name": "Transmission",
               "methods": {
                 "manageability": {
                   "100": {
@@ -21237,7 +21337,8 @@ SUPPORT_CHARTS = {
                     "name": "GetVersion"
                   }
                 }
-              }
+              },
+              "sig_name": "Transmission"
             }
           }
         },
@@ -21245,16 +21346,16 @@ SUPPORT_CHARTS = {
           "id": 200136,
           "tested_points": [
             {
-              "signature": 200145,
-              "version": "0.6.5"
+              "version": "0.6.5",
+              "signature": 200145
             },
             {
-              "signature": 200145,
-              "version": "0.0"
+              "version": "0.0",
+              "signature": 200145
             },
             {
-              "signature": 200145,
-              "version": "0.6.9999"
+              "version": "0.6.9999",
+              "signature": 200145
             }
           ],
           "labels": [],
@@ -21281,7 +21382,6 @@ SUPPORT_CHARTS = {
                   "name": "P2PA"
                 }
               },
-              "sig_name": "Retroshare",
               "methods": {
                 "manageability": {
                   "100": {
@@ -21367,7 +21467,8 @@ SUPPORT_CHARTS = {
                     "name": "TerminateProcesses"
                   }
                 }
-              }
+              },
+              "sig_name": "Retroshare"
             }
           }
         },
@@ -21375,20 +21476,20 @@ SUPPORT_CHARTS = {
           "id": 200141,
           "tested_points": [
             {
-              "signature": 200150,
-              "version": "3.45.1"
+              "version": "3.45.1",
+              "signature": 200150
             },
             {
-              "signature": 200150,
-              "version": "3.15.0.2"
+              "version": "3.15.0.2",
+              "signature": 200150
             },
             {
-              "signature": 200150,
-              "version": "3.67.0"
+              "version": "3.67.0",
+              "signature": 200150
             },
             {
-              "signature": 200150,
-              "version": "3.69.5"
+              "version": "3.69.5",
+              "signature": 200150
             },
             {
               "methodsStatus": {
@@ -21398,16 +21499,16 @@ SUPPORT_CHARTS = {
                 "104": -1,
                 "105": -1
               },
-              "signature": 200150,
-              "version": "3.69.6"
+              "version": "3.69.6",
+              "signature": 200150
             },
             {
-              "signature": 200150,
-              "version": "3.70.5"
+              "version": "3.70.5",
+              "signature": 200150
             },
             {
-              "signature": 200150,
-              "version": "3.70.6"
+              "version": "3.70.6",
+              "signature": 200150
             }
           ],
           "labels": [],
@@ -21434,7 +21535,6 @@ SUPPORT_CHARTS = {
                   "name": "P2PA"
                 }
               },
-              "sig_name": "FileZilla",
               "methods": {
                 "manageability": {
                   "100": {
@@ -21490,9 +21590,75 @@ SUPPORT_CHARTS = {
                       "notes": ""
                     },
                     "name": "GetVersion"
+                  },
+                  "101": {
+                    "id": 101,
+                    "meta_data": {
+                      "param_support": {
+                        "input": {
+                          "instance_id": {
+                            "_supported": false,
+                            "_optional": true
+                          }
+                        },
+                        "output": {
+                          "running": {
+                            "_supported": true,
+                            "_optional": false
+                          }
+                        }
+                      },
+                      "admin_required": false,
+                      "notes": "I added the GetRunningState method to return the status for any path, not just /usr/bin"
+                    },
+                    "name": "GetRunningState"
+                  },
+                  "102": {
+                    "id": 102,
+                    "meta_data": {
+                      "param_support": {
+                        "input": {
+                          "instance_id": {
+                            "_supported": false,
+                            "_optional": true
+                          }
+                        },
+                        "output": []
+                      },
+                      "admin_required": false,
+                      "notes": ""
+                    },
+                    "name": "Run"
+                  },
+                  "104": {
+                    "id": 104,
+                    "meta_data": {
+                      "param_support": {
+                        "input": {
+                          "instance_id": {
+                            "_supported": false,
+                            "_optional": true
+                          }
+                        },
+                        "output": {
+                          "main": {
+                            "_supported": true,
+                            "_optional": false
+                          },
+                          "directories": {
+                            "_supported": true,
+                            "_optional": false
+                          }
+                        }
+                      },
+                      "admin_required": false,
+                      "notes": ""
+                    },
+                    "name": "GetInstallationDirectories"
                   }
                 }
-              }
+              },
+              "sig_name": "FileZilla"
             }
           }
         },
@@ -21500,20 +21666,20 @@ SUPPORT_CHARTS = {
           "id": 200145,
           "tested_points": [
             {
-              "signature": 200154,
-              "version": "1.3.15"
+              "version": "1.3.15",
+              "signature": 200154
             },
             {
-              "signature": 200154,
-              "version": "0.0"
+              "version": "0.0",
+              "signature": 200154
             },
             {
-              "signature": 200154,
-              "version": "2.0.3"
+              "version": "2.0.3",
+              "signature": 200154
             },
             {
-              "signature": 200154,
-              "version": "1.1.13.0"
+              "version": "1.1.13.0",
+              "signature": 200154
             }
           ],
           "labels": [
@@ -21542,7 +21708,6 @@ SUPPORT_CHARTS = {
                   "name": "P2PA"
                 }
               },
-              "sig_name": "Deluge",
               "methods": {
                 "manageability": {
                   "100": {
@@ -21628,7 +21793,8 @@ SUPPORT_CHARTS = {
                     "name": "TerminateProcesses"
                   }
                 }
-              }
+              },
+              "sig_name": "Deluge"
             }
           }
         },
@@ -21636,8 +21802,8 @@ SUPPORT_CHARTS = {
           "id": 200150,
           "tested_points": [
             {
-              "signature": 200160,
-              "version": "4.1.7"
+              "version": "4.1.7",
+              "signature": 200160
             }
           ],
           "labels": [
@@ -21666,8 +21832,8 @@ SUPPORT_CHARTS = {
                   "name": "P2PA"
                 }
               },
-              "sig_name": "qBittorrent",
-              "methods": {}
+              "methods": {},
+              "sig_name": "qBittorrent"
             }
           }
         },
@@ -21675,8 +21841,8 @@ SUPPORT_CHARTS = {
           "id": 200163,
           "tested_points": [
             {
-              "signature": 200172,
-              "version": "7.5.1"
+              "version": "7.5.1",
+              "signature": 200172
             }
           ],
           "labels": [],
@@ -21703,8 +21869,8 @@ SUPPORT_CHARTS = {
                   "name": "P2PA"
                 }
               },
-              "sig_name": "Tribler",
-              "methods": {}
+              "methods": {},
+              "sig_name": "Tribler"
             }
           }
         }
@@ -21719,8 +21885,8 @@ SUPPORT_CHARTS = {
           "id": 200029,
           "tested_points": [
             {
-              "signature": 200030,
-              "version": "3.0"
+              "version": "3.0",
+              "signature": 200030
             }
           ],
           "labels": [],
@@ -21747,8 +21913,8 @@ SUPPORT_CHARTS = {
                   "name": "MESSENGER"
                 }
               },
-              "sig_name": "Brosix",
-              "methods": {}
+              "methods": {},
+              "sig_name": "Brosix"
             }
           }
         },
@@ -21756,8 +21922,8 @@ SUPPORT_CHARTS = {
           "id": 200031,
           "tested_points": [
             {
-              "signature": 200032,
-              "version": "4.0"
+              "version": "4.0",
+              "signature": 200032
             }
           ],
           "labels": [],
@@ -21784,8 +21950,8 @@ SUPPORT_CHARTS = {
                   "name": "MESSENGER"
                 }
               },
-              "sig_name": "Skype",
-              "methods": {}
+              "methods": {},
+              "sig_name": "Skype"
             }
           }
         },
@@ -21793,8 +21959,8 @@ SUPPORT_CHARTS = {
           "id": 200035,
           "tested_points": [
             {
-              "signature": 200036,
-              "version": "2.0"
+              "version": "2.0",
+              "signature": 200036
             }
           ],
           "labels": [],
@@ -21821,8 +21987,8 @@ SUPPORT_CHARTS = {
                   "name": "MESSENGER"
                 }
               },
-              "sig_name": "emesene",
-              "methods": {}
+              "methods": {},
+              "sig_name": "emesene"
             }
           }
         },
@@ -21830,8 +21996,8 @@ SUPPORT_CHARTS = {
           "id": 200037,
           "tested_points": [
             {
-              "signature": 200038,
-              "version": "2.0"
+              "version": "2.0",
+              "signature": 200038
             }
           ],
           "labels": [],
@@ -21858,8 +22024,8 @@ SUPPORT_CHARTS = {
                   "name": "MESSENGER"
                 }
               },
-              "sig_name": "ISL Pronto",
-              "methods": {}
+              "methods": {},
+              "sig_name": "ISL Pronto"
             }
           }
         },
@@ -21867,52 +22033,56 @@ SUPPORT_CHARTS = {
           "id": 200070,
           "tested_points": [
             {
-              "signature": 200071,
-              "version": "5.9.6.2225"
+              "version": "5.9.6.2225",
+              "signature": 200071
             },
             {
-              "signature": 200071,
-              "version": "6.1.0.198"
+              "version": "6.1.0.198",
+              "signature": 200071
             },
             {
-              "signature": 200071,
-              "version": "6.2.0.1855"
+              "version": "6.2.0.1855",
+              "signature": 200071
             },
             {
-              "signature": 200071,
-              "version": "6.3.0.5527"
+              "version": "6.3.0.5527",
+              "signature": 200071
             },
             {
-              "signature": 200071,
-              "version": "6.4.0.471"
+              "version": "6.4.0.471",
+              "signature": 200071
             },
             {
-              "signature": 200071,
-              "version": "6.4.1.587"
+              "version": "6.4.1.587",
+              "signature": 200071
             },
             {
-              "signature": 200071,
-              "version": "6.5.0.2465"
+              "version": "6.5.0.2465",
+              "signature": 200071
             },
             {
-              "signature": 200071,
-              "version": "6.6.0.4410"
+              "version": "6.6.0.4410",
+              "signature": 200071
             },
             {
-              "signature": 200071,
-              "version": "6.6.11.6052"
+              "version": "6.6.11.6052",
+              "signature": 200071
             },
             {
-              "signature": 200071,
-              "version": "6.7.0.6313"
+              "version": "6.7.0.6313",
+              "signature": 200071
             },
             {
-              "signature": 200071,
-              "version": "6.7.2.6498"
+              "version": "6.7.2.6498",
+              "signature": 200071
             },
             {
-              "signature": 200071,
-              "version": "7.0.0.1666"
+              "version": "7.0.0.1666",
+              "signature": 200071
+            },
+            {
+              "version": "7.0.5.3034",
+              "signature": 200071
             }
           ],
           "labels": [
@@ -21941,7 +22111,6 @@ SUPPORT_CHARTS = {
                   "name": "WEB_CONFERENCE"
                 }
               },
-              "sig_name": "Zoom",
               "methods": {
                 "manageability": {
                   "100": {
@@ -22139,7 +22308,8 @@ SUPPORT_CHARTS = {
                     "name": "GetComponents"
                   }
                 }
-              }
+              },
+              "sig_name": "Zoom"
             }
           }
         },
@@ -22147,12 +22317,12 @@ SUPPORT_CHARTS = {
           "id": 200205,
           "tested_points": [
             {
-              "signature": 200224,
-              "version": "0.4.0"
+              "version": "0.4.0",
+              "signature": 200224
             },
             {
-              "signature": 200224,
-              "version": "0.3.1"
+              "version": "0.3.1",
+              "signature": 200224
             }
           ],
           "labels": [],
@@ -22179,7 +22349,6 @@ SUPPORT_CHARTS = {
                   "name": "MESSENGER"
                 }
               },
-              "sig_name": "RingCentral Embeddable",
               "methods": {
                 "manageability": {
                   "100": {
@@ -22302,7 +22471,8 @@ SUPPORT_CHARTS = {
                     "name": "GetInstallationDirectories"
                   }
                 }
-              }
+              },
+              "sig_name": "RingCentral Embeddable"
             }
           }
         }
@@ -22328,12 +22498,12 @@ SUPPORT_CHARTS = {
           "id": 200027,
           "tested_points": [
             {
-              "signature": 200028,
-              "version": "3.0"
+              "version": "3.0",
+              "signature": 200028
             },
             {
-              "signature": 200028,
-              "version": "5.3.1"
+              "version": "5.3.1",
+              "signature": 200028
             }
           ],
           "labels": [
@@ -22358,7 +22528,6 @@ SUPPORT_CHARTS = {
                   "name": "BACKUP"
                 }
               },
-              "sig_name": "CrashPlan",
               "methods": {
                 "manageability": {
                   "100": {
@@ -22408,7 +22577,8 @@ SUPPORT_CHARTS = {
                     "name": "TerminateProcesses"
                   }
                 }
-              }
+              },
+              "sig_name": "CrashPlan"
             }
           }
         },
@@ -22416,8 +22586,8 @@ SUPPORT_CHARTS = {
           "id": 200028,
           "tested_points": [
             {
-              "signature": 200029,
-              "version": "4.0"
+              "version": "4.0",
+              "signature": 200029
             }
           ],
           "labels": [
@@ -22442,8 +22612,8 @@ SUPPORT_CHARTS = {
                   "name": "BACKUP"
                 }
               },
-              "sig_name": "Tonido",
-              "methods": {}
+              "methods": {},
+              "sig_name": "Tonido"
             }
           }
         },
@@ -22451,12 +22621,12 @@ SUPPORT_CHARTS = {
           "id": 200198,
           "tested_points": [
             {
-              "signature": 200217,
-              "version": "3.4.2"
+              "version": "3.4.2",
+              "signature": 200217
             },
             {
-              "signature": 200217,
-              "version": "0.0"
+              "version": "0.0",
+              "signature": 200217
             }
           ],
           "labels": [],
@@ -22483,7 +22653,6 @@ SUPPORT_CHARTS = {
                   "name": "CLOUD_STORAGE"
                 }
               },
-              "sig_name": "Nextcloud Desktop Client",
               "methods": {
                 "manageability": {
                   "100": {
@@ -22612,7 +22781,8 @@ SUPPORT_CHARTS = {
                     "name": "GetBackupState"
                   }
                 }
-              }
+              },
+              "sig_name": "Nextcloud Desktop Client"
             }
           }
         }
@@ -22658,12 +22828,12 @@ SUPPORT_CHARTS = {
           "id": 200059,
           "tested_points": [
             {
-              "signature": 200060,
-              "version": "3.1.108"
+              "version": "3.1.108",
+              "signature": 200060
             },
             {
-              "signature": 200060,
-              "version": "4.0.79"
+              "version": "4.0.79",
+              "signature": 200060
             }
           ],
           "labels": [],
@@ -22686,7 +22856,6 @@ SUPPORT_CHARTS = {
                   "name": "ENCRYPTION"
                 }
               },
-              "sig_name": "YaST",
               "methods": {
                 "manageability": {
                   "100": {
@@ -22820,7 +22989,8 @@ SUPPORT_CHARTS = {
                     "name": "GetEncryptionState"
                   }
                 }
-              }
+              },
+              "sig_name": "YaST"
             }
           }
         },
@@ -22828,44 +22998,48 @@ SUPPORT_CHARTS = {
           "id": 200063,
           "tested_points": [
             {
-              "signature": 200064,
-              "version": "1.6.6"
+              "version": "1.6.6",
+              "signature": 200064
             },
             {
-              "signature": 200064,
-              "version": "2.0.2"
+              "version": "2.0.2",
+              "signature": 200064
             },
             {
-              "signature": 200064,
-              "version": "1.6.4"
+              "version": "1.6.4",
+              "signature": 200064
             },
             {
-              "signature": 200064,
-              "version": "1.7.4"
+              "version": "1.7.4",
+              "signature": 200064
             },
             {
-              "signature": 200064,
-              "version": "2.0.3"
+              "version": "2.0.3",
+              "signature": 200064
             },
             {
-              "signature": 200064,
-              "version": "2.2.2"
+              "version": "2.2.2",
+              "signature": 200064
             },
             {
-              "signature": 200064,
-              "version": "1.7.3"
+              "version": "1.7.3",
+              "signature": 200064
             },
             {
-              "signature": 200064,
-              "version": "2.4.2"
+              "version": "2.4.2",
+              "signature": 200064
             },
             {
-              "signature": 200064,
-              "version": "2.4.3"
+              "version": "2.4.3",
+              "signature": 200064
             },
             {
-              "signature": 200064,
-              "version": "2.8.4"
+              "version": "2.8.4",
+              "signature": 200064
+            },
+            {
+              "version": "2.8.1",
+              "signature": 200064
             }
           ],
           "labels": [],
@@ -22888,7 +23062,6 @@ SUPPORT_CHARTS = {
                   "name": "ENCRYPTION"
                 }
               },
-              "sig_name": "cryptsetup",
               "methods": {
                 "constant": {
                   "102": {
@@ -23039,7 +23212,8 @@ SUPPORT_CHARTS = {
                     "name": "TerminateProcesses"
                   }
                 }
-              }
+              },
+              "sig_name": "cryptsetup"
             }
           }
         },
@@ -23047,12 +23221,12 @@ SUPPORT_CHARTS = {
           "id": 200066,
           "tested_points": [
             {
-              "signature": 200067,
-              "version": "1.9.5"
+              "version": "1.9.5",
+              "signature": 200067
             },
             {
-              "signature": 200067,
-              "version": "1.9.2"
+              "version": "1.9.2",
+              "signature": 200067
             }
           ],
           "labels": [],
@@ -23075,8 +23249,8 @@ SUPPORT_CHARTS = {
                   "name": "ENCRYPTION"
                 }
               },
-              "sig_name": "EncFS",
-              "methods": {}
+              "methods": {},
+              "sig_name": "EncFS"
             }
           }
         },
@@ -23084,8 +23258,8 @@ SUPPORT_CHARTS = {
           "id": 200161,
           "tested_points": [
             {
-              "signature": 200170,
-              "version": "0.0"
+              "version": "0.0",
+              "signature": 200170
             }
           ],
           "labels": [],
@@ -23108,7 +23282,6 @@ SUPPORT_CHARTS = {
                   "name": "ENCRYPTION"
                 }
               },
-              "sig_name": "AES Crypt",
               "methods": {
                 "manageability": {
                   "100": {
@@ -23153,7 +23326,8 @@ SUPPORT_CHARTS = {
                     "name": "GetVersion"
                   }
                 }
-              }
+              },
+              "sig_name": "AES Crypt"
             }
           }
         },
@@ -23161,20 +23335,20 @@ SUPPORT_CHARTS = {
           "id": 200170,
           "tested_points": [
             {
-              "signature": 200186,
-              "version": "1.0.7"
+              "version": "1.0.7",
+              "signature": 200186
             },
             {
-              "signature": 200186,
-              "version": "1.6.0"
+              "version": "1.6.0",
+              "signature": 200186
             },
             {
-              "signature": 200186,
-              "version": "1.8.1"
+              "version": "1.8.1",
+              "signature": 200186
             },
             {
-              "signature": 200186,
-              "version": "2511.3.1.0"
+              "version": "2511.3.1.0",
+              "signature": 200186
             }
           ],
           "labels": [],
@@ -23201,7 +23375,6 @@ SUPPORT_CHARTS = {
                   "name": "ENCRYPTION"
                 }
               },
-              "sig_name": "Endpoint Protector Client",
               "methods": {
                 "manageability": {
                   "101": {
@@ -23261,7 +23434,8 @@ SUPPORT_CHARTS = {
                     "name": "TerminateProcesses"
                   }
                 }
-              }
+              },
+              "sig_name": "Endpoint Protector Client"
             }
           }
         }
@@ -23285,196 +23459,196 @@ SUPPORT_CHARTS = {
           "id": 200001,
           "tested_points": [
             {
-              "signature": 200002,
-              "version": "33.0"
+              "version": "33.0",
+              "signature": 200002
             },
             {
-              "signature": 200002,
-              "version": "34.0"
+              "version": "34.0",
+              "signature": 200002
             },
             {
-              "signature": 200002,
-              "version": "35.0"
+              "version": "35.0",
+              "signature": 200002
             },
             {
-              "signature": 200002,
-              "version": "36.0"
+              "version": "36.0",
+              "signature": 200002
             },
             {
-              "signature": 200002,
-              "version": "37.0"
+              "version": "37.0",
+              "signature": 200002
             },
             {
-              "signature": 200002,
-              "version": "38.0"
+              "version": "38.0",
+              "signature": 200002
             },
             {
-              "signature": 200002,
-              "version": "39.0"
+              "version": "39.0",
+              "signature": 200002
             },
             {
-              "signature": 200002,
-              "version": "40.0"
+              "version": "40.0",
+              "signature": 200002
             },
             {
-              "signature": 200002,
-              "version": "41.0"
+              "version": "41.0",
+              "signature": 200002
             },
             {
-              "signature": 200002,
-              "version": "100.0.4896.75"
+              "version": "100.0.4896.75",
+              "signature": 200002
             },
             {
-              "signature": 200002,
-              "version": "110.0.5481.177"
+              "version": "110.0.5481.177",
+              "signature": 200002
             },
             {
-              "signature": 200002,
-              "version": "111.0.5563.64"
+              "version": "111.0.5563.64",
+              "signature": 200002
             },
             {
-              "signature": 200002,
-              "version": "123.0.6312.58"
+              "version": "123.0.6312.58",
+              "signature": 200002
             },
             {
-              "signature": 200002,
-              "version": "124.0.6367.155"
+              "version": "124.0.6367.155",
+              "signature": 200002
             },
             {
-              "signature": 200002,
-              "version": "125.0.6422.60"
+              "version": "125.0.6422.60",
+              "signature": 200002
             },
             {
-              "signature": 200002,
-              "version": "125.0.6422.112"
+              "version": "125.0.6422.112",
+              "signature": 200002
             },
             {
-              "signature": 200002,
-              "version": "126.0.6478.55"
+              "version": "126.0.6478.55",
+              "signature": 200002
             },
             {
-              "signature": 200002,
-              "version": "126.0.6478.182"
+              "version": "126.0.6478.182",
+              "signature": 200002
             },
             {
-              "signature": 200002,
-              "version": "127.0.6533.72"
+              "version": "127.0.6533.72",
+              "signature": 200002
             },
             {
-              "signature": 200002,
-              "version": "128.0.6613.84"
+              "version": "128.0.6613.84",
+              "signature": 200002
             },
             {
-              "signature": 200002,
-              "version": "129.0.6668.58"
+              "version": "129.0.6668.58",
+              "signature": 200002
             },
             {
-              "signature": 200002,
-              "version": "130.0.6723.58"
+              "version": "130.0.6723.58",
+              "signature": 200002
             },
             {
-              "signature": 200002,
-              "version": "131.0.6778.69"
+              "version": "131.0.6778.69",
+              "signature": 200002
             },
             {
-              "signature": 200002,
-              "version": "132.0.6834.83"
+              "version": "132.0.6834.83",
+              "signature": 200002
             },
             {
-              "signature": 200002,
-              "version": "133.0.6943.53"
+              "version": "133.0.6943.53",
+              "signature": 200002
             },
             {
-              "signature": 200002,
-              "version": "134.0.6998.35"
+              "version": "134.0.6998.35",
+              "signature": 200002
             },
             {
-              "signature": 200002,
-              "version": "135.0.7049.52"
+              "version": "135.0.7049.52",
+              "signature": 200002
             },
             {
-              "signature": 200002,
-              "version": "136.0.7103.59"
+              "version": "136.0.7103.59",
+              "signature": 200002
             },
             {
-              "signature": 200002,
-              "version": "136.0.7103.113"
+              "version": "136.0.7103.113",
+              "signature": 200002
             },
             {
-              "signature": 200002,
-              "version": "137.0.7151.55"
+              "version": "137.0.7151.55",
+              "signature": 200002
             },
             {
-              "signature": 200002,
-              "version": "138.0.7204.49"
+              "version": "138.0.7204.49",
+              "signature": 200002
             },
             {
-              "signature": 200002,
-              "version": "139.0.7258.66"
+              "version": "139.0.7258.66",
+              "signature": 200002
             },
             {
-              "signature": 200002,
-              "version": "140.0.7339.80"
+              "version": "140.0.7339.80",
+              "signature": 200002
             },
             {
-              "signature": 200002,
-              "version": "141.0.7390.54"
+              "version": "141.0.7390.54",
+              "signature": 200002
             },
             {
-              "signature": 200002,
-              "version": "142.0.7444.59"
+              "version": "142.0.7444.59",
+              "signature": 200002
             },
             {
-              "signature": 200002,
-              "version": "143.0.7499.169"
+              "version": "143.0.7499.169",
+              "signature": 200002
             },
             {
-              "signature": 200002,
-              "version": "143.0.7499.192"
+              "version": "143.0.7499.192",
+              "signature": 200002
             },
             {
-              "signature": 200002,
-              "version": "144.0.7559.59"
+              "version": "144.0.7559.59",
+              "signature": 200002
             },
             {
-              "signature": 200002,
-              "version": "144.0.7559.96"
+              "version": "144.0.7559.96",
+              "signature": 200002
             },
             {
-              "signature": 200002,
-              "version": "144.0.7559.109"
+              "version": "144.0.7559.109",
+              "signature": 200002
             },
             {
-              "signature": 200002,
-              "version": "145.0.7632.45"
+              "version": "145.0.7632.45",
+              "signature": 200002
             },
             {
-              "signature": 200002,
-              "version": "145.0.7632.67"
+              "version": "145.0.7632.67",
+              "signature": 200002
             },
             {
-              "signature": 200002,
-              "version": "146.0.7680.164"
+              "version": "146.0.7680.164",
+              "signature": 200002
             },
             {
-              "signature": 200002,
-              "version": "145.0.7632.116"
+              "version": "145.0.7632.116",
+              "signature": 200002
             },
             {
-              "signature": 200002,
-              "version": "147.0.7727.55"
+              "version": "147.0.7727.55",
+              "signature": 200002
             },
             {
-              "signature": 200002,
-              "version": "147.0.7727.101"
+              "version": "147.0.7727.101",
+              "signature": 200002
             },
             {
-              "signature": 200002,
-              "version": "148.0.7778.96"
+              "version": "148.0.7778.96",
+              "signature": 200002
             },
             {
-              "signature": 200002,
-              "version": "149.0.7827.53"
+              "version": "149.0.7827.53",
+              "signature": 200002
             }
           ],
           "labels": [],
@@ -23501,7 +23675,6 @@ SUPPORT_CHARTS = {
                   "name": "BROWSER"
                 }
               },
-              "sig_name": "Google Chrome",
               "methods": {
                 "manageability": {
                   "100": {
@@ -23605,7 +23778,8 @@ SUPPORT_CHARTS = {
                     "name": "Run"
                   }
                 }
-              }
+              },
+              "sig_name": "Google Chrome"
             }
           }
         },
@@ -23613,348 +23787,352 @@ SUPPORT_CHARTS = {
           "id": 200002,
           "tested_points": [
             {
-              "signature": 200003,
-              "version": "1.5.0"
+              "version": "1.5.0",
+              "signature": 200003
             },
             {
-              "signature": 200003,
-              "version": "2.0"
+              "version": "2.0",
+              "signature": 200003
             },
             {
-              "signature": 200003,
-              "version": "3.0"
+              "version": "3.0",
+              "signature": 200003
             },
             {
-              "signature": 200003,
-              "version": "32.0"
+              "version": "32.0",
+              "signature": 200003
             },
             {
-              "signature": 200003,
-              "version": "34.0"
+              "version": "34.0",
+              "signature": 200003
             },
             {
-              "signature": 200003,
-              "version": "35.0"
+              "version": "35.0",
+              "signature": 200003
             },
             {
-              "signature": 200003,
-              "version": "4.0"
+              "version": "4.0",
+              "signature": 200003
             },
             {
-              "signature": 200003,
-              "version": "38.0.5"
+              "version": "38.0.5",
+              "signature": 200003
             },
             {
-              "signature": 200003,
-              "version": "28.0"
+              "version": "28.0",
+              "signature": 200003
             },
             {
-              "signature": 200003,
-              "version": "52.2.0"
+              "version": "52.2.0",
+              "signature": 200003
             },
             {
-              "signature": 200003,
-              "version": "60.0"
+              "version": "60.0",
+              "signature": 200003
             },
             {
-              "signature": 200003,
-              "version": "73.0"
+              "version": "73.0",
+              "signature": 200003
             },
             {
-              "signature": 200003,
-              "version": "110.0.1"
+              "version": "110.0.1",
+              "signature": 200003
             },
             {
-              "signature": 200003,
-              "version": "111.0.1"
+              "version": "111.0.1",
+              "signature": 200003
             },
             {
-              "signature": 200003,
-              "version": "113.0"
+              "version": "113.0",
+              "signature": 200003
             },
             {
-              "signature": 200003,
-              "version": "112.0"
+              "version": "112.0",
+              "signature": 200003
             },
             {
-              "signature": 200003,
-              "version": "102.10.0"
+              "version": "102.10.0",
+              "signature": 200003
             },
             {
-              "signature": 200003,
-              "version": "113.0.1"
+              "version": "113.0.1",
+              "signature": 200003
             },
             {
-              "signature": 200003,
-              "version": "116.0"
+              "version": "116.0",
+              "signature": 200003
             },
             {
-              "signature": 200003,
-              "version": "117.0"
+              "version": "117.0",
+              "signature": 200003
             },
             {
-              "signature": 200003,
-              "version": "79.0"
+              "version": "79.0",
+              "signature": 200003
             },
             {
-              "signature": 200003,
-              "version": "124.0.2"
+              "version": "124.0.2",
+              "signature": 200003
             },
             {
-              "signature": 200003,
-              "version": "125.0"
+              "version": "125.0",
+              "signature": 200003
             },
             {
-              "signature": 200003,
-              "version": "125.0.3"
+              "version": "125.0.3",
+              "signature": 200003
             },
             {
-              "signature": 200003,
-              "version": "126.0"
+              "version": "126.0",
+              "signature": 200003
             },
             {
-              "signature": 200003,
-              "version": "126.0.1"
+              "version": "126.0.1",
+              "signature": 200003
             },
             {
-              "signature": 200003,
-              "version": "127.0"
+              "version": "127.0",
+              "signature": 200003
             },
             {
-              "signature": 200003,
-              "version": "127.0.1"
+              "version": "127.0.1",
+              "signature": 200003
             },
             {
-              "signature": 200003,
-              "version": "127.0.2"
+              "version": "127.0.2",
+              "signature": 200003
             },
             {
-              "signature": 200003,
-              "version": "128.0"
+              "version": "128.0",
+              "signature": 200003
             },
             {
-              "signature": 200003,
-              "version": "128.0.3"
+              "version": "128.0.3",
+              "signature": 200003
             },
             {
-              "signature": 200003,
-              "version": "129.0.1"
+              "version": "129.0.1",
+              "signature": 200003
             },
             {
-              "signature": 200003,
-              "version": "129.0.2"
+              "version": "129.0.2",
+              "signature": 200003
             },
             {
-              "signature": 200003,
-              "version": "130.0"
+              "version": "130.0",
+              "signature": 200003
             },
             {
-              "signature": 200003,
-              "version": "130.0.1"
+              "version": "130.0.1",
+              "signature": 200003
             },
             {
-              "signature": 200003,
-              "version": "131.0"
+              "version": "131.0",
+              "signature": 200003
             },
             {
-              "signature": 200003,
-              "version": "131.0.2"
+              "version": "131.0.2",
+              "signature": 200003
             },
             {
-              "signature": 200003,
-              "version": "131.0.3"
+              "version": "131.0.3",
+              "signature": 200003
             },
             {
-              "signature": 200003,
-              "version": "132.0"
+              "version": "132.0",
+              "signature": 200003
             },
             {
-              "signature": 200003,
-              "version": "132.0.1"
+              "version": "132.0.1",
+              "signature": 200003
             },
             {
-              "signature": 200003,
-              "version": "132.0.2"
+              "version": "132.0.2",
+              "signature": 200003
             },
             {
-              "signature": 200003,
-              "version": "133.0"
+              "version": "133.0",
+              "signature": 200003
             },
             {
-              "signature": 200003,
-              "version": "133.0.3"
+              "version": "133.0.3",
+              "signature": 200003
             },
             {
-              "signature": 200003,
-              "version": "134.0"
+              "version": "134.0",
+              "signature": 200003
             },
             {
-              "signature": 200003,
-              "version": "134.0.1"
+              "version": "134.0.1",
+              "signature": 200003
             },
             {
-              "signature": 200003,
-              "version": "134.0.2"
+              "version": "134.0.2",
+              "signature": 200003
             },
             {
-              "signature": 200003,
-              "version": "135.0"
+              "version": "135.0",
+              "signature": 200003
             },
             {
-              "signature": 200003,
-              "version": "135.0.1"
+              "version": "135.0.1",
+              "signature": 200003
             },
             {
-              "signature": 200003,
-              "version": "136.0"
+              "version": "136.0",
+              "signature": 200003
             },
             {
-              "signature": 200003,
-              "version": "136.0.1"
+              "version": "136.0.1",
+              "signature": 200003
             },
             {
-              "signature": 200003,
-              "version": "136.0.2"
+              "version": "136.0.2",
+              "signature": 200003
             },
             {
-              "signature": 200003,
-              "version": "136.0.3"
+              "version": "136.0.3",
+              "signature": 200003
             },
             {
-              "signature": 200003,
-              "version": "136.0.4"
+              "version": "136.0.4",
+              "signature": 200003
             },
             {
-              "signature": 200003,
-              "version": "137.0"
+              "version": "137.0",
+              "signature": 200003
             },
             {
-              "signature": 200003,
-              "version": "137.0.1"
+              "version": "137.0.1",
+              "signature": 200003
             },
             {
-              "signature": 200003,
-              "version": "137.0.2"
+              "version": "137.0.2",
+              "signature": 200003
             },
             {
-              "signature": 200003,
-              "version": "138.0"
+              "version": "138.0",
+              "signature": 200003
             },
             {
-              "signature": 200003,
-              "version": "138.0.1"
+              "version": "138.0.1",
+              "signature": 200003
             },
             {
-              "signature": 200003,
-              "version": "138.0.3"
+              "version": "138.0.3",
+              "signature": 200003
             },
             {
-              "signature": 200003,
-              "version": "138.0.4"
+              "version": "138.0.4",
+              "signature": 200003
             },
             {
-              "signature": 200003,
-              "version": "139.0"
+              "version": "139.0",
+              "signature": 200003
             },
             {
-              "signature": 200003,
-              "version": "140.0"
+              "version": "140.0",
+              "signature": 200003
             },
             {
-              "signature": 200003,
-              "version": "141.0"
+              "version": "141.0",
+              "signature": 200003
             },
             {
-              "signature": 200003,
-              "version": "141.0.2"
+              "version": "141.0.2",
+              "signature": 200003
             },
             {
-              "signature": 200003,
-              "version": "142.0"
+              "version": "142.0",
+              "signature": 200003
             },
             {
-              "signature": 200003,
-              "version": "143.0"
+              "version": "143.0",
+              "signature": 200003
             },
             {
-              "signature": 200003,
-              "version": "143.0.1"
+              "version": "143.0.1",
+              "signature": 200003
             },
             {
-              "signature": 200003,
-              "version": "143.0.3"
+              "version": "143.0.3",
+              "signature": 200003
             },
             {
-              "signature": 200003,
-              "version": "144.0"
+              "version": "144.0",
+              "signature": 200003
             },
             {
-              "signature": 200003,
-              "version": "144.0.2"
+              "version": "144.0.2",
+              "signature": 200003
             },
             {
-              "signature": 200003,
-              "version": "145.0"
+              "version": "145.0",
+              "signature": 200003
             },
             {
-              "signature": 200003,
-              "version": "145.0.1"
+              "version": "145.0.1",
+              "signature": 200003
             },
             {
-              "signature": 200003,
-              "version": "145.0.2"
+              "version": "145.0.2",
+              "signature": 200003
             },
             {
-              "signature": 200003,
-              "version": "146.0"
+              "version": "146.0",
+              "signature": 200003
             },
             {
-              "signature": 200003,
-              "version": "147.0.1"
+              "version": "147.0.1",
+              "signature": 200003
             },
             {
-              "signature": 200003,
-              "version": "147.0.2"
+              "version": "147.0.2",
+              "signature": 200003
             },
             {
-              "signature": 200003,
-              "version": "147.0.3"
+              "version": "147.0.3",
+              "signature": 200003
             },
             {
-              "signature": 200003,
-              "version": "149.0"
+              "version": "149.0",
+              "signature": 200003
             },
             {
-              "signature": 200003,
-              "version": "150.0"
+              "version": "150.0",
+              "signature": 200003
             },
             {
-              "signature": 200003,
-              "version": "149.0.2"
+              "version": "149.0.2",
+              "signature": 200003
             },
             {
-              "signature": 200003,
-              "version": "150.0.2"
+              "version": "150.0.2",
+              "signature": 200003
             },
             {
-              "signature": 200003,
-              "version": "150.0.3"
+              "version": "150.0.3",
+              "signature": 200003
             },
             {
-              "signature": 200003,
-              "version": "151.0.0"
+              "version": "151.0.0",
+              "signature": 200003
             },
             {
-              "signature": 200003,
-              "version": "151.0.1"
+              "version": "151.0.1",
+              "signature": 200003
             },
             {
-              "signature": 200003,
-              "version": "151.0.2"
+              "version": "151.0.2",
+              "signature": 200003
             },
             {
-              "signature": 200003,
-              "version": "151.0.3"
+              "version": "151.0.3",
+              "signature": 200003
+            },
+            {
+              "version": "151.0.4",
+              "signature": 200003
             }
           ],
           "labels": [],
@@ -23981,7 +24159,6 @@ SUPPORT_CHARTS = {
                   "name": "BROWSER"
                 }
               },
-              "sig_name": "Mozilla Firefox",
               "methods": {
                 "manageability": {
                   "100": {
@@ -24155,7 +24332,8 @@ SUPPORT_CHARTS = {
                     "name": "GetInstallationDirectories"
                   }
                 }
-              }
+              },
+              "sig_name": "Mozilla Firefox"
             }
           }
         },
@@ -24163,16 +24341,16 @@ SUPPORT_CHARTS = {
           "id": 200072,
           "tested_points": [
             {
-              "signature": 200073,
-              "version": "11.0.0"
+              "version": "11.0.0",
+              "signature": 200073
             },
             {
-              "signature": 200073,
-              "version": "12.0.0"
+              "version": "12.0.0",
+              "signature": 200073
             },
             {
-              "signature": 200073,
-              "version": "20.0.0"
+              "version": "20.0.0",
+              "signature": 200073
             }
           ],
           "labels": [],
@@ -24203,7 +24381,6 @@ SUPPORT_CHARTS = {
                   "name": "FIREWALL"
                 }
               },
-              "sig_name": "Trend Micro Deep Security Agent",
               "methods": {
                 "manageability": {
                   "100": {
@@ -24491,7 +24668,8 @@ SUPPORT_CHARTS = {
                     "name": "Scan"
                   }
                 }
-              }
+              },
+              "sig_name": "Trend Micro Deep Security Agent"
             }
           }
         },
@@ -24499,80 +24677,84 @@ SUPPORT_CHARTS = {
           "id": 200137,
           "tested_points": [
             {
-              "signature": 200146,
-              "version": "68.9.0"
+              "version": "68.9.0",
+              "signature": 200146
             },
             {
-              "signature": 200146,
-              "version": "115.14.0"
+              "version": "115.14.0",
+              "signature": 200146
             },
             {
-              "signature": 200146,
-              "version": "128.1.0"
+              "version": "128.1.0",
+              "signature": 200146
             },
             {
-              "signature": 200146,
-              "version": "115.15.0"
+              "version": "115.15.0",
+              "signature": 200146
             },
             {
-              "signature": 200146,
-              "version": "128.2.0"
+              "version": "128.2.0",
+              "signature": 200146
             },
             {
-              "signature": 200146,
-              "version": "102.3.0"
+              "version": "102.3.0",
+              "signature": 200146
             },
             {
-              "signature": 200146,
-              "version": "128.3.0"
+              "version": "128.3.0",
+              "signature": 200146
             },
             {
-              "signature": 200146,
-              "version": "128.3.1"
+              "version": "128.3.1",
+              "signature": 200146
             },
             {
-              "signature": 200146,
-              "version": "128.4.0"
+              "version": "128.4.0",
+              "signature": 200146
             },
             {
-              "signature": 200146,
-              "version": "128.5.0"
+              "version": "128.5.0",
+              "signature": 200146
             },
             {
-              "signature": 200146,
-              "version": "128.5.1"
+              "version": "128.5.1",
+              "signature": 200146
             },
             {
-              "signature": 200146,
-              "version": "128.6.0"
+              "version": "128.6.0",
+              "signature": 200146
             },
             {
-              "signature": 200146,
-              "version": "128.7.0"
+              "version": "128.7.0",
+              "signature": 200146
             },
             {
-              "signature": 200146,
-              "version": "128.8.0"
+              "version": "128.8.0",
+              "signature": 200146
             },
             {
-              "signature": 200146,
-              "version": "128.8.1"
+              "version": "128.8.1",
+              "signature": 200146
             },
             {
-              "signature": 200146,
-              "version": "128.9.0"
+              "version": "128.9.0",
+              "signature": 200146
             },
             {
-              "signature": 200146,
-              "version": "128.10.0"
+              "version": "128.10.0",
+              "signature": 200146
             },
             {
-              "signature": 200146,
-              "version": "140.3.0"
+              "version": "140.3.0",
+              "signature": 200146
             },
             {
-              "signature": 200146,
-              "version": "128.14.0"
+              "version": "128.14.0",
+              "signature": 200146
+            },
+            {
+              "version": "140.11.0",
+              "signature": 200146
             }
           ],
           "labels": [],
@@ -24599,7 +24781,6 @@ SUPPORT_CHARTS = {
                   "name": "BROWSER"
                 }
               },
-              "sig_name": "Mozilla Firefox ESR",
               "methods": {
                 "manageability": {
                   "100": {
@@ -24881,7 +25062,8 @@ SUPPORT_CHARTS = {
                     "name": "GetPlugins"
                   }
                 }
-              }
+              },
+              "sig_name": "Mozilla Firefox ESR"
             }
           }
         },
@@ -24889,8 +25071,8 @@ SUPPORT_CHARTS = {
           "id": 200225,
           "tested_points": [
             {
-              "signature": 200244,
-              "version": "2.108.0"
+              "version": "2.108.0",
+              "signature": 200244
             }
           ],
           "labels": [],
@@ -24913,7 +25095,6 @@ SUPPORT_CHARTS = {
                   "name": "ANTIPHISHING"
                 }
               },
-              "sig_name": "Beyond Identity",
               "methods": {
                 "manageability": {
                   "101": {
@@ -24956,7 +25137,8 @@ SUPPORT_CHARTS = {
                     "name": "TerminateProcesses"
                   }
                 }
-              }
+              },
+              "sig_name": "Beyond Identity"
             }
           }
         }
@@ -25028,8 +25210,8 @@ SUPPORT_CHARTS = {
           "id": 200004,
           "tested_points": [
             {
-              "signature": 200005,
-              "version": "4.0"
+              "version": "4.0",
+              "signature": 200005
             }
           ],
           "labels": [],
@@ -25052,7 +25234,6 @@ SUPPORT_CHARTS = {
                   "name": "ANTIMALWARE"
                 }
               },
-              "sig_name": "ESET NOD32 Antivirus",
               "methods": {
                 "manageability": {
                   "100": {
@@ -25212,7 +25393,8 @@ SUPPORT_CHARTS = {
                     "name": "Scan"
                   }
                 }
-              }
+              },
+              "sig_name": "ESET NOD32 Antivirus"
             }
           }
         },
@@ -25220,8 +25402,8 @@ SUPPORT_CHARTS = {
           "id": 200005,
           "tested_points": [
             {
-              "signature": 200006,
-              "version": "1.0"
+              "version": "1.0",
+              "signature": 200006
             }
           ],
           "labels": [],
@@ -25244,7 +25426,6 @@ SUPPORT_CHARTS = {
                   "name": "ANTIMALWARE"
                 }
               },
-              "sig_name": "avast! Antivirus",
               "methods": {
                 "manageability": {
                   "100": {
@@ -25354,7 +25535,8 @@ SUPPORT_CHARTS = {
                     "name": "GetDefinitionState"
                   }
                 }
-              }
+              },
+              "sig_name": "avast! Antivirus"
             }
           }
         },
@@ -25362,16 +25544,16 @@ SUPPORT_CHARTS = {
           "id": 200006,
           "tested_points": [
             {
-              "signature": 200007,
-              "version": "13.0"
+              "version": "13.0",
+              "signature": 200007
             },
             {
-              "signature": 200007,
-              "version": "2013.3118"
+              "version": "2013.3118",
+              "signature": 200007
             },
             {
-              "signature": 200007,
-              "version": "13.0.3118"
+              "version": "13.0.3118",
+              "signature": 200007
             }
           ],
           "labels": [],
@@ -25394,7 +25576,6 @@ SUPPORT_CHARTS = {
                   "name": "ANTIMALWARE"
                 }
               },
-              "sig_name": "AVG Anti-Virus",
               "methods": {
                 "manageability": {
                   "100": {
@@ -25627,7 +25808,8 @@ SUPPORT_CHARTS = {
                     "name": "GetInstallationDirectories"
                   }
                 }
-              }
+              },
+              "sig_name": "AVG Anti-Virus"
             }
           }
         },
@@ -25635,12 +25817,12 @@ SUPPORT_CHARTS = {
           "id": 200007,
           "tested_points": [
             {
-              "signature": 200008,
-              "version": "2.0"
+              "version": "2.0",
+              "signature": 200008
             },
             {
-              "signature": 200008,
-              "version": "3.0"
+              "version": "3.0",
+              "signature": 200008
             }
           ],
           "labels": [],
@@ -25663,7 +25845,6 @@ SUPPORT_CHARTS = {
                   "name": "ANTIMALWARE"
                 }
               },
-              "sig_name": "Avira AntiVir PersonalEdition Classic",
               "methods": {
                 "manageability": {
                   "100": {
@@ -25831,7 +26012,8 @@ SUPPORT_CHARTS = {
                     "name": "Scan"
                   }
                 }
-              }
+              },
+              "sig_name": "Avira AntiVir PersonalEdition Classic"
             }
           }
         },
@@ -25839,8 +26021,8 @@ SUPPORT_CHARTS = {
           "id": 200008,
           "tested_points": [
             {
-              "signature": 200009,
-              "version": "1.0"
+              "version": "1.0",
+              "signature": 200009
             }
           ],
           "labels": [],
@@ -25863,8 +26045,8 @@ SUPPORT_CHARTS = {
                   "name": "ANTIMALWARE"
                 }
               },
-              "sig_name": "Bytware Anti-Virus",
-              "methods": {}
+              "methods": {},
+              "sig_name": "Bytware Anti-Virus"
             }
           }
         },
@@ -25872,16 +26054,16 @@ SUPPORT_CHARTS = {
           "id": 200009,
           "tested_points": [
             {
-              "signature": 200010,
-              "version": "0.99.2"
+              "version": "0.99.2",
+              "signature": 200010
             },
             {
-              "signature": 200010,
-              "version": "0.104.2"
+              "version": "0.104.2",
+              "signature": 200010
             },
             {
-              "signature": 200010,
-              "version": "0.0"
+              "version": "0.0",
+              "signature": 200010
             }
           ],
           "labels": [],
@@ -25904,7 +26086,6 @@ SUPPORT_CHARTS = {
                   "name": "ANTIMALWARE"
                 }
               },
-              "sig_name": "Clamav",
               "methods": {
                 "manageability": {
                   "100": {
@@ -26154,7 +26335,8 @@ SUPPORT_CHARTS = {
                     "name": "GetRunningState"
                   }
                 }
-              }
+              },
+              "sig_name": "Clamav"
             }
           }
         },
@@ -26162,12 +26344,12 @@ SUPPORT_CHARTS = {
           "id": 200010,
           "tested_points": [
             {
-              "signature": 200011,
-              "version": "6.0"
+              "version": "6.0",
+              "signature": 200011
             },
             {
-              "signature": 200011,
-              "version": "11.1"
+              "version": "11.1",
+              "signature": 200011
             }
           ],
           "labels": [],
@@ -26190,7 +26372,6 @@ SUPPORT_CHARTS = {
                   "name": "ANTIMALWARE"
                 }
               },
-              "sig_name": "Dr.Web for Linux",
               "methods": {
                 "manageability": {
                   "100": {
@@ -26354,7 +26535,8 @@ SUPPORT_CHARTS = {
                     "name": "TerminateProcesses"
                   }
                 }
-              }
+              },
+              "sig_name": "Dr.Web for Linux"
             }
           }
         },
@@ -26362,20 +26544,20 @@ SUPPORT_CHARTS = {
           "id": 200011,
           "tested_points": [
             {
-              "signature": 200012,
-              "version": "4.5.0"
+              "version": "4.5.0",
+              "signature": 200012
             },
             {
-              "signature": 200012,
-              "version": "4.65.0"
+              "version": "4.65.0",
+              "signature": 200012
             },
             {
-              "signature": 200012,
-              "version": "5.0"
+              "version": "5.0",
+              "signature": 200012
             },
             {
-              "signature": 200012,
-              "version": "7.0"
+              "version": "7.0",
+              "signature": 200012
             }
           ],
           "labels": [],
@@ -26398,8 +26580,8 @@ SUPPORT_CHARTS = {
                   "name": "ANTIMALWARE"
                 }
               },
-              "sig_name": "F-Secure Anti-Virus",
-              "methods": {}
+              "methods": {},
+              "sig_name": "F-Secure Anti-Virus"
             }
           }
         },
@@ -26407,12 +26589,12 @@ SUPPORT_CHARTS = {
           "id": 200012,
           "tested_points": [
             {
-              "signature": 200013,
-              "version": "4.0"
+              "version": "4.0",
+              "signature": 200013
             },
             {
-              "signature": 200013,
-              "version": "6.0"
+              "version": "6.0",
+              "signature": 200013
             }
           ],
           "labels": [],
@@ -26435,7 +26617,6 @@ SUPPORT_CHARTS = {
                   "name": "ANTIMALWARE"
                 }
               },
-              "sig_name": "F-Prot Antivirus",
               "methods": {
                 "manageability": {
                   "1006": {
@@ -26493,7 +26674,8 @@ SUPPORT_CHARTS = {
                     "name": "Scan"
                   }
                 }
-              }
+              },
+              "sig_name": "F-Prot Antivirus"
             }
           }
         },
@@ -26501,12 +26683,12 @@ SUPPORT_CHARTS = {
           "id": 200013,
           "tested_points": [
             {
-              "signature": 200014,
-              "version": "7.0"
+              "version": "7.0",
+              "signature": 200014
             },
             {
-              "signature": 200014,
-              "version": "8.0"
+              "version": "8.0",
+              "signature": 200014
             }
           ],
           "labels": [],
@@ -26529,8 +26711,8 @@ SUPPORT_CHARTS = {
                   "name": "ANTIMALWARE"
                 }
               },
-              "sig_name": "AVG Anti-Virus",
-              "methods": {}
+              "methods": {},
+              "sig_name": "AVG Anti-Virus"
             }
           }
         },
@@ -26538,12 +26720,12 @@ SUPPORT_CHARTS = {
           "id": 200014,
           "tested_points": [
             {
-              "signature": 200015,
-              "version": "5.0"
+              "version": "5.0",
+              "signature": 200015
             },
             {
-              "signature": 200015,
-              "version": "5.7"
+              "version": "5.7",
+              "signature": 200015
             }
           ],
           "labels": [],
@@ -26566,7 +26748,6 @@ SUPPORT_CHARTS = {
                   "name": "ANTIMALWARE"
                 }
               },
-              "sig_name": "Kaspersky Anti-Virus For Linux Workstation",
               "methods": {
                 "manageability": {
                   "1001": {
@@ -26631,7 +26812,8 @@ SUPPORT_CHARTS = {
                     "name": "UpdateDefinitions"
                   }
                 }
-              }
+              },
+              "sig_name": "Kaspersky Anti-Virus For Linux Workstation"
             }
           }
         },
@@ -26639,8 +26821,8 @@ SUPPORT_CHARTS = {
           "id": 200015,
           "tested_points": [
             {
-              "signature": 200016,
-              "version": "8.0"
+              "version": "8.0",
+              "signature": 200016
             }
           ],
           "labels": [],
@@ -26663,7 +26845,6 @@ SUPPORT_CHARTS = {
                   "name": "ANTIMALWARE"
                 }
               },
-              "sig_name": "Kaspersky Anti-Virus for Linux File Server",
               "methods": {
                 "manageability": {
                   "1000": {
@@ -26708,7 +26889,8 @@ SUPPORT_CHARTS = {
                     "name": "GetRealTimeProtectionState"
                   }
                 }
-              }
+              },
+              "sig_name": "Kaspersky Anti-Virus for Linux File Server"
             }
           }
         },
@@ -26716,24 +26898,24 @@ SUPPORT_CHARTS = {
           "id": 200016,
           "tested_points": [
             {
-              "signature": 200017,
-              "version": "8.0"
+              "version": "8.0",
+              "signature": 200017
             },
             {
-              "signature": 200017,
-              "version": "11.1.0"
+              "version": "11.1.0",
+              "signature": 200017
             },
             {
-              "signature": 200017,
-              "version": "11.2.0"
+              "version": "11.2.0",
+              "signature": 200017
             },
             {
-              "signature": 200017,
-              "version": "12.0.0"
+              "version": "12.0.0",
+              "signature": 200017
             },
             {
-              "signature": 200017,
-              "version": "12.3.0"
+              "version": "12.3.0",
+              "signature": 200017
             }
           ],
           "labels": [],
@@ -26760,7 +26942,6 @@ SUPPORT_CHARTS = {
                   "name": "FIREWALL"
                 }
               },
-              "sig_name": "Kaspersky Endpoint Security for Linux",
               "methods": {
                 "manageability": {
                   "100": {
@@ -27267,7 +27448,8 @@ SUPPORT_CHARTS = {
                     "name": "TerminateProcesses"
                   }
                 }
-              }
+              },
+              "sig_name": "Kaspersky Endpoint Security for Linux"
             }
           }
         },
@@ -27275,8 +27457,8 @@ SUPPORT_CHARTS = {
           "id": 200017,
           "tested_points": [
             {
-              "signature": 200018,
-              "version": "1.0"
+              "version": "1.0",
+              "signature": 200018
             }
           ],
           "labels": [],
@@ -27299,8 +27481,8 @@ SUPPORT_CHARTS = {
                   "name": "ANTIMALWARE"
                 }
               },
-              "sig_name": "LinuxShield",
-              "methods": {}
+              "methods": {},
+              "sig_name": "LinuxShield"
             }
           }
         },
@@ -27308,8 +27490,8 @@ SUPPORT_CHARTS = {
           "id": 200018,
           "tested_points": [
             {
-              "signature": 200019,
-              "version": "5.0"
+              "version": "5.0",
+              "signature": 200019
             }
           ],
           "labels": [],
@@ -27332,8 +27514,8 @@ SUPPORT_CHARTS = {
                   "name": "ANTIMALWARE"
                 }
               },
-              "sig_name": "McAfee VirusScan Command Line Scanner",
-              "methods": {}
+              "methods": {},
+              "sig_name": "McAfee VirusScan Command Line Scanner"
             }
           }
         },
@@ -27341,22 +27523,22 @@ SUPPORT_CHARTS = {
           "id": 200019,
           "tested_points": [
             {
-              "signature": 200020,
-              "version": "1.0"
+              "version": "1.0",
+              "signature": 200020
             },
             {
               "certification": "platinum",
-              "signature": 200020,
-              "version": "2.0"
+              "version": "2.0",
+              "signature": 200020
             },
             {
               "certification": "platinum",
-              "signature": 200020,
-              "version": "2.0.3.29216"
+              "version": "2.0.3.29216",
+              "signature": 200020
             },
             {
-              "signature": 200020,
-              "version": "0.0"
+              "version": "0.0",
+              "signature": 200020
             }
           ],
           "labels": [],
@@ -27379,7 +27561,6 @@ SUPPORT_CHARTS = {
                   "name": "ANTIMALWARE"
                 }
               },
-              "sig_name": "McAfee VirusScan Enterprise for Linux",
               "methods": {
                 "manageability": {
                   "100": {
@@ -27548,7 +27729,8 @@ SUPPORT_CHARTS = {
                     "name": "EnableRTP"
                   }
                 }
-              }
+              },
+              "sig_name": "McAfee VirusScan Enterprise for Linux"
             }
           }
         },
@@ -27556,12 +27738,12 @@ SUPPORT_CHARTS = {
           "id": 200020,
           "tested_points": [
             {
-              "signature": 200021,
-              "version": "2.0"
+              "version": "2.0",
+              "signature": 200021
             },
             {
-              "signature": 200021,
-              "version": "7.0.22"
+              "version": "7.0.22",
+              "signature": 200021
             }
           ],
           "labels": [],
@@ -27584,7 +27766,6 @@ SUPPORT_CHARTS = {
                   "name": "ANTIMALWARE"
                 }
               },
-              "sig_name": "eScan Anti-Virus for Linux",
               "methods": {
                 "manageability": {
                   "100": {
@@ -27605,7 +27786,8 @@ SUPPORT_CHARTS = {
                     "name": "GetVersion"
                   }
                 }
-              }
+              },
+              "sig_name": "eScan Anti-Virus for Linux"
             }
           }
         },
@@ -27613,12 +27795,12 @@ SUPPORT_CHARTS = {
           "id": 200021,
           "tested_points": [
             {
-              "signature": 200022,
-              "version": "9.0"
+              "version": "9.0",
+              "signature": 200022
             },
             {
-              "signature": 200022,
-              "version": "9.04.03.0001"
+              "version": "9.04.03.0001",
+              "signature": 200022
             }
           ],
           "labels": [],
@@ -27641,7 +27823,6 @@ SUPPORT_CHARTS = {
                   "name": "ANTIMALWARE"
                 }
               },
-              "sig_name": "Panda Antivirus",
               "methods": {
                 "manageability": {
                   "100": {
@@ -27760,7 +27941,8 @@ SUPPORT_CHARTS = {
                     "name": "Scan"
                   }
                 }
-              }
+              },
+              "sig_name": "Panda Antivirus"
             }
           }
         },
@@ -27768,8 +27950,8 @@ SUPPORT_CHARTS = {
           "id": 200022,
           "tested_points": [
             {
-              "signature": 200023,
-              "version": "1.0"
+              "version": "1.0",
+              "signature": 200023
             }
           ],
           "labels": [],
@@ -27792,8 +27974,8 @@ SUPPORT_CHARTS = {
                   "name": "ANTIMALWARE"
                 }
               },
-              "sig_name": "Panda Security For Linux",
-              "methods": {}
+              "methods": {},
+              "sig_name": "Panda Security For Linux"
             }
           }
         },
@@ -27801,8 +27983,8 @@ SUPPORT_CHARTS = {
           "id": 200023,
           "tested_points": [
             {
-              "signature": 200024,
-              "version": "11.0"
+              "version": "11.0",
+              "signature": 200024
             }
           ],
           "labels": [],
@@ -27825,8 +28007,8 @@ SUPPORT_CHARTS = {
                   "name": "ANTIMALWARE"
                 }
               },
-              "sig_name": "Quick Heal AntiVirus",
-              "methods": {}
+              "methods": {},
+              "sig_name": "Quick Heal AntiVirus"
             }
           }
         },
@@ -27834,20 +28016,20 @@ SUPPORT_CHARTS = {
           "id": 200024,
           "tested_points": [
             {
-              "signature": 200025,
-              "version": "7.0"
+              "version": "7.0",
+              "signature": 200025
             },
             {
-              "signature": 200025,
-              "version": "7.6-4"
+              "version": "7.6-4",
+              "signature": 200025
             },
             {
-              "signature": 200025,
-              "version": "1.0-4"
+              "version": "1.0-4",
+              "signature": 200025
             },
             {
-              "signature": 200025,
-              "version": "7.7.1-1809"
+              "version": "7.7.1-1809",
+              "signature": 200025
             }
           ],
           "labels": [],
@@ -27870,7 +28052,6 @@ SUPPORT_CHARTS = {
                   "name": "ANTIMALWARE"
                 }
               },
-              "sig_name": "BitDefender Antivirus",
               "methods": {
                 "manageability": {
                   "1001": {
@@ -27923,7 +28104,8 @@ SUPPORT_CHARTS = {
                     "name": "GetDefinitionState"
                   }
                 }
-              }
+              },
+              "sig_name": "BitDefender Antivirus"
             }
           }
         },
@@ -27931,48 +28113,48 @@ SUPPORT_CHARTS = {
           "id": 200025,
           "tested_points": [
             {
-              "signature": 200026,
-              "version": "3.0"
+              "version": "3.0",
+              "signature": 200026
             },
             {
-              "signature": 200026,
-              "version": "4.0"
+              "version": "4.0",
+              "signature": 200026
             },
             {
-              "signature": 200026,
-              "version": "5.0"
+              "version": "5.0",
+              "signature": 200026
             },
             {
-              "signature": 200026,
-              "version": "6.0"
+              "version": "6.0",
+              "signature": 200026
             },
             {
-              "signature": 200026,
-              "version": "7.0"
+              "version": "7.0",
+              "signature": 200026
             },
             {
-              "signature": 200026,
-              "version": "8.0"
+              "version": "8.0",
+              "signature": 200026
             },
             {
-              "signature": 200026,
-              "version": "9.0"
+              "version": "9.0",
+              "signature": 200026
             },
             {
-              "signature": 200026,
-              "version": "9.14.2"
+              "version": "9.14.2",
+              "signature": 200026
             },
             {
-              "signature": 200026,
-              "version": "9.15.1"
+              "version": "9.15.1",
+              "signature": 200026
             },
             {
-              "signature": 200026,
-              "version": "10.5.0"
+              "version": "10.5.0",
+              "signature": 200026
             },
             {
-              "signature": 200026,
-              "version": "9.17.3"
+              "version": "9.17.3",
+              "signature": 200026
             }
           ],
           "labels": [],
@@ -27995,7 +28177,6 @@ SUPPORT_CHARTS = {
                   "name": "ANTIMALWARE"
                 }
               },
-              "sig_name": "Sophos Anti-Virus",
               "methods": {
                 "manageability": {
                   "100": {
@@ -28331,7 +28512,8 @@ SUPPORT_CHARTS = {
                     "name": "GetInstallationDirectories"
                   }
                 }
-              }
+              },
+              "sig_name": "Sophos Anti-Virus"
             }
           }
         },
@@ -28339,19 +28521,19 @@ SUPPORT_CHARTS = {
           "id": 200026,
           "tested_points": [
             {
-              "signature": 200027,
-              "version": "1.0"
+              "version": "1.0",
+              "signature": 200027
             },
             {
               "certification": "gold",
-              "signature": 200027,
-              "version": "14.2.1031"
+              "version": "14.2.1031",
+              "signature": 200027
             },
             {
               "certification": "gold",
-              "signature": 200027,
+              "release": "14.3 MP1",
               "version": "14.3.1169.0100",
-              "release": "14.3 MP1"
+              "signature": 200027
             }
           ],
           "labels": [],
@@ -28374,7 +28556,6 @@ SUPPORT_CHARTS = {
                   "name": "ANTIMALWARE"
                 }
               },
-              "sig_name": "Symantec AntiVirus",
               "methods": {
                 "manageability": {
                   "100": {
@@ -28530,7 +28711,8 @@ SUPPORT_CHARTS = {
                     "name": "GetDefinitionState"
                   }
                 }
-              }
+              },
+              "sig_name": "Symantec AntiVirus"
             }
           },
           "marketing_names": [
@@ -28542,28 +28724,28 @@ SUPPORT_CHARTS = {
           "tested_points": [
             {
               "certification": "platinum",
-              "signature": 200052,
-              "version": "10.0"
+              "version": "10.0",
+              "signature": 200052
             },
             {
               "certification": "platinum",
-              "signature": 200052,
-              "version": "10.2.0-534"
+              "version": "10.2.0-534",
+              "signature": 200052
             },
             {
               "certification": "platinum",
-              "signature": 200052,
-              "version": "10.5.2"
+              "version": "10.5.2",
+              "signature": 200052
             },
             {
               "certification": "platinum",
-              "signature": 200052,
-              "version": "10.7.5-109"
+              "version": "10.7.5-109",
+              "signature": 200052
             },
             {
               "certification": "platinum",
-              "signature": 200052,
-              "version": "10.7.16-27"
+              "version": "10.7.16-27",
+              "signature": 200052
             }
           ],
           "labels": [],
@@ -28586,7 +28768,6 @@ SUPPORT_CHARTS = {
                   "name": "ANTIMALWARE"
                 }
               },
-              "sig_name": "McAfee Endpoint Security for Linux Threat Prevention",
               "methods": {
                 "manageability": {
                   "100": {
@@ -29004,7 +29185,8 @@ SUPPORT_CHARTS = {
                     "name": "GetInstallationDirectories"
                   }
                 }
-              }
+              },
+              "sig_name": "McAfee Endpoint Security for Linux Threat Prevention"
             }
           }
         },
@@ -29012,8 +29194,8 @@ SUPPORT_CHARTS = {
           "id": 200053,
           "tested_points": [
             {
-              "signature": 200054,
-              "version": "6.3.2.5000"
+              "version": "6.3.2.5000",
+              "signature": 200054
             }
           ],
           "labels": [],
@@ -29036,8 +29218,8 @@ SUPPORT_CHARTS = {
                   "name": "ANTIMALWARE"
                 }
               },
-              "sig_name": "360 天擎",
-              "methods": {}
+              "methods": {},
+              "sig_name": "360 天擎"
             }
           }
         },
@@ -29045,326 +29227,326 @@ SUPPORT_CHARTS = {
           "id": 200054,
           "tested_points": [
             {
-              "signature": 200055,
-              "version": "1.8.4.797"
+              "version": "1.8.4.797",
+              "signature": 200055
             },
             {
               "certification": "gold",
-              "signature": 200055,
-              "version": "2.0.3.1029"
+              "version": "2.0.3.1029",
+              "signature": 200055
             },
             {
               "certification": "gold",
-              "signature": 200055,
-              "version": "2.6.1.1390"
+              "version": "2.6.1.1390",
+              "signature": 200055
             },
             {
               "certification": "gold",
-              "signature": 200055,
-              "version": "3.0.8"
+              "version": "3.0.8",
+              "signature": 200055
             },
             {
               "certification": "gold",
-              "signature": 200055,
-              "version": "3.0.9"
+              "version": "3.0.9",
+              "signature": 200055
             },
             {
               "certification": "gold",
-              "signature": 200055,
-              "version": "3.4.3.10"
+              "version": "3.4.3.10",
+              "signature": 200055
             },
             {
               "certification": "gold",
-              "signature": 200055,
-              "version": "3.5.1.9"
+              "version": "3.5.1.9",
+              "signature": 200055
             },
             {
               "certification": "gold",
-              "signature": 200055,
-              "version": "4.1.1.3"
+              "version": "4.1.1.3",
+              "signature": 200055
             },
             {
               "certification": "gold",
-              "signature": 200055,
-              "version": "4.0.3.11"
+              "version": "4.0.3.11",
+              "signature": 200055
             },
             {
               "certification": "gold",
-              "signature": 200055,
-              "version": "4.0.4.9"
+              "version": "4.0.4.9",
+              "signature": 200055
             },
             {
               "certification": "gold",
-              "signature": 200055,
-              "version": "4.1.3.3"
+              "version": "4.1.3.3",
+              "signature": 200055
             },
             {
               "certification": "gold",
-              "signature": 200055,
-              "version": "4.2.1.6"
+              "version": "4.2.1.6",
+              "signature": 200055
             },
             {
               "certification": "gold",
-              "signature": 200055,
-              "version": "4.2.2.4"
+              "version": "4.2.2.4",
+              "signature": 200055
             },
             {
               "certification": "gold",
-              "signature": 200055,
-              "version": "4.4.1.5"
+              "version": "4.4.1.5",
+              "signature": 200055
             },
             {
               "certification": "gold",
-              "signature": 200055,
-              "version": "4.3.3.1"
+              "version": "4.3.3.1",
+              "signature": 200055
             },
             {
               "certification": "gold",
-              "signature": 200055,
-              "version": "4.4.2.3"
+              "version": "4.4.2.3",
+              "signature": 200055
             },
             {
               "certification": "gold",
-              "signature": 200055,
-              "version": "4.5.1.2"
+              "version": "4.5.1.2",
+              "signature": 200055
             },
             {
               "certification": "gold",
-              "signature": 200055,
-              "version": "4.5.2.4"
+              "version": "4.5.2.4",
+              "signature": 200055
             },
             {
               "certification": "gold",
-              "signature": 200055,
-              "version": "4.5.3.2"
+              "version": "4.5.3.2",
+              "signature": 200055
             },
             {
               "certification": "gold",
-              "signature": 200055,
-              "version": "4.6.1.6"
+              "version": "4.6.1.6",
+              "signature": 200055
             },
             {
               "certification": "gold",
-              "signature": 200055,
-              "version": "4.6.2.6"
+              "version": "4.6.2.6",
+              "signature": 200055
             },
             {
               "certification": "gold",
-              "signature": 200055,
-              "version": "4.6.3.1"
+              "version": "4.6.3.1",
+              "signature": 200055
             },
             {
               "certification": "gold",
-              "signature": 200055,
-              "version": "4.6.4.6"
+              "version": "4.6.4.6",
+              "signature": 200055
             },
             {
               "certification": "gold",
-              "signature": 200055,
-              "version": "4.6.11.5"
+              "version": "4.6.11.5",
+              "signature": 200055
             },
             {
-              "signature": 200055,
-              "version": "5.0.1.3"
-            },
-            {
-              "certification": "gold",
-              "signature": 200055,
-              "version": "21.5.2.8"
+              "version": "5.0.1.3",
+              "signature": 200055
             },
             {
               "certification": "gold",
-              "signature": 200055,
-              "version": "21.5.3.2"
+              "version": "21.5.2.8",
+              "signature": 200055
             },
             {
               "certification": "gold",
-              "signature": 200055,
-              "version": "21.6.1.3"
+              "version": "21.5.3.2",
+              "signature": 200055
             },
             {
               "certification": "gold",
-              "signature": 200055,
-              "version": "21.6.2.5"
+              "version": "21.6.1.3",
+              "signature": 200055
             },
             {
               "certification": "gold",
-              "signature": 200055,
-              "version": "21.6.3.7"
+              "version": "21.6.2.5",
+              "signature": 200055
             },
             {
               "certification": "gold",
-              "signature": 200055,
-              "version": "21.7.1.10"
+              "version": "21.6.3.7",
+              "signature": 200055
             },
             {
               "certification": "gold",
-              "signature": 200055,
-              "version": "21.7.2.5"
+              "version": "21.7.1.10",
+              "signature": 200055
             },
             {
               "certification": "gold",
-              "signature": 200055,
-              "version": "21.7.3.6"
+              "version": "21.7.2.5",
+              "signature": 200055
             },
             {
               "certification": "gold",
-              "signature": 200055,
-              "version": "21.10.1.6"
+              "version": "21.7.3.6",
+              "signature": 200055
             },
             {
               "certification": "gold",
-              "signature": 200055,
-              "version": "21.10.2.12"
+              "version": "21.10.1.6",
+              "signature": 200055
             },
             {
               "certification": "gold",
-              "signature": 200055,
-              "version": "21.10.3.3"
+              "version": "21.10.2.12",
+              "signature": 200055
             },
             {
               "certification": "gold",
-              "signature": 200055,
-              "version": "21.7.4.22"
+              "version": "21.10.3.3",
+              "signature": 200055
             },
             {
               "certification": "gold",
-              "signature": 200055,
-              "version": "21.10.4.9"
+              "version": "21.7.4.22",
+              "signature": 200055
             },
             {
               "certification": "gold",
-              "signature": 200055,
-              "version": "22.1.1.4"
+              "version": "21.10.4.9",
+              "signature": 200055
             },
             {
               "certification": "gold",
-              "signature": 200055,
-              "version": "22.1.1.4"
+              "version": "22.1.1.4",
+              "signature": 200055
             },
             {
               "certification": "gold",
-              "signature": 200055,
-              "version": "22.1.2.7"
+              "version": "22.1.1.4",
+              "signature": 200055
             },
             {
               "certification": "gold",
-              "signature": 200055,
-              "version": "22.2.1.3"
+              "version": "22.1.2.7",
+              "signature": 200055
             },
             {
               "certification": "gold",
-              "signature": 200055,
-              "version": "22.2.2.2"
+              "version": "22.2.1.3",
+              "signature": 200055
             },
             {
               "certification": "gold",
-              "signature": 200055,
-              "version": "22.3.1.7"
+              "version": "22.2.2.2",
+              "signature": 200055
             },
             {
               "certification": "gold",
-              "signature": 200055,
-              "version": "22.3.2.5"
+              "version": "22.3.1.7",
+              "signature": 200055
             },
             {
               "certification": "gold",
-              "signature": 200055,
-              "version": "22.3.3.11"
+              "version": "22.3.2.5",
+              "signature": 200055
             },
             {
               "certification": "gold",
-              "signature": 200055,
-              "version": "22.4.1.2"
+              "version": "22.3.3.11",
+              "signature": 200055
             },
             {
               "certification": "gold",
-              "signature": 200055,
-              "version": "22.4.2.4"
+              "version": "22.4.1.2",
+              "signature": 200055
             },
             {
-              "signature": 200055,
-              "version": "23.1.1.7"
+              "certification": "gold",
+              "version": "22.4.2.4",
+              "signature": 200055
             },
             {
-              "signature": 200055,
-              "version": "23.1.2.9"
+              "version": "23.1.1.7",
+              "signature": 200055
             },
             {
-              "signature": 200055,
-              "version": "23.2.1.2"
+              "version": "23.1.2.9",
+              "signature": 200055
             },
             {
-              "signature": 200055,
-              "version": "23.2.2.4"
+              "version": "23.2.1.2",
+              "signature": 200055
             },
             {
-              "signature": 200055,
-              "version": "23.3.1.7"
+              "version": "23.2.2.4",
+              "signature": 200055
             },
             {
-              "signature": 200055,
-              "version": "23.3.2.12"
+              "version": "23.3.1.7",
+              "signature": 200055
             },
             {
-              "signature": 200055,
-              "version": "23.4.1.4"
+              "version": "23.3.2.12",
+              "signature": 200055
             },
             {
-              "signature": 200055,
-              "version": "23.4.2.14"
+              "version": "23.4.1.4",
+              "signature": 200055
             },
             {
-              "signature": 200055,
-              "version": "24.1.1.16"
+              "version": "23.4.2.14",
+              "signature": 200055
             },
             {
-              "signature": 200055,
-              "version": "24.1.2.6"
+              "version": "24.1.1.16",
+              "signature": 200055
             },
             {
-              "signature": 200055,
-              "version": "24.2.1.8"
+              "version": "24.1.2.6",
+              "signature": 200055
             },
             {
-              "signature": 200055,
-              "version": "24.2.2.20"
+              "version": "24.2.1.8",
+              "signature": 200055
             },
             {
-              "signature": 200055,
-              "version": "24.3.1.29"
+              "version": "24.2.2.20",
+              "signature": 200055
             },
             {
-              "signature": 200055,
-              "version": "24.3.2.6"
+              "version": "24.3.1.29",
+              "signature": 200055
             },
             {
-              "signature": 200055,
-              "version": "24.3.3.6"
+              "version": "24.3.2.6",
+              "signature": 200055
             },
             {
-              "signature": 200055,
-              "version": "25.1.1.14"
+              "version": "24.3.3.6",
+              "signature": 200055
             },
             {
-              "signature": 200055,
-              "version": "25.1.2.17"
+              "version": "25.1.1.14",
+              "signature": 200055
             },
             {
-              "signature": 200055,
-              "version": "25.1.3.6"
+              "version": "25.1.2.17",
+              "signature": 200055
             },
             {
-              "signature": 200055,
-              "version": "25.2.1.20"
+              "version": "25.1.3.6",
+              "signature": 200055
+            },
+            {
+              "version": "25.2.1.20",
+              "signature": 200055
             },
             {
               "methodsStatus": {
                 "1004": -1,
                 "1007": -1
               },
-              "signature": 200055,
-              "version": "25.2.2.14"
+              "version": "25.2.2.14",
+              "signature": 200055
             }
           ],
           "labels": [],
@@ -29387,7 +29569,6 @@ SUPPORT_CHARTS = {
                   "name": "ANTIMALWARE"
                 }
               },
-              "sig_name": "Sentinel Agent",
               "methods": {
                 "manageability": {
                   "100": {
@@ -29615,7 +29796,8 @@ SUPPORT_CHARTS = {
                     "name": "GetInstallationDirectories"
                   }
                 }
-              }
+              },
+              "sig_name": "Sentinel Agent"
             }
           }
         },
@@ -29624,138 +29806,138 @@ SUPPORT_CHARTS = {
           "tested_points": [
             {
               "certification": "gold",
-              "signature": 200057,
-              "version": "4.5.0"
+              "version": "4.5.0",
+              "signature": 200057
             },
             {
               "certification": "gold",
-              "signature": 200057,
-              "version": "5.11.0"
+              "version": "5.11.0",
+              "signature": 200057
             },
             {
               "certification": "gold",
-              "signature": 200057,
-              "version": "6.24.12103.0"
+              "version": "6.24.12103.0",
+              "signature": 200057
             },
             {
               "certification": "gold",
-              "signature": 200057,
-              "version": "6.28.12504.0"
+              "version": "6.28.12504.0",
+              "signature": 200057
             },
             {
               "certification": "gold",
-              "signature": 200057,
-              "version": "6.51.14810.0"
+              "version": "6.51.14810.0",
+              "signature": 200057
             },
             {
               "certification": "gold",
-              "signature": 200057,
-              "version": "6.37.13402.0"
+              "version": "6.37.13402.0",
+              "signature": 200057
             },
             {
               "certification": "gold",
-              "signature": 200057,
-              "version": "6.46.14306.0"
+              "version": "6.46.14306.0",
+              "signature": 200057
             },
             {
               "certification": "gold",
-              "signature": 200057,
-              "version": "6.48.14504.0"
+              "version": "6.48.14504.0",
+              "signature": 200057
             },
             {
               "certification": "gold",
-              "signature": 200057,
-              "version": "7.02.15705.0"
+              "version": "7.02.15705.0",
+              "signature": 200057
             },
             {
               "certification": "gold",
-              "signature": 200057,
-              "version": "7.11.16407.0"
+              "version": "7.11.16407.0",
+              "signature": 200057
             },
             {
               "certification": "gold",
-              "signature": 200057,
-              "version": "7.16.16903.0"
+              "version": "7.16.16903.0",
+              "signature": 200057
             },
             {
               "certification": "gold",
-              "signature": 200057,
-              "version": "7.17.17005.0"
+              "version": "7.17.17005.0",
+              "signature": 200057
             },
             {
               "certification": "gold",
-              "signature": 200057,
-              "version": "7.18.17106.0"
+              "version": "7.18.17106.0",
+              "signature": 200057
             },
             {
               "certification": "gold",
-              "signature": 200057,
-              "version": "7.20.17306.0"
+              "version": "7.20.17306.0",
+              "signature": 200057
             },
             {
               "certification": "gold",
-              "signature": 200057,
-              "version": "7.25.17804.0"
+              "version": "7.25.17804.0",
+              "signature": 200057
             },
             {
               "certification": "gold",
-              "signature": 200057,
-              "version": "7.26.17905.0"
+              "version": "7.26.17905.0",
+              "signature": 200057
             },
             {
               "certification": "gold",
-              "signature": 200057,
-              "version": "7.27.18003.0"
+              "version": "7.27.18003.0",
+              "signature": 200057
             },
             {
               "certification": "gold",
-              "signature": 200057,
-              "version": "7.28.18108.0"
+              "version": "7.28.18108.0",
+              "signature": 200057
             },
             {
               "certification": "gold",
-              "signature": 200057,
-              "version": "7.29.18202.0"
+              "version": "7.29.18202.0",
+              "signature": 200057
             },
             {
               "certification": "gold",
-              "signature": 200057,
-              "version": "7.30.18306.0"
+              "version": "7.30.18306.0",
+              "signature": 200057
             },
             {
               "certification": "gold",
-              "signature": 200057,
-              "version": "7.32.18504.0"
+              "version": "7.32.18504.0",
+              "signature": 200057
             },
             {
               "certification": "gold",
-              "signature": 200057,
-              "version": "7.33.18606.0"
+              "version": "7.33.18606.0",
+              "signature": 200057
             },
             {
               "certification": "gold",
-              "signature": 200057,
-              "version": "7.34.18708.0"
+              "version": "7.34.18708.0",
+              "signature": 200057
             },
             {
               "certification": "gold",
-              "signature": 200057,
-              "version": "7.35.18803.0"
+              "version": "7.35.18803.0",
+              "signature": 200057
             },
             {
               "certification": "gold",
-              "signature": 200057,
-              "version": "7.36.18909.0"
+              "version": "7.36.18909.0",
+              "signature": 200057
             },
             {
               "certification": "gold",
-              "signature": 200057,
-              "version": "7.37.19004.0"
+              "version": "7.37.19004.0",
+              "signature": 200057
             },
             {
               "certification": "gold",
-              "signature": 200057,
-              "version": "7.38.19102.0"
+              "version": "7.38.19102.0",
+              "signature": 200057
             }
           ],
           "labels": [],
@@ -29786,7 +29968,6 @@ SUPPORT_CHARTS = {
                   "name": "FIREWALL"
                 }
               },
-              "sig_name": "Crowdstrike Falcon",
               "methods": {
                 "manageability": {
                   "100": {
@@ -30254,7 +30435,8 @@ SUPPORT_CHARTS = {
                     "name": "GetComponents"
                   }
                 }
-              }
+              },
+              "sig_name": "Crowdstrike Falcon"
             }
           }
         },
@@ -30262,8 +30444,8 @@ SUPPORT_CHARTS = {
           "id": 200058,
           "tested_points": [
             {
-              "signature": 200059,
-              "version": "3.0"
+              "version": "3.0",
+              "signature": 200059
             }
           ],
           "labels": [],
@@ -30286,7 +30468,6 @@ SUPPORT_CHARTS = {
                   "name": "ANTIMALWARE"
                 }
               },
-              "sig_name": "ServerProtect for Linux",
               "methods": {
                 "manageability": {
                   "100": {
@@ -30458,7 +30639,8 @@ SUPPORT_CHARTS = {
                     "name": "EnableRTP"
                   }
                 }
-              }
+              },
+              "sig_name": "ServerProtect for Linux"
             }
           }
         },
@@ -30466,36 +30648,36 @@ SUPPORT_CHARTS = {
           "id": 200061,
           "tested_points": [
             {
-              "signature": 200062,
-              "version": "6.2.20.87"
+              "version": "6.2.20.87",
+              "signature": 200062
             },
             {
-              "signature": 200062,
-              "version": "6.2.21.42"
+              "version": "6.2.21.42",
+              "signature": 200062
             },
             {
-              "signature": 200062,
-              "version": "7.0.3-2004"
+              "version": "7.0.3-2004",
+              "signature": 200062
             },
             {
-              "signature": 200062,
-              "version": "7.0.5-200049"
+              "version": "7.0.5-200049",
+              "signature": 200062
             },
             {
-              "signature": 200062,
-              "version": "7.4.0-200181"
+              "version": "7.4.0-200181",
+              "signature": 200062
             },
             {
-              "signature": 200062,
-              "version": "7.4.1-200200"
+              "version": "7.4.1-200200",
+              "signature": 200062
             },
             {
-              "signature": 200062,
-              "version": "7.8.0-200269"
+              "version": "7.8.0-200269",
+              "signature": 200062
             },
             {
-              "signature": 200062,
-              "version": "7.8.0"
+              "version": "7.8.0",
+              "signature": 200062
             }
           ],
           "labels": [],
@@ -30518,7 +30700,6 @@ SUPPORT_CHARTS = {
                   "name": "ANTIMALWARE"
                 }
               },
-              "sig_name": "Bitdefender Endpoint Security Tools",
               "methods": {
                 "manageability": {
                   "100": {
@@ -30927,7 +31108,8 @@ SUPPORT_CHARTS = {
                     "name": "TerminateProcesses"
                   }
                 }
-              }
+              },
+              "sig_name": "Bitdefender Endpoint Security Tools"
             }
           }
         },
@@ -30936,16 +31118,16 @@ SUPPORT_CHARTS = {
           "tested_points": [
             {
               "certification": "gold",
-              "signature": 200063,
-              "version": "6.0.3"
+              "version": "6.0.3",
+              "signature": 200063
             },
             {
-              "signature": 200063,
-              "version": "7.0.8"
+              "version": "7.0.8",
+              "signature": 200063
             },
             {
-              "signature": 200063,
-              "version": "7.4.3.1736"
+              "version": "7.4.3.1736",
+              "signature": 200063
             }
           ],
           "labels": [],
@@ -30968,7 +31150,6 @@ SUPPORT_CHARTS = {
                   "name": "ANTIMALWARE"
                 }
               },
-              "sig_name": "FortiClient",
               "methods": {
                 "manageability": {
                   "1000": {
@@ -31173,7 +31354,8 @@ SUPPORT_CHARTS = {
                     "name": "GetInstallationDirectories"
                   }
                 }
-              }
+              },
+              "sig_name": "FortiClient"
             }
           }
         },
@@ -31181,18 +31363,18 @@ SUPPORT_CHARTS = {
           "id": 200072,
           "tested_points": [
             {
-              "signature": 200073,
-              "version": "11.0.0"
+              "version": "11.0.0",
+              "signature": 200073
             },
             {
               "certification": "gold",
-              "signature": 200073,
-              "version": "12.0.0"
+              "version": "12.0.0",
+              "signature": 200073
             },
             {
               "certification": "gold",
-              "signature": 200073,
-              "version": "20.0.0"
+              "version": "20.0.0",
+              "signature": 200073
             }
           ],
           "labels": [],
@@ -31223,7 +31405,6 @@ SUPPORT_CHARTS = {
                   "name": "FIREWALL"
                 }
               },
-              "sig_name": "Trend Micro Deep Security Agent",
               "methods": {
                 "manageability": {
                   "100": {
@@ -31511,7 +31692,8 @@ SUPPORT_CHARTS = {
                     "name": "Scan"
                   }
                 }
-              }
+              },
+              "sig_name": "Trend Micro Deep Security Agent"
             }
           }
         },
@@ -31519,8 +31701,8 @@ SUPPORT_CHARTS = {
           "id": 200073,
           "tested_points": [
             {
-              "signature": 200074,
-              "version": "2.0.1534"
+              "version": "2.0.1534",
+              "signature": 200074
             }
           ],
           "labels": [],
@@ -31543,7 +31725,6 @@ SUPPORT_CHARTS = {
                   "name": "ANTIMALWARE"
                 }
               },
-              "sig_name": "CylancePROTECT",
               "methods": {
                 "manageability": {
                   "1000": {
@@ -31658,7 +31839,8 @@ SUPPORT_CHARTS = {
                     "name": "GetDefinitionState"
                   }
                 }
-              }
+              },
+              "sig_name": "CylancePROTECT"
             }
           }
         },
@@ -31667,28 +31849,28 @@ SUPPORT_CHARTS = {
           "tested_points": [
             {
               "certification": "gold",
-              "signature": 200077,
-              "version": "30.19.3"
+              "version": "30.19.3",
+              "signature": 200077
             },
             {
               "certification": "gold",
-              "signature": 200077,
-              "version": "31.28.1"
+              "version": "31.28.1",
+              "signature": 200077
             },
             {
               "certification": "gold",
-              "signature": 200077,
-              "version": "32.21.0"
+              "version": "32.21.0",
+              "signature": 200077
             },
             {
               "certification": "gold",
-              "signature": 200077,
-              "version": "33.46.0"
+              "version": "33.46.0",
+              "signature": 200077
             },
             {
               "certification": "gold",
-              "signature": 200077,
-              "version": "34.28.0"
+              "version": "34.28.0",
+              "signature": 200077
             }
           ],
           "labels": [],
@@ -31711,7 +31893,6 @@ SUPPORT_CHARTS = {
                   "name": "ANTIMALWARE"
                 }
               },
-              "sig_name": "FireEye Endpoint Agent",
               "methods": {
                 "manageability": {
                   "1000": {
@@ -31826,7 +32007,8 @@ SUPPORT_CHARTS = {
                     "name": "GetDefinitionState"
                   }
                 }
-              }
+              },
+              "sig_name": "FireEye Endpoint Agent"
             }
           }
         },
@@ -31835,17 +32017,17 @@ SUPPORT_CHARTS = {
           "tested_points": [
             {
               "certification": "gold",
-              "signature": 200082,
-              "version": "2.4.0.3"
+              "version": "2.4.0.3",
+              "signature": 200082
             },
             {
               "certification": "gold",
-              "signature": 200082,
-              "version": "2.11.3.629089"
+              "version": "2.11.3.629089",
+              "signature": 200082
             },
             {
-              "signature": 200082,
-              "version": "0.0"
+              "version": "0.0",
+              "signature": 200082
             }
           ],
           "labels": [],
@@ -31868,7 +32050,6 @@ SUPPORT_CHARTS = {
                   "name": "ANTIMALWARE"
                 }
               },
-              "sig_name": "Carbon Black Defense Sensor",
               "methods": {
                 "manageability": {
                   "100": {
@@ -32000,7 +32181,8 @@ SUPPORT_CHARTS = {
                     "name": "GetDefinitionState"
                   }
                 }
-              }
+              },
+              "sig_name": "Carbon Black Defense Sensor"
             }
           }
         },
@@ -32008,8 +32190,8 @@ SUPPORT_CHARTS = {
           "id": 200082,
           "tested_points": [
             {
-              "signature": 200083,
-              "version": "0.53"
+              "version": "0.53",
+              "signature": 200083
             }
           ],
           "labels": [],
@@ -32032,7 +32214,6 @@ SUPPORT_CHARTS = {
                   "name": "ANTIMALWARE"
                 }
               },
-              "sig_name": "chkrootkit",
               "methods": {
                 "manageability": {
                   "100": {
@@ -32053,7 +32234,8 @@ SUPPORT_CHARTS = {
                     "name": "GetVersion"
                   }
                 }
-              }
+              },
+              "sig_name": "chkrootkit"
             }
           }
         },
@@ -32061,12 +32243,12 @@ SUPPORT_CHARTS = {
           "id": 200083,
           "tested_points": [
             {
-              "signature": 200084,
-              "version": "1.1.268025"
+              "version": "1.1.268025",
+              "signature": 200084
             },
             {
-              "signature": 200084,
-              "version": "1.1.268025.1"
+              "version": "1.1.268025.1",
+              "signature": 200084
             }
           ],
           "labels": [],
@@ -32089,7 +32271,6 @@ SUPPORT_CHARTS = {
                   "name": "ANTIMALWARE"
                 }
               },
-              "sig_name": "Comodo Antivirus",
               "methods": {
                 "manageability": {
                   "100": {
@@ -32277,7 +32458,8 @@ SUPPORT_CHARTS = {
                     "name": "TerminateProcesses"
                   }
                 }
-              }
+              },
+              "sig_name": "Comodo Antivirus"
             }
           }
         },
@@ -32285,8 +32467,8 @@ SUPPORT_CHARTS = {
           "id": 200084,
           "tested_points": [
             {
-              "signature": 200085,
-              "version": "1.4.2"
+              "version": "1.4.2",
+              "signature": 200085
             }
           ],
           "labels": [],
@@ -32309,7 +32491,6 @@ SUPPORT_CHARTS = {
                   "name": "ANTIMALWARE"
                 }
               },
-              "sig_name": "Rootkit Hunter",
               "methods": {
                 "constant": {
                   "101": {
@@ -32347,7 +32528,8 @@ SUPPORT_CHARTS = {
                     "name": "GetVersion"
                   }
                 }
-              }
+              },
+              "sig_name": "Rootkit Hunter"
             }
           }
         },
@@ -32355,8 +32537,8 @@ SUPPORT_CHARTS = {
           "id": 200087,
           "tested_points": [
             {
-              "signature": 200088,
-              "version": "6.14"
+              "version": "6.14",
+              "signature": 200088
             }
           ],
           "labels": [],
@@ -32379,7 +32561,6 @@ SUPPORT_CHARTS = {
                   "name": "ANTIMALWARE"
                 }
               },
-              "sig_name": "ClamTk",
               "methods": {
                 "manageability": {
                   "100": {
@@ -32429,7 +32610,8 @@ SUPPORT_CHARTS = {
                     "name": "TerminateProcesses"
                   }
                 }
-              }
+              },
+              "sig_name": "ClamTk"
             }
           }
         },
@@ -32438,8 +32620,8 @@ SUPPORT_CHARTS = {
           "tested_points": [
             {
               "certification": "gold",
-              "signature": 200090,
-              "version": "6.1.4.1680"
+              "version": "6.1.4.1680",
+              "signature": 200090
             }
           ],
           "labels": [],
@@ -32462,7 +32644,6 @@ SUPPORT_CHARTS = {
                   "name": "ANTIMALWARE"
                 }
               },
-              "sig_name": "Traps",
               "methods": {
                 "manageability": {
                   "100": {
@@ -32671,7 +32852,8 @@ SUPPORT_CHARTS = {
                     "name": "TerminateProcesses"
                   }
                 }
-              }
+              },
+              "sig_name": "Traps"
             }
           }
         },
@@ -32680,12 +32862,12 @@ SUPPORT_CHARTS = {
           "tested_points": [
             {
               "certification": "gold",
-              "signature": 200105,
-              "version": "2.00.06.0001"
+              "version": "2.00.06.0001",
+              "signature": 200105
             },
             {
-              "signature": 200105,
-              "version": "0"
+              "version": "0",
+              "signature": 200105
             }
           ],
           "labels": [],
@@ -32712,7 +32894,6 @@ SUPPORT_CHARTS = {
                   "name": "FIREWALL"
                 }
               },
-              "sig_name": "Cytomic EPDR",
               "methods": {
                 "manageability": {
                   "100": {
@@ -32859,7 +33040,8 @@ SUPPORT_CHARTS = {
                     "name": "GetDefinitionState"
                   }
                 }
-              }
+              },
+              "sig_name": "Cytomic EPDR"
             }
           }
         },
@@ -32867,12 +33049,12 @@ SUPPORT_CHARTS = {
           "id": 200127,
           "tested_points": [
             {
-              "signature": 200136,
-              "version": "02.00.06.0001"
+              "version": "02.00.06.0001",
+              "signature": 200136
             },
             {
-              "signature": 200136,
-              "version": "0.0"
+              "version": "0.0",
+              "signature": 200136
             }
           ],
           "labels": [],
@@ -32895,7 +33077,6 @@ SUPPORT_CHARTS = {
                   "name": "ANTIMALWARE"
                 }
               },
-              "sig_name": "Panda Adaptive Defense 360",
               "methods": {
                 "manageability": {
                   "100": {
@@ -33042,7 +33223,8 @@ SUPPORT_CHARTS = {
                     "name": "GetDefinitionState"
                   }
                 }
-              }
+              },
+              "sig_name": "Panda Adaptive Defense 360"
             }
           }
         },
@@ -33050,50 +33232,50 @@ SUPPORT_CHARTS = {
           "id": 200129,
           "tested_points": [
             {
-              "signature": 200138,
-              "version": "7.1.6.0"
+              "version": "7.1.6.0",
+              "signature": 200138
             },
             {
-              "signature": 200138,
-              "version": "9.1.11.0"
-            },
-            {
-              "certification": "gold",
-              "signature": 200138,
-              "version": "10.2.2.0"
-            },
-            {
-              "signature": 200138,
-              "version": "8.1.12.0"
-            },
-            {
-              "signature": 200138,
-              "version": "9.1.13.0"
+              "version": "9.1.11.0",
+              "signature": 200138
             },
             {
               "certification": "gold",
-              "signature": 200138,
-              "version": "11.0.17.0"
+              "version": "10.2.2.0",
+              "signature": 200138
+            },
+            {
+              "version": "8.1.12.0",
+              "signature": 200138
+            },
+            {
+              "version": "9.1.13.0",
+              "signature": 200138
             },
             {
               "certification": "gold",
-              "signature": 200138,
-              "version": "11.1.3.0"
+              "version": "11.0.17.0",
+              "signature": 200138
             },
             {
               "certification": "gold",
-              "signature": 200138,
-              "version": "10.3.4.0"
+              "version": "11.1.3.0",
+              "signature": 200138
             },
             {
               "certification": "gold",
-              "signature": 200138,
-              "version": "11.1.3.0"
+              "version": "10.3.4.0",
+              "signature": 200138
             },
             {
               "certification": "gold",
-              "signature": 200138,
-              "version": "12.2.5.0"
+              "version": "11.1.3.0",
+              "signature": 200138
+            },
+            {
+              "certification": "gold",
+              "version": "12.2.5.0",
+              "signature": 200138
             }
           ],
           "labels": [],
@@ -33116,7 +33298,6 @@ SUPPORT_CHARTS = {
                   "name": "ANTIMALWARE"
                 }
               },
-              "sig_name": "ESET Endpoint Antivirus",
               "methods": {
                 "manageability": {
                   "100": {
@@ -33463,7 +33644,8 @@ SUPPORT_CHARTS = {
                     "name": "TerminateProcesses"
                   }
                 }
-              }
+              },
+              "sig_name": "ESET Endpoint Antivirus"
             }
           }
         },
@@ -33472,93 +33654,93 @@ SUPPORT_CHARTS = {
           "tested_points": [
             {
               "certification": "gold",
-              "signature": 200159,
-              "version": "7.1.1.48398"
+              "version": "7.1.1.48398",
+              "signature": 200159
             },
             {
               "certification": "gold",
-              "signature": 200159,
-              "version": "7.0.2.42138"
+              "version": "7.0.2.42138",
+              "signature": 200159
             },
             {
               "certification": "gold",
-              "signature": 200159,
-              "version": "7.2.2.8227"
+              "version": "7.2.2.8227",
+              "signature": 200159
             },
             {
               "certification": "gold",
-              "signature": 200159,
-              "version": "7.1.0.44806"
+              "version": "7.1.0.44806",
+              "signature": 200159
             },
             {
               "certification": "gold",
-              "signature": 200159,
-              "version": "7.3.3.39951"
+              "version": "7.3.3.39951",
+              "signature": 200159
             },
             {
               "certification": "gold",
-              "signature": 200159,
-              "version": "7.4.3.39946"
+              "version": "7.4.3.39946",
+              "signature": 200159
             },
             {
               "certification": "gold",
-              "signature": 200159,
-              "version": "7.5.1.39945"
+              "version": "7.5.1.39945",
+              "signature": 200159
             },
             {
               "certification": "gold",
-              "signature": 200159,
-              "version": "7.6.3.64323"
+              "version": "7.6.3.64323",
+              "signature": 200159
             },
             {
               "certification": "gold",
-              "signature": 200159,
-              "version": "7.8.0.68806"
+              "version": "7.8.0.68806",
+              "signature": 200159
             },
             {
               "certification": "gold",
-              "signature": 200159,
-              "version": "8.0.0.94458"
+              "version": "8.0.0.94458",
+              "signature": 200159
             },
             {
               "certification": "gold",
-              "signature": 200159,
-              "version": "8.1.1.112729"
+              "version": "8.1.1.112729",
+              "signature": 200159
             },
             {
               "certification": "gold",
-              "signature": 200159,
-              "version": "8.3.0.120272"
+              "version": "8.3.0.120272",
+              "signature": 200159
             },
             {
               "certification": "gold",
-              "signature": 200159,
-              "version": "8.4.0.123266"
+              "version": "8.4.0.123266",
+              "signature": 200159
             },
             {
               "certification": "gold",
-              "signature": 200159,
-              "version": "8.5.0.125392"
+              "version": "8.5.0.125392",
+              "signature": 200159
             },
             {
               "certification": "gold",
-              "signature": 200159,
-              "version": "8.6.0.127566"
+              "version": "8.6.0.127566",
+              "signature": 200159
             },
             {
               "certification": "gold",
-              "signature": 200159,
-              "version": "8.7.0.131113"
+              "version": "8.7.0.131113",
+              "signature": 200159
             },
             {
               "certification": "gold",
-              "signature": 200159,
-              "version": "8.8.0.133595"
+              "version": "8.8.0.133595",
+              "signature": 200159
             },
             {
               "certification": "gold",
-              "signature": 200159,
-              "version": "9.0.0.140013"
+              "version": "9.0.0.140013",
+              "signature": 200159
             }
           ],
           "labels": [],
@@ -33585,7 +33767,6 @@ SUPPORT_CHARTS = {
                   "name": "ANTIMALWARE"
                 }
               },
-              "sig_name": "Cortex",
               "methods": {
                 "manageability": {
                   "100": {
@@ -34010,7 +34191,8 @@ SUPPORT_CHARTS = {
                     "name": "GetComponents"
                   }
                 }
-              }
+              },
+              "sig_name": "Cortex"
             }
           }
         },
@@ -34018,20 +34200,20 @@ SUPPORT_CHARTS = {
           "id": 200168,
           "tested_points": [
             {
-              "signature": 200185,
-              "version": "101.08.40"
+              "version": "101.08.40",
+              "signature": 200185
             },
             {
-              "signature": 200185,
-              "version": "101.25.09"
+              "version": "101.25.09",
+              "signature": 200185
             },
             {
-              "signature": 200185,
-              "version": "101.68.80"
+              "version": "101.68.80",
+              "signature": 200185
             },
             {
-              "signature": 200185,
-              "version": "101.65.77"
+              "version": "101.65.77",
+              "signature": 200185
             }
           ],
           "labels": [],
@@ -34058,7 +34240,6 @@ SUPPORT_CHARTS = {
                   "name": "ANTIMALWARE"
                 }
               },
-              "sig_name": "Microsoft Defender ATP",
               "methods": {
                 "manageability": {
                   "1000": {
@@ -34498,7 +34679,8 @@ SUPPORT_CHARTS = {
                     "name": "TerminateProcesses"
                   }
                 }
-              }
+              },
+              "sig_name": "Microsoft Defender ATP"
             }
           }
         },
@@ -34507,73 +34689,73 @@ SUPPORT_CHARTS = {
           "tested_points": [
             {
               "certification": "gold",
-              "signature": 200195,
-              "version": "7.13.0"
+              "version": "7.13.0",
+              "signature": 200195
             },
             {
               "certification": "gold",
-              "signature": 200195,
-              "version": "7.13.2"
+              "version": "7.13.2",
+              "signature": 200195
             },
             {
               "certification": "gold",
-              "signature": 200195,
-              "version": "7.13.3"
+              "version": "7.13.3",
+              "signature": 200195
             },
             {
               "certification": "gold",
-              "signature": 200195,
-              "version": "7.13.1"
+              "version": "7.13.1",
+              "signature": 200195
             },
             {
               "certification": "gold",
-              "signature": 200195,
-              "version": "7.14.0"
+              "version": "7.14.0",
+              "signature": 200195
             },
             {
               "certification": "gold",
-              "signature": 200195,
-              "version": "8.2.2"
+              "version": "8.2.2",
+              "signature": 200195
             },
             {
               "certification": "gold",
-              "signature": 200195,
-              "version": "8.6.1"
+              "version": "8.6.1",
+              "signature": 200195
             },
             {
               "certification": "gold",
-              "signature": 200195,
-              "version": "8.4.1"
+              "version": "8.4.1",
+              "signature": 200195
             },
             {
               "certification": "gold",
-              "signature": 200195,
-              "version": "8.5.0"
+              "version": "8.5.0",
+              "signature": 200195
             },
             {
               "certification": "gold",
-              "signature": 200195,
-              "version": "8.7.0"
+              "version": "8.7.0",
+              "signature": 200195
             },
             {
               "certification": "gold",
-              "signature": 200195,
-              "version": "8.8.1"
+              "version": "8.8.1",
+              "signature": 200195
             },
             {
               "certification": "gold",
-              "signature": 200195,
-              "version": "8.9.0"
+              "version": "8.9.0",
+              "signature": 200195
             },
             {
               "certification": "gold",
-              "signature": 200195,
-              "version": "8.15.2"
+              "version": "8.15.2",
+              "signature": 200195
             },
             {
               "certification": "gold",
-              "signature": 200195,
-              "version": "9.1.2"
+              "version": "9.1.2",
+              "signature": 200195
             }
           ],
           "labels": [],
@@ -34600,7 +34782,6 @@ SUPPORT_CHARTS = {
                   "name": "ANTIMALWARE"
                 }
               },
-              "sig_name": "Elastic Agent",
               "methods": {
                 "manageability": {
                   "100": {
@@ -34855,7 +35036,8 @@ SUPPORT_CHARTS = {
                     "name": "GetInstallationDirectories"
                   }
                 }
-              }
+              },
+              "sig_name": "Elastic Agent"
             }
           }
         },
@@ -34864,8 +35046,8 @@ SUPPORT_CHARTS = {
           "tested_points": [
             {
               "certification": "gold",
-              "signature": 200196,
-              "version": "4.3.7"
+              "version": "4.3.7",
+              "signature": 200196
             }
           ],
           "labels": [],
@@ -34888,7 +35070,6 @@ SUPPORT_CHARTS = {
                   "name": "ANTIMALWARE"
                 }
               },
-              "sig_name": "CynetEPS",
               "methods": {
                 "manageability": {
                   "1000": {
@@ -34994,7 +35175,8 @@ SUPPORT_CHARTS = {
                     "name": "GetDefinitionState"
                   }
                 }
-              }
+              },
+              "sig_name": "CynetEPS"
             }
           }
         },
@@ -35003,33 +35185,33 @@ SUPPORT_CHARTS = {
           "tested_points": [
             {
               "certification": "gold",
-              "signature": 200197,
-              "version": "21.1.204"
+              "version": "21.1.204",
+              "signature": 200197
             },
             {
               "certification": "gold",
-              "signature": 200197,
-              "version": "21.2.270"
+              "version": "21.2.270",
+              "signature": 200197
             },
             {
               "certification": "gold",
-              "signature": 200197,
-              "version": "22.1.27"
+              "version": "22.1.27",
+              "signature": 200197
             },
             {
               "certification": "gold",
-              "signature": 200197,
-              "version": "23.1.44"
+              "version": "23.1.44",
+              "signature": 200197
             },
             {
               "certification": "gold",
-              "signature": 200197,
-              "version": "23.2.67.0"
+              "version": "23.2.67.0",
+              "signature": 200197
             },
             {
               "certification": "gold",
-              "signature": 200197,
-              "version": "24.1.81.0"
+              "version": "24.1.81.0",
+              "signature": 200197
             }
           ],
           "labels": [],
@@ -35052,7 +35234,6 @@ SUPPORT_CHARTS = {
                   "name": "ANTIMALWARE"
                 }
               },
-              "sig_name": "Cybereason ActiveProbe Antimalware",
               "methods": {
                 "manageability": {
                   "1000": {
@@ -35158,7 +35339,8 @@ SUPPORT_CHARTS = {
                     "name": "GetDefinitionState"
                   }
                 }
-              }
+              },
+              "sig_name": "Cybereason ActiveProbe Antimalware"
             }
           }
         },
@@ -35167,23 +35349,23 @@ SUPPORT_CHARTS = {
           "tested_points": [
             {
               "certification": "gold",
-              "signature": 200198,
-              "version": "1.16.2"
+              "version": "1.16.2",
+              "signature": 200198
             },
             {
               "certification": "gold",
-              "signature": 200198,
-              "version": "1.19.1"
+              "version": "1.19.1",
+              "signature": 200198
             },
             {
               "certification": "gold",
-              "signature": 200198,
-              "version": "1.23.0"
+              "version": "1.23.0",
+              "signature": 200198
             },
             {
               "certification": "gold",
-              "signature": 200198,
-              "version": "1.24.0.999"
+              "version": "1.24.0.999",
+              "signature": 200198
             }
           ],
           "labels": [],
@@ -35206,7 +35388,6 @@ SUPPORT_CHARTS = {
                   "name": "ANTIMALWARE"
                 }
               },
-              "sig_name": "Cisco Secure Endpoint Connector",
               "methods": {
                 "manageability": {
                   "1000": {
@@ -35385,7 +35566,8 @@ SUPPORT_CHARTS = {
                     "name": "TerminateProcesses"
                   }
                 }
-              }
+              },
+              "sig_name": "Cisco Secure Endpoint Connector"
             }
           }
         },
@@ -35393,40 +35575,40 @@ SUPPORT_CHARTS = {
           "id": 200180,
           "tested_points": [
             {
-              "signature": 200199,
-              "version": "0.104.2"
+              "version": "0.104.2",
+              "signature": 200199
             },
             {
-              "signature": 200199,
-              "version": "0.105.1"
+              "version": "0.105.1",
+              "signature": 200199
             },
             {
-              "signature": 200199,
-              "version": "0.103.8"
+              "version": "0.103.8",
+              "signature": 200199
             },
             {
-              "signature": 200199,
-              "version": "0.103.5"
+              "version": "0.103.5",
+              "signature": 200199
             },
             {
-              "signature": 200199,
-              "version": "0.103.9"
+              "version": "0.103.9",
+              "signature": 200199
             },
             {
-              "signature": 200199,
-              "version": "1.0.2"
+              "version": "1.0.2",
+              "signature": 200199
             },
             {
-              "signature": 200199,
-              "version": "1.4.1"
+              "version": "1.4.1",
+              "signature": 200199
             },
             {
-              "signature": 200199,
-              "version": "1.0.7"
+              "version": "1.0.7",
+              "signature": 200199
             },
             {
-              "signature": 200199,
-              "version": "1.4.3"
+              "version": "1.4.3",
+              "signature": 200199
             }
           ],
           "labels": [],
@@ -35449,7 +35631,6 @@ SUPPORT_CHARTS = {
                   "name": "ANTIMALWARE"
                 }
               },
-              "sig_name": "ClamAV",
               "methods": {
                 "manageability": {
                   "100": {
@@ -35711,7 +35892,8 @@ SUPPORT_CHARTS = {
                     "name": "GetInstallationDirectories"
                   }
                 }
-              }
+              },
+              "sig_name": "ClamAV"
             }
           }
         },
@@ -35719,12 +35901,12 @@ SUPPORT_CHARTS = {
           "id": 200186,
           "tested_points": [
             {
-              "signature": 200205,
-              "version": "1.2.1.3"
+              "version": "1.2.1.3",
+              "signature": 200205
             },
             {
-              "signature": 200205,
-              "version": "2025.1.0.59"
+              "version": "2025.1.0.59",
+              "signature": 200205
             }
           ],
           "labels": [],
@@ -35747,7 +35929,6 @@ SUPPORT_CHARTS = {
                   "name": "ANTIMALWARE"
                 }
               },
-              "sig_name": "Sophos Protection",
               "methods": {
                 "manageability": {
                   "100": {
@@ -36153,7 +36334,8 @@ SUPPORT_CHARTS = {
                     "name": "GetUninstallString"
                   }
                 }
-              }
+              },
+              "sig_name": "Sophos Protection"
             }
           }
         },
@@ -36161,16 +36343,16 @@ SUPPORT_CHARTS = {
           "id": 200188,
           "tested_points": [
             {
-              "signature": 200207,
-              "version": "1.12.00"
+              "version": "1.12.00",
+              "signature": 200207
             },
             {
-              "signature": 200207,
-              "version": "1.11.05"
+              "version": "1.11.05",
+              "signature": 200207
             },
             {
-              "signature": 200207,
-              "version": "03.03.00.0001"
+              "version": "03.03.00.0001",
+              "signature": 200207
             }
           ],
           "labels": [],
@@ -36197,7 +36379,6 @@ SUPPORT_CHARTS = {
                   "name": "FIREWALL"
                 }
               },
-              "sig_name": "WatchGuard Advanced EPDR",
               "methods": {
                 "manageability": {
                   "100": {
@@ -36370,7 +36551,8 @@ SUPPORT_CHARTS = {
                     "name": "GetDefinitionState"
                   }
                 }
-              }
+              },
+              "sig_name": "WatchGuard Advanced EPDR"
             }
           },
           "marketing_names": [
@@ -36383,13 +36565,13 @@ SUPPORT_CHARTS = {
           "tested_points": [
             {
               "certification": "platinum",
-              "signature": 200223,
-              "version": "7.0.5"
+              "version": "7.0.5",
+              "signature": 200223
             },
             {
               "certification": "platinum",
-              "signature": 200223,
-              "version": "7.0.5.410019"
+              "version": "7.0.5.410019",
+              "signature": 200223
             }
           ],
           "labels": [],
@@ -36412,7 +36594,6 @@ SUPPORT_CHARTS = {
                   "name": "ANTIMALWARE"
                 }
               },
-              "sig_name": "Qualys Endpoint Protection Platform",
               "methods": {
                 "constant": {
                   "103": {
@@ -36755,7 +36936,8 @@ SUPPORT_CHARTS = {
                     "name": "Run"
                   }
                 }
-              }
+              },
+              "sig_name": "Qualys Endpoint Protection Platform"
             }
           }
         },
@@ -36763,8 +36945,8 @@ SUPPORT_CHARTS = {
           "id": 200212,
           "tested_points": [
             {
-              "signature": 200231,
-              "version": "0.0"
+              "version": "0.0",
+              "signature": 200231
             }
           ],
           "labels": [],
@@ -36787,8 +36969,8 @@ SUPPORT_CHARTS = {
                   "name": "ANTIMALWARE"
                 }
               },
-              "sig_name": "Seqrite Endpoint Protection",
-              "methods": {}
+              "methods": {},
+              "sig_name": "Seqrite Endpoint Protection"
             }
           }
         },
@@ -36797,8 +36979,8 @@ SUPPORT_CHARTS = {
           "tested_points": [
             {
               "certification": "gold",
-              "signature": 200232,
-              "version": "3.17.0.2673"
+              "version": "3.17.0.2673",
+              "signature": 200232
             }
           ],
           "labels": [],
@@ -36821,7 +37003,6 @@ SUPPORT_CHARTS = {
                   "name": "ANTIMALWARE"
                 }
               },
-              "sig_name": "Datto EDR Agent",
               "methods": {
                 "constant": {
                   "102": {
@@ -37058,7 +37239,8 @@ SUPPORT_CHARTS = {
                     "name": "GetInstallationDirectories"
                   }
                 }
-              }
+              },
+              "sig_name": "Datto EDR Agent"
             }
           }
         },
@@ -37066,8 +37248,8 @@ SUPPORT_CHARTS = {
           "id": 200227,
           "tested_points": [
             {
-              "signature": 200246,
-              "version": "03.08.00.0001"
+              "version": "03.08.00.0001",
+              "signature": 200246
             }
           ],
           "labels": [],
@@ -37094,7 +37276,6 @@ SUPPORT_CHARTS = {
                   "name": "FIREWALL"
                 }
               },
-              "sig_name": "WatchGuard Endpoint Security Elite",
               "methods": {
                 "constant": {
                   "102": {
@@ -37283,7 +37464,8 @@ SUPPORT_CHARTS = {
                     "name": "GetDefinitionState"
                   }
                 }
-              }
+              },
+              "sig_name": "WatchGuard Endpoint Security Elite"
             }
           }
         }
@@ -37303,196 +37485,196 @@ SUPPORT_CHARTS = {
           "id": 200001,
           "tested_points": [
             {
-              "signature": 200002,
-              "version": "33.0"
+              "version": "33.0",
+              "signature": 200002
             },
             {
-              "signature": 200002,
-              "version": "34.0"
+              "version": "34.0",
+              "signature": 200002
             },
             {
-              "signature": 200002,
-              "version": "35.0"
+              "version": "35.0",
+              "signature": 200002
             },
             {
-              "signature": 200002,
-              "version": "36.0"
+              "version": "36.0",
+              "signature": 200002
             },
             {
-              "signature": 200002,
-              "version": "37.0"
+              "version": "37.0",
+              "signature": 200002
             },
             {
-              "signature": 200002,
-              "version": "38.0"
+              "version": "38.0",
+              "signature": 200002
             },
             {
-              "signature": 200002,
-              "version": "39.0"
+              "version": "39.0",
+              "signature": 200002
             },
             {
-              "signature": 200002,
-              "version": "40.0"
+              "version": "40.0",
+              "signature": 200002
             },
             {
-              "signature": 200002,
-              "version": "41.0"
+              "version": "41.0",
+              "signature": 200002
             },
             {
-              "signature": 200002,
-              "version": "100.0.4896.75"
+              "version": "100.0.4896.75",
+              "signature": 200002
             },
             {
-              "signature": 200002,
-              "version": "110.0.5481.177"
+              "version": "110.0.5481.177",
+              "signature": 200002
             },
             {
-              "signature": 200002,
-              "version": "111.0.5563.64"
+              "version": "111.0.5563.64",
+              "signature": 200002
             },
             {
-              "signature": 200002,
-              "version": "123.0.6312.58"
+              "version": "123.0.6312.58",
+              "signature": 200002
             },
             {
-              "signature": 200002,
-              "version": "124.0.6367.155"
+              "version": "124.0.6367.155",
+              "signature": 200002
             },
             {
-              "signature": 200002,
-              "version": "125.0.6422.60"
+              "version": "125.0.6422.60",
+              "signature": 200002
             },
             {
-              "signature": 200002,
-              "version": "125.0.6422.112"
+              "version": "125.0.6422.112",
+              "signature": 200002
             },
             {
-              "signature": 200002,
-              "version": "126.0.6478.55"
+              "version": "126.0.6478.55",
+              "signature": 200002
             },
             {
-              "signature": 200002,
-              "version": "126.0.6478.182"
+              "version": "126.0.6478.182",
+              "signature": 200002
             },
             {
-              "signature": 200002,
-              "version": "127.0.6533.72"
+              "version": "127.0.6533.72",
+              "signature": 200002
             },
             {
-              "signature": 200002,
-              "version": "128.0.6613.84"
+              "version": "128.0.6613.84",
+              "signature": 200002
             },
             {
-              "signature": 200002,
-              "version": "129.0.6668.58"
+              "version": "129.0.6668.58",
+              "signature": 200002
             },
             {
-              "signature": 200002,
-              "version": "130.0.6723.58"
+              "version": "130.0.6723.58",
+              "signature": 200002
             },
             {
-              "signature": 200002,
-              "version": "131.0.6778.69"
+              "version": "131.0.6778.69",
+              "signature": 200002
             },
             {
-              "signature": 200002,
-              "version": "132.0.6834.83"
+              "version": "132.0.6834.83",
+              "signature": 200002
             },
             {
-              "signature": 200002,
-              "version": "133.0.6943.53"
+              "version": "133.0.6943.53",
+              "signature": 200002
             },
             {
-              "signature": 200002,
-              "version": "134.0.6998.35"
+              "version": "134.0.6998.35",
+              "signature": 200002
             },
             {
-              "signature": 200002,
-              "version": "135.0.7049.52"
+              "version": "135.0.7049.52",
+              "signature": 200002
             },
             {
-              "signature": 200002,
-              "version": "136.0.7103.59"
+              "version": "136.0.7103.59",
+              "signature": 200002
             },
             {
-              "signature": 200002,
-              "version": "136.0.7103.113"
+              "version": "136.0.7103.113",
+              "signature": 200002
             },
             {
-              "signature": 200002,
-              "version": "137.0.7151.55"
+              "version": "137.0.7151.55",
+              "signature": 200002
             },
             {
-              "signature": 200002,
-              "version": "138.0.7204.49"
+              "version": "138.0.7204.49",
+              "signature": 200002
             },
             {
-              "signature": 200002,
-              "version": "139.0.7258.66"
+              "version": "139.0.7258.66",
+              "signature": 200002
             },
             {
-              "signature": 200002,
-              "version": "140.0.7339.80"
+              "version": "140.0.7339.80",
+              "signature": 200002
             },
             {
-              "signature": 200002,
-              "version": "141.0.7390.54"
+              "version": "141.0.7390.54",
+              "signature": 200002
             },
             {
-              "signature": 200002,
-              "version": "142.0.7444.59"
+              "version": "142.0.7444.59",
+              "signature": 200002
             },
             {
-              "signature": 200002,
-              "version": "143.0.7499.169"
+              "version": "143.0.7499.169",
+              "signature": 200002
             },
             {
-              "signature": 200002,
-              "version": "143.0.7499.192"
+              "version": "143.0.7499.192",
+              "signature": 200002
             },
             {
-              "signature": 200002,
-              "version": "144.0.7559.59"
+              "version": "144.0.7559.59",
+              "signature": 200002
             },
             {
-              "signature": 200002,
-              "version": "144.0.7559.96"
+              "version": "144.0.7559.96",
+              "signature": 200002
             },
             {
-              "signature": 200002,
-              "version": "144.0.7559.109"
+              "version": "144.0.7559.109",
+              "signature": 200002
             },
             {
-              "signature": 200002,
-              "version": "145.0.7632.45"
+              "version": "145.0.7632.45",
+              "signature": 200002
             },
             {
-              "signature": 200002,
-              "version": "145.0.7632.67"
+              "version": "145.0.7632.67",
+              "signature": 200002
             },
             {
-              "signature": 200002,
-              "version": "146.0.7680.164"
+              "version": "146.0.7680.164",
+              "signature": 200002
             },
             {
-              "signature": 200002,
-              "version": "145.0.7632.116"
+              "version": "145.0.7632.116",
+              "signature": 200002
             },
             {
-              "signature": 200002,
-              "version": "147.0.7727.55"
+              "version": "147.0.7727.55",
+              "signature": 200002
             },
             {
-              "signature": 200002,
-              "version": "147.0.7727.101"
+              "version": "147.0.7727.101",
+              "signature": 200002
             },
             {
-              "signature": 200002,
-              "version": "148.0.7778.96"
+              "version": "148.0.7778.96",
+              "signature": 200002
             },
             {
-              "signature": 200002,
-              "version": "149.0.7827.53"
+              "version": "149.0.7827.53",
+              "signature": 200002
             }
           ],
           "labels": [],
@@ -37519,7 +37701,6 @@ SUPPORT_CHARTS = {
                   "name": "BROWSER"
                 }
               },
-              "sig_name": "Google Chrome",
               "methods": {
                 "manageability": {
                   "100": {
@@ -37623,7 +37804,8 @@ SUPPORT_CHARTS = {
                     "name": "Run"
                   }
                 }
-              }
+              },
+              "sig_name": "Google Chrome"
             }
           }
         },
@@ -37631,348 +37813,352 @@ SUPPORT_CHARTS = {
           "id": 200002,
           "tested_points": [
             {
-              "signature": 200003,
-              "version": "1.5.0"
+              "version": "1.5.0",
+              "signature": 200003
             },
             {
-              "signature": 200003,
-              "version": "2.0"
+              "version": "2.0",
+              "signature": 200003
             },
             {
-              "signature": 200003,
-              "version": "3.0"
+              "version": "3.0",
+              "signature": 200003
             },
             {
-              "signature": 200003,
-              "version": "32.0"
+              "version": "32.0",
+              "signature": 200003
             },
             {
-              "signature": 200003,
-              "version": "34.0"
+              "version": "34.0",
+              "signature": 200003
             },
             {
-              "signature": 200003,
-              "version": "35.0"
+              "version": "35.0",
+              "signature": 200003
             },
             {
-              "signature": 200003,
-              "version": "4.0"
+              "version": "4.0",
+              "signature": 200003
             },
             {
-              "signature": 200003,
-              "version": "38.0.5"
+              "version": "38.0.5",
+              "signature": 200003
             },
             {
-              "signature": 200003,
-              "version": "28.0"
+              "version": "28.0",
+              "signature": 200003
             },
             {
-              "signature": 200003,
-              "version": "52.2.0"
+              "version": "52.2.0",
+              "signature": 200003
             },
             {
-              "signature": 200003,
-              "version": "60.0"
+              "version": "60.0",
+              "signature": 200003
             },
             {
-              "signature": 200003,
-              "version": "73.0"
+              "version": "73.0",
+              "signature": 200003
             },
             {
-              "signature": 200003,
-              "version": "110.0.1"
+              "version": "110.0.1",
+              "signature": 200003
             },
             {
-              "signature": 200003,
-              "version": "111.0.1"
+              "version": "111.0.1",
+              "signature": 200003
             },
             {
-              "signature": 200003,
-              "version": "113.0"
+              "version": "113.0",
+              "signature": 200003
             },
             {
-              "signature": 200003,
-              "version": "112.0"
+              "version": "112.0",
+              "signature": 200003
             },
             {
-              "signature": 200003,
-              "version": "102.10.0"
+              "version": "102.10.0",
+              "signature": 200003
             },
             {
-              "signature": 200003,
-              "version": "113.0.1"
+              "version": "113.0.1",
+              "signature": 200003
             },
             {
-              "signature": 200003,
-              "version": "116.0"
+              "version": "116.0",
+              "signature": 200003
             },
             {
-              "signature": 200003,
-              "version": "117.0"
+              "version": "117.0",
+              "signature": 200003
             },
             {
-              "signature": 200003,
-              "version": "79.0"
+              "version": "79.0",
+              "signature": 200003
             },
             {
-              "signature": 200003,
-              "version": "124.0.2"
+              "version": "124.0.2",
+              "signature": 200003
             },
             {
-              "signature": 200003,
-              "version": "125.0"
+              "version": "125.0",
+              "signature": 200003
             },
             {
-              "signature": 200003,
-              "version": "125.0.3"
+              "version": "125.0.3",
+              "signature": 200003
             },
             {
-              "signature": 200003,
-              "version": "126.0"
+              "version": "126.0",
+              "signature": 200003
             },
             {
-              "signature": 200003,
-              "version": "126.0.1"
+              "version": "126.0.1",
+              "signature": 200003
             },
             {
-              "signature": 200003,
-              "version": "127.0"
+              "version": "127.0",
+              "signature": 200003
             },
             {
-              "signature": 200003,
-              "version": "127.0.1"
+              "version": "127.0.1",
+              "signature": 200003
             },
             {
-              "signature": 200003,
-              "version": "127.0.2"
+              "version": "127.0.2",
+              "signature": 200003
             },
             {
-              "signature": 200003,
-              "version": "128.0"
+              "version": "128.0",
+              "signature": 200003
             },
             {
-              "signature": 200003,
-              "version": "128.0.3"
+              "version": "128.0.3",
+              "signature": 200003
             },
             {
-              "signature": 200003,
-              "version": "129.0.1"
+              "version": "129.0.1",
+              "signature": 200003
             },
             {
-              "signature": 200003,
-              "version": "129.0.2"
+              "version": "129.0.2",
+              "signature": 200003
             },
             {
-              "signature": 200003,
-              "version": "130.0"
+              "version": "130.0",
+              "signature": 200003
             },
             {
-              "signature": 200003,
-              "version": "130.0.1"
+              "version": "130.0.1",
+              "signature": 200003
             },
             {
-              "signature": 200003,
-              "version": "131.0"
+              "version": "131.0",
+              "signature": 200003
             },
             {
-              "signature": 200003,
-              "version": "131.0.2"
+              "version": "131.0.2",
+              "signature": 200003
             },
             {
-              "signature": 200003,
-              "version": "131.0.3"
+              "version": "131.0.3",
+              "signature": 200003
             },
             {
-              "signature": 200003,
-              "version": "132.0"
+              "version": "132.0",
+              "signature": 200003
             },
             {
-              "signature": 200003,
-              "version": "132.0.1"
+              "version": "132.0.1",
+              "signature": 200003
             },
             {
-              "signature": 200003,
-              "version": "132.0.2"
+              "version": "132.0.2",
+              "signature": 200003
             },
             {
-              "signature": 200003,
-              "version": "133.0"
+              "version": "133.0",
+              "signature": 200003
             },
             {
-              "signature": 200003,
-              "version": "133.0.3"
+              "version": "133.0.3",
+              "signature": 200003
             },
             {
-              "signature": 200003,
-              "version": "134.0"
+              "version": "134.0",
+              "signature": 200003
             },
             {
-              "signature": 200003,
-              "version": "134.0.1"
+              "version": "134.0.1",
+              "signature": 200003
             },
             {
-              "signature": 200003,
-              "version": "134.0.2"
+              "version": "134.0.2",
+              "signature": 200003
             },
             {
-              "signature": 200003,
-              "version": "135.0"
+              "version": "135.0",
+              "signature": 200003
             },
             {
-              "signature": 200003,
-              "version": "135.0.1"
+              "version": "135.0.1",
+              "signature": 200003
             },
             {
-              "signature": 200003,
-              "version": "136.0"
+              "version": "136.0",
+              "signature": 200003
             },
             {
-              "signature": 200003,
-              "version": "136.0.1"
+              "version": "136.0.1",
+              "signature": 200003
             },
             {
-              "signature": 200003,
-              "version": "136.0.2"
+              "version": "136.0.2",
+              "signature": 200003
             },
             {
-              "signature": 200003,
-              "version": "136.0.3"
+              "version": "136.0.3",
+              "signature": 200003
             },
             {
-              "signature": 200003,
-              "version": "136.0.4"
+              "version": "136.0.4",
+              "signature": 200003
             },
             {
-              "signature": 200003,
-              "version": "137.0"
+              "version": "137.0",
+              "signature": 200003
             },
             {
-              "signature": 200003,
-              "version": "137.0.1"
+              "version": "137.0.1",
+              "signature": 200003
             },
             {
-              "signature": 200003,
-              "version": "137.0.2"
+              "version": "137.0.2",
+              "signature": 200003
             },
             {
-              "signature": 200003,
-              "version": "138.0"
+              "version": "138.0",
+              "signature": 200003
             },
             {
-              "signature": 200003,
-              "version": "138.0.1"
+              "version": "138.0.1",
+              "signature": 200003
             },
             {
-              "signature": 200003,
-              "version": "138.0.3"
+              "version": "138.0.3",
+              "signature": 200003
             },
             {
-              "signature": 200003,
-              "version": "138.0.4"
+              "version": "138.0.4",
+              "signature": 200003
             },
             {
-              "signature": 200003,
-              "version": "139.0"
+              "version": "139.0",
+              "signature": 200003
             },
             {
-              "signature": 200003,
-              "version": "140.0"
+              "version": "140.0",
+              "signature": 200003
             },
             {
-              "signature": 200003,
-              "version": "141.0"
+              "version": "141.0",
+              "signature": 200003
             },
             {
-              "signature": 200003,
-              "version": "141.0.2"
+              "version": "141.0.2",
+              "signature": 200003
             },
             {
-              "signature": 200003,
-              "version": "142.0"
+              "version": "142.0",
+              "signature": 200003
             },
             {
-              "signature": 200003,
-              "version": "143.0"
+              "version": "143.0",
+              "signature": 200003
             },
             {
-              "signature": 200003,
-              "version": "143.0.1"
+              "version": "143.0.1",
+              "signature": 200003
             },
             {
-              "signature": 200003,
-              "version": "143.0.3"
+              "version": "143.0.3",
+              "signature": 200003
             },
             {
-              "signature": 200003,
-              "version": "144.0"
+              "version": "144.0",
+              "signature": 200003
             },
             {
-              "signature": 200003,
-              "version": "144.0.2"
+              "version": "144.0.2",
+              "signature": 200003
             },
             {
-              "signature": 200003,
-              "version": "145.0"
+              "version": "145.0",
+              "signature": 200003
             },
             {
-              "signature": 200003,
-              "version": "145.0.1"
+              "version": "145.0.1",
+              "signature": 200003
             },
             {
-              "signature": 200003,
-              "version": "145.0.2"
+              "version": "145.0.2",
+              "signature": 200003
             },
             {
-              "signature": 200003,
-              "version": "146.0"
+              "version": "146.0",
+              "signature": 200003
             },
             {
-              "signature": 200003,
-              "version": "147.0.1"
+              "version": "147.0.1",
+              "signature": 200003
             },
             {
-              "signature": 200003,
-              "version": "147.0.2"
+              "version": "147.0.2",
+              "signature": 200003
             },
             {
-              "signature": 200003,
-              "version": "147.0.3"
+              "version": "147.0.3",
+              "signature": 200003
             },
             {
-              "signature": 200003,
-              "version": "149.0"
+              "version": "149.0",
+              "signature": 200003
             },
             {
-              "signature": 200003,
-              "version": "150.0"
+              "version": "150.0",
+              "signature": 200003
             },
             {
-              "signature": 200003,
-              "version": "149.0.2"
+              "version": "149.0.2",
+              "signature": 200003
             },
             {
-              "signature": 200003,
-              "version": "150.0.2"
+              "version": "150.0.2",
+              "signature": 200003
             },
             {
-              "signature": 200003,
-              "version": "150.0.3"
+              "version": "150.0.3",
+              "signature": 200003
             },
             {
-              "signature": 200003,
-              "version": "151.0.0"
+              "version": "151.0.0",
+              "signature": 200003
             },
             {
-              "signature": 200003,
-              "version": "151.0.1"
+              "version": "151.0.1",
+              "signature": 200003
             },
             {
-              "signature": 200003,
-              "version": "151.0.2"
+              "version": "151.0.2",
+              "signature": 200003
             },
             {
-              "signature": 200003,
-              "version": "151.0.3"
+              "version": "151.0.3",
+              "signature": 200003
+            },
+            {
+              "version": "151.0.4",
+              "signature": 200003
             }
           ],
           "labels": [],
@@ -37999,7 +38185,6 @@ SUPPORT_CHARTS = {
                   "name": "BROWSER"
                 }
               },
-              "sig_name": "Mozilla Firefox",
               "methods": {
                 "manageability": {
                   "100": {
@@ -38173,7 +38358,8 @@ SUPPORT_CHARTS = {
                     "name": "GetInstallationDirectories"
                   }
                 }
-              }
+              },
+              "sig_name": "Mozilla Firefox"
             }
           }
         },
@@ -38181,12 +38367,12 @@ SUPPORT_CHARTS = {
           "id": 200003,
           "tested_points": [
             {
-              "signature": 200004,
-              "version": "11.0"
+              "version": "11.0",
+              "signature": 200004
             },
             {
-              "signature": 200004,
-              "version": "12.0"
+              "version": "12.0",
+              "signature": 200004
             }
           ],
           "labels": [],
@@ -38209,7 +38395,6 @@ SUPPORT_CHARTS = {
                   "name": "BROWSER"
                 }
               },
-              "sig_name": "Opera",
               "methods": {
                 "manageability": {
                   "100": {
@@ -38306,7 +38491,8 @@ SUPPORT_CHARTS = {
                     "name": "TerminateProcesses"
                   }
                 }
-              }
+              },
+              "sig_name": "Opera"
             }
           }
         },
@@ -38314,12 +38500,12 @@ SUPPORT_CHARTS = {
           "id": 200097,
           "tested_points": [
             {
-              "signature": 200097,
-              "version": "2.53.2"
+              "version": "2.53.2",
+              "signature": 200097
             },
             {
-              "signature": 200100,
-              "version": "0.0"
+              "version": "0.0",
+              "signature": 200100
             }
           ],
           "labels": [],
@@ -38342,7 +38528,6 @@ SUPPORT_CHARTS = {
                   "name": "BROWSER"
                 }
               },
-              "sig_name": "Seamonkey",
               "methods": {
                 "manageability": {
                   "100": {
@@ -38399,7 +38584,8 @@ SUPPORT_CHARTS = {
                     "name": "Run"
                   }
                 }
-              }
+              },
+              "sig_name": "Seamonkey"
             },
             "200100": {
               "signature": 200100,
@@ -38417,7 +38603,6 @@ SUPPORT_CHARTS = {
                   "name": "BROWSER"
                 }
               },
-              "sig_name": "Seamonkey",
               "methods": {
                 "manageability": {
                   "100": {
@@ -38474,7 +38659,8 @@ SUPPORT_CHARTS = {
                     "name": "Run"
                   }
                 }
-              }
+              },
+              "sig_name": "Seamonkey"
             }
           }
         },
@@ -38482,80 +38668,84 @@ SUPPORT_CHARTS = {
           "id": 200137,
           "tested_points": [
             {
-              "signature": 200146,
-              "version": "68.9.0"
+              "version": "68.9.0",
+              "signature": 200146
             },
             {
-              "signature": 200146,
-              "version": "115.14.0"
+              "version": "115.14.0",
+              "signature": 200146
             },
             {
-              "signature": 200146,
-              "version": "128.1.0"
+              "version": "128.1.0",
+              "signature": 200146
             },
             {
-              "signature": 200146,
-              "version": "115.15.0"
+              "version": "115.15.0",
+              "signature": 200146
             },
             {
-              "signature": 200146,
-              "version": "128.2.0"
+              "version": "128.2.0",
+              "signature": 200146
             },
             {
-              "signature": 200146,
-              "version": "102.3.0"
+              "version": "102.3.0",
+              "signature": 200146
             },
             {
-              "signature": 200146,
-              "version": "128.3.0"
+              "version": "128.3.0",
+              "signature": 200146
             },
             {
-              "signature": 200146,
-              "version": "128.3.1"
+              "version": "128.3.1",
+              "signature": 200146
             },
             {
-              "signature": 200146,
-              "version": "128.4.0"
+              "version": "128.4.0",
+              "signature": 200146
             },
             {
-              "signature": 200146,
-              "version": "128.5.0"
+              "version": "128.5.0",
+              "signature": 200146
             },
             {
-              "signature": 200146,
-              "version": "128.5.1"
+              "version": "128.5.1",
+              "signature": 200146
             },
             {
-              "signature": 200146,
-              "version": "128.6.0"
+              "version": "128.6.0",
+              "signature": 200146
             },
             {
-              "signature": 200146,
-              "version": "128.7.0"
+              "version": "128.7.0",
+              "signature": 200146
             },
             {
-              "signature": 200146,
-              "version": "128.8.0"
+              "version": "128.8.0",
+              "signature": 200146
             },
             {
-              "signature": 200146,
-              "version": "128.8.1"
+              "version": "128.8.1",
+              "signature": 200146
             },
             {
-              "signature": 200146,
-              "version": "128.9.0"
+              "version": "128.9.0",
+              "signature": 200146
             },
             {
-              "signature": 200146,
-              "version": "128.10.0"
+              "version": "128.10.0",
+              "signature": 200146
             },
             {
-              "signature": 200146,
-              "version": "140.3.0"
+              "version": "140.3.0",
+              "signature": 200146
             },
             {
-              "signature": 200146,
-              "version": "128.14.0"
+              "version": "128.14.0",
+              "signature": 200146
+            },
+            {
+              "version": "140.11.0",
+              "signature": 200146
             }
           ],
           "labels": [],
@@ -38582,7 +38772,6 @@ SUPPORT_CHARTS = {
                   "name": "BROWSER"
                 }
               },
-              "sig_name": "Mozilla Firefox ESR",
               "methods": {
                 "manageability": {
                   "100": {
@@ -38864,7 +39053,8 @@ SUPPORT_CHARTS = {
                     "name": "GetPlugins"
                   }
                 }
-              }
+              },
+              "sig_name": "Mozilla Firefox ESR"
             }
           }
         }
@@ -38888,24 +39078,24 @@ SUPPORT_CHARTS = {
           "id": 200016,
           "tested_points": [
             {
-              "signature": 200017,
-              "version": "8.0"
+              "version": "8.0",
+              "signature": 200017
             },
             {
-              "signature": 200017,
-              "version": "11.1.0"
+              "version": "11.1.0",
+              "signature": 200017
             },
             {
-              "signature": 200017,
-              "version": "11.2.0"
+              "version": "11.2.0",
+              "signature": 200017
             },
             {
-              "signature": 200017,
-              "version": "12.0.0"
+              "version": "12.0.0",
+              "signature": 200017
             },
             {
-              "signature": 200017,
-              "version": "12.3.0"
+              "version": "12.3.0",
+              "signature": 200017
             }
           ],
           "labels": [],
@@ -38932,7 +39122,6 @@ SUPPORT_CHARTS = {
                   "name": "FIREWALL"
                 }
               },
-              "sig_name": "Kaspersky Endpoint Security for Linux",
               "methods": {
                 "manageability": {
                   "100": {
@@ -39439,7 +39628,8 @@ SUPPORT_CHARTS = {
                     "name": "TerminateProcesses"
                   }
                 }
-              }
+              },
+              "sig_name": "Kaspersky Endpoint Security for Linux"
             }
           }
         },
@@ -39447,24 +39637,24 @@ SUPPORT_CHARTS = {
           "id": 200033,
           "tested_points": [
             {
-              "signature": 200034,
-              "version": "1.0"
+              "version": "1.0",
+              "signature": 200034
             },
             {
-              "signature": 200034,
-              "version": "1.8.4"
+              "version": "1.8.4",
+              "signature": 200034
             },
             {
-              "signature": 200034,
-              "version": "1.8.7"
+              "version": "1.8.7",
+              "signature": 200034
             },
             {
-              "signature": 200034,
-              "version": "1.8.10"
+              "version": "1.8.10",
+              "signature": 200034
             },
             {
-              "signature": 200034,
-              "version": "1.8.11"
+              "version": "1.8.11",
+              "signature": 200034
             }
           ],
           "labels": [],
@@ -39487,7 +39677,6 @@ SUPPORT_CHARTS = {
                   "name": "FIREWALL"
                 }
               },
-              "sig_name": "IPTables",
               "methods": {
                 "manageability": {
                   "100": {
@@ -39629,7 +39818,8 @@ SUPPORT_CHARTS = {
                     "name": "GetInstallationDirectories"
                   }
                 }
-              }
+              },
+              "sig_name": "IPTables"
             }
           }
         },
@@ -39637,112 +39827,112 @@ SUPPORT_CHARTS = {
           "id": 200056,
           "tested_points": [
             {
-              "signature": 200057,
-              "version": "4.5.0"
+              "version": "4.5.0",
+              "signature": 200057
             },
             {
-              "signature": 200057,
-              "version": "5.11.0"
+              "version": "5.11.0",
+              "signature": 200057
             },
             {
-              "signature": 200057,
-              "version": "6.24.12103.0"
+              "version": "6.24.12103.0",
+              "signature": 200057
             },
             {
-              "signature": 200057,
-              "version": "6.28.12504.0"
+              "version": "6.28.12504.0",
+              "signature": 200057
             },
             {
-              "signature": 200057,
-              "version": "6.51.14810.0"
+              "version": "6.51.14810.0",
+              "signature": 200057
             },
             {
-              "signature": 200057,
-              "version": "6.37.13402.0"
+              "version": "6.37.13402.0",
+              "signature": 200057
             },
             {
-              "signature": 200057,
-              "version": "6.46.14306.0"
+              "version": "6.46.14306.0",
+              "signature": 200057
             },
             {
-              "signature": 200057,
-              "version": "6.48.14504.0"
+              "version": "6.48.14504.0",
+              "signature": 200057
             },
             {
-              "signature": 200057,
-              "version": "7.02.15705.0"
+              "version": "7.02.15705.0",
+              "signature": 200057
             },
             {
-              "signature": 200057,
-              "version": "7.11.16407.0"
+              "version": "7.11.16407.0",
+              "signature": 200057
             },
             {
-              "signature": 200057,
-              "version": "7.16.16903.0"
+              "version": "7.16.16903.0",
+              "signature": 200057
             },
             {
-              "signature": 200057,
-              "version": "7.17.17005.0"
+              "version": "7.17.17005.0",
+              "signature": 200057
             },
             {
-              "signature": 200057,
-              "version": "7.18.17106.0"
+              "version": "7.18.17106.0",
+              "signature": 200057
             },
             {
-              "signature": 200057,
-              "version": "7.20.17306.0"
+              "version": "7.20.17306.0",
+              "signature": 200057
             },
             {
-              "signature": 200057,
-              "version": "7.25.17804.0"
+              "version": "7.25.17804.0",
+              "signature": 200057
             },
             {
-              "signature": 200057,
-              "version": "7.26.17905.0"
+              "version": "7.26.17905.0",
+              "signature": 200057
             },
             {
-              "signature": 200057,
-              "version": "7.27.18003.0"
+              "version": "7.27.18003.0",
+              "signature": 200057
             },
             {
-              "signature": 200057,
-              "version": "7.28.18108.0"
+              "version": "7.28.18108.0",
+              "signature": 200057
             },
             {
-              "signature": 200057,
-              "version": "7.29.18202.0"
+              "version": "7.29.18202.0",
+              "signature": 200057
             },
             {
-              "signature": 200057,
-              "version": "7.30.18306.0"
+              "version": "7.30.18306.0",
+              "signature": 200057
             },
             {
-              "signature": 200057,
-              "version": "7.32.18504.0"
+              "version": "7.32.18504.0",
+              "signature": 200057
             },
             {
-              "signature": 200057,
-              "version": "7.33.18606.0"
+              "version": "7.33.18606.0",
+              "signature": 200057
             },
             {
-              "signature": 200057,
-              "version": "7.34.18708.0"
+              "version": "7.34.18708.0",
+              "signature": 200057
             },
             {
-              "signature": 200057,
-              "version": "7.35.18803.0"
+              "version": "7.35.18803.0",
+              "signature": 200057
             },
             {
-              "signature": 200057,
-              "version": "7.36.18909.0"
+              "version": "7.36.18909.0",
+              "signature": 200057
             },
             {
-              "signature": 200057,
-              "version": "7.37.19004.0"
+              "version": "7.37.19004.0",
+              "signature": 200057
             },
             {
-              "signature": 200057,
-              "version": "7.38.19102.0"
+              "version": "7.38.19102.0",
+              "signature": 200057
             }
           ],
           "labels": [],
@@ -39773,7 +39963,6 @@ SUPPORT_CHARTS = {
                   "name": "FIREWALL"
                 }
               },
-              "sig_name": "Crowdstrike Falcon",
               "methods": {
                 "manageability": {
                   "100": {
@@ -40241,7 +40430,8 @@ SUPPORT_CHARTS = {
                     "name": "GetComponents"
                   }
                 }
-              }
+              },
+              "sig_name": "Crowdstrike Falcon"
             }
           }
         },
@@ -40249,8 +40439,8 @@ SUPPORT_CHARTS = {
           "id": 200060,
           "tested_points": [
             {
-              "signature": 200061,
-              "version": "8.0.4"
+              "version": "8.0.4",
+              "signature": 200061
             }
           ],
           "labels": [],
@@ -40273,7 +40463,6 @@ SUPPORT_CHARTS = {
                   "name": "FIREWALL"
                 }
               },
-              "sig_name": "McAfee Firewall for Linux",
               "methods": {
                 "manageability": {
                   "100": {
@@ -40336,7 +40525,8 @@ SUPPORT_CHARTS = {
                     "name": "SetFirewallState"
                   }
                 }
-              }
+              },
+              "sig_name": "McAfee Firewall for Linux"
             }
           }
         },
@@ -40344,16 +40534,16 @@ SUPPORT_CHARTS = {
           "id": 200072,
           "tested_points": [
             {
-              "signature": 200073,
-              "version": "11.0.0"
+              "version": "11.0.0",
+              "signature": 200073
             },
             {
-              "signature": 200073,
-              "version": "12.0.0"
+              "version": "12.0.0",
+              "signature": 200073
             },
             {
-              "signature": 200073,
-              "version": "20.0.0"
+              "version": "20.0.0",
+              "signature": 200073
             }
           ],
           "labels": [],
@@ -40384,7 +40574,6 @@ SUPPORT_CHARTS = {
                   "name": "FIREWALL"
                 }
               },
-              "sig_name": "Trend Micro Deep Security Agent",
               "methods": {
                 "manageability": {
                   "100": {
@@ -40672,7 +40861,8 @@ SUPPORT_CHARTS = {
                     "name": "Scan"
                   }
                 }
-              }
+              },
+              "sig_name": "Trend Micro Deep Security Agent"
             }
           }
         },
@@ -40680,24 +40870,24 @@ SUPPORT_CHARTS = {
           "id": 200088,
           "tested_points": [
             {
-              "signature": 200089,
-              "version": "0.8.2"
+              "version": "0.8.2",
+              "signature": 200089
             },
             {
-              "signature": 200089,
-              "version": "1.0.0"
+              "version": "1.0.0",
+              "signature": 200089
             },
             {
-              "signature": 200089,
-              "version": "1.0.2"
+              "version": "1.0.2",
+              "signature": 200089
             },
             {
-              "signature": 200089,
-              "version": "1.0.9"
+              "version": "1.0.9",
+              "signature": 200089
             },
             {
-              "signature": 200089,
-              "version": "1.1.6"
+              "version": "1.1.6",
+              "signature": 200089
             }
           ],
           "labels": [],
@@ -40720,7 +40910,6 @@ SUPPORT_CHARTS = {
                   "name": "FIREWALL"
                 }
               },
-              "sig_name": "nftables",
               "methods": {
                 "manageability": {
                   "100": {
@@ -40799,7 +40988,8 @@ SUPPORT_CHARTS = {
                     "name": "TerminateProcesses"
                   }
                 }
-              }
+              },
+              "sig_name": "nftables"
             }
           }
         },
@@ -40807,12 +40997,12 @@ SUPPORT_CHARTS = {
           "id": 200105,
           "tested_points": [
             {
-              "signature": 200105,
-              "version": "2.00.06.0001"
+              "version": "2.00.06.0001",
+              "signature": 200105
             },
             {
-              "signature": 200105,
-              "version": "0"
+              "version": "0",
+              "signature": 200105
             }
           ],
           "labels": [],
@@ -40839,7 +41029,6 @@ SUPPORT_CHARTS = {
                   "name": "FIREWALL"
                 }
               },
-              "sig_name": "Cytomic EPDR",
               "methods": {
                 "manageability": {
                   "100": {
@@ -40986,7 +41175,8 @@ SUPPORT_CHARTS = {
                     "name": "GetDefinitionState"
                   }
                 }
-              }
+              },
+              "sig_name": "Cytomic EPDR"
             }
           }
         },
@@ -40994,44 +41184,48 @@ SUPPORT_CHARTS = {
           "id": 200182,
           "tested_points": [
             {
-              "signature": 200201,
-              "version": "0.8.4"
+              "version": "0.8.4",
+              "signature": 200201
             },
             {
-              "signature": 200201,
-              "version": "0.8.2"
+              "version": "0.8.2",
+              "signature": 200201
             },
             {
-              "signature": 200201,
-              "version": "0.4.4.6"
+              "version": "0.4.4.6",
+              "signature": 200201
             },
             {
-              "signature": 200201,
-              "version": "1.0.0"
+              "version": "1.0.0",
+              "signature": 200201
             },
             {
-              "signature": 200201,
-              "version": "1.1.1"
+              "version": "1.1.1",
+              "signature": 200201
             },
             {
-              "signature": 200201,
-              "version": "1.2.0"
+              "version": "1.2.0",
+              "signature": 200201
             },
             {
-              "signature": 200201,
-              "version": "1.3.4"
+              "version": "1.3.4",
+              "signature": 200201
             },
             {
-              "signature": 200201,
-              "version": "2.1.1"
+              "version": "2.1.1",
+              "signature": 200201
             },
             {
-              "signature": 200201,
-              "version": "0.9.11"
+              "version": "0.9.11",
+              "signature": 200201
             },
             {
-              "signature": 200201,
-              "version": "2.3.1"
+              "version": "2.3.1",
+              "signature": 200201
+            },
+            {
+              "version": "2.4.0",
+              "signature": 200201
             }
           ],
           "labels": [],
@@ -41054,7 +41248,6 @@ SUPPORT_CHARTS = {
                   "name": "FIREWALL"
                 }
               },
-              "sig_name": "Firewalld",
               "methods": {
                 "manageability": {
                   "100": {
@@ -41213,7 +41406,8 @@ SUPPORT_CHARTS = {
                     "name": "GetInstallationDirectories"
                   }
                 }
-              }
+              },
+              "sig_name": "Firewalld"
             }
           }
         },
@@ -41221,20 +41415,20 @@ SUPPORT_CHARTS = {
           "id": 200185,
           "tested_points": [
             {
-              "signature": 200204,
-              "version": "0.35"
+              "version": "0.35",
+              "signature": 200204
             },
             {
-              "signature": 200204,
-              "version": "0.36"
+              "version": "0.36",
+              "signature": 200204
             },
             {
-              "signature": 200204,
-              "version": "0.36.2"
+              "version": "0.36.2",
+              "signature": 200204
             },
             {
-              "signature": 200204,
-              "version": "0.36.1"
+              "version": "0.36.1",
+              "signature": 200204
             }
           ],
           "labels": [],
@@ -41257,7 +41451,6 @@ SUPPORT_CHARTS = {
                   "name": "FIREWALL"
                 }
               },
-              "sig_name": "UFW",
               "methods": {
                 "manageability": {
                   "100": {
@@ -41457,7 +41650,8 @@ SUPPORT_CHARTS = {
                     "name": "GetInstallationDirectories"
                   }
                 }
-              }
+              },
+              "sig_name": "UFW"
             }
           }
         },
@@ -41465,16 +41659,16 @@ SUPPORT_CHARTS = {
           "id": 200188,
           "tested_points": [
             {
-              "signature": 200207,
-              "version": "1.12.00"
+              "version": "1.12.00",
+              "signature": 200207
             },
             {
-              "signature": 200207,
-              "version": "1.11.05"
+              "version": "1.11.05",
+              "signature": 200207
             },
             {
-              "signature": 200207,
-              "version": "03.03.00.0001"
+              "version": "03.03.00.0001",
+              "signature": 200207
             }
           ],
           "labels": [],
@@ -41501,7 +41695,6 @@ SUPPORT_CHARTS = {
                   "name": "FIREWALL"
                 }
               },
-              "sig_name": "WatchGuard Advanced EPDR",
               "methods": {
                 "manageability": {
                   "100": {
@@ -41674,7 +41867,8 @@ SUPPORT_CHARTS = {
                     "name": "GetDefinitionState"
                   }
                 }
-              }
+              },
+              "sig_name": "WatchGuard Advanced EPDR"
             }
           },
           "marketing_names": [
@@ -41686,8 +41880,8 @@ SUPPORT_CHARTS = {
           "id": 200227,
           "tested_points": [
             {
-              "signature": 200246,
-              "version": "03.08.00.0001"
+              "version": "03.08.00.0001",
+              "signature": 200246
             }
           ],
           "labels": [],
@@ -41714,7 +41908,6 @@ SUPPORT_CHARTS = {
                   "name": "FIREWALL"
                 }
               },
-              "sig_name": "WatchGuard Endpoint Security Elite",
               "methods": {
                 "constant": {
                   "102": {
@@ -41903,7 +42096,8 @@ SUPPORT_CHARTS = {
                     "name": "GetDefinitionState"
                   }
                 }
-              }
+              },
+              "sig_name": "WatchGuard Endpoint Security Elite"
             }
           }
         }
@@ -41918,8 +42112,8 @@ SUPPORT_CHARTS = {
           "id": 200029,
           "tested_points": [
             {
-              "signature": 200030,
-              "version": "3.0"
+              "version": "3.0",
+              "signature": 200030
             }
           ],
           "labels": [],
@@ -41946,8 +42140,8 @@ SUPPORT_CHARTS = {
                   "name": "MESSENGER"
                 }
               },
-              "sig_name": "Brosix",
-              "methods": {}
+              "methods": {},
+              "sig_name": "Brosix"
             }
           }
         },
@@ -41955,8 +42149,8 @@ SUPPORT_CHARTS = {
           "id": 200031,
           "tested_points": [
             {
-              "signature": 200032,
-              "version": "4.0"
+              "version": "4.0",
+              "signature": 200032
             }
           ],
           "labels": [],
@@ -41983,8 +42177,8 @@ SUPPORT_CHARTS = {
                   "name": "MESSENGER"
                 }
               },
-              "sig_name": "Skype",
-              "methods": {}
+              "methods": {},
+              "sig_name": "Skype"
             }
           }
         },
@@ -41992,8 +42186,8 @@ SUPPORT_CHARTS = {
           "id": 200034,
           "tested_points": [
             {
-              "signature": 200035,
-              "version": "1.0"
+              "version": "1.0",
+              "signature": 200035
             }
           ],
           "labels": [],
@@ -42016,8 +42210,8 @@ SUPPORT_CHARTS = {
                   "name": "MESSENGER"
                 }
               },
-              "sig_name": "Trillian",
-              "methods": {}
+              "methods": {},
+              "sig_name": "Trillian"
             }
           }
         },
@@ -42025,8 +42219,8 @@ SUPPORT_CHARTS = {
           "id": 200035,
           "tested_points": [
             {
-              "signature": 200036,
-              "version": "2.0"
+              "version": "2.0",
+              "signature": 200036
             }
           ],
           "labels": [],
@@ -42053,8 +42247,8 @@ SUPPORT_CHARTS = {
                   "name": "MESSENGER"
                 }
               },
-              "sig_name": "emesene",
-              "methods": {}
+              "methods": {},
+              "sig_name": "emesene"
             }
           }
         },
@@ -42062,8 +42256,8 @@ SUPPORT_CHARTS = {
           "id": 200036,
           "tested_points": [
             {
-              "signature": 200037,
-              "version": "1.0"
+              "version": "1.0",
+              "signature": 200037
             }
           ],
           "labels": [],
@@ -42086,8 +42280,8 @@ SUPPORT_CHARTS = {
                   "name": "MESSENGER"
                 }
               },
-              "sig_name": "QQ for Linux",
-              "methods": {}
+              "methods": {},
+              "sig_name": "QQ for Linux"
             }
           }
         },
@@ -42095,8 +42289,8 @@ SUPPORT_CHARTS = {
           "id": 200037,
           "tested_points": [
             {
-              "signature": 200038,
-              "version": "2.0"
+              "version": "2.0",
+              "signature": 200038
             }
           ],
           "labels": [],
@@ -42123,8 +42317,8 @@ SUPPORT_CHARTS = {
                   "name": "MESSENGER"
                 }
               },
-              "sig_name": "ISL Pronto",
-              "methods": {}
+              "methods": {},
+              "sig_name": "ISL Pronto"
             }
           }
         },
@@ -42132,12 +42326,12 @@ SUPPORT_CHARTS = {
           "id": 200156,
           "tested_points": [
             {
-              "signature": 200166,
-              "version": "1.1.3"
+              "version": "1.1.3",
+              "signature": 200166
             },
             {
-              "signature": 200166,
-              "version": "1.0.1"
+              "version": "1.0.1",
+              "signature": 200166
             }
           ],
           "labels": [],
@@ -42160,7 +42354,6 @@ SUPPORT_CHARTS = {
                   "name": "MESSENGER"
                 }
               },
-              "sig_name": "Gajim",
               "methods": {
                 "manageability": {
                   "100": {
@@ -42246,7 +42439,8 @@ SUPPORT_CHARTS = {
                     "name": "TerminateProcesses"
                   }
                 }
-              }
+              },
+              "sig_name": "Gajim"
             }
           }
         },
@@ -42254,160 +42448,160 @@ SUPPORT_CHARTS = {
           "id": 200191,
           "tested_points": [
             {
-              "signature": 200210,
-              "version": "6.38.0"
+              "version": "6.38.0",
+              "signature": 200210
             },
             {
-              "signature": 200210,
-              "version": "6.42.1"
+              "version": "6.42.1",
+              "signature": 200210
             },
             {
-              "signature": 200210,
-              "version": "7.19.0"
+              "version": "7.19.0",
+              "signature": 200210
             },
             {
-              "signature": 200210,
-              "version": "7.30.0"
+              "version": "7.30.0",
+              "signature": 200210
             },
             {
-              "signature": 200210,
-              "version": "7.31.0"
+              "version": "7.31.0",
+              "signature": 200210
             },
             {
-              "signature": 200210,
-              "version": "7.39.0"
+              "version": "7.39.0",
+              "signature": 200210
             },
             {
-              "signature": 200210,
-              "version": "7.41.0"
+              "version": "7.41.0",
+              "signature": 200210
             },
             {
-              "signature": 200210,
-              "version": "7.42.0"
+              "version": "7.42.0",
+              "signature": 200210
             },
             {
-              "signature": 200210,
-              "version": "7.43.0"
+              "version": "7.43.0",
+              "signature": 200210
             },
             {
-              "signature": 200210,
-              "version": "7.44.0"
+              "version": "7.44.0",
+              "signature": 200210
             },
             {
-              "signature": 200210,
-              "version": "7.45.1"
+              "version": "7.45.1",
+              "signature": 200210
             },
             {
-              "signature": 200210,
-              "version": "7.46.0"
+              "version": "7.46.0",
+              "signature": 200210
             },
             {
-              "signature": 200210,
-              "version": "7.46.1"
+              "version": "7.46.1",
+              "signature": 200210
             },
             {
-              "signature": 200210,
-              "version": "7.47.0"
+              "version": "7.47.0",
+              "signature": 200210
             },
             {
-              "signature": 200210,
-              "version": "7.48.0"
+              "version": "7.48.0",
+              "signature": 200210
             },
             {
-              "signature": 200210,
-              "version": "7.49.0"
+              "version": "7.49.0",
+              "signature": 200210
             },
             {
-              "signature": 200210,
-              "version": "7.50.0"
+              "version": "7.50.0",
+              "signature": 200210
             },
             {
-              "signature": 200210,
-              "version": "7.51.0"
+              "version": "7.51.0",
+              "signature": 200210
             },
             {
-              "signature": 200210,
-              "version": "7.52.0"
+              "version": "7.52.0",
+              "signature": 200210
             },
             {
-              "signature": 200210,
-              "version": "7.53.0"
+              "version": "7.53.0",
+              "signature": 200210
             },
             {
-              "signature": 200210,
-              "version": "7.77.1"
+              "version": "7.77.1",
+              "signature": 200210
             },
             {
-              "signature": 200210,
-              "version": "7.78.0"
+              "version": "7.78.0",
+              "signature": 200210
             },
             {
-              "signature": 200210,
-              "version": "7.79.0"
+              "version": "7.79.0",
+              "signature": 200210
             },
             {
-              "signature": 200210,
-              "version": "7.80.0"
+              "version": "7.80.0",
+              "signature": 200210
             },
             {
-              "signature": 200210,
-              "version": "7.80.1"
+              "version": "7.80.1",
+              "signature": 200210
             },
             {
-              "signature": 200210,
-              "version": "7.81.0"
+              "version": "7.81.0",
+              "signature": 200210
             },
             {
-              "signature": 200210,
-              "version": "7.82.0"
+              "version": "7.82.0",
+              "signature": 200210
             },
             {
-              "signature": 200210,
-              "version": "7.83.0"
+              "version": "7.83.0",
+              "signature": 200210
             },
             {
-              "signature": 200210,
-              "version": "7.84.0"
+              "version": "7.84.0",
+              "signature": 200210
             },
             {
-              "signature": 200210,
-              "version": "7.85.0"
+              "version": "7.85.0",
+              "signature": 200210
             },
             {
-              "signature": 200210,
-              "version": "7.86.0"
+              "version": "7.86.0",
+              "signature": 200210
             },
             {
-              "signature": 200210,
-              "version": "7.87.0"
+              "version": "7.87.0",
+              "signature": 200210
             },
             {
-              "signature": 200210,
-              "version": "7.88.0"
+              "version": "7.88.0",
+              "signature": 200210
             },
             {
-              "signature": 200210,
-              "version": "7.89.0"
+              "version": "7.89.0",
+              "signature": 200210
             },
             {
-              "signature": 200210,
-              "version": "8.9.1"
+              "version": "8.9.1",
+              "signature": 200210
             },
             {
-              "signature": 200210,
-              "version": "8.10.0"
+              "version": "8.10.0",
+              "signature": 200210
             },
             {
-              "signature": 200210,
-              "version": "8.11.0"
+              "version": "8.11.0",
+              "signature": 200210
             },
             {
-              "signature": 200210,
-              "version": "8.12.0"
+              "version": "8.12.0",
+              "signature": 200210
             },
             {
-              "signature": 200210,
-              "version": "8.13.0"
+              "version": "8.13.0",
+              "signature": 200210
             }
           ],
           "labels": [],
@@ -42430,7 +42624,6 @@ SUPPORT_CHARTS = {
                   "name": "MESSENGER"
                 }
               },
-              "sig_name": "Signal",
               "methods": {
                 "manageability": {
                   "100": {
@@ -42531,7 +42724,8 @@ SUPPORT_CHARTS = {
                     "name": "GetInstallationDirectories"
                   }
                 }
-              }
+              },
+              "sig_name": "Signal"
             }
           }
         },
@@ -42539,12 +42733,12 @@ SUPPORT_CHARTS = {
           "id": 200205,
           "tested_points": [
             {
-              "signature": 200224,
-              "version": "0.4.0"
+              "version": "0.4.0",
+              "signature": 200224
             },
             {
-              "signature": 200224,
-              "version": "0.3.1"
+              "version": "0.3.1",
+              "signature": 200224
             }
           ],
           "labels": [],
@@ -42571,7 +42765,6 @@ SUPPORT_CHARTS = {
                   "name": "MESSENGER"
                 }
               },
-              "sig_name": "RingCentral Embeddable",
               "methods": {
                 "manageability": {
                   "100": {
@@ -42694,7 +42887,8 @@ SUPPORT_CHARTS = {
                     "name": "GetInstallationDirectories"
                   }
                 }
-              }
+              },
+              "sig_name": "RingCentral Embeddable"
             }
           }
         }
@@ -42709,12 +42903,12 @@ SUPPORT_CHARTS = {
           "id": 200198,
           "tested_points": [
             {
-              "signature": 200217,
-              "version": "3.4.2"
+              "version": "3.4.2",
+              "signature": 200217
             },
             {
-              "signature": 200217,
-              "version": "0.0"
+              "version": "0.0",
+              "signature": 200217
             }
           ],
           "labels": [],
@@ -42741,7 +42935,6 @@ SUPPORT_CHARTS = {
                   "name": "CLOUD_STORAGE"
                 }
               },
-              "sig_name": "Nextcloud Desktop Client",
               "methods": {
                 "manageability": {
                   "100": {
@@ -42870,7 +43063,8 @@ SUPPORT_CHARTS = {
                     "name": "GetBackupState"
                   }
                 }
-              }
+              },
+              "sig_name": "Nextcloud Desktop Client"
             }
           }
         }
@@ -42878,6 +43072,6 @@ SUPPORT_CHARTS = {
       "name": "CLOUD_STORAGE"
     }
   },
-  "support_chart_type": "CATEGORY",
-  "timestamp": "1780992841"
+  "timestamp": "1781604800",
+  "support_chart_type": "CATEGORY"
 }
