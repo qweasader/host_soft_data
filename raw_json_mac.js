@@ -1318,6 +1318,10 @@ SUPPORT_CHARTS = {
             {
               "version": "151.0.1",
               "signature": 100015
+            },
+            {
+              "version": "152.0",
+              "signature": 100015
             }
           ],
           "labels": [],
@@ -4168,6 +4172,10 @@ SUPPORT_CHARTS = {
             },
             {
               "version": "26.001.21662",
+              "signature": 100350
+            },
+            {
+              "version": "26.001.21677",
               "signature": 100350
             }
           ],
@@ -10880,6 +10888,10 @@ SUPPORT_CHARTS = {
             {
               "version": "1.124.2",
               "signature": 100483
+            },
+            {
+              "version": "1.125.0",
+              "signature": 100483
             }
           ],
           "labels": [],
@@ -16016,6 +16028,10 @@ SUPPORT_CHARTS = {
             },
             {
               "version": "10.7.12",
+              "signature": 100495
+            },
+            {
+              "version": "10.7.13",
               "signature": 100495
             }
           ],
@@ -27667,6 +27683,10 @@ SUPPORT_CHARTS = {
             {
               "version": "7.0.5",
               "signature": 100282
+            },
+            {
+              "version": "7.1.0",
+              "signature": 100282
             }
           ],
           "labels": [
@@ -31069,6 +31089,10 @@ SUPPORT_CHARTS = {
             {
               "version": "4.50.128",
               "signature": 100119
+            },
+            {
+              "version": "4.50.140",
+              "signature": 100119
             }
           ],
           "labels": [],
@@ -31528,6 +31552,10 @@ SUPPORT_CHARTS = {
             },
             {
               "version": "7.0.5",
+              "signature": 100282
+            },
+            {
+              "version": "7.1.0",
               "signature": 100282
             }
           ],
@@ -37348,6 +37376,10 @@ SUPPORT_CHARTS = {
             {
               "version": "0.1.32",
               "signature": 100610
+            },
+            {
+              "version": "0.1.34",
+              "signature": 100610
             }
           ],
           "labels": [],
@@ -37403,8 +37435,63 @@ SUPPORT_CHARTS = {
                   "name": "ARTIFICIAL_INTELLIGENCE"
                 }
               },
-              "methods": {},
+              "methods": {
+                "constant": {
+                  "101": {
+                    "id": 101,
+                    "code": -11,
+                    "name": "GetRunningState"
+                  },
+                  "102": {
+                    "id": 102,
+                    "code": -11,
+                    "name": "Run"
+                  },
+                  "103": {
+                    "id": 103,
+                    "code": -11,
+                    "name": "TerminateProcesses"
+                  }
+                }
+              },
               "sig_name": "Auggie"
+            }
+          }
+        },
+        "100557": {
+          "id": 100557,
+          "tested_points": [
+            {
+              "version": "3.1.7",
+              "signature": 100614
+            },
+            {
+              "version": "3.2.23",
+              "signature": 100614
+            }
+          ],
+          "labels": [],
+          "languages": [],
+          "name": "Devin Desktop",
+          "signatures": {
+            "100614": {
+              "signature": 100614,
+              "product": {
+                "id": 100557,
+                "name": "Devin Desktop"
+              },
+              "vendor": {
+                "id": 100327,
+                "name": "Cognition AI, Inc"
+              },
+              "categories": {
+                "21": {
+                  "id": 21,
+                  "name": "ARTIFICIAL_INTELLIGENCE"
+                }
+              },
+              "methods": {},
+              "sig_name": "Devin Desktop"
             }
           }
         }
@@ -37592,7 +37679,32 @@ SUPPORT_CHARTS = {
                   "name": "SYSTEM_DIAGNOSTIC_AND_CLEANUP"
                 }
               },
-              "methods": {},
+              "methods": {
+                "manageability": {
+                  "101": {
+                    "id": 101,
+                    "meta_data": {
+                      "param_support": {
+                        "input": {
+                          "instance_id": {
+                            "_supported": false,
+                            "_optional": true
+                          }
+                        },
+                        "output": {
+                          "running": {
+                            "_supported": true,
+                            "_optional": false
+                          }
+                        }
+                      },
+                      "admin_required": false,
+                      "notes": ""
+                    },
+                    "name": "GetRunningState"
+                  }
+                }
+              },
               "sig_name": "AppCleaner"
             }
           }
@@ -37865,8 +37977,8 @@ SUPPORT_CHARTS = {
               "signature": 100145
             },
             {
-              "release": "Beta",
               "version": "15.0",
+              "release": "Beta",
               "signature": 100145
             },
             {
@@ -37874,8 +37986,8 @@ SUPPORT_CHARTS = {
               "signature": 100145
             },
             {
-              "release": "Beta",
               "version": "15.1",
+              "release": "Beta",
               "signature": 100145
             },
             {
@@ -37907,8 +38019,8 @@ SUPPORT_CHARTS = {
               "signature": 100145
             },
             {
-              "release": "Beta",
               "version": "15.5",
+              "release": "Beta",
               "signature": 100145
             },
             {
@@ -37920,13 +38032,13 @@ SUPPORT_CHARTS = {
               "signature": 100145
             },
             {
-              "release": "Beta",
               "version": "26.0",
+              "release": "Beta",
               "signature": 100145
             },
             {
-              "release": "Beta",
               "version": "15.6",
+              "release": "Beta",
               "signature": 100145
             },
             {
@@ -39366,6 +39478,22 @@ SUPPORT_CHARTS = {
             },
             {
               "version": "8.26.06.200022",
+              "signature": 100269
+            },
+            {
+              "methodsStatus": {
+                "1001": -1,
+                "1002": -1,
+                "1003": -1,
+                "1004": -1,
+                "1005": -1,
+                "102": -1,
+                "103": -1,
+                "104": -1,
+                "105": -1,
+                "108": -1
+              },
+              "version": "8.26.06.200024",
               "signature": 100269
             }
           ],
@@ -41344,6 +41472,10 @@ SUPPORT_CHARTS = {
             {
               "version": "149.0.7827.115",
               "signature": 100004
+            },
+            {
+              "version": "149.0.7827.156",
+              "signature": 100004
             }
           ],
           "labels": [],
@@ -43027,6 +43159,13 @@ SUPPORT_CHARTS = {
             },
             {
               "version": "151.0.4",
+              "signature": 100292
+            },
+            {
+              "methodsStatus": {
+                "1010": -1
+              },
+              "version": "152.0",
               "signature": 100292
             }
           ],
@@ -48896,6 +49035,22 @@ SUPPORT_CHARTS = {
             {
               "version": "8.26.06.200022",
               "signature": 100269
+            },
+            {
+              "methodsStatus": {
+                "1001": -1,
+                "1002": -1,
+                "1003": -1,
+                "1004": -1,
+                "1005": -1,
+                "102": -1,
+                "103": -1,
+                "104": -1,
+                "105": -1,
+                "108": -1
+              },
+              "version": "8.26.06.200024",
+              "signature": 100269
             }
           ],
           "labels": [],
@@ -54298,6 +54453,10 @@ SUPPORT_CHARTS = {
             {
               "version": "149.0.4022.69",
               "signature": 100474
+            },
+            {
+              "version": "149.0.4022.80",
+              "signature": 100474
             }
           ],
           "labels": [],
@@ -55157,6 +55316,10 @@ SUPPORT_CHARTS = {
             },
             {
               "version": "10.7.12",
+              "signature": 100495
+            },
+            {
+              "version": "10.7.13",
               "signature": 100495
             }
           ],
@@ -64629,8 +64792,8 @@ SUPPORT_CHARTS = {
               "signature": 100141
             },
             {
-              "release": "Beta",
               "version": "15.0",
+              "release": "Beta",
               "signature": 100141
             },
             {
@@ -64638,8 +64801,8 @@ SUPPORT_CHARTS = {
               "signature": 100141
             },
             {
-              "release": "Beta",
               "version": "15.1",
+              "release": "Beta",
               "signature": 100141
             },
             {
@@ -64667,8 +64830,8 @@ SUPPORT_CHARTS = {
               "signature": 100141
             },
             {
-              "release": "Beta",
               "version": "15.5",
+              "release": "Beta",
               "signature": 100141
             },
             {
@@ -64680,13 +64843,13 @@ SUPPORT_CHARTS = {
               "signature": 100141
             },
             {
-              "release": "Beta",
               "version": "26.0",
+              "release": "Beta",
               "signature": 100141
             },
             {
-              "release": "Beta",
               "version": "15.6",
+              "release": "Beta",
               "signature": 100141
             },
             {
@@ -64731,6 +64894,10 @@ SUPPORT_CHARTS = {
             },
             {
               "version": "26.5",
+              "signature": 100141
+            },
+            {
+              "version": "26.5.1",
               "signature": 100141
             }
           ],
@@ -65636,26 +65803,26 @@ SUPPORT_CHARTS = {
             },
             {
               "certification": "gold",
-              "release": "14.3 RU6",
               "version": "14.3.9204.6000",
+              "release": "14.3 RU6",
               "signature": 100164
             },
             {
               "certification": "gold",
-              "release": "14.3 RU3",
               "version": "14.3.5055.3000",
+              "release": "14.3 RU3",
               "signature": 100164
             },
             {
               "certification": "gold",
-              "release": "14.3 MP1",
               "version": "14.3.1169.0100",
+              "release": "14.3 MP1",
               "signature": 100164
             },
             {
               "certification": "gold",
-              "release": "14.3 RU9",
               "version": "14.3.11240.9000",
+              "release": "14.3 RU9",
               "signature": 100164
             }
           ],
@@ -70201,6 +70368,23 @@ SUPPORT_CHARTS = {
             {
               "certification": "platinum",
               "version": "8.26.06.200022",
+              "signature": 100269
+            },
+            {
+              "certification": "platinum",
+              "methodsStatus": {
+                "1001": -1,
+                "1002": -1,
+                "1003": -1,
+                "1004": -1,
+                "1005": -1,
+                "102": -1,
+                "103": -1,
+                "104": -1,
+                "105": -1,
+                "108": -1
+              },
+              "version": "8.26.06.200024",
               "signature": 100269
             }
           ],
@@ -85014,6 +85198,10 @@ SUPPORT_CHARTS = {
             {
               "version": "2.3.9",
               "signature": 100394
+            },
+            {
+              "version": "2.3.10",
+              "signature": 100394
             }
           ],
           "labels": [],
@@ -89228,6 +89416,11 @@ SUPPORT_CHARTS = {
               "certification": "gold",
               "version": "3.8.0.58",
               "signature": 100403
+            },
+            {
+              "certification": "gold",
+              "version": "3.8.2.53",
+              "signature": 100403
             }
           ],
           "labels": [],
@@ -89403,7 +89596,12 @@ SUPPORT_CHARTS = {
                     "id": 1005,
                     "meta_data": {
                       "param_support": {
-                        "input": [],
+                        "input": {
+                          "uninstallCode": {
+                            "_supported": false,
+                            "_optional": true
+                          }
+                        },
                         "output": []
                       },
                       "admin_required": true,
@@ -90619,6 +90817,10 @@ SUPPORT_CHARTS = {
             },
             {
               "version": "10.7.12",
+              "signature": 100495
+            },
+            {
+              "version": "10.7.13",
               "signature": 100495
             }
           ],
@@ -94839,6 +95041,10 @@ SUPPORT_CHARTS = {
             {
               "version": "149.0.7827.115",
               "signature": 100004
+            },
+            {
+              "version": "149.0.7827.156",
+              "signature": 100004
             }
           ],
           "labels": [],
@@ -96573,6 +96779,13 @@ SUPPORT_CHARTS = {
             {
               "version": "151.0.4",
               "signature": 100292
+            },
+            {
+              "methodsStatus": {
+                "1010": -1
+              },
+              "version": "152.0",
+              "signature": 100292
             }
           ],
           "labels": [],
@@ -97827,6 +98040,10 @@ SUPPORT_CHARTS = {
             {
               "version": "149.0.4022.69",
               "signature": 100474
+            },
+            {
+              "version": "149.0.4022.80",
+              "signature": 100474
             }
           ],
           "labels": [],
@@ -99054,13 +99271,13 @@ SUPPORT_CHARTS = {
               "signature": 100189
             },
             {
-              "release": "Beta",
               "version": "15.0",
+              "release": "Beta",
               "signature": 100189
             },
             {
-              "release": "Beta",
               "version": "15.1",
+              "release": "Beta",
               "signature": 100189
             },
             {
@@ -99092,8 +99309,8 @@ SUPPORT_CHARTS = {
               "signature": 100189
             },
             {
-              "release": "Beta",
               "version": "15.5",
+              "release": "Beta",
               "signature": 100189
             },
             {
@@ -99105,13 +99322,13 @@ SUPPORT_CHARTS = {
               "signature": 100189
             },
             {
-              "release": "Beta",
               "version": "26.0",
+              "release": "Beta",
               "signature": 100189
             },
             {
-              "release": "Beta",
               "version": "15.6",
+              "release": "Beta",
               "signature": 100189
             },
             {
@@ -99156,6 +99373,10 @@ SUPPORT_CHARTS = {
             },
             {
               "version": "26.5",
+              "signature": 100189
+            },
+            {
+              "version": "26.5.1",
               "signature": 100189
             }
           ],
@@ -102309,23 +102530,23 @@ SUPPORT_CHARTS = {
               "signature": 100164
             },
             {
-              "release": "14.3 RU6",
               "version": "14.3.9204.6000",
+              "release": "14.3 RU6",
               "signature": 100164
             },
             {
-              "release": "14.3 RU3",
               "version": "14.3.5055.3000",
+              "release": "14.3 RU3",
               "signature": 100164
             },
             {
-              "release": "14.3 MP1",
               "version": "14.3.1169.0100",
+              "release": "14.3 MP1",
               "signature": 100164
             },
             {
-              "release": "14.3 RU9",
               "version": "14.3.11240.9000",
+              "release": "14.3 RU9",
               "signature": 100164
             }
           ],
@@ -109739,13 +109960,13 @@ SUPPORT_CHARTS = {
               "signature": 100448
             },
             {
-              "release": "Beta",
               "version": "15.0",
+              "release": "Beta",
               "signature": 100448
             },
             {
-              "release": "Beta",
               "version": "15.1",
+              "release": "Beta",
               "signature": 100448
             },
             {
@@ -109785,8 +110006,8 @@ SUPPORT_CHARTS = {
               "signature": 100448
             },
             {
-              "release": "Beta",
               "version": "15.5",
+              "release": "Beta",
               "signature": 100448
             },
             {
@@ -109798,13 +110019,13 @@ SUPPORT_CHARTS = {
               "signature": 100448
             },
             {
-              "release": "Beta",
               "version": "26.0",
+              "release": "Beta",
               "signature": 100448
             },
             {
-              "release": "Beta",
               "version": "15.6",
+              "release": "Beta",
               "signature": 100448
             },
             {
@@ -109849,6 +110070,10 @@ SUPPORT_CHARTS = {
             },
             {
               "version": "26.5",
+              "signature": 100448
+            },
+            {
+              "version": "26.5.1",
               "signature": 100448
             }
           ],
@@ -110150,6 +110375,10 @@ SUPPORT_CHARTS = {
             },
             {
               "version": "10.7.12",
+              "signature": 100495
+            },
+            {
+              "version": "10.7.13",
               "signature": 100495
             }
           ],
@@ -112356,6 +112585,10 @@ SUPPORT_CHARTS = {
             {
               "version": "4.50.128",
               "signature": 100119
+            },
+            {
+              "version": "4.50.140",
+              "signature": 100119
             }
           ],
           "labels": [],
@@ -113314,6 +113547,10 @@ SUPPORT_CHARTS = {
             },
             {
               "version": "7.0.5",
+              "signature": 100282
+            },
+            {
+              "version": "7.1.0",
               "signature": 100282
             }
           ],
@@ -116110,8 +116347,8 @@ SUPPORT_CHARTS = {
               "signature": 100424
             },
             {
-              "release": "Beta",
               "version": "15.1",
+              "release": "Beta",
               "signature": 100424
             },
             {
@@ -116143,8 +116380,8 @@ SUPPORT_CHARTS = {
               "signature": 100424
             },
             {
-              "release": "Beta",
               "version": "15.5",
+              "release": "Beta",
               "signature": 100424
             },
             {
@@ -116156,8 +116393,8 @@ SUPPORT_CHARTS = {
               "signature": 100424
             },
             {
-              "release": "Beta",
               "version": "15.6",
+              "release": "Beta",
               "signature": 100424
             },
             {
@@ -116202,6 +116439,10 @@ SUPPORT_CHARTS = {
             },
             {
               "version": "26.5",
+              "signature": 100424
+            },
+            {
+              "version": "26.5.1",
               "signature": 100424
             }
           ],
@@ -117844,6 +118085,6 @@ SUPPORT_CHARTS = {
       "name": "CLOUD_STORAGE"
     }
   },
-  "timestamp": "1781604729",
+  "timestamp": "1782206944",
   "support_chart_type": "CATEGORY"
 }

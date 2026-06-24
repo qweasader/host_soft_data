@@ -13310,8 +13310,8 @@ SUPPORT_CHARTS = {
               "signature": 200041
             },
             {
-              "release": "Beta",
               "version": "3.1.16",
+              "release": "Beta",
               "signature": 200041
             },
             {
@@ -18184,6 +18184,39 @@ SUPPORT_CHARTS = {
                 }
               },
               "sig_name": "VMware Workstation"
+            }
+          }
+        },
+        "200229": {
+          "id": 200229,
+          "tested_points": [
+            {
+              "version": "8.4.0",
+              "signature": 200248
+            }
+          ],
+          "labels": [],
+          "languages": [],
+          "name": "Proxmox Virtual Environment",
+          "signatures": {
+            "200248": {
+              "signature": 200248,
+              "product": {
+                "id": 200229,
+                "name": "Proxmox Virtual Environment"
+              },
+              "vendor": {
+                "id": 200229,
+                "name": "Proxmox Server Solutions GmbH"
+              },
+              "categories": {
+                "14": {
+                  "id": 14,
+                  "name": "VIRTUAL_MACHINE"
+                }
+              },
+              "methods": {},
+              "sig_name": "Proxmox Virtual Environment"
             }
           }
         }
@@ -24133,6 +24166,14 @@ SUPPORT_CHARTS = {
             {
               "version": "151.0.4",
               "signature": 200003
+            },
+            {
+              "version": "152.0",
+              "signature": 200003
+            },
+            {
+              "version": "152.0.1",
+              "signature": 200003
             }
           ],
           "labels": [],
@@ -28531,8 +28572,8 @@ SUPPORT_CHARTS = {
             },
             {
               "certification": "gold",
-              "release": "14.3 MP1",
               "version": "14.3.1169.0100",
+              "release": "14.3 MP1",
               "signature": 200027
             }
           ],
@@ -37468,6 +37509,56 @@ SUPPORT_CHARTS = {
               "sig_name": "WatchGuard Endpoint Security Elite"
             }
           }
+        },
+        "200230": {
+          "id": 200230,
+          "tested_points": [
+            {
+              "version": "1.16.01.0000",
+              "signature": 200249
+            }
+          ],
+          "labels": [],
+          "languages": [],
+          "name": "WatchGuard Endpoint Security Basic",
+          "signatures": {
+            "200249": {
+              "signature": 200249,
+              "product": {
+                "id": 200230,
+                "name": "WatchGuard Endpoint Security Basic"
+              },
+              "vendor": {
+                "id": 200206,
+                "name": "WatchGuard Technologies Inc"
+              },
+              "categories": {
+                "5": {
+                  "id": 5,
+                  "name": "ANTIMALWARE"
+                },
+                "7": {
+                  "id": 7,
+                  "name": "FIREWALL"
+                }
+              },
+              "methods": {
+                "constant": {
+                  "102": {
+                    "id": 102,
+                    "code": -11,
+                    "name": "Run"
+                  },
+                  "103": {
+                    "id": 103,
+                    "code": -11,
+                    "name": "TerminateProcesses"
+                  }
+                }
+              },
+              "sig_name": "WatchGuard Endpoint Security Basic"
+            }
+          }
         }
       },
       "name": "ANTIMALWARE"
@@ -38158,6 +38249,14 @@ SUPPORT_CHARTS = {
             },
             {
               "version": "151.0.4",
+              "signature": 200003
+            },
+            {
+              "version": "152.0",
+              "signature": 200003
+            },
+            {
+              "version": "152.0.1",
               "signature": 200003
             }
           ],
@@ -42100,6 +42199,56 @@ SUPPORT_CHARTS = {
               "sig_name": "WatchGuard Endpoint Security Elite"
             }
           }
+        },
+        "200230": {
+          "id": 200230,
+          "tested_points": [
+            {
+              "version": "1.16.01.0000",
+              "signature": 200249
+            }
+          ],
+          "labels": [],
+          "languages": [],
+          "name": "WatchGuard Endpoint Security Basic",
+          "signatures": {
+            "200249": {
+              "signature": 200249,
+              "product": {
+                "id": 200230,
+                "name": "WatchGuard Endpoint Security Basic"
+              },
+              "vendor": {
+                "id": 200206,
+                "name": "WatchGuard Technologies Inc"
+              },
+              "categories": {
+                "5": {
+                  "id": 5,
+                  "name": "ANTIMALWARE"
+                },
+                "7": {
+                  "id": 7,
+                  "name": "FIREWALL"
+                }
+              },
+              "methods": {
+                "constant": {
+                  "102": {
+                    "id": 102,
+                    "code": -11,
+                    "name": "Run"
+                  },
+                  "103": {
+                    "id": 103,
+                    "code": -11,
+                    "name": "TerminateProcesses"
+                  }
+                }
+              },
+              "sig_name": "WatchGuard Endpoint Security Basic"
+            }
+          }
         }
       },
       "name": "FIREWALL"
@@ -43072,6 +43221,6 @@ SUPPORT_CHARTS = {
       "name": "CLOUD_STORAGE"
     }
   },
-  "timestamp": "1781604800",
+  "timestamp": "1782206579",
   "support_chart_type": "CATEGORY"
 }
