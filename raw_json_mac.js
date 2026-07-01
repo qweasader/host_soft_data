@@ -4177,6 +4177,10 @@ SUPPORT_CHARTS = {
             {
               "version": "26.001.21677",
               "signature": 100350
+            },
+            {
+              "version": "26.001.21691",
+              "signature": 100350
             }
           ],
           "labels": [],
@@ -10892,6 +10896,10 @@ SUPPORT_CHARTS = {
             {
               "version": "1.125.0",
               "signature": 100483
+            },
+            {
+              "version": "1.126.0",
+              "signature": 100483
             }
           ],
           "labels": [],
@@ -14651,6 +14659,10 @@ SUPPORT_CHARTS = {
             {
               "version": "0.12.112",
               "signature": 100575
+            },
+            {
+              "version": "1.20",
+              "signature": 100615
             }
           ],
           "labels": [],
@@ -14675,6 +14687,25 @@ SUPPORT_CHARTS = {
               },
               "methods": {},
               "sig_name": "Claude"
+            },
+            "100615": {
+              "signature": 100615,
+              "product": {
+                "id": 100517,
+                "name": "Claude"
+              },
+              "vendor": {
+                "id": 100296,
+                "name": "Anthropic PBC"
+              },
+              "categories": {
+                "21": {
+                  "id": 21,
+                  "name": "ARTIFICIAL_INTELLIGENCE"
+                }
+              },
+              "methods": {},
+              "sig_name": "Claude CLI"
             }
           }
         },
@@ -22423,6 +22454,10 @@ SUPPORT_CHARTS = {
                 "110": -1
               },
               "version": "89.20.7131",
+              "signature": 100187
+            },
+            {
+              "version": "89.23.7256",
               "signature": 100187
             }
           ],
@@ -36597,6 +36632,62 @@ SUPPORT_CHARTS = {
       "id": 21,
       "methods": {},
       "products": {
+        "100517": {
+          "id": 100517,
+          "tested_points": [
+            {
+              "version": "0.12.112",
+              "signature": 100575
+            },
+            {
+              "version": "1.20",
+              "signature": 100615
+            }
+          ],
+          "labels": [],
+          "languages": [],
+          "name": "Claude",
+          "signatures": {
+            "100575": {
+              "signature": 100575,
+              "product": {
+                "id": 100517,
+                "name": "Claude"
+              },
+              "vendor": {
+                "id": 100296,
+                "name": "Anthropic PBC"
+              },
+              "categories": {
+                "10": {
+                  "id": 10,
+                  "name": "UNCLASSIFIED"
+                }
+              },
+              "methods": {},
+              "sig_name": "Claude"
+            },
+            "100615": {
+              "signature": 100615,
+              "product": {
+                "id": 100517,
+                "name": "Claude"
+              },
+              "vendor": {
+                "id": 100296,
+                "name": "Anthropic PBC"
+              },
+              "categories": {
+                "21": {
+                  "id": 21,
+                  "name": "ARTIFICIAL_INTELLIGENCE"
+                }
+              },
+              "methods": {},
+              "sig_name": "Claude CLI"
+            }
+          }
+        },
         "100525": {
           "id": 100525,
           "tested_points": [
@@ -37468,6 +37559,10 @@ SUPPORT_CHARTS = {
             {
               "version": "3.2.23",
               "signature": 100614
+            },
+            {
+              "version": "3.3.18",
+              "signature": 100614
             }
           ],
           "labels": [],
@@ -37492,6 +37587,39 @@ SUPPORT_CHARTS = {
               },
               "methods": {},
               "sig_name": "Devin Desktop"
+            }
+          }
+        },
+        "100558": {
+          "id": 100558,
+          "tested_points": [
+            {
+              "version": "1.20",
+              "signature": 100616
+            }
+          ],
+          "labels": [],
+          "languages": [],
+          "name": "Cody",
+          "signatures": {
+            "100616": {
+              "signature": 100616,
+              "product": {
+                "id": 100558,
+                "name": "Cody"
+              },
+              "vendor": {
+                "id": 100328,
+                "name": "Sourcegraph"
+              },
+              "categories": {
+                "21": {
+                  "id": 21,
+                  "name": "ARTIFICIAL_INTELLIGENCE"
+                }
+              },
+              "methods": {},
+              "sig_name": "Cody"
             }
           }
         }
@@ -38806,6 +38934,10 @@ SUPPORT_CHARTS = {
               },
               "version": "89.20.7131",
               "signature": 100187
+            },
+            {
+              "version": "89.23.7256",
+              "signature": 100187
             }
           ],
           "labels": [],
@@ -39494,6 +39626,22 @@ SUPPORT_CHARTS = {
                 "108": -1
               },
               "version": "8.26.06.200024",
+              "signature": 100269
+            },
+            {
+              "methodsStatus": {
+                "1001": -1,
+                "1002": -1,
+                "1003": -1,
+                "1004": -1,
+                "1005": -1,
+                "102": -1,
+                "103": -1,
+                "104": -1,
+                "105": -1,
+                "108": -1
+              },
+              "version": "8.26.06.200029",
               "signature": 100269
             }
           ],
@@ -41476,6 +41624,14 @@ SUPPORT_CHARTS = {
             {
               "version": "149.0.7827.156",
               "signature": 100004
+            },
+            {
+              "version": "149.0.7827.197",
+              "signature": 100004
+            },
+            {
+              "version": "149.0.7827.201",
+              "signature": 100004
             }
           ],
           "labels": [],
@@ -43166,6 +43322,14 @@ SUPPORT_CHARTS = {
                 "1010": -1
               },
               "version": "152.0",
+              "signature": 100292
+            },
+            {
+              "version": "152.0.2",
+              "signature": 100292
+            },
+            {
+              "version": "152.0.3",
               "signature": 100292
             }
           ],
@@ -47012,6 +47176,10 @@ SUPPORT_CHARTS = {
             {
               "version": "3.7.1456",
               "signature": 100214
+            },
+            {
+              "version": "3.7.2050",
+              "signature": 100214
             }
           ],
           "labels": [],
@@ -47271,7 +47439,10 @@ SUPPORT_CHARTS = {
               },
               "sig_name": "Trend Micro Security"
             }
-          }
+          },
+          "marketing_names": [
+            "TrendAI™ Security Agent"
+          ]
         },
         "100186": {
           "id": 100186,
@@ -49050,6 +49221,22 @@ SUPPORT_CHARTS = {
                 "108": -1
               },
               "version": "8.26.06.200024",
+              "signature": 100269
+            },
+            {
+              "methodsStatus": {
+                "1001": -1,
+                "1002": -1,
+                "1003": -1,
+                "1004": -1,
+                "1005": -1,
+                "102": -1,
+                "103": -1,
+                "104": -1,
+                "105": -1,
+                "108": -1
+              },
+              "version": "8.26.06.200029",
               "signature": 100269
             }
           ],
@@ -54456,6 +54643,14 @@ SUPPORT_CHARTS = {
             },
             {
               "version": "149.0.4022.80",
+              "signature": 100474
+            },
+            {
+              "version": "149.0.4022.96",
+              "signature": 100474
+            },
+            {
+              "version": "149.0.4022.98",
               "signature": 100474
             }
           ],
@@ -66415,6 +66610,10 @@ SUPPORT_CHARTS = {
               },
               "version": "89.20.7131",
               "signature": 100187
+            },
+            {
+              "version": "89.23.7256",
+              "signature": 100187
             }
           ],
           "labels": [],
@@ -67892,6 +68091,11 @@ SUPPORT_CHARTS = {
               "certification": "platinum",
               "version": "3.7.1456",
               "signature": 100214
+            },
+            {
+              "certification": "platinum",
+              "version": "3.7.2050",
+              "signature": 100214
             }
           ],
           "labels": [],
@@ -68151,7 +68355,10 @@ SUPPORT_CHARTS = {
               },
               "sig_name": "Trend Micro Security"
             }
-          }
+          },
+          "marketing_names": [
+            "TrendAI™ Security Agent"
+          ]
         },
         "100186": {
           "id": 100186,
@@ -70385,6 +70592,23 @@ SUPPORT_CHARTS = {
                 "108": -1
               },
               "version": "8.26.06.200024",
+              "signature": 100269
+            },
+            {
+              "certification": "platinum",
+              "methodsStatus": {
+                "1001": -1,
+                "1002": -1,
+                "1003": -1,
+                "1004": -1,
+                "1005": -1,
+                "102": -1,
+                "103": -1,
+                "104": -1,
+                "105": -1,
+                "108": -1
+              },
+              "version": "8.26.06.200029",
               "signature": 100269
             }
           ],
@@ -72963,17 +73187,11 @@ SUPPORT_CHARTS = {
               "signature": 100300
             },
             {
-              "methodsStatus": {
-                "1000": -1,
-                "1001": -1,
-                "1005": -1,
-                "1007": -1
-              },
-              "version": "25.2.2.8193",
+              "version": "25.3.4.8365",
               "signature": 100300
             },
             {
-              "version": "25.3.4.8365",
+              "version": "25.2.2.8193",
               "signature": 100300
             }
           ],
@@ -95045,6 +95263,14 @@ SUPPORT_CHARTS = {
             {
               "version": "149.0.7827.156",
               "signature": 100004
+            },
+            {
+              "version": "149.0.7827.197",
+              "signature": 100004
+            },
+            {
+              "version": "149.0.7827.201",
+              "signature": 100004
             }
           ],
           "labels": [],
@@ -96786,6 +97012,14 @@ SUPPORT_CHARTS = {
               },
               "version": "152.0",
               "signature": 100292
+            },
+            {
+              "version": "152.0.2",
+              "signature": 100292
+            },
+            {
+              "version": "152.0.3",
+              "signature": 100292
             }
           ],
           "labels": [],
@@ -98043,6 +98277,14 @@ SUPPORT_CHARTS = {
             },
             {
               "version": "149.0.4022.80",
+              "signature": 100474
+            },
+            {
+              "version": "149.0.4022.96",
+              "signature": 100474
+            },
+            {
+              "version": "149.0.4022.98",
               "signature": 100474
             }
           ],
@@ -102968,6 +103210,10 @@ SUPPORT_CHARTS = {
               },
               "version": "89.20.7131",
               "signature": 100187
+            },
+            {
+              "version": "89.23.7256",
+              "signature": 100187
             }
           ],
           "labels": [],
@@ -105260,17 +105506,11 @@ SUPPORT_CHARTS = {
               "signature": 100300
             },
             {
-              "methodsStatus": {
-                "1000": -1,
-                "1001": -1,
-                "1005": -1,
-                "1007": -1
-              },
-              "version": "25.2.2.8193",
+              "version": "25.3.4.8365",
               "signature": 100300
             },
             {
-              "version": "25.3.4.8365",
+              "version": "25.2.2.8193",
               "signature": 100300
             }
           ],
@@ -118085,6 +118325,6 @@ SUPPORT_CHARTS = {
       "name": "CLOUD_STORAGE"
     }
   },
-  "timestamp": "1782206944",
+  "timestamp": "1782816327",
   "support_chart_type": "CATEGORY"
 }

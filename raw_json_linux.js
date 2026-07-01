@@ -10256,6 +10256,30 @@ SUPPORT_CHARTS = {
             {
               "version": "1.123.2",
               "signature": 200206
+            },
+            {
+              "version": "1.124.0",
+              "signature": 200206
+            },
+            {
+              "version": "1.124.1",
+              "signature": 200206
+            },
+            {
+              "version": "1.124.2",
+              "signature": 200206
+            },
+            {
+              "version": "1.125.0",
+              "signature": 200206
+            },
+            {
+              "version": "1.125.1",
+              "signature": 200206
+            },
+            {
+              "version": "1.126.0",
+              "signature": 200206
             }
           ],
           "labels": [],
@@ -20282,6 +20306,10 @@ SUPPORT_CHARTS = {
             {
               "version": "7.0.5.3034",
               "signature": 200071
+            },
+            {
+              "version": "7.1.0.3715",
+              "signature": 200071
             }
           ],
           "labels": [
@@ -22115,6 +22143,10 @@ SUPPORT_CHARTS = {
             },
             {
               "version": "7.0.5.3034",
+              "signature": 200071
+            },
+            {
+              "version": "7.1.0.3715",
               "signature": 200071
             }
           ],
@@ -24173,6 +24205,14 @@ SUPPORT_CHARTS = {
             },
             {
               "version": "152.0.1",
+              "signature": 200003
+            },
+            {
+              "version": "152.0.2",
+              "signature": 200003
+            },
+            {
+              "version": "152.0.3",
               "signature": 200003
             }
           ],
@@ -38258,6 +38298,14 @@ SUPPORT_CHARTS = {
             {
               "version": "152.0.1",
               "signature": 200003
+            },
+            {
+              "version": "152.0.2",
+              "signature": 200003
+            },
+            {
+              "version": "152.0.3",
+              "signature": 200003
             }
           ],
           "labels": [],
@@ -42751,6 +42799,14 @@ SUPPORT_CHARTS = {
             {
               "version": "8.13.0",
               "signature": 200210
+            },
+            {
+              "version": " 8.14.0",
+              "signature": 200210
+            },
+            {
+              "version": " 8.15.0",
+              "signature": 200210
             }
           ],
           "labels": [],
@@ -43221,6 +43277,6 @@ SUPPORT_CHARTS = {
       "name": "CLOUD_STORAGE"
     }
   },
-  "timestamp": "1782206579",
+  "timestamp": "1782816563",
   "support_chart_type": "CATEGORY"
 }
