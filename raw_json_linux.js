@@ -24461,6 +24461,10 @@ SUPPORT_CHARTS = {
             {
               "version": "152.0.4",
               "signature": 200003
+            },
+            {
+              "version": "152.0.5",
+              "signature": 200003
             }
           ],
           "labels": [],
@@ -38736,6 +38740,10 @@ SUPPORT_CHARTS = {
             {
               "version": "152.0.4",
               "signature": 200003
+            },
+            {
+              "version": "152.0.5",
+              "signature": 200003
             }
           ],
           "labels": [],
@@ -43410,19 +43418,19 @@ SUPPORT_CHARTS = {
               "signature": 200210
             },
             {
-              "version": " 8.14.0",
-              "signature": 200210
-            },
-            {
-              "version": " 8.15.0",
-              "signature": 200210
-            },
-            {
               "version": "8.16.0",
               "signature": 200210
             },
             {
               "version": "8.17.0",
+              "signature": 200210
+            },
+            {
+              "version": "8.14.0",
+              "signature": 200210
+            },
+            {
+              "version": "8.15.0",
               "signature": 200210
             }
           ],
@@ -43895,5 +43903,5 @@ SUPPORT_CHARTS = {
     }
   },
   "support_chart_type": "CATEGORY",
-  "timestamp": "1783417758"
+  "timestamp": "1784040400"
 }
