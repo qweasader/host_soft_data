@@ -10912,6 +10912,10 @@ SUPPORT_CHARTS = {
             {
               "version": "1.128.0",
               "signature": 100483
+            },
+            {
+              "version": "1.129.0",
+              "signature": 100483
             }
           ],
           "labels": [],
@@ -14665,162 +14669,6 @@ SUPPORT_CHARTS = {
             }
           }
         },
-        "100517": {
-          "id": 100517,
-          "tested_points": [
-            {
-              "version": "0.12.112",
-              "signature": 100575
-            },
-            {
-              "version": "2.1.205",
-              "signature": 100615
-            }
-          ],
-          "labels": [],
-          "languages": [],
-          "name": "Claude",
-          "signatures": {
-            "100575": {
-              "signature": 100575,
-              "product": {
-                "id": 100517,
-                "name": "Claude"
-              },
-              "vendor": {
-                "id": 100296,
-                "name": "Anthropic PBC"
-              },
-              "categories": {
-                "10": {
-                  "id": 10,
-                  "name": "UNCLASSIFIED"
-                }
-              },
-              "sig_name": "Claude",
-              "methods": {}
-            },
-            "100615": {
-              "signature": 100615,
-              "product": {
-                "id": 100517,
-                "name": "Claude"
-              },
-              "vendor": {
-                "id": 100296,
-                "name": "Anthropic PBC"
-              },
-              "categories": {
-                "21": {
-                  "id": 21,
-                  "name": "ARTIFICIAL_INTELLIGENCE"
-                }
-              },
-              "sig_name": "Claude CLI",
-              "methods": {
-                "constant": {
-                  "101": {
-                    "id": 101,
-                    "code": -11,
-                    "name": "GetRunningState"
-                  },
-                  "102": {
-                    "id": 102,
-                    "code": -11,
-                    "name": "Run"
-                  },
-                  "103": {
-                    "id": 103,
-                    "code": -11,
-                    "name": "TerminateProcesses"
-                  }
-                },
-                "manageability": {
-                  "100": {
-                    "id": 100,
-                    "meta_data": {
-                      "param_support": {
-                        "input": {
-                          "instance_id": {
-                            "_supported": false,
-                            "_optional": true
-                          }
-                        },
-                        "output": {
-                          "version": {
-                            "_supported": true,
-                            "_optional": false
-                          },
-                          "architecture": {
-                            "_supported": true,
-                            "_optional": false,
-                            "name": {
-                              "_supported": true,
-                              "_optional": false
-                            },
-                            "bitness": {
-                              "_supported": true,
-                              "_optional": false
-                            }
-                          },
-                          "language": {
-                            "_supported": true,
-                            "_optional": false,
-                            "code": {
-                              "_supported": true,
-                              "_optional": false
-                            },
-                            "name": {
-                              "_supported": true,
-                              "_optional": false
-                            }
-                          },
-                          "channel": {
-                            "_supported": false,
-                            "_optional": true
-                          },
-                          "release": {
-                            "_supported": false,
-                            "_optional": true
-                          }
-                        }
-                      },
-                      "admin_required": false,
-                      "notes": ""
-                    },
-                    "name": "GetVersion"
-                  },
-                  "104": {
-                    "id": 104,
-                    "meta_data": {
-                      "param_support": {
-                        "input": {
-                          "instance_id": {
-                            "_supported": false,
-                            "_optional": true
-                          }
-                        },
-                        "output": {
-                          "main": {
-                            "_supported": true,
-                            "_optional": false
-                          },
-                          "directories": {
-                            "_supported": true,
-                            "_optional": false
-                          }
-                        }
-                      },
-                      "admin_required": false,
-                      "notes": ""
-                    },
-                    "name": "GetInstallationDirectories"
-                  }
-                }
-              }
-            }
-          }
-        },
         "100520": {
           "id": 100520,
           "tested_points": [
@@ -16878,6 +16726,39 @@ SUPPORT_CHARTS = {
                   }
                 }
               }
+            }
+          }
+        },
+        "100580": {
+          "id": 100580,
+          "tested_points": [
+            {
+              "version": "1.2.0",
+              "signature": 100638
+            }
+          ],
+          "labels": [],
+          "languages": [],
+          "name": "Cisco Secure Client - Endpoint Data Loss Prevention",
+          "signatures": {
+            "100638": {
+              "signature": 100638,
+              "product": {
+                "id": 100580,
+                "name": "Cisco Secure Client - Endpoint Data Loss Prevention"
+              },
+              "vendor": {
+                "id": 100144,
+                "name": "Cisco Systems, Inc."
+              },
+              "categories": {
+                "11": {
+                  "id": 11,
+                  "name": "DATA_LOSS_PREVENTION"
+                }
+              },
+              "sig_name": "Cisco Secure Client - Endpoint Data Loss Prevention",
+              "methods": {}
             }
           }
         }
@@ -28107,6 +27988,10 @@ SUPPORT_CHARTS = {
             {
               "version": "7.1.0",
               "signature": 100282
+            },
+            {
+              "version": "7.1.5",
+              "signature": 100282
             }
           ],
           "labels": [
@@ -31557,6 +31442,10 @@ SUPPORT_CHARTS = {
             {
               "version": "4.50.143",
               "signature": 100119
+            },
+            {
+              "version": "4.51.180",
+              "signature": 100119
             }
           ],
           "labels": [],
@@ -32020,6 +31909,10 @@ SUPPORT_CHARTS = {
             },
             {
               "version": "7.1.0",
+              "signature": 100282
+            },
+            {
+              "version": "7.1.5",
               "signature": 100282
             }
           ],
@@ -37130,9 +37023,9 @@ SUPPORT_CHARTS = {
                 "name": "Anthropic PBC"
               },
               "categories": {
-                "10": {
-                  "id": 10,
-                  "name": "UNCLASSIFIED"
+                "21": {
+                  "id": 21,
+                  "name": "ARTIFICIAL_INTELLIGENCE"
                 }
               },
               "sig_name": "Claude",
@@ -38790,7 +38683,27 @@ SUPPORT_CHARTS = {
                 }
               },
               "sig_name": "Amazon Quick",
-              "methods": {}
+              "methods": {
+                "manageability": {
+                  "102": {
+                    "id": 102,
+                    "meta_data": {
+                      "param_support": {
+                        "input": {
+                          "instance_id": {
+                            "_supported": false,
+                            "_optional": true
+                          }
+                        },
+                        "output": []
+                      },
+                      "admin_required": false,
+                      "notes": ""
+                    },
+                    "name": "Run"
+                  }
+                }
+              }
             }
           }
         },
@@ -38799,6 +38712,10 @@ SUPPORT_CHARTS = {
           "tested_points": [
             {
               "version": "0.1.25",
+              "signature": 100632
+            },
+            {
+              "version": "1.0.26",
               "signature": 100632
             }
           ],
@@ -38823,7 +38740,27 @@ SUPPORT_CHARTS = {
                 }
               },
               "sig_name": "MeetGeek",
-              "methods": {}
+              "methods": {
+                "manageability": {
+                  "102": {
+                    "id": 102,
+                    "meta_data": {
+                      "param_support": {
+                        "input": {
+                          "instance_id": {
+                            "_supported": false,
+                            "_optional": true
+                          }
+                        },
+                        "output": []
+                      },
+                      "admin_required": false,
+                      "notes": ""
+                    },
+                    "name": "Run"
+                  }
+                }
+              }
             }
           }
         },
@@ -38856,7 +38793,27 @@ SUPPORT_CHARTS = {
                 }
               },
               "sig_name": "Limitless",
-              "methods": {}
+              "methods": {
+                "manageability": {
+                  "102": {
+                    "id": 102,
+                    "meta_data": {
+                      "param_support": {
+                        "input": {
+                          "instance_id": {
+                            "_supported": false,
+                            "_optional": true
+                          }
+                        },
+                        "output": []
+                      },
+                      "admin_required": false,
+                      "notes": ""
+                    },
+                    "name": "Run"
+                  }
+                }
+              }
             }
           }
         },
@@ -38955,7 +38912,66 @@ SUPPORT_CHARTS = {
                 }
               },
               "sig_name": "Grain",
-              "methods": {}
+              "methods": {
+                "manageability": {
+                  "101": {
+                    "id": 101,
+                    "meta_data": {
+                      "param_support": {
+                        "input": {
+                          "instance_id": {
+                            "_supported": false,
+                            "_optional": true
+                          }
+                        },
+                        "output": {
+                          "running": {
+                            "_supported": true,
+                            "_optional": false
+                          }
+                        }
+                      },
+                      "admin_required": false,
+                      "notes": ""
+                    },
+                    "name": "GetRunningState"
+                  },
+                  "102": {
+                    "id": 102,
+                    "meta_data": {
+                      "param_support": {
+                        "input": {
+                          "instance_id": {
+                            "_supported": false,
+                            "_optional": true
+                          }
+                        },
+                        "output": []
+                      },
+                      "admin_required": false,
+                      "notes": ""
+                    },
+                    "name": "Run"
+                  },
+                  "103": {
+                    "id": 103,
+                    "meta_data": {
+                      "param_support": {
+                        "input": {
+                          "instance_id": {
+                            "_supported": false,
+                            "_optional": true
+                          }
+                        },
+                        "output": []
+                      },
+                      "admin_required": false,
+                      "notes": ""
+                    },
+                    "name": "TerminateProcesses"
+                  }
+                }
+              }
             }
           }
         }
@@ -41017,6 +41033,22 @@ SUPPORT_CHARTS = {
               },
               "version": "8.26.06.200030",
               "signature": 100269
+            },
+            {
+              "methodsStatus": {
+                "1001": -1,
+                "1002": -1,
+                "1003": -1,
+                "1004": -1,
+                "1005": -1,
+                "102": -1,
+                "103": -1,
+                "104": -1,
+                "105": -1,
+                "108": -1
+              },
+              "version": "8.26.07.200032",
+              "signature": 100269
             }
           ],
           "labels": [],
@@ -43013,6 +43045,14 @@ SUPPORT_CHARTS = {
             },
             {
               "version": "150.0.7871.115",
+              "signature": 100004
+            },
+            {
+              "version": "150.0.7871.125",
+              "signature": 100004
+            },
+            {
+              "version": "150.0.7871.129",
               "signature": 100004
             }
           ],
@@ -50647,6 +50687,22 @@ SUPPORT_CHARTS = {
               },
               "version": "8.26.06.200030",
               "signature": 100269
+            },
+            {
+              "methodsStatus": {
+                "1001": -1,
+                "1002": -1,
+                "1003": -1,
+                "1004": -1,
+                "1005": -1,
+                "102": -1,
+                "103": -1,
+                "104": -1,
+                "105": -1,
+                "108": -1
+              },
+              "version": "8.26.07.200032",
+              "signature": 100269
             }
           ],
           "labels": [],
@@ -56068,6 +56124,10 @@ SUPPORT_CHARTS = {
             },
             {
               "version": "150.0.4078.65",
+              "signature": 100474
+            },
+            {
+              "version": "150.0.4078.80",
               "signature": 100474
             }
           ],
@@ -72366,6 +72426,23 @@ SUPPORT_CHARTS = {
                 "108": -1
               },
               "version": "8.26.06.200030",
+              "signature": 100269
+            },
+            {
+              "certification": "platinum",
+              "methodsStatus": {
+                "1001": -1,
+                "1002": -1,
+                "1003": -1,
+                "1004": -1,
+                "1005": -1,
+                "102": -1,
+                "103": -1,
+                "104": -1,
+                "105": -1,
+                "108": -1
+              },
+              "version": "8.26.07.200032",
               "signature": 100269
             }
           ],
@@ -97400,6 +97477,14 @@ SUPPORT_CHARTS = {
             {
               "version": "150.0.7871.115",
               "signature": 100004
+            },
+            {
+              "version": "150.0.7871.125",
+              "signature": 100004
+            },
+            {
+              "version": "150.0.7871.129",
+              "signature": 100004
             }
           ],
           "labels": [],
@@ -100433,6 +100518,10 @@ SUPPORT_CHARTS = {
             },
             {
               "version": "150.0.4078.65",
+              "signature": 100474
+            },
+            {
+              "version": "150.0.4078.80",
               "signature": 100474
             }
           ],
@@ -115048,6 +115137,10 @@ SUPPORT_CHARTS = {
             {
               "version": "4.50.143",
               "signature": 100119
+            },
+            {
+              "version": "4.51.180",
+              "signature": 100119
             }
           ],
           "labels": [],
@@ -116010,6 +116103,10 @@ SUPPORT_CHARTS = {
             },
             {
               "version": "7.1.0",
+              "signature": 100282
+            },
+            {
+              "version": "7.1.5",
               "signature": 100282
             }
           ],
@@ -120728,5 +120825,5 @@ SUPPORT_CHARTS = {
     }
   },
   "support_chart_type": "CATEGORY",
-  "timestamp": "1784041765"
+  "timestamp": "1784623632"
 }
