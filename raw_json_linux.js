@@ -1412,6 +1412,10 @@ SUPPORT_CHARTS = {
             {
               "version": "152.0.1",
               "signature": 200096
+            },
+            {
+              "version": "153.0",
+              "signature": 200096
             }
           ],
           "labels": [],
@@ -10336,6 +10340,10 @@ SUPPORT_CHARTS = {
             {
               "version": "1.129.1",
               "signature": 200206
+            },
+            {
+              "version": "1.130.0",
+              "signature": 200206
             }
           ],
           "labels": [],
@@ -10978,6 +10986,14 @@ SUPPORT_CHARTS = {
             {
               "version": "26.2.2.2",
               "signature": 200165
+            },
+            {
+              "version": "26.2.4.2",
+              "signature": 200165
+            },
+            {
+              "version": "26.2.5.2",
+              "signature": 200165
             }
           ],
           "labels": [],
@@ -11022,23 +11038,23 @@ SUPPORT_CHARTS = {
                             "_supported": true,
                             "_optional": false,
                             "name": {
-                              "_supported": false,
+                              "_supported": true,
                               "_optional": false
                             },
                             "bitness": {
-                              "_supported": false,
+                              "_supported": true,
                               "_optional": false
                             }
                           },
                           "language": {
-                            "_supported": true,
+                            "_supported": false,
                             "_optional": false,
                             "code": {
-                              "_supported": true,
+                              "_supported": false,
                               "_optional": false
                             },
                             "name": {
-                              "_supported": true,
+                              "_supported": false,
                               "_optional": false
                             }
                           },
@@ -13240,6 +13256,47 @@ SUPPORT_CHARTS = {
                       "admin_required": true,
                       "notes": ""
                     },
+                    "name": "TerminateProcesses"
+                  }
+                }
+              }
+            }
+          }
+        },
+        "200231": {
+          "id": 200231,
+          "tested_points": [
+            {
+              "version": "1.0.0.20",
+              "signature": 200250
+            }
+          ],
+          "labels": [],
+          "languages": [],
+          "name": "Cisco Secure Client - Endpoint Data Loss Prevention",
+          "signatures": {
+            "200250": {
+              "signature": 200250,
+              "product": {
+                "id": 200231,
+                "name": "Cisco Secure Client - Endpoint Data Loss Prevention"
+              },
+              "vendor": {
+                "id": 200203,
+                "name": "Cisco Systems, Inc."
+              },
+              "categories": {
+                "11": {
+                  "id": 11,
+                  "name": "DATA_LOSS_PREVENTION"
+                }
+              },
+              "sig_name": "Cisco Secure Client - Endpoint Data Loss Prevention",
+              "methods": {
+                "constant": {
+                  "103": {
+                    "id": 103,
+                    "code": -11,
                     "name": "TerminateProcesses"
                   }
                 }
@@ -43484,6 +43541,10 @@ SUPPORT_CHARTS = {
             {
               "version": "8.19.0",
               "signature": 200210
+            },
+            {
+              "version": "8.20.0",
+              "signature": 200210
             }
           ],
           "labels": [],
@@ -43955,5 +44016,5 @@ SUPPORT_CHARTS = {
     }
   },
   "support_chart_type": "CATEGORY",
-  "timestamp": "1784798714"
+  "timestamp": "1785235047"
 }
