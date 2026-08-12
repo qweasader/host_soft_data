@@ -48,8 +48,8 @@ SUPPORT_CHARTS = {
                   "name": "P2PA"
                 }
               },
-              "methods": {},
-              "sig_name": "BitTorrent"
+              "sig_name": "BitTorrent",
+              "methods": {}
             }
           }
         },
@@ -85,6 +85,7 @@ SUPPORT_CHARTS = {
                   "name": "P2PA"
                 }
               },
+              "sig_name": "Transmission",
               "methods": {
                 "manageability": {
                   "100": {
@@ -142,8 +143,7 @@ SUPPORT_CHARTS = {
                     "name": "GetVersion"
                   }
                 }
-              },
-              "sig_name": "Transmission"
+              }
             }
           }
         },
@@ -210,6 +210,7 @@ SUPPORT_CHARTS = {
                   "name": "P2PA"
                 }
               },
+              "sig_name": "FileZilla",
               "methods": {
                 "manageability": {
                   "100": {
@@ -332,8 +333,7 @@ SUPPORT_CHARTS = {
                     "name": "GetInstallationDirectories"
                   }
                 }
-              },
-              "sig_name": "FileZilla"
+              }
             }
           }
         },
@@ -371,8 +371,8 @@ SUPPORT_CHARTS = {
                   "name": "P2PA"
                 }
               },
-              "methods": {},
-              "sig_name": "qBittorrent"
+              "sig_name": "qBittorrent",
+              "methods": {}
             }
           }
         },
@@ -408,8 +408,8 @@ SUPPORT_CHARTS = {
                   "name": "P2PA"
                 }
               },
-              "methods": {},
-              "sig_name": "Tribler"
+              "sig_name": "Tribler",
+              "methods": {}
             }
           }
         }
@@ -454,6 +454,7 @@ SUPPORT_CHARTS = {
                   "name": "UNCLASSIFIED"
                 }
               },
+              "sig_name": "Adobe Flash Player",
               "methods": {
                 "manageability": {
                   "100": {
@@ -474,8 +475,7 @@ SUPPORT_CHARTS = {
                     "name": "GetVersion"
                   }
                 }
-              },
-              "sig_name": "Adobe Flash Player"
+              }
             }
           }
         },
@@ -507,8 +507,8 @@ SUPPORT_CHARTS = {
                   "name": "UNCLASSIFIED"
                 }
               },
-              "methods": {},
-              "sig_name": "Python"
+              "sig_name": "Python",
+              "methods": {}
             }
           }
         },
@@ -542,8 +542,8 @@ SUPPORT_CHARTS = {
                   "name": "UNCLASSIFIED"
                 }
               },
-              "methods": {},
-              "sig_name": "Code::Blocks"
+              "sig_name": "Code::Blocks",
+              "methods": {}
             }
           }
         },
@@ -593,6 +593,7 @@ SUPPORT_CHARTS = {
                   "name": "UNCLASSIFIED"
                 }
               },
+              "sig_name": "Java",
               "methods": {
                 "constant": {
                   "102": {
@@ -696,8 +697,7 @@ SUPPORT_CHARTS = {
                     "name": "TerminateProcesses"
                   }
                 }
-              },
-              "sig_name": "Java"
+              }
             }
           }
         },
@@ -735,6 +735,7 @@ SUPPORT_CHARTS = {
                   "name": "UNCLASSIFIED"
                 }
               },
+              "sig_name": "PHP",
               "methods": {
                 "constant": {
                   "102": {
@@ -917,8 +918,7 @@ SUPPORT_CHARTS = {
                     "name": "GetComponents"
                   }
                 }
-              },
-              "sig_name": "PHP"
+              }
             }
           }
         },
@@ -954,6 +954,7 @@ SUPPORT_CHARTS = {
                   "name": "UNCLASSIFIED"
                 }
               },
+              "sig_name": "SopCast",
               "methods": {
                 "manageability": {
                   "101": {
@@ -986,8 +987,7 @@ SUPPORT_CHARTS = {
                     "name": "TerminateProcesses"
                   }
                 }
-              },
-              "sig_name": "SopCast"
+              }
             }
           }
         },
@@ -1019,6 +1019,7 @@ SUPPORT_CHARTS = {
                   "name": "UNCLASSIFIED"
                 }
               },
+              "sig_name": "Java SE Development Kit",
               "methods": {
                 "constant": {
                   "101": {
@@ -1093,8 +1094,7 @@ SUPPORT_CHARTS = {
                     "name": "GetVersion"
                   }
                 }
-              },
-              "sig_name": "Java SE Development Kit"
+              }
             }
           }
         },
@@ -1126,8 +1126,8 @@ SUPPORT_CHARTS = {
                   "name": "UNCLASSIFIED"
                 }
               },
-              "methods": {},
-              "sig_name": "Doxygen"
+              "sig_name": "Doxygen",
+              "methods": {}
             }
           }
         },
@@ -1163,8 +1163,8 @@ SUPPORT_CHARTS = {
                   "name": "UNCLASSIFIED"
                 }
               },
-              "methods": {},
-              "sig_name": "LibreCAD"
+              "sig_name": "LibreCAD",
+              "methods": {}
             }
           }
         },
@@ -1196,6 +1196,7 @@ SUPPORT_CHARTS = {
                   "name": "UNCLASSIFIED"
                 }
               },
+              "sig_name": "MKVToolNix",
               "methods": {
                 "constant": {
                   "101": {
@@ -1237,8 +1238,7 @@ SUPPORT_CHARTS = {
                     "name": "GetInstallationDirectories"
                   }
                 }
-              },
-              "sig_name": "MKVToolNix"
+              }
             }
           }
         },
@@ -1438,6 +1438,7 @@ SUPPORT_CHARTS = {
                   "name": "UNCLASSIFIED"
                 }
               },
+              "sig_name": "Thunderbird",
               "methods": {
                 "manageability": {
                   "100": {
@@ -1577,8 +1578,7 @@ SUPPORT_CHARTS = {
                     "name": "GetInstallationDirectories"
                   }
                 }
-              },
-              "sig_name": "Thunderbird"
+              }
             }
           }
         },
@@ -1646,6 +1646,7 @@ SUPPORT_CHARTS = {
                   "name": "UNCLASSIFIED"
                 }
               },
+              "sig_name": "GIMP",
               "methods": {
                 "manageability": {
                   "100": {
@@ -1785,8 +1786,7 @@ SUPPORT_CHARTS = {
                     "name": "GetInstallationDirectories"
                   }
                 }
-              },
-              "sig_name": "GIMP"
+              }
             }
           }
         },
@@ -1818,6 +1818,7 @@ SUPPORT_CHARTS = {
                   "name": "UNCLASSIFIED"
                 }
               },
+              "sig_name": "Zimbra Desktop",
               "methods": {
                 "manageability": {
                   "100": {
@@ -1891,8 +1892,7 @@ SUPPORT_CHARTS = {
                     "name": "TerminateProcesses"
                   }
                 }
-              },
-              "sig_name": "Zimbra Desktop"
+              }
             }
           }
         },
@@ -1924,6 +1924,7 @@ SUPPORT_CHARTS = {
                   "name": "UNCLASSIFIED"
                 }
               },
+              "sig_name": "Zim",
               "methods": {
                 "manageability": {
                   "100": {
@@ -1997,8 +1998,7 @@ SUPPORT_CHARTS = {
                     "name": "TerminateProcesses"
                   }
                 }
-              },
-              "sig_name": "Zim"
+              }
             }
           }
         },
@@ -2030,6 +2030,7 @@ SUPPORT_CHARTS = {
                   "name": "UNCLASSIFIED"
                 }
               },
+              "sig_name": "WPS Office",
               "methods": {
                 "manageability": {
                   "100": {
@@ -2103,8 +2104,7 @@ SUPPORT_CHARTS = {
                     "name": "TerminateProcesses"
                   }
                 }
-              },
-              "sig_name": "WPS Office"
+              }
             }
           }
         },
@@ -2208,6 +2208,7 @@ SUPPORT_CHARTS = {
                   "name": "UNCLASSIFIED"
                 }
               },
+              "sig_name": "Python 3.5",
               "methods": {
                 "manageability": {
                   "100": {
@@ -2252,8 +2253,7 @@ SUPPORT_CHARTS = {
                     "name": "GetVersion"
                   }
                 }
-              },
-              "sig_name": "Python 3.5"
+              }
             },
             "200110": {
               "signature": 200110,
@@ -2271,6 +2271,7 @@ SUPPORT_CHARTS = {
                   "name": "UNCLASSIFIED"
                 }
               },
+              "sig_name": "Python 3.6",
               "methods": {
                 "manageability": {
                   "100": {
@@ -2315,8 +2316,7 @@ SUPPORT_CHARTS = {
                     "name": "GetVersion"
                   }
                 }
-              },
-              "sig_name": "Python 3.6"
+              }
             },
             "200111": {
               "signature": 200111,
@@ -2334,6 +2334,7 @@ SUPPORT_CHARTS = {
                   "name": "UNCLASSIFIED"
                 }
               },
+              "sig_name": "Python 3.7",
               "methods": {
                 "manageability": {
                   "100": {
@@ -2378,8 +2379,7 @@ SUPPORT_CHARTS = {
                     "name": "GetVersion"
                   }
                 }
-              },
-              "sig_name": "Python 3.7"
+              }
             },
             "200112": {
               "signature": 200112,
@@ -2397,6 +2397,7 @@ SUPPORT_CHARTS = {
                   "name": "UNCLASSIFIED"
                 }
               },
+              "sig_name": "Python 3.8",
               "methods": {
                 "manageability": {
                   "100": {
@@ -2441,8 +2442,7 @@ SUPPORT_CHARTS = {
                     "name": "GetVersion"
                   }
                 }
-              },
-              "sig_name": "Python 3.8"
+              }
             },
             "200113": {
               "signature": 200113,
@@ -2460,6 +2460,7 @@ SUPPORT_CHARTS = {
                   "name": "UNCLASSIFIED"
                 }
               },
+              "sig_name": "Python 3.4",
               "methods": {
                 "manageability": {
                   "100": {
@@ -2504,8 +2505,7 @@ SUPPORT_CHARTS = {
                     "name": "GetVersion"
                   }
                 }
-              },
-              "sig_name": "Python 3.4"
+              }
             },
             "200114": {
               "signature": 200114,
@@ -2523,6 +2523,7 @@ SUPPORT_CHARTS = {
                   "name": "UNCLASSIFIED"
                 }
               },
+              "sig_name": "Python 3.0",
               "methods": {
                 "manageability": {
                   "100": {
@@ -2567,8 +2568,7 @@ SUPPORT_CHARTS = {
                     "name": "GetVersion"
                   }
                 }
-              },
-              "sig_name": "Python 3.0"
+              }
             },
             "200115": {
               "signature": 200115,
@@ -2586,6 +2586,7 @@ SUPPORT_CHARTS = {
                   "name": "UNCLASSIFIED"
                 }
               },
+              "sig_name": "Python 3.1",
               "methods": {
                 "manageability": {
                   "100": {
@@ -2630,8 +2631,7 @@ SUPPORT_CHARTS = {
                     "name": "GetVersion"
                   }
                 }
-              },
-              "sig_name": "Python 3.1"
+              }
             },
             "200116": {
               "signature": 200116,
@@ -2649,6 +2649,7 @@ SUPPORT_CHARTS = {
                   "name": "UNCLASSIFIED"
                 }
               },
+              "sig_name": "Python 3.2",
               "methods": {
                 "manageability": {
                   "100": {
@@ -2693,8 +2694,7 @@ SUPPORT_CHARTS = {
                     "name": "GetVersion"
                   }
                 }
-              },
-              "sig_name": "Python 3.2"
+              }
             },
             "200117": {
               "signature": 200117,
@@ -2712,6 +2712,7 @@ SUPPORT_CHARTS = {
                   "name": "UNCLASSIFIED"
                 }
               },
+              "sig_name": "Python 3.3",
               "methods": {
                 "manageability": {
                   "100": {
@@ -2756,8 +2757,7 @@ SUPPORT_CHARTS = {
                     "name": "GetVersion"
                   }
                 }
-              },
-              "sig_name": "Python 3.3"
+              }
             },
             "200118": {
               "signature": 200118,
@@ -2775,6 +2775,7 @@ SUPPORT_CHARTS = {
                   "name": "UNCLASSIFIED"
                 }
               },
+              "sig_name": "Python 3.9",
               "methods": {
                 "manageability": {
                   "100": {
@@ -2819,8 +2820,7 @@ SUPPORT_CHARTS = {
                     "name": "GetVersion"
                   }
                 }
-              },
-              "sig_name": "Python 3.9"
+              }
             },
             "200211": {
               "signature": 200211,
@@ -2838,6 +2838,7 @@ SUPPORT_CHARTS = {
                   "name": "UNCLASSIFIED"
                 }
               },
+              "sig_name": "Python 3.10",
               "methods": {
                 "constant": {
                   "101": {
@@ -2856,8 +2857,7 @@ SUPPORT_CHARTS = {
                     "name": "TerminateProcesses"
                   }
                 }
-              },
-              "sig_name": "Python 3.10"
+              }
             }
           }
         },
@@ -2893,6 +2893,7 @@ SUPPORT_CHARTS = {
                   "name": "UNCLASSIFIED"
                 }
               },
+              "sig_name": "Blender",
               "methods": {
                 "manageability": {
                   "100": {
@@ -2970,8 +2971,7 @@ SUPPORT_CHARTS = {
                     "name": "GetInstallationDirectories"
                   }
                 }
-              },
-              "sig_name": "Blender"
+              }
             }
           }
         },
@@ -3003,6 +3003,7 @@ SUPPORT_CHARTS = {
                   "name": "UNCLASSIFIED"
                 }
               },
+              "sig_name": "Dropbox",
               "methods": {
                 "manageability": {
                   "100": {
@@ -3088,8 +3089,7 @@ SUPPORT_CHARTS = {
                     "name": "TerminateProcesses"
                   }
                 }
-              },
-              "sig_name": "Dropbox"
+              }
             }
           }
         },
@@ -3121,8 +3121,8 @@ SUPPORT_CHARTS = {
                   "name": "UNCLASSIFIED"
                 }
               },
-              "methods": {},
-              "sig_name": "RStudio"
+              "sig_name": "RStudio",
+              "methods": {}
             }
           }
         },
@@ -3154,6 +3154,7 @@ SUPPORT_CHARTS = {
                   "name": "UNCLASSIFIED"
                 }
               },
+              "sig_name": "Guiffy",
               "methods": {
                 "manageability": {
                   "100": {
@@ -3227,8 +3228,7 @@ SUPPORT_CHARTS = {
                     "name": "TerminateProcesses"
                   }
                 }
-              },
-              "sig_name": "Guiffy"
+              }
             }
           }
         },
@@ -3262,6 +3262,7 @@ SUPPORT_CHARTS = {
                   "name": "UNCLASSIFIED"
                 }
               },
+              "sig_name": "DB Browser for SQLite",
               "methods": {
                 "manageability": {
                   "100": {
@@ -3362,8 +3363,7 @@ SUPPORT_CHARTS = {
                     "name": "GetInstallationDirectories"
                   }
                 }
-              },
-              "sig_name": "DB Browser for SQLite"
+              }
             }
           }
         },
@@ -3395,6 +3395,7 @@ SUPPORT_CHARTS = {
                   "name": "UNCLASSIFIED"
                 }
               },
+              "sig_name": "Geany",
               "methods": {
                 "manageability": {
                   "100": {
@@ -3451,8 +3452,7 @@ SUPPORT_CHARTS = {
                     "name": "Run"
                   }
                 }
-              },
-              "sig_name": "Geany"
+              }
             }
           }
         },
@@ -3486,6 +3486,7 @@ SUPPORT_CHARTS = {
                   "name": "UNCLASSIFIED"
                 }
               },
+              "sig_name": "Nero Linux",
               "methods": {
                 "manageability": {
                   "100": {
@@ -3530,8 +3531,7 @@ SUPPORT_CHARTS = {
                     "name": "GetVersion"
                   }
                 }
-              },
-              "sig_name": "Nero Linux"
+              }
             }
           }
         },
@@ -3567,6 +3567,7 @@ SUPPORT_CHARTS = {
                   "name": "UNCLASSIFIED"
                 }
               },
+              "sig_name": "DbVisualizer",
               "methods": {
                 "manageability": {
                   "100": {
@@ -3673,8 +3674,7 @@ SUPPORT_CHARTS = {
                     "name": "GetInstallationDirectories"
                   }
                 }
-              },
-              "sig_name": "DbVisualizer"
+              }
             }
           }
         },
@@ -3706,6 +3706,7 @@ SUPPORT_CHARTS = {
                   "name": "UNCLASSIFIED"
                 }
               },
+              "sig_name": "USB Network Gate",
               "methods": {
                 "manageability": {
                   "102": {
@@ -3721,8 +3722,7 @@ SUPPORT_CHARTS = {
                     "name": "Run"
                   }
                 }
-              },
-              "sig_name": "USB Network Gate"
+              }
             }
           }
         },
@@ -3760,6 +3760,7 @@ SUPPORT_CHARTS = {
                   "name": "UNCLASSIFIED"
                 }
               },
+              "sig_name": "Ruby",
               "methods": {
                 "constant": {
                   "102": {
@@ -3867,8 +3868,7 @@ SUPPORT_CHARTS = {
                     "name": "GetInstallationDirectories"
                   }
                 }
-              },
-              "sig_name": "Ruby"
+              }
             }
           }
         },
@@ -3900,6 +3900,7 @@ SUPPORT_CHARTS = {
                   "name": "UNCLASSIFIED"
                 }
               },
+              "sig_name": "P7Zip",
               "methods": {
                 "constant": {
                   "101": {
@@ -3982,8 +3983,7 @@ SUPPORT_CHARTS = {
                     "name": "GetInstallationDirectories"
                   }
                 }
-              },
-              "sig_name": "P7Zip"
+              }
             }
           }
         },
@@ -4017,6 +4017,7 @@ SUPPORT_CHARTS = {
                   "name": "UNCLASSIFIED"
                 }
               },
+              "sig_name": "Cppcheck",
               "methods": {
                 "constant": {
                   "102": {
@@ -4097,8 +4098,7 @@ SUPPORT_CHARTS = {
                     "name": "TerminateProcesses"
                   }
                 }
-              },
-              "sig_name": "Cppcheck"
+              }
             }
           }
         },
@@ -4132,8 +4132,8 @@ SUPPORT_CHARTS = {
                   "name": "UNCLASSIFIED"
                 }
               },
-              "methods": {},
-              "sig_name": "aMule"
+              "sig_name": "aMule",
+              "methods": {}
             }
           }
         },
@@ -4165,6 +4165,7 @@ SUPPORT_CHARTS = {
                   "name": "UNCLASSIFIED"
                 }
               },
+              "sig_name": "Freeplane",
               "methods": {
                 "manageability": {
                   "101": {
@@ -4197,8 +4198,7 @@ SUPPORT_CHARTS = {
                     "name": "TerminateProcesses"
                   }
                 }
-              },
-              "sig_name": "Freeplane"
+              }
             }
           }
         },
@@ -4230,6 +4230,7 @@ SUPPORT_CHARTS = {
                   "name": "UNCLASSIFIED"
                 }
               },
+              "sig_name": "Kodi",
               "methods": {
                 "manageability": {
                   "100": {
@@ -4303,8 +4304,7 @@ SUPPORT_CHARTS = {
                     "name": "TerminateProcesses"
                   }
                 }
-              },
-              "sig_name": "Kodi"
+              }
             }
           }
         },
@@ -4366,6 +4366,7 @@ SUPPORT_CHARTS = {
                   "name": "UNCLASSIFIED"
                 }
               },
+              "sig_name": "MySQL Workbench",
               "methods": {
                 "manageability": {
                   "101": {
@@ -4398,8 +4399,7 @@ SUPPORT_CHARTS = {
                     "name": "TerminateProcesses"
                   }
                 }
-              },
-              "sig_name": "MySQL Workbench"
+              }
             }
           }
         },
@@ -4435,6 +4435,7 @@ SUPPORT_CHARTS = {
                   "name": "UNCLASSIFIED"
                 }
               },
+              "sig_name": "F.lux",
               "methods": {
                 "manageability": {
                   "100": {
@@ -4520,8 +4521,7 @@ SUPPORT_CHARTS = {
                     "name": "TerminateProcesses"
                   }
                 }
-              },
-              "sig_name": "F.lux"
+              }
             }
           }
         },
@@ -4555,6 +4555,7 @@ SUPPORT_CHARTS = {
                   "name": "UNCLASSIFIED"
                 }
               },
+              "sig_name": "Tixati",
               "methods": {
                 "manageability": {
                   "100": {
@@ -4599,8 +4600,7 @@ SUPPORT_CHARTS = {
                     "name": "GetVersion"
                   }
                 }
-              },
-              "sig_name": "Tixati"
+              }
             }
           }
         },
@@ -4632,8 +4632,8 @@ SUPPORT_CHARTS = {
                   "name": "UNCLASSIFIED"
                 }
               },
-              "methods": {},
-              "sig_name": "PhpStorm"
+              "sig_name": "PhpStorm",
+              "methods": {}
             }
           }
         },
@@ -4687,6 +4687,7 @@ SUPPORT_CHARTS = {
                   "name": "UNCLASSIFIED"
                 }
               },
+              "sig_name": "MySQL Server",
               "methods": {
                 "manageability": {
                   "100": {
@@ -4800,8 +4801,7 @@ SUPPORT_CHARTS = {
                     "name": "TerminateProcesses"
                   }
                 }
-              },
-              "sig_name": "MySQL Server"
+              }
             }
           }
         },
@@ -4835,6 +4835,7 @@ SUPPORT_CHARTS = {
                   "name": "UNCLASSIFIED"
                 }
               },
+              "sig_name": "Able2Extract",
               "methods": {
                 "manageability": {
                   "101": {
@@ -4867,8 +4868,7 @@ SUPPORT_CHARTS = {
                     "name": "TerminateProcesses"
                   }
                 }
-              },
-              "sig_name": "Able2Extract"
+              }
             }
           }
         },
@@ -4904,6 +4904,7 @@ SUPPORT_CHARTS = {
                   "name": "UNCLASSIFIED"
                 }
               },
+              "sig_name": "Avidemux",
               "methods": {
                 "manageability": {
                   "100": {
@@ -5010,8 +5011,7 @@ SUPPORT_CHARTS = {
                     "name": "GetInstallationDirectories"
                   }
                 }
-              },
-              "sig_name": "Avidemux"
+              }
             }
           }
         },
@@ -5045,6 +5045,7 @@ SUPPORT_CHARTS = {
                   "name": "UNCLASSIFIED"
                 }
               },
+              "sig_name": "Android Studio",
               "methods": {
                 "manageability": {
                   "100": {
@@ -5151,8 +5152,7 @@ SUPPORT_CHARTS = {
                     "name": "GetInstallationDirectories"
                   }
                 }
-              },
-              "sig_name": "Android Studio"
+              }
             }
           }
         },
@@ -5184,6 +5184,7 @@ SUPPORT_CHARTS = {
                   "name": "UNCLASSIFIED"
                 }
               },
+              "sig_name": "Apache NetBeans IDE",
               "methods": {
                 "manageability": {
                   "100": {
@@ -5269,8 +5270,7 @@ SUPPORT_CHARTS = {
                     "name": "TerminateProcesses"
                   }
                 }
-              },
-              "sig_name": "Apache NetBeans IDE"
+              }
             }
           }
         },
@@ -5304,6 +5304,7 @@ SUPPORT_CHARTS = {
                   "name": "UNCLASSIFIED"
                 }
               },
+              "sig_name": "Simply Fortran",
               "methods": {
                 "manageability": {
                   "100": {
@@ -5389,8 +5390,7 @@ SUPPORT_CHARTS = {
                     "name": "TerminateProcesses"
                   }
                 }
-              },
-              "sig_name": "Simply Fortran"
+              }
             }
           }
         },
@@ -5422,6 +5422,7 @@ SUPPORT_CHARTS = {
                   "name": "UNCLASSIFIED"
                 }
               },
+              "sig_name": "Free Pascal Compiler",
               "methods": {
                 "manageability": {
                   "100": {
@@ -5466,8 +5467,7 @@ SUPPORT_CHARTS = {
                     "name": "GetVersion"
                   }
                 }
-              },
-              "sig_name": "Free Pascal Compiler"
+              }
             }
           }
         },
@@ -5499,6 +5499,7 @@ SUPPORT_CHARTS = {
                   "name": "UNCLASSIFIED"
                 }
               },
+              "sig_name": "BitMeter",
               "methods": {
                 "manageability": {
                   "101": {
@@ -5543,8 +5544,7 @@ SUPPORT_CHARTS = {
                     "name": "TerminateProcesses"
                   }
                 }
-              },
-              "sig_name": "BitMeter"
+              }
             }
           }
         },
@@ -5588,6 +5588,7 @@ SUPPORT_CHARTS = {
                   "name": "P2PA"
                 }
               },
+              "sig_name": "Retroshare",
               "methods": {
                 "manageability": {
                   "100": {
@@ -5673,8 +5674,7 @@ SUPPORT_CHARTS = {
                     "name": "TerminateProcesses"
                   }
                 }
-              },
-              "sig_name": "Retroshare"
+              }
             }
           }
         },
@@ -5710,6 +5710,7 @@ SUPPORT_CHARTS = {
                   "name": "UNCLASSIFIED"
                 }
               },
+              "sig_name": "HandBrake",
               "methods": {
                 "manageability": {
                   "100": {
@@ -5754,8 +5755,7 @@ SUPPORT_CHARTS = {
                     "name": "GetVersion"
                   }
                 }
-              },
-              "sig_name": "HandBrake"
+              }
             }
           }
         },
@@ -5789,6 +5789,7 @@ SUPPORT_CHARTS = {
                   "name": "UNCLASSIFIED"
                 }
               },
+              "sig_name": "Mongo Management Studio",
               "methods": {
                 "manageability": {
                   "100": {
@@ -5874,8 +5875,7 @@ SUPPORT_CHARTS = {
                     "name": "TerminateProcesses"
                   }
                 }
-              },
-              "sig_name": "Mongo Management Studio"
+              }
             }
           }
         },
@@ -5907,6 +5907,7 @@ SUPPORT_CHARTS = {
                   "name": "UNCLASSIFIED"
                 }
               },
+              "sig_name": "Brackets",
               "methods": {
                 "manageability": {
                   "100": {
@@ -5980,8 +5981,7 @@ SUPPORT_CHARTS = {
                     "name": "TerminateProcesses"
                   }
                 }
-              },
-              "sig_name": "Brackets"
+              }
             }
           }
         },
@@ -6017,6 +6017,7 @@ SUPPORT_CHARTS = {
                   "name": "UNCLASSIFIED"
                 }
               },
+              "sig_name": "PeaZip",
               "methods": {
                 "manageability": {
                   "102": {
@@ -6053,8 +6054,7 @@ SUPPORT_CHARTS = {
                     "name": "GetInstallationDirectories"
                   }
                 }
-              },
-              "sig_name": "PeaZip"
+              }
             }
           }
         },
@@ -6114,6 +6114,7 @@ SUPPORT_CHARTS = {
                   "name": "UNCLASSIFIED"
                 }
               },
+              "sig_name": "Lauyan TOWeb V8",
               "methods": {
                 "constant": {
                   "102": {
@@ -6194,8 +6195,7 @@ SUPPORT_CHARTS = {
                     "name": "TerminateProcesses"
                   }
                 }
-              },
-              "sig_name": "Lauyan TOWeb V8"
+              }
             },
             "200180": {
               "signature": 200180,
@@ -6213,6 +6213,7 @@ SUPPORT_CHARTS = {
                   "name": "UNCLASSIFIED"
                 }
               },
+              "sig_name": "Lauyan TOWeb V1",
               "methods": {
                 "constant": {
                   "102": {
@@ -6293,8 +6294,7 @@ SUPPORT_CHARTS = {
                     "name": "TerminateProcesses"
                   }
                 }
-              },
-              "sig_name": "Lauyan TOWeb V1"
+              }
             },
             "200181": {
               "signature": 200181,
@@ -6312,6 +6312,7 @@ SUPPORT_CHARTS = {
                   "name": "UNCLASSIFIED"
                 }
               },
+              "sig_name": "Lauyan TOWeb V2",
               "methods": {
                 "constant": {
                   "102": {
@@ -6392,8 +6393,7 @@ SUPPORT_CHARTS = {
                     "name": "TerminateProcesses"
                   }
                 }
-              },
-              "sig_name": "Lauyan TOWeb V2"
+              }
             },
             "200182": {
               "signature": 200182,
@@ -6411,6 +6411,7 @@ SUPPORT_CHARTS = {
                   "name": "UNCLASSIFIED"
                 }
               },
+              "sig_name": "Lauyan TOWeb V3",
               "methods": {
                 "constant": {
                   "102": {
@@ -6491,8 +6492,7 @@ SUPPORT_CHARTS = {
                     "name": "TerminateProcesses"
                   }
                 }
-              },
-              "sig_name": "Lauyan TOWeb V3"
+              }
             },
             "200183": {
               "signature": 200183,
@@ -6510,6 +6510,7 @@ SUPPORT_CHARTS = {
                   "name": "UNCLASSIFIED"
                 }
               },
+              "sig_name": "Lauyan TOWeb V5",
               "methods": {
                 "constant": {
                   "102": {
@@ -6590,8 +6591,7 @@ SUPPORT_CHARTS = {
                     "name": "TerminateProcesses"
                   }
                 }
-              },
-              "sig_name": "Lauyan TOWeb V5"
+              }
             },
             "200184": {
               "signature": 200184,
@@ -6609,6 +6609,7 @@ SUPPORT_CHARTS = {
                   "name": "UNCLASSIFIED"
                 }
               },
+              "sig_name": "Lauyan TOWeb V7",
               "methods": {
                 "constant": {
                   "102": {
@@ -6689,8 +6690,7 @@ SUPPORT_CHARTS = {
                     "name": "TerminateProcesses"
                   }
                 }
-              },
-              "sig_name": "Lauyan TOWeb V7"
+              }
             },
             "200190": {
               "signature": 200190,
@@ -6708,6 +6708,7 @@ SUPPORT_CHARTS = {
                   "name": "UNCLASSIFIED"
                 }
               },
+              "sig_name": "Lauyan TOWeb V9",
               "methods": {
                 "constant": {
                   "102": {
@@ -6788,8 +6789,7 @@ SUPPORT_CHARTS = {
                     "name": "TerminateProcesses"
                   }
                 }
-              },
-              "sig_name": "Lauyan TOWeb V9"
+              }
             },
             "200191": {
               "signature": 200191,
@@ -6807,6 +6807,7 @@ SUPPORT_CHARTS = {
                   "name": "UNCLASSIFIED"
                 }
               },
+              "sig_name": "Lauyan TOWeb V4",
               "methods": {
                 "constant": {
                   "102": {
@@ -6887,8 +6888,7 @@ SUPPORT_CHARTS = {
                     "name": "TerminateProcesses"
                   }
                 }
-              },
-              "sig_name": "Lauyan TOWeb V4"
+              }
             }
           }
         },
@@ -6942,6 +6942,7 @@ SUPPORT_CHARTS = {
                   "name": "UNCLASSIFIED"
                 }
               },
+              "sig_name": "VLC media player",
               "methods": {
                 "manageability": {
                   "100": {
@@ -7064,8 +7065,7 @@ SUPPORT_CHARTS = {
                     "name": "GetInstallationDirectories"
                   }
                 }
-              },
-              "sig_name": "VLC media player"
+              }
             }
           }
         },
@@ -7115,6 +7115,7 @@ SUPPORT_CHARTS = {
                   "name": "P2PA"
                 }
               },
+              "sig_name": "Deluge",
               "methods": {
                 "manageability": {
                   "100": {
@@ -7200,8 +7201,7 @@ SUPPORT_CHARTS = {
                     "name": "TerminateProcesses"
                   }
                 }
-              },
-              "sig_name": "Deluge"
+              }
             }
           }
         },
@@ -7255,6 +7255,7 @@ SUPPORT_CHARTS = {
                   "name": "UNCLASSIFIED"
                 }
               },
+              "sig_name": "Firebird SQL Server",
               "methods": {
                 "manageability": {
                   "100": {
@@ -7394,8 +7395,7 @@ SUPPORT_CHARTS = {
                     "name": "GetInstallationDirectories"
                   }
                 }
-              },
-              "sig_name": "Firebird SQL Server"
+              }
             }
           }
         },
@@ -7433,6 +7433,7 @@ SUPPORT_CHARTS = {
                   "name": "UNCLASSIFIED"
                 }
               },
+              "sig_name": "ActivePerl 5",
               "methods": {
                 "constant": {
                   "101": {
@@ -7515,8 +7516,7 @@ SUPPORT_CHARTS = {
                     "name": "GetInstallationDirectories"
                   }
                 }
-              },
-              "sig_name": "ActivePerl 5"
+              }
             }
           }
         },
@@ -7548,6 +7548,7 @@ SUPPORT_CHARTS = {
                   "name": "UNCLASSIFIED"
                 }
               },
+              "sig_name": "UltraEdit",
               "methods": {
                 "manageability": {
                   "100": {
@@ -7654,8 +7655,7 @@ SUPPORT_CHARTS = {
                     "name": "GetInstallationDirectories"
                   }
                 }
-              },
-              "sig_name": "UltraEdit"
+              }
             }
           }
         },
@@ -7689,6 +7689,7 @@ SUPPORT_CHARTS = {
                   "name": "UNCLASSIFIED"
                 }
               },
+              "sig_name": "FrostWire",
               "methods": {
                 "manageability": {
                   "101": {
@@ -7721,8 +7722,7 @@ SUPPORT_CHARTS = {
                     "name": "TerminateProcesses"
                   }
                 }
-              },
-              "sig_name": "FrostWire"
+              }
             }
           }
         },
@@ -7754,6 +7754,7 @@ SUPPORT_CHARTS = {
                   "name": "UNCLASSIFIED"
                 }
               },
+              "sig_name": "010 Editor",
               "methods": {
                 "manageability": {
                   "100": {
@@ -7798,8 +7799,7 @@ SUPPORT_CHARTS = {
                     "name": "GetVersion"
                   }
                 }
-              },
-              "sig_name": "010 Editor"
+              }
             }
           }
         },
@@ -7831,6 +7831,7 @@ SUPPORT_CHARTS = {
                   "name": "UNCLASSIFIED"
                 }
               },
+              "sig_name": "FoxitReader",
               "methods": {
                 "manageability": {
                   "100": {
@@ -7950,8 +7951,7 @@ SUPPORT_CHARTS = {
                     "name": "GetInstallationDirectories"
                   }
                 }
-              },
-              "sig_name": "FoxitReader"
+              }
             }
           }
         },
@@ -7983,6 +7983,7 @@ SUPPORT_CHARTS = {
                   "name": "UNCLASSIFIED"
                 }
               },
+              "sig_name": "Sublime Text 3",
               "methods": {
                 "manageability": {
                   "100": {
@@ -8027,8 +8028,7 @@ SUPPORT_CHARTS = {
                     "name": "GetVersion"
                   }
                 }
-              },
-              "sig_name": "Sublime Text 3"
+              }
             }
           }
         },
@@ -8146,6 +8146,7 @@ SUPPORT_CHARTS = {
                   "name": "UNCLASSIFIED"
                 }
               },
+              "sig_name": "Wireshark",
               "methods": {
                 "manageability": {
                   "100": {
@@ -8343,8 +8344,7 @@ SUPPORT_CHARTS = {
                     "name": "GetComponents"
                   }
                 }
-              },
-              "sig_name": "Wireshark"
+              }
             }
           }
         },
@@ -8376,8 +8376,8 @@ SUPPORT_CHARTS = {
                   "name": "UNCLASSIFIED"
                 }
               },
-              "methods": {},
-              "sig_name": "SMPlayer"
+              "sig_name": "SMPlayer",
+              "methods": {}
             }
           }
         },
@@ -8409,6 +8409,7 @@ SUPPORT_CHARTS = {
                   "name": "UNCLASSIFIED"
                 }
               },
+              "sig_name": "Apache OpenOffice",
               "methods": {
                 "manageability": {
                   "101": {
@@ -8441,8 +8442,7 @@ SUPPORT_CHARTS = {
                     "name": "TerminateProcesses"
                   }
                 }
-              },
-              "sig_name": "Apache OpenOffice"
+              }
             }
           }
         },
@@ -8474,6 +8474,7 @@ SUPPORT_CHARTS = {
                   "name": "UNCLASSIFIED"
                 }
               },
+              "sig_name": "Inkscape",
               "methods": {
                 "manageability": {
                   "100": {
@@ -8518,8 +8519,7 @@ SUPPORT_CHARTS = {
                     "name": "GetVersion"
                   }
                 }
-              },
-              "sig_name": "Inkscape"
+              }
             }
           }
         },
@@ -8551,8 +8551,8 @@ SUPPORT_CHARTS = {
                   "name": "UNCLASSIFIED"
                 }
               },
-              "methods": {},
-              "sig_name": "Audacity"
+              "sig_name": "Audacity",
+              "methods": {}
             }
           }
         },
@@ -8608,6 +8608,7 @@ SUPPORT_CHARTS = {
                   "name": "UNCLASSIFIED"
                 }
               },
+              "sig_name": "Visual Paradigm 16.0",
               "methods": {
                 "manageability": {
                   "100": {
@@ -8693,8 +8694,7 @@ SUPPORT_CHARTS = {
                     "name": "TerminateProcesses"
                   }
                 }
-              },
-              "sig_name": "Visual Paradigm 16.0"
+              }
             },
             "200177": {
               "signature": 200177,
@@ -8712,6 +8712,7 @@ SUPPORT_CHARTS = {
                   "name": "UNCLASSIFIED"
                 }
               },
+              "sig_name": "Visual Paradigm 16.1",
               "methods": {
                 "manageability": {
                   "100": {
@@ -8797,8 +8798,7 @@ SUPPORT_CHARTS = {
                     "name": "TerminateProcesses"
                   }
                 }
-              },
-              "sig_name": "Visual Paradigm 16.1"
+              }
             },
             "200178": {
               "signature": 200178,
@@ -8816,6 +8816,7 @@ SUPPORT_CHARTS = {
                   "name": "UNCLASSIFIED"
                 }
               },
+              "sig_name": "Visual Paradigm 16.2",
               "methods": {
                 "manageability": {
                   "100": {
@@ -8901,8 +8902,7 @@ SUPPORT_CHARTS = {
                     "name": "TerminateProcesses"
                   }
                 }
-              },
-              "sig_name": "Visual Paradigm 16.2"
+              }
             },
             "200187": {
               "signature": 200187,
@@ -8920,8 +8920,8 @@ SUPPORT_CHARTS = {
                   "name": "UNCLASSIFIED"
                 }
               },
-              "methods": {},
-              "sig_name": "Visual Paradigm 16.2"
+              "sig_name": "Visual Paradigm 16.2",
+              "methods": {}
             }
           }
         },
@@ -8953,6 +8953,7 @@ SUPPORT_CHARTS = {
                   "name": "UNCLASSIFIED"
                 }
               },
+              "sig_name": "Spotify",
               "methods": {
                 "manageability": {
                   "100": {
@@ -9059,8 +9060,7 @@ SUPPORT_CHARTS = {
                     "name": "GetInstallationDirectories"
                   }
                 }
-              },
-              "sig_name": "Spotify"
+              }
             }
           }
         },
@@ -9096,6 +9096,7 @@ SUPPORT_CHARTS = {
                   "name": "UNCLASSIFIED"
                 }
               },
+              "sig_name": "Node.js",
               "methods": {
                 "constant": {
                   "102": {
@@ -9185,8 +9186,7 @@ SUPPORT_CHARTS = {
                     "name": "TerminateProcesses"
                   }
                 }
-              },
-              "sig_name": "Node.js"
+              }
             }
           }
         },
@@ -9218,6 +9218,7 @@ SUPPORT_CHARTS = {
                   "name": "UNCLASSIFIED"
                 }
               },
+              "sig_name": "pgAdmin 4",
               "methods": {
                 "manageability": {
                   "100": {
@@ -9262,8 +9263,7 @@ SUPPORT_CHARTS = {
                     "name": "GetVersion"
                   }
                 }
-              },
-              "sig_name": "pgAdmin 4"
+              }
             }
           }
         },
@@ -9315,6 +9315,7 @@ SUPPORT_CHARTS = {
                   "name": "UNCLASSIFIED"
                 }
               },
+              "sig_name": "perl-base",
               "methods": {
                 "constant": {
                   "101": {
@@ -9376,8 +9377,7 @@ SUPPORT_CHARTS = {
                     "name": "GetVersion"
                   }
                 }
-              },
-              "sig_name": "perl-base"
+              }
             }
           }
         },
@@ -9413,6 +9413,7 @@ SUPPORT_CHARTS = {
                   "name": "UNCLASSIFIED"
                 }
               },
+              "sig_name": "Vesta Control Panel",
               "methods": {
                 "manageability": {
                   "100": {
@@ -9528,8 +9529,7 @@ SUPPORT_CHARTS = {
                     "name": "GetInstallationDirectories"
                   }
                 }
-              },
-              "sig_name": "Vesta Control Panel"
+              }
             }
           }
         },
@@ -9556,6 +9556,7 @@ SUPPORT_CHARTS = {
                   "name": "UNCLASSIFIED"
                 }
               },
+              "sig_name": ".NET",
               "methods": {
                 "constant": {
                   "101": {
@@ -9638,8 +9639,7 @@ SUPPORT_CHARTS = {
                     "name": "GetInstallationDirectories"
                   }
                 }
-              },
-              "sig_name": ".NET"
+              }
             }
           }
         },
@@ -9671,6 +9671,7 @@ SUPPORT_CHARTS = {
                   "name": "UNCLASSIFIED"
                 }
               },
+              "sig_name": "Powershell Core",
               "methods": {
                 "manageability": {
                   "100": {
@@ -9727,8 +9728,7 @@ SUPPORT_CHARTS = {
                     "name": "Run"
                   }
                 }
-              },
-              "sig_name": "Powershell Core"
+              }
             }
           }
         },
@@ -9764,6 +9764,7 @@ SUPPORT_CHARTS = {
                   "name": "UNCLASSIFIED"
                 }
               },
+              "sig_name": "Mono",
               "methods": {
                 "constant": {
                   "101": {
@@ -9846,8 +9847,7 @@ SUPPORT_CHARTS = {
                     "name": "GetInstallationDirectories"
                   }
                 }
-              },
-              "sig_name": "Mono"
+              }
             }
           }
         },
@@ -9935,6 +9935,7 @@ SUPPORT_CHARTS = {
                   "name": "ANTIMALWARE"
                 }
               },
+              "sig_name": "Elastic Agent",
               "methods": {
                 "manageability": {
                   "100": {
@@ -10189,8 +10190,7 @@ SUPPORT_CHARTS = {
                     "name": "GetInstallationDirectories"
                   }
                 }
-              },
-              "sig_name": "Elastic Agent"
+              }
             }
           }
         },
@@ -10366,6 +10366,7 @@ SUPPORT_CHARTS = {
                   "name": "UNCLASSIFIED"
                 }
               },
+              "sig_name": "Visual Studio Code",
               "methods": {
                 "manageability": {
                   "100": {
@@ -10462,8 +10463,7 @@ SUPPORT_CHARTS = {
                     "name": "Run"
                   }
                 }
-              },
-              "sig_name": "Visual Studio Code"
+              }
             }
           }
         },
@@ -10495,8 +10495,8 @@ SUPPORT_CHARTS = {
                   "name": "UNCLASSIFIED"
                 }
               },
-              "methods": {},
-              "sig_name": "wine"
+              "sig_name": "wine",
+              "methods": {}
             }
           }
         },
@@ -10528,6 +10528,7 @@ SUPPORT_CHARTS = {
                   "name": "UNCLASSIFIED"
                 }
               },
+              "sig_name": "Open VM Tools",
               "methods": {
                 "manageability": {
                   "100": {
@@ -10641,8 +10642,7 @@ SUPPORT_CHARTS = {
                     "name": "TerminateProcesses"
                   }
                 }
-              },
-              "sig_name": "Open VM Tools"
+              }
             }
           }
         },
@@ -10674,6 +10674,7 @@ SUPPORT_CHARTS = {
                   "name": "UNCLASSIFIED"
                 }
               },
+              "sig_name": "Qt",
               "methods": {
                 "constant": {
                   "102": {
@@ -10799,8 +10800,7 @@ SUPPORT_CHARTS = {
                     "name": "GetInstallationDirectories"
                   }
                 }
-              },
-              "sig_name": "Qt"
+              }
             }
           }
         },
@@ -10832,6 +10832,7 @@ SUPPORT_CHARTS = {
                   "name": "UNCLASSIFIED"
                 }
               },
+              "sig_name": "Go",
               "methods": {
                 "constant": {
                   "102": {
@@ -10931,8 +10932,7 @@ SUPPORT_CHARTS = {
                     "name": "TerminateProcesses"
                   }
                 }
-              },
-              "sig_name": "Go"
+              }
             }
           }
         },
@@ -11016,6 +11016,7 @@ SUPPORT_CHARTS = {
                   "name": "UNCLASSIFIED"
                 }
               },
+              "sig_name": "LibreOffice",
               "methods": {
                 "manageability": {
                   "100": {
@@ -11112,8 +11113,7 @@ SUPPORT_CHARTS = {
                     "name": "TerminateProcesses"
                   }
                 }
-              },
-              "sig_name": "LibreOffice"
+              }
             }
           }
         },
@@ -11157,6 +11157,7 @@ SUPPORT_CHARTS = {
                   "name": "UNCLASSIFIED"
                 }
               },
+              "sig_name": "Citrix Workspace",
               "methods": {
                 "manageability": {
                   "100": {
@@ -11296,8 +11297,7 @@ SUPPORT_CHARTS = {
                     "name": "GetInstallationDirectories"
                   }
                 }
-              },
-              "sig_name": "Citrix Workspace"
+              }
             }
           },
           "marketing_names": [
@@ -11340,6 +11340,7 @@ SUPPORT_CHARTS = {
                   "name": "UNCLASSIFIED"
                 }
               },
+              "sig_name": "KeePassXC",
               "methods": {
                 "manageability": {
                   "100": {
@@ -11462,8 +11463,7 @@ SUPPORT_CHARTS = {
                     "name": "GetInstallationDirectories"
                   }
                 }
-              },
-              "sig_name": "KeePassXC"
+              }
             }
           }
         },
@@ -11495,6 +11495,7 @@ SUPPORT_CHARTS = {
                   "name": "UNCLASSIFIED"
                 }
               },
+              "sig_name": "Xmind",
               "methods": {
                 "manageability": {
                   "100": {
@@ -11595,8 +11596,7 @@ SUPPORT_CHARTS = {
                     "name": "GetInstallationDirectories"
                   }
                 }
-              },
-              "sig_name": "Xmind"
+              }
             }
           }
         },
@@ -11628,6 +11628,7 @@ SUPPORT_CHARTS = {
                   "name": "UNCLASSIFIED"
                 }
               },
+              "sig_name": "Eclipse Temurin JDK with Hotspot 20",
               "methods": {
                 "constant": {
                   "102": {
@@ -11731,8 +11732,7 @@ SUPPORT_CHARTS = {
                     "name": "TerminateProcesses"
                   }
                 }
-              },
-              "sig_name": "Eclipse Temurin JDK with Hotspot 20"
+              }
             }
           }
         },
@@ -11764,6 +11764,7 @@ SUPPORT_CHARTS = {
                   "name": "UNCLASSIFIED"
                 }
               },
+              "sig_name": "Eclipse Temurin JDK with Hotspot 21",
               "methods": {
                 "constant": {
                   "102": {
@@ -11867,8 +11868,7 @@ SUPPORT_CHARTS = {
                     "name": "TerminateProcesses"
                   }
                 }
-              },
-              "sig_name": "Eclipse Temurin JDK with Hotspot 21"
+              }
             }
           }
         },
@@ -11900,6 +11900,7 @@ SUPPORT_CHARTS = {
                   "name": "UNCLASSIFIED"
                 }
               },
+              "sig_name": "Eclipse Temurin JDK with Hotspot 22",
               "methods": {
                 "constant": {
                   "102": {
@@ -12003,8 +12004,7 @@ SUPPORT_CHARTS = {
                     "name": "TerminateProcesses"
                   }
                 }
-              },
-              "sig_name": "Eclipse Temurin JDK with Hotspot 22"
+              }
             }
           }
         },
@@ -12052,6 +12052,7 @@ SUPPORT_CHARTS = {
                   "name": "UNCLASSIFIED"
                 }
               },
+              "sig_name": "Git",
               "methods": {
                 "constant": {
                   "102": {
@@ -12116,8 +12117,7 @@ SUPPORT_CHARTS = {
                     "name": "GetVersion"
                   }
                 }
-              },
-              "sig_name": "Git"
+              }
             }
           }
         },
@@ -12153,6 +12153,7 @@ SUPPORT_CHARTS = {
                   "name": "UNCLASSIFIED"
                 }
               },
+              "sig_name": "Grafana",
               "methods": {
                 "manageability": {
                   "100": {
@@ -12210,8 +12211,7 @@ SUPPORT_CHARTS = {
                     "name": "GetVersion"
                   }
                 }
-              },
-              "sig_name": "Grafana"
+              }
             }
           }
         },
@@ -12243,6 +12243,7 @@ SUPPORT_CHARTS = {
                   "name": "UNCLASSIFIED"
                 }
               },
+              "sig_name": "Docker Engine",
               "methods": {
                 "manageability": {
                   "100": {
@@ -12300,8 +12301,7 @@ SUPPORT_CHARTS = {
                     "name": "GetVersion"
                   }
                 }
-              },
-              "sig_name": "Docker Engine"
+              }
             }
           }
         },
@@ -12333,8 +12333,8 @@ SUPPORT_CHARTS = {
                   "name": "UNCLASSIFIED"
                 }
               },
-              "methods": {},
-              "sig_name": "Elasticsearch"
+              "sig_name": "Elasticsearch",
+              "methods": {}
             }
           }
         },
@@ -12370,6 +12370,7 @@ SUPPORT_CHARTS = {
                   "name": "UNCLASSIFIED"
                 }
               },
+              "sig_name": "7zip",
               "methods": {
                 "constant": {
                   "101": {
@@ -12470,8 +12471,7 @@ SUPPORT_CHARTS = {
                     "name": "GetInstallationDirectories"
                   }
                 }
-              },
-              "sig_name": "7zip"
+              }
             }
           }
         },
@@ -12507,6 +12507,7 @@ SUPPORT_CHARTS = {
                   "name": "UNCLASSIFIED"
                 }
               },
+              "sig_name": "Claude",
               "methods": {
                 "manageability": {
                   "101": {
@@ -12566,8 +12567,7 @@ SUPPORT_CHARTS = {
                     "name": "TerminateProcesses"
                   }
                 }
-              },
-              "sig_name": "Claude"
+              }
             }
           }
         },
@@ -12599,6 +12599,7 @@ SUPPORT_CHARTS = {
                   "name": "UNCLASSIFIED"
                 }
               },
+              "sig_name": "Eclipse Temurin JDK with Hotspot 8",
               "methods": {
                 "constant": {
                   "102": {
@@ -12702,8 +12703,7 @@ SUPPORT_CHARTS = {
                     "name": "TerminateProcesses"
                   }
                 }
-              },
-              "sig_name": "Eclipse Temurin JDK with Hotspot 8"
+              }
             }
           }
         },
@@ -12735,6 +12735,7 @@ SUPPORT_CHARTS = {
                   "name": "UNCLASSIFIED"
                 }
               },
+              "sig_name": "Eclipse Temurin JDK with Hotspot 11",
               "methods": {
                 "constant": {
                   "102": {
@@ -12838,8 +12839,7 @@ SUPPORT_CHARTS = {
                     "name": "TerminateProcesses"
                   }
                 }
-              },
-              "sig_name": "Eclipse Temurin JDK with Hotspot 11"
+              }
             }
           }
         },
@@ -12871,6 +12871,7 @@ SUPPORT_CHARTS = {
                   "name": "UNCLASSIFIED"
                 }
               },
+              "sig_name": "Eclipse Temurin JDK with Hotspot 17",
               "methods": {
                 "constant": {
                   "102": {
@@ -12974,8 +12975,7 @@ SUPPORT_CHARTS = {
                     "name": "TerminateProcesses"
                   }
                 }
-              },
-              "sig_name": "Eclipse Temurin JDK with Hotspot 17"
+              }
             }
           }
         },
@@ -13007,6 +13007,7 @@ SUPPORT_CHARTS = {
                   "name": "UNCLASSIFIED"
                 }
               },
+              "sig_name": "Eclipse Temurin JDK with Hotspot 23",
               "methods": {
                 "constant": {
                   "102": {
@@ -13110,8 +13111,7 @@ SUPPORT_CHARTS = {
                     "name": "TerminateProcesses"
                   }
                 }
-              },
-              "sig_name": "Eclipse Temurin JDK with Hotspot 23"
+              }
             }
           }
         },
@@ -13143,8 +13143,8 @@ SUPPORT_CHARTS = {
                   "name": "UNCLASSIFIED"
                 }
               },
-              "methods": {},
-              "sig_name": "Amazon WorkSpaces"
+              "sig_name": "Amazon WorkSpaces",
+              "methods": {}
             }
           }
         }
@@ -13199,6 +13199,7 @@ SUPPORT_CHARTS = {
                   "name": "ENCRYPTION"
                 }
               },
+              "sig_name": "Endpoint Protector Client",
               "methods": {
                 "manageability": {
                   "101": {
@@ -13258,8 +13259,7 @@ SUPPORT_CHARTS = {
                     "name": "TerminateProcesses"
                   }
                 }
-              },
-              "sig_name": "Endpoint Protector Client"
+              }
             }
           }
         },
@@ -13291,6 +13291,7 @@ SUPPORT_CHARTS = {
                   "name": "DATA_LOSS_PREVENTION"
                 }
               },
+              "sig_name": "Cisco Secure Client - Endpoint Data Loss Prevention",
               "methods": {
                 "constant": {
                   "103": {
@@ -13318,8 +13319,7 @@ SUPPORT_CHARTS = {
                     "name": "Run"
                   }
                 }
-              },
-              "sig_name": "Cisco Secure Client - Endpoint Data Loss Prevention"
+              }
             }
           }
         }
@@ -13391,6 +13391,7 @@ SUPPORT_CHARTS = {
                   "name": "PATCH_MANAGEMENT"
                 }
               },
+              "sig_name": "BMC FootPrints Asset Core",
               "methods": {
                 "manageability": {
                   "1012": {
@@ -13437,8 +13438,7 @@ SUPPORT_CHARTS = {
                     "name": "SetAgentState"
                   }
                 }
-              },
-              "sig_name": "BMC FootPrints Asset Core"
+              }
             }
           }
         },
@@ -13495,6 +13495,7 @@ SUPPORT_CHARTS = {
                   "name": "PATCH_MANAGEMENT"
                 }
               },
+              "sig_name": "Advanced Packaging Tool",
               "methods": {
                 "constant": {
                   "101": {
@@ -14038,8 +14039,7 @@ SUPPORT_CHARTS = {
                     "name": "GetInstalledPatches"
                   }
                 }
-              },
-              "sig_name": "Advanced Packaging Tool"
+              }
             }
           }
         },
@@ -14091,6 +14091,7 @@ SUPPORT_CHARTS = {
                   "name": "PATCH_MANAGEMENT"
                 }
               },
+              "sig_name": "Yum",
               "methods": {
                 "constant": {
                   "101": {
@@ -14571,8 +14572,7 @@ SUPPORT_CHARTS = {
                     "name": "GetInstalledPatches"
                   }
                 }
-              },
-              "sig_name": "Yum"
+              }
             }
           }
         },
@@ -14608,6 +14608,7 @@ SUPPORT_CHARTS = {
                   "name": "PATCH_MANAGEMENT"
                 }
               },
+              "sig_name": "Dandified Yum",
               "methods": {
                 "constant": {
                   "101": {
@@ -15151,8 +15152,7 @@ SUPPORT_CHARTS = {
                     "name": "GetInstalledPatches"
                   }
                 }
-              },
-              "sig_name": "Dandified Yum"
+              }
             }
           }
         },
@@ -15184,6 +15184,7 @@ SUPPORT_CHARTS = {
                   "name": "PATCH_MANAGEMENT"
                 }
               },
+              "sig_name": "Zypper",
               "methods": {
                 "constant": {
                   "102": {
@@ -15714,8 +15715,7 @@ SUPPORT_CHARTS = {
                     "name": "FetchRemoteData"
                   }
                 }
-              },
-              "sig_name": "Zypper"
+              }
             }
           }
         },
@@ -15747,6 +15747,7 @@ SUPPORT_CHARTS = {
                   "name": "PATCH_MANAGEMENT"
                 }
               },
+              "sig_name": "pacman",
               "methods": {
                 "constant": {
                   "101": {
@@ -15912,8 +15913,7 @@ SUPPORT_CHARTS = {
                     "name": "InstallMissingPatches"
                   }
                 }
-              },
-              "sig_name": "pacman"
+              }
             }
           }
         },
@@ -15949,6 +15949,7 @@ SUPPORT_CHARTS = {
                   "name": "PATCH_MANAGEMENT"
                 }
               },
+              "sig_name": "BMC Client Management Agent",
               "methods": {
                 "constant": {
                   "1013": {
@@ -16117,8 +16118,7 @@ SUPPORT_CHARTS = {
                     "name": "GetInstallationDirectories"
                   }
                 }
-              },
-              "sig_name": "BMC Client Management Agent"
+              }
             }
           }
         },
@@ -16150,6 +16150,7 @@ SUPPORT_CHARTS = {
                   "name": "PATCH_MANAGEMENT"
                 }
               },
+              "sig_name": "Quest KACE Agent",
               "methods": {
                 "manageability": {
                   "102": {
@@ -16187,8 +16188,7 @@ SUPPORT_CHARTS = {
                     "name": "TerminateProcesses"
                   }
                 }
-              },
-              "sig_name": "Quest KACE Agent"
+              }
             }
           }
         },
@@ -16224,6 +16224,7 @@ SUPPORT_CHARTS = {
                   "name": "PATCH_MANAGEMENT"
                 }
               },
+              "sig_name": "Snap",
               "methods": {
                 "manageability": {
                   "100": {
@@ -16751,8 +16752,7 @@ SUPPORT_CHARTS = {
                     "name": "TerminateProcesses"
                   }
                 }
-              },
-              "sig_name": "Snap"
+              }
             }
           }
         },
@@ -16784,6 +16784,7 @@ SUPPORT_CHARTS = {
                   "name": "PATCH_MANAGEMENT"
                 }
               },
+              "sig_name": "ManageEngine Patch Manager Plus Agent",
               "methods": {
                 "manageability": {
                   "100": {
@@ -16897,8 +16898,7 @@ SUPPORT_CHARTS = {
                     "name": "GetInstallationDirectories"
                   }
                 }
-              },
-              "sig_name": "ManageEngine Patch Manager Plus Agent"
+              }
             }
           }
         },
@@ -16938,6 +16938,7 @@ SUPPORT_CHARTS = {
                   "name": "PATCH_MANAGEMENT"
                 }
               },
+              "sig_name": "RPM Package Manager",
               "methods": {
                 "constant": {
                   "101": {
@@ -17012,8 +17013,7 @@ SUPPORT_CHARTS = {
                     "name": "GetVersion"
                   }
                 }
-              },
-              "sig_name": "RPM Package Manager"
+              }
             }
           }
         },
@@ -17045,6 +17045,7 @@ SUPPORT_CHARTS = {
                   "name": "PATCH_MANAGEMENT"
                 }
               },
+              "sig_name": "Flatpak",
               "methods": {
                 "manageability": {
                   "100": {
@@ -17102,8 +17103,7 @@ SUPPORT_CHARTS = {
                     "name": "GetVersion"
                   }
                 }
-              },
-              "sig_name": "Flatpak"
+              }
             }
           }
         }
@@ -17142,8 +17142,8 @@ SUPPORT_CHARTS = {
                   "name": "VPN_CLIENT"
                 }
               },
-              "methods": {},
-              "sig_name": "Aventail Connect"
+              "sig_name": "Aventail Connect",
+              "methods": {}
             }
           },
           "marketing_names": [
@@ -17178,6 +17178,7 @@ SUPPORT_CHARTS = {
                   "name": "VPN_CLIENT"
                 }
               },
+              "sig_name": "Pulse Connect Secure",
               "methods": {
                 "manageability": {
                   "100": {
@@ -17251,8 +17252,7 @@ SUPPORT_CHARTS = {
                     "name": "TerminateProcesses"
                   }
                 }
-              },
-              "sig_name": "Pulse Connect Secure"
+              }
             }
           }
         },
@@ -17284,6 +17284,7 @@ SUPPORT_CHARTS = {
                   "name": "VPN_CLIENT"
                 }
               },
+              "sig_name": "Cisco AnyConnect Secure Mobility Client",
               "methods": {
                 "manageability": {
                   "100": {
@@ -17328,8 +17329,7 @@ SUPPORT_CHARTS = {
                     "name": "GetVersion"
                   }
                 }
-              },
-              "sig_name": "Cisco AnyConnect Secure Mobility Client"
+              }
             }
           }
         },
@@ -17365,6 +17365,7 @@ SUPPORT_CHARTS = {
                   "name": "VPN_CLIENT"
                 }
               },
+              "sig_name": "ExpressVPN",
               "methods": {
                 "manageability": {
                   "101": {
@@ -17424,8 +17425,7 @@ SUPPORT_CHARTS = {
                     "name": "TerminateProcesses"
                   }
                 }
-              },
-              "sig_name": "ExpressVPN"
+              }
             }
           }
         },
@@ -17457,6 +17457,7 @@ SUPPORT_CHARTS = {
                   "name": "VPN_CLIENT"
                 }
               },
+              "sig_name": "Cato Client",
               "methods": {
                 "manageability": {
                   "100": {
@@ -17531,8 +17532,7 @@ SUPPORT_CHARTS = {
                     "name": "Run"
                   }
                 }
-              },
-              "sig_name": "Cato Client"
+              }
             }
           }
         }
@@ -17588,8 +17588,8 @@ SUPPORT_CHARTS = {
                   "name": "VIRTUAL_MACHINE"
                 }
               },
-              "methods": {},
-              "sig_name": "Xen"
+              "sig_name": "Xen",
+              "methods": {}
             }
           }
         },
@@ -17621,6 +17621,7 @@ SUPPORT_CHARTS = {
                   "name": "VIRTUAL_MACHINE"
                 }
               },
+              "sig_name": "KVM",
               "methods": {
                 "constant": {
                   "101": {
@@ -17779,8 +17780,7 @@ SUPPORT_CHARTS = {
                     "name": "GetComponents"
                   }
                 }
-              },
-              "sig_name": "KVM"
+              }
             }
           }
         },
@@ -17812,8 +17812,8 @@ SUPPORT_CHARTS = {
                   "name": "VIRTUAL_MACHINE"
                 }
               },
-              "methods": {},
-              "sig_name": "Xen"
+              "sig_name": "Xen",
+              "methods": {}
             }
           }
         },
@@ -17853,6 +17853,7 @@ SUPPORT_CHARTS = {
                   "name": "VIRTUAL_MACHINE"
                 }
               },
+              "sig_name": "Oracle VM VirtualBox",
               "methods": {
                 "manageability": {
                   "100": {
@@ -17992,8 +17993,7 @@ SUPPORT_CHARTS = {
                     "name": "GetInstallationDirectories"
                   }
                 }
-              },
-              "sig_name": "Oracle VM VirtualBox"
+              }
             }
           }
         },
@@ -18029,8 +18029,8 @@ SUPPORT_CHARTS = {
                   "name": "VIRTUAL_MACHINE"
                 }
               },
-              "methods": {},
-              "sig_name": "QEMU"
+              "sig_name": "QEMU",
+              "methods": {}
             }
           }
         },
@@ -18062,8 +18062,8 @@ SUPPORT_CHARTS = {
                   "name": "VIRTUAL_MACHINE"
                 }
               },
-              "methods": {},
-              "sig_name": "VirtualBox"
+              "sig_name": "VirtualBox",
+              "methods": {}
             }
           }
         },
@@ -18107,6 +18107,7 @@ SUPPORT_CHARTS = {
                   "name": "VIRTUAL_MACHINE"
                 }
               },
+              "sig_name": "VMware Player",
               "methods": {
                 "manageability": {
                   "100": {
@@ -18151,8 +18152,7 @@ SUPPORT_CHARTS = {
                     "name": "GetVersion"
                   }
                 }
-              },
-              "sig_name": "VMware Player"
+              }
             }
           }
         },
@@ -18196,6 +18196,7 @@ SUPPORT_CHARTS = {
                   "name": "VIRTUAL_MACHINE"
                 }
               },
+              "sig_name": "VMware Workstation",
               "methods": {
                 "manageability": {
                   "100": {
@@ -18338,8 +18339,7 @@ SUPPORT_CHARTS = {
                     "name": "TerminateProcesses"
                   }
                 }
-              },
-              "sig_name": "VMware Workstation"
+              }
             }
           }
         },
@@ -18371,6 +18371,7 @@ SUPPORT_CHARTS = {
                   "name": "VIRTUAL_MACHINE"
                 }
               },
+              "sig_name": "Proxmox Virtual Environment",
               "methods": {
                 "manageability": {
                   "100": {
@@ -18578,8 +18579,7 @@ SUPPORT_CHARTS = {
                     "name": "TerminateProcesses"
                   }
                 }
-              },
-              "sig_name": "Proxmox Virtual Environment"
+              }
             }
           }
         }
@@ -18735,6 +18735,7 @@ SUPPORT_CHARTS = {
                   "name": "FIREWALL"
                 }
               },
+              "sig_name": "Crowdstrike Falcon",
               "methods": {
                 "manageability": {
                   "100": {
@@ -19202,8 +19203,7 @@ SUPPORT_CHARTS = {
                     "name": "GetComponents"
                   }
                 }
-              },
-              "sig_name": "Crowdstrike Falcon"
+              }
             }
           }
         },
@@ -19247,6 +19247,7 @@ SUPPORT_CHARTS = {
                   "name": "HEALTH_AGENT"
                 }
               },
+              "sig_name": "OPSWAT Client",
               "methods": {
                 "manageability": {
                   "100": {
@@ -19358,8 +19359,7 @@ SUPPORT_CHARTS = {
                     "name": "TerminateProcesses"
                   }
                 }
-              },
-              "sig_name": "OPSWAT Client"
+              }
             }
           }
         },
@@ -19437,6 +19437,10 @@ SUPPORT_CHARTS = {
             {
               "signature": 200159,
               "version": "9.0.0.140013"
+            },
+            {
+              "signature": 200159,
+              "version": "9.3.0.202"
             }
           ],
           "labels": [],
@@ -19463,6 +19467,7 @@ SUPPORT_CHARTS = {
                   "name": "ANTIMALWARE"
                 }
               },
+              "sig_name": "Cortex",
               "methods": {
                 "manageability": {
                   "100": {
@@ -19887,8 +19892,7 @@ SUPPORT_CHARTS = {
                     "name": "GetComponents"
                   }
                 }
-              },
-              "sig_name": "Cortex"
+              }
             }
           }
         },
@@ -19936,6 +19940,7 @@ SUPPORT_CHARTS = {
                   "name": "ANTIMALWARE"
                 }
               },
+              "sig_name": "Microsoft Defender ATP",
               "methods": {
                 "manageability": {
                   "1000": {
@@ -20375,8 +20380,7 @@ SUPPORT_CHARTS = {
                     "name": "TerminateProcesses"
                   }
                 }
-              },
-              "sig_name": "Microsoft Defender ATP"
+              }
             }
           }
         },
@@ -20412,8 +20416,8 @@ SUPPORT_CHARTS = {
                   "name": "ANTIMALWARE"
                 }
               },
-              "methods": {},
-              "sig_name": "Rapid7 Insight Agent"
+              "sig_name": "Rapid7 Insight Agent",
+              "methods": {}
             }
           }
         }
@@ -20484,6 +20488,7 @@ SUPPORT_CHARTS = {
                   "name": "REMOTE_CONTROL"
                 }
               },
+              "sig_name": "TeamViewer",
               "methods": {
                 "manageability": {
                   "100": {
@@ -20570,8 +20575,7 @@ SUPPORT_CHARTS = {
                     "name": "TerminateProcesses"
                   }
                 }
-              },
-              "sig_name": "TeamViewer"
+              }
             }
           }
         },
@@ -20603,6 +20607,7 @@ SUPPORT_CHARTS = {
                   "name": "REMOTE_CONTROL"
                 }
               },
+              "sig_name": "PuTTY",
               "methods": {
                 "manageability": {
                   "100": {
@@ -20623,8 +20628,7 @@ SUPPORT_CHARTS = {
                     "name": "GetVersion"
                   }
                 }
-              },
-              "sig_name": "PuTTY"
+              }
             }
           }
         },
@@ -20718,6 +20722,7 @@ SUPPORT_CHARTS = {
                   "name": "WEB_CONFERENCE"
                 }
               },
+              "sig_name": "Zoom",
               "methods": {
                 "manageability": {
                   "100": {
@@ -20915,8 +20920,7 @@ SUPPORT_CHARTS = {
                     "name": "GetComponents"
                   }
                 }
-              },
-              "sig_name": "Zoom"
+              }
             }
           }
         },
@@ -20964,6 +20968,7 @@ SUPPORT_CHARTS = {
                   "name": "REMOTE_CONTROL"
                 }
               },
+              "sig_name": "VNC Viewer",
               "methods": {
                 "manageability": {
                   "100": {
@@ -21021,8 +21026,7 @@ SUPPORT_CHARTS = {
                     "name": "GetVersion"
                   }
                 }
-              },
-              "sig_name": "VNC Viewer"
+              }
             },
             "200156": {
               "signature": 200156,
@@ -21040,8 +21044,8 @@ SUPPORT_CHARTS = {
                   "name": "REMOTE_CONTROL"
                 }
               },
-              "methods": {},
-              "sig_name": "VNC Viewer (deprecated)"
+              "sig_name": "VNC Viewer (deprecated)",
+              "methods": {}
             }
           }
         },
@@ -21073,6 +21077,7 @@ SUPPORT_CHARTS = {
                   "name": "REMOTE_CONTROL"
                 }
               },
+              "sig_name": "sshuttle",
               "methods": {
                 "manageability": {
                   "100": {
@@ -21093,8 +21098,7 @@ SUPPORT_CHARTS = {
                     "name": "GetVersion"
                   }
                 }
-              },
-              "sig_name": "sshuttle"
+              }
             }
           }
         },
@@ -21126,8 +21130,8 @@ SUPPORT_CHARTS = {
                   "name": "REMOTE_CONTROL"
                 }
               },
-              "methods": {},
-              "sig_name": "TightVNC"
+              "sig_name": "TightVNC",
+              "methods": {}
             }
           }
         },
@@ -21159,8 +21163,8 @@ SUPPORT_CHARTS = {
                   "name": "REMOTE_CONTROL"
                 }
               },
-              "methods": {},
-              "sig_name": "rdesktop"
+              "sig_name": "rdesktop",
+              "methods": {}
             }
           }
         },
@@ -21216,6 +21220,7 @@ SUPPORT_CHARTS = {
                   "name": "REMOTE_CONTROL"
                 }
               },
+              "sig_name": "RealVNC Server",
               "methods": {
                 "manageability": {
                   "100": {
@@ -21329,8 +21334,7 @@ SUPPORT_CHARTS = {
                     "name": "TerminateProcesses"
                   }
                 }
-              },
-              "sig_name": "RealVNC Server"
+              }
             }
           }
         },
@@ -21366,6 +21370,7 @@ SUPPORT_CHARTS = {
                   "name": "REMOTE_CONTROL"
                 }
               },
+              "sig_name": "TeamViewer Host",
               "methods": {
                 "manageability": {
                   "100": {
@@ -21479,8 +21484,7 @@ SUPPORT_CHARTS = {
                     "name": "TerminateProcesses"
                   }
                 }
-              },
-              "sig_name": "TeamViewer Host"
+              }
             }
           }
         },
@@ -21512,6 +21516,7 @@ SUPPORT_CHARTS = {
                   "name": "REMOTE_CONTROL"
                 }
               },
+              "sig_name": "Remote Desktop Manager",
               "methods": {
                 "manageability": {
                   "100": {
@@ -21634,8 +21639,7 @@ SUPPORT_CHARTS = {
                     "name": "GetInstallationDirectories"
                   }
                 }
-              },
-              "sig_name": "Remote Desktop Manager"
+              }
             }
           }
         }
@@ -21684,8 +21688,8 @@ SUPPORT_CHARTS = {
                   "name": "P2PA"
                 }
               },
-              "methods": {},
-              "sig_name": "BitTorrent"
+              "sig_name": "BitTorrent",
+              "methods": {}
             }
           }
         },
@@ -21721,6 +21725,7 @@ SUPPORT_CHARTS = {
                   "name": "P2PA"
                 }
               },
+              "sig_name": "Transmission",
               "methods": {
                 "manageability": {
                   "100": {
@@ -21778,8 +21783,7 @@ SUPPORT_CHARTS = {
                     "name": "GetVersion"
                   }
                 }
-              },
-              "sig_name": "Transmission"
+              }
             }
           }
         },
@@ -21823,6 +21827,7 @@ SUPPORT_CHARTS = {
                   "name": "P2PA"
                 }
               },
+              "sig_name": "Retroshare",
               "methods": {
                 "manageability": {
                   "100": {
@@ -21908,8 +21913,7 @@ SUPPORT_CHARTS = {
                     "name": "TerminateProcesses"
                   }
                 }
-              },
-              "sig_name": "Retroshare"
+              }
             }
           }
         },
@@ -21976,6 +21980,7 @@ SUPPORT_CHARTS = {
                   "name": "P2PA"
                 }
               },
+              "sig_name": "FileZilla",
               "methods": {
                 "manageability": {
                   "100": {
@@ -22098,8 +22103,7 @@ SUPPORT_CHARTS = {
                     "name": "GetInstallationDirectories"
                   }
                 }
-              },
-              "sig_name": "FileZilla"
+              }
             }
           }
         },
@@ -22149,6 +22153,7 @@ SUPPORT_CHARTS = {
                   "name": "P2PA"
                 }
               },
+              "sig_name": "Deluge",
               "methods": {
                 "manageability": {
                   "100": {
@@ -22234,8 +22239,7 @@ SUPPORT_CHARTS = {
                     "name": "TerminateProcesses"
                   }
                 }
-              },
-              "sig_name": "Deluge"
+              }
             }
           }
         },
@@ -22273,8 +22277,8 @@ SUPPORT_CHARTS = {
                   "name": "P2PA"
                 }
               },
-              "methods": {},
-              "sig_name": "qBittorrent"
+              "sig_name": "qBittorrent",
+              "methods": {}
             }
           }
         },
@@ -22310,8 +22314,8 @@ SUPPORT_CHARTS = {
                   "name": "P2PA"
                 }
               },
-              "methods": {},
-              "sig_name": "Tribler"
+              "sig_name": "Tribler",
+              "methods": {}
             }
           }
         }
@@ -22354,8 +22358,8 @@ SUPPORT_CHARTS = {
                   "name": "MESSENGER"
                 }
               },
-              "methods": {},
-              "sig_name": "Brosix"
+              "sig_name": "Brosix",
+              "methods": {}
             }
           }
         },
@@ -22391,8 +22395,8 @@ SUPPORT_CHARTS = {
                   "name": "MESSENGER"
                 }
               },
-              "methods": {},
-              "sig_name": "Skype"
+              "sig_name": "Skype",
+              "methods": {}
             }
           }
         },
@@ -22428,8 +22432,8 @@ SUPPORT_CHARTS = {
                   "name": "MESSENGER"
                 }
               },
-              "methods": {},
-              "sig_name": "emesene"
+              "sig_name": "emesene",
+              "methods": {}
             }
           }
         },
@@ -22465,8 +22469,8 @@ SUPPORT_CHARTS = {
                   "name": "MESSENGER"
                 }
               },
-              "methods": {},
-              "sig_name": "ISL Pronto"
+              "sig_name": "ISL Pronto",
+              "methods": {}
             }
           }
         },
@@ -22560,6 +22564,7 @@ SUPPORT_CHARTS = {
                   "name": "WEB_CONFERENCE"
                 }
               },
+              "sig_name": "Zoom",
               "methods": {
                 "manageability": {
                   "100": {
@@ -22757,8 +22762,7 @@ SUPPORT_CHARTS = {
                     "name": "GetComponents"
                   }
                 }
-              },
-              "sig_name": "Zoom"
+              }
             }
           }
         },
@@ -22798,6 +22802,7 @@ SUPPORT_CHARTS = {
                   "name": "MESSENGER"
                 }
               },
+              "sig_name": "RingCentral Embeddable",
               "methods": {
                 "manageability": {
                   "100": {
@@ -22920,8 +22925,7 @@ SUPPORT_CHARTS = {
                     "name": "GetInstallationDirectories"
                   }
                 }
-              },
-              "sig_name": "RingCentral Embeddable"
+              }
             }
           }
         }
@@ -22977,6 +22981,7 @@ SUPPORT_CHARTS = {
                   "name": "BACKUP"
                 }
               },
+              "sig_name": "CrashPlan",
               "methods": {
                 "manageability": {
                   "100": {
@@ -23026,8 +23031,7 @@ SUPPORT_CHARTS = {
                     "name": "TerminateProcesses"
                   }
                 }
-              },
-              "sig_name": "CrashPlan"
+              }
             }
           }
         },
@@ -23061,8 +23065,8 @@ SUPPORT_CHARTS = {
                   "name": "BACKUP"
                 }
               },
-              "methods": {},
-              "sig_name": "Tonido"
+              "sig_name": "Tonido",
+              "methods": {}
             }
           }
         },
@@ -23102,6 +23106,7 @@ SUPPORT_CHARTS = {
                   "name": "CLOUD_STORAGE"
                 }
               },
+              "sig_name": "Nextcloud Desktop Client",
               "methods": {
                 "manageability": {
                   "100": {
@@ -23230,8 +23235,7 @@ SUPPORT_CHARTS = {
                     "name": "GetBackupState"
                   }
                 }
-              },
-              "sig_name": "Nextcloud Desktop Client"
+              }
             }
           }
         }
@@ -23305,6 +23309,7 @@ SUPPORT_CHARTS = {
                   "name": "ENCRYPTION"
                 }
               },
+              "sig_name": "YaST",
               "methods": {
                 "manageability": {
                   "100": {
@@ -23438,8 +23443,7 @@ SUPPORT_CHARTS = {
                     "name": "GetEncryptionState"
                   }
                 }
-              },
-              "sig_name": "YaST"
+              }
             }
           }
         },
@@ -23511,6 +23515,7 @@ SUPPORT_CHARTS = {
                   "name": "ENCRYPTION"
                 }
               },
+              "sig_name": "cryptsetup",
               "methods": {
                 "constant": {
                   "102": {
@@ -23661,8 +23666,7 @@ SUPPORT_CHARTS = {
                     "name": "TerminateProcesses"
                   }
                 }
-              },
-              "sig_name": "cryptsetup"
+              }
             }
           }
         },
@@ -23698,8 +23702,8 @@ SUPPORT_CHARTS = {
                   "name": "ENCRYPTION"
                 }
               },
-              "methods": {},
-              "sig_name": "EncFS"
+              "sig_name": "EncFS",
+              "methods": {}
             }
           }
         },
@@ -23731,6 +23735,7 @@ SUPPORT_CHARTS = {
                   "name": "ENCRYPTION"
                 }
               },
+              "sig_name": "AES Crypt",
               "methods": {
                 "manageability": {
                   "100": {
@@ -23775,8 +23780,7 @@ SUPPORT_CHARTS = {
                     "name": "GetVersion"
                   }
                 }
-              },
-              "sig_name": "AES Crypt"
+              }
             }
           }
         },
@@ -23824,6 +23828,7 @@ SUPPORT_CHARTS = {
                   "name": "ENCRYPTION"
                 }
               },
+              "sig_name": "Endpoint Protector Client",
               "methods": {
                 "manageability": {
                   "101": {
@@ -23883,8 +23888,7 @@ SUPPORT_CHARTS = {
                     "name": "TerminateProcesses"
                   }
                 }
-              },
-              "sig_name": "Endpoint Protector Client"
+              }
             }
           }
         }
@@ -24124,6 +24128,7 @@ SUPPORT_CHARTS = {
                   "name": "BROWSER"
                 }
               },
+              "sig_name": "Google Chrome",
               "methods": {
                 "manageability": {
                   "100": {
@@ -24227,8 +24232,7 @@ SUPPORT_CHARTS = {
                     "name": "Run"
                   }
                 }
-              },
-              "sig_name": "Google Chrome"
+              }
             }
           }
         },
@@ -24640,6 +24644,7 @@ SUPPORT_CHARTS = {
                   "name": "BROWSER"
                 }
               },
+              "sig_name": "Mozilla Firefox",
               "methods": {
                 "manageability": {
                   "100": {
@@ -24813,8 +24818,7 @@ SUPPORT_CHARTS = {
                     "name": "GetInstallationDirectories"
                   }
                 }
-              },
-              "sig_name": "Mozilla Firefox"
+              }
             }
           }
         },
@@ -24862,6 +24866,7 @@ SUPPORT_CHARTS = {
                   "name": "FIREWALL"
                 }
               },
+              "sig_name": "Trend Micro Deep Security Agent",
               "methods": {
                 "manageability": {
                   "100": {
@@ -25149,8 +25154,7 @@ SUPPORT_CHARTS = {
                     "name": "Scan"
                   }
                 }
-              },
-              "sig_name": "Trend Micro Deep Security Agent"
+              }
             }
           }
         },
@@ -25262,6 +25266,7 @@ SUPPORT_CHARTS = {
                   "name": "BROWSER"
                 }
               },
+              "sig_name": "Mozilla Firefox ESR",
               "methods": {
                 "manageability": {
                   "100": {
@@ -25543,8 +25548,7 @@ SUPPORT_CHARTS = {
                     "name": "GetPlugins"
                   }
                 }
-              },
-              "sig_name": "Mozilla Firefox ESR"
+              }
             }
           }
         },
@@ -25576,6 +25580,7 @@ SUPPORT_CHARTS = {
                   "name": "ANTIPHISHING"
                 }
               },
+              "sig_name": "Beyond Identity",
               "methods": {
                 "manageability": {
                   "101": {
@@ -25618,8 +25623,7 @@ SUPPORT_CHARTS = {
                     "name": "TerminateProcesses"
                   }
                 }
-              },
-              "sig_name": "Beyond Identity"
+              }
             }
           }
         }
@@ -25715,6 +25719,7 @@ SUPPORT_CHARTS = {
                   "name": "ANTIMALWARE"
                 }
               },
+              "sig_name": "ESET NOD32 Antivirus",
               "methods": {
                 "manageability": {
                   "100": {
@@ -25874,8 +25879,7 @@ SUPPORT_CHARTS = {
                     "name": "Scan"
                   }
                 }
-              },
-              "sig_name": "ESET NOD32 Antivirus"
+              }
             }
           }
         },
@@ -25907,6 +25911,7 @@ SUPPORT_CHARTS = {
                   "name": "ANTIMALWARE"
                 }
               },
+              "sig_name": "avast! Antivirus",
               "methods": {
                 "manageability": {
                   "100": {
@@ -26016,8 +26021,7 @@ SUPPORT_CHARTS = {
                     "name": "GetDefinitionState"
                   }
                 }
-              },
-              "sig_name": "avast! Antivirus"
+              }
             }
           }
         },
@@ -26057,6 +26061,7 @@ SUPPORT_CHARTS = {
                   "name": "ANTIMALWARE"
                 }
               },
+              "sig_name": "AVG Anti-Virus",
               "methods": {
                 "manageability": {
                   "100": {
@@ -26289,8 +26294,7 @@ SUPPORT_CHARTS = {
                     "name": "GetInstallationDirectories"
                   }
                 }
-              },
-              "sig_name": "AVG Anti-Virus"
+              }
             }
           }
         },
@@ -26326,6 +26330,7 @@ SUPPORT_CHARTS = {
                   "name": "ANTIMALWARE"
                 }
               },
+              "sig_name": "Avira AntiVir PersonalEdition Classic",
               "methods": {
                 "manageability": {
                   "100": {
@@ -26493,8 +26498,7 @@ SUPPORT_CHARTS = {
                     "name": "Scan"
                   }
                 }
-              },
-              "sig_name": "Avira AntiVir PersonalEdition Classic"
+              }
             }
           }
         },
@@ -26526,8 +26530,8 @@ SUPPORT_CHARTS = {
                   "name": "ANTIMALWARE"
                 }
               },
-              "methods": {},
-              "sig_name": "Bytware Anti-Virus"
+              "sig_name": "Bytware Anti-Virus",
+              "methods": {}
             }
           }
         },
@@ -26567,6 +26571,7 @@ SUPPORT_CHARTS = {
                   "name": "ANTIMALWARE"
                 }
               },
+              "sig_name": "Clamav",
               "methods": {
                 "manageability": {
                   "100": {
@@ -26816,8 +26821,7 @@ SUPPORT_CHARTS = {
                     "name": "GetRunningState"
                   }
                 }
-              },
-              "sig_name": "Clamav"
+              }
             }
           }
         },
@@ -26853,6 +26857,7 @@ SUPPORT_CHARTS = {
                   "name": "ANTIMALWARE"
                 }
               },
+              "sig_name": "Dr.Web for Linux",
               "methods": {
                 "manageability": {
                   "100": {
@@ -27016,8 +27021,7 @@ SUPPORT_CHARTS = {
                     "name": "TerminateProcesses"
                   }
                 }
-              },
-              "sig_name": "Dr.Web for Linux"
+              }
             }
           }
         },
@@ -27061,8 +27065,8 @@ SUPPORT_CHARTS = {
                   "name": "ANTIMALWARE"
                 }
               },
-              "methods": {},
-              "sig_name": "F-Secure Anti-Virus"
+              "sig_name": "F-Secure Anti-Virus",
+              "methods": {}
             }
           }
         },
@@ -27098,6 +27102,7 @@ SUPPORT_CHARTS = {
                   "name": "ANTIMALWARE"
                 }
               },
+              "sig_name": "F-Prot Antivirus",
               "methods": {
                 "manageability": {
                   "1006": {
@@ -27155,8 +27160,7 @@ SUPPORT_CHARTS = {
                     "name": "Scan"
                   }
                 }
-              },
-              "sig_name": "F-Prot Antivirus"
+              }
             }
           }
         },
@@ -27192,8 +27196,8 @@ SUPPORT_CHARTS = {
                   "name": "ANTIMALWARE"
                 }
               },
-              "methods": {},
-              "sig_name": "AVG Anti-Virus"
+              "sig_name": "AVG Anti-Virus",
+              "methods": {}
             }
           }
         },
@@ -27229,6 +27233,7 @@ SUPPORT_CHARTS = {
                   "name": "ANTIMALWARE"
                 }
               },
+              "sig_name": "Kaspersky Anti-Virus For Linux Workstation",
               "methods": {
                 "manageability": {
                   "1001": {
@@ -27293,8 +27298,7 @@ SUPPORT_CHARTS = {
                     "name": "UpdateDefinitions"
                   }
                 }
-              },
-              "sig_name": "Kaspersky Anti-Virus For Linux Workstation"
+              }
             }
           }
         },
@@ -27326,6 +27330,7 @@ SUPPORT_CHARTS = {
                   "name": "ANTIMALWARE"
                 }
               },
+              "sig_name": "Kaspersky Anti-Virus for Linux File Server",
               "methods": {
                 "manageability": {
                   "1000": {
@@ -27370,8 +27375,7 @@ SUPPORT_CHARTS = {
                     "name": "GetRealTimeProtectionState"
                   }
                 }
-              },
-              "sig_name": "Kaspersky Anti-Virus for Linux File Server"
+              }
             }
           }
         },
@@ -27423,6 +27427,7 @@ SUPPORT_CHARTS = {
                   "name": "FIREWALL"
                 }
               },
+              "sig_name": "Kaspersky Endpoint Security for Linux",
               "methods": {
                 "manageability": {
                   "100": {
@@ -27929,8 +27934,7 @@ SUPPORT_CHARTS = {
                     "name": "TerminateProcesses"
                   }
                 }
-              },
-              "sig_name": "Kaspersky Endpoint Security for Linux"
+              }
             }
           }
         },
@@ -27962,8 +27966,8 @@ SUPPORT_CHARTS = {
                   "name": "ANTIMALWARE"
                 }
               },
-              "methods": {},
-              "sig_name": "LinuxShield"
+              "sig_name": "LinuxShield",
+              "methods": {}
             }
           }
         },
@@ -27995,8 +27999,8 @@ SUPPORT_CHARTS = {
                   "name": "ANTIMALWARE"
                 }
               },
-              "methods": {},
-              "sig_name": "McAfee VirusScan Command Line Scanner"
+              "sig_name": "McAfee VirusScan Command Line Scanner",
+              "methods": {}
             }
           }
         },
@@ -28042,6 +28046,7 @@ SUPPORT_CHARTS = {
                   "name": "ANTIMALWARE"
                 }
               },
+              "sig_name": "McAfee VirusScan Enterprise for Linux",
               "methods": {
                 "manageability": {
                   "100": {
@@ -28210,8 +28215,7 @@ SUPPORT_CHARTS = {
                     "name": "EnableRTP"
                   }
                 }
-              },
-              "sig_name": "McAfee VirusScan Enterprise for Linux"
+              }
             }
           }
         },
@@ -28247,6 +28251,7 @@ SUPPORT_CHARTS = {
                   "name": "ANTIMALWARE"
                 }
               },
+              "sig_name": "eScan Anti-Virus for Linux",
               "methods": {
                 "manageability": {
                   "100": {
@@ -28267,8 +28272,7 @@ SUPPORT_CHARTS = {
                     "name": "GetVersion"
                   }
                 }
-              },
-              "sig_name": "eScan Anti-Virus for Linux"
+              }
             }
           }
         },
@@ -28304,6 +28308,7 @@ SUPPORT_CHARTS = {
                   "name": "ANTIMALWARE"
                 }
               },
+              "sig_name": "Panda Antivirus",
               "methods": {
                 "manageability": {
                   "100": {
@@ -28422,8 +28427,7 @@ SUPPORT_CHARTS = {
                     "name": "Scan"
                   }
                 }
-              },
-              "sig_name": "Panda Antivirus"
+              }
             }
           }
         },
@@ -28455,8 +28459,8 @@ SUPPORT_CHARTS = {
                   "name": "ANTIMALWARE"
                 }
               },
-              "methods": {},
-              "sig_name": "Panda Security For Linux"
+              "sig_name": "Panda Security For Linux",
+              "methods": {}
             }
           }
         },
@@ -28488,8 +28492,8 @@ SUPPORT_CHARTS = {
                   "name": "ANTIMALWARE"
                 }
               },
-              "methods": {},
-              "sig_name": "Quick Heal AntiVirus"
+              "sig_name": "Quick Heal AntiVirus",
+              "methods": {}
             }
           }
         },
@@ -28533,6 +28537,7 @@ SUPPORT_CHARTS = {
                   "name": "ANTIMALWARE"
                 }
               },
+              "sig_name": "BitDefender Antivirus",
               "methods": {
                 "manageability": {
                   "1001": {
@@ -28585,8 +28590,7 @@ SUPPORT_CHARTS = {
                     "name": "GetDefinitionState"
                   }
                 }
-              },
-              "sig_name": "BitDefender Antivirus"
+              }
             }
           }
         },
@@ -28658,6 +28662,7 @@ SUPPORT_CHARTS = {
                   "name": "ANTIMALWARE"
                 }
               },
+              "sig_name": "Sophos Anti-Virus",
               "methods": {
                 "manageability": {
                   "100": {
@@ -28993,8 +28998,7 @@ SUPPORT_CHARTS = {
                     "name": "GetInstallationDirectories"
                   }
                 }
-              },
-              "sig_name": "Sophos Anti-Virus"
+              }
             }
           }
         },
@@ -29037,6 +29041,7 @@ SUPPORT_CHARTS = {
                   "name": "ANTIMALWARE"
                 }
               },
+              "sig_name": "Symantec AntiVirus",
               "methods": {
                 "manageability": {
                   "100": {
@@ -29192,8 +29197,7 @@ SUPPORT_CHARTS = {
                     "name": "GetDefinitionState"
                   }
                 }
-              },
-              "sig_name": "Symantec AntiVirus"
+              }
             }
           },
           "marketing_names": [
@@ -29249,6 +29253,7 @@ SUPPORT_CHARTS = {
                   "name": "ANTIMALWARE"
                 }
               },
+              "sig_name": "McAfee Endpoint Security for Linux Threat Prevention",
               "methods": {
                 "manageability": {
                   "100": {
@@ -29666,8 +29671,7 @@ SUPPORT_CHARTS = {
                     "name": "GetInstallationDirectories"
                   }
                 }
-              },
-              "sig_name": "McAfee Endpoint Security for Linux Threat Prevention"
+              }
             }
           }
         },
@@ -29699,8 +29703,8 @@ SUPPORT_CHARTS = {
                   "name": "ANTIMALWARE"
                 }
               },
-              "methods": {},
-              "sig_name": "360 天擎"
+              "sig_name": "360 天擎",
+              "methods": {}
             }
           }
         },
@@ -30050,6 +30054,7 @@ SUPPORT_CHARTS = {
                   "name": "ANTIMALWARE"
                 }
               },
+              "sig_name": "Sentinel Agent",
               "methods": {
                 "manageability": {
                   "100": {
@@ -30277,8 +30282,7 @@ SUPPORT_CHARTS = {
                     "name": "GetInstallationDirectories"
                   }
                 }
-              },
-              "sig_name": "Sentinel Agent"
+              }
             }
           }
         },
@@ -30449,6 +30453,7 @@ SUPPORT_CHARTS = {
                   "name": "FIREWALL"
                 }
               },
+              "sig_name": "Crowdstrike Falcon",
               "methods": {
                 "manageability": {
                   "100": {
@@ -30916,8 +30921,7 @@ SUPPORT_CHARTS = {
                     "name": "GetComponents"
                   }
                 }
-              },
-              "sig_name": "Crowdstrike Falcon"
+              }
             }
           }
         },
@@ -30949,6 +30953,7 @@ SUPPORT_CHARTS = {
                   "name": "ANTIMALWARE"
                 }
               },
+              "sig_name": "ServerProtect for Linux",
               "methods": {
                 "manageability": {
                   "100": {
@@ -31120,8 +31125,7 @@ SUPPORT_CHARTS = {
                     "name": "EnableRTP"
                   }
                 }
-              },
-              "sig_name": "ServerProtect for Linux"
+              }
             }
           }
         },
@@ -31181,6 +31185,7 @@ SUPPORT_CHARTS = {
                   "name": "ANTIMALWARE"
                 }
               },
+              "sig_name": "Bitdefender Endpoint Security Tools",
               "methods": {
                 "manageability": {
                   "100": {
@@ -31589,8 +31594,7 @@ SUPPORT_CHARTS = {
                     "name": "TerminateProcesses"
                   }
                 }
-              },
-              "sig_name": "Bitdefender Endpoint Security Tools"
+              }
             }
           }
         },
@@ -31631,6 +31635,7 @@ SUPPORT_CHARTS = {
                   "name": "ANTIMALWARE"
                 }
               },
+              "sig_name": "FortiClient",
               "methods": {
                 "manageability": {
                   "1000": {
@@ -31835,8 +31840,7 @@ SUPPORT_CHARTS = {
                     "name": "GetInstallationDirectories"
                   }
                 }
-              },
-              "sig_name": "FortiClient"
+              }
             }
           }
         },
@@ -31886,6 +31890,7 @@ SUPPORT_CHARTS = {
                   "name": "FIREWALL"
                 }
               },
+              "sig_name": "Trend Micro Deep Security Agent",
               "methods": {
                 "manageability": {
                   "100": {
@@ -32173,8 +32178,7 @@ SUPPORT_CHARTS = {
                     "name": "Scan"
                   }
                 }
-              },
-              "sig_name": "Trend Micro Deep Security Agent"
+              }
             }
           }
         },
@@ -32206,6 +32210,7 @@ SUPPORT_CHARTS = {
                   "name": "ANTIMALWARE"
                 }
               },
+              "sig_name": "CylancePROTECT",
               "methods": {
                 "manageability": {
                   "1000": {
@@ -32320,8 +32325,7 @@ SUPPORT_CHARTS = {
                     "name": "GetDefinitionState"
                   }
                 }
-              },
-              "sig_name": "CylancePROTECT"
+              }
             }
           }
         },
@@ -32374,6 +32378,7 @@ SUPPORT_CHARTS = {
                   "name": "ANTIMALWARE"
                 }
               },
+              "sig_name": "FireEye Endpoint Agent",
               "methods": {
                 "manageability": {
                   "1000": {
@@ -32488,8 +32493,7 @@ SUPPORT_CHARTS = {
                     "name": "GetDefinitionState"
                   }
                 }
-              },
-              "sig_name": "FireEye Endpoint Agent"
+              }
             }
           }
         },
@@ -32531,6 +32535,7 @@ SUPPORT_CHARTS = {
                   "name": "ANTIMALWARE"
                 }
               },
+              "sig_name": "Carbon Black Defense Sensor",
               "methods": {
                 "manageability": {
                   "100": {
@@ -32662,8 +32667,7 @@ SUPPORT_CHARTS = {
                     "name": "GetDefinitionState"
                   }
                 }
-              },
-              "sig_name": "Carbon Black Defense Sensor"
+              }
             }
           }
         },
@@ -32695,6 +32699,7 @@ SUPPORT_CHARTS = {
                   "name": "ANTIMALWARE"
                 }
               },
+              "sig_name": "chkrootkit",
               "methods": {
                 "manageability": {
                   "100": {
@@ -32715,8 +32720,7 @@ SUPPORT_CHARTS = {
                     "name": "GetVersion"
                   }
                 }
-              },
-              "sig_name": "chkrootkit"
+              }
             }
           }
         },
@@ -32752,6 +32756,7 @@ SUPPORT_CHARTS = {
                   "name": "ANTIMALWARE"
                 }
               },
+              "sig_name": "Comodo Antivirus",
               "methods": {
                 "manageability": {
                   "100": {
@@ -32939,8 +32944,7 @@ SUPPORT_CHARTS = {
                     "name": "TerminateProcesses"
                   }
                 }
-              },
-              "sig_name": "Comodo Antivirus"
+              }
             }
           }
         },
@@ -32972,6 +32976,7 @@ SUPPORT_CHARTS = {
                   "name": "ANTIMALWARE"
                 }
               },
+              "sig_name": "Rootkit Hunter",
               "methods": {
                 "constant": {
                   "101": {
@@ -33009,8 +33014,7 @@ SUPPORT_CHARTS = {
                     "name": "GetVersion"
                   }
                 }
-              },
-              "sig_name": "Rootkit Hunter"
+              }
             }
           }
         },
@@ -33042,6 +33046,7 @@ SUPPORT_CHARTS = {
                   "name": "ANTIMALWARE"
                 }
               },
+              "sig_name": "ClamTk",
               "methods": {
                 "manageability": {
                   "100": {
@@ -33091,8 +33096,7 @@ SUPPORT_CHARTS = {
                     "name": "TerminateProcesses"
                   }
                 }
-              },
-              "sig_name": "ClamTk"
+              }
             }
           }
         },
@@ -33125,6 +33129,7 @@ SUPPORT_CHARTS = {
                   "name": "ANTIMALWARE"
                 }
               },
+              "sig_name": "Traps",
               "methods": {
                 "manageability": {
                   "100": {
@@ -33333,8 +33338,7 @@ SUPPORT_CHARTS = {
                     "name": "TerminateProcesses"
                   }
                 }
-              },
-              "sig_name": "Traps"
+              }
             }
           }
         },
@@ -33375,6 +33379,7 @@ SUPPORT_CHARTS = {
                   "name": "FIREWALL"
                 }
               },
+              "sig_name": "Cytomic EPDR",
               "methods": {
                 "manageability": {
                   "100": {
@@ -33521,8 +33526,7 @@ SUPPORT_CHARTS = {
                     "name": "GetDefinitionState"
                   }
                 }
-              },
-              "sig_name": "Cytomic EPDR"
+              }
             }
           }
         },
@@ -33558,6 +33562,7 @@ SUPPORT_CHARTS = {
                   "name": "ANTIMALWARE"
                 }
               },
+              "sig_name": "Panda Adaptive Defense 360",
               "methods": {
                 "manageability": {
                   "100": {
@@ -33704,8 +33709,7 @@ SUPPORT_CHARTS = {
                     "name": "GetDefinitionState"
                   }
                 }
-              },
-              "sig_name": "Panda Adaptive Defense 360"
+              }
             }
           }
         },
@@ -33779,6 +33783,7 @@ SUPPORT_CHARTS = {
                   "name": "ANTIMALWARE"
                 }
               },
+              "sig_name": "ESET Endpoint Antivirus",
               "methods": {
                 "manageability": {
                   "100": {
@@ -34125,8 +34130,7 @@ SUPPORT_CHARTS = {
                     "name": "TerminateProcesses"
                   }
                 }
-              },
-              "sig_name": "ESET Endpoint Antivirus"
+              }
             }
           }
         },
@@ -34222,6 +34226,11 @@ SUPPORT_CHARTS = {
               "certification": "gold",
               "signature": 200159,
               "version": "9.0.0.140013"
+            },
+            {
+              "certification": "gold",
+              "signature": 200159,
+              "version": "9.3.0.202"
             }
           ],
           "labels": [],
@@ -34248,6 +34257,7 @@ SUPPORT_CHARTS = {
                   "name": "ANTIMALWARE"
                 }
               },
+              "sig_name": "Cortex",
               "methods": {
                 "manageability": {
                   "100": {
@@ -34672,8 +34682,7 @@ SUPPORT_CHARTS = {
                     "name": "GetComponents"
                   }
                 }
-              },
-              "sig_name": "Cortex"
+              }
             }
           }
         },
@@ -34721,6 +34730,7 @@ SUPPORT_CHARTS = {
                   "name": "ANTIMALWARE"
                 }
               },
+              "sig_name": "Microsoft Defender ATP",
               "methods": {
                 "manageability": {
                   "1000": {
@@ -35160,8 +35170,7 @@ SUPPORT_CHARTS = {
                     "name": "TerminateProcesses"
                   }
                 }
-              },
-              "sig_name": "Microsoft Defender ATP"
+              }
             }
           }
         },
@@ -35263,6 +35272,7 @@ SUPPORT_CHARTS = {
                   "name": "ANTIMALWARE"
                 }
               },
+              "sig_name": "Elastic Agent",
               "methods": {
                 "manageability": {
                   "100": {
@@ -35517,8 +35527,7 @@ SUPPORT_CHARTS = {
                     "name": "GetInstallationDirectories"
                   }
                 }
-              },
-              "sig_name": "Elastic Agent"
+              }
             }
           }
         },
@@ -35551,6 +35560,7 @@ SUPPORT_CHARTS = {
                   "name": "ANTIMALWARE"
                 }
               },
+              "sig_name": "CynetEPS",
               "methods": {
                 "manageability": {
                   "1000": {
@@ -35656,8 +35666,7 @@ SUPPORT_CHARTS = {
                     "name": "GetDefinitionState"
                   }
                 }
-              },
-              "sig_name": "CynetEPS"
+              }
             }
           }
         },
@@ -35715,6 +35724,7 @@ SUPPORT_CHARTS = {
                   "name": "ANTIMALWARE"
                 }
               },
+              "sig_name": "Cybereason ActiveProbe Antimalware",
               "methods": {
                 "manageability": {
                   "1000": {
@@ -35820,8 +35830,7 @@ SUPPORT_CHARTS = {
                     "name": "GetDefinitionState"
                   }
                 }
-              },
-              "sig_name": "Cybereason ActiveProbe Antimalware"
+              }
             }
           }
         },
@@ -35869,6 +35878,7 @@ SUPPORT_CHARTS = {
                   "name": "ANTIMALWARE"
                 }
               },
+              "sig_name": "Cisco Secure Endpoint Connector",
               "methods": {
                 "manageability": {
                   "1000": {
@@ -36047,8 +36057,7 @@ SUPPORT_CHARTS = {
                     "name": "TerminateProcesses"
                   }
                 }
-              },
-              "sig_name": "Cisco Secure Endpoint Connector"
+              }
             }
           }
         },
@@ -36112,6 +36121,7 @@ SUPPORT_CHARTS = {
                   "name": "ANTIMALWARE"
                 }
               },
+              "sig_name": "ClamAV",
               "methods": {
                 "manageability": {
                   "100": {
@@ -36373,8 +36383,7 @@ SUPPORT_CHARTS = {
                     "name": "GetInstallationDirectories"
                   }
                 }
-              },
-              "sig_name": "ClamAV"
+              }
             }
           }
         },
@@ -36410,6 +36419,7 @@ SUPPORT_CHARTS = {
                   "name": "ANTIMALWARE"
                 }
               },
+              "sig_name": "Sophos Protection",
               "methods": {
                 "manageability": {
                   "100": {
@@ -36815,8 +36825,7 @@ SUPPORT_CHARTS = {
                     "name": "GetUninstallString"
                   }
                 }
-              },
-              "sig_name": "Sophos Protection"
+              }
             }
           }
         },
@@ -36860,6 +36869,7 @@ SUPPORT_CHARTS = {
                   "name": "FIREWALL"
                 }
               },
+              "sig_name": "WatchGuard Advanced EPDR",
               "methods": {
                 "manageability": {
                   "100": {
@@ -37032,8 +37042,7 @@ SUPPORT_CHARTS = {
                     "name": "GetDefinitionState"
                   }
                 }
-              },
-              "sig_name": "WatchGuard Advanced EPDR"
+              }
             }
           },
           "marketing_names": [
@@ -37075,6 +37084,7 @@ SUPPORT_CHARTS = {
                   "name": "ANTIMALWARE"
                 }
               },
+              "sig_name": "Qualys Endpoint Protection Platform",
               "methods": {
                 "constant": {
                   "103": {
@@ -37417,8 +37427,7 @@ SUPPORT_CHARTS = {
                     "name": "Run"
                   }
                 }
-              },
-              "sig_name": "Qualys Endpoint Protection Platform"
+              }
             }
           }
         },
@@ -37450,8 +37459,8 @@ SUPPORT_CHARTS = {
                   "name": "ANTIMALWARE"
                 }
               },
-              "methods": {},
-              "sig_name": "Seqrite Endpoint Protection"
+              "sig_name": "Seqrite Endpoint Protection",
+              "methods": {}
             }
           }
         },
@@ -37484,6 +37493,7 @@ SUPPORT_CHARTS = {
                   "name": "ANTIMALWARE"
                 }
               },
+              "sig_name": "Datto EDR Agent",
               "methods": {
                 "constant": {
                   "102": {
@@ -37720,8 +37730,7 @@ SUPPORT_CHARTS = {
                     "name": "GetInstallationDirectories"
                   }
                 }
-              },
-              "sig_name": "Datto EDR Agent"
+              }
             }
           }
         },
@@ -37757,6 +37766,7 @@ SUPPORT_CHARTS = {
                   "name": "FIREWALL"
                 }
               },
+              "sig_name": "WatchGuard Endpoint Security Elite",
               "methods": {
                 "constant": {
                   "102": {
@@ -37945,8 +37955,7 @@ SUPPORT_CHARTS = {
                     "name": "GetDefinitionState"
                   }
                 }
-              },
-              "sig_name": "WatchGuard Endpoint Security Elite"
+              }
             }
           }
         },
@@ -37986,6 +37995,7 @@ SUPPORT_CHARTS = {
                   "name": "FIREWALL"
                 }
               },
+              "sig_name": "WatchGuard Endpoint Security Basic",
               "methods": {
                 "constant": {
                   "102": {
@@ -38174,8 +38184,7 @@ SUPPORT_CHARTS = {
                     "name": "GetDefinitionState"
                   }
                 }
-              },
-              "sig_name": "WatchGuard Endpoint Security Basic"
+              }
             }
           }
         },
@@ -38211,8 +38220,8 @@ SUPPORT_CHARTS = {
                   "name": "ANTIMALWARE"
                 }
               },
-              "methods": {},
-              "sig_name": "Rapid7 Insight Agent"
+              "sig_name": "Rapid7 Insight Agent",
+              "methods": {}
             }
           }
         }
@@ -38448,6 +38457,7 @@ SUPPORT_CHARTS = {
                   "name": "BROWSER"
                 }
               },
+              "sig_name": "Google Chrome",
               "methods": {
                 "manageability": {
                   "100": {
@@ -38551,8 +38561,7 @@ SUPPORT_CHARTS = {
                     "name": "Run"
                   }
                 }
-              },
-              "sig_name": "Google Chrome"
+              }
             }
           }
         },
@@ -38964,6 +38973,7 @@ SUPPORT_CHARTS = {
                   "name": "BROWSER"
                 }
               },
+              "sig_name": "Mozilla Firefox",
               "methods": {
                 "manageability": {
                   "100": {
@@ -39137,8 +39147,7 @@ SUPPORT_CHARTS = {
                     "name": "GetInstallationDirectories"
                   }
                 }
-              },
-              "sig_name": "Mozilla Firefox"
+              }
             }
           }
         },
@@ -39174,6 +39183,7 @@ SUPPORT_CHARTS = {
                   "name": "BROWSER"
                 }
               },
+              "sig_name": "Opera",
               "methods": {
                 "manageability": {
                   "100": {
@@ -39270,8 +39280,7 @@ SUPPORT_CHARTS = {
                     "name": "TerminateProcesses"
                   }
                 }
-              },
-              "sig_name": "Opera"
+              }
             }
           }
         },
@@ -39307,6 +39316,7 @@ SUPPORT_CHARTS = {
                   "name": "BROWSER"
                 }
               },
+              "sig_name": "Seamonkey",
               "methods": {
                 "manageability": {
                   "100": {
@@ -39363,8 +39373,7 @@ SUPPORT_CHARTS = {
                     "name": "Run"
                   }
                 }
-              },
-              "sig_name": "Seamonkey"
+              }
             },
             "200100": {
               "signature": 200100,
@@ -39382,6 +39391,7 @@ SUPPORT_CHARTS = {
                   "name": "BROWSER"
                 }
               },
+              "sig_name": "Seamonkey",
               "methods": {
                 "manageability": {
                   "100": {
@@ -39438,8 +39448,7 @@ SUPPORT_CHARTS = {
                     "name": "Run"
                   }
                 }
-              },
-              "sig_name": "Seamonkey"
+              }
             }
           }
         },
@@ -39551,6 +39560,7 @@ SUPPORT_CHARTS = {
                   "name": "BROWSER"
                 }
               },
+              "sig_name": "Mozilla Firefox ESR",
               "methods": {
                 "manageability": {
                   "100": {
@@ -39832,8 +39842,7 @@ SUPPORT_CHARTS = {
                     "name": "GetPlugins"
                   }
                 }
-              },
-              "sig_name": "Mozilla Firefox ESR"
+              }
             }
           }
         }
@@ -39901,6 +39910,7 @@ SUPPORT_CHARTS = {
                   "name": "FIREWALL"
                 }
               },
+              "sig_name": "Kaspersky Endpoint Security for Linux",
               "methods": {
                 "manageability": {
                   "100": {
@@ -40407,8 +40417,7 @@ SUPPORT_CHARTS = {
                     "name": "TerminateProcesses"
                   }
                 }
-              },
-              "sig_name": "Kaspersky Endpoint Security for Linux"
+              }
             }
           }
         },
@@ -40456,6 +40465,7 @@ SUPPORT_CHARTS = {
                   "name": "FIREWALL"
                 }
               },
+              "sig_name": "IPTables",
               "methods": {
                 "manageability": {
                   "100": {
@@ -40597,8 +40607,7 @@ SUPPORT_CHARTS = {
                     "name": "GetInstallationDirectories"
                   }
                 }
-              },
-              "sig_name": "IPTables"
+              }
             }
           }
         },
@@ -40742,6 +40751,7 @@ SUPPORT_CHARTS = {
                   "name": "FIREWALL"
                 }
               },
+              "sig_name": "Crowdstrike Falcon",
               "methods": {
                 "manageability": {
                   "100": {
@@ -41209,8 +41219,7 @@ SUPPORT_CHARTS = {
                     "name": "GetComponents"
                   }
                 }
-              },
-              "sig_name": "Crowdstrike Falcon"
+              }
             }
           }
         },
@@ -41242,6 +41251,7 @@ SUPPORT_CHARTS = {
                   "name": "FIREWALL"
                 }
               },
+              "sig_name": "McAfee Firewall for Linux",
               "methods": {
                 "manageability": {
                   "100": {
@@ -41304,8 +41314,7 @@ SUPPORT_CHARTS = {
                     "name": "SetFirewallState"
                   }
                 }
-              },
-              "sig_name": "McAfee Firewall for Linux"
+              }
             }
           }
         },
@@ -41353,6 +41362,7 @@ SUPPORT_CHARTS = {
                   "name": "FIREWALL"
                 }
               },
+              "sig_name": "Trend Micro Deep Security Agent",
               "methods": {
                 "manageability": {
                   "100": {
@@ -41640,8 +41650,7 @@ SUPPORT_CHARTS = {
                     "name": "Scan"
                   }
                 }
-              },
-              "sig_name": "Trend Micro Deep Security Agent"
+              }
             }
           }
         },
@@ -41689,6 +41698,7 @@ SUPPORT_CHARTS = {
                   "name": "FIREWALL"
                 }
               },
+              "sig_name": "nftables",
               "methods": {
                 "manageability": {
                   "100": {
@@ -41767,8 +41777,7 @@ SUPPORT_CHARTS = {
                     "name": "TerminateProcesses"
                   }
                 }
-              },
-              "sig_name": "nftables"
+              }
             }
           }
         },
@@ -41808,6 +41817,7 @@ SUPPORT_CHARTS = {
                   "name": "FIREWALL"
                 }
               },
+              "sig_name": "Cytomic EPDR",
               "methods": {
                 "manageability": {
                   "100": {
@@ -41954,8 +41964,7 @@ SUPPORT_CHARTS = {
                     "name": "GetDefinitionState"
                   }
                 }
-              },
-              "sig_name": "Cytomic EPDR"
+              }
             }
           }
         },
@@ -42027,6 +42036,7 @@ SUPPORT_CHARTS = {
                   "name": "FIREWALL"
                 }
               },
+              "sig_name": "Firewalld",
               "methods": {
                 "manageability": {
                   "100": {
@@ -42185,8 +42195,7 @@ SUPPORT_CHARTS = {
                     "name": "GetInstallationDirectories"
                   }
                 }
-              },
-              "sig_name": "Firewalld"
+              }
             }
           }
         },
@@ -42230,6 +42239,7 @@ SUPPORT_CHARTS = {
                   "name": "FIREWALL"
                 }
               },
+              "sig_name": "UFW",
               "methods": {
                 "manageability": {
                   "100": {
@@ -42429,8 +42439,7 @@ SUPPORT_CHARTS = {
                     "name": "GetInstallationDirectories"
                   }
                 }
-              },
-              "sig_name": "UFW"
+              }
             }
           }
         },
@@ -42474,6 +42483,7 @@ SUPPORT_CHARTS = {
                   "name": "FIREWALL"
                 }
               },
+              "sig_name": "WatchGuard Advanced EPDR",
               "methods": {
                 "manageability": {
                   "100": {
@@ -42646,8 +42656,7 @@ SUPPORT_CHARTS = {
                     "name": "GetDefinitionState"
                   }
                 }
-              },
-              "sig_name": "WatchGuard Advanced EPDR"
+              }
             }
           },
           "marketing_names": [
@@ -42687,6 +42696,7 @@ SUPPORT_CHARTS = {
                   "name": "FIREWALL"
                 }
               },
+              "sig_name": "WatchGuard Endpoint Security Elite",
               "methods": {
                 "constant": {
                   "102": {
@@ -42875,8 +42885,7 @@ SUPPORT_CHARTS = {
                     "name": "GetDefinitionState"
                   }
                 }
-              },
-              "sig_name": "WatchGuard Endpoint Security Elite"
+              }
             }
           }
         },
@@ -42916,6 +42925,7 @@ SUPPORT_CHARTS = {
                   "name": "FIREWALL"
                 }
               },
+              "sig_name": "WatchGuard Endpoint Security Basic",
               "methods": {
                 "constant": {
                   "102": {
@@ -43104,8 +43114,7 @@ SUPPORT_CHARTS = {
                     "name": "GetDefinitionState"
                   }
                 }
-              },
-              "sig_name": "WatchGuard Endpoint Security Basic"
+              }
             }
           }
         }
@@ -43148,8 +43157,8 @@ SUPPORT_CHARTS = {
                   "name": "MESSENGER"
                 }
               },
-              "methods": {},
-              "sig_name": "Brosix"
+              "sig_name": "Brosix",
+              "methods": {}
             }
           }
         },
@@ -43185,8 +43194,8 @@ SUPPORT_CHARTS = {
                   "name": "MESSENGER"
                 }
               },
-              "methods": {},
-              "sig_name": "Skype"
+              "sig_name": "Skype",
+              "methods": {}
             }
           }
         },
@@ -43218,8 +43227,8 @@ SUPPORT_CHARTS = {
                   "name": "MESSENGER"
                 }
               },
-              "methods": {},
-              "sig_name": "Trillian"
+              "sig_name": "Trillian",
+              "methods": {}
             }
           }
         },
@@ -43255,8 +43264,8 @@ SUPPORT_CHARTS = {
                   "name": "MESSENGER"
                 }
               },
-              "methods": {},
-              "sig_name": "emesene"
+              "sig_name": "emesene",
+              "methods": {}
             }
           }
         },
@@ -43288,8 +43297,8 @@ SUPPORT_CHARTS = {
                   "name": "MESSENGER"
                 }
               },
-              "methods": {},
-              "sig_name": "QQ for Linux"
+              "sig_name": "QQ for Linux",
+              "methods": {}
             }
           }
         },
@@ -43325,8 +43334,8 @@ SUPPORT_CHARTS = {
                   "name": "MESSENGER"
                 }
               },
-              "methods": {},
-              "sig_name": "ISL Pronto"
+              "sig_name": "ISL Pronto",
+              "methods": {}
             }
           }
         },
@@ -43362,6 +43371,7 @@ SUPPORT_CHARTS = {
                   "name": "MESSENGER"
                 }
               },
+              "sig_name": "Gajim",
               "methods": {
                 "manageability": {
                   "100": {
@@ -43447,8 +43457,7 @@ SUPPORT_CHARTS = {
                     "name": "TerminateProcesses"
                   }
                 }
-              },
-              "sig_name": "Gajim"
+              }
             }
           }
         },
@@ -43660,6 +43669,7 @@ SUPPORT_CHARTS = {
                   "name": "MESSENGER"
                 }
               },
+              "sig_name": "Signal",
               "methods": {
                 "manageability": {
                   "100": {
@@ -43760,8 +43770,7 @@ SUPPORT_CHARTS = {
                     "name": "GetInstallationDirectories"
                   }
                 }
-              },
-              "sig_name": "Signal"
+              }
             }
           }
         },
@@ -43801,6 +43810,7 @@ SUPPORT_CHARTS = {
                   "name": "MESSENGER"
                 }
               },
+              "sig_name": "RingCentral Embeddable",
               "methods": {
                 "manageability": {
                   "100": {
@@ -43923,8 +43933,7 @@ SUPPORT_CHARTS = {
                     "name": "GetInstallationDirectories"
                   }
                 }
-              },
-              "sig_name": "RingCentral Embeddable"
+              }
             }
           }
         }
@@ -43971,6 +43980,7 @@ SUPPORT_CHARTS = {
                   "name": "CLOUD_STORAGE"
                 }
               },
+              "sig_name": "Nextcloud Desktop Client",
               "methods": {
                 "manageability": {
                   "100": {
@@ -44099,8 +44109,7 @@ SUPPORT_CHARTS = {
                     "name": "GetBackupState"
                   }
                 }
-              },
-              "sig_name": "Nextcloud Desktop Client"
+              }
             }
           }
         }
@@ -44108,6 +44117,6 @@ SUPPORT_CHARTS = {
       "name": "CLOUD_STORAGE"
     }
   },
-  "support_chart_type": "CATEGORY",
-  "timestamp": "1785827688"
+  "timestamp": "1786436676",
+  "support_chart_type": "CATEGORY"
 }

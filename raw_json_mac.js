@@ -44,6 +44,7 @@ SUPPORT_CHARTS = {
                   "name": "P2PA"
                 }
               },
+              "sig_name": "BitTorrent",
               "methods": {
                 "manageability": {
                   "101": {
@@ -77,8 +78,7 @@ SUPPORT_CHARTS = {
                     "name": "Uninstall"
                   }
                 }
-              },
-              "sig_name": "BitTorrent"
+              }
             }
           }
         },
@@ -116,6 +116,7 @@ SUPPORT_CHARTS = {
                   "name": "P2PA"
                 }
               },
+              "sig_name": "µTorrent",
               "methods": {
                 "manageability": {
                   "101": {
@@ -137,8 +138,7 @@ SUPPORT_CHARTS = {
                     "name": "Uninstall"
                   }
                 }
-              },
-              "sig_name": "µTorrent"
+              }
             }
           }
         },
@@ -174,8 +174,8 @@ SUPPORT_CHARTS = {
                   "name": "P2PA"
                 }
               },
-              "methods": {},
-              "sig_name": "Acqlite"
+              "sig_name": "Acqlite",
+              "methods": {}
             }
           }
         },
@@ -215,6 +215,7 @@ SUPPORT_CHARTS = {
                   "name": "P2PA"
                 }
               },
+              "sig_name": "LimeWire",
               "methods": {
                 "manageability": {
                   "100": {
@@ -222,8 +223,7 @@ SUPPORT_CHARTS = {
                     "name": "GetVersion"
                   }
                 }
-              },
-              "sig_name": "LimeWire"
+              }
             }
           }
         },
@@ -255,6 +255,7 @@ SUPPORT_CHARTS = {
                   "name": "PUBLIC_FILE_SHARING"
                 }
               },
+              "sig_name": "Xtorrent",
               "methods": {
                 "manageability": {
                   "101": {
@@ -270,8 +271,7 @@ SUPPORT_CHARTS = {
                     "name": "GetRunningState"
                   }
                 }
-              },
-              "sig_name": "Xtorrent"
+              }
             }
           }
         },
@@ -307,8 +307,8 @@ SUPPORT_CHARTS = {
                   "name": "P2PA"
                 }
               },
-              "methods": {},
-              "sig_name": "Transmission"
+              "sig_name": "Transmission",
+              "methods": {}
             }
           }
         },
@@ -340,8 +340,8 @@ SUPPORT_CHARTS = {
                   "name": "PUBLIC_FILE_SHARING"
                 }
               },
-              "methods": {},
-              "sig_name": "Tomato"
+              "sig_name": "Tomato",
+              "methods": {}
             }
           }
         },
@@ -377,6 +377,7 @@ SUPPORT_CHARTS = {
                   "name": "P2PA"
                 }
               },
+              "sig_name": "ShakesPeer",
               "methods": {
                 "manageability": {
                   "101": {
@@ -392,8 +393,7 @@ SUPPORT_CHARTS = {
                     "name": "GetRunningState"
                   }
                 }
-              },
-              "sig_name": "ShakesPeer"
+              }
             }
           }
         },
@@ -431,8 +431,8 @@ SUPPORT_CHARTS = {
                   "name": "P2PA"
                 }
               },
-              "methods": {},
-              "sig_name": "FrostWire"
+              "sig_name": "FrostWire",
+              "methods": {}
             }
           }
         },
@@ -476,6 +476,7 @@ SUPPORT_CHARTS = {
                   "name": "PUBLIC_FILE_SHARING"
                 }
               },
+              "sig_name": "FileZilla",
               "methods": {
                 "manageability": {
                   "100": {
@@ -496,8 +497,7 @@ SUPPORT_CHARTS = {
                     "name": "GetVersion"
                   }
                 }
-              },
-              "sig_name": "FileZilla"
+              }
             }
           }
         },
@@ -539,6 +539,7 @@ SUPPORT_CHARTS = {
                   "name": "P2PA"
                 }
               },
+              "sig_name": "Popcorn Time",
               "methods": {
                 "manageability": {
                   "101": {
@@ -554,8 +555,7 @@ SUPPORT_CHARTS = {
                     "name": "GetRunningState"
                   }
                 }
-              },
-              "sig_name": "Popcorn Time"
+              }
             }
           }
         },
@@ -591,8 +591,8 @@ SUPPORT_CHARTS = {
                   "name": "P2PA"
                 }
               },
-              "methods": {},
-              "sig_name": "Folx"
+              "sig_name": "Folx",
+              "methods": {}
             }
           }
         },
@@ -624,8 +624,8 @@ SUPPORT_CHARTS = {
                   "name": "PUBLIC_FILE_SHARING"
                 }
               },
-              "methods": {},
-              "sig_name": "Cyberduck"
+              "sig_name": "Cyberduck",
+              "methods": {}
             }
           }
         },
@@ -667,6 +667,7 @@ SUPPORT_CHARTS = {
                   "name": "P2PA"
                 }
               },
+              "sig_name": "Vuze Bittorrent Client",
               "methods": {
                 "manageability": {
                   "100": {
@@ -703,8 +704,7 @@ SUPPORT_CHARTS = {
                     "name": "GetInstallationDirectories"
                   }
                 }
-              },
-              "sig_name": "Vuze Bittorrent Client"
+              }
             }
           }
         },
@@ -736,8 +736,8 @@ SUPPORT_CHARTS = {
                   "name": "PUBLIC_FILE_SHARING"
                 }
               },
-              "methods": {},
-              "sig_name": "Mojo"
+              "sig_name": "Mojo",
+              "methods": {}
             }
           }
         },
@@ -777,8 +777,8 @@ SUPPORT_CHARTS = {
                   "name": "MESSENGER"
                 }
               },
-              "methods": {},
-              "sig_name": "SolarSeek"
+              "sig_name": "SolarSeek",
+              "methods": {}
             }
           }
         },
@@ -814,8 +814,8 @@ SUPPORT_CHARTS = {
                   "name": "P2PA"
                 }
               },
-              "methods": {},
-              "sig_name": "Phex"
+              "sig_name": "Phex",
+              "methods": {}
             }
           }
         },
@@ -847,8 +847,8 @@ SUPPORT_CHARTS = {
                   "name": "PUBLIC_FILE_SHARING"
                 }
               },
-              "methods": {},
-              "sig_name": "Classic FTP"
+              "sig_name": "Classic FTP",
+              "methods": {}
             }
           }
         },
@@ -890,8 +890,8 @@ SUPPORT_CHARTS = {
                   "name": "MESSENGER"
                 }
               },
-              "methods": {},
-              "sig_name": "aMule"
+              "sig_name": "aMule",
+              "methods": {}
             }
           }
         },
@@ -935,6 +935,7 @@ SUPPORT_CHARTS = {
                   "name": "ENCRYPTION"
                 }
               },
+              "sig_name": "Nomadesk",
               "methods": {
                 "manageability": {
                   "1008": {
@@ -1110,8 +1111,7 @@ SUPPORT_CHARTS = {
                     "name": "TerminateProcesses"
                   }
                 }
-              },
-              "sig_name": "Nomadesk"
+              }
             }
           }
         },
@@ -1155,8 +1155,8 @@ SUPPORT_CHARTS = {
                   "name": "PUBLIC_FILE_SHARING"
                 }
               },
-              "methods": {},
-              "sig_name": "Miro Video Player"
+              "sig_name": "Miro Video Player",
+              "methods": {}
             }
           }
         }
@@ -1195,8 +1195,8 @@ SUPPORT_CHARTS = {
                   "name": "UNCLASSIFIED"
                 }
               },
-              "methods": {},
-              "sig_name": "TextWrangler"
+              "sig_name": "TextWrangler",
+              "methods": {}
             }
           }
         },
@@ -1334,6 +1334,10 @@ SUPPORT_CHARTS = {
             {
               "signature": 100015,
               "version": "153.0.1"
+            },
+            {
+              "signature": 100015,
+              "version": "153.0.2"
             }
           ],
           "labels": [],
@@ -1356,6 +1360,7 @@ SUPPORT_CHARTS = {
                   "name": "UNCLASSIFIED"
                 }
               },
+              "sig_name": "Thunderbird",
               "methods": {
                 "manageability": {
                   "100": {
@@ -1436,8 +1441,7 @@ SUPPORT_CHARTS = {
                     "name": "Uninstall"
                   }
                 }
-              },
-              "sig_name": "Thunderbird"
+              }
             }
           }
         },
@@ -1489,6 +1493,7 @@ SUPPORT_CHARTS = {
                   "name": "FIREWALL"
                 }
               },
+              "sig_name": "Norton Internet Security",
               "methods": {
                 "manageability": {
                   "100": {
@@ -1723,8 +1728,7 @@ SUPPORT_CHARTS = {
                     "name": "Scan"
                   }
                 }
-              },
-              "sig_name": "Norton Internet Security"
+              }
             }
           }
         },
@@ -1756,8 +1760,8 @@ SUPPORT_CHARTS = {
                   "name": "UNCLASSIFIED"
                 }
               },
-              "methods": {},
-              "sig_name": "Card Data Recovery"
+              "sig_name": "Card Data Recovery",
+              "methods": {}
             }
           }
         },
@@ -1793,8 +1797,8 @@ SUPPORT_CHARTS = {
                   "name": "UNCLASSIFIED"
                 }
               },
-              "methods": {},
-              "sig_name": "Sublime Text 2"
+              "sig_name": "Sublime Text 2",
+              "methods": {}
             },
             "100321": {
               "signature": 100321,
@@ -1812,8 +1816,8 @@ SUPPORT_CHARTS = {
                   "name": "UNCLASSIFIED"
                 }
               },
-              "methods": {},
-              "sig_name": "Sublime Text"
+              "sig_name": "Sublime Text",
+              "methods": {}
             }
           }
         },
@@ -1845,8 +1849,8 @@ SUPPORT_CHARTS = {
                   "name": "UNCLASSIFIED"
                 }
               },
-              "methods": {},
-              "sig_name": "TeamViewer Manager 10"
+              "sig_name": "TeamViewer Manager 10",
+              "methods": {}
             }
           }
         },
@@ -1878,8 +1882,8 @@ SUPPORT_CHARTS = {
                   "name": "UNCLASSIFIED"
                 }
               },
-              "methods": {},
-              "sig_name": "VSD Viewer"
+              "sig_name": "VSD Viewer",
+              "methods": {}
             }
           }
         },
@@ -1911,8 +1915,8 @@ SUPPORT_CHARTS = {
                   "name": "UNCLASSIFIED"
                 }
               },
-              "methods": {},
-              "sig_name": "MacClean"
+              "sig_name": "MacClean",
+              "methods": {}
             }
           }
         },
@@ -1944,8 +1948,8 @@ SUPPORT_CHARTS = {
                   "name": "UNCLASSIFIED"
                 }
               },
-              "methods": {},
-              "sig_name": "KeyLemon"
+              "sig_name": "KeyLemon",
+              "methods": {}
             }
           }
         },
@@ -1977,8 +1981,8 @@ SUPPORT_CHARTS = {
                   "name": "UNCLASSIFIED"
                 }
               },
-              "methods": {},
-              "sig_name": "5KPlayer"
+              "sig_name": "5KPlayer",
+              "methods": {}
             }
           }
         },
@@ -2010,8 +2014,8 @@ SUPPORT_CHARTS = {
                   "name": "UNCLASSIFIED"
                 }
               },
-              "methods": {},
-              "sig_name": "Notebooks"
+              "sig_name": "Notebooks",
+              "methods": {}
             }
           }
         },
@@ -2051,6 +2055,7 @@ SUPPORT_CHARTS = {
                   "name": "FIREWALL"
                 }
               },
+              "sig_name": "Flextivity",
               "methods": {
                 "manageability": {
                   "1000": {
@@ -2135,8 +2140,7 @@ SUPPORT_CHARTS = {
                     "name": "GetFirewallState"
                   }
                 }
-              },
-              "sig_name": "Flextivity"
+              }
             }
           }
         },
@@ -2220,6 +2224,7 @@ SUPPORT_CHARTS = {
                   "name": "ANTIMALWARE"
                 }
               },
+              "sig_name": "Webroot SecureAnywhere",
               "methods": {
                 "constant": {
                   "1003": {
@@ -2531,8 +2536,7 @@ SUPPORT_CHARTS = {
                     "name": "GetInstallationDirectories"
                   }
                 }
-              },
-              "sig_name": "Webroot SecureAnywhere"
+              }
             }
           },
           "marketing_names": [
@@ -2586,6 +2590,7 @@ SUPPORT_CHARTS = {
                   "name": "UNCLASSIFIED"
                 }
               },
+              "sig_name": "QuickTime Player",
               "methods": {
                 "manageability": {
                   "101": {
@@ -2613,8 +2618,7 @@ SUPPORT_CHARTS = {
                     "name": "TerminateProcesses"
                   }
                 }
-              },
-              "sig_name": "QuickTime Player"
+              }
             }
           }
         },
@@ -2697,6 +2701,7 @@ SUPPORT_CHARTS = {
                   "name": "UNCLASSIFIED"
                 }
               },
+              "sig_name": "Adobe Flash Player (NPAPI)",
               "methods": {
                 "manageability": {
                   "100": {
@@ -2755,8 +2760,7 @@ SUPPORT_CHARTS = {
                     "name": "Uninstall"
                   }
                 }
-              },
-              "sig_name": "Adobe Flash Player (NPAPI)"
+              }
             },
             "100278": {
               "signature": 100278,
@@ -2774,6 +2778,7 @@ SUPPORT_CHARTS = {
                   "name": "UNCLASSIFIED"
                 }
               },
+              "sig_name": "Adobe Flash Player (PPAPI)",
               "methods": {
                 "manageability": {
                   "100": {
@@ -2828,8 +2833,7 @@ SUPPORT_CHARTS = {
                     "name": "Uninstall"
                   }
                 }
-              },
-              "sig_name": "Adobe Flash Player (PPAPI)"
+              }
             }
           }
         },
@@ -2900,6 +2904,7 @@ SUPPORT_CHARTS = {
                   "name": "UNCLASSIFIED"
                 }
               },
+              "sig_name": "Adobe Reader",
               "methods": {
                 "manageability": {
                   "100": {
@@ -2955,8 +2960,7 @@ SUPPORT_CHARTS = {
                     "name": "Uninstall"
                   }
                 }
-              },
-              "sig_name": "Adobe Reader"
+              }
             }
           }
         },
@@ -2988,8 +2992,8 @@ SUPPORT_CHARTS = {
                   "name": "UNCLASSIFIED"
                 }
               },
-              "methods": {},
-              "sig_name": "Airy"
+              "sig_name": "Airy",
+              "methods": {}
             }
           }
         },
@@ -3037,6 +3041,7 @@ SUPPORT_CHARTS = {
                   "name": "UNCLASSIFIED"
                 }
               },
+              "sig_name": "VLC",
               "methods": {
                 "manageability": {
                   "100": {
@@ -3161,8 +3166,7 @@ SUPPORT_CHARTS = {
                     "name": "GetInstallationDirectories"
                   }
                 }
-              },
-              "sig_name": "VLC"
+              }
             }
           }
         },
@@ -3194,8 +3198,8 @@ SUPPORT_CHARTS = {
                   "name": "UNCLASSIFIED"
                 }
               },
-              "methods": {},
-              "sig_name": "Elmedia Player"
+              "sig_name": "Elmedia Player",
+              "methods": {}
             }
           }
         },
@@ -3227,8 +3231,8 @@ SUPPORT_CHARTS = {
                   "name": "UNCLASSIFIED"
                 }
               },
-              "methods": {},
-              "sig_name": "Chrome Remote Desktop"
+              "sig_name": "Chrome Remote Desktop",
+              "methods": {}
             }
           }
         },
@@ -3264,6 +3268,7 @@ SUPPORT_CHARTS = {
                   "name": "UNCLASSIFIED"
                 }
               },
+              "sig_name": "iTunes",
               "methods": {
                 "manageability": {
                   "101": {
@@ -3271,8 +3276,7 @@ SUPPORT_CHARTS = {
                     "name": "GetRunningState"
                   }
                 }
-              },
-              "sig_name": "iTunes"
+              }
             }
           }
         },
@@ -3304,8 +3308,8 @@ SUPPORT_CHARTS = {
                   "name": "UNCLASSIFIED"
                 }
               },
-              "methods": {},
-              "sig_name": "NetSpot"
+              "sig_name": "NetSpot",
+              "methods": {}
             }
           }
         },
@@ -3357,6 +3361,7 @@ SUPPORT_CHARTS = {
                   "name": "UNCLASSIFIED"
                 }
               },
+              "sig_name": "1Password",
               "methods": {
                 "manageability": {
                   "100": {
@@ -3628,8 +3633,7 @@ SUPPORT_CHARTS = {
                     "name": "IsAuthentic"
                   }
                 }
-              },
-              "sig_name": "1Password"
+              }
             }
           }
         },
@@ -3663,8 +3667,8 @@ SUPPORT_CHARTS = {
                   "name": "UNCLASSIFIED"
                 }
               },
-              "methods": {},
-              "sig_name": "ActivePerl"
+              "sig_name": "ActivePerl",
+              "methods": {}
             }
           }
         },
@@ -3702,6 +3706,7 @@ SUPPORT_CHARTS = {
                   "name": "UNCLASSIFIED"
                 }
               },
+              "sig_name": "Firebird SQL Server",
               "methods": {
                 "manageability": {
                   "100": {
@@ -3773,8 +3778,7 @@ SUPPORT_CHARTS = {
                     "name": "TerminateProcesses"
                   }
                 }
-              },
-              "sig_name": "Firebird SQL Server"
+              }
             }
           }
         },
@@ -3837,8 +3841,8 @@ SUPPORT_CHARTS = {
                   "name": "UNCLASSIFIED"
                 }
               },
-              "methods": {},
-              "sig_name": "LibreOffice"
+              "sig_name": "LibreOffice",
+              "methods": {}
             }
           }
         },
@@ -3874,8 +3878,8 @@ SUPPORT_CHARTS = {
                   "name": "UNCLASSIFIED"
                 }
               },
-              "methods": {},
-              "sig_name": "OpenOffice"
+              "sig_name": "OpenOffice",
+              "methods": {}
             }
           }
         },
@@ -3907,8 +3911,8 @@ SUPPORT_CHARTS = {
                   "name": "UNCLASSIFIED"
                 }
               },
-              "methods": {},
-              "sig_name": "Studio 3T"
+              "sig_name": "Studio 3T",
+              "methods": {}
             }
           }
         },
@@ -3948,6 +3952,7 @@ SUPPORT_CHARTS = {
                   "name": "UNCLASSIFIED"
                 }
               },
+              "sig_name": "Python",
               "methods": {
                 "manageability": {
                   "100": {
@@ -3968,8 +3973,7 @@ SUPPORT_CHARTS = {
                     "name": "GetVersion"
                   }
                 }
-              },
-              "sig_name": "Python"
+              }
             }
           }
         },
@@ -4001,6 +4005,7 @@ SUPPORT_CHARTS = {
                   "name": "UNCLASSIFIED"
                 }
               },
+              "sig_name": "Python",
               "methods": {
                 "manageability": {
                   "100": {
@@ -4021,8 +4026,7 @@ SUPPORT_CHARTS = {
                     "name": "GetVersion"
                   }
                 }
-              },
-              "sig_name": "Python"
+              }
             }
           }
         },
@@ -4235,6 +4239,7 @@ SUPPORT_CHARTS = {
                   "name": "UNCLASSIFIED"
                 }
               },
+              "sig_name": "Adobe Acrobat Reader DC Continuous",
               "methods": {
                 "manageability": {
                   "100": {
@@ -4414,8 +4419,7 @@ SUPPORT_CHARTS = {
                     "name": "GetComponents"
                   }
                 }
-              },
-              "sig_name": "Adobe Acrobat Reader DC Continuous"
+              }
             }
           }
         },
@@ -4459,6 +4463,7 @@ SUPPORT_CHARTS = {
                   "name": "UNCLASSIFIED"
                 }
               },
+              "sig_name": "Malwarebytes Endpoint Agent",
               "methods": {
                 "constant": {
                   "102": {
@@ -4524,8 +4529,7 @@ SUPPORT_CHARTS = {
                     "name": "GetVersion"
                   }
                 }
-              },
-              "sig_name": "Malwarebytes Endpoint Agent"
+              }
             }
           }
         },
@@ -4567,6 +4571,7 @@ SUPPORT_CHARTS = {
                   "name": "UNCLASSIFIED"
                 }
               },
+              "sig_name": "Adobe Acrobat",
               "methods": {
                 "manageability": {
                   "101": {
@@ -4611,8 +4616,7 @@ SUPPORT_CHARTS = {
                     "name": "TerminateProcesses"
                   }
                 }
-              },
-              "sig_name": "Adobe Acrobat"
+              }
             }
           }
         },
@@ -4700,6 +4704,7 @@ SUPPORT_CHARTS = {
                   "name": "UNCLASSIFIED"
                 }
               },
+              "sig_name": "Adobe Acrobat DC Continuous",
               "methods": {
                 "manageability": {
                   "101": {
@@ -4795,8 +4800,7 @@ SUPPORT_CHARTS = {
                     "name": "GetComponents"
                   }
                 }
-              },
-              "sig_name": "Adobe Acrobat DC Continuous"
+              }
             }
           }
         },
@@ -4844,6 +4848,7 @@ SUPPORT_CHARTS = {
                   "name": "ANTIMALWARE"
                 }
               },
+              "sig_name": "Kaspersky Security Cloud",
               "methods": {
                 "manageability": {
                   "1000": {
@@ -5184,8 +5189,7 @@ SUPPORT_CHARTS = {
                     "name": "TerminateProcesses"
                   }
                 }
-              },
-              "sig_name": "Kaspersky Security Cloud"
+              }
             }
           }
         },
@@ -5217,6 +5221,7 @@ SUPPORT_CHARTS = {
                   "name": "UNCLASSIFIED"
                 }
               },
+              "sig_name": "Adobe Acrobat Reader DC Classic 2015",
               "methods": {
                 "manageability": {
                   "101": {
@@ -5249,8 +5254,7 @@ SUPPORT_CHARTS = {
                     "name": "TerminateProcesses"
                   }
                 }
-              },
-              "sig_name": "Adobe Acrobat Reader DC Classic 2015"
+              }
             }
           }
         },
@@ -5286,6 +5290,7 @@ SUPPORT_CHARTS = {
                   "name": "UNCLASSIFIED"
                 }
               },
+              "sig_name": "Adobe Acrobat Reader DC Classic 2017",
               "methods": {
                 "manageability": {
                   "100": {
@@ -5335,8 +5340,7 @@ SUPPORT_CHARTS = {
                     "name": "TerminateProcesses"
                   }
                 }
-              },
-              "sig_name": "Adobe Acrobat Reader DC Classic 2017"
+              }
             }
           }
         },
@@ -5368,8 +5372,8 @@ SUPPORT_CHARTS = {
                   "name": "UNCLASSIFIED"
                 }
               },
-              "methods": {},
-              "sig_name": "Adobe Acrobat DC Classic 2015"
+              "sig_name": "Adobe Acrobat DC Classic 2015",
+              "methods": {}
             }
           }
         },
@@ -5401,6 +5405,7 @@ SUPPORT_CHARTS = {
                   "name": "UNCLASSIFIED"
                 }
               },
+              "sig_name": "Adobe Acrobat DC Classic 2017",
               "methods": {
                 "manageability": {
                   "101": {
@@ -5433,8 +5438,7 @@ SUPPORT_CHARTS = {
                     "name": "TerminateProcesses"
                   }
                 }
-              },
-              "sig_name": "Adobe Acrobat DC Classic 2017"
+              }
             }
           }
         },
@@ -5466,8 +5470,8 @@ SUPPORT_CHARTS = {
                   "name": "UNCLASSIFIED"
                 }
               },
-              "methods": {},
-              "sig_name": "Adobe AIR"
+              "sig_name": "Adobe AIR",
+              "methods": {}
             }
           }
         },
@@ -5511,6 +5515,7 @@ SUPPORT_CHARTS = {
                   "name": "UNCLASSIFIED"
                 }
               },
+              "sig_name": "Foxit Reader",
               "methods": {
                 "manageability": {
                   "101": {
@@ -5543,8 +5548,7 @@ SUPPORT_CHARTS = {
                     "name": "TerminateProcesses"
                   }
                 }
-              },
-              "sig_name": "Foxit Reader"
+              }
             },
             "100383": {
               "signature": 100383,
@@ -5562,6 +5566,7 @@ SUPPORT_CHARTS = {
                   "name": "UNCLASSIFIED"
                 }
               },
+              "sig_name": "Foxit Reader (App Store)",
               "methods": {
                 "manageability": {
                   "101": {
@@ -5594,8 +5599,7 @@ SUPPORT_CHARTS = {
                     "name": "TerminateProcesses"
                   }
                 }
-              },
-              "sig_name": "Foxit Reader (App Store)"
+              }
             }
           }
         },
@@ -5631,6 +5635,7 @@ SUPPORT_CHARTS = {
                   "name": "UNCLASSIFIED"
                 }
               },
+              "sig_name": "WinZip Mac",
               "methods": {
                 "manageability": {
                   "100": {
@@ -5704,8 +5709,7 @@ SUPPORT_CHARTS = {
                     "name": "TerminateProcesses"
                   }
                 }
-              },
-              "sig_name": "WinZip Mac"
+              }
             },
             "100387": {
               "signature": 100387,
@@ -5723,6 +5727,7 @@ SUPPORT_CHARTS = {
                   "name": "UNCLASSIFIED"
                 }
               },
+              "sig_name": "WinZip",
               "methods": {
                 "manageability": {
                   "100": {
@@ -5796,8 +5801,7 @@ SUPPORT_CHARTS = {
                     "name": "TerminateProcesses"
                   }
                 }
-              },
-              "sig_name": "WinZip"
+              }
             }
           }
         },
@@ -5945,6 +5949,7 @@ SUPPORT_CHARTS = {
                   "name": "UNCLASSIFIED"
                 }
               },
+              "sig_name": "Node.js Current",
               "methods": {
                 "constant": {
                   "101": {
@@ -6036,8 +6041,7 @@ SUPPORT_CHARTS = {
                     "name": "GetInstallationDirectories"
                   }
                 }
-              },
-              "sig_name": "Node.js Current"
+              }
             }
           }
         },
@@ -6157,6 +6161,7 @@ SUPPORT_CHARTS = {
                   "name": "UNCLASSIFIED"
                 }
               },
+              "sig_name": "Node.js LTS",
               "methods": {
                 "constant": {
                   "101": {
@@ -6252,8 +6257,7 @@ SUPPORT_CHARTS = {
                     "name": "GetInstallationDirectories"
                   }
                 }
-              },
-              "sig_name": "Node.js LTS"
+              }
             }
           }
         },
@@ -6285,6 +6289,7 @@ SUPPORT_CHARTS = {
                   "name": "UNCLASSIFIED"
                 }
               },
+              "sig_name": "Adobe Acrobat DC Classic 2020",
               "methods": {
                 "manageability": {
                   "100": {
@@ -6371,8 +6376,7 @@ SUPPORT_CHARTS = {
                     "name": "TerminateProcesses"
                   }
                 }
-              },
-              "sig_name": "Adobe Acrobat DC Classic 2020"
+              }
             }
           }
         },
@@ -6404,6 +6408,7 @@ SUPPORT_CHARTS = {
                   "name": "UNCLASSIFIED"
                 }
               },
+              "sig_name": "Adobe Acrobat Reader DC Classic 2020",
               "methods": {
                 "manageability": {
                   "100": {
@@ -6477,8 +6482,7 @@ SUPPORT_CHARTS = {
                     "name": "TerminateProcesses"
                   }
                 }
-              },
-              "sig_name": "Adobe Acrobat Reader DC Classic 2020"
+              }
             }
           }
         },
@@ -6518,6 +6522,7 @@ SUPPORT_CHARTS = {
                   "name": "UNCLASSIFIED"
                 }
               },
+              "sig_name": "Audacity",
               "methods": {
                 "manageability": {
                   "100": {
@@ -6624,8 +6629,7 @@ SUPPORT_CHARTS = {
                     "name": "GetInstallationDirectories"
                   }
                 }
-              },
-              "sig_name": "Audacity"
+              }
             }
           }
         },
@@ -6661,6 +6665,7 @@ SUPPORT_CHARTS = {
                   "name": "UNCLASSIFIED"
                 }
               },
+              "sig_name": "Mono",
               "methods": {
                 "constant": {
                   "101": {
@@ -6743,8 +6748,7 @@ SUPPORT_CHARTS = {
                     "name": "GetInstallationDirectories"
                   }
                 }
-              },
-              "sig_name": "Mono"
+              }
             }
           }
         },
@@ -6776,6 +6780,7 @@ SUPPORT_CHARTS = {
                   "name": "UNCLASSIFIED"
                 }
               },
+              "sig_name": ".NET",
               "methods": {
                 "constant": {
                   "101": {
@@ -6858,8 +6863,7 @@ SUPPORT_CHARTS = {
                     "name": "GetInstallationDirectories"
                   }
                 }
-              },
-              "sig_name": ".NET"
+              }
             }
           }
         },
@@ -6899,6 +6903,7 @@ SUPPORT_CHARTS = {
                   "name": "UNCLASSIFIED"
                 }
               },
+              "sig_name": "Powershell Core",
               "methods": {
                 "manageability": {
                   "102": {
@@ -6914,8 +6919,7 @@ SUPPORT_CHARTS = {
                     "name": "Run"
                   }
                 }
-              },
-              "sig_name": "Powershell Core"
+              }
             }
           }
         },
@@ -6951,6 +6955,7 @@ SUPPORT_CHARTS = {
                   "name": "UNCLASSIFIED"
                 }
               },
+              "sig_name": "AdoptOpenJDK JDK with Hotspot 16",
               "methods": {
                 "constant": {
                   "102": {
@@ -7052,8 +7057,7 @@ SUPPORT_CHARTS = {
                     "name": "GetInstallationDirectories"
                   }
                 }
-              },
-              "sig_name": "AdoptOpenJDK JDK with Hotspot 16"
+              }
             },
             "100414": {
               "signature": 100414,
@@ -7071,6 +7075,7 @@ SUPPORT_CHARTS = {
                   "name": "UNCLASSIFIED"
                 }
               },
+              "sig_name": "AdoptOpenJDK JDK with Eclipse OpenJ9 16",
               "methods": {
                 "constant": {
                   "102": {
@@ -7172,8 +7177,7 @@ SUPPORT_CHARTS = {
                     "name": "GetInstallationDirectories"
                   }
                 }
-              },
-              "sig_name": "AdoptOpenJDK JDK with Eclipse OpenJ9 16"
+              }
             }
           }
         },
@@ -7209,6 +7213,7 @@ SUPPORT_CHARTS = {
                   "name": "UNCLASSIFIED"
                 }
               },
+              "sig_name": "AdoptOpenJDK JRE with Hotspot 16",
               "methods": {
                 "constant": {
                   "102": {
@@ -7310,8 +7315,7 @@ SUPPORT_CHARTS = {
                     "name": "GetInstallationDirectories"
                   }
                 }
-              },
-              "sig_name": "AdoptOpenJDK JRE with Hotspot 16"
+              }
             },
             "100415": {
               "signature": 100415,
@@ -7329,6 +7333,7 @@ SUPPORT_CHARTS = {
                   "name": "UNCLASSIFIED"
                 }
               },
+              "sig_name": "AdoptOpenJDK JRE with Eclipse OpenJ9 16",
               "methods": {
                 "constant": {
                   "102": {
@@ -7430,8 +7435,7 @@ SUPPORT_CHARTS = {
                     "name": "GetInstallationDirectories"
                   }
                 }
-              },
-              "sig_name": "AdoptOpenJDK JRE with Eclipse OpenJ9 16"
+              }
             }
           }
         },
@@ -7467,6 +7471,7 @@ SUPPORT_CHARTS = {
                   "name": "UNCLASSIFIED"
                 }
               },
+              "sig_name": "AdoptOpenJDK JRE with Eclipse OpenJ9 8 (x64)",
               "methods": {
                 "constant": {
                   "102": {
@@ -7568,8 +7573,7 @@ SUPPORT_CHARTS = {
                     "name": "GetInstallationDirectories"
                   }
                 }
-              },
-              "sig_name": "AdoptOpenJDK JRE with Eclipse OpenJ9 8 (x64)"
+              }
             },
             "100417": {
               "signature": 100417,
@@ -7587,6 +7591,7 @@ SUPPORT_CHARTS = {
                   "name": "UNCLASSIFIED"
                 }
               },
+              "sig_name": "AdoptOpenJDK JRE with Hotspot 8 (x64)",
               "methods": {
                 "constant": {
                   "102": {
@@ -7688,8 +7693,7 @@ SUPPORT_CHARTS = {
                     "name": "GetInstallationDirectories"
                   }
                 }
-              },
-              "sig_name": "AdoptOpenJDK JRE with Hotspot 8 (x64)"
+              }
             }
           }
         },
@@ -7725,6 +7729,7 @@ SUPPORT_CHARTS = {
                   "name": "UNCLASSIFIED"
                 }
               },
+              "sig_name": "AdoptOpenJDK JDK with Eclipse OpenJ9 8 (x64)",
               "methods": {
                 "constant": {
                   "102": {
@@ -7826,8 +7831,7 @@ SUPPORT_CHARTS = {
                     "name": "GetInstallationDirectories"
                   }
                 }
-              },
-              "sig_name": "AdoptOpenJDK JDK with Eclipse OpenJ9 8 (x64)"
+              }
             },
             "100419": {
               "signature": 100419,
@@ -7845,6 +7849,7 @@ SUPPORT_CHARTS = {
                   "name": "UNCLASSIFIED"
                 }
               },
+              "sig_name": "AdoptOpenJDK JDK with Hotspot 8 (x64)",
               "methods": {
                 "constant": {
                   "102": {
@@ -7946,8 +7951,7 @@ SUPPORT_CHARTS = {
                     "name": "GetInstallationDirectories"
                   }
                 }
-              },
-              "sig_name": "AdoptOpenJDK JDK with Hotspot 8 (x64)"
+              }
             }
           }
         },
@@ -7979,6 +7983,7 @@ SUPPORT_CHARTS = {
                   "name": "UNCLASSIFIED"
                 }
               },
+              "sig_name": "XQuartz",
               "methods": {
                 "manageability": {
                   "100": {
@@ -8085,8 +8090,7 @@ SUPPORT_CHARTS = {
                     "name": "GetInstallationDirectories"
                   }
                 }
-              },
-              "sig_name": "XQuartz"
+              }
             }
           }
         },
@@ -8134,6 +8138,7 @@ SUPPORT_CHARTS = {
                   "name": "UNCLASSIFIED"
                 }
               },
+              "sig_name": "GIMP",
               "methods": {
                 "manageability": {
                   "100": {
@@ -8321,8 +8326,7 @@ SUPPORT_CHARTS = {
                     "name": "GetComponents"
                   }
                 }
-              },
-              "sig_name": "GIMP"
+              }
             }
           }
         },
@@ -8414,6 +8418,7 @@ SUPPORT_CHARTS = {
                   "name": "ANTIMALWARE"
                 }
               },
+              "sig_name": "Elastic Agent",
               "methods": {
                 "manageability": {
                   "100": {
@@ -8668,8 +8673,7 @@ SUPPORT_CHARTS = {
                     "name": "GetInstallationDirectories"
                   }
                 }
-              },
-              "sig_name": "Elastic Agent"
+              }
             }
           }
         },
@@ -8716,6 +8720,7 @@ SUPPORT_CHARTS = {
                   "name": "UNCLASSIFIED"
                 }
               },
+              "sig_name": "Microsoft Word",
               "methods": {
                 "manageability": {
                   "101": {
@@ -8765,8 +8770,7 @@ SUPPORT_CHARTS = {
                     "name": "TerminateProcesses"
                   }
                 }
-              },
-              "sig_name": "Microsoft Word"
+              }
             }
           }
         },
@@ -8813,6 +8817,7 @@ SUPPORT_CHARTS = {
                   "name": "UNCLASSIFIED"
                 }
               },
+              "sig_name": "Microsoft Excel",
               "methods": {
                 "manageability": {
                   "101": {
@@ -8872,8 +8877,7 @@ SUPPORT_CHARTS = {
                     "name": "TerminateProcesses"
                   }
                 }
-              },
-              "sig_name": "Microsoft Excel"
+              }
             }
           }
         },
@@ -8919,6 +8923,7 @@ SUPPORT_CHARTS = {
                   "name": "UNCLASSIFIED"
                 }
               },
+              "sig_name": "Microsoft PowerPoint",
               "methods": {
                 "manageability": {
                   "101": {
@@ -8978,8 +8983,7 @@ SUPPORT_CHARTS = {
                     "name": "TerminateProcesses"
                   }
                 }
-              },
-              "sig_name": "Microsoft PowerPoint"
+              }
             }
           }
         },
@@ -9026,6 +9030,7 @@ SUPPORT_CHARTS = {
                   "name": "UNCLASSIFIED"
                 }
               },
+              "sig_name": "Microsoft OneNote",
               "methods": {
                 "manageability": {
                   "101": {
@@ -9085,8 +9090,7 @@ SUPPORT_CHARTS = {
                     "name": "TerminateProcesses"
                   }
                 }
-              },
-              "sig_name": "Microsoft OneNote"
+              }
             }
           }
         },
@@ -9133,6 +9137,7 @@ SUPPORT_CHARTS = {
                   "name": "UNCLASSIFIED"
                 }
               },
+              "sig_name": "Microsoft Outlook",
               "methods": {
                 "manageability": {
                   "101": {
@@ -9192,8 +9197,7 @@ SUPPORT_CHARTS = {
                     "name": "TerminateProcesses"
                   }
                 }
-              },
-              "sig_name": "Microsoft Outlook"
+              }
             }
           }
         },
@@ -9225,6 +9229,7 @@ SUPPORT_CHARTS = {
                   "name": "UNCLASSIFIED"
                 }
               },
+              "sig_name": "Xcode",
               "methods": {
                 "manageability": {
                   "101": {
@@ -9257,8 +9262,7 @@ SUPPORT_CHARTS = {
                     "name": "TerminateProcesses"
                   }
                 }
-              },
-              "sig_name": "Xcode"
+              }
             }
           }
         },
@@ -9298,6 +9302,7 @@ SUPPORT_CHARTS = {
                   "name": "UNCLASSIFIED"
                 }
               },
+              "sig_name": "Framer",
               "methods": {
                 "manageability": {
                   "101": {
@@ -9335,8 +9340,7 @@ SUPPORT_CHARTS = {
                     "name": "TerminateProcesses"
                   }
                 }
-              },
-              "sig_name": "Framer"
+              }
             }
           }
         },
@@ -9372,6 +9376,7 @@ SUPPORT_CHARTS = {
                   "name": "UNCLASSIFIED"
                 }
               },
+              "sig_name": "Garmin BaseCamp",
               "methods": {
                 "manageability": {
                   "101": {
@@ -9404,8 +9409,7 @@ SUPPORT_CHARTS = {
                     "name": "TerminateProcesses"
                   }
                 }
-              },
-              "sig_name": "Garmin BaseCamp"
+              }
             }
           }
         },
@@ -9441,6 +9445,7 @@ SUPPORT_CHARTS = {
                   "name": "UNCLASSIFIED"
                 }
               },
+              "sig_name": "The Unarchiver",
               "methods": {
                 "manageability": {
                   "101": {
@@ -9473,8 +9478,7 @@ SUPPORT_CHARTS = {
                     "name": "TerminateProcesses"
                   }
                 }
-              },
-              "sig_name": "The Unarchiver"
+              }
             }
           }
         },
@@ -9506,6 +9510,7 @@ SUPPORT_CHARTS = {
                   "name": "UNCLASSIFIED"
                 }
               },
+              "sig_name": "VMware Tools",
               "methods": {
                 "constant": {
                   "102": {
@@ -9583,8 +9588,7 @@ SUPPORT_CHARTS = {
                     "name": "GetInstallationDirectories"
                   }
                 }
-              },
-              "sig_name": "VMware Tools"
+              }
             }
           }
         },
@@ -9728,6 +9732,7 @@ SUPPORT_CHARTS = {
                   "name": "UNCLASSIFIED"
                 }
               },
+              "sig_name": "Spotify",
               "methods": {
                 "manageability": {
                   "100": {
@@ -9797,8 +9802,7 @@ SUPPORT_CHARTS = {
                     "name": "TerminateProcesses"
                   }
                 }
-              },
-              "sig_name": "Spotify"
+              }
             }
           }
         },
@@ -9834,6 +9838,7 @@ SUPPORT_CHARTS = {
                   "name": "UNCLASSIFIED"
                 }
               },
+              "sig_name": "AutoFirma",
               "methods": {
                 "manageability": {
                   "101": {
@@ -9871,8 +9876,7 @@ SUPPORT_CHARTS = {
                     "name": "TerminateProcesses"
                   }
                 }
-              },
-              "sig_name": "AutoFirma"
+              }
             }
           }
         },
@@ -9908,6 +9912,7 @@ SUPPORT_CHARTS = {
                   "name": "UNCLASSIFIED"
                 }
               },
+              "sig_name": "Sourcetree",
               "methods": {
                 "manageability": {
                   "103": {
@@ -9923,8 +9928,7 @@ SUPPORT_CHARTS = {
                     "name": "TerminateProcesses"
                   }
                 }
-              },
-              "sig_name": "Sourcetree"
+              }
             }
           }
         },
@@ -9960,6 +9964,7 @@ SUPPORT_CHARTS = {
                   "name": "UNCLASSIFIED"
                 }
               },
+              "sig_name": "Brackets",
               "methods": {
                 "manageability": {
                   "100": {
@@ -10021,8 +10026,7 @@ SUPPORT_CHARTS = {
                     "name": "TerminateProcesses"
                   }
                 }
-              },
-              "sig_name": "Brackets"
+              }
             }
           }
         },
@@ -10060,6 +10064,7 @@ SUPPORT_CHARTS = {
                   "name": "UNCLASSIFIED"
                 }
               },
+              "sig_name": "Wireshark",
               "methods": {
                 "manageability": {
                   "103": {
@@ -10075,8 +10080,7 @@ SUPPORT_CHARTS = {
                     "name": "TerminateProcesses"
                   }
                 }
-              },
-              "sig_name": "Wireshark"
+              }
             }
           }
         },
@@ -10124,6 +10128,7 @@ SUPPORT_CHARTS = {
                   "name": "UNCLASSIFIED"
                 }
               },
+              "sig_name": "ManyCam",
               "methods": {
                 "manageability": {
                   "100": {
@@ -10236,8 +10241,7 @@ SUPPORT_CHARTS = {
                     "name": "GetInstallationDirectories"
                   }
                 }
-              },
-              "sig_name": "ManyCam"
+              }
             }
           }
         },
@@ -10269,8 +10273,8 @@ SUPPORT_CHARTS = {
                   "name": "UNCLASSIFIED"
                 }
               },
-              "methods": {},
-              "sig_name": "MirrorOp"
+              "sig_name": "MirrorOp",
+              "methods": {}
             }
           }
         },
@@ -10302,6 +10306,7 @@ SUPPORT_CHARTS = {
                   "name": "UNCLASSIFIED"
                 }
               },
+              "sig_name": "KeePassXC",
               "methods": {
                 "manageability": {
                   "100": {
@@ -10371,8 +10376,7 @@ SUPPORT_CHARTS = {
                     "name": "TerminateProcesses"
                   }
                 }
-              },
-              "sig_name": "KeePassXC"
+              }
             }
           }
         },
@@ -10408,6 +10412,7 @@ SUPPORT_CHARTS = {
                   "name": "UNCLASSIFIED"
                 }
               },
+              "sig_name": "balenaEtcher",
               "methods": {
                 "manageability": {
                   "103": {
@@ -10423,8 +10428,7 @@ SUPPORT_CHARTS = {
                     "name": "TerminateProcesses"
                   }
                 }
-              },
-              "sig_name": "balenaEtcher"
+              }
             }
           }
         },
@@ -10464,6 +10468,7 @@ SUPPORT_CHARTS = {
                   "name": "UNCLASSIFIED"
                 }
               },
+              "sig_name": "Beyond Compare",
               "methods": {
                 "manageability": {
                   "101": {
@@ -10501,8 +10506,7 @@ SUPPORT_CHARTS = {
                     "name": "TerminateProcesses"
                   }
                 }
-              },
-              "sig_name": "Beyond Compare"
+              }
             }
           }
         },
@@ -10542,6 +10546,7 @@ SUPPORT_CHARTS = {
                   "name": "UNCLASSIFIED"
                 }
               },
+              "sig_name": "calibre",
               "methods": {
                 "manageability": {
                   "101": {
@@ -10567,8 +10572,7 @@ SUPPORT_CHARTS = {
                     "name": "GetRunningState"
                   }
                 }
-              },
-              "sig_name": "calibre"
+              }
             }
           }
         },
@@ -10600,8 +10604,8 @@ SUPPORT_CHARTS = {
                   "name": "UNCLASSIFIED"
                 }
               },
-              "methods": {},
-              "sig_name": "Atom"
+              "sig_name": "Atom",
+              "methods": {}
             }
           }
         },
@@ -10633,8 +10637,8 @@ SUPPORT_CHARTS = {
                   "name": "UNCLASSIFIED"
                 }
               },
-              "methods": {},
-              "sig_name": "Abstract"
+              "sig_name": "Abstract",
+              "methods": {}
             }
           }
         },
@@ -10670,6 +10674,7 @@ SUPPORT_CHARTS = {
                   "name": "UNCLASSIFIED"
                 }
               },
+              "sig_name": "Evernote",
               "methods": {
                 "manageability": {
                   "101": {
@@ -10695,8 +10700,7 @@ SUPPORT_CHARTS = {
                     "name": "GetRunningState"
                   }
                 }
-              },
-              "sig_name": "Evernote"
+              }
             }
           }
         },
@@ -10983,6 +10987,7 @@ SUPPORT_CHARTS = {
                   "name": "UNCLASSIFIED"
                 }
               },
+              "sig_name": "Visual Studio Code",
               "methods": {
                 "manageability": {
                   "100": {
@@ -11079,8 +11084,7 @@ SUPPORT_CHARTS = {
                     "name": "Run"
                   }
                 }
-              },
-              "sig_name": "Visual Studio Code"
+              }
             }
           }
         },
@@ -11112,8 +11116,8 @@ SUPPORT_CHARTS = {
                   "name": "UNCLASSIFIED"
                 }
               },
-              "methods": {},
-              "sig_name": "Jamf Connect"
+              "sig_name": "Jamf Connect",
+              "methods": {}
             }
           }
         },
@@ -11145,8 +11149,8 @@ SUPPORT_CHARTS = {
                   "name": "UNCLASSIFIED"
                 }
               },
-              "methods": {},
-              "sig_name": "CodeRunner"
+              "sig_name": "CodeRunner",
+              "methods": {}
             }
           }
         },
@@ -11178,8 +11182,8 @@ SUPPORT_CHARTS = {
                   "name": "UNCLASSIFIED"
                 }
               },
-              "methods": {},
-              "sig_name": "Adobe Substance 3D Designer"
+              "sig_name": "Adobe Substance 3D Designer",
+              "methods": {}
             }
           }
         },
@@ -11211,8 +11215,8 @@ SUPPORT_CHARTS = {
                   "name": "UNCLASSIFIED"
                 }
               },
-              "methods": {},
-              "sig_name": "Adobe Animate"
+              "sig_name": "Adobe Animate",
+              "methods": {}
             }
           }
         },
@@ -11248,6 +11252,7 @@ SUPPORT_CHARTS = {
                   "name": "UNCLASSIFIED"
                 }
               },
+              "sig_name": "Docker Desktop",
               "methods": {
                 "manageability": {
                   "101": {
@@ -11290,8 +11295,7 @@ SUPPORT_CHARTS = {
                     "name": "TerminateProcesses"
                   }
                 }
-              },
-              "sig_name": "Docker Desktop"
+              }
             }
           }
         },
@@ -11323,6 +11327,7 @@ SUPPORT_CHARTS = {
                   "name": "UNCLASSIFIED"
                 }
               },
+              "sig_name": "Zabbix Agent",
               "methods": {
                 "manageability": {
                   "100": {
@@ -11365,6 +11370,10 @@ SUPPORT_CHARTS = {
                             }
                           },
                           "channel": {
+                            "_supported": false,
+                            "_optional": true
+                          },
+                          "release": {
                             "_supported": false,
                             "_optional": true
                           }
@@ -11458,8 +11467,7 @@ SUPPORT_CHARTS = {
                     "name": "GetInstallationDirectories"
                   }
                 }
-              },
-              "sig_name": "Zabbix Agent"
+              }
             }
           }
         },
@@ -11491,6 +11499,7 @@ SUPPORT_CHARTS = {
                   "name": "UNCLASSIFIED"
                 }
               },
+              "sig_name": "FileWave Admin",
               "methods": {
                 "manageability": {
                   "101": {
@@ -11528,8 +11537,7 @@ SUPPORT_CHARTS = {
                     "name": "TerminateProcesses"
                   }
                 }
-              },
-              "sig_name": "FileWave Admin"
+              }
             }
           }
         },
@@ -11577,6 +11585,7 @@ SUPPORT_CHARTS = {
                   "name": "PATCH_MANAGEMENT"
                 }
               },
+              "sig_name": "Qualys Cloud Security Agent",
               "methods": {
                 "constant": {
                   "1013": {
@@ -11643,8 +11652,7 @@ SUPPORT_CHARTS = {
                     "name": "TerminateProcesses"
                   }
                 }
-              },
-              "sig_name": "Qualys Cloud Security Agent"
+              }
             }
           }
         },
@@ -11680,8 +11688,8 @@ SUPPORT_CHARTS = {
                   "name": "UNCLASSIFIED"
                 }
               },
-              "methods": {},
-              "sig_name": "Wine"
+              "sig_name": "Wine",
+              "methods": {}
             }
           }
         },
@@ -11713,8 +11721,8 @@ SUPPORT_CHARTS = {
                   "name": "UNCLASSIFIED"
                 }
               },
-              "methods": {},
-              "sig_name": "Adobe Creative Cloud"
+              "sig_name": "Adobe Creative Cloud",
+              "methods": {}
             }
           }
         },
@@ -11746,8 +11754,8 @@ SUPPORT_CHARTS = {
                   "name": "UNCLASSIFIED"
                 }
               },
-              "methods": {},
-              "sig_name": "Adobe Photoshop"
+              "sig_name": "Adobe Photoshop",
+              "methods": {}
             }
           }
         },
@@ -11791,6 +11799,7 @@ SUPPORT_CHARTS = {
                   "name": "UNCLASSIFIED"
                 }
               },
+              "sig_name": "Qt",
               "methods": {
                 "constant": {
                   "102": {
@@ -11851,8 +11860,7 @@ SUPPORT_CHARTS = {
                     "name": "GetVersion"
                   }
                 }
-              },
-              "sig_name": "Qt"
+              }
             }
           }
         },
@@ -11904,6 +11912,7 @@ SUPPORT_CHARTS = {
                   "name": "UNCLASSIFIED"
                 }
               },
+              "sig_name": "Foxit PDF Editor",
               "methods": {
                 "manageability": {
                   "100": {
@@ -12000,8 +12009,7 @@ SUPPORT_CHARTS = {
                     "name": "GetInstallationDirectories"
                   }
                 }
-              },
-              "sig_name": "Foxit PDF Editor"
+              }
             }
           }
         },
@@ -12033,6 +12041,7 @@ SUPPORT_CHARTS = {
                   "name": "UNCLASSIFIED"
                 }
               },
+              "sig_name": "Go",
               "methods": {
                 "constant": {
                   "102": {
@@ -12132,8 +12141,7 @@ SUPPORT_CHARTS = {
                     "name": "TerminateProcesses"
                   }
                 }
-              },
-              "sig_name": "Go"
+              }
             }
           }
         },
@@ -12165,8 +12173,8 @@ SUPPORT_CHARTS = {
                   "name": "UNCLASSIFIED"
                 }
               },
-              "methods": {},
-              "sig_name": "Company Portal"
+              "sig_name": "Company Portal",
+              "methods": {}
             }
           }
         },
@@ -12202,8 +12210,8 @@ SUPPORT_CHARTS = {
                   "name": "UNCLASSIFIED"
                 }
               },
-              "methods": {},
-              "sig_name": "Xmind"
+              "sig_name": "Xmind",
+              "methods": {}
             }
           }
         },
@@ -12235,8 +12243,8 @@ SUPPORT_CHARTS = {
                   "name": "UNCLASSIFIED"
                 }
               },
-              "methods": {},
-              "sig_name": "Visual Studio"
+              "sig_name": "Visual Studio",
+              "methods": {}
             }
           }
         },
@@ -12280,6 +12288,7 @@ SUPPORT_CHARTS = {
                   "name": "UNCLASSIFIED"
                 }
               },
+              "sig_name": "AutoCAD 2023",
               "methods": {
                 "manageability": {
                   "100": {
@@ -12354,8 +12363,7 @@ SUPPORT_CHARTS = {
                     "name": "TerminateProcesses"
                   }
                 }
-              },
-              "sig_name": "AutoCAD 2023"
+              }
             },
             "100537": {
               "signature": 100537,
@@ -12373,6 +12381,7 @@ SUPPORT_CHARTS = {
                   "name": "UNCLASSIFIED"
                 }
               },
+              "sig_name": "AutoCAD 2024",
               "methods": {
                 "manageability": {
                   "100": {
@@ -12447,8 +12456,7 @@ SUPPORT_CHARTS = {
                     "name": "TerminateProcesses"
                   }
                 }
-              },
-              "sig_name": "AutoCAD 2024"
+              }
             },
             "100538": {
               "signature": 100538,
@@ -12466,6 +12474,7 @@ SUPPORT_CHARTS = {
                   "name": "UNCLASSIFIED"
                 }
               },
+              "sig_name": "AutoCAD 2025",
               "methods": {
                 "manageability": {
                   "100": {
@@ -12540,8 +12549,7 @@ SUPPORT_CHARTS = {
                     "name": "TerminateProcesses"
                   }
                 }
-              },
-              "sig_name": "AutoCAD 2025"
+              }
             },
             "100539": {
               "signature": 100539,
@@ -12559,6 +12567,7 @@ SUPPORT_CHARTS = {
                   "name": "UNCLASSIFIED"
                 }
               },
+              "sig_name": "AutoCAD 2022",
               "methods": {
                 "manageability": {
                   "100": {
@@ -12633,8 +12642,7 @@ SUPPORT_CHARTS = {
                     "name": "TerminateProcesses"
                   }
                 }
-              },
-              "sig_name": "AutoCAD 2022"
+              }
             }
           }
         },
@@ -12678,8 +12686,8 @@ SUPPORT_CHARTS = {
                   "name": "UNCLASSIFIED"
                 }
               },
-              "methods": {},
-              "sig_name": "MySQL Workbench"
+              "sig_name": "MySQL Workbench",
+              "methods": {}
             }
           }
         },
@@ -12723,6 +12731,7 @@ SUPPORT_CHARTS = {
                   "name": "UNCLASSIFIED"
                 }
               },
+              "sig_name": "MySQL Server",
               "methods": {
                 "manageability": {
                   "100": {
@@ -12823,8 +12832,7 @@ SUPPORT_CHARTS = {
                     "name": "GetInstallationDirectories"
                   }
                 }
-              },
-              "sig_name": "MySQL Server"
+              }
             }
           }
         },
@@ -12860,6 +12868,7 @@ SUPPORT_CHARTS = {
                   "name": "UNCLASSIFIED"
                 }
               },
+              "sig_name": "Eclipse Temurin JDK with Hotspot 22",
               "methods": {
                 "constant": {
                   "102": {
@@ -12989,8 +12998,7 @@ SUPPORT_CHARTS = {
                     "name": "GetInstallationDirectories"
                   }
                 }
-              },
-              "sig_name": "Eclipse Temurin JDK with Hotspot 22"
+              }
             }
           }
         },
@@ -13026,6 +13034,7 @@ SUPPORT_CHARTS = {
                   "name": "UNCLASSIFIED"
                 }
               },
+              "sig_name": "Eclipse Temurin JDK with Hotspot 21",
               "methods": {
                 "constant": {
                   "102": {
@@ -13155,8 +13164,7 @@ SUPPORT_CHARTS = {
                     "name": "GetInstallationDirectories"
                   }
                 }
-              },
-              "sig_name": "Eclipse Temurin JDK with Hotspot 21"
+              }
             }
           }
         },
@@ -13192,6 +13200,7 @@ SUPPORT_CHARTS = {
                   "name": "UNCLASSIFIED"
                 }
               },
+              "sig_name": "Eclipse Temurin JDK with Hotspot 20",
               "methods": {
                 "constant": {
                   "102": {
@@ -13321,8 +13330,7 @@ SUPPORT_CHARTS = {
                     "name": "GetInstallationDirectories"
                   }
                 }
-              },
-              "sig_name": "Eclipse Temurin JDK with Hotspot 20"
+              }
             }
           }
         },
@@ -13406,6 +13414,7 @@ SUPPORT_CHARTS = {
                   "name": "UNCLASSIFIED"
                 }
               },
+              "sig_name": "Java Development Kit",
               "methods": {
                 "constant": {
                   "102": {
@@ -13599,8 +13608,7 @@ SUPPORT_CHARTS = {
                     "name": "Uninstall"
                   }
                 }
-              },
-              "sig_name": "Java Development Kit"
+              }
             }
           }
         },
@@ -13640,6 +13648,7 @@ SUPPORT_CHARTS = {
                   "name": "UNCLASSIFIED"
                 }
               },
+              "sig_name": "Java Runtime Environment",
               "methods": {
                 "constant": {
                   "102": {
@@ -13749,8 +13758,7 @@ SUPPORT_CHARTS = {
                     "name": "Uninstall"
                   }
                 }
-              },
-              "sig_name": "Java Runtime Environment"
+              }
             }
           }
         },
@@ -13786,6 +13794,7 @@ SUPPORT_CHARTS = {
                   "name": "UNCLASSIFIED"
                 }
               },
+              "sig_name": "Sublime Merge",
               "methods": {
                 "manageability": {
                   "100": {
@@ -13843,8 +13852,7 @@ SUPPORT_CHARTS = {
                     "name": "GetVersion"
                   }
                 }
-              },
-              "sig_name": "Sublime Merge"
+              }
             }
           }
         },
@@ -13880,8 +13888,8 @@ SUPPORT_CHARTS = {
                   "name": "UNCLASSIFIED"
                 }
               },
-              "methods": {},
-              "sig_name": "draw.io"
+              "sig_name": "draw.io",
+              "methods": {}
             }
           }
         },
@@ -13925,6 +13933,7 @@ SUPPORT_CHARTS = {
                   "name": "UNCLASSIFIED"
                 }
               },
+              "sig_name": "Git",
               "methods": {
                 "constant": {
                   "102": {
@@ -14111,8 +14120,7 @@ SUPPORT_CHARTS = {
                     "name": "IsAuthentic"
                   }
                 }
-              },
-              "sig_name": "Git"
+              }
             }
           }
         },
@@ -14144,8 +14152,8 @@ SUPPORT_CHARTS = {
                   "name": "UNCLASSIFIED"
                 }
               },
-              "methods": {},
-              "sig_name": "Miro Workspace"
+              "sig_name": "Miro Workspace",
+              "methods": {}
             }
           }
         },
@@ -14185,8 +14193,8 @@ SUPPORT_CHARTS = {
                   "name": "UNCLASSIFIED"
                 }
               },
-              "methods": {},
-              "sig_name": "Calendar"
+              "sig_name": "Calendar",
+              "methods": {}
             }
           }
         },
@@ -14222,8 +14230,8 @@ SUPPORT_CHARTS = {
                   "name": "UNCLASSIFIED"
                 }
               },
-              "methods": {},
-              "sig_name": "Mail"
+              "sig_name": "Mail",
+              "methods": {}
             }
           }
         },
@@ -14263,8 +14271,8 @@ SUPPORT_CHARTS = {
                   "name": "UNCLASSIFIED"
                 }
               },
-              "methods": {},
-              "sig_name": "Find My"
+              "sig_name": "Find My",
+              "methods": {}
             }
           }
         },
@@ -14304,8 +14312,8 @@ SUPPORT_CHARTS = {
                   "name": "UNCLASSIFIED"
                 }
               },
-              "methods": {},
-              "sig_name": "Calculator"
+              "sig_name": "Calculator",
+              "methods": {}
             }
           }
         },
@@ -14345,8 +14353,8 @@ SUPPORT_CHARTS = {
                   "name": "UNCLASSIFIED"
                 }
               },
-              "methods": {},
-              "sig_name": "TextEdit"
+              "sig_name": "TextEdit",
+              "methods": {}
             }
           }
         },
@@ -14408,6 +14416,10 @@ SUPPORT_CHARTS = {
             {
               "signature": 100568,
               "version": "1.6.5.10"
+            },
+            {
+              "signature": 100568,
+              "version": "1.6.6.4"
             }
           ],
           "labels": [],
@@ -14430,6 +14442,7 @@ SUPPORT_CHARTS = {
                   "name": "UNCLASSIFIED"
                 }
               },
+              "sig_name": "Apple Music",
               "methods": {
                 "manageability": {
                   "100": {
@@ -14487,8 +14500,7 @@ SUPPORT_CHARTS = {
                     "name": "GetVersion"
                   }
                 }
-              },
-              "sig_name": "Apple Music"
+              }
             }
           }
         },
@@ -14520,8 +14532,8 @@ SUPPORT_CHARTS = {
                   "name": "UNCLASSIFIED"
                 }
               },
-              "methods": {},
-              "sig_name": "Maps"
+              "sig_name": "Maps",
+              "methods": {}
             }
           }
         },
@@ -14553,8 +14565,8 @@ SUPPORT_CHARTS = {
                   "name": "UNCLASSIFIED"
                 }
               },
-              "methods": {},
-              "sig_name": "Reminders"
+              "sig_name": "Reminders",
+              "methods": {}
             }
           }
         },
@@ -14586,8 +14598,8 @@ SUPPORT_CHARTS = {
                   "name": "UNCLASSIFIED"
                 }
               },
-              "methods": {},
-              "sig_name": "Siri"
+              "sig_name": "Siri",
+              "methods": {}
             }
           }
         },
@@ -14619,8 +14631,8 @@ SUPPORT_CHARTS = {
                   "name": "UNCLASSIFIED"
                 }
               },
-              "methods": {},
-              "sig_name": "Miro Video Converter"
+              "sig_name": "Miro Video Converter",
+              "methods": {}
             }
           }
         },
@@ -14652,6 +14664,7 @@ SUPPORT_CHARTS = {
                   "name": "UNCLASSIFIED"
                 }
               },
+              "sig_name": "Grafana",
               "methods": {
                 "manageability": {
                   "100": {
@@ -14709,8 +14722,7 @@ SUPPORT_CHARTS = {
                     "name": "GetVersion"
                   }
                 }
-              },
-              "sig_name": "Grafana"
+              }
             }
           }
         },
@@ -14742,6 +14754,7 @@ SUPPORT_CHARTS = {
                   "name": "UNCLASSIFIED"
                 }
               },
+              "sig_name": "Thunderbird ESR",
               "methods": {
                 "manageability": {
                   "100": {
@@ -14799,8 +14812,7 @@ SUPPORT_CHARTS = {
                     "name": "GetVersion"
                   }
                 }
-              },
-              "sig_name": "Thunderbird ESR"
+              }
             }
           }
         },
@@ -14832,6 +14844,7 @@ SUPPORT_CHARTS = {
                   "name": "UNCLASSIFIED"
                 }
               },
+              "sig_name": "Android Studio",
               "methods": {
                 "manageability": {
                   "100": {
@@ -14889,8 +14902,7 @@ SUPPORT_CHARTS = {
                     "name": "GetVersion"
                   }
                 }
-              },
-              "sig_name": "Android Studio"
+              }
             }
           }
         },
@@ -14922,6 +14934,7 @@ SUPPORT_CHARTS = {
                   "name": "UNCLASSIFIED"
                 }
               },
+              "sig_name": "Amazon WorkSpaces",
               "methods": {
                 "manageability": {
                   "108": {
@@ -14999,8 +15012,7 @@ SUPPORT_CHARTS = {
                     "name": "IsAuthentic"
                   }
                 }
-              },
-              "sig_name": "Amazon WorkSpaces"
+              }
             }
           }
         },
@@ -15040,6 +15052,7 @@ SUPPORT_CHARTS = {
                   "name": "UNCLASSIFIED"
                 }
               },
+              "sig_name": "Postman",
               "methods": {
                 "manageability": {
                   "101": {
@@ -15065,8 +15078,7 @@ SUPPORT_CHARTS = {
                     "name": "GetRunningState"
                   }
                 }
-              },
-              "sig_name": "Postman"
+              }
             }
           }
         },
@@ -15106,8 +15118,8 @@ SUPPORT_CHARTS = {
                   "name": "UNCLASSIFIED"
                 }
               },
-              "methods": {},
-              "sig_name": "Stats"
+              "sig_name": "Stats",
+              "methods": {}
             }
           }
         },
@@ -15143,8 +15155,8 @@ SUPPORT_CHARTS = {
                   "name": "UNCLASSIFIED"
                 }
               },
-              "methods": {},
-              "sig_name": "iTerm2"
+              "sig_name": "iTerm2",
+              "methods": {}
             }
           }
         },
@@ -15176,8 +15188,8 @@ SUPPORT_CHARTS = {
                   "name": "UNCLASSIFIED"
                 }
               },
-              "methods": {},
-              "sig_name": "Grammarly Desktop"
+              "sig_name": "Grammarly Desktop",
+              "methods": {}
             }
           }
         },
@@ -15209,8 +15221,8 @@ SUPPORT_CHARTS = {
                   "name": "UNCLASSIFIED"
                 }
               },
-              "methods": {},
-              "sig_name": "Rectangle"
+              "sig_name": "Rectangle",
+              "methods": {}
             }
           }
         },
@@ -15242,8 +15254,8 @@ SUPPORT_CHARTS = {
                   "name": "UNCLASSIFIED"
                 }
               },
-              "methods": {},
-              "sig_name": "Figma"
+              "sig_name": "Figma",
+              "methods": {}
             }
           }
         },
@@ -15275,8 +15287,8 @@ SUPPORT_CHARTS = {
                   "name": "UNCLASSIFIED"
                 }
               },
-              "methods": {},
-              "sig_name": "Okta Verify"
+              "sig_name": "Okta Verify",
+              "methods": {}
             }
           }
         },
@@ -15308,8 +15320,8 @@ SUPPORT_CHARTS = {
                   "name": "UNCLASSIFIED"
                 }
               },
-              "methods": {},
-              "sig_name": "Fork"
+              "sig_name": "Fork",
+              "methods": {}
             }
           }
         },
@@ -15341,6 +15353,7 @@ SUPPORT_CHARTS = {
                   "name": "UNCLASSIFIED"
                 }
               },
+              "sig_name": "Yubico Authenticator",
               "methods": {
                 "manageability": {
                   "102": {
@@ -15361,8 +15374,7 @@ SUPPORT_CHARTS = {
                     "name": "Run"
                   }
                 }
-              },
-              "sig_name": "Yubico Authenticator"
+              }
             }
           }
         },
@@ -15394,6 +15406,7 @@ SUPPORT_CHARTS = {
                   "name": "UNCLASSIFIED"
                 }
               },
+              "sig_name": "BBEdit",
               "methods": {
                 "manageability": {
                   "102": {
@@ -15414,8 +15427,7 @@ SUPPORT_CHARTS = {
                     "name": "Run"
                   }
                 }
-              },
-              "sig_name": "BBEdit"
+              }
             }
           }
         },
@@ -15447,6 +15459,7 @@ SUPPORT_CHARTS = {
                   "name": "UNCLASSIFIED"
                 }
               },
+              "sig_name": "GitHub Desktop",
               "methods": {
                 "manageability": {
                   "102": {
@@ -15467,8 +15480,7 @@ SUPPORT_CHARTS = {
                     "name": "Run"
                   }
                 }
-              },
-              "sig_name": "GitHub Desktop"
+              }
             }
           }
         },
@@ -15500,6 +15512,7 @@ SUPPORT_CHARTS = {
                   "name": "UNCLASSIFIED"
                 }
               },
+              "sig_name": "Loom",
               "methods": {
                 "manageability": {
                   "102": {
@@ -15520,8 +15533,7 @@ SUPPORT_CHARTS = {
                     "name": "Run"
                   }
                 }
-              },
-              "sig_name": "Loom"
+              }
             }
           }
         },
@@ -15561,6 +15573,7 @@ SUPPORT_CHARTS = {
                   "name": "FIREWALL"
                 }
               },
+              "sig_name": "Endpoint Security Agent",
               "methods": {
                 "constant": {
                   "103": {
@@ -15933,8 +15946,7 @@ SUPPORT_CHARTS = {
                     "name": "IsAuthentic"
                   }
                 }
-              },
-              "sig_name": "Endpoint Security Agent"
+              }
             }
           }
         }
@@ -15992,6 +16004,7 @@ SUPPORT_CHARTS = {
                 }
               },
               "whole_disk_encryption": false,
+              "sig_name": "iDoctor",
               "methods": {
                 "manageability": {
                   "1008": {
@@ -16014,8 +16027,7 @@ SUPPORT_CHARTS = {
                     "name": "GetAntiphishingState"
                   }
                 }
-              },
-              "sig_name": "iDoctor"
+              }
             }
           }
         },
@@ -16047,8 +16059,8 @@ SUPPORT_CHARTS = {
                   "name": "DATA_LOSS_PREVENTION"
                 }
               },
-              "methods": {},
-              "sig_name": "PhoneRescue"
+              "sig_name": "PhoneRescue",
+              "methods": {}
             }
           }
         },
@@ -16080,8 +16092,8 @@ SUPPORT_CHARTS = {
                   "name": "DATA_LOSS_PREVENTION"
                 }
               },
-              "methods": {},
-              "sig_name": "Disk Drill"
+              "sig_name": "Disk Drill",
+              "methods": {}
             }
           }
         },
@@ -16121,8 +16133,8 @@ SUPPORT_CHARTS = {
                   "name": "DATA_LOSS_PREVENTION"
                 }
               },
-              "methods": {},
-              "sig_name": "Digital Guardian Agent"
+              "sig_name": "Digital Guardian Agent",
+              "methods": {}
             },
             "100491": {
               "signature": 100491,
@@ -16140,8 +16152,8 @@ SUPPORT_CHARTS = {
                   "name": "DATA_LOSS_PREVENTION"
                 }
               },
-              "methods": {},
-              "sig_name": "Digital Guardian Agent"
+              "sig_name": "Digital Guardian Agent",
+              "methods": {}
             }
           }
         },
@@ -16185,6 +16197,7 @@ SUPPORT_CHARTS = {
                   "name": "ENCRYPTION"
                 }
               },
+              "sig_name": "Nomadesk",
               "methods": {
                 "manageability": {
                   "1008": {
@@ -16360,8 +16373,7 @@ SUPPORT_CHARTS = {
                     "name": "TerminateProcesses"
                   }
                 }
-              },
-              "sig_name": "Nomadesk"
+              }
             }
           }
         },
@@ -16405,6 +16417,7 @@ SUPPORT_CHARTS = {
                   "name": "ENCRYPTION"
                 }
               },
+              "sig_name": "Endpoint Protector Client",
               "methods": {
                 "constant": {
                   "103": {
@@ -16437,8 +16450,7 @@ SUPPORT_CHARTS = {
                     "name": "GetRunningState"
                   }
                 }
-              },
-              "sig_name": "Endpoint Protector Client"
+              }
             }
           }
         },
@@ -16482,6 +16494,7 @@ SUPPORT_CHARTS = {
                   "name": "DATA_LOSS_PREVENTION"
                 }
               },
+              "sig_name": "Forcepoint DLP Endpoint",
               "methods": {
                 "manageability": {
                   "100": {
@@ -16667,8 +16680,7 @@ SUPPORT_CHARTS = {
                     "name": "IsAuthentic"
                   }
                 }
-              },
-              "sig_name": "Forcepoint DLP Endpoint"
+              }
             }
           }
         },
@@ -16728,6 +16740,7 @@ SUPPORT_CHARTS = {
                   "name": "FIREWALL"
                 }
               },
+              "sig_name": "Trellix Endpoint Security for Mac",
               "methods": {
                 "constant": {
                   "103": {
@@ -17182,8 +17195,7 @@ SUPPORT_CHARTS = {
                     "name": "IsAuthentic"
                   }
                 }
-              },
-              "sig_name": "Trellix Endpoint Security for Mac"
+              }
             }
           }
         },
@@ -17215,6 +17227,7 @@ SUPPORT_CHARTS = {
                   "name": "DATA_LOSS_PREVENTION"
                 }
               },
+              "sig_name": "Cisco Secure Client - Endpoint Data Loss Prevention",
               "methods": {
                 "constant": {
                   "103": {
@@ -17223,8 +17236,7 @@ SUPPORT_CHARTS = {
                     "name": "TerminateProcesses"
                   }
                 }
-              },
-              "sig_name": "Cisco Secure Client - Endpoint Data Loss Prevention"
+              }
             }
           }
         }
@@ -17316,6 +17328,7 @@ SUPPORT_CHARTS = {
                   "name": "PATCH_MANAGEMENT"
                 }
               },
+              "sig_name": "Software Update",
               "methods": {
                 "manageability": {
                   "100": {
@@ -17888,8 +17901,7 @@ SUPPORT_CHARTS = {
                     "name": "TerminateProcesses"
                   }
                 }
-              },
-              "sig_name": "Software Update"
+              }
             }
           }
         },
@@ -17952,6 +17964,7 @@ SUPPORT_CHARTS = {
                   "name": "PATCH_MANAGEMENT"
                 }
               },
+              "sig_name": "Casper Suite",
               "methods": {
                 "constant": {
                   "1013": {
@@ -18036,8 +18049,7 @@ SUPPORT_CHARTS = {
                     "name": "GetInstallationDirectories"
                   }
                 }
-              },
-              "sig_name": "Casper Suite"
+              }
             }
           }
         },
@@ -18094,6 +18106,7 @@ SUPPORT_CHARTS = {
                 }
               },
               "whole_disk_encryption": false,
+              "sig_name": "MacKeeper",
               "methods": {
                 "manageability": {
                   "100": {
@@ -18172,8 +18185,7 @@ SUPPORT_CHARTS = {
                     "name": "Uninstall"
                   }
                 }
-              },
-              "sig_name": "MacKeeper"
+              }
             }
           }
         },
@@ -18209,6 +18221,7 @@ SUPPORT_CHARTS = {
                   "name": "PATCH_MANAGEMENT"
                 }
               },
+              "sig_name": "Dell KACE Agent",
               "methods": {
                 "manageability": {
                   "100": {
@@ -18230,8 +18243,7 @@ SUPPORT_CHARTS = {
                     "name": "SetAgentState"
                   }
                 }
-              },
-              "sig_name": "Dell KACE Agent"
+              }
             },
             "100307": {
               "signature": 100307,
@@ -18249,6 +18261,7 @@ SUPPORT_CHARTS = {
                   "name": "PATCH_MANAGEMENT"
                 }
               },
+              "sig_name": "Dell KACE Agent",
               "methods": {
                 "manageability": {
                   "100": {
@@ -18263,8 +18276,7 @@ SUPPORT_CHARTS = {
                     "name": "GetAgentState"
                   }
                 }
-              },
-              "sig_name": "Dell KACE Agent"
+              }
             }
           }
         },
@@ -18308,6 +18320,7 @@ SUPPORT_CHARTS = {
                   "name": "FIREWALL"
                 }
               },
+              "sig_name": "G DATA Security Client",
               "methods": {
                 "constant": {
                   "103": {
@@ -18432,8 +18445,7 @@ SUPPORT_CHARTS = {
                     "name": "GetRunningState"
                   }
                 }
-              },
-              "sig_name": "G DATA Security Client"
+              }
             }
           }
         },
@@ -18473,6 +18485,7 @@ SUPPORT_CHARTS = {
                   "name": "PATCH_MANAGEMENT"
                 }
               },
+              "sig_name": "Managed Software Center",
               "methods": {
                 "constant": {
                   "103": {
@@ -18609,8 +18622,7 @@ SUPPORT_CHARTS = {
                     "name": "Run"
                   }
                 }
-              },
-              "sig_name": "Managed Software Center"
+              }
             }
           }
         },
@@ -18650,6 +18662,7 @@ SUPPORT_CHARTS = {
                   "name": "PATCH_MANAGEMENT"
                 }
               },
+              "sig_name": "IBM Bigfix Client",
               "methods": {
                 "manageability": {
                   "1012": {
@@ -18700,8 +18713,7 @@ SUPPORT_CHARTS = {
                     "name": "SetAgentState"
                   }
                 }
-              },
-              "sig_name": "IBM Bigfix Client"
+              }
             }
           }
         },
@@ -18733,6 +18745,7 @@ SUPPORT_CHARTS = {
                   "name": "PATCH_MANAGEMENT"
                 }
               },
+              "sig_name": "Ivanti PatchLink Agent",
               "methods": {
                 "manageability": {
                   "100": {
@@ -18862,8 +18875,7 @@ SUPPORT_CHARTS = {
                     "name": "GetMissingPatches"
                   }
                 }
-              },
-              "sig_name": "Ivanti PatchLink Agent"
+              }
             }
           }
         },
@@ -18979,6 +18991,7 @@ SUPPORT_CHARTS = {
                   "name": "ANTIMALWARE"
                 }
               },
+              "sig_name": "CleanMyMac X",
               "methods": {
                 "constant": {
                   "103": {
@@ -19227,8 +19240,7 @@ SUPPORT_CHARTS = {
                     "name": "GetInstallationDirectories"
                   }
                 }
-              },
-              "sig_name": "CleanMyMac X"
+              }
             }
           }
         },
@@ -19260,6 +19272,7 @@ SUPPORT_CHARTS = {
                   "name": "PATCH_MANAGEMENT"
                 }
               },
+              "sig_name": "Tanium Client",
               "methods": {
                 "manageability": {
                   "100": {
@@ -19414,8 +19427,7 @@ SUPPORT_CHARTS = {
                     "name": "GetComponents"
                   }
                 }
-              },
-              "sig_name": "Tanium Client"
+              }
             }
           }
         },
@@ -19499,6 +19511,7 @@ SUPPORT_CHARTS = {
                   "name": "PATCH_MANAGEMENT"
                 }
               },
+              "sig_name": "Workspace ONE Intelligent Hub",
               "methods": {
                 "manageability": {
                   "101": {
@@ -19571,8 +19584,7 @@ SUPPORT_CHARTS = {
                     "name": "TerminateProcesses"
                   }
                 }
-              },
-              "sig_name": "Workspace ONE Intelligent Hub"
+              }
             }
           }
         },
@@ -19604,6 +19616,7 @@ SUPPORT_CHARTS = {
                   "name": "PATCH_MANAGEMENT"
                 }
               },
+              "sig_name": "BMC Client Management Agent",
               "methods": {
                 "constant": {
                   "1013": {
@@ -19775,8 +19788,7 @@ SUPPORT_CHARTS = {
                     "name": "GetComponents"
                   }
                 }
-              },
-              "sig_name": "BMC Client Management Agent"
+              }
             }
           }
         },
@@ -19828,6 +19840,7 @@ SUPPORT_CHARTS = {
                   "name": "PATCH_MANAGEMENT"
                 }
               },
+              "sig_name": "Jamf Pro",
               "methods": {
                 "constant": {
                   "102": {
@@ -19891,8 +19904,7 @@ SUPPORT_CHARTS = {
                     "name": "GetAgentState"
                   }
                 }
-              },
-              "sig_name": "Jamf Pro"
+              }
             }
           }
         },
@@ -19936,6 +19948,7 @@ SUPPORT_CHARTS = {
                   "name": "HEALTH_AGENT"
                 }
               },
+              "sig_name": "Trellix Agent for Mac",
               "methods": {
                 "constant": {
                   "103": {
@@ -20061,8 +20074,7 @@ SUPPORT_CHARTS = {
                     "name": "Run"
                   }
                 }
-              },
-              "sig_name": "Trellix Agent for Mac"
+              }
             }
           }
         },
@@ -20102,6 +20114,7 @@ SUPPORT_CHARTS = {
                   "name": "PATCH_MANAGEMENT"
                 }
               },
+              "sig_name": "BigFix Client",
               "methods": {
                 "manageability": {
                   "100": {
@@ -20258,8 +20271,7 @@ SUPPORT_CHARTS = {
                     "name": "TerminateProcesses"
                   }
                 }
-              },
-              "sig_name": "BigFix Client"
+              }
             }
           }
         },
@@ -20295,6 +20307,7 @@ SUPPORT_CHARTS = {
                   "name": "PATCH_MANAGEMENT"
                 }
               },
+              "sig_name": "Quest KACE Agent",
               "methods": {
                 "manageability": {
                   "101": {
@@ -20344,8 +20357,7 @@ SUPPORT_CHARTS = {
                     "name": "TerminateProcesses"
                   }
                 }
-              },
-              "sig_name": "Quest KACE Agent"
+              }
             }
           }
         },
@@ -20381,6 +20393,7 @@ SUPPORT_CHARTS = {
                   "name": "REMOTE_CONTROL"
                 }
               },
+              "sig_name": "FileWave Client",
               "methods": {
                 "manageability": {
                   "101": {
@@ -20430,8 +20443,7 @@ SUPPORT_CHARTS = {
                     "name": "TerminateProcesses"
                   }
                 }
-              },
-              "sig_name": "FileWave Client"
+              }
             }
           }
         },
@@ -20479,6 +20491,7 @@ SUPPORT_CHARTS = {
                   "name": "PATCH_MANAGEMENT"
                 }
               },
+              "sig_name": "Qualys Cloud Security Agent",
               "methods": {
                 "constant": {
                   "1013": {
@@ -20545,8 +20558,7 @@ SUPPORT_CHARTS = {
                     "name": "TerminateProcesses"
                   }
                 }
-              },
-              "sig_name": "Qualys Cloud Security Agent"
+              }
             }
           }
         },
@@ -20578,6 +20590,7 @@ SUPPORT_CHARTS = {
                   "name": "PATCH_MANAGEMENT"
                 }
               },
+              "sig_name": "Microsoft AutoUpdate",
               "methods": {
                 "manageability": {
                   "101": {
@@ -20646,8 +20659,7 @@ SUPPORT_CHARTS = {
                     "name": "TerminateProcesses"
                   }
                 }
-              },
-              "sig_name": "Microsoft AutoUpdate"
+              }
             }
           }
         },
@@ -20683,6 +20695,7 @@ SUPPORT_CHARTS = {
                   "name": "PATCH_MANAGEMENT"
                 }
               },
+              "sig_name": "ManageEngine Patch Manager Plus Agent",
               "methods": {
                 "manageability": {
                   "100": {
@@ -21077,8 +21090,7 @@ SUPPORT_CHARTS = {
                     "name": "GetInstallationDirectories"
                   }
                 }
-              },
-              "sig_name": "ManageEngine Patch Manager Plus Agent"
+              }
             }
           }
         },
@@ -21118,6 +21130,7 @@ SUPPORT_CHARTS = {
                   "name": "PATCH_MANAGEMENT"
                 }
               },
+              "sig_name": "Kandji Agent",
               "methods": {
                 "constant": {
                   "103": {
@@ -21273,8 +21286,7 @@ SUPPORT_CHARTS = {
                     "name": "GetInstallationDirectories"
                   }
                 }
-              },
-              "sig_name": "Kandji Agent"
+              }
             }
           }
         },
@@ -21306,6 +21318,7 @@ SUPPORT_CHARTS = {
                   "name": "PATCH_MANAGEMENT"
                 }
               },
+              "sig_name": "Action1 Agent",
               "methods": {
                 "manageability": {
                   "100": {
@@ -21819,8 +21832,7 @@ SUPPORT_CHARTS = {
                     "name": "IsAuthentic"
                   }
                 }
-              },
-              "sig_name": "Action1 Agent"
+              }
             }
           }
         },
@@ -21852,6 +21864,7 @@ SUPPORT_CHARTS = {
                   "name": "PATCH_MANAGEMENT"
                 }
               },
+              "sig_name": "Jamf Composer",
               "methods": {
                 "constant": {
                   "102": {
@@ -21860,8 +21873,7 @@ SUPPORT_CHARTS = {
                     "name": "Run"
                   }
                 }
-              },
-              "sig_name": "Jamf Composer"
+              }
             }
           }
         },
@@ -21893,6 +21905,7 @@ SUPPORT_CHARTS = {
                   "name": "PATCH_MANAGEMENT"
                 }
               },
+              "sig_name": "Microsoft Intune Agent",
               "methods": {
                 "constant": {
                   "103": {
@@ -22189,8 +22202,7 @@ SUPPORT_CHARTS = {
                     "name": "IsAuthentic"
                   }
                 }
-              },
-              "sig_name": "Microsoft Intune Agent"
+              }
             }
           }
         },
@@ -22222,6 +22234,7 @@ SUPPORT_CHARTS = {
                   "name": "PATCH_MANAGEMENT"
                 }
               },
+              "sig_name": "Ivanti Endpoint Manager Agent",
               "methods": {
                 "constant": {
                   "102": {
@@ -22259,8 +22272,7 @@ SUPPORT_CHARTS = {
                     "name": "GetRunningState"
                   }
                 }
-              },
-              "sig_name": "Ivanti Endpoint Manager Agent"
+              }
             }
           }
         },
@@ -22296,6 +22308,7 @@ SUPPORT_CHARTS = {
                   "name": "PATCH_MANAGEMENT"
                 }
               },
+              "sig_name": "Workspace ONE Intelligent Hub 24.07+",
               "methods": {
                 "constant": {
                   "103": {
@@ -22425,8 +22438,7 @@ SUPPORT_CHARTS = {
                     "name": "GetInstallationDirectories"
                   }
                 }
-              },
-              "sig_name": "Workspace ONE Intelligent Hub 24.07+"
+              }
             }
           }
         },
@@ -22462,6 +22474,7 @@ SUPPORT_CHARTS = {
                   "name": "PATCH_MANAGEMENT"
                 }
               },
+              "sig_name": "ManageEngine Endpoint Central Agent",
               "methods": {
                 "manageability": {
                   "101": {
@@ -22521,8 +22534,7 @@ SUPPORT_CHARTS = {
                     "name": "TerminateProcesses"
                   }
                 }
-              },
-              "sig_name": "ManageEngine Endpoint Central Agent"
+              }
             }
           }
         },
@@ -22554,6 +22566,7 @@ SUPPORT_CHARTS = {
                   "name": "PATCH_MANAGEMENT"
                 }
               },
+              "sig_name": "Iru Agent",
               "methods": {
                 "constant": {
                   "103": {
@@ -22694,8 +22707,7 @@ SUPPORT_CHARTS = {
                     "name": "Run"
                   }
                 }
-              },
-              "sig_name": "Iru Agent"
+              }
             }
           }
         }
@@ -22738,6 +22750,7 @@ SUPPORT_CHARTS = {
                   "name": "VPN_CLIENT"
                 }
               },
+              "sig_name": "Network Connect",
               "methods": {
                 "manageability": {
                   "100": {
@@ -22745,8 +22758,7 @@ SUPPORT_CHARTS = {
                     "name": "GetVersion"
                   }
                 }
-              },
-              "sig_name": "Network Connect"
+              }
             }
           }
         },
@@ -22779,8 +22791,8 @@ SUPPORT_CHARTS = {
                   "name": "VPN_CLIENT"
                 }
               },
-              "methods": {},
-              "sig_name": "NCP Secure Entry Client"
+              "sig_name": "NCP Secure Entry Client",
+              "methods": {}
             }
           }
         },
@@ -22812,8 +22824,8 @@ SUPPORT_CHARTS = {
                   "name": "VPN_CLIENT"
                 }
               },
-              "methods": {},
-              "sig_name": "PureVPN"
+              "sig_name": "PureVPN",
+              "methods": {}
             }
           }
         },
@@ -22845,8 +22857,8 @@ SUPPORT_CHARTS = {
                   "name": "VPN_CLIENT"
                 }
               },
-              "methods": {},
-              "sig_name": "ibVPN"
+              "sig_name": "ibVPN",
+              "methods": {}
             }
           }
         },
@@ -22878,8 +22890,8 @@ SUPPORT_CHARTS = {
                   "name": "VPN_CLIENT"
                 }
               },
-              "methods": {},
-              "sig_name": "VyprVPN"
+              "sig_name": "VyprVPN",
+              "methods": {}
             }
           }
         },
@@ -22911,8 +22923,8 @@ SUPPORT_CHARTS = {
                   "name": "VPN_CLIENT"
                 }
               },
-              "methods": {},
-              "sig_name": "Vpn One Click"
+              "sig_name": "Vpn One Click",
+              "methods": {}
             }
           }
         },
@@ -22948,8 +22960,8 @@ SUPPORT_CHARTS = {
                   "name": "REMOTE_CONTROL"
                 }
               },
-              "methods": {},
-              "sig_name": "Junos Pulse"
+              "sig_name": "Junos Pulse",
+              "methods": {}
             }
           }
         },
@@ -22981,8 +22993,8 @@ SUPPORT_CHARTS = {
                   "name": "VPN_CLIENT"
                 }
               },
-              "methods": {},
-              "sig_name": "Shellfire VPN"
+              "sig_name": "Shellfire VPN",
+              "methods": {}
             }
           }
         },
@@ -23014,8 +23026,8 @@ SUPPORT_CHARTS = {
                   "name": "VPN_CLIENT"
                 }
               },
-              "methods": {},
-              "sig_name": "Shimo"
+              "sig_name": "Shimo",
+              "methods": {}
             }
           }
         },
@@ -23047,8 +23059,8 @@ SUPPORT_CHARTS = {
                   "name": "VPN_CLIENT"
                 }
               },
-              "methods": {},
-              "sig_name": "VPN Server Configurator"
+              "sig_name": "VPN Server Configurator",
+              "methods": {}
             }
           }
         },
@@ -23081,8 +23093,8 @@ SUPPORT_CHARTS = {
                   "name": "VPN_CLIENT"
                 }
               },
-              "methods": {},
-              "sig_name": "NCP Secure Enterprise Client"
+              "sig_name": "NCP Secure Enterprise Client",
+              "methods": {}
             }
           }
         },
@@ -23173,6 +23185,7 @@ SUPPORT_CHARTS = {
                 }
               },
               "whole_disk_encryption": true,
+              "sig_name": "Check Point Endpoint Security",
               "methods": {
                 "manageability": {
                   "100": {
@@ -23504,8 +23517,7 @@ SUPPORT_CHARTS = {
                     "name": "GetInstallationDirectories"
                   }
                 }
-              },
-              "sig_name": "Check Point Endpoint Security"
+              }
             }
           }
         },
@@ -23538,6 +23550,7 @@ SUPPORT_CHARTS = {
                   "name": "VPN_CLIENT"
                 }
               },
+              "sig_name": "Connect Tunnel",
               "methods": {
                 "manageability": {
                   "101": {
@@ -23545,8 +23558,7 @@ SUPPORT_CHARTS = {
                     "name": "GetRunningState"
                   }
                 }
-              },
-              "sig_name": "Connect Tunnel"
+              }
             }
           }
         },
@@ -23594,6 +23606,7 @@ SUPPORT_CHARTS = {
                   "name": "HEALTH_AGENT"
                 }
               },
+              "sig_name": "Cisco AnyConnect Secure Mobility Client",
               "methods": {
                 "manageability": {
                   "101": {
@@ -23638,8 +23651,7 @@ SUPPORT_CHARTS = {
                     "name": "TerminateProcesses"
                   }
                 }
-              },
-              "sig_name": "Cisco AnyConnect Secure Mobility Client"
+              }
             }
           }
         },
@@ -23671,8 +23683,8 @@ SUPPORT_CHARTS = {
                   "name": "VPN_CLIENT"
                 }
               },
-              "methods": {},
-              "sig_name": "Total VPN"
+              "sig_name": "Total VPN",
+              "methods": {}
             }
           }
         },
@@ -23704,8 +23716,8 @@ SUPPORT_CHARTS = {
                   "name": "VPN_CLIENT"
                 }
               },
-              "methods": {},
-              "sig_name": "HMA! Pro VPN"
+              "sig_name": "HMA! Pro VPN",
+              "methods": {}
             }
           }
         },
@@ -23795,6 +23807,7 @@ SUPPORT_CHARTS = {
                   "name": "FIREWALL"
                 }
               },
+              "sig_name": "FortiClient",
               "methods": {
                 "manageability": {
                   "1000": {
@@ -23925,8 +23938,7 @@ SUPPORT_CHARTS = {
                     "name": "TerminateProcesses"
                   }
                 }
-              },
-              "sig_name": "FortiClient"
+              }
             }
           }
         },
@@ -23958,6 +23970,7 @@ SUPPORT_CHARTS = {
                   "name": "VPN_CLIENT"
                 }
               },
+              "sig_name": "Pulse Connect Secure",
               "methods": {
                 "manageability": {
                   "101": {
@@ -23990,8 +24003,7 @@ SUPPORT_CHARTS = {
                     "name": "TerminateProcesses"
                   }
                 }
-              },
-              "sig_name": "Pulse Connect Secure"
+              }
             }
           }
         },
@@ -24127,6 +24139,7 @@ SUPPORT_CHARTS = {
                   "name": "ANTIMALWARE"
                 }
               },
+              "sig_name": "Avast One",
               "methods": {
                 "constant": {
                   "103": {
@@ -24489,8 +24502,7 @@ SUPPORT_CHARTS = {
                     "name": "GetInstallationDirectories"
                   }
                 }
-              },
-              "sig_name": "Avast One"
+              }
             }
           }
         },
@@ -24526,6 +24538,7 @@ SUPPORT_CHARTS = {
                   "name": "HEALTH_AGENT"
                 }
               },
+              "sig_name": "Cisco Secure Client - AnyConnect VPN",
               "methods": {
                 "manageability": {
                   "101": {
@@ -24570,8 +24583,7 @@ SUPPORT_CHARTS = {
                     "name": "TerminateProcesses"
                   }
                 }
-              },
-              "sig_name": "Cisco Secure Client - AnyConnect VPN"
+              }
             }
           }
         },
@@ -24609,6 +24621,7 @@ SUPPORT_CHARTS = {
                   "name": "VPN_CLIENT"
                 }
               },
+              "sig_name": "OpenVPN Connect",
               "methods": {
                 "manageability": {
                   "103": {
@@ -24624,8 +24637,7 @@ SUPPORT_CHARTS = {
                     "name": "TerminateProcesses"
                   }
                 }
-              },
-              "sig_name": "OpenVPN Connect"
+              }
             }
           }
         },
@@ -24661,8 +24673,8 @@ SUPPORT_CHARTS = {
                   "name": "VPN_CLIENT"
                 }
               },
-              "methods": {},
-              "sig_name": "ExpressVPN"
+              "sig_name": "ExpressVPN",
+              "methods": {}
             }
           }
         },
@@ -24694,8 +24706,8 @@ SUPPORT_CHARTS = {
                   "name": "VPN_CLIENT"
                 }
               },
-              "methods": {},
-              "sig_name": "Cato Client"
+              "sig_name": "Cato Client",
+              "methods": {}
             }
           }
         },
@@ -24727,8 +24739,8 @@ SUPPORT_CHARTS = {
                   "name": "VPN_CLIENT"
                 }
               },
-              "methods": {},
-              "sig_name": "NordLayer"
+              "sig_name": "NordLayer",
+              "methods": {}
             }
           }
         },
@@ -24760,6 +24772,7 @@ SUPPORT_CHARTS = {
                   "name": "VPN_CLIENT"
                 }
               },
+              "sig_name": "AWS VPN Client",
               "methods": {
                 "manageability": {
                   "102": {
@@ -24780,8 +24793,7 @@ SUPPORT_CHARTS = {
                     "name": "Run"
                   }
                 }
-              },
-              "sig_name": "AWS VPN Client"
+              }
             }
           }
         }
@@ -24837,6 +24849,7 @@ SUPPORT_CHARTS = {
                   "name": "VIRTUAL_MACHINE"
                 }
               },
+              "sig_name": "VMware Fusion",
               "methods": {
                 "manageability": {
                   "101": {
@@ -24891,8 +24904,7 @@ SUPPORT_CHARTS = {
                     "name": "Uninstall"
                   }
                 }
-              },
-              "sig_name": "VMware Fusion"
+              }
             }
           }
         },
@@ -24928,6 +24940,7 @@ SUPPORT_CHARTS = {
                   "name": "VIRTUAL_MACHINE"
                 }
               },
+              "sig_name": "VirtualBox",
               "methods": {
                 "manageability": {
                   "1017": {
@@ -24992,8 +25005,7 @@ SUPPORT_CHARTS = {
                     "name": "GetVMState"
                   }
                 }
-              },
-              "sig_name": "VirtualBox"
+              }
             }
           }
         },
@@ -25025,6 +25037,7 @@ SUPPORT_CHARTS = {
                   "name": "VIRTUAL_MACHINE"
                 }
               },
+              "sig_name": "Parallels Desktop",
               "methods": {
                 "manageability": {
                   "1017": {
@@ -25036,8 +25049,7 @@ SUPPORT_CHARTS = {
                     "name": "GetVMState"
                   }
                 }
-              },
-              "sig_name": "Parallels Desktop"
+              }
             }
           }
         },
@@ -25073,8 +25085,8 @@ SUPPORT_CHARTS = {
                   "name": "VIRTUAL_MACHINE"
                 }
               },
-              "methods": {},
-              "sig_name": "UTM"
+              "sig_name": "UTM",
+              "methods": {}
             }
           }
         }
@@ -25134,6 +25146,7 @@ SUPPORT_CHARTS = {
                   "name": "HEALTH_AGENT"
                 }
               },
+              "sig_name": "Cisco AnyConnect Secure Mobility Client",
               "methods": {
                 "manageability": {
                   "101": {
@@ -25178,8 +25191,7 @@ SUPPORT_CHARTS = {
                     "name": "TerminateProcesses"
                   }
                 }
-              },
-              "sig_name": "Cisco AnyConnect Secure Mobility Client"
+              }
             }
           }
         },
@@ -25215,8 +25227,8 @@ SUPPORT_CHARTS = {
                   "name": "ANTIPHISHING"
                 }
               },
-              "methods": {},
-              "sig_name": "腾讯电脑管家"
+              "sig_name": "腾讯电脑管家",
+              "methods": {}
             }
           }
         },
@@ -25520,6 +25532,7 @@ SUPPORT_CHARTS = {
                   "name": "FIREWALL"
                 }
               },
+              "sig_name": "CrowdStrike Falcon",
               "methods": {
                 "constant": {
                   "102": {
@@ -25848,8 +25861,7 @@ SUPPORT_CHARTS = {
                     "name": "GetInstallationDirectories"
                   }
                 }
-              },
-              "sig_name": "CrowdStrike Falcon"
+              }
             }
           }
         },
@@ -25901,6 +25913,7 @@ SUPPORT_CHARTS = {
                   "name": "HEALTH_AGENT"
                 }
               },
+              "sig_name": "OPSWAT Client",
               "methods": {
                 "manageability": {
                   "101": {
@@ -25959,8 +25972,7 @@ SUPPORT_CHARTS = {
                     "name": "TerminateProcesses"
                   }
                 }
-              },
-              "sig_name": "OPSWAT Client"
+              }
             }
           }
         },
@@ -26188,6 +26200,7 @@ SUPPORT_CHARTS = {
                   "name": "ANTIMALWARE"
                 }
               },
+              "sig_name": "Microsoft Defender ATP",
               "methods": {
                 "constant": {
                   "103": {
@@ -26647,8 +26660,7 @@ SUPPORT_CHARTS = {
                     "name": "GetInstallationDirectories"
                   }
                 }
-              },
-              "sig_name": "Microsoft Defender ATP"
+              }
             }
           },
           "marketing_names": [
@@ -26745,6 +26757,10 @@ SUPPORT_CHARTS = {
             {
               "signature": 100379,
               "version": "9.1.0"
+            },
+            {
+              "signature": 100379,
+              "version": "9.3.0"
             }
           ],
           "labels": [],
@@ -26775,6 +26791,7 @@ SUPPORT_CHARTS = {
                   "name": "FIREWALL"
                 }
               },
+              "sig_name": "Cortex XDR",
               "methods": {
                 "constant": {
                   "103": {
@@ -27181,8 +27198,7 @@ SUPPORT_CHARTS = {
                     "name": "GetInstallationDirectories"
                   }
                 }
-              },
-              "sig_name": "Cortex XDR"
+              }
             }
           }
         },
@@ -27218,6 +27234,7 @@ SUPPORT_CHARTS = {
                   "name": "HEALTH_AGENT"
                 }
               },
+              "sig_name": "Cisco Secure Client - AnyConnect VPN",
               "methods": {
                 "manageability": {
                   "101": {
@@ -27262,8 +27279,7 @@ SUPPORT_CHARTS = {
                     "name": "TerminateProcesses"
                   }
                 }
-              },
-              "sig_name": "Cisco Secure Client - AnyConnect VPN"
+              }
             }
           }
         },
@@ -27299,6 +27315,7 @@ SUPPORT_CHARTS = {
                   "name": "HEALTH_AGENT"
                 }
               },
+              "sig_name": "Kaspersky Network Agent for Mac",
               "methods": {
                 "manageability": {
                   "100": {
@@ -27446,8 +27463,7 @@ SUPPORT_CHARTS = {
                     "name": "GetInstallationDirectories"
                   }
                 }
-              },
-              "sig_name": "Kaspersky Network Agent for Mac"
+              }
             }
           }
         },
@@ -27499,6 +27515,7 @@ SUPPORT_CHARTS = {
                   "name": "REMOTE_CONTROL"
                 }
               },
+              "sig_name": "GoTo Resolve",
               "methods": {
                 "constant": {
                   "103": {
@@ -27656,8 +27673,7 @@ SUPPORT_CHARTS = {
                     "name": "GetComponents"
                   }
                 }
-              },
-              "sig_name": "GoTo Resolve"
+              }
             }
           }
         },
@@ -27701,6 +27717,7 @@ SUPPORT_CHARTS = {
                   "name": "HEALTH_AGENT"
                 }
               },
+              "sig_name": "Trellix Agent for Mac",
               "methods": {
                 "constant": {
                   "103": {
@@ -27826,8 +27843,7 @@ SUPPORT_CHARTS = {
                     "name": "Run"
                   }
                 }
-              },
-              "sig_name": "Trellix Agent for Mac"
+              }
             }
           }
         },
@@ -27863,6 +27879,7 @@ SUPPORT_CHARTS = {
                   "name": "ANTIMALWARE"
                 }
               },
+              "sig_name": "Rapid7 Insight Agent",
               "methods": {
                 "constant": {
                   "102": {
@@ -28077,8 +28094,7 @@ SUPPORT_CHARTS = {
                     "name": "GetInstallationDirectories"
                   }
                 }
-              },
-              "sig_name": "Rapid7 Insight Agent"
+              }
             }
           }
         }
@@ -28197,6 +28213,7 @@ SUPPORT_CHARTS = {
                   "name": "REMOTE_CONTROL"
                 }
               },
+              "sig_name": "TeamViewer",
               "methods": {
                 "manageability": {
                   "101": {
@@ -28235,8 +28252,7 @@ SUPPORT_CHARTS = {
                     "name": "Uninstall"
                   }
                 }
-              },
-              "sig_name": "TeamViewer"
+              }
             }
           }
         },
@@ -28292,6 +28308,7 @@ SUPPORT_CHARTS = {
                   "name": "REMOTE_CONTROL"
                 }
               },
+              "sig_name": "VNC Viewer",
               "methods": {
                 "manageability": {
                   "100": {
@@ -28336,8 +28353,7 @@ SUPPORT_CHARTS = {
                     "name": "GetVersion"
                   }
                 }
-              },
-              "sig_name": "VNC Viewer"
+              }
             }
           }
         },
@@ -28373,8 +28389,8 @@ SUPPORT_CHARTS = {
                   "name": "REMOTE_CONTROL"
                 }
               },
-              "methods": {},
-              "sig_name": "Junos Pulse"
+              "sig_name": "Junos Pulse",
+              "methods": {}
             }
           }
         },
@@ -28572,6 +28588,7 @@ SUPPORT_CHARTS = {
                   "name": "MESSENGER"
                 }
               },
+              "sig_name": "Zoom",
               "methods": {
                 "manageability": {
                   "100": {
@@ -28629,8 +28646,7 @@ SUPPORT_CHARTS = {
                     "name": "GetVersion"
                   }
                 }
-              },
-              "sig_name": "Zoom"
+              }
             }
           }
         },
@@ -28662,8 +28678,8 @@ SUPPORT_CHARTS = {
                   "name": "REMOTE_CONTROL"
                 }
               },
-              "methods": {},
-              "sig_name": "sshuttle"
+              "sig_name": "sshuttle",
+              "methods": {}
             }
           }
         },
@@ -28695,6 +28711,7 @@ SUPPORT_CHARTS = {
                   "name": "REMOTE_CONTROL"
                 }
               },
+              "sig_name": "GoToMyPC",
               "methods": {
                 "manageability": {
                   "100": {
@@ -28715,8 +28732,7 @@ SUPPORT_CHARTS = {
                     "name": "GetVersion"
                   }
                 }
-              },
-              "sig_name": "GoToMyPC"
+              }
             }
           }
         },
@@ -28756,6 +28772,7 @@ SUPPORT_CHARTS = {
                   "name": "REMOTE_CONTROL"
                 }
               },
+              "sig_name": "GoToMeeting",
               "methods": {
                 "manageability": {
                   "101": {
@@ -28788,8 +28805,7 @@ SUPPORT_CHARTS = {
                     "name": "TerminateProcesses"
                   }
                 }
-              },
-              "sig_name": "GoToMeeting"
+              }
             }
           }
         },
@@ -28825,6 +28841,7 @@ SUPPORT_CHARTS = {
                   "name": "REMOTE_CONTROL"
                 }
               },
+              "sig_name": "GoToAssist",
               "methods": {
                 "manageability": {
                   "103": {
@@ -28840,8 +28857,7 @@ SUPPORT_CHARTS = {
                     "name": "TerminateProcesses"
                   }
                 }
-              },
-              "sig_name": "GoToAssist"
+              }
             }
           }
         },
@@ -28919,6 +28935,13 @@ SUPPORT_CHARTS = {
             {
               "signature": 100513,
               "version": "26183.1901.4874.5228"
+            },
+            {
+              "methodsStatus": {
+                "103": -1
+              },
+              "signature": 100513,
+              "version": "26198.202.4929.7171"
             }
           ],
           "labels": [],
@@ -28949,6 +28972,7 @@ SUPPORT_CHARTS = {
                   "name": "MESSENGER"
                 }
               },
+              "sig_name": "Microsoft Teams",
               "methods": {
                 "manageability": {
                   "100": {
@@ -29044,8 +29068,7 @@ SUPPORT_CHARTS = {
                     "name": "TerminateProcesses"
                   }
                 }
-              },
-              "sig_name": "Microsoft Teams"
+              }
             },
             "100513": {
               "signature": 100513,
@@ -29071,6 +29094,7 @@ SUPPORT_CHARTS = {
                   "name": "MESSENGER"
                 }
               },
+              "sig_name": "Microsoft Teams (work or school)",
               "methods": {
                 "manageability": {
                   "100": {
@@ -29128,8 +29152,7 @@ SUPPORT_CHARTS = {
                     "name": "GetVersion"
                   }
                 }
-              },
-              "sig_name": "Microsoft Teams (work or school)"
+              }
             }
           }
         },
@@ -29181,6 +29204,7 @@ SUPPORT_CHARTS = {
                   "name": "REMOTE_CONTROL"
                 }
               },
+              "sig_name": "VNC Server",
               "methods": {
                 "manageability": {
                   "100": {
@@ -29289,8 +29313,7 @@ SUPPORT_CHARTS = {
                     "name": "TerminateProcesses"
                   }
                 }
-              },
-              "sig_name": "VNC Server"
+              }
             }
           }
         },
@@ -29334,6 +29357,7 @@ SUPPORT_CHARTS = {
                   "name": "REMOTE_CONTROL"
                 }
               },
+              "sig_name": "Citrix Receiver",
               "methods": {
                 "manageability": {
                   "101": {
@@ -29376,8 +29400,7 @@ SUPPORT_CHARTS = {
                     "name": "TerminateProcesses"
                   }
                 }
-              },
-              "sig_name": "Citrix Receiver"
+              }
             }
           },
           "marketing_names": [
@@ -29448,8 +29471,8 @@ SUPPORT_CHARTS = {
                   "name": "REMOTE_CONTROL"
                 }
               },
-              "methods": {},
-              "sig_name": "AnyDesk"
+              "sig_name": "AnyDesk",
+              "methods": {}
             }
           }
         },
@@ -29501,6 +29524,7 @@ SUPPORT_CHARTS = {
                   "name": "REMOTE_CONTROL"
                 }
               },
+              "sig_name": "GoTo Resolve",
               "methods": {
                 "constant": {
                   "103": {
@@ -29658,8 +29682,7 @@ SUPPORT_CHARTS = {
                     "name": "GetComponents"
                   }
                 }
-              },
-              "sig_name": "GoTo Resolve"
+              }
             }
           }
         },
@@ -29695,8 +29718,8 @@ SUPPORT_CHARTS = {
                   "name": "REMOTE_CONTROL"
                 }
               },
-              "methods": {},
-              "sig_name": "VMware Horizon Client"
+              "sig_name": "VMware Horizon Client",
+              "methods": {}
             }
           }
         },
@@ -29732,6 +29755,7 @@ SUPPORT_CHARTS = {
                   "name": "REMOTE_CONTROL"
                 }
               },
+              "sig_name": "FileWave Client",
               "methods": {
                 "manageability": {
                   "101": {
@@ -29781,8 +29805,7 @@ SUPPORT_CHARTS = {
                     "name": "TerminateProcesses"
                   }
                 }
-              },
-              "sig_name": "FileWave Client"
+              }
             }
           }
         },
@@ -29814,8 +29837,8 @@ SUPPORT_CHARTS = {
                   "name": "REMOTE_CONTROL"
                 }
               },
-              "methods": {},
-              "sig_name": "LogMeIn Rescue Technician Console"
+              "sig_name": "LogMeIn Rescue Technician Console",
+              "methods": {}
             }
           }
         },
@@ -29847,6 +29870,7 @@ SUPPORT_CHARTS = {
                   "name": "REMOTE_CONTROL"
                 }
               },
+              "sig_name": "TeamViewer Host",
               "methods": {
                 "constant": {
                   "103": {
@@ -29855,8 +29879,7 @@ SUPPORT_CHARTS = {
                     "name": "TerminateProcesses"
                   }
                 }
-              },
-              "sig_name": "TeamViewer Host"
+              }
             }
           }
         },
@@ -29888,6 +29911,7 @@ SUPPORT_CHARTS = {
                   "name": "REMOTE_CONTROL"
                 }
               },
+              "sig_name": "BeyondTrust Remote Support Representative Console",
               "methods": {
                 "manageability": {
                   "100": {
@@ -29945,8 +29969,7 @@ SUPPORT_CHARTS = {
                     "name": "GetVersion"
                   }
                 }
-              },
-              "sig_name": "BeyondTrust Remote Support Representative Console"
+              }
             }
           }
         },
@@ -29990,6 +30013,7 @@ SUPPORT_CHARTS = {
                   "name": "REMOTE_CONTROL"
                 }
               },
+              "sig_name": "BeyondTrust Remote Support Jump Client",
               "methods": {
                 "constant": {
                   "102": {
@@ -30059,8 +30083,7 @@ SUPPORT_CHARTS = {
                     "name": "GetVersion"
                   }
                 }
-              },
-              "sig_name": "BeyondTrust Remote Support Jump Client"
+              }
             }
           }
         },
@@ -30100,8 +30123,8 @@ SUPPORT_CHARTS = {
                   "name": "REMOTE_CONTROL"
                 }
               },
-              "methods": {},
-              "sig_name": "Citrix Workspace"
+              "sig_name": "Citrix Workspace",
+              "methods": {}
             }
           },
           "marketing_names": [
@@ -30140,6 +30163,7 @@ SUPPORT_CHARTS = {
                   "name": "REMOTE_CONTROL"
                 }
               },
+              "sig_name": "Remote Desktop Manager",
               "methods": {
                 "manageability": {
                   "102": {
@@ -30160,8 +30184,7 @@ SUPPORT_CHARTS = {
                     "name": "Run"
                   }
                 }
-              },
-              "sig_name": "Remote Desktop Manager"
+              }
             }
           }
         },
@@ -30201,8 +30224,8 @@ SUPPORT_CHARTS = {
                   "name": "WEB_CONFERENCE"
                 }
               },
-              "methods": {},
-              "sig_name": "GoTo"
+              "sig_name": "GoTo",
+              "methods": {}
             }
           }
         },
@@ -30234,8 +30257,8 @@ SUPPORT_CHARTS = {
                   "name": "REMOTE_CONTROL"
                 }
               },
-              "methods": {},
-              "sig_name": "Omnissa Horizon Client"
+              "sig_name": "Omnissa Horizon Client",
+              "methods": {}
             }
           }
         },
@@ -30267,8 +30290,8 @@ SUPPORT_CHARTS = {
                   "name": "REMOTE_CONTROL"
                 }
               },
-              "methods": {},
-              "sig_name": "Windows App"
+              "sig_name": "Windows App",
+              "methods": {}
             }
           }
         }
@@ -30313,6 +30336,7 @@ SUPPORT_CHARTS = {
                   "name": "P2PA"
                 }
               },
+              "sig_name": "BitTorrent",
               "methods": {
                 "manageability": {
                   "101": {
@@ -30346,8 +30370,7 @@ SUPPORT_CHARTS = {
                     "name": "Uninstall"
                   }
                 }
-              },
-              "sig_name": "BitTorrent"
+              }
             }
           }
         },
@@ -30385,6 +30408,7 @@ SUPPORT_CHARTS = {
                   "name": "P2PA"
                 }
               },
+              "sig_name": "µTorrent",
               "methods": {
                 "manageability": {
                   "101": {
@@ -30406,8 +30430,7 @@ SUPPORT_CHARTS = {
                     "name": "Uninstall"
                   }
                 }
-              },
-              "sig_name": "µTorrent"
+              }
             }
           }
         },
@@ -30443,8 +30466,8 @@ SUPPORT_CHARTS = {
                   "name": "P2PA"
                 }
               },
-              "methods": {},
-              "sig_name": "Acqlite"
+              "sig_name": "Acqlite",
+              "methods": {}
             }
           }
         },
@@ -30484,6 +30507,7 @@ SUPPORT_CHARTS = {
                   "name": "P2PA"
                 }
               },
+              "sig_name": "LimeWire",
               "methods": {
                 "manageability": {
                   "100": {
@@ -30491,8 +30515,7 @@ SUPPORT_CHARTS = {
                     "name": "GetVersion"
                   }
                 }
-              },
-              "sig_name": "LimeWire"
+              }
             }
           }
         },
@@ -30528,8 +30551,8 @@ SUPPORT_CHARTS = {
                   "name": "MESSENGER"
                 }
               },
-              "methods": {},
-              "sig_name": "AIM for Mac"
+              "sig_name": "AIM for Mac",
+              "methods": {}
             }
           }
         },
@@ -30565,8 +30588,8 @@ SUPPORT_CHARTS = {
                   "name": "P2PA"
                 }
               },
-              "methods": {},
-              "sig_name": "Transmission"
+              "sig_name": "Transmission",
+              "methods": {}
             }
           }
         },
@@ -30602,6 +30625,7 @@ SUPPORT_CHARTS = {
                   "name": "P2PA"
                 }
               },
+              "sig_name": "ShakesPeer",
               "methods": {
                 "manageability": {
                   "101": {
@@ -30617,8 +30641,7 @@ SUPPORT_CHARTS = {
                     "name": "GetRunningState"
                   }
                 }
-              },
-              "sig_name": "ShakesPeer"
+              }
             }
           }
         },
@@ -30654,8 +30677,8 @@ SUPPORT_CHARTS = {
                   "name": "CLOUD_STORAGE"
                 }
               },
-              "methods": {},
-              "sig_name": "BitTorrent Sync"
+              "sig_name": "BitTorrent Sync",
+              "methods": {}
             }
           }
         },
@@ -30693,8 +30716,8 @@ SUPPORT_CHARTS = {
                   "name": "P2PA"
                 }
               },
-              "methods": {},
-              "sig_name": "FrostWire"
+              "sig_name": "FrostWire",
+              "methods": {}
             }
           }
         },
@@ -30736,6 +30759,7 @@ SUPPORT_CHARTS = {
                   "name": "P2PA"
                 }
               },
+              "sig_name": "Popcorn Time",
               "methods": {
                 "manageability": {
                   "101": {
@@ -30751,8 +30775,7 @@ SUPPORT_CHARTS = {
                     "name": "GetRunningState"
                   }
                 }
-              },
-              "sig_name": "Popcorn Time"
+              }
             }
           }
         },
@@ -30788,8 +30811,8 @@ SUPPORT_CHARTS = {
                   "name": "P2PA"
                 }
               },
-              "methods": {},
-              "sig_name": "Folx"
+              "sig_name": "Folx",
+              "methods": {}
             }
           }
         },
@@ -30831,6 +30854,7 @@ SUPPORT_CHARTS = {
                   "name": "P2PA"
                 }
               },
+              "sig_name": "Vuze Bittorrent Client",
               "methods": {
                 "manageability": {
                   "100": {
@@ -30867,8 +30891,7 @@ SUPPORT_CHARTS = {
                     "name": "GetInstallationDirectories"
                   }
                 }
-              },
-              "sig_name": "Vuze Bittorrent Client"
+              }
             }
           }
         },
@@ -30908,8 +30931,8 @@ SUPPORT_CHARTS = {
                   "name": "MESSENGER"
                 }
               },
-              "methods": {},
-              "sig_name": "SolarSeek"
+              "sig_name": "SolarSeek",
+              "methods": {}
             }
           }
         },
@@ -30945,8 +30968,8 @@ SUPPORT_CHARTS = {
                   "name": "P2PA"
                 }
               },
-              "methods": {},
-              "sig_name": "Phex"
+              "sig_name": "Phex",
+              "methods": {}
             }
           }
         },
@@ -30988,8 +31011,8 @@ SUPPORT_CHARTS = {
                   "name": "MESSENGER"
                 }
               },
-              "methods": {},
-              "sig_name": "aMule"
+              "sig_name": "aMule",
+              "methods": {}
             }
           }
         }
@@ -31044,6 +31067,7 @@ SUPPORT_CHARTS = {
                   "name": "MESSENGER"
                 }
               },
+              "sig_name": "Skype",
               "methods": {
                 "manageability": {
                   "100": {
@@ -31150,8 +31174,7 @@ SUPPORT_CHARTS = {
                     "name": "GetInstallationDirectories"
                   }
                 }
-              },
-              "sig_name": "Skype"
+              }
             }
           }
         },
@@ -31187,8 +31210,8 @@ SUPPORT_CHARTS = {
                   "name": "MESSENGER"
                 }
               },
-              "methods": {},
-              "sig_name": "Viber"
+              "sig_name": "Viber",
+              "methods": {}
             }
           }
         },
@@ -31224,8 +31247,8 @@ SUPPORT_CHARTS = {
                   "name": "MESSENGER"
                 }
               },
-              "methods": {},
-              "sig_name": "Yahoo! Messenger"
+              "sig_name": "Yahoo! Messenger",
+              "methods": {}
             }
           }
         },
@@ -31285,6 +31308,7 @@ SUPPORT_CHARTS = {
                   "name": "MESSENGER"
                 }
               },
+              "sig_name": "Messages",
               "methods": {
                 "manageability": {
                   "100": {
@@ -31391,8 +31415,7 @@ SUPPORT_CHARTS = {
                     "name": "GetInstallationDirectories"
                   }
                 }
-              },
-              "sig_name": "Messages"
+              }
             }
           }
         },
@@ -31428,8 +31451,8 @@ SUPPORT_CHARTS = {
                   "name": "MESSENGER"
                 }
               },
-              "methods": {},
-              "sig_name": "emesene"
+              "sig_name": "emesene",
+              "methods": {}
             }
           }
         },
@@ -31465,8 +31488,8 @@ SUPPORT_CHARTS = {
                   "name": "MESSENGER"
                 }
               },
-              "methods": {},
-              "sig_name": "ICQ"
+              "sig_name": "ICQ",
+              "methods": {}
             }
           }
         },
@@ -31502,8 +31525,8 @@ SUPPORT_CHARTS = {
                   "name": "MESSENGER"
                 }
               },
-              "methods": {},
-              "sig_name": "Yugma"
+              "sig_name": "Yugma",
+              "methods": {}
             }
           }
         },
@@ -31539,8 +31562,8 @@ SUPPORT_CHARTS = {
                   "name": "MESSENGER"
                 }
               },
-              "methods": {},
-              "sig_name": "Brosix"
+              "sig_name": "Brosix",
+              "methods": {}
             }
           }
         },
@@ -31580,6 +31603,7 @@ SUPPORT_CHARTS = {
                   "name": "MESSENGER"
                 }
               },
+              "sig_name": "Zalo",
               "methods": {
                 "manageability": {
                   "100": {
@@ -31680,8 +31704,7 @@ SUPPORT_CHARTS = {
                     "name": "GetInstallationDirectories"
                   }
                 }
-              },
-              "sig_name": "Zalo"
+              }
             }
           }
         },
@@ -31999,6 +32022,10 @@ SUPPORT_CHARTS = {
             {
               "signature": 100119,
               "version": "4.51.180"
+            },
+            {
+              "signature": 100119,
+              "version": "4.51.185"
             }
           ],
           "labels": [],
@@ -32025,6 +32052,7 @@ SUPPORT_CHARTS = {
                   "name": "MESSENGER"
                 }
               },
+              "sig_name": "Slack",
               "methods": {
                 "manageability": {
                   "102": {
@@ -32062,8 +32090,7 @@ SUPPORT_CHARTS = {
                     "name": "TerminateProcesses"
                   }
                 }
-              },
-              "sig_name": "Slack"
+              }
             }
           }
         },
@@ -32099,8 +32126,8 @@ SUPPORT_CHARTS = {
                   "name": "MESSENGER"
                 }
               },
-              "methods": {},
-              "sig_name": "IM+"
+              "sig_name": "IM+",
+              "methods": {}
             }
           }
         },
@@ -32140,8 +32167,8 @@ SUPPORT_CHARTS = {
                   "name": "MESSENGER"
                 }
               },
-              "methods": {},
-              "sig_name": "Trillian"
+              "sig_name": "Trillian",
+              "methods": {}
             }
           }
         },
@@ -32177,6 +32204,7 @@ SUPPORT_CHARTS = {
                   "name": "MESSENGER"
                 }
               },
+              "sig_name": "Cisco Jabber",
               "methods": {
                 "manageability": {
                   "100": {
@@ -32226,8 +32254,7 @@ SUPPORT_CHARTS = {
                     "name": "TerminateProcesses"
                   }
                 }
-              },
-              "sig_name": "Cisco Jabber"
+              }
             }
           }
         },
@@ -32263,8 +32290,8 @@ SUPPORT_CHARTS = {
                   "name": "MESSENGER"
                 }
               },
-              "methods": {},
-              "sig_name": "Output Messenger"
+              "sig_name": "Output Messenger",
+              "methods": {}
             }
           }
         },
@@ -32300,8 +32327,8 @@ SUPPORT_CHARTS = {
                   "name": "MESSENGER"
                 }
               },
-              "methods": {},
-              "sig_name": "Facebook Messenger 4 Mac"
+              "sig_name": "Facebook Messenger 4 Mac",
+              "methods": {}
             }
           }
         },
@@ -32499,6 +32526,7 @@ SUPPORT_CHARTS = {
                   "name": "MESSENGER"
                 }
               },
+              "sig_name": "Zoom",
               "methods": {
                 "manageability": {
                   "100": {
@@ -32556,8 +32584,7 @@ SUPPORT_CHARTS = {
                     "name": "GetVersion"
                   }
                 }
-              },
-              "sig_name": "Zoom"
+              }
             }
           }
         },
@@ -32597,6 +32624,7 @@ SUPPORT_CHARTS = {
                   "name": "MESSENGER"
                 }
               },
+              "sig_name": "Cisco Webex Meetings",
               "methods": {
                 "manageability": {
                   "100": {
@@ -32687,8 +32715,7 @@ SUPPORT_CHARTS = {
                     "name": "TerminateProcesses"
                   }
                 }
-              },
-              "sig_name": "Cisco Webex Meetings"
+              }
             }
           }
         },
@@ -32890,6 +32917,13 @@ SUPPORT_CHARTS = {
             {
               "signature": 100405,
               "version": "46.7.0.35472"
+            },
+            {
+              "methodsStatus": {
+                "103": -1
+              },
+              "signature": 100405,
+              "version": "46.8.0.35593"
             }
           ],
           "labels": [],
@@ -32916,6 +32950,7 @@ SUPPORT_CHARTS = {
                   "name": "MESSENGER"
                 }
               },
+              "sig_name": "Webex",
               "methods": {
                 "manageability": {
                   "100": {
@@ -33042,8 +33077,7 @@ SUPPORT_CHARTS = {
                     "name": "GetInstallationDirectories"
                   }
                 }
-              },
-              "sig_name": "Webex"
+              }
             }
           }
         },
@@ -33121,6 +33155,13 @@ SUPPORT_CHARTS = {
             {
               "signature": 100513,
               "version": "26183.1901.4874.5228"
+            },
+            {
+              "methodsStatus": {
+                "103": -1
+              },
+              "signature": 100513,
+              "version": "26198.202.4929.7171"
             }
           ],
           "labels": [],
@@ -33151,6 +33192,7 @@ SUPPORT_CHARTS = {
                   "name": "MESSENGER"
                 }
               },
+              "sig_name": "Microsoft Teams",
               "methods": {
                 "manageability": {
                   "100": {
@@ -33246,8 +33288,7 @@ SUPPORT_CHARTS = {
                     "name": "TerminateProcesses"
                   }
                 }
-              },
-              "sig_name": "Microsoft Teams"
+              }
             },
             "100513": {
               "signature": 100513,
@@ -33273,6 +33314,7 @@ SUPPORT_CHARTS = {
                   "name": "MESSENGER"
                 }
               },
+              "sig_name": "Microsoft Teams (work or school)",
               "methods": {
                 "manageability": {
                   "100": {
@@ -33330,8 +33372,7 @@ SUPPORT_CHARTS = {
                     "name": "GetVersion"
                   }
                 }
-              },
-              "sig_name": "Microsoft Teams (work or school)"
+              }
             }
           }
         },
@@ -33367,6 +33408,7 @@ SUPPORT_CHARTS = {
                   "name": "MESSENGER"
                 }
               },
+              "sig_name": "8x8 Work",
               "methods": {
                 "manageability": {
                   "101": {
@@ -33399,8 +33441,7 @@ SUPPORT_CHARTS = {
                     "name": "TerminateProcesses"
                   }
                 }
-              },
-              "sig_name": "8x8 Work"
+              }
             }
           }
         },
@@ -33448,6 +33489,7 @@ SUPPORT_CHARTS = {
                   "name": "MESSENGER"
                 }
               },
+              "sig_name": "WhatsApp",
               "methods": {
                 "manageability": {
                   "102": {
@@ -33480,8 +33522,7 @@ SUPPORT_CHARTS = {
                     "name": "TerminateProcesses"
                   }
                 }
-              },
-              "sig_name": "WhatsApp"
+              }
             }
           }
         },
@@ -33517,8 +33558,8 @@ SUPPORT_CHARTS = {
                   "name": "MESSENGER"
                 }
               },
-              "methods": {},
-              "sig_name": "Amazon Chime"
+              "sig_name": "Amazon Chime",
+              "methods": {}
             }
           }
         },
@@ -33550,6 +33591,7 @@ SUPPORT_CHARTS = {
                   "name": "WEB_CONFERENCE"
                 }
               },
+              "sig_name": "Zoom Rooms",
               "methods": {
                 "manageability": {
                   "100": {
@@ -33620,8 +33662,7 @@ SUPPORT_CHARTS = {
                     "name": "TerminateProcesses"
                   }
                 }
-              },
-              "sig_name": "Zoom Rooms"
+              }
             }
           }
         },
@@ -33653,8 +33694,8 @@ SUPPORT_CHARTS = {
                   "name": "WEB_CONFERENCE"
                 }
               },
-              "methods": {},
-              "sig_name": "TeamViewer Meeting"
+              "sig_name": "TeamViewer Meeting",
+              "methods": {}
             }
           }
         },
@@ -33694,8 +33735,8 @@ SUPPORT_CHARTS = {
                   "name": "WEB_CONFERENCE"
                 }
               },
-              "methods": {},
-              "sig_name": "GoTo"
+              "sig_name": "GoTo",
+              "methods": {}
             }
           }
         },
@@ -33731,8 +33772,8 @@ SUPPORT_CHARTS = {
                   "name": "MESSENGER"
                 }
               },
-              "methods": {},
-              "sig_name": "Discord"
+              "sig_name": "Discord",
+              "methods": {}
             }
           }
         }
@@ -33786,8 +33827,8 @@ SUPPORT_CHARTS = {
                   "name": "CLOUD_STORAGE"
                 }
               },
-              "methods": {},
-              "sig_name": "SpiderOak"
+              "sig_name": "SpiderOak",
+              "methods": {}
             }
           }
         },
@@ -33823,6 +33864,7 @@ SUPPORT_CHARTS = {
                   "name": "BACKUP"
                 }
               },
+              "sig_name": "Time Machine",
               "methods": {
                 "manageability": {
                   "1008": {
@@ -33931,8 +33973,7 @@ SUPPORT_CHARTS = {
                     "name": "TerminateProcesses"
                   }
                 }
-              },
-              "sig_name": "Time Machine"
+              }
             }
           }
         },
@@ -33972,6 +34013,7 @@ SUPPORT_CHARTS = {
                   "name": "CLOUD_STORAGE"
                 }
               },
+              "sig_name": "Backblaze Online Backup",
               "methods": {
                 "manageability": {
                   "1008": {
@@ -33979,8 +34021,7 @@ SUPPORT_CHARTS = {
                     "name": "GetBackupState"
                   }
                 }
-              },
-              "sig_name": "Backblaze Online Backup"
+              }
             }
           }
         },
@@ -34030,6 +34071,7 @@ SUPPORT_CHARTS = {
                   "name": "CLOUD_STORAGE"
                 }
               },
+              "sig_name": "Box Sync",
               "methods": {
                 "manageability": {
                   "100": {
@@ -34140,8 +34182,7 @@ SUPPORT_CHARTS = {
                     "name": "GetInstallationDirectories"
                   }
                 }
-              },
-              "sig_name": "Box Sync"
+              }
             }
           }
         },
@@ -34178,8 +34219,8 @@ SUPPORT_CHARTS = {
                   "name": "BACKUP"
                 }
               },
-              "methods": {},
-              "sig_name": "Personal Backup"
+              "sig_name": "Personal Backup",
+              "methods": {}
             }
           }
         },
@@ -34461,6 +34502,17 @@ SUPPORT_CHARTS = {
             {
               "signature": 100148,
               "version": "262.4.3183"
+            },
+            {
+              "signature": 100148,
+              "version": "264.4.3385"
+            },
+            {
+              "methodsStatus": {
+                "1008": -1
+              },
+              "signature": 100148,
+              "version": "264.4.3421"
             }
           ],
           "labels": [],
@@ -34487,6 +34539,7 @@ SUPPORT_CHARTS = {
                   "name": "CLOUD_STORAGE"
                 }
               },
+              "sig_name": "Dropbox",
               "methods": {
                 "manageability": {
                   "100": {
@@ -34650,8 +34703,7 @@ SUPPORT_CHARTS = {
                     "name": "Uninstall"
                   }
                 }
-              },
-              "sig_name": "Dropbox"
+              }
             }
           }
         },
@@ -34693,6 +34745,7 @@ SUPPORT_CHARTS = {
                   "name": "CLOUD_STORAGE"
                 }
               },
+              "sig_name": "CrashPlan",
               "methods": {
                 "manageability": {
                   "1008": {
@@ -34769,8 +34822,7 @@ SUPPORT_CHARTS = {
                     "name": "Uninstall"
                   }
                 }
-              },
-              "sig_name": "CrashPlan"
+              }
             }
           }
         },
@@ -34890,6 +34942,7 @@ SUPPORT_CHARTS = {
                   "name": "CLOUD_STORAGE"
                 }
               },
+              "sig_name": "Google Drive",
               "methods": {
                 "manageability": {
                   "1008": {
@@ -34984,8 +35037,7 @@ SUPPORT_CHARTS = {
                     "name": "TerminateProcesses"
                   }
                 }
-              },
-              "sig_name": "Google Drive"
+              }
             }
           }
         },
@@ -35017,8 +35069,8 @@ SUPPORT_CHARTS = {
                   "name": "BACKUP"
                 }
               },
-              "methods": {},
-              "sig_name": "Knox"
+              "sig_name": "Knox",
+              "methods": {}
             }
           }
         },
@@ -35050,6 +35102,7 @@ SUPPORT_CHARTS = {
                   "name": "BACKUP"
                 }
               },
+              "sig_name": "ChronoSync",
               "methods": {
                 "manageability": {
                   "1008": {
@@ -35057,8 +35110,7 @@ SUPPORT_CHARTS = {
                     "name": "GetBackupState"
                   }
                 }
-              },
-              "sig_name": "ChronoSync"
+              }
             }
           }
         },
@@ -35090,6 +35142,7 @@ SUPPORT_CHARTS = {
                   "name": "BACKUP"
                 }
               },
+              "sig_name": "Tri-BACKUP 7",
               "methods": {
                 "manageability": {
                   "1008": {
@@ -35097,8 +35150,7 @@ SUPPORT_CHARTS = {
                     "name": "GetBackupState"
                   }
                 }
-              },
-              "sig_name": "Tri-BACKUP 7"
+              }
             }
           }
         },
@@ -35134,6 +35186,7 @@ SUPPORT_CHARTS = {
                   "name": "BACKUP"
                 }
               },
+              "sig_name": "SuperDuper!",
               "methods": {
                 "removal": {
                   "40000": {
@@ -35141,8 +35194,7 @@ SUPPORT_CHARTS = {
                     "name": "Uninstall"
                   }
                 }
-              },
-              "sig_name": "SuperDuper!"
+              }
             }
           }
         },
@@ -35178,6 +35230,7 @@ SUPPORT_CHARTS = {
                   "name": "BACKUP"
                 }
               },
+              "sig_name": "Carbon Copy Cloner",
               "methods": {
                 "manageability": {
                   "101": {
@@ -35210,8 +35263,7 @@ SUPPORT_CHARTS = {
                     "name": "TerminateProcesses"
                   }
                 }
-              },
-              "sig_name": "Carbon Copy Cloner"
+              }
             }
           }
         },
@@ -35262,6 +35314,7 @@ SUPPORT_CHARTS = {
                 }
               },
               "whole_disk_encryption": false,
+              "sig_name": "iDoctor",
               "methods": {
                 "manageability": {
                   "1008": {
@@ -35284,8 +35337,7 @@ SUPPORT_CHARTS = {
                     "name": "GetAntiphishingState"
                   }
                 }
-              },
-              "sig_name": "iDoctor"
+              }
             }
           }
         },
@@ -35321,8 +35373,8 @@ SUPPORT_CHARTS = {
                   "name": "BACKUP"
                 }
               },
-              "methods": {},
-              "sig_name": "ZipCloud"
+              "sig_name": "ZipCloud",
+              "methods": {}
             }
           }
         },
@@ -35363,8 +35415,8 @@ SUPPORT_CHARTS = {
                 }
               },
               "whole_disk_encryption": false,
-              "methods": {},
-              "sig_name": "EncryptStick"
+              "sig_name": "EncryptStick",
+              "methods": {}
             }
           }
         },
@@ -35396,8 +35448,8 @@ SUPPORT_CHARTS = {
                   "name": "BACKUP"
                 }
               },
-              "methods": {},
-              "sig_name": "SmartBackup"
+              "sig_name": "SmartBackup",
+              "methods": {}
             }
           }
         },
@@ -35429,6 +35481,7 @@ SUPPORT_CHARTS = {
                   "name": "BACKUP"
                 }
               },
+              "sig_name": "Synk",
               "methods": {
                 "manageability": {
                   "1008": {
@@ -35436,8 +35489,7 @@ SUPPORT_CHARTS = {
                     "name": "GetBackupState"
                   }
                 }
-              },
-              "sig_name": "Synk"
+              }
             }
           }
         },
@@ -35470,6 +35522,7 @@ SUPPORT_CHARTS = {
                   "name": "BACKUP"
                 }
               },
+              "sig_name": "Backup Vivo",
               "methods": {
                 "manageability": {
                   "100": {
@@ -35483,8 +35536,7 @@ SUPPORT_CHARTS = {
                     "name": "Uninstall"
                   }
                 }
-              },
-              "sig_name": "Backup Vivo"
+              }
             }
           }
         },
@@ -35670,6 +35722,10 @@ SUPPORT_CHARTS = {
             {
               "signature": 100159,
               "version": "26.113.0614.0004"
+            },
+            {
+              "signature": 100159,
+              "version": "26.134.0713.0007"
             }
           ],
           "labels": [],
@@ -35696,6 +35752,7 @@ SUPPORT_CHARTS = {
                   "name": "CLOUD_STORAGE"
                 }
               },
+              "sig_name": "OneDrive",
               "methods": {
                 "manageability": {
                   "100": {
@@ -35929,8 +35986,7 @@ SUPPORT_CHARTS = {
                     "name": "GetPlugins"
                   }
                 }
-              },
-              "sig_name": "OneDrive"
+              }
             }
           }
         },
@@ -35966,8 +36022,8 @@ SUPPORT_CHARTS = {
                   "name": "CLOUD_STORAGE"
                 }
               },
-              "methods": {},
-              "sig_name": "MozyHome"
+              "sig_name": "MozyHome",
+              "methods": {}
             }
           }
         },
@@ -36024,6 +36080,7 @@ SUPPORT_CHARTS = {
                 }
               },
               "whole_disk_encryption": false,
+              "sig_name": "MacKeeper",
               "methods": {
                 "manageability": {
                   "100": {
@@ -36102,8 +36159,7 @@ SUPPORT_CHARTS = {
                     "name": "Uninstall"
                   }
                 }
-              },
-              "sig_name": "MacKeeper"
+              }
             }
           }
         },
@@ -36163,6 +36219,7 @@ SUPPORT_CHARTS = {
                   "name": "CLOUD_STORAGE"
                 }
               },
+              "sig_name": "IDrive",
               "methods": {
                 "manageability": {
                   "1008": {
@@ -36279,8 +36336,7 @@ SUPPORT_CHARTS = {
                     "name": "TerminateProcesses"
                   }
                 }
-              },
-              "sig_name": "IDrive"
+              }
             }
           }
         },
@@ -36313,6 +36369,7 @@ SUPPORT_CHARTS = {
                   "name": "BACKUP"
                 }
               },
+              "sig_name": "F-Secure Online Backup Service for Consumers",
               "methods": {
                 "manageability": {
                   "100": {
@@ -36320,8 +36377,7 @@ SUPPORT_CHARTS = {
                     "name": "GetVersion"
                   }
                 }
-              },
-              "sig_name": "F-Secure Online Backup Service for Consumers"
+              }
             }
           }
         },
@@ -36357,8 +36413,8 @@ SUPPORT_CHARTS = {
                   "name": "CLOUD_STORAGE"
                 }
               },
-              "methods": {},
-              "sig_name": "CloudBacko Home"
+              "sig_name": "CloudBacko Home",
+              "methods": {}
             }
           }
         },
@@ -36390,8 +36446,8 @@ SUPPORT_CHARTS = {
                   "name": "BACKUP"
                 }
               },
-              "methods": {},
-              "sig_name": "JaBack"
+              "sig_name": "JaBack",
+              "methods": {}
             }
           }
         },
@@ -36429,6 +36485,7 @@ SUPPORT_CHARTS = {
                   "name": "CLOUD_STORAGE"
                 }
               },
+              "sig_name": "Tonido",
               "methods": {
                 "manageability": {
                   "1008": {
@@ -36442,8 +36499,7 @@ SUPPORT_CHARTS = {
                     "name": "Uninstall"
                   }
                 }
-              },
-              "sig_name": "Tonido"
+              }
             }
           }
         },
@@ -36479,6 +36535,7 @@ SUPPORT_CHARTS = {
                   "name": "CLOUD_STORAGE"
                 }
               },
+              "sig_name": "MEGAsync",
               "methods": {
                 "manageability": {
                   "100": {
@@ -36552,8 +36609,7 @@ SUPPORT_CHARTS = {
                     "name": "TerminateProcesses"
                   }
                 }
-              },
-              "sig_name": "MEGAsync"
+              }
             }
           }
         },
@@ -36585,8 +36641,8 @@ SUPPORT_CHARTS = {
                   "name": "BACKUP"
                 }
               },
-              "methods": {},
-              "sig_name": "Mac Backup Guru"
+              "sig_name": "Mac Backup Guru",
+              "methods": {}
             }
           }
         },
@@ -36670,6 +36726,7 @@ SUPPORT_CHARTS = {
                   "name": "ANTIMALWARE"
                 }
               },
+              "sig_name": "Webroot SecureAnywhere",
               "methods": {
                 "constant": {
                   "1003": {
@@ -36981,8 +37038,7 @@ SUPPORT_CHARTS = {
                     "name": "GetInstallationDirectories"
                   }
                 }
-              },
-              "sig_name": "Webroot SecureAnywhere"
+              }
             }
           },
           "marketing_names": [
@@ -37032,6 +37088,7 @@ SUPPORT_CHARTS = {
                   "name": "ENCRYPTION"
                 }
               },
+              "sig_name": "Nomadesk",
               "methods": {
                 "manageability": {
                   "1008": {
@@ -37207,8 +37264,7 @@ SUPPORT_CHARTS = {
                     "name": "TerminateProcesses"
                   }
                 }
-              },
-              "sig_name": "Nomadesk"
+              }
             }
           }
         },
@@ -37240,6 +37296,7 @@ SUPPORT_CHARTS = {
                   "name": "BACKUP"
                 }
               },
+              "sig_name": "EaseUS Todo Backup",
               "methods": {
                 "manageability": {
                   "1008": {
@@ -37310,8 +37367,7 @@ SUPPORT_CHARTS = {
                     "name": "GetBackupState"
                   }
                 }
-              },
-              "sig_name": "EaseUS Todo Backup"
+              }
             }
           }
         },
@@ -37343,8 +37399,8 @@ SUPPORT_CHARTS = {
                   "name": "BACKUP"
                 }
               },
-              "methods": {},
-              "sig_name": "Paragon Backup and Recovery"
+              "sig_name": "Paragon Backup and Recovery",
+              "methods": {}
             }
           }
         },
@@ -37380,6 +37436,7 @@ SUPPORT_CHARTS = {
                   "name": "CLOUD_STORAGE"
                 }
               },
+              "sig_name": "Nextcloud Desktop Client",
               "methods": {
                 "manageability": {
                   "100": {
@@ -37508,8 +37565,7 @@ SUPPORT_CHARTS = {
                     "name": "GetBackupState"
                   }
                 }
-              },
-              "sig_name": "Nextcloud Desktop Client"
+              }
             }
           }
         },
@@ -37545,6 +37601,7 @@ SUPPORT_CHARTS = {
                   "name": "CLOUD_STORAGE"
                 }
               },
+              "sig_name": "Druva inSync",
               "methods": {
                 "constant": {
                   "103": {
@@ -37553,8 +37610,7 @@ SUPPORT_CHARTS = {
                     "name": "TerminateProcesses"
                   }
                 }
-              },
-              "sig_name": "Druva inSync"
+              }
             }
           }
         }
@@ -37603,8 +37659,65 @@ SUPPORT_CHARTS = {
                   "name": "ARTIFICIAL_INTELLIGENCE"
                 }
               },
-              "methods": {},
-              "sig_name": "Claude"
+              "sig_name": "Claude",
+              "methods": {
+                "manageability": {
+                  "100": {
+                    "id": 100,
+                    "meta_data": {
+                      "param_support": {
+                        "input": {
+                          "instance_id": {
+                            "_supported": false,
+                            "_optional": true
+                          }
+                        },
+                        "output": {
+                          "version": {
+                            "_supported": true,
+                            "_optional": false
+                          },
+                          "architecture": {
+                            "_supported": true,
+                            "_optional": false,
+                            "name": {
+                              "_supported": true,
+                              "_optional": false
+                            },
+                            "bitness": {
+                              "_supported": true,
+                              "_optional": false
+                            }
+                          },
+                          "language": {
+                            "_supported": true,
+                            "_optional": false,
+                            "code": {
+                              "_supported": true,
+                              "_optional": false
+                            },
+                            "name": {
+                              "_supported": true,
+                              "_optional": false
+                            }
+                          },
+                          "channel": {
+                            "_supported": false,
+                            "_optional": true
+                          },
+                          "release": {
+                            "_supported": false,
+                            "_optional": true
+                          }
+                        }
+                      },
+                      "admin_required": false,
+                      "notes": ""
+                    },
+                    "name": "GetVersion"
+                  }
+                }
+              }
             },
             "100615": {
               "signature": 100615,
@@ -37622,6 +37735,7 @@ SUPPORT_CHARTS = {
                   "name": "ARTIFICIAL_INTELLIGENCE"
                 }
               },
+              "sig_name": "Claude CLI",
               "methods": {
                 "constant": {
                   "101": {
@@ -37722,8 +37836,7 @@ SUPPORT_CHARTS = {
                     "name": "GetInstallationDirectories"
                   }
                 }
-              },
-              "sig_name": "Claude CLI"
+              }
             }
           }
         },
@@ -37763,6 +37876,7 @@ SUPPORT_CHARTS = {
                   "name": "BROWSER"
                 }
               },
+              "sig_name": "Browser Operator",
               "methods": {
                 "constant": {
                   "1025": {
@@ -37853,8 +37967,7 @@ SUPPORT_CHARTS = {
                     "name": "GetPlugins"
                   }
                 }
-              },
-              "sig_name": "Browser Operator"
+              }
             }
           }
         },
@@ -37890,8 +38003,8 @@ SUPPORT_CHARTS = {
                   "name": "BROWSER"
                 }
               },
-              "methods": {},
-              "sig_name": "ChatGPT Atlas"
+              "sig_name": "ChatGPT Atlas",
+              "methods": {}
             }
           }
         },
@@ -37927,6 +38040,7 @@ SUPPORT_CHARTS = {
                   "name": "BROWSER"
                 }
               },
+              "sig_name": "Dia",
               "methods": {
                 "manageability": {
                   "2000": {
@@ -37976,8 +38090,7 @@ SUPPORT_CHARTS = {
                     "name": "GetPlugins"
                   }
                 }
-              },
-              "sig_name": "Dia"
+              }
             }
           }
         },
@@ -38021,6 +38134,7 @@ SUPPORT_CHARTS = {
                   "name": "BROWSER"
                 }
               },
+              "sig_name": "Comet",
               "methods": {
                 "constant": {
                   "1025": {
@@ -38182,8 +38296,7 @@ SUPPORT_CHARTS = {
                     "name": "GetPlugins"
                   }
                 }
-              },
-              "sig_name": "Comet"
+              }
             }
           }
         },
@@ -38219,8 +38332,8 @@ SUPPORT_CHARTS = {
                   "name": "ARTIFICIAL_INTELLIGENCE"
                 }
               },
-              "methods": {},
-              "sig_name": "Ollama"
+              "sig_name": "Ollama",
+              "methods": {}
             }
           }
         },
@@ -38252,8 +38365,8 @@ SUPPORT_CHARTS = {
                   "name": "ARTIFICIAL_INTELLIGENCE"
                 }
               },
-              "methods": {},
-              "sig_name": "Copilot"
+              "sig_name": "Copilot",
+              "methods": {}
             }
           }
         },
@@ -38289,8 +38402,8 @@ SUPPORT_CHARTS = {
                   "name": "ARTIFICIAL_INTELLIGENCE"
                 }
               },
-              "methods": {},
-              "sig_name": "ChatGPT"
+              "sig_name": "ChatGPT",
+              "methods": {}
             }
           }
         },
@@ -38326,8 +38439,8 @@ SUPPORT_CHARTS = {
                   "name": "ARTIFICIAL_INTELLIGENCE"
                 }
               },
-              "methods": {},
-              "sig_name": "Gemini"
+              "sig_name": "Gemini",
+              "methods": {}
             }
           }
         },
@@ -38359,8 +38472,8 @@ SUPPORT_CHARTS = {
                   "name": "ARTIFICIAL_INTELLIGENCE"
                 }
               },
-              "methods": {},
-              "sig_name": "ClickUp"
+              "sig_name": "ClickUp",
+              "methods": {}
             }
           }
         },
@@ -38392,8 +38505,8 @@ SUPPORT_CHARTS = {
                   "name": "ARTIFICIAL_INTELLIGENCE"
                 }
               },
-              "methods": {},
-              "sig_name": "Canva"
+              "sig_name": "Canva",
+              "methods": {}
             }
           }
         },
@@ -38425,8 +38538,8 @@ SUPPORT_CHARTS = {
                   "name": "ARTIFICIAL_INTELLIGENCE"
                 }
               },
-              "methods": {},
-              "sig_name": "Otter"
+              "sig_name": "Otter",
+              "methods": {}
             }
           }
         },
@@ -38458,8 +38571,8 @@ SUPPORT_CHARTS = {
                   "name": "ARTIFICIAL_INTELLIGENCE"
                 }
               },
-              "methods": {},
-              "sig_name": "Motion"
+              "sig_name": "Motion",
+              "methods": {}
             }
           }
         },
@@ -38495,8 +38608,8 @@ SUPPORT_CHARTS = {
                   "name": "ARTIFICIAL_INTELLIGENCE"
                 }
               },
-              "methods": {},
-              "sig_name": "Coda"
+              "sig_name": "Coda",
+              "methods": {}
             }
           }
         },
@@ -38532,8 +38645,8 @@ SUPPORT_CHARTS = {
                   "name": "ARTIFICIAL_INTELLIGENCE"
                 }
               },
-              "methods": {},
-              "sig_name": "Fireflies"
+              "sig_name": "Fireflies",
+              "methods": {}
             }
           }
         },
@@ -38565,6 +38678,7 @@ SUPPORT_CHARTS = {
                   "name": "ARTIFICIAL_INTELLIGENCE"
                 }
               },
+              "sig_name": "Auggie",
               "methods": {
                 "constant": {
                   "101": {
@@ -38665,8 +38779,7 @@ SUPPORT_CHARTS = {
                     "name": "GetInstallationDirectories"
                   }
                 }
-              },
-              "sig_name": "Auggie"
+              }
             }
           }
         },
@@ -38706,8 +38819,8 @@ SUPPORT_CHARTS = {
                   "name": "ARTIFICIAL_INTELLIGENCE"
                 }
               },
-              "methods": {},
-              "sig_name": "Devin Desktop"
+              "sig_name": "Devin Desktop",
+              "methods": {}
             }
           }
         },
@@ -38739,6 +38852,7 @@ SUPPORT_CHARTS = {
                   "name": "ARTIFICIAL_INTELLIGENCE"
                 }
               },
+              "sig_name": "Cody",
               "methods": {
                 "constant": {
                   "101": {
@@ -38839,8 +38953,7 @@ SUPPORT_CHARTS = {
                     "name": "GetInstallationDirectories"
                   }
                 }
-              },
-              "sig_name": "Cody"
+              }
             }
           }
         },
@@ -38850,6 +38963,10 @@ SUPPORT_CHARTS = {
             {
               "signature": 100619,
               "version": "2.8.3"
+            },
+            {
+              "signature": 100619,
+              "version": "2.9.7"
             }
           ],
           "labels": [],
@@ -38872,8 +38989,8 @@ SUPPORT_CHARTS = {
                   "name": "ARTIFICIAL_INTELLIGENCE"
                 }
               },
-              "methods": {},
-              "sig_name": "MstyStudio"
+              "sig_name": "MstyStudio",
+              "methods": {}
             }
           }
         },
@@ -38909,8 +39026,8 @@ SUPPORT_CHARTS = {
                   "name": "ARTIFICIAL_INTELLIGENCE"
                 }
               },
-              "methods": {},
-              "sig_name": "HuggingChat"
+              "sig_name": "HuggingChat",
+              "methods": {}
             }
           }
         },
@@ -38942,6 +39059,7 @@ SUPPORT_CHARTS = {
                   "name": "ARTIFICIAL_INTELLIGENCE"
                 }
               },
+              "sig_name": "GitHub Copilot CLI",
               "methods": {
                 "constant": {
                   "101": {
@@ -39042,8 +39160,7 @@ SUPPORT_CHARTS = {
                     "name": "GetInstallationDirectories"
                   }
                 }
-              },
-              "sig_name": "GitHub Copilot CLI"
+              }
             }
           }
         },
@@ -39075,6 +39192,7 @@ SUPPORT_CHARTS = {
                   "name": "ARTIFICIAL_INTELLIGENCE"
                 }
               },
+              "sig_name": "Pieces",
               "methods": {
                 "manageability": {
                   "102": {
@@ -39095,8 +39213,7 @@ SUPPORT_CHARTS = {
                     "name": "Run"
                   }
                 }
-              },
-              "sig_name": "Pieces"
+              }
             }
           }
         },
@@ -39128,6 +39245,7 @@ SUPPORT_CHARTS = {
                   "name": "ARTIFICIAL_INTELLIGENCE"
                 }
               },
+              "sig_name": "Continue CLI",
               "methods": {
                 "constant": {
                   "101": {
@@ -39228,8 +39346,7 @@ SUPPORT_CHARTS = {
                     "name": "GetInstallationDirectories"
                   }
                 }
-              },
-              "sig_name": "Continue CLI"
+              }
             }
           }
         },
@@ -39261,6 +39378,7 @@ SUPPORT_CHARTS = {
                   "name": "ARTIFICIAL_INTELLIGENCE"
                 }
               },
+              "sig_name": "Amazon Quick",
               "methods": {
                 "manageability": {
                   "102": {
@@ -39281,8 +39399,7 @@ SUPPORT_CHARTS = {
                     "name": "Run"
                   }
                 }
-              },
-              "sig_name": "Amazon Quick"
+              }
             }
           }
         },
@@ -39318,6 +39435,7 @@ SUPPORT_CHARTS = {
                   "name": "ARTIFICIAL_INTELLIGENCE"
                 }
               },
+              "sig_name": "MeetGeek",
               "methods": {
                 "manageability": {
                   "102": {
@@ -39338,8 +39456,7 @@ SUPPORT_CHARTS = {
                     "name": "Run"
                   }
                 }
-              },
-              "sig_name": "MeetGeek"
+              }
             }
           }
         },
@@ -39371,6 +39488,7 @@ SUPPORT_CHARTS = {
                   "name": "ARTIFICIAL_INTELLIGENCE"
                 }
               },
+              "sig_name": "Limitless",
               "methods": {
                 "manageability": {
                   "102": {
@@ -39391,8 +39509,7 @@ SUPPORT_CHARTS = {
                     "name": "Run"
                   }
                 }
-              },
-              "sig_name": "Limitless"
+              }
             }
           }
         },
@@ -39424,8 +39541,8 @@ SUPPORT_CHARTS = {
                   "name": "ARTIFICIAL_INTELLIGENCE"
                 }
               },
-              "methods": {},
-              "sig_name": "Writer"
+              "sig_name": "Writer",
+              "methods": {}
             }
           }
         },
@@ -39457,8 +39574,8 @@ SUPPORT_CHARTS = {
                   "name": "ARTIFICIAL_INTELLIGENCE"
                 }
               },
-              "methods": {},
-              "sig_name": "LanguageTool"
+              "sig_name": "LanguageTool",
+              "methods": {}
             }
           }
         },
@@ -39490,6 +39607,7 @@ SUPPORT_CHARTS = {
                   "name": "ARTIFICIAL_INTELLIGENCE"
                 }
               },
+              "sig_name": "Grain",
               "methods": {
                 "manageability": {
                   "101": {
@@ -39549,8 +39667,7 @@ SUPPORT_CHARTS = {
                     "name": "TerminateProcesses"
                   }
                 }
-              },
-              "sig_name": "Grain"
+              }
             }
           }
         },
@@ -39582,6 +39699,7 @@ SUPPORT_CHARTS = {
                   "name": "ARTIFICIAL_INTELLIGENCE"
                 }
               },
+              "sig_name": "Photoroom",
               "methods": {
                 "constant": {
                   "105": {
@@ -39733,8 +39851,7 @@ SUPPORT_CHARTS = {
                     "name": "GetInstallationDirectories"
                   }
                 }
-              },
-              "sig_name": "Photoroom"
+              }
             }
           }
         },
@@ -39766,6 +39883,7 @@ SUPPORT_CHARTS = {
                   "name": "ARTIFICIAL_INTELLIGENCE"
                 }
               },
+              "sig_name": "Ideogram",
               "methods": {
                 "constant": {
                   "105": {
@@ -39917,8 +40035,7 @@ SUPPORT_CHARTS = {
                     "name": "GetInstallationDirectories"
                   }
                 }
-              },
-              "sig_name": "Ideogram"
+              }
             }
           }
         },
@@ -39950,8 +40067,8 @@ SUPPORT_CHARTS = {
                   "name": "ARTIFICIAL_INTELLIGENCE"
                 }
               },
-              "methods": {},
-              "sig_name": "Image Playground"
+              "sig_name": "Image Playground",
+              "methods": {}
             }
           }
         },
@@ -39983,6 +40100,7 @@ SUPPORT_CHARTS = {
                   "name": "ARTIFICIAL_INTELLIGENCE"
                 }
               },
+              "sig_name": "Aider",
               "methods": {
                 "constant": {
                   "101": {
@@ -40083,8 +40201,7 @@ SUPPORT_CHARTS = {
                     "name": "GetInstallationDirectories"
                   }
                 }
-              },
-              "sig_name": "Aider"
+              }
             }
           }
         },
@@ -40116,8 +40233,8 @@ SUPPORT_CHARTS = {
                   "name": "ARTIFICIAL_INTELLIGENCE"
                 }
               },
-              "methods": {},
-              "sig_name": "WritingTools"
+              "sig_name": "WritingTools",
+              "methods": {}
             }
           }
         },
@@ -40149,6 +40266,7 @@ SUPPORT_CHARTS = {
                   "name": "ARTIFICIAL_INTELLIGENCE"
                 }
               },
+              "sig_name": "Circleback",
               "methods": {
                 "manageability": {
                   "101": {
@@ -40174,8 +40292,7 @@ SUPPORT_CHARTS = {
                     "name": "GetRunningState"
                   }
                 }
-              },
-              "sig_name": "Circleback"
+              }
             }
           }
         },
@@ -40207,8 +40324,8 @@ SUPPORT_CHARTS = {
                   "name": "ARTIFICIAL_INTELLIGENCE"
                 }
               },
-              "methods": {},
-              "sig_name": "remove.bg"
+              "sig_name": "remove.bg",
+              "methods": {}
             }
           }
         },
@@ -40240,8 +40357,8 @@ SUPPORT_CHARTS = {
                   "name": "ARTIFICIAL_INTELLIGENCE"
                 }
               },
-              "methods": {},
-              "sig_name": "Copilot Money"
+              "sig_name": "Copilot Money",
+              "methods": {}
             }
           }
         },
@@ -40273,8 +40390,8 @@ SUPPORT_CHARTS = {
                   "name": "ARTIFICIAL_INTELLIGENCE"
                 }
               },
-              "methods": {},
-              "sig_name": "Enchanted"
+              "sig_name": "Enchanted",
+              "methods": {}
             }
           }
         },
@@ -40310,6 +40427,7 @@ SUPPORT_CHARTS = {
                   "name": "ARTIFICIAL_INTELLIGENCE"
                 }
               },
+              "sig_name": "HuggingFace CLI",
               "methods": {
                 "constant": {
                   "101": {
@@ -40410,8 +40528,606 @@ SUPPORT_CHARTS = {
                     "name": "GetInstallationDirectories"
                   }
                 }
+              }
+            }
+          }
+        },
+        "100591": {
+          "id": 100591,
+          "tested_points": [
+            {
+              "signature": 100649,
+              "version": "1.5.1"
+            }
+          ],
+          "labels": [],
+          "languages": [],
+          "name": "ShellGPT",
+          "signatures": {
+            "100649": {
+              "signature": 100649,
+              "product": {
+                "id": 100591,
+                "name": "ShellGPT"
               },
-              "sig_name": "HuggingFace CLI"
+              "vendor": {
+                "id": 100348,
+                "name": "TheR1D"
+              },
+              "categories": {
+                "21": {
+                  "id": 21,
+                  "name": "ARTIFICIAL_INTELLIGENCE"
+                }
+              },
+              "sig_name": "ShellGPT",
+              "methods": {
+                "constant": {
+                  "101": {
+                    "id": 101,
+                    "code": -11,
+                    "name": "GetRunningState"
+                  },
+                  "102": {
+                    "id": 102,
+                    "code": -11,
+                    "name": "Run"
+                  },
+                  "103": {
+                    "id": 103,
+                    "code": -11,
+                    "name": "TerminateProcesses"
+                  }
+                },
+                "manageability": {
+                  "100": {
+                    "id": 100,
+                    "meta_data": {
+                      "param_support": {
+                        "input": {
+                          "instance_id": {
+                            "_supported": false,
+                            "_optional": true
+                          }
+                        },
+                        "output": {
+                          "version": {
+                            "_supported": true,
+                            "_optional": false
+                          },
+                          "architecture": {
+                            "_supported": true,
+                            "_optional": false,
+                            "name": {
+                              "_supported": true,
+                              "_optional": false
+                            },
+                            "bitness": {
+                              "_supported": true,
+                              "_optional": false
+                            }
+                          },
+                          "language": {
+                            "_supported": true,
+                            "_optional": false,
+                            "code": {
+                              "_supported": true,
+                              "_optional": false
+                            },
+                            "name": {
+                              "_supported": true,
+                              "_optional": false
+                            }
+                          },
+                          "channel": {
+                            "_supported": false,
+                            "_optional": true
+                          },
+                          "release": {
+                            "_supported": false,
+                            "_optional": true
+                          }
+                        }
+                      },
+                      "admin_required": true,
+                      "notes": ""
+                    },
+                    "name": "GetVersion"
+                  },
+                  "104": {
+                    "id": 104,
+                    "meta_data": {
+                      "param_support": {
+                        "input": {
+                          "instance_id": {
+                            "_supported": false,
+                            "_optional": true
+                          }
+                        },
+                        "output": {
+                          "main": {
+                            "_supported": true,
+                            "_optional": false
+                          },
+                          "directories": {
+                            "_supported": true,
+                            "_optional": false
+                          }
+                        }
+                      },
+                      "admin_required": false,
+                      "notes": ""
+                    },
+                    "name": "GetInstallationDirectories"
+                  }
+                }
+              }
+            }
+          }
+        },
+        "100592": {
+          "id": 100592,
+          "tested_points": [
+            {
+              "signature": 100650,
+              "version": "1.7.0"
+            },
+            {
+              "signature": 100650,
+              "version": "1.7.1"
+            }
+          ],
+          "labels": [],
+          "languages": [],
+          "name": "OpenAI CLI",
+          "signatures": {
+            "100650": {
+              "signature": 100650,
+              "product": {
+                "id": 100592,
+                "name": "OpenAI CLI"
+              },
+              "vendor": {
+                "id": 100314,
+                "name": "OpenAI"
+              },
+              "categories": {
+                "21": {
+                  "id": 21,
+                  "name": "ARTIFICIAL_INTELLIGENCE"
+                }
+              },
+              "sig_name": "OpenAI CLI",
+              "methods": {
+                "constant": {
+                  "101": {
+                    "id": 101,
+                    "code": -11,
+                    "name": "GetRunningState"
+                  },
+                  "102": {
+                    "id": 102,
+                    "code": -11,
+                    "name": "Run"
+                  },
+                  "103": {
+                    "id": 103,
+                    "code": -11,
+                    "name": "TerminateProcesses"
+                  }
+                },
+                "manageability": {
+                  "100": {
+                    "id": 100,
+                    "meta_data": {
+                      "param_support": {
+                        "input": {
+                          "instance_id": {
+                            "_supported": false,
+                            "_optional": true
+                          }
+                        },
+                        "output": {
+                          "version": {
+                            "_supported": true,
+                            "_optional": false
+                          },
+                          "architecture": {
+                            "_supported": true,
+                            "_optional": false,
+                            "name": {
+                              "_supported": true,
+                              "_optional": false
+                            },
+                            "bitness": {
+                              "_supported": true,
+                              "_optional": false
+                            }
+                          },
+                          "language": {
+                            "_supported": true,
+                            "_optional": false,
+                            "code": {
+                              "_supported": true,
+                              "_optional": false
+                            },
+                            "name": {
+                              "_supported": true,
+                              "_optional": false
+                            }
+                          },
+                          "channel": {
+                            "_supported": false,
+                            "_optional": true
+                          },
+                          "release": {
+                            "_supported": false,
+                            "_optional": true
+                          }
+                        }
+                      },
+                      "admin_required": true,
+                      "notes": ""
+                    },
+                    "name": "GetVersion"
+                  },
+                  "104": {
+                    "id": 104,
+                    "meta_data": {
+                      "param_support": {
+                        "input": {
+                          "instance_id": {
+                            "_supported": false,
+                            "_optional": true
+                          }
+                        },
+                        "output": {
+                          "main": {
+                            "_supported": true,
+                            "_optional": false
+                          },
+                          "directories": {
+                            "_supported": true,
+                            "_optional": false
+                          }
+                        }
+                      },
+                      "admin_required": false,
+                      "notes": ""
+                    },
+                    "name": "GetInstallationDirectories"
+                  }
+                }
+              }
+            }
+          }
+        },
+        "100593": {
+          "id": 100593,
+          "tested_points": [
+            {
+              "signature": 100651,
+              "version": "27.0"
+            }
+          ],
+          "labels": [],
+          "languages": [],
+          "name": "Playground For LM",
+          "signatures": {
+            "100651": {
+              "signature": 100651,
+              "product": {
+                "id": 100593,
+                "name": "Playground For LM"
+              },
+              "vendor": {
+                "id": 100349,
+                "name": "Wang ZeCheng"
+              },
+              "categories": {
+                "21": {
+                  "id": 21,
+                  "name": "ARTIFICIAL_INTELLIGENCE"
+                }
+              },
+              "sig_name": "Playground For LM",
+              "methods": {
+                "constant": {
+                  "105": {
+                    "id": 105,
+                    "code": -11,
+                    "name": "GetComponents"
+                  },
+                  "108": {
+                    "id": 108,
+                    "code": -11,
+                    "name": "IsAuthentic"
+                  }
+                },
+                "manageability": {
+                  "101": {
+                    "id": 101,
+                    "meta_data": {
+                      "param_support": {
+                        "input": {
+                          "instance_id": {
+                            "_supported": false,
+                            "_optional": true
+                          }
+                        },
+                        "output": {
+                          "running": {
+                            "_supported": true,
+                            "_optional": false
+                          }
+                        }
+                      },
+                      "admin_required": false,
+                      "notes": ""
+                    },
+                    "name": "GetRunningState"
+                  },
+                  "103": {
+                    "id": 103,
+                    "meta_data": {
+                      "param_support": {
+                        "input": {
+                          "instance_id": {
+                            "_supported": false,
+                            "_optional": true
+                          }
+                        },
+                        "output": []
+                      },
+                      "admin_required": false,
+                      "notes": ""
+                    },
+                    "name": "TerminateProcesses"
+                  },
+                  "104": {
+                    "id": 104,
+                    "meta_data": {
+                      "param_support": {
+                        "input": {
+                          "instance_id": {
+                            "_supported": false,
+                            "_optional": true
+                          }
+                        },
+                        "output": {
+                          "main": {
+                            "_supported": true,
+                            "_optional": false
+                          },
+                          "directories": {
+                            "_supported": true,
+                            "_optional": false
+                          }
+                        }
+                      },
+                      "admin_required": false,
+                      "notes": ""
+                    },
+                    "name": "GetInstallationDirectories"
+                  }
+                }
+              }
+            }
+          }
+        },
+        "100594": {
+          "id": 100594,
+          "tested_points": [
+            {
+              "signature": 100652,
+              "version": "1.20"
+            },
+            {
+              "signature": 100652,
+              "version": "1.0.0"
+            }
+          ],
+          "labels": [],
+          "languages": [],
+          "name": "Navi",
+          "signatures": {
+            "100652": {
+              "signature": 100652,
+              "product": {
+                "id": 100594,
+                "name": "Navi"
+              },
+              "vendor": {
+                "id": 100350,
+                "name": "Karl Valencia"
+              },
+              "categories": {
+                "21": {
+                  "id": 21,
+                  "name": "ARTIFICIAL_INTELLIGENCE"
+                }
+              },
+              "sig_name": "Navi",
+              "methods": {
+                "constant": {
+                  "105": {
+                    "id": 105,
+                    "code": -11,
+                    "name": "GetComponents"
+                  },
+                  "108": {
+                    "id": 108,
+                    "code": -11,
+                    "name": "IsAuthentic"
+                  }
+                },
+                "manageability": {
+                  "101": {
+                    "id": 101,
+                    "meta_data": {
+                      "param_support": {
+                        "input": {
+                          "instance_id": {
+                            "_supported": false,
+                            "_optional": true
+                          }
+                        },
+                        "output": {
+                          "running": {
+                            "_supported": true,
+                            "_optional": false
+                          }
+                        }
+                      },
+                      "admin_required": false,
+                      "notes": ""
+                    },
+                    "name": "GetRunningState"
+                  },
+                  "103": {
+                    "id": 103,
+                    "meta_data": {
+                      "param_support": {
+                        "input": {
+                          "instance_id": {
+                            "_supported": false,
+                            "_optional": true
+                          }
+                        },
+                        "output": []
+                      },
+                      "admin_required": false,
+                      "notes": ""
+                    },
+                    "name": "TerminateProcesses"
+                  },
+                  "104": {
+                    "id": 104,
+                    "meta_data": {
+                      "param_support": {
+                        "input": {
+                          "instance_id": {
+                            "_supported": false,
+                            "_optional": true
+                          }
+                        },
+                        "output": {
+                          "main": {
+                            "_supported": true,
+                            "_optional": false
+                          },
+                          "directories": {
+                            "_supported": true,
+                            "_optional": false
+                          }
+                        }
+                      },
+                      "admin_required": false,
+                      "notes": ""
+                    },
+                    "name": "GetInstallationDirectories"
+                  }
+                }
+              }
+            }
+          }
+        },
+        "100595": {
+          "id": 100595,
+          "tested_points": [
+            {
+              "signature": 100653,
+              "version": "1.0.4"
+            }
+          ],
+          "labels": [],
+          "languages": [],
+          "name": "MLX Studio",
+          "signatures": {
+            "100653": {
+              "signature": 100653,
+              "product": {
+                "id": 100595,
+                "name": "MLX Studio"
+              },
+              "vendor": {
+                "id": 100351,
+                "name": "Aleonis"
+              },
+              "categories": {
+                "21": {
+                  "id": 21,
+                  "name": "ARTIFICIAL_INTELLIGENCE"
+                }
+              },
+              "sig_name": "MLX Studio",
+              "methods": {}
+            }
+          }
+        },
+        "100596": {
+          "id": 100596,
+          "tested_points": [
+            {
+              "signature": 100654,
+              "version": "1.0.21"
+            }
+          ],
+          "labels": [],
+          "languages": [],
+          "name": "Type Mac",
+          "signatures": {
+            "100654": {
+              "signature": 100654,
+              "product": {
+                "id": 100596,
+                "name": "Type Mac"
+              },
+              "vendor": {
+                "id": 100352,
+                "name": "Type Mac"
+              },
+              "categories": {
+                "21": {
+                  "id": 21,
+                  "name": "ARTIFICIAL_INTELLIGENCE"
+                }
+              },
+              "sig_name": "Type Mac",
+              "methods": {}
+            }
+          }
+        },
+        "100597": {
+          "id": 100597,
+          "tested_points": [
+            {
+              "signature": 100655,
+              "version": "2.46.2"
+            }
+          ],
+          "labels": [],
+          "languages": [],
+          "name": "Mem",
+          "signatures": {
+            "100655": {
+              "signature": 100655,
+              "product": {
+                "id": 100597,
+                "name": "Mem"
+              },
+              "vendor": {
+                "id": 100353,
+                "name": "Mem Labs, Inc."
+              },
+              "categories": {
+                "21": {
+                  "id": 21,
+                  "name": "ARTIFICIAL_INTELLIGENCE"
+                }
+              },
+              "sig_name": "Mem",
+              "methods": {}
             }
           }
         }
@@ -40460,6 +41176,7 @@ SUPPORT_CHARTS = {
                   "name": "SYSTEM_DIAGNOSTIC_AND_CLEANUP"
                 }
               },
+              "sig_name": "CCleaner",
               "methods": {
                 "manageability": {
                   "100": {
@@ -40566,8 +41283,7 @@ SUPPORT_CHARTS = {
                     "name": "GetInstallationDirectories"
                   }
                 }
-              },
-              "sig_name": "CCleaner"
+              }
             }
           }
         },
@@ -40599,6 +41315,7 @@ SUPPORT_CHARTS = {
                   "name": "SYSTEM_DIAGNOSTIC_AND_CLEANUP"
                 }
               },
+              "sig_name": "AppCleaner",
               "methods": {
                 "manageability": {
                   "101": {
@@ -40624,8 +41341,7 @@ SUPPORT_CHARTS = {
                     "name": "GetRunningState"
                   }
                 }
-              },
-              "sig_name": "AppCleaner"
+              }
             }
           }
         }
@@ -41013,6 +41729,10 @@ SUPPORT_CHARTS = {
               "signature": 100145,
               "version": "27.0",
               "release": "Beta"
+            },
+            {
+              "signature": 100145,
+              "version": "26.6"
             }
           ],
           "labels": [],
@@ -41036,6 +41756,7 @@ SUPPORT_CHARTS = {
                 }
               },
               "whole_disk_encryption": true,
+              "sig_name": "FileVault",
               "methods": {
                 "manageability": {
                   "100": {
@@ -41223,8 +41944,7 @@ SUPPORT_CHARTS = {
                     "name": "TerminateProcesses"
                   }
                 }
-              },
-              "sig_name": "FileVault"
+              }
             }
           }
         },
@@ -41257,6 +41977,7 @@ SUPPORT_CHARTS = {
                 }
               },
               "whole_disk_encryption": true,
+              "sig_name": "Symantec Encryption Desktop",
               "methods": {
                 "manageability": {
                   "1009": {
@@ -41264,8 +41985,7 @@ SUPPORT_CHARTS = {
                     "name": "GetEncryptionState"
                   }
                 }
-              },
-              "sig_name": "Symantec Encryption Desktop"
+              }
             }
           }
         },
@@ -41298,8 +42018,8 @@ SUPPORT_CHARTS = {
                 }
               },
               "whole_disk_encryption": false,
-              "methods": {},
-              "sig_name": "Protect Files"
+              "sig_name": "Protect Files",
+              "methods": {}
             }
           }
         },
@@ -41332,8 +42052,8 @@ SUPPORT_CHARTS = {
                 }
               },
               "whole_disk_encryption": false,
-              "methods": {},
-              "sig_name": "Concealer"
+              "sig_name": "Concealer",
+              "methods": {}
             }
           }
         },
@@ -41366,8 +42086,8 @@ SUPPORT_CHARTS = {
                 }
               },
               "whole_disk_encryption": false,
-              "methods": {},
-              "sig_name": "MEO File Encryption Software"
+              "sig_name": "MEO File Encryption Software",
+              "methods": {}
             }
           }
         },
@@ -41400,6 +42120,7 @@ SUPPORT_CHARTS = {
                 }
               },
               "whole_disk_encryption": false,
+              "sig_name": "AutoKrypt",
               "methods": {
                 "manageability": {
                   "1009": {
@@ -41407,8 +42128,7 @@ SUPPORT_CHARTS = {
                     "name": "GetEncryptionState"
                   }
                 }
-              },
-              "sig_name": "AutoKrypt"
+              }
             }
           }
         },
@@ -41459,6 +42179,7 @@ SUPPORT_CHARTS = {
                 }
               },
               "whole_disk_encryption": false,
+              "sig_name": "iDoctor",
               "methods": {
                 "manageability": {
                   "1008": {
@@ -41481,8 +42202,7 @@ SUPPORT_CHARTS = {
                     "name": "GetAntiphishingState"
                   }
                 }
-              },
-              "sig_name": "iDoctor"
+              }
             }
           }
         },
@@ -41515,8 +42235,8 @@ SUPPORT_CHARTS = {
                 }
               },
               "whole_disk_encryption": false,
-              "methods": {},
-              "sig_name": "MacFort"
+              "sig_name": "MacFort",
+              "methods": {}
             }
           }
         },
@@ -41557,8 +42277,8 @@ SUPPORT_CHARTS = {
                 }
               },
               "whole_disk_encryption": false,
-              "methods": {},
-              "sig_name": "EncryptStick"
+              "sig_name": "EncryptStick",
+              "methods": {}
             }
           }
         },
@@ -41616,6 +42336,7 @@ SUPPORT_CHARTS = {
                 }
               },
               "whole_disk_encryption": false,
+              "sig_name": "MacKeeper",
               "methods": {
                 "manageability": {
                   "100": {
@@ -41694,8 +42415,7 @@ SUPPORT_CHARTS = {
                     "name": "Uninstall"
                   }
                 }
-              },
-              "sig_name": "MacKeeper"
+              }
             }
           }
         },
@@ -41787,6 +42507,7 @@ SUPPORT_CHARTS = {
                 }
               },
               "whole_disk_encryption": true,
+              "sig_name": "Check Point Endpoint Security",
               "methods": {
                 "manageability": {
                   "100": {
@@ -42118,8 +42839,7 @@ SUPPORT_CHARTS = {
                     "name": "GetInstallationDirectories"
                   }
                 }
-              },
-              "sig_name": "Check Point Endpoint Security"
+              }
             }
           }
         },
@@ -42153,6 +42873,7 @@ SUPPORT_CHARTS = {
                 }
               },
               "whole_disk_encryption": true,
+              "sig_name": "Sophos SafeGuard",
               "methods": {
                 "manageability": {
                   "1009": {
@@ -42160,8 +42881,7 @@ SUPPORT_CHARTS = {
                     "name": "GetEncryptionState"
                   }
                 }
-              },
-              "sig_name": "Sophos SafeGuard"
+              }
             }
           }
         },
@@ -42505,6 +43225,22 @@ SUPPORT_CHARTS = {
               },
               "signature": 100269,
               "version": "8.26.07.200036"
+            },
+            {
+              "methodsStatus": {
+                "1001": -1,
+                "1002": -1,
+                "1003": -1,
+                "1004": -1,
+                "1005": -1,
+                "102": -1,
+                "103": -1,
+                "104": -1,
+                "105": -1,
+                "108": -1
+              },
+              "signature": 100269,
+              "version": "8.26.07.200037"
             }
           ],
           "labels": [],
@@ -42535,6 +43271,7 @@ SUPPORT_CHARTS = {
                   "name": "ANTIMALWARE"
                 }
               },
+              "sig_name": "Bitdefender Endpoint Security for Mac",
               "methods": {
                 "constant": {
                   "103": {
@@ -42799,8 +43536,7 @@ SUPPORT_CHARTS = {
                     "name": "GetRunningState"
                   }
                 }
-              },
-              "sig_name": "Bitdefender Endpoint Security for Mac"
+              }
             }
           },
           "marketing_names": [
@@ -42836,6 +43572,7 @@ SUPPORT_CHARTS = {
                 }
               },
               "whole_disk_encryption": true,
+              "sig_name": "Dell Data Protection | Encryption",
               "methods": {
                 "manageability": {
                   "1009": {
@@ -42899,8 +43636,7 @@ SUPPORT_CHARTS = {
                     "name": "GetEncryptionState"
                   }
                 }
-              },
-              "sig_name": "Dell Data Protection | Encryption"
+              }
             }
           }
         },
@@ -43067,6 +43803,7 @@ SUPPORT_CHARTS = {
                   "name": "ANTIMALWARE"
                 }
               },
+              "sig_name": "Sophos Endpoint",
               "methods": {
                 "constant": {
                   "103": {
@@ -43339,8 +44076,7 @@ SUPPORT_CHARTS = {
                     "name": "Run"
                   }
                 }
-              },
-              "sig_name": "Sophos Endpoint"
+              }
             }
           }
         },
@@ -43383,8 +44119,8 @@ SUPPORT_CHARTS = {
                   "name": "ENCRYPTION"
                 }
               },
-              "methods": {},
-              "sig_name": "SimplySecure"
+              "sig_name": "SimplySecure",
+              "methods": {}
             }
           }
         },
@@ -43428,6 +44164,7 @@ SUPPORT_CHARTS = {
                   "name": "ENCRYPTION"
                 }
               },
+              "sig_name": "Nomadesk",
               "methods": {
                 "manageability": {
                   "1008": {
@@ -43603,8 +44340,7 @@ SUPPORT_CHARTS = {
                     "name": "TerminateProcesses"
                   }
                 }
-              },
-              "sig_name": "Nomadesk"
+              }
             }
           }
         },
@@ -43648,6 +44384,7 @@ SUPPORT_CHARTS = {
                   "name": "ENCRYPTION"
                 }
               },
+              "sig_name": "Endpoint Protector Client",
               "methods": {
                 "constant": {
                   "103": {
@@ -43680,8 +44417,7 @@ SUPPORT_CHARTS = {
                     "name": "GetRunningState"
                   }
                 }
-              },
-              "sig_name": "Endpoint Protector Client"
+              }
             }
           }
         },
@@ -43724,6 +44460,7 @@ SUPPORT_CHARTS = {
                   "name": "ENCRYPTION"
                 }
               },
+              "sig_name": "ESET Full Disk Encryption",
               "methods": {
                 "constant": {
                   "1009": {
@@ -43732,8 +44469,7 @@ SUPPORT_CHARTS = {
                     "name": "GetEncryptionState"
                   }
                 }
-              },
-              "sig_name": "ESET Full Disk Encryption"
+              }
             }
           }
         },
@@ -43765,8 +44501,8 @@ SUPPORT_CHARTS = {
                   "name": "ENCRYPTION"
                 }
               },
-              "methods": {},
-              "sig_name": "VeraCrypt"
+              "sig_name": "VeraCrypt",
+              "methods": {}
             }
           }
         },
@@ -43798,6 +44534,7 @@ SUPPORT_CHARTS = {
                   "name": "ENCRYPTION"
                 }
               },
+              "sig_name": "Kruptos 2 Professional",
               "methods": {
                 "manageability": {
                   "1009": {
@@ -43881,8 +44618,7 @@ SUPPORT_CHARTS = {
                     "name": "GetEncryptionState"
                   }
                 }
-              },
-              "sig_name": "Kruptos 2 Professional"
+              }
             }
           }
         },
@@ -43914,8 +44650,8 @@ SUPPORT_CHARTS = {
                   "name": "ENCRYPTION"
                 }
               },
-              "methods": {},
-              "sig_name": "AxCrypt"
+              "sig_name": "AxCrypt",
+              "methods": {}
             }
           }
         },
@@ -43959,6 +44695,7 @@ SUPPORT_CHARTS = {
                   "name": "ANTIMALWARE"
                 }
               },
+              "sig_name": "Exosphere",
               "methods": {
                 "constant": {
                   "103": {
@@ -44125,8 +44862,7 @@ SUPPORT_CHARTS = {
                     "name": "GetLastScanTime"
                   }
                 }
-              },
-              "sig_name": "Exosphere"
+              }
             }
           }
         }
@@ -44526,6 +45262,14 @@ SUPPORT_CHARTS = {
             {
               "signature": 100004,
               "version": "151.0.7922.72"
+            },
+            {
+              "signature": 100004,
+              "version": "151.0.7922.76"
+            },
+            {
+              "signature": 100004,
+              "version": "151.0.7922.109"
             }
           ],
           "labels": [],
@@ -44552,6 +45296,7 @@ SUPPORT_CHARTS = {
                   "name": "BROWSER"
                 }
               },
+              "sig_name": "Google Chrome",
               "methods": {
                 "manageability": {
                   "100": {
@@ -44822,8 +45567,7 @@ SUPPORT_CHARTS = {
                     "name": "Uninstall"
                   }
                 }
-              },
-              "sig_name": "Google Chrome"
+              }
             }
           }
         },
@@ -45079,6 +45823,7 @@ SUPPORT_CHARTS = {
                   "name": "BROWSER"
                 }
               },
+              "sig_name": "Opera",
               "methods": {
                 "manageability": {
                   "100": {
@@ -45238,8 +45983,7 @@ SUPPORT_CHARTS = {
                     "name": "Uninstall"
                   }
                 }
-              },
-              "sig_name": "Opera"
+              }
             }
           }
         },
@@ -45525,6 +46269,10 @@ SUPPORT_CHARTS = {
             {
               "signature": 100190,
               "version": "26.5.2 (21624.2.5.11.8)"
+            },
+            {
+              "signature": 100190,
+              "version": "26.6 (21624.4.5.11.5)"
             }
           ],
           "labels": [],
@@ -45551,6 +46299,7 @@ SUPPORT_CHARTS = {
                   "name": "BROWSER"
                 }
               },
+              "sig_name": "Safari",
               "methods": {
                 "manageability": {
                   "100": {
@@ -45699,8 +46448,7 @@ SUPPORT_CHARTS = {
                     "name": "GetPlugins"
                   }
                 }
-              },
-              "sig_name": "Safari"
+              }
             }
           }
         },
@@ -46249,6 +46997,13 @@ SUPPORT_CHARTS = {
             {
               "signature": 100292,
               "version": "153.0.1"
+            },
+            {
+              "methodsStatus": {
+                "1010": -1
+              },
+              "signature": 100292,
+              "version": "153.0.3"
             }
           ],
           "labels": [],
@@ -46275,6 +47030,7 @@ SUPPORT_CHARTS = {
                   "name": "BROWSER"
                 }
               },
+              "sig_name": "Firefox",
               "methods": {
                 "manageability": {
                   "100": {
@@ -46457,8 +47213,7 @@ SUPPORT_CHARTS = {
                     "name": "Uninstall"
                   }
                 }
-              },
-              "sig_name": "Firefox"
+              }
             }
           }
         },
@@ -46490,8 +47245,8 @@ SUPPORT_CHARTS = {
                   "name": "ANTIPHISHING"
                 }
               },
-              "methods": {},
-              "sig_name": "AVG LinkScanner"
+              "sig_name": "AVG LinkScanner",
+              "methods": {}
             }
           }
         },
@@ -46535,6 +47290,7 @@ SUPPORT_CHARTS = {
                   "name": "BROWSER"
                 }
               },
+              "sig_name": "SeaMonkey",
               "methods": {
                 "manageability": {
                   "101": {
@@ -46577,8 +47333,7 @@ SUPPORT_CHARTS = {
                     "name": "GetAntiphishingState"
                   }
                 }
-              },
-              "sig_name": "SeaMonkey"
+              }
             }
           }
         },
@@ -46651,6 +47406,7 @@ SUPPORT_CHARTS = {
                   "name": "FIREWALL"
                 }
               },
+              "sig_name": "ESET Cyber Security Pro",
               "methods": {
                 "manageability": {
                   "100": {
@@ -46962,8 +47718,7 @@ SUPPORT_CHARTS = {
                     "name": "Uninstall"
                   }
                 }
-              },
-              "sig_name": "ESET Cyber Security Pro"
+              }
             }
           }
         },
@@ -47047,6 +47802,7 @@ SUPPORT_CHARTS = {
                   "name": "ANTIMALWARE"
                 }
               },
+              "sig_name": "ESET Cyber Security",
               "methods": {
                 "constant": {
                   "103": {
@@ -47436,8 +48192,7 @@ SUPPORT_CHARTS = {
                     "name": "Uninstall"
                   }
                 }
-              },
-              "sig_name": "ESET Cyber Security"
+              }
             }
           }
         },
@@ -47489,6 +48244,7 @@ SUPPORT_CHARTS = {
                   "name": "FIREWALL"
                 }
               },
+              "sig_name": "Norton Internet Security",
               "methods": {
                 "manageability": {
                   "100": {
@@ -47723,8 +48479,7 @@ SUPPORT_CHARTS = {
                     "name": "Scan"
                   }
                 }
-              },
-              "sig_name": "Norton Internet Security"
+              }
             }
           }
         },
@@ -47809,6 +48564,7 @@ SUPPORT_CHARTS = {
                   "name": "FIREWALL"
                 }
               },
+              "sig_name": "VirusBarrier",
               "methods": {
                 "constant": {
                   "103": {
@@ -47997,8 +48753,7 @@ SUPPORT_CHARTS = {
                     "name": "Uninstall"
                   }
                 }
-              },
-              "sig_name": "VirusBarrier"
+              }
             }
           }
         },
@@ -48063,6 +48818,7 @@ SUPPORT_CHARTS = {
                   "name": "ANTIMALWARE"
                 }
               },
+              "sig_name": "Kaspersky Internet Security",
               "methods": {
                 "constant": {
                   "103": {
@@ -48416,8 +49172,7 @@ SUPPORT_CHARTS = {
                     "name": "Uninstall"
                   }
                 }
-              },
-              "sig_name": "Kaspersky Internet Security"
+              }
             }
           }
         },
@@ -48477,6 +49232,7 @@ SUPPORT_CHARTS = {
                   "name": "ANTIMALWARE"
                 }
               },
+              "sig_name": "Sophos Anti-Virus",
               "methods": {
                 "manageability": {
                   "100": {
@@ -48728,8 +49484,7 @@ SUPPORT_CHARTS = {
                     "name": "Uninstall"
                   }
                 }
-              },
-              "sig_name": "Sophos Anti-Virus"
+              }
             }
           }
         },
@@ -48837,6 +49592,7 @@ SUPPORT_CHARTS = {
                   "name": "BROWSER"
                 }
               },
+              "sig_name": "Vivaldi",
               "methods": {
                 "manageability": {
                   "101": {
@@ -48908,8 +49664,7 @@ SUPPORT_CHARTS = {
                     "name": "TerminateProcesses"
                   }
                 }
-              },
-              "sig_name": "Vivaldi"
+              }
             }
           }
         },
@@ -48945,8 +49700,8 @@ SUPPORT_CHARTS = {
                   "name": "ANTIMALWARE"
                 }
               },
-              "methods": {},
-              "sig_name": "Norman Antivirus for Mac"
+              "sig_name": "Norman Antivirus for Mac",
+              "methods": {}
             }
           }
         },
@@ -48997,6 +49752,7 @@ SUPPORT_CHARTS = {
                 }
               },
               "whole_disk_encryption": false,
+              "sig_name": "iDoctor",
               "methods": {
                 "manageability": {
                   "1008": {
@@ -49019,8 +49775,7 @@ SUPPORT_CHARTS = {
                     "name": "GetAntiphishingState"
                   }
                 }
-              },
-              "sig_name": "iDoctor"
+              }
             }
           }
         },
@@ -49088,6 +49843,7 @@ SUPPORT_CHARTS = {
                   "name": "ANTIMALWARE"
                 }
               },
+              "sig_name": "Trend Micro Internet Security for Mac",
               "methods": {
                 "manageability": {
                   "100": {
@@ -49284,8 +50040,7 @@ SUPPORT_CHARTS = {
                     "name": "Uninstall"
                   }
                 }
-              },
-              "sig_name": "Trend Micro Internet Security for Mac"
+              }
             }
           },
           "marketing_names": [
@@ -49347,6 +50102,7 @@ SUPPORT_CHARTS = {
                 }
               },
               "whole_disk_encryption": false,
+              "sig_name": "MacKeeper",
               "methods": {
                 "manageability": {
                   "100": {
@@ -49425,8 +50181,7 @@ SUPPORT_CHARTS = {
                     "name": "Uninstall"
                   }
                 }
-              },
-              "sig_name": "MacKeeper"
+              }
             }
           }
         },
@@ -49467,6 +50222,7 @@ SUPPORT_CHARTS = {
                   "name": "ANTIMALWARE"
                 }
               },
+              "sig_name": "Kaspersky Anti-Virus",
               "methods": {
                 "manageability": {
                   "1000": {
@@ -49622,8 +50378,7 @@ SUPPORT_CHARTS = {
                     "name": "GetAntiphishingState"
                   }
                 }
-              },
-              "sig_name": "Kaspersky Anti-Virus"
+              }
             }
           },
           "marketing_names": [
@@ -49698,6 +50453,7 @@ SUPPORT_CHARTS = {
                   "name": "ANTIMALWARE"
                 }
               },
+              "sig_name": "ESET Endpoint Antivirus",
               "methods": {
                 "manageability": {
                   "100": {
@@ -50063,8 +50819,7 @@ SUPPORT_CHARTS = {
                     "name": "GetInstallationDirectories"
                   }
                 }
-              },
-              "sig_name": "ESET Endpoint Antivirus"
+              }
             }
           }
         },
@@ -50124,6 +50879,7 @@ SUPPORT_CHARTS = {
                   "name": "ANTIMALWARE"
                 }
               },
+              "sig_name": "Trend Micro Security",
               "methods": {
                 "constant": {
                   "103": {
@@ -50354,8 +51110,7 @@ SUPPORT_CHARTS = {
                     "name": "GetRunningState"
                   }
                 }
-              },
-              "sig_name": "Trend Micro Security"
+              }
             }
           },
           "marketing_names": [
@@ -50462,6 +51217,7 @@ SUPPORT_CHARTS = {
                   "name": "ANTIMALWARE"
                 }
               },
+              "sig_name": "Sophos Home",
               "methods": {
                 "constant": {
                   "1005": {
@@ -50731,8 +51487,7 @@ SUPPORT_CHARTS = {
                     "name": "Uninstall"
                   }
                 }
-              },
-              "sig_name": "Sophos Home"
+              }
             }
           }
         },
@@ -50808,6 +51563,7 @@ SUPPORT_CHARTS = {
                   "name": "FIREWALL"
                 }
               },
+              "sig_name": "McAfee Endpoint Security for Mac",
               "methods": {
                 "constant": {
                   "1003": {
@@ -50988,8 +51744,7 @@ SUPPORT_CHARTS = {
                     "name": "Uninstall"
                   }
                 }
-              },
-              "sig_name": "McAfee Endpoint Security for Mac"
+              }
             }
           }
         },
@@ -51093,6 +51848,7 @@ SUPPORT_CHARTS = {
                   "name": "FIREWALL"
                 }
               },
+              "sig_name": "Norton Security",
               "methods": {
                 "constant": {
                   "103": {
@@ -51309,8 +52065,7 @@ SUPPORT_CHARTS = {
                     "name": "GetInstallationDirectories"
                   }
                 }
-              },
-              "sig_name": "Norton Security"
+              }
             }
           }
         },
@@ -51416,6 +52171,7 @@ SUPPORT_CHARTS = {
                   "name": "FIREWALL"
                 }
               },
+              "sig_name": "ESET Endpoint Security",
               "methods": {
                 "constant": {
                   "103": {
@@ -51887,8 +52643,7 @@ SUPPORT_CHARTS = {
                     "name": "GetInstallationDirectories"
                   }
                 }
-              },
-              "sig_name": "ESET Endpoint Security"
+              }
             }
           },
           "marketing_names": [
@@ -52204,6 +52959,22 @@ SUPPORT_CHARTS = {
               },
               "signature": 100269,
               "version": "8.26.07.200036"
+            },
+            {
+              "methodsStatus": {
+                "1001": -1,
+                "1002": -1,
+                "1003": -1,
+                "1004": -1,
+                "1005": -1,
+                "102": -1,
+                "103": -1,
+                "104": -1,
+                "105": -1,
+                "108": -1
+              },
+              "signature": 100269,
+              "version": "8.26.07.200037"
             }
           ],
           "labels": [],
@@ -52234,6 +53005,7 @@ SUPPORT_CHARTS = {
                   "name": "ANTIMALWARE"
                 }
               },
+              "sig_name": "Bitdefender Endpoint Security for Mac",
               "methods": {
                 "constant": {
                   "103": {
@@ -52498,8 +53270,7 @@ SUPPORT_CHARTS = {
                     "name": "GetRunningState"
                   }
                 }
-              },
-              "sig_name": "Bitdefender Endpoint Security for Mac"
+              }
             }
           },
           "marketing_names": [
@@ -52586,6 +53357,7 @@ SUPPORT_CHARTS = {
                   "name": "ANTIMALWARE"
                 }
               },
+              "sig_name": "Webroot SecureAnywhere",
               "methods": {
                 "constant": {
                   "1003": {
@@ -52897,8 +53669,7 @@ SUPPORT_CHARTS = {
                     "name": "GetInstallationDirectories"
                   }
                 }
-              },
-              "sig_name": "Webroot SecureAnywhere"
+              }
             }
           },
           "marketing_names": [
@@ -52984,6 +53755,7 @@ SUPPORT_CHARTS = {
                   "name": "ANTIMALWARE"
                 }
               },
+              "sig_name": "Kaspersky Endpoint Security",
               "methods": {
                 "manageability": {
                   "1000": {
@@ -53355,8 +54127,7 @@ SUPPORT_CHARTS = {
                     "name": "GetInstallationDirectories"
                   }
                 }
-              },
-              "sig_name": "Kaspersky Endpoint Security"
+              }
             }
           }
         },
@@ -53392,8 +54163,8 @@ SUPPORT_CHARTS = {
                   "name": "ANTIPHISHING"
                 }
               },
-              "methods": {},
-              "sig_name": "腾讯电脑管家"
+              "sig_name": "腾讯电脑管家",
+              "methods": {}
             }
           }
         },
@@ -53433,8 +54204,8 @@ SUPPORT_CHARTS = {
                   "name": "ANTIMALWARE"
                 }
               },
-              "methods": {},
-              "sig_name": "MaxTotalSecurity"
+              "sig_name": "MaxTotalSecurity",
+              "methods": {}
             }
           }
         },
@@ -53494,6 +54265,7 @@ SUPPORT_CHARTS = {
                   "name": "FIREWALL"
                 }
               },
+              "sig_name": "F-Secure Computer Protection for Mac",
               "methods": {
                 "manageability": {
                   "100": {
@@ -53736,8 +54508,7 @@ SUPPORT_CHARTS = {
                     "name": "TerminateProcesses"
                   }
                 }
-              },
-              "sig_name": "F-Secure Computer Protection for Mac"
+              }
             }
           }
         },
@@ -53789,6 +54560,7 @@ SUPPORT_CHARTS = {
                   "name": "FIREWALL"
                 }
               },
+              "sig_name": "F-Secure Client Security for Mac",
               "methods": {
                 "manageability": {
                   "100": {
@@ -54031,8 +54803,7 @@ SUPPORT_CHARTS = {
                     "name": "TerminateProcesses"
                   }
                 }
-              },
-              "sig_name": "F-Secure Client Security for Mac"
+              }
             }
           }
         },
@@ -54076,6 +54847,7 @@ SUPPORT_CHARTS = {
                   "name": "ANTIMALWARE"
                 }
               },
+              "sig_name": "ウイルスバスター for Mac",
               "methods": {
                 "manageability": {
                   "1000": {
@@ -54196,8 +54968,7 @@ SUPPORT_CHARTS = {
                     "name": "Run"
                   }
                 }
-              },
-              "sig_name": "ウイルスバスター for Mac"
+              }
             }
           }
         },
@@ -54237,6 +55008,7 @@ SUPPORT_CHARTS = {
                   "name": "ANTIMALWARE"
                 }
               },
+              "sig_name": "Seqrite Endpoint Security",
               "methods": {
                 "constant": {
                   "103": {
@@ -54526,8 +55298,7 @@ SUPPORT_CHARTS = {
                     "name": "EnableRTP"
                   }
                 }
-              },
-              "sig_name": "Seqrite Endpoint Security"
+              }
             }
           }
         },
@@ -54563,8 +55334,8 @@ SUPPORT_CHARTS = {
                   "name": "BROWSER"
                 }
               },
-              "methods": {},
-              "sig_name": "Firefox Nightly"
+              "sig_name": "Firefox Nightly",
+              "methods": {}
             }
           }
         },
@@ -54600,8 +55371,8 @@ SUPPORT_CHARTS = {
                   "name": "BROWSER"
                 }
               },
-              "methods": {},
-              "sig_name": "Firefox Developer Edition"
+              "sig_name": "Firefox Developer Edition",
+              "methods": {}
             }
           }
         },
@@ -54649,6 +55420,7 @@ SUPPORT_CHARTS = {
                   "name": "ANTIMALWARE"
                 }
               },
+              "sig_name": "Kaspersky Security Cloud",
               "methods": {
                 "manageability": {
                   "1000": {
@@ -54989,8 +55761,7 @@ SUPPORT_CHARTS = {
                     "name": "TerminateProcesses"
                   }
                 }
-              },
-              "sig_name": "Kaspersky Security Cloud"
+              }
             }
           }
         },
@@ -55046,6 +55817,7 @@ SUPPORT_CHARTS = {
                   "name": "ANTIMALWARE"
                 }
               },
+              "sig_name": "Apex One (Mac) Security Agent",
               "methods": {
                 "constant": {
                   "103": {
@@ -55276,8 +56048,7 @@ SUPPORT_CHARTS = {
                     "name": "GetRunningState"
                   }
                 }
-              },
-              "sig_name": "Apex One (Mac) Security Agent"
+              }
             }
           }
         },
@@ -55367,6 +56138,7 @@ SUPPORT_CHARTS = {
                   "name": "FIREWALL"
                 }
               },
+              "sig_name": "FortiClient",
               "methods": {
                 "manageability": {
                   "1000": {
@@ -55497,8 +56269,7 @@ SUPPORT_CHARTS = {
                     "name": "TerminateProcesses"
                   }
                 }
-              },
-              "sig_name": "FortiClient"
+              }
             }
           }
         },
@@ -55538,6 +56309,7 @@ SUPPORT_CHARTS = {
                   "name": "FIREWALL"
                 }
               },
+              "sig_name": "F-Secure Computer Protection and Rapid Detection & Response for Mac",
               "methods": {
                 "manageability": {
                   "100": {
@@ -55668,8 +56440,7 @@ SUPPORT_CHARTS = {
                     "name": "GetRunningState"
                   }
                 }
-              },
-              "sig_name": "F-Secure Computer Protection and Rapid Detection & Response for Mac"
+              }
             }
           }
         },
@@ -55709,6 +56480,7 @@ SUPPORT_CHARTS = {
                   "name": "ANTIMALWARE"
                 }
               },
+              "sig_name": "Panda Adaptive Defense 360",
               "methods": {
                 "constant": {
                   "103": {
@@ -55876,8 +56648,7 @@ SUPPORT_CHARTS = {
                     "name": "GetDefinitionState"
                   }
                 }
-              },
-              "sig_name": "Panda Adaptive Defense 360"
+              }
             }
           },
           "marketing_names": [
@@ -55922,6 +56693,7 @@ SUPPORT_CHARTS = {
                   "name": "FIREWALL"
                 }
               },
+              "sig_name": "Norton 360",
               "methods": {
                 "manageability": {
                   "100": {
@@ -56189,8 +56961,7 @@ SUPPORT_CHARTS = {
                     "name": "GetRunningState"
                   }
                 }
-              },
-              "sig_name": "Norton 360"
+              }
             }
           }
         },
@@ -56326,6 +57097,7 @@ SUPPORT_CHARTS = {
                   "name": "ANTIMALWARE"
                 }
               },
+              "sig_name": "Avast One",
               "methods": {
                 "constant": {
                   "103": {
@@ -56688,8 +57460,7 @@ SUPPORT_CHARTS = {
                     "name": "GetInstallationDirectories"
                   }
                 }
-              },
-              "sig_name": "Avast One"
+              }
             }
           }
         },
@@ -56733,6 +57504,7 @@ SUPPORT_CHARTS = {
                   "name": "BROWSER"
                 }
               },
+              "sig_name": "Avast Secure Browser",
               "methods": {
                 "manageability": {
                   "1010": {
@@ -56753,8 +57525,7 @@ SUPPORT_CHARTS = {
                     "name": "GetAntiphishingState"
                   }
                 }
-              },
-              "sig_name": "Avast Secure Browser"
+              }
             }
           }
         },
@@ -56798,6 +57569,7 @@ SUPPORT_CHARTS = {
                   "name": "ANTIMALWARE"
                 }
               },
+              "sig_name": "Cyber Eye Security Agent",
               "methods": {
                 "constant": {
                   "103": {
@@ -57027,8 +57799,7 @@ SUPPORT_CHARTS = {
                     "name": "GetRunningState"
                   }
                 }
-              },
-              "sig_name": "Cyber Eye Security Agent"
+              }
             }
           }
         },
@@ -57092,6 +57863,7 @@ SUPPORT_CHARTS = {
                   "name": "ANTIMALWARE"
                 }
               },
+              "sig_name": "Trend Micro Deep Security Agent",
               "methods": {
                 "constant": {
                   "103": {
@@ -57342,8 +58114,7 @@ SUPPORT_CHARTS = {
                     "name": "GetAntiphishingState"
                   }
                 }
-              },
-              "sig_name": "Trend Micro Deep Security Agent"
+              }
             }
           }
         },
@@ -57650,6 +58421,14 @@ SUPPORT_CHARTS = {
             {
               "signature": 100474,
               "version": "151.0.4129.59"
+            },
+            {
+              "signature": 100474,
+              "version": "151.0.4129.72"
+            },
+            {
+              "signature": 100474,
+              "version": "151.0.4129.78"
             }
           ],
           "labels": [],
@@ -57676,6 +58455,7 @@ SUPPORT_CHARTS = {
                   "name": "BROWSER"
                 }
               },
+              "sig_name": "Microsoft Edge",
               "methods": {
                 "manageability": {
                   "100": {
@@ -57842,8 +58622,7 @@ SUPPORT_CHARTS = {
                     "name": "GetPlugins"
                   }
                 }
-              },
-              "sig_name": "Microsoft Edge"
+              }
             }
           }
         },
@@ -57891,6 +58670,7 @@ SUPPORT_CHARTS = {
                   "name": "ANTIMALWARE"
                 }
               },
+              "sig_name": "Kaspersky Plus",
               "methods": {
                 "manageability": {
                   "1000": {
@@ -58261,8 +59041,7 @@ SUPPORT_CHARTS = {
                     "name": "TerminateProcesses"
                   }
                 }
-              },
-              "sig_name": "Kaspersky Plus"
+              }
             }
           },
           "marketing_names": [
@@ -58310,6 +59089,7 @@ SUPPORT_CHARTS = {
                   "name": "BROWSER"
                 }
               },
+              "sig_name": "Brave",
               "methods": {
                 "manageability": {
                   "100": {
@@ -58446,8 +59226,7 @@ SUPPORT_CHARTS = {
                     "name": "GetPlugins"
                   }
                 }
-              },
-              "sig_name": "Brave"
+              }
             }
           }
         },
@@ -58487,8 +59266,8 @@ SUPPORT_CHARTS = {
                   "name": "BROWSER"
                 }
               },
-              "methods": {},
-              "sig_name": "SeaMonkey (deprecated)"
+              "sig_name": "SeaMonkey (deprecated)",
+              "methods": {}
             }
           }
         },
@@ -58548,6 +59327,7 @@ SUPPORT_CHARTS = {
                   "name": "FIREWALL"
                 }
               },
+              "sig_name": "Trellix Endpoint Security for Mac",
               "methods": {
                 "constant": {
                   "103": {
@@ -59002,8 +59782,7 @@ SUPPORT_CHARTS = {
                     "name": "IsAuthentic"
                   }
                 }
-              },
-              "sig_name": "Trellix Endpoint Security for Mac"
+              }
             }
           }
         },
@@ -59063,6 +59842,7 @@ SUPPORT_CHARTS = {
                   "name": "FIREWALL"
                 }
               },
+              "sig_name": "WithSecure Elements EPP for Computers",
               "methods": {
                 "constant": {
                   "103": {
@@ -59263,8 +60043,7 @@ SUPPORT_CHARTS = {
                     "name": "Run"
                   }
                 }
-              },
-              "sig_name": "WithSecure Elements EPP for Computers"
+              }
             }
           },
           "marketing_names": [
@@ -59304,6 +60083,7 @@ SUPPORT_CHARTS = {
                   "name": "ANTIMALWARE"
                 }
               },
+              "sig_name": "Qualys Endpoint Protection Platform",
               "methods": {
                 "constant": {
                   "103": {
@@ -59455,8 +60235,7 @@ SUPPORT_CHARTS = {
                     "name": "GetRunningState"
                   }
                 }
-              },
-              "sig_name": "Qualys Endpoint Protection Platform"
+              }
             }
           }
         },
@@ -59496,6 +60275,7 @@ SUPPORT_CHARTS = {
                   "name": "ANTIMALWARE"
                 }
               },
+              "sig_name": "WithSecure Client Security for Mac",
               "methods": {
                 "constant": {
                   "102": {
@@ -59684,8 +60464,7 @@ SUPPORT_CHARTS = {
                     "name": "GetDefinitionState"
                   }
                 }
-              },
-              "sig_name": "WithSecure Client Security for Mac"
+              }
             }
           }
         },
@@ -59721,6 +60500,7 @@ SUPPORT_CHARTS = {
                   "name": "ANTIMALWARE"
                 }
               },
+              "sig_name": "Seqrite Endpoint Protection",
               "methods": {
                 "constant": {
                   "103": {
@@ -60098,8 +60878,7 @@ SUPPORT_CHARTS = {
                     "name": "IsAuthentic"
                   }
                 }
-              },
-              "sig_name": "Seqrite Endpoint Protection"
+              }
             }
           }
         },
@@ -60139,6 +60918,7 @@ SUPPORT_CHARTS = {
                   "name": "BROWSER"
                 }
               },
+              "sig_name": "Browser Operator",
               "methods": {
                 "constant": {
                   "1025": {
@@ -60229,8 +61009,7 @@ SUPPORT_CHARTS = {
                     "name": "GetPlugins"
                   }
                 }
-              },
-              "sig_name": "Browser Operator"
+              }
             }
           }
         },
@@ -60274,6 +61053,7 @@ SUPPORT_CHARTS = {
                   "name": "BROWSER"
                 }
               },
+              "sig_name": "Comet",
               "methods": {
                 "constant": {
                   "1025": {
@@ -60435,8 +61215,7 @@ SUPPORT_CHARTS = {
                     "name": "GetPlugins"
                   }
                 }
-              },
-              "sig_name": "Comet"
+              }
             }
           }
         },
@@ -60472,6 +61251,7 @@ SUPPORT_CHARTS = {
                   "name": "ANTIMALWARE"
                 }
               },
+              "sig_name": "WatchGuard Endpoint Security Elite",
               "methods": {
                 "constant": {
                   "103": {
@@ -60601,8 +61381,7 @@ SUPPORT_CHARTS = {
                     "name": "GetDefinitionState"
                   }
                 }
-              },
-              "sig_name": "WatchGuard Endpoint Security Elite"
+              }
             }
           }
         },
@@ -60638,8 +61417,8 @@ SUPPORT_CHARTS = {
                   "name": "ANTIMALWARE"
                 }
               },
-              "methods": {},
-              "sig_name": "WatchGuard Endpoint Security 360"
+              "sig_name": "WatchGuard Endpoint Security 360",
+              "methods": {}
             }
           }
         },
@@ -60675,8 +61454,8 @@ SUPPORT_CHARTS = {
                   "name": "ANTIMALWARE"
                 }
               },
-              "methods": {},
-              "sig_name": "WatchGuard Endpoint Security Prime"
+              "sig_name": "WatchGuard Endpoint Security Prime",
+              "methods": {}
             }
           }
         },
@@ -60712,6 +61491,7 @@ SUPPORT_CHARTS = {
                   "name": "ANTIMALWARE"
                 }
               },
+              "sig_name": "WatchGuard Endpoint Security Basic",
               "methods": {
                 "constant": {
                   "103": {
@@ -60915,8 +61695,7 @@ SUPPORT_CHARTS = {
                     "name": "IsAuthentic"
                   }
                 }
-              },
-              "sig_name": "WatchGuard Endpoint Security Basic"
+              }
             }
           }
         }
@@ -61089,6 +61868,7 @@ SUPPORT_CHARTS = {
                   "name": "ANTIMALWARE"
                 }
               },
+              "sig_name": "AVG AntiVirus",
               "methods": {
                 "manageability": {
                   "100": {
@@ -61386,8 +62166,7 @@ SUPPORT_CHARTS = {
                     "name": "Uninstall"
                   }
                 }
-              },
-              "sig_name": "AVG AntiVirus"
+              }
             }
           }
         },
@@ -61423,6 +62202,7 @@ SUPPORT_CHARTS = {
                   "name": "FIREWALL"
                 }
               },
+              "sig_name": "McAfee Security",
               "methods": {
                 "manageability": {
                   "1000": {
@@ -61544,8 +62324,7 @@ SUPPORT_CHARTS = {
                     "name": "GetRunningState"
                   }
                 }
-              },
-              "sig_name": "McAfee Security"
+              }
             }
           }
         },
@@ -61618,6 +62397,7 @@ SUPPORT_CHARTS = {
                   "name": "FIREWALL"
                 }
               },
+              "sig_name": "ESET Cyber Security Pro",
               "methods": {
                 "manageability": {
                   "100": {
@@ -61929,8 +62709,7 @@ SUPPORT_CHARTS = {
                     "name": "Uninstall"
                   }
                 }
-              },
-              "sig_name": "ESET Cyber Security Pro"
+              }
             }
           }
         },
@@ -62017,6 +62796,7 @@ SUPPORT_CHARTS = {
                   "name": "FIREWALL"
                 }
               },
+              "sig_name": "F-Secure Anti-Virus for Mac",
               "methods": {
                 "constant": {
                   "103": {
@@ -62160,8 +62940,7 @@ SUPPORT_CHARTS = {
                     "name": "Uninstall"
                   }
                 }
-              },
-              "sig_name": "F-Secure Anti-Virus for Mac"
+              }
             }
           }
         },
@@ -62208,6 +62987,7 @@ SUPPORT_CHARTS = {
                   "name": "FIREWALL"
                 }
               },
+              "sig_name": "McAfee Endpoint Protection for Mac",
               "methods": {
                 "manageability": {
                   "100": {
@@ -62351,8 +63131,7 @@ SUPPORT_CHARTS = {
                     "name": "Uninstall"
                   }
                 }
-              },
-              "sig_name": "McAfee Endpoint Protection for Mac"
+              }
             }
           },
           "marketing_names": [
@@ -62387,6 +63166,7 @@ SUPPORT_CHARTS = {
                   "name": "ANTIMALWARE"
                 }
               },
+              "sig_name": "Dr․Web for Mac OS X",
               "methods": {
                 "manageability": {
                   "1000": {
@@ -62409,8 +63189,7 @@ SUPPORT_CHARTS = {
                     "name": "EnableRTP"
                   }
                 }
-              },
-              "sig_name": "Dr․Web for Mac OS X"
+              }
             }
           }
         },
@@ -62497,6 +63276,7 @@ SUPPORT_CHARTS = {
                   "name": "ANTIMALWARE"
                 }
               },
+              "sig_name": "ESET Cyber Security",
               "methods": {
                 "constant": {
                   "103": {
@@ -62886,8 +63666,7 @@ SUPPORT_CHARTS = {
                     "name": "Uninstall"
                   }
                 }
-              },
-              "sig_name": "ESET Cyber Security"
+              }
             }
           }
         },
@@ -62920,6 +63699,7 @@ SUPPORT_CHARTS = {
                   "name": "ANTIMALWARE"
                 }
               },
+              "sig_name": "ESET NOD32 Antivirus",
               "methods": {
                 "manageability": {
                   "1000": {
@@ -63126,8 +63906,7 @@ SUPPORT_CHARTS = {
                     "name": "Scan"
                   }
                 }
-              },
-              "sig_name": "ESET NOD32 Antivirus"
+              }
             }
           },
           "marketing_names": [
@@ -63182,6 +63961,7 @@ SUPPORT_CHARTS = {
                   "name": "FIREWALL"
                 }
               },
+              "sig_name": "Norton Internet Security",
               "methods": {
                 "manageability": {
                   "100": {
@@ -63416,8 +64196,7 @@ SUPPORT_CHARTS = {
                     "name": "Scan"
                   }
                 }
-              },
-              "sig_name": "Norton Internet Security"
+              }
             }
           }
         },
@@ -63513,6 +64292,7 @@ SUPPORT_CHARTS = {
                   "name": "FIREWALL"
                 }
               },
+              "sig_name": "VirusBarrier",
               "methods": {
                 "constant": {
                   "103": {
@@ -63701,8 +64481,7 @@ SUPPORT_CHARTS = {
                     "name": "Uninstall"
                   }
                 }
-              },
-              "sig_name": "VirusBarrier"
+              }
             }
           }
         },
@@ -63762,6 +64541,7 @@ SUPPORT_CHARTS = {
                   "name": "ANTIMALWARE"
                 }
               },
+              "sig_name": "ClamXav",
               "methods": {
                 "constant": {
                   "103": {
@@ -64143,8 +64923,7 @@ SUPPORT_CHARTS = {
                     "name": "Uninstall"
                   }
                 }
-              },
-              "sig_name": "ClamXav"
+              }
             }
           }
         },
@@ -64209,6 +64988,7 @@ SUPPORT_CHARTS = {
                   "name": "ANTIMALWARE"
                 }
               },
+              "sig_name": "Kaspersky Internet Security",
               "methods": {
                 "constant": {
                   "103": {
@@ -64562,8 +65342,7 @@ SUPPORT_CHARTS = {
                     "name": "Uninstall"
                   }
                 }
-              },
-              "sig_name": "Kaspersky Internet Security"
+              }
             }
           }
         },
@@ -64614,6 +65393,7 @@ SUPPORT_CHARTS = {
                   "name": "ANTIMALWARE"
                 }
               },
+              "sig_name": "Avira Mac Security",
               "methods": {
                 "manageability": {
                   "100": {
@@ -64820,8 +65600,7 @@ SUPPORT_CHARTS = {
                     "name": "Uninstall"
                   }
                 }
-              },
-              "sig_name": "Avira Mac Security"
+              }
             },
             "100358": {
               "signature": 100358,
@@ -64839,6 +65618,7 @@ SUPPORT_CHARTS = {
                   "name": "ANTIMALWARE"
                 }
               },
+              "sig_name": "Avira Security",
               "methods": {
                 "constant": {
                   "1000": {
@@ -64847,8 +65627,7 @@ SUPPORT_CHARTS = {
                     "name": "GetRealTimeProtectionState"
                   }
                 }
-              },
-              "sig_name": "Avira Security"
+              }
             }
           }
         },
@@ -64980,6 +65759,7 @@ SUPPORT_CHARTS = {
                   "name": "ANTIMALWARE"
                 }
               },
+              "sig_name": "Bitdefender Antivirus for Mac",
               "methods": {
                 "constant": {
                   "103": {
@@ -65215,8 +65995,7 @@ SUPPORT_CHARTS = {
                     "name": "Uninstall"
                   }
                 }
-              },
-              "sig_name": "Bitdefender Antivirus for Mac"
+              }
             }
           }
         },
@@ -65269,6 +66048,7 @@ SUPPORT_CHARTS = {
                   "name": "ANTIMALWARE"
                 }
               },
+              "sig_name": "G Data AntiVirus",
               "methods": {
                 "constant": {
                   "103": {
@@ -65611,8 +66391,7 @@ SUPPORT_CHARTS = {
                     "name": "GetInstallationDirectories"
                   }
                 }
-              },
-              "sig_name": "G Data AntiVirus"
+              }
             }
           }
         },
@@ -65648,6 +66427,7 @@ SUPPORT_CHARTS = {
                   "name": "ANTIMALWARE"
                 }
               },
+              "sig_name": "Comodo Antivirus for Mac",
               "methods": {
                 "constant": {
                   "1003": {
@@ -65747,8 +66527,7 @@ SUPPORT_CHARTS = {
                     "name": "Uninstall"
                   }
                 }
-              },
-              "sig_name": "Comodo Antivirus for Mac"
+              }
             }
           }
         },
@@ -65788,6 +66567,7 @@ SUPPORT_CHARTS = {
                   "name": "ANTIMALWARE"
                 }
               },
+              "sig_name": "Panda Antivirus",
               "methods": {
                 "manageability": {
                   "100": {
@@ -65996,8 +66776,7 @@ SUPPORT_CHARTS = {
                     "name": "GetInstallationDirectories"
                   }
                 }
-              },
-              "sig_name": "Panda Antivirus"
+              }
             }
           }
         },
@@ -66113,6 +66892,7 @@ SUPPORT_CHARTS = {
                   "name": "FIREWALL"
                 }
               },
+              "sig_name": "McAfee Internet Security",
               "methods": {
                 "manageability": {
                   "100": {
@@ -66421,8 +67201,7 @@ SUPPORT_CHARTS = {
                     "name": "TerminateProcesses"
                   }
                 }
-              },
-              "sig_name": "McAfee Internet Security"
+              }
             }
           }
         },
@@ -66485,6 +67264,7 @@ SUPPORT_CHARTS = {
                   "name": "ANTIMALWARE"
                 }
               },
+              "sig_name": "Sophos Anti-Virus",
               "methods": {
                 "manageability": {
                   "100": {
@@ -66736,8 +67516,7 @@ SUPPORT_CHARTS = {
                     "name": "Uninstall"
                   }
                 }
-              },
-              "sig_name": "Sophos Anti-Virus"
+              }
             }
           }
         },
@@ -66773,8 +67552,8 @@ SUPPORT_CHARTS = {
                   "name": "ANTIMALWARE"
                 }
               },
-              "methods": {},
-              "sig_name": "Norman Antivirus for Mac"
+              "sig_name": "Norman Antivirus for Mac",
+              "methods": {}
             }
           }
         },
@@ -66810,6 +67589,7 @@ SUPPORT_CHARTS = {
                   "name": "ANTIMALWARE"
                 }
               },
+              "sig_name": "System Center 2012 Endpoint Protection for Mac",
               "methods": {
                 "manageability": {
                   "1000": {
@@ -66870,8 +67650,7 @@ SUPPORT_CHARTS = {
                     "name": "Uninstall"
                   }
                 }
-              },
-              "sig_name": "System Center 2012 Endpoint Protection for Mac"
+              }
             }
           }
         },
@@ -66939,6 +67718,7 @@ SUPPORT_CHARTS = {
                   "name": "ANTIMALWARE"
                 }
               },
+              "sig_name": "Trend Micro Internet Security for Mac",
               "methods": {
                 "manageability": {
                   "100": {
@@ -67135,8 +67915,7 @@ SUPPORT_CHARTS = {
                     "name": "Uninstall"
                   }
                 }
-              },
-              "sig_name": "Trend Micro Internet Security for Mac"
+              }
             }
           },
           "marketing_names": [
@@ -67287,6 +68066,7 @@ SUPPORT_CHARTS = {
                   "name": "ANTIMALWARE"
                 }
               },
+              "sig_name": "Avast Mac Security",
               "methods": {
                 "constant": {
                   "103": {
@@ -67649,8 +68429,7 @@ SUPPORT_CHARTS = {
                     "name": "Uninstall"
                   }
                 }
-              },
-              "sig_name": "Avast Mac Security"
+              }
             }
           },
           "marketing_names": [
@@ -67696,6 +68475,7 @@ SUPPORT_CHARTS = {
                   "name": "FIREWALL"
                 }
               },
+              "sig_name": "McAfee All Access - Internet Security",
               "methods": {
                 "manageability": {
                   "1000": {
@@ -67916,8 +68696,7 @@ SUPPORT_CHARTS = {
                     "name": "GetFirewallState"
                   }
                 }
-              },
-              "sig_name": "McAfee All Access - Internet Security"
+              }
             }
           },
           "marketing_names": [
@@ -67954,8 +68733,8 @@ SUPPORT_CHARTS = {
                   "name": "ANTIMALWARE"
                 }
               },
-              "methods": {},
-              "sig_name": "ProtectMac AntiVirus"
+              "sig_name": "ProtectMac AntiVirus",
+              "methods": {}
             }
           }
         },
@@ -68415,6 +69194,10 @@ SUPPORT_CHARTS = {
               "signature": 100141,
               "version": "27.0",
               "release": "Beta"
+            },
+            {
+              "signature": 100141,
+              "version": "26.6"
             }
           ],
           "labels": [],
@@ -68437,6 +69220,7 @@ SUPPORT_CHARTS = {
                   "name": "ANTIMALWARE"
                 }
               },
+              "sig_name": "Gatekeeper",
               "methods": {
                 "constant": {
                   "1001": {
@@ -68552,8 +69336,7 @@ SUPPORT_CHARTS = {
                     "name": "EnableRTP"
                   }
                 }
-              },
-              "sig_name": "Gatekeeper"
+              }
             }
           }
         },
@@ -68590,6 +69373,7 @@ SUPPORT_CHARTS = {
                   "name": "ANTIMALWARE"
                 }
               },
+              "sig_name": "Norton AntiVirus 12+",
               "methods": {
                 "manageability": {
                   "1000": {
@@ -68770,8 +69554,7 @@ SUPPORT_CHARTS = {
                     "name": "Scan"
                   }
                 }
-              },
-              "sig_name": "Norton AntiVirus 12+"
+              }
             },
             "100357": {
               "signature": 100357,
@@ -68793,6 +69576,7 @@ SUPPORT_CHARTS = {
                   "name": "FIREWALL"
                 }
               },
+              "sig_name": "Norton AntiVirus",
               "methods": {
                 "manageability": {
                   "100": {
@@ -69056,8 +69840,7 @@ SUPPORT_CHARTS = {
                     "name": "TerminateProcesses"
                   }
                 }
-              },
-              "sig_name": "Norton AntiVirus"
+              }
             }
           }
         },
@@ -69089,8 +69872,8 @@ SUPPORT_CHARTS = {
                   "name": "ANTIMALWARE"
                 }
               },
-              "methods": {},
-              "sig_name": "Chili Antivirus for Mac"
+              "sig_name": "Chili Antivirus for Mac",
+              "methods": {}
             }
           }
         },
@@ -69147,6 +69930,7 @@ SUPPORT_CHARTS = {
                 }
               },
               "whole_disk_encryption": false,
+              "sig_name": "MacKeeper",
               "methods": {
                 "manageability": {
                   "100": {
@@ -69225,8 +70009,7 @@ SUPPORT_CHARTS = {
                     "name": "Uninstall"
                   }
                 }
-              },
-              "sig_name": "MacKeeper"
+              }
             }
           }
         },
@@ -69366,6 +70149,7 @@ SUPPORT_CHARTS = {
                   "name": "FIREWALL"
                 }
               },
+              "sig_name": "Symantec Endpoint Protection",
               "methods": {
                 "constant": {
                   "1007": {
@@ -69707,8 +70491,7 @@ SUPPORT_CHARTS = {
                     "name": "TerminateProcesses"
                   }
                 }
-              },
-              "sig_name": "Symantec Endpoint Protection"
+              }
             }
           }
         },
@@ -69740,8 +70523,8 @@ SUPPORT_CHARTS = {
                   "name": "ANTIMALWARE"
                 }
               },
-              "methods": {},
-              "sig_name": "eScan Anti Virus Security"
+              "sig_name": "eScan Anti Virus Security",
+              "methods": {}
             }
           }
         },
@@ -69783,6 +70566,7 @@ SUPPORT_CHARTS = {
                   "name": "ANTIMALWARE"
                 }
               },
+              "sig_name": "Malwarebytes Anti-Malware",
               "methods": {
                 "removal": {
                   "40000": {
@@ -69790,8 +70574,7 @@ SUPPORT_CHARTS = {
                     "name": "Uninstall"
                   }
                 }
-              },
-              "sig_name": "Malwarebytes Anti-Malware"
+              }
             }
           }
         },
@@ -69824,6 +70607,7 @@ SUPPORT_CHARTS = {
                   "name": "ANTIMALWARE"
                 }
               },
+              "sig_name": "Symantec AntiVirus",
               "methods": {
                 "manageability": {
                   "1000": {
@@ -69877,8 +70661,7 @@ SUPPORT_CHARTS = {
                     "name": "GetRealTimeProtectionState"
                   }
                 }
-              },
-              "sig_name": "Symantec AntiVirus"
+              }
             }
           }
         },
@@ -69970,6 +70753,7 @@ SUPPORT_CHARTS = {
                 }
               },
               "whole_disk_encryption": true,
+              "sig_name": "Check Point Endpoint Security",
               "methods": {
                 "manageability": {
                   "100": {
@@ -70301,8 +71085,7 @@ SUPPORT_CHARTS = {
                     "name": "GetInstallationDirectories"
                   }
                 }
-              },
-              "sig_name": "Check Point Endpoint Security"
+              }
             }
           }
         },
@@ -70358,6 +71141,7 @@ SUPPORT_CHARTS = {
                   "name": "ANTIMALWARE"
                 }
               },
+              "sig_name": "Bitdefender Virus Scanner",
               "methods": {
                 "constant": {
                   "1000": {
@@ -70552,8 +71336,7 @@ SUPPORT_CHARTS = {
                     "name": "TerminateProcesses"
                   }
                 }
-              },
-              "sig_name": "Bitdefender Virus Scanner"
+              }
             }
           }
         },
@@ -70626,6 +71409,7 @@ SUPPORT_CHARTS = {
                   "name": "ANTIMALWARE"
                 }
               },
+              "sig_name": "CylancePROTECT",
               "methods": {
                 "constant": {
                   "1006": {
@@ -70727,8 +71511,7 @@ SUPPORT_CHARTS = {
                     "name": "GetRunningState"
                   }
                 }
-              },
-              "sig_name": "CylancePROTECT"
+              }
             }
           }
         },
@@ -70769,6 +71552,7 @@ SUPPORT_CHARTS = {
                   "name": "ANTIMALWARE"
                 }
               },
+              "sig_name": "Kaspersky Anti-Virus",
               "methods": {
                 "manageability": {
                   "1000": {
@@ -70924,8 +71708,7 @@ SUPPORT_CHARTS = {
                     "name": "GetAntiphishingState"
                   }
                 }
-              },
-              "sig_name": "Kaspersky Anti-Virus"
+              }
             }
           },
           "marketing_names": [
@@ -71010,6 +71793,7 @@ SUPPORT_CHARTS = {
                   "name": "ANTIMALWARE"
                 }
               },
+              "sig_name": "ESET Endpoint Antivirus",
               "methods": {
                 "manageability": {
                   "100": {
@@ -71375,8 +72159,7 @@ SUPPORT_CHARTS = {
                     "name": "GetInstallationDirectories"
                   }
                 }
-              },
-              "sig_name": "ESET Endpoint Antivirus"
+              }
             }
           }
         },
@@ -71443,6 +72226,7 @@ SUPPORT_CHARTS = {
                   "name": "ANTIMALWARE"
                 }
               },
+              "sig_name": "Trend Micro Security",
               "methods": {
                 "constant": {
                   "103": {
@@ -71673,8 +72457,7 @@ SUPPORT_CHARTS = {
                     "name": "GetRunningState"
                   }
                 }
-              },
-              "sig_name": "Trend Micro Security"
+              }
             }
           },
           "marketing_names": [
@@ -71781,6 +72564,7 @@ SUPPORT_CHARTS = {
                   "name": "ANTIMALWARE"
                 }
               },
+              "sig_name": "Sophos Home",
               "methods": {
                 "constant": {
                   "1005": {
@@ -72050,8 +72834,7 @@ SUPPORT_CHARTS = {
                     "name": "Uninstall"
                   }
                 }
-              },
-              "sig_name": "Sophos Home"
+              }
             }
           }
         },
@@ -72083,6 +72866,7 @@ SUPPORT_CHARTS = {
                   "name": "ANTIMALWARE"
                 }
               },
+              "sig_name": "iAntiVirus",
               "methods": {
                 "manageability": {
                   "1001": {
@@ -72096,8 +72880,7 @@ SUPPORT_CHARTS = {
                     "name": "Uninstall"
                   }
                 }
-              },
-              "sig_name": "iAntiVirus"
+              }
             }
           }
         },
@@ -72133,6 +72916,7 @@ SUPPORT_CHARTS = {
                   "name": "ANTIMALWARE"
                 }
               },
+              "sig_name": "Bitdefender Virus Scanner Plus",
               "methods": {
                 "manageability": {
                   "1000": {
@@ -72174,8 +72958,7 @@ SUPPORT_CHARTS = {
                     "name": "TerminateProcesses"
                   }
                 }
-              },
-              "sig_name": "Bitdefender Virus Scanner Plus"
+              }
             }
           }
         },
@@ -72261,6 +73044,7 @@ SUPPORT_CHARTS = {
                   "name": "FIREWALL"
                 }
               },
+              "sig_name": "McAfee Endpoint Security for Mac",
               "methods": {
                 "constant": {
                   "1003": {
@@ -72441,8 +73225,7 @@ SUPPORT_CHARTS = {
                     "name": "Uninstall"
                   }
                 }
-              },
-              "sig_name": "McAfee Endpoint Security for Mac"
+              }
             }
           }
         },
@@ -72474,8 +73257,8 @@ SUPPORT_CHARTS = {
                   "name": "ANTIMALWARE"
                 }
               },
-              "methods": {},
-              "sig_name": "Dr.Web Light"
+              "sig_name": "Dr.Web Light",
+              "methods": {}
             }
           }
         },
@@ -72507,6 +73290,7 @@ SUPPORT_CHARTS = {
                   "name": "ANTIMALWARE"
                 }
               },
+              "sig_name": "MacScan",
               "methods": {
                 "manageability": {
                   "1004": {
@@ -72514,8 +73298,7 @@ SUPPORT_CHARTS = {
                     "name": "GetLastScanTime"
                   }
                 }
-              },
-              "sig_name": "MacScan"
+              }
             }
           }
         },
@@ -72633,6 +73416,7 @@ SUPPORT_CHARTS = {
                   "name": "FIREWALL"
                 }
               },
+              "sig_name": "Norton Security",
               "methods": {
                 "constant": {
                   "103": {
@@ -72849,8 +73633,7 @@ SUPPORT_CHARTS = {
                     "name": "GetInstallationDirectories"
                   }
                 }
-              },
-              "sig_name": "Norton Security"
+              }
             }
           }
         },
@@ -72888,8 +73671,8 @@ SUPPORT_CHARTS = {
                   "name": "ANTIMALWARE"
                 }
               },
-              "methods": {},
-              "sig_name": "BitMedic AntiVirus - Malware & Adware Security"
+              "sig_name": "BitMedic AntiVirus - Malware & Adware Security",
+              "methods": {}
             }
           }
         },
@@ -73002,6 +73785,7 @@ SUPPORT_CHARTS = {
                   "name": "FIREWALL"
                 }
               },
+              "sig_name": "ESET Endpoint Security",
               "methods": {
                 "constant": {
                   "103": {
@@ -73473,8 +74257,7 @@ SUPPORT_CHARTS = {
                     "name": "GetInstallationDirectories"
                   }
                 }
-              },
-              "sig_name": "ESET Endpoint Security"
+              }
             }
           },
           "marketing_names": [
@@ -73519,6 +74302,7 @@ SUPPORT_CHARTS = {
                   "name": "ANTIMALWARE"
                 }
               },
+              "sig_name": "VIPRE Business for Mac Agent",
               "methods": {
                 "manageability": {
                   "100": {
@@ -73623,8 +74407,7 @@ SUPPORT_CHARTS = {
                     "name": "TerminateProcesses"
                   }
                 }
-              },
-              "sig_name": "VIPRE Business for Mac Agent"
+              }
             }
           }
         },
@@ -73982,6 +74765,23 @@ SUPPORT_CHARTS = {
               },
               "signature": 100269,
               "version": "8.26.07.200036"
+            },
+            {
+              "certification": "platinum",
+              "methodsStatus": {
+                "1001": -1,
+                "1002": -1,
+                "1003": -1,
+                "1004": -1,
+                "1005": -1,
+                "102": -1,
+                "103": -1,
+                "104": -1,
+                "105": -1,
+                "108": -1
+              },
+              "signature": 100269,
+              "version": "8.26.07.200037"
             }
           ],
           "labels": [],
@@ -74012,6 +74812,7 @@ SUPPORT_CHARTS = {
                   "name": "ANTIMALWARE"
                 }
               },
+              "sig_name": "Bitdefender Endpoint Security for Mac",
               "methods": {
                 "constant": {
                   "103": {
@@ -74276,8 +75077,7 @@ SUPPORT_CHARTS = {
                     "name": "GetRunningState"
                   }
                 }
-              },
-              "sig_name": "Bitdefender Endpoint Security for Mac"
+              }
             }
           },
           "marketing_names": [
@@ -74320,6 +75120,7 @@ SUPPORT_CHARTS = {
                   "name": "FIREWALL"
                 }
               },
+              "sig_name": "Flextivity",
               "methods": {
                 "manageability": {
                   "1000": {
@@ -74404,8 +75205,7 @@ SUPPORT_CHARTS = {
                     "name": "GetFirewallState"
                   }
                 }
-              },
-              "sig_name": "Flextivity"
+              }
             }
           }
         },
@@ -74500,6 +75300,7 @@ SUPPORT_CHARTS = {
                   "name": "ANTIMALWARE"
                 }
               },
+              "sig_name": "Webroot SecureAnywhere",
               "methods": {
                 "constant": {
                   "1003": {
@@ -74811,8 +75612,7 @@ SUPPORT_CHARTS = {
                     "name": "GetInstallationDirectories"
                   }
                 }
-              },
-              "sig_name": "Webroot SecureAnywhere"
+              }
             }
           },
           "marketing_names": [
@@ -74908,6 +75708,7 @@ SUPPORT_CHARTS = {
                   "name": "ANTIMALWARE"
                 }
               },
+              "sig_name": "Kaspersky Endpoint Security",
               "methods": {
                 "manageability": {
                   "1000": {
@@ -75279,8 +76080,7 @@ SUPPORT_CHARTS = {
                     "name": "GetInstallationDirectories"
                   }
                 }
-              },
-              "sig_name": "Kaspersky Endpoint Security"
+              }
             }
           }
         },
@@ -75312,6 +76112,7 @@ SUPPORT_CHARTS = {
                   "name": "ANTIMALWARE"
                 }
               },
+              "sig_name": "Max Secure AntiVirus",
               "methods": {
                 "manageability": {
                   "1004": {
@@ -75319,8 +76120,7 @@ SUPPORT_CHARTS = {
                     "name": "GetLastScanTime"
                   }
                 }
-              },
-              "sig_name": "Max Secure AntiVirus"
+              }
             }
           }
         },
@@ -75356,6 +76156,7 @@ SUPPORT_CHARTS = {
                   "name": "ANTIMALWARE"
                 }
               },
+              "sig_name": "MacBooster",
               "methods": {
                 "manageability": {
                   "100": {
@@ -75363,8 +76164,7 @@ SUPPORT_CHARTS = {
                     "name": "GetVersion"
                   }
                 }
-              },
-              "sig_name": "MacBooster"
+              }
             }
           }
         },
@@ -75405,8 +76205,8 @@ SUPPORT_CHARTS = {
                   "name": "ANTIMALWARE"
                 }
               },
-              "methods": {},
-              "sig_name": "MaxTotalSecurity"
+              "sig_name": "MaxTotalSecurity",
+              "methods": {}
             }
           }
         },
@@ -75500,6 +76300,7 @@ SUPPORT_CHARTS = {
                   "name": "ANTIMALWARE"
                 }
               },
+              "sig_name": "Cisco Advanced Malware Protection for Endpoints",
               "methods": {
                 "manageability": {
                   "1000": {
@@ -75527,8 +76328,7 @@ SUPPORT_CHARTS = {
                     "name": "GetScanState"
                   }
                 }
-              },
-              "sig_name": "Cisco Advanced Malware Protection for Endpoints"
+              }
             },
             "100327": {
               "signature": 100327,
@@ -75546,6 +76346,7 @@ SUPPORT_CHARTS = {
                   "name": "ANTIMALWARE"
                 }
               },
+              "sig_name": "Cisco Advanced Malware Protection for Endpoints 1.5+",
               "methods": {
                 "manageability": {
                   "1000": {
@@ -75779,8 +76580,7 @@ SUPPORT_CHARTS = {
                     "name": "GetScanState"
                   }
                 }
-              },
-              "sig_name": "Cisco Advanced Malware Protection for Endpoints 1.5+"
+              }
             },
             "100393": {
               "signature": 100393,
@@ -75798,6 +76598,7 @@ SUPPORT_CHARTS = {
                   "name": "ANTIMALWARE"
                 }
               },
+              "sig_name": "Cisco Advanced Malware Protection for Endpoints 1.14+",
               "methods": {
                 "manageability": {
                   "100": {
@@ -76154,8 +76955,7 @@ SUPPORT_CHARTS = {
                     "name": "TerminateProcesses"
                   }
                 }
-              },
-              "sig_name": "Cisco Advanced Malware Protection for Endpoints 1.14+"
+              }
             }
           }
         },
@@ -76187,8 +76987,8 @@ SUPPORT_CHARTS = {
                   "name": "ANTIMALWARE"
                 }
               },
-              "methods": {},
-              "sig_name": "AntiVirus Thor"
+              "sig_name": "AntiVirus Thor",
+              "methods": {}
             }
           }
         },
@@ -76241,8 +77041,8 @@ SUPPORT_CHARTS = {
                   "name": "ANTIMALWARE"
                 }
               },
-              "methods": {},
-              "sig_name": "Endurance Antivirus"
+              "sig_name": "Endurance Antivirus",
+              "methods": {}
             }
           },
           "marketing_names": [
@@ -76606,6 +77406,7 @@ SUPPORT_CHARTS = {
                   "name": "FIREWALL"
                 }
               },
+              "sig_name": "Sentinel Agent",
               "methods": {
                 "constant": {
                   "103": {
@@ -76923,8 +77724,7 @@ SUPPORT_CHARTS = {
                     "name": "GetInstallationDirectories"
                   }
                 }
-              },
-              "sig_name": "Sentinel Agent"
+              }
             }
           }
         },
@@ -76985,6 +77785,7 @@ SUPPORT_CHARTS = {
                   "name": "ANTIMALWARE"
                 }
               },
+              "sig_name": "Traps",
               "methods": {
                 "manageability": {
                   "1000": {
@@ -77090,8 +77891,7 @@ SUPPORT_CHARTS = {
                     "name": "GetDefinitionState"
                   }
                 }
-              },
-              "sig_name": "Traps"
+              }
             }
           }
         },
@@ -77124,8 +77924,8 @@ SUPPORT_CHARTS = {
                   "name": "ANTIMALWARE"
                 }
               },
-              "methods": {},
-              "sig_name": "Combo Cleaner: Antivirus and System Optimizer"
+              "sig_name": "Combo Cleaner: Antivirus and System Optimizer",
+              "methods": {}
             }
           }
         },
@@ -77172,6 +77972,7 @@ SUPPORT_CHARTS = {
                   "name": "ANTIMALWARE"
                 }
               },
+              "sig_name": "Carbon Black Defense",
               "methods": {
                 "manageability": {
                   "1000": {
@@ -77322,8 +78123,7 @@ SUPPORT_CHARTS = {
                     "name": "TerminateProcesses"
                   }
                 }
-              },
-              "sig_name": "Carbon Black Defense"
+              }
             }
           }
         },
@@ -77693,6 +78493,7 @@ SUPPORT_CHARTS = {
                   "name": "FIREWALL"
                 }
               },
+              "sig_name": "CrowdStrike Falcon",
               "methods": {
                 "constant": {
                   "102": {
@@ -78021,8 +78822,7 @@ SUPPORT_CHARTS = {
                     "name": "GetInstallationDirectories"
                   }
                 }
-              },
-              "sig_name": "CrowdStrike Falcon"
+              }
             }
           }
         },
@@ -78148,6 +78948,7 @@ SUPPORT_CHARTS = {
                   "name": "ANTIMALWARE"
                 }
               },
+              "sig_name": "Malwarebytes",
               "methods": {
                 "constant": {
                   "1000": {
@@ -78167,8 +78968,7 @@ SUPPORT_CHARTS = {
                     "name": "Uninstall"
                   }
                 }
-              },
-              "sig_name": "Malwarebytes"
+              }
             },
             "100372": {
               "signature": 100372,
@@ -78186,6 +78986,7 @@ SUPPORT_CHARTS = {
                   "name": "ANTIMALWARE"
                 }
               },
+              "sig_name": "Malwarebytes 4+",
               "methods": {
                 "manageability": {
                   "100": {
@@ -78468,8 +79269,7 @@ SUPPORT_CHARTS = {
                     "name": "Uninstall"
                   }
                 }
-              },
-              "sig_name": "Malwarebytes 4+"
+              }
             }
           }
         },
@@ -78513,6 +79313,7 @@ SUPPORT_CHARTS = {
                   "name": "FIREWALL"
                 }
               },
+              "sig_name": "G DATA Security Client",
               "methods": {
                 "constant": {
                   "103": {
@@ -78637,8 +79438,7 @@ SUPPORT_CHARTS = {
                     "name": "GetRunningState"
                   }
                 }
-              },
-              "sig_name": "G DATA Security Client"
+              }
             }
           }
         },
@@ -78702,6 +79502,7 @@ SUPPORT_CHARTS = {
                   "name": "FIREWALL"
                 }
               },
+              "sig_name": "F-Secure Computer Protection for Mac",
               "methods": {
                 "manageability": {
                   "100": {
@@ -78944,8 +79745,7 @@ SUPPORT_CHARTS = {
                     "name": "TerminateProcesses"
                   }
                 }
-              },
-              "sig_name": "F-Secure Computer Protection for Mac"
+              }
             }
           }
         },
@@ -79013,6 +79813,7 @@ SUPPORT_CHARTS = {
                   "name": "ANTIMALWARE"
                 }
               },
+              "sig_name": "Carbon Black Response",
               "methods": {
                 "manageability": {
                   "100": {
@@ -79230,8 +80031,7 @@ SUPPORT_CHARTS = {
                     "name": "GetInstallationDirectories"
                   }
                 }
-              },
-              "sig_name": "Carbon Black Response"
+              }
             }
           },
           "marketing_names": [
@@ -79267,8 +80067,8 @@ SUPPORT_CHARTS = {
                   "name": "ANTIMALWARE"
                 }
               },
-              "methods": {},
-              "sig_name": "CyberByte Antivirus"
+              "sig_name": "CyberByte Antivirus",
+              "methods": {}
             }
           }
         },
@@ -79331,6 +80131,7 @@ SUPPORT_CHARTS = {
                   "name": "ANTIMALWARE"
                 }
               },
+              "sig_name": "Quick Heal Total Security",
               "methods": {
                 "manageability": {
                   "100": {
@@ -79641,8 +80442,7 @@ SUPPORT_CHARTS = {
                     "name": "TerminateProcesses"
                   }
                 }
-              },
-              "sig_name": "Quick Heal Total Security"
+              }
             }
           }
         },
@@ -79695,6 +80495,7 @@ SUPPORT_CHARTS = {
                   "name": "FIREWALL"
                 }
               },
+              "sig_name": "F-Secure Client Security for Mac",
               "methods": {
                 "manageability": {
                   "100": {
@@ -79937,8 +80738,7 @@ SUPPORT_CHARTS = {
                     "name": "TerminateProcesses"
                   }
                 }
-              },
-              "sig_name": "F-Secure Client Security for Mac"
+              }
             }
           }
         },
@@ -79982,6 +80782,7 @@ SUPPORT_CHARTS = {
                   "name": "ANTIMALWARE"
                 }
               },
+              "sig_name": "ウイルスバスター for Mac",
               "methods": {
                 "manageability": {
                   "1000": {
@@ -80102,8 +80903,7 @@ SUPPORT_CHARTS = {
                     "name": "Run"
                   }
                 }
-              },
-              "sig_name": "ウイルスバスター for Mac"
+              }
             }
           }
         },
@@ -80140,6 +80940,7 @@ SUPPORT_CHARTS = {
                   "name": "ANTIMALWARE"
                 }
               },
+              "sig_name": "360 Skylar",
               "methods": {
                 "manageability": {
                   "1000": {
@@ -80254,8 +81055,7 @@ SUPPORT_CHARTS = {
                     "name": "GetDefinitionState"
                   }
                 }
-              },
-              "sig_name": "360 Skylar"
+              }
             }
           }
         },
@@ -80357,6 +81157,7 @@ SUPPORT_CHARTS = {
                   "name": "FIREWALL"
                 }
               },
+              "sig_name": "McAfee Total Protection",
               "methods": {
                 "constant": {
                   "103": {
@@ -80647,8 +81448,7 @@ SUPPORT_CHARTS = {
                     "name": "GetRunningState"
                   }
                 }
-              },
-              "sig_name": "McAfee Total Protection"
+              }
             }
           }
         },
@@ -80780,6 +81580,7 @@ SUPPORT_CHARTS = {
                   "name": "FIREWALL"
                 }
               },
+              "sig_name": "McAfee AntiVirus Plus",
               "methods": {
                 "constant": {
                   "103": {
@@ -81071,8 +81872,7 @@ SUPPORT_CHARTS = {
                     "name": "GetRunningState"
                   }
                 }
-              },
-              "sig_name": "McAfee AntiVirus Plus"
+              }
             }
           }
         },
@@ -81204,6 +82004,7 @@ SUPPORT_CHARTS = {
                   "name": "FIREWALL"
                 }
               },
+              "sig_name": "McAfee LiveSafe™",
               "methods": {
                 "constant": {
                   "103": {
@@ -81511,8 +82312,7 @@ SUPPORT_CHARTS = {
                     "name": "GetInstallationDirectories"
                   }
                 }
-              },
-              "sig_name": "McAfee LiveSafe™"
+              }
             }
           }
         },
@@ -81553,6 +82353,7 @@ SUPPORT_CHARTS = {
                   "name": "FIREWALL"
                 }
               },
+              "sig_name": "Symantec Endpoint Protection Cloud",
               "methods": {
                 "constant": {
                   "1007": {
@@ -81814,8 +82615,7 @@ SUPPORT_CHARTS = {
                     "name": "GetInstallationDirectories"
                   }
                 }
-              },
-              "sig_name": "Symantec Endpoint Protection Cloud"
+              }
             }
           }
         },
@@ -81872,6 +82672,7 @@ SUPPORT_CHARTS = {
                   "name": "ANTIMALWARE"
                 }
               },
+              "sig_name": "Avast Business Antivirus",
               "methods": {
                 "manageability": {
                   "1000": {
@@ -82069,8 +82870,7 @@ SUPPORT_CHARTS = {
                     "name": "TerminateProcesses"
                   }
                 }
-              },
-              "sig_name": "Avast Business Antivirus"
+              }
             }
           },
           "marketing_names": [
@@ -82115,6 +82915,7 @@ SUPPORT_CHARTS = {
                   "name": "FIREWALL"
                 }
               },
+              "sig_name": "Mcafee Multi Access - Internet Security",
               "methods": {
                 "manageability": {
                   "1000": {
@@ -82331,8 +83132,7 @@ SUPPORT_CHARTS = {
                     "name": "EnableRTP"
                   }
                 }
-              },
-              "sig_name": "Mcafee Multi Access - Internet Security"
+              }
             }
           }
         },
@@ -82423,6 +83223,7 @@ SUPPORT_CHARTS = {
                   "name": "ANTIMALWARE"
                 }
               },
+              "sig_name": "FireEye Endpoint Agent",
               "methods": {
                 "manageability": {
                   "1000": {
@@ -82578,8 +83379,7 @@ SUPPORT_CHARTS = {
                     "name": "TerminateProcesses"
                   }
                 }
-              },
-              "sig_name": "FireEye Endpoint Agent"
+              }
             }
           }
         },
@@ -82612,6 +83412,7 @@ SUPPORT_CHARTS = {
                   "name": "ANTIMALWARE"
                 }
               },
+              "sig_name": "Antivirus Zap",
               "methods": {
                 "manageability": {
                   "102": {
@@ -82627,8 +83428,7 @@ SUPPORT_CHARTS = {
                     "name": "Run"
                   }
                 }
-              },
-              "sig_name": "Antivirus Zap"
+              }
             }
           }
         },
@@ -82669,6 +83469,7 @@ SUPPORT_CHARTS = {
                   "name": "ANTIMALWARE"
                 }
               },
+              "sig_name": "Seqrite Endpoint Security",
               "methods": {
                 "constant": {
                   "103": {
@@ -82958,8 +83759,7 @@ SUPPORT_CHARTS = {
                     "name": "EnableRTP"
                   }
                 }
-              },
-              "sig_name": "Seqrite Endpoint Security"
+              }
             }
           }
         },
@@ -82991,6 +83791,7 @@ SUPPORT_CHARTS = {
                   "name": "ANTIMALWARE"
                 }
               },
+              "sig_name": "Advanced Threat Protection",
               "methods": {
                 "manageability": {
                   "1000": {
@@ -83063,8 +83864,7 @@ SUPPORT_CHARTS = {
                     "name": "GetDefinitionState"
                   }
                 }
-              },
-              "sig_name": "Advanced Threat Protection"
+              }
             }
           }
         },
@@ -83158,6 +83958,7 @@ SUPPORT_CHARTS = {
                   "name": "ANTIMALWARE"
                 }
               },
+              "sig_name": "Cybereason ActiveProbe",
               "methods": {
                 "constant": {
                   "103": {
@@ -83382,8 +84183,7 @@ SUPPORT_CHARTS = {
                     "name": "GetRunningState"
                   }
                 }
-              },
-              "sig_name": "Cybereason ActiveProbe"
+              }
             }
           }
         },
@@ -83433,6 +84233,7 @@ SUPPORT_CHARTS = {
                   "name": "ANTIMALWARE"
                 }
               },
+              "sig_name": "Kaspersky Security Cloud",
               "methods": {
                 "manageability": {
                   "1000": {
@@ -83773,8 +84574,7 @@ SUPPORT_CHARTS = {
                     "name": "TerminateProcesses"
                   }
                 }
-              },
-              "sig_name": "Kaspersky Security Cloud"
+              }
             }
           }
         },
@@ -83836,6 +84636,7 @@ SUPPORT_CHARTS = {
                   "name": "ANTIMALWARE"
                 }
               },
+              "sig_name": "Apex One (Mac) Security Agent",
               "methods": {
                 "constant": {
                   "103": {
@@ -84066,8 +84867,7 @@ SUPPORT_CHARTS = {
                     "name": "GetRunningState"
                   }
                 }
-              },
-              "sig_name": "Apex One (Mac) Security Agent"
+              }
             }
           }
         },
@@ -84251,6 +85051,7 @@ SUPPORT_CHARTS = {
                   "name": "ANTIMALWARE"
                 }
               },
+              "sig_name": "Sophos Endpoint",
               "methods": {
                 "constant": {
                   "103": {
@@ -84523,8 +85324,7 @@ SUPPORT_CHARTS = {
                     "name": "Run"
                   }
                 }
-              },
-              "sig_name": "Sophos Endpoint"
+              }
             }
           }
         },
@@ -84623,6 +85423,7 @@ SUPPORT_CHARTS = {
                   "name": "FIREWALL"
                 }
               },
+              "sig_name": "FortiClient",
               "methods": {
                 "manageability": {
                   "1000": {
@@ -84753,8 +85554,7 @@ SUPPORT_CHARTS = {
                     "name": "TerminateProcesses"
                   }
                 }
-              },
-              "sig_name": "FortiClient"
+              }
             }
           }
         },
@@ -84891,6 +85691,7 @@ SUPPORT_CHARTS = {
                   "name": "ANTIMALWARE"
                 }
               },
+              "sig_name": "CleanMyMac X",
               "methods": {
                 "constant": {
                   "103": {
@@ -85139,8 +85940,7 @@ SUPPORT_CHARTS = {
                     "name": "GetInstallationDirectories"
                   }
                 }
-              },
-              "sig_name": "CleanMyMac X"
+              }
             }
           }
         },
@@ -85181,6 +85981,7 @@ SUPPORT_CHARTS = {
                   "name": "FIREWALL"
                 }
               },
+              "sig_name": "F-Secure Computer Protection and Rapid Detection & Response for Mac",
               "methods": {
                 "manageability": {
                   "100": {
@@ -85311,8 +86112,7 @@ SUPPORT_CHARTS = {
                     "name": "GetRunningState"
                   }
                 }
-              },
-              "sig_name": "F-Secure Computer Protection and Rapid Detection & Response for Mac"
+              }
             }
           }
         },
@@ -85344,8 +86144,8 @@ SUPPORT_CHARTS = {
                   "name": "ANTIMALWARE"
                 }
               },
-              "methods": {},
-              "sig_name": "Antivirus X-Out"
+              "sig_name": "Antivirus X-Out",
+              "methods": {}
             }
           }
         },
@@ -85621,6 +86421,7 @@ SUPPORT_CHARTS = {
                   "name": "ANTIMALWARE"
                 }
               },
+              "sig_name": "Microsoft Defender ATP",
               "methods": {
                 "constant": {
                   "103": {
@@ -86080,8 +86881,7 @@ SUPPORT_CHARTS = {
                     "name": "GetInstallationDirectories"
                   }
                 }
-              },
-              "sig_name": "Microsoft Defender ATP"
+              }
             }
           },
           "marketing_names": [
@@ -86128,6 +86928,7 @@ SUPPORT_CHARTS = {
                   "name": "ANTIMALWARE"
                 }
               },
+              "sig_name": "Total Defense Antivirus for Mac",
               "methods": {
                 "constant": {
                   "103": {
@@ -86316,8 +87117,7 @@ SUPPORT_CHARTS = {
                     "name": "GetRunningState"
                   }
                 }
-              },
-              "sig_name": "Total Defense Antivirus for Mac"
+              }
             }
           }
         },
@@ -86349,6 +87149,7 @@ SUPPORT_CHARTS = {
                   "name": "ANTIMALWARE"
                 }
               },
+              "sig_name": "Avira Free Antivirus",
               "methods": {
                 "manageability": {
                   "1000": {
@@ -86545,8 +87346,7 @@ SUPPORT_CHARTS = {
                     "name": "GetRunningState"
                   }
                 }
-              },
-              "sig_name": "Avira Free Antivirus"
+              }
             }
           }
         },
@@ -86586,6 +87386,7 @@ SUPPORT_CHARTS = {
                   "name": "ANTIMALWARE"
                 }
               },
+              "sig_name": "Panda Adaptive Defense 360",
               "methods": {
                 "constant": {
                   "103": {
@@ -86753,8 +87554,7 @@ SUPPORT_CHARTS = {
                     "name": "GetDefinitionState"
                   }
                 }
-              },
-              "sig_name": "Panda Adaptive Defense 360"
+              }
             }
           },
           "marketing_names": [
@@ -86799,6 +87599,7 @@ SUPPORT_CHARTS = {
                   "name": "FIREWALL"
                 }
               },
+              "sig_name": "Norton 360",
               "methods": {
                 "manageability": {
                   "100": {
@@ -87066,8 +87867,7 @@ SUPPORT_CHARTS = {
                     "name": "GetRunningState"
                   }
                 }
-              },
-              "sig_name": "Norton 360"
+              }
             }
           }
         },
@@ -87183,6 +87983,11 @@ SUPPORT_CHARTS = {
               "certification": "gold",
               "signature": 100379,
               "version": "9.1.0"
+            },
+            {
+              "certification": "gold",
+              "signature": 100379,
+              "version": "9.3.0"
             }
           ],
           "labels": [],
@@ -87213,6 +88018,7 @@ SUPPORT_CHARTS = {
                   "name": "FIREWALL"
                 }
               },
+              "sig_name": "Cortex XDR",
               "methods": {
                 "constant": {
                   "103": {
@@ -87619,8 +88425,7 @@ SUPPORT_CHARTS = {
                     "name": "GetInstallationDirectories"
                   }
                 }
-              },
-              "sig_name": "Cortex XDR"
+              }
             }
           }
         },
@@ -87652,8 +88457,8 @@ SUPPORT_CHARTS = {
                   "name": "ANTIMALWARE"
                 }
               },
-              "methods": {},
-              "sig_name": "PC Matic"
+              "sig_name": "PC Matic",
+              "methods": {}
             }
           }
         },
@@ -87705,6 +88510,7 @@ SUPPORT_CHARTS = {
                   "name": "ANTIMALWARE"
                 }
               },
+              "sig_name": "Endgame Sensor",
               "methods": {
                 "constant": {
                   "102": {
@@ -87910,8 +88716,7 @@ SUPPORT_CHARTS = {
                     "name": "GetInstallationDirectories"
                   }
                 }
-              },
-              "sig_name": "Endgame Sensor"
+              }
             }
           }
         },
@@ -87971,6 +88776,7 @@ SUPPORT_CHARTS = {
                   "name": "ANTIMALWARE"
                 }
               },
+              "sig_name": "Dr.Web for MacOS",
               "methods": {
                 "manageability": {
                   "1000": {
@@ -88145,8 +88951,7 @@ SUPPORT_CHARTS = {
                     "name": "TerminateProcesses"
                   }
                 }
-              },
-              "sig_name": "Dr.Web for MacOS"
+              }
             }
           }
         },
@@ -88184,6 +88989,7 @@ SUPPORT_CHARTS = {
                   "name": "ANTIMALWARE"
                 }
               },
+              "sig_name": "Antivirus Sniper",
               "methods": {
                 "manageability": {
                   "1000": {
@@ -88289,8 +89095,7 @@ SUPPORT_CHARTS = {
                     "name": "GetDefinitionState"
                   }
                 }
-              },
-              "sig_name": "Antivirus Sniper"
+              }
             }
           }
         },
@@ -88328,6 +89133,7 @@ SUPPORT_CHARTS = {
                   "name": "ANTIMALWARE"
                 }
               },
+              "sig_name": "VIPRE Endpoint Security",
               "methods": {
                 "manageability": {
                   "1000": {
@@ -88462,8 +89268,7 @@ SUPPORT_CHARTS = {
                     "name": "TerminateProcesses"
                   }
                 }
-              },
-              "sig_name": "VIPRE Endpoint Security"
+              }
             }
           }
         },
@@ -88555,6 +89360,7 @@ SUPPORT_CHARTS = {
                   "name": "ANTIMALWARE"
                 }
               },
+              "sig_name": "Trend Micro Antivirus",
               "methods": {
                 "manageability": {
                   "1000": {
@@ -88807,8 +89613,7 @@ SUPPORT_CHARTS = {
                     "name": "Uninstall"
                   }
                 }
-              },
-              "sig_name": "Trend Micro Antivirus"
+              }
             }
           }
         },
@@ -88904,6 +89709,7 @@ SUPPORT_CHARTS = {
                   "name": "ANTIMALWARE"
                 }
               },
+              "sig_name": "Avira Free Security",
               "methods": {
                 "manageability": {
                   "101": {
@@ -88954,8 +89760,7 @@ SUPPORT_CHARTS = {
                     "name": "Uninstall"
                   }
                 }
-              },
-              "sig_name": "Avira Free Security"
+              }
             }
           }
         },
@@ -88991,6 +89796,7 @@ SUPPORT_CHARTS = {
                   "name": "ANTIMALWARE"
                 }
               },
+              "sig_name": "Malwarebytes Endpoint Protection",
               "methods": {
                 "constant": {
                   "102": {
@@ -89187,8 +89993,7 @@ SUPPORT_CHARTS = {
                     "name": "GetInstallationDirectories"
                   }
                 }
-              },
-              "sig_name": "Malwarebytes Endpoint Protection"
+              }
             }
           }
         },
@@ -89267,6 +90072,7 @@ SUPPORT_CHARTS = {
                   "name": "ANTIMALWARE"
                 }
               },
+              "sig_name": "Jamf Protect",
               "methods": {
                 "constant": {
                   "101": {
@@ -89473,8 +90279,7 @@ SUPPORT_CHARTS = {
                     "name": "GetInstallationDirectories"
                   }
                 }
-              },
-              "sig_name": "Jamf Protect"
+              }
             }
           }
         },
@@ -89510,6 +90315,7 @@ SUPPORT_CHARTS = {
                   "name": "ANTIMALWARE"
                 }
               },
+              "sig_name": "Fortinet Endpoint Detection And Response",
               "methods": {
                 "manageability": {
                   "100": {
@@ -89710,8 +90516,7 @@ SUPPORT_CHARTS = {
                     "name": "TerminateProcesses"
                   }
                 }
-              },
-              "sig_name": "Fortinet Endpoint Detection And Response"
+              }
             }
           }
         },
@@ -89759,6 +90564,7 @@ SUPPORT_CHARTS = {
                   "name": "ANTIMALWARE"
                 }
               },
+              "sig_name": "Cybereason ActiveProbe Antimalware",
               "methods": {
                 "constant": {
                   "103": {
@@ -89934,8 +90740,7 @@ SUPPORT_CHARTS = {
                     "name": "GetRunningState"
                   }
                 }
-              },
-              "sig_name": "Cybereason ActiveProbe Antimalware"
+              }
             }
           }
         },
@@ -89967,6 +90772,7 @@ SUPPORT_CHARTS = {
                   "name": "ANTIMALWARE"
                 }
               },
+              "sig_name": "CynetEPS",
               "methods": {
                 "manageability": {
                   "100": {
@@ -90225,8 +91031,7 @@ SUPPORT_CHARTS = {
                     "name": "GetInstallationDirectories"
                   }
                 }
-              },
-              "sig_name": "CynetEPS"
+              }
             }
           }
         },
@@ -90333,6 +91138,7 @@ SUPPORT_CHARTS = {
                   "name": "ANTIMALWARE"
                 }
               },
+              "sig_name": "Elastic Agent",
               "methods": {
                 "manageability": {
                   "100": {
@@ -90587,8 +91393,7 @@ SUPPORT_CHARTS = {
                     "name": "GetInstallationDirectories"
                   }
                 }
-              },
-              "sig_name": "Elastic Agent"
+              }
             }
           }
         },
@@ -90724,6 +91529,7 @@ SUPPORT_CHARTS = {
                   "name": "ANTIMALWARE"
                 }
               },
+              "sig_name": "Avast One",
               "methods": {
                 "constant": {
                   "103": {
@@ -91086,8 +91892,7 @@ SUPPORT_CHARTS = {
                     "name": "GetInstallationDirectories"
                   }
                 }
-              },
-              "sig_name": "Avast One"
+              }
             }
           }
         },
@@ -91573,6 +92378,10 @@ SUPPORT_CHARTS = {
             {
               "signature": 100428,
               "version": "5347"
+            },
+            {
+              "signature": 100428,
+              "version": "5353"
             }
           ],
           "labels": [],
@@ -91595,6 +92404,7 @@ SUPPORT_CHARTS = {
                   "name": "ANTIMALWARE"
                 }
               },
+              "sig_name": "Xprotect",
               "methods": {
                 "constant": {
                   "102": {
@@ -91787,8 +92597,7 @@ SUPPORT_CHARTS = {
                     "name": "GetRunningState"
                   }
                 }
-              },
-              "sig_name": "Xprotect"
+              }
             }
           }
         },
@@ -91935,6 +92744,7 @@ SUPPORT_CHARTS = {
                   "name": "FIREWALL"
                 }
               },
+              "sig_name": "F-Secure SAFE",
               "methods": {
                 "constant": {
                   "103": {
@@ -92122,8 +92932,7 @@ SUPPORT_CHARTS = {
                     "name": "GetRunningState"
                   }
                 }
-              },
-              "sig_name": "F-Secure SAFE"
+              }
             }
           },
           "marketing_names": [
@@ -92189,6 +92998,7 @@ SUPPORT_CHARTS = {
                   "name": "ANTIMALWARE"
                 }
               },
+              "sig_name": "Cisco Secure Endpoint",
               "methods": {
                 "constant": {
                   "103": {
@@ -92557,8 +93367,7 @@ SUPPORT_CHARTS = {
                     "name": "GetScanState"
                   }
                 }
-              },
-              "sig_name": "Cisco Secure Endpoint"
+              }
             }
           }
         },
@@ -92591,6 +93400,7 @@ SUPPORT_CHARTS = {
                   "name": "ANTIMALWARE"
                 }
               },
+              "sig_name": "ReaQta EDR",
               "methods": {
                 "manageability": {
                   "1000": {
@@ -92772,8 +93582,7 @@ SUPPORT_CHARTS = {
                     "name": "GetInstallationDirectories"
                   }
                 }
-              },
-              "sig_name": "ReaQta EDR"
+              }
             }
           }
         },
@@ -92820,6 +93629,7 @@ SUPPORT_CHARTS = {
                   "name": "ANTIMALWARE"
                 }
               },
+              "sig_name": "Cyber Eye Security Agent",
               "methods": {
                 "constant": {
                   "103": {
@@ -93049,8 +93859,7 @@ SUPPORT_CHARTS = {
                     "name": "GetRunningState"
                   }
                 }
-              },
-              "sig_name": "Cyber Eye Security Agent"
+              }
             }
           }
         },
@@ -93123,6 +93932,7 @@ SUPPORT_CHARTS = {
                   "name": "ANTIMALWARE"
                 }
               },
+              "sig_name": "Carbon Black Cloud",
               "methods": {
                 "manageability": {
                   "100": {
@@ -93336,8 +94146,7 @@ SUPPORT_CHARTS = {
                     "name": "TerminateProcesses"
                   }
                 }
-              },
-              "sig_name": "Carbon Black Cloud"
+              }
             }
           }
         },
@@ -93409,6 +94218,7 @@ SUPPORT_CHARTS = {
                   "name": "ANTIMALWARE"
                 }
               },
+              "sig_name": "Trend Micro Deep Security Agent",
               "methods": {
                 "constant": {
                   "103": {
@@ -93659,8 +94469,7 @@ SUPPORT_CHARTS = {
                     "name": "GetAntiphishingState"
                   }
                 }
-              },
-              "sig_name": "Trend Micro Deep Security Agent"
+              }
             }
           }
         },
@@ -93710,6 +94519,7 @@ SUPPORT_CHARTS = {
                   "name": "ANTIMALWARE"
                 }
               },
+              "sig_name": "Kaspersky Plus",
               "methods": {
                 "manageability": {
                   "1000": {
@@ -94080,8 +94890,7 @@ SUPPORT_CHARTS = {
                     "name": "TerminateProcesses"
                   }
                 }
-              },
-              "sig_name": "Kaspersky Plus"
+              }
             }
           },
           "marketing_names": [
@@ -94121,6 +94930,7 @@ SUPPORT_CHARTS = {
                   "name": "ANTIMALWARE"
                 }
               },
+              "sig_name": "360 Total Security",
               "methods": {
                 "constant": {
                   "103": {
@@ -94199,8 +95009,7 @@ SUPPORT_CHARTS = {
                     "name": "GetRunningState"
                   }
                 }
-              },
-              "sig_name": "360 Total Security"
+              }
             }
           }
         },
@@ -94242,6 +95051,7 @@ SUPPORT_CHARTS = {
                   "name": "ANTIMALWARE"
                 }
               },
+              "sig_name": "iBoostUp",
               "methods": {
                 "manageability": {
                   "1000": {
@@ -94475,8 +95285,7 @@ SUPPORT_CHARTS = {
                     "name": "TerminateProcesses"
                   }
                 }
-              },
-              "sig_name": "iBoostUp"
+              }
             }
           }
         },
@@ -94536,6 +95345,7 @@ SUPPORT_CHARTS = {
                   "name": "FIREWALL"
                 }
               },
+              "sig_name": "Trellix Endpoint Security for Mac",
               "methods": {
                 "constant": {
                   "103": {
@@ -94990,8 +95800,7 @@ SUPPORT_CHARTS = {
                     "name": "IsAuthentic"
                   }
                 }
-              },
-              "sig_name": "Trellix Endpoint Security for Mac"
+              }
             }
           }
         },
@@ -95023,6 +95832,7 @@ SUPPORT_CHARTS = {
                   "name": "ANTIMALWARE"
                 }
               },
+              "sig_name": "COMODO Client - Security",
               "methods": {
                 "manageability": {
                   "100": {
@@ -95337,8 +96147,7 @@ SUPPORT_CHARTS = {
                     "name": "TerminateProcesses"
                   }
                 }
-              },
-              "sig_name": "COMODO Client - Security"
+              }
             }
           }
         },
@@ -95370,8 +96179,8 @@ SUPPORT_CHARTS = {
                   "name": "ANTIMALWARE"
                 }
               },
-              "methods": {},
-              "sig_name": "Carbon Black App Control Agent"
+              "sig_name": "Carbon Black App Control Agent",
+              "methods": {}
             }
           }
         },
@@ -95403,8 +96212,8 @@ SUPPORT_CHARTS = {
                   "name": "ANTIMALWARE"
                 }
               },
-              "methods": {},
-              "sig_name": "SpyHunter"
+              "sig_name": "SpyHunter",
+              "methods": {}
             }
           }
         },
@@ -95468,6 +96277,7 @@ SUPPORT_CHARTS = {
                   "name": "FIREWALL"
                 }
               },
+              "sig_name": "WithSecure Elements EPP for Computers",
               "methods": {
                 "constant": {
                   "103": {
@@ -95668,8 +96478,7 @@ SUPPORT_CHARTS = {
                     "name": "Run"
                   }
                 }
-              },
-              "sig_name": "WithSecure Elements EPP for Computers"
+              }
             }
           },
           "marketing_names": [
@@ -95717,6 +96526,7 @@ SUPPORT_CHARTS = {
                   "name": "ANTIMALWARE"
                 }
               },
+              "sig_name": "Exosphere",
               "methods": {
                 "constant": {
                   "103": {
@@ -95883,8 +96693,7 @@ SUPPORT_CHARTS = {
                     "name": "GetLastScanTime"
                   }
                 }
-              },
-              "sig_name": "Exosphere"
+              }
             }
           }
         },
@@ -95921,6 +96730,7 @@ SUPPORT_CHARTS = {
                   "name": "ANTIMALWARE"
                 }
               },
+              "sig_name": "Qualys Endpoint Protection Platform",
               "methods": {
                 "constant": {
                   "103": {
@@ -96072,8 +96882,7 @@ SUPPORT_CHARTS = {
                     "name": "GetRunningState"
                   }
                 }
-              },
-              "sig_name": "Qualys Endpoint Protection Platform"
+              }
             }
           }
         },
@@ -96115,6 +96924,7 @@ SUPPORT_CHARTS = {
                   "name": "ANTIMALWARE"
                 }
               },
+              "sig_name": "WithSecure Client Security for Mac",
               "methods": {
                 "constant": {
                   "102": {
@@ -96303,8 +97113,7 @@ SUPPORT_CHARTS = {
                     "name": "GetDefinitionState"
                   }
                 }
-              },
-              "sig_name": "WithSecure Client Security for Mac"
+              }
             }
           }
         },
@@ -96456,6 +97265,7 @@ SUPPORT_CHARTS = {
                   "name": "FIREWALL"
                 }
               },
+              "sig_name": "Norton",
               "methods": {
                 "constant": {
                   "103": {
@@ -96585,8 +97395,7 @@ SUPPORT_CHARTS = {
                     "name": "GetDefinitionState"
                   }
                 }
-              },
-              "sig_name": "Norton"
+              }
             }
           }
         },
@@ -96622,6 +97431,7 @@ SUPPORT_CHARTS = {
                   "name": "ANTIMALWARE"
                 }
               },
+              "sig_name": "ThreatDown Endpoint Agent",
               "methods": {
                 "constant": {
                   "102": {
@@ -96810,8 +97620,7 @@ SUPPORT_CHARTS = {
                     "name": "GetDefinitionState"
                   }
                 }
-              },
-              "sig_name": "ThreatDown Endpoint Agent"
+              }
             }
           }
         },
@@ -96849,6 +97658,7 @@ SUPPORT_CHARTS = {
                   "name": "ANTIMALWARE"
                 }
               },
+              "sig_name": "Datto EDR Agent",
               "methods": {
                 "constant": {
                   "102": {
@@ -97085,8 +97895,7 @@ SUPPORT_CHARTS = {
                     "name": "GetInstallationDirectories"
                   }
                 }
-              },
-              "sig_name": "Datto EDR Agent"
+              }
             }
           }
         },
@@ -97123,6 +97932,7 @@ SUPPORT_CHARTS = {
                   "name": "ANTIMALWARE"
                 }
               },
+              "sig_name": "Datto AV",
               "methods": {
                 "constant": {
                   "102": {
@@ -97359,8 +98169,7 @@ SUPPORT_CHARTS = {
                     "name": "GetInstallationDirectories"
                   }
                 }
-              },
-              "sig_name": "Datto AV"
+              }
             }
           }
         },
@@ -97397,6 +98206,7 @@ SUPPORT_CHARTS = {
                   "name": "ANTIMALWARE"
                 }
               },
+              "sig_name": "Seqrite Endpoint Protection",
               "methods": {
                 "constant": {
                   "103": {
@@ -97774,8 +98584,7 @@ SUPPORT_CHARTS = {
                     "name": "IsAuthentic"
                   }
                 }
-              },
-              "sig_name": "Seqrite Endpoint Protection"
+              }
             }
           }
         },
@@ -97812,6 +98621,7 @@ SUPPORT_CHARTS = {
                   "name": "ANTIMALWARE"
                 }
               },
+              "sig_name": "Rapid7 Insight Agent",
               "methods": {
                 "constant": {
                   "102": {
@@ -98026,8 +98836,7 @@ SUPPORT_CHARTS = {
                     "name": "GetInstallationDirectories"
                   }
                 }
-              },
-              "sig_name": "Rapid7 Insight Agent"
+              }
             }
           }
         },
@@ -98059,6 +98868,7 @@ SUPPORT_CHARTS = {
                   "name": "ANTIMALWARE"
                 }
               },
+              "sig_name": "SnapAgent",
               "methods": {
                 "manageability": {
                   "100": {
@@ -98198,8 +99008,7 @@ SUPPORT_CHARTS = {
                     "name": "GetInstallationDirectories"
                   }
                 }
-              },
-              "sig_name": "SnapAgent"
+              }
             }
           }
         },
@@ -98235,6 +99044,7 @@ SUPPORT_CHARTS = {
                   "name": "ANTIMALWARE"
                 }
               },
+              "sig_name": "WatchGuard Endpoint Security Elite",
               "methods": {
                 "constant": {
                   "103": {
@@ -98364,8 +99174,7 @@ SUPPORT_CHARTS = {
                     "name": "GetDefinitionState"
                   }
                 }
-              },
-              "sig_name": "WatchGuard Endpoint Security Elite"
+              }
             }
           }
         },
@@ -98401,8 +99210,8 @@ SUPPORT_CHARTS = {
                   "name": "ANTIMALWARE"
                 }
               },
-              "methods": {},
-              "sig_name": "WatchGuard Endpoint Security 360"
+              "sig_name": "WatchGuard Endpoint Security 360",
+              "methods": {}
             }
           }
         },
@@ -98438,8 +99247,8 @@ SUPPORT_CHARTS = {
                   "name": "ANTIMALWARE"
                 }
               },
-              "methods": {},
-              "sig_name": "WatchGuard Endpoint Security Prime"
+              "sig_name": "WatchGuard Endpoint Security Prime",
+              "methods": {}
             }
           }
         },
@@ -98476,6 +99285,7 @@ SUPPORT_CHARTS = {
                   "name": "ANTIMALWARE"
                 }
               },
+              "sig_name": "WatchGuard Endpoint Security Basic",
               "methods": {
                 "constant": {
                   "103": {
@@ -98679,8 +99489,7 @@ SUPPORT_CHARTS = {
                     "name": "IsAuthentic"
                   }
                 }
-              },
-              "sig_name": "WatchGuard Endpoint Security Basic"
+              }
             }
           }
         },
@@ -98720,6 +99529,7 @@ SUPPORT_CHARTS = {
                   "name": "FIREWALL"
                 }
               },
+              "sig_name": "Endpoint Security Agent",
               "methods": {
                 "constant": {
                   "103": {
@@ -99092,8 +99902,7 @@ SUPPORT_CHARTS = {
                     "name": "IsAuthentic"
                   }
                 }
-              },
-              "sig_name": "Endpoint Security Agent"
+              }
             }
           }
         }
@@ -99489,6 +100298,14 @@ SUPPORT_CHARTS = {
             {
               "signature": 100004,
               "version": "151.0.7922.72"
+            },
+            {
+              "signature": 100004,
+              "version": "151.0.7922.76"
+            },
+            {
+              "signature": 100004,
+              "version": "151.0.7922.109"
             }
           ],
           "labels": [],
@@ -99515,6 +100332,7 @@ SUPPORT_CHARTS = {
                   "name": "BROWSER"
                 }
               },
+              "sig_name": "Google Chrome",
               "methods": {
                 "manageability": {
                   "100": {
@@ -99785,8 +100603,7 @@ SUPPORT_CHARTS = {
                     "name": "Uninstall"
                   }
                 }
-              },
-              "sig_name": "Google Chrome"
+              }
             }
           }
         },
@@ -100042,6 +100859,7 @@ SUPPORT_CHARTS = {
                   "name": "BROWSER"
                 }
               },
+              "sig_name": "Opera",
               "methods": {
                 "manageability": {
                   "100": {
@@ -100201,8 +101019,7 @@ SUPPORT_CHARTS = {
                     "name": "Uninstall"
                   }
                 }
-              },
-              "sig_name": "Opera"
+              }
             }
           }
         },
@@ -100238,6 +101055,7 @@ SUPPORT_CHARTS = {
                   "name": "BROWSER"
                 }
               },
+              "sig_name": "Maxthon",
               "methods": {
                 "manageability": {
                   "1011": {
@@ -100251,8 +101069,7 @@ SUPPORT_CHARTS = {
                     "name": "Uninstall"
                   }
                 }
-              },
-              "sig_name": "Maxthon"
+              }
             }
           }
         },
@@ -100538,6 +101355,10 @@ SUPPORT_CHARTS = {
             {
               "signature": 100190,
               "version": "26.5.2 (21624.2.5.11.8)"
+            },
+            {
+              "signature": 100190,
+              "version": "26.6 (21624.4.5.11.5)"
             }
           ],
           "labels": [],
@@ -100564,6 +101385,7 @@ SUPPORT_CHARTS = {
                   "name": "BROWSER"
                 }
               },
+              "sig_name": "Safari",
               "methods": {
                 "manageability": {
                   "100": {
@@ -100712,8 +101534,7 @@ SUPPORT_CHARTS = {
                     "name": "GetPlugins"
                   }
                 }
-              },
-              "sig_name": "Safari"
+              }
             }
           }
         },
@@ -101262,6 +102083,13 @@ SUPPORT_CHARTS = {
             {
               "signature": 100292,
               "version": "153.0.1"
+            },
+            {
+              "methodsStatus": {
+                "1010": -1
+              },
+              "signature": 100292,
+              "version": "153.0.3"
             }
           ],
           "labels": [],
@@ -101288,6 +102116,7 @@ SUPPORT_CHARTS = {
                   "name": "BROWSER"
                 }
               },
+              "sig_name": "Firefox",
               "methods": {
                 "manageability": {
                   "100": {
@@ -101470,8 +102299,7 @@ SUPPORT_CHARTS = {
                     "name": "Uninstall"
                   }
                 }
-              },
-              "sig_name": "Firefox"
+              }
             }
           }
         },
@@ -101515,6 +102343,7 @@ SUPPORT_CHARTS = {
                   "name": "BROWSER"
                 }
               },
+              "sig_name": "SeaMonkey",
               "methods": {
                 "manageability": {
                   "101": {
@@ -101557,8 +102386,7 @@ SUPPORT_CHARTS = {
                     "name": "GetAntiphishingState"
                   }
                 }
-              },
-              "sig_name": "SeaMonkey"
+              }
             }
           }
         },
@@ -101590,6 +102418,7 @@ SUPPORT_CHARTS = {
                   "name": "BROWSER"
                 }
               },
+              "sig_name": "Camino",
               "methods": {
                 "manageability": {
                   "1011": {
@@ -101597,8 +102426,7 @@ SUPPORT_CHARTS = {
                     "name": "IsDefaultBrowser"
                   }
                 }
-              },
-              "sig_name": "Camino"
+              }
             }
           }
         },
@@ -101630,6 +102458,7 @@ SUPPORT_CHARTS = {
                   "name": "BROWSER"
                 }
               },
+              "sig_name": "iCab",
               "methods": {
                 "manageability": {
                   "1011": {
@@ -101637,8 +102466,7 @@ SUPPORT_CHARTS = {
                     "name": "IsDefaultBrowser"
                   }
                 }
-              },
-              "sig_name": "iCab"
+              }
             }
           }
         },
@@ -101670,6 +102498,7 @@ SUPPORT_CHARTS = {
                   "name": "BROWSER"
                 }
               },
+              "sig_name": "NetSurf",
               "methods": {
                 "manageability": {
                   "100": {
@@ -101681,8 +102510,7 @@ SUPPORT_CHARTS = {
                     "name": "IsDefaultBrowser"
                   }
                 }
-              },
-              "sig_name": "NetSurf"
+              }
             }
           }
         },
@@ -101714,6 +102542,7 @@ SUPPORT_CHARTS = {
                   "name": "BROWSER"
                 }
               },
+              "sig_name": "Sleipnir",
               "methods": {
                 "manageability": {
                   "1011": {
@@ -101721,8 +102550,7 @@ SUPPORT_CHARTS = {
                     "name": "IsDefaultBrowser"
                   }
                 }
-              },
-              "sig_name": "Sleipnir"
+              }
             }
           }
         },
@@ -101754,6 +102582,7 @@ SUPPORT_CHARTS = {
                   "name": "BROWSER"
                 }
               },
+              "sig_name": "OmniWeb",
               "methods": {
                 "manageability": {
                   "1011": {
@@ -101761,8 +102590,7 @@ SUPPORT_CHARTS = {
                     "name": "IsDefaultBrowser"
                   }
                 }
-              },
-              "sig_name": "OmniWeb"
+              }
             }
           }
         },
@@ -101794,8 +102622,8 @@ SUPPORT_CHARTS = {
                   "name": "BROWSER"
                 }
               },
-              "methods": {},
-              "sig_name": "Shiira"
+              "sig_name": "Shiira",
+              "methods": {}
             }
           }
         },
@@ -101903,6 +102731,7 @@ SUPPORT_CHARTS = {
                   "name": "BROWSER"
                 }
               },
+              "sig_name": "Vivaldi",
               "methods": {
                 "manageability": {
                   "101": {
@@ -101974,8 +102803,7 @@ SUPPORT_CHARTS = {
                     "name": "TerminateProcesses"
                   }
                 }
-              },
-              "sig_name": "Vivaldi"
+              }
             }
           }
         },
@@ -102007,8 +102835,8 @@ SUPPORT_CHARTS = {
                   "name": "BROWSER"
                 }
               },
-              "methods": {},
-              "sig_name": "Cốc Cốc"
+              "sig_name": "Cốc Cốc",
+              "methods": {}
             }
           }
         },
@@ -102040,8 +102868,8 @@ SUPPORT_CHARTS = {
                   "name": "BROWSER"
                 }
               },
-              "methods": {},
-              "sig_name": "Torch"
+              "sig_name": "Torch",
+              "methods": {}
             }
           }
         },
@@ -102073,8 +102901,8 @@ SUPPORT_CHARTS = {
                   "name": "BROWSER"
                 }
               },
-              "methods": {},
-              "sig_name": "Tor Browser"
+              "sig_name": "Tor Browser",
+              "methods": {}
             }
           }
         },
@@ -102106,6 +102934,7 @@ SUPPORT_CHARTS = {
                   "name": "BROWSER"
                 }
               },
+              "sig_name": "Stainless",
               "methods": {
                 "manageability": {
                   "1011": {
@@ -102113,8 +102942,7 @@ SUPPORT_CHARTS = {
                     "name": "IsDefaultBrowser"
                   }
                 }
-              },
-              "sig_name": "Stainless"
+              }
             }
           }
         },
@@ -102150,8 +102978,8 @@ SUPPORT_CHARTS = {
                   "name": "BROWSER"
                 }
               },
-              "methods": {},
-              "sig_name": "Firefox Nightly"
+              "sig_name": "Firefox Nightly",
+              "methods": {}
             }
           }
         },
@@ -102187,8 +103015,8 @@ SUPPORT_CHARTS = {
                   "name": "BROWSER"
                 }
               },
-              "methods": {},
-              "sig_name": "Firefox Developer Edition"
+              "sig_name": "Firefox Developer Edition",
+              "methods": {}
             }
           }
         },
@@ -102232,6 +103060,7 @@ SUPPORT_CHARTS = {
                   "name": "BROWSER"
                 }
               },
+              "sig_name": "Avast Secure Browser",
               "methods": {
                 "manageability": {
                   "1010": {
@@ -102252,8 +103081,7 @@ SUPPORT_CHARTS = {
                     "name": "GetAntiphishingState"
                   }
                 }
-              },
-              "sig_name": "Avast Secure Browser"
+              }
             }
           }
         },
@@ -102560,6 +103388,14 @@ SUPPORT_CHARTS = {
             {
               "signature": 100474,
               "version": "151.0.4129.59"
+            },
+            {
+              "signature": 100474,
+              "version": "151.0.4129.72"
+            },
+            {
+              "signature": 100474,
+              "version": "151.0.4129.78"
             }
           ],
           "labels": [],
@@ -102586,6 +103422,7 @@ SUPPORT_CHARTS = {
                   "name": "BROWSER"
                 }
               },
+              "sig_name": "Microsoft Edge",
               "methods": {
                 "manageability": {
                   "100": {
@@ -102752,8 +103589,7 @@ SUPPORT_CHARTS = {
                     "name": "GetPlugins"
                   }
                 }
-              },
-              "sig_name": "Microsoft Edge"
+              }
             }
           }
         },
@@ -102797,6 +103633,7 @@ SUPPORT_CHARTS = {
                   "name": "BROWSER"
                 }
               },
+              "sig_name": "Brave",
               "methods": {
                 "manageability": {
                   "100": {
@@ -102933,8 +103770,7 @@ SUPPORT_CHARTS = {
                     "name": "GetPlugins"
                   }
                 }
-              },
-              "sig_name": "Brave"
+              }
             }
           }
         },
@@ -102974,8 +103810,8 @@ SUPPORT_CHARTS = {
                   "name": "BROWSER"
                 }
               },
-              "methods": {},
-              "sig_name": "SeaMonkey (deprecated)"
+              "sig_name": "SeaMonkey (deprecated)",
+              "methods": {}
             }
           }
         },
@@ -103015,6 +103851,7 @@ SUPPORT_CHARTS = {
                   "name": "BROWSER"
                 }
               },
+              "sig_name": "Browser Operator",
               "methods": {
                 "constant": {
                   "1025": {
@@ -103105,8 +103942,7 @@ SUPPORT_CHARTS = {
                     "name": "GetPlugins"
                   }
                 }
-              },
-              "sig_name": "Browser Operator"
+              }
             }
           }
         },
@@ -103142,8 +103978,8 @@ SUPPORT_CHARTS = {
                   "name": "BROWSER"
                 }
               },
-              "methods": {},
-              "sig_name": "ChatGPT Atlas"
+              "sig_name": "ChatGPT Atlas",
+              "methods": {}
             }
           }
         },
@@ -103179,6 +104015,7 @@ SUPPORT_CHARTS = {
                   "name": "BROWSER"
                 }
               },
+              "sig_name": "Dia",
               "methods": {
                 "manageability": {
                   "2000": {
@@ -103228,8 +104065,7 @@ SUPPORT_CHARTS = {
                     "name": "GetPlugins"
                   }
                 }
-              },
-              "sig_name": "Dia"
+              }
             }
           }
         },
@@ -103273,6 +104109,7 @@ SUPPORT_CHARTS = {
                   "name": "BROWSER"
                 }
               },
+              "sig_name": "Comet",
               "methods": {
                 "constant": {
                   "1025": {
@@ -103434,8 +104271,7 @@ SUPPORT_CHARTS = {
                     "name": "GetPlugins"
                   }
                 }
-              },
-              "sig_name": "Comet"
+              }
             }
           }
         }
@@ -103903,6 +104739,10 @@ SUPPORT_CHARTS = {
               "signature": 100189,
               "version": "27.0",
               "release": "Beta"
+            },
+            {
+              "signature": 100189,
+              "version": "26.6"
             }
           ],
           "labels": [],
@@ -103925,6 +104765,7 @@ SUPPORT_CHARTS = {
                   "name": "FIREWALL"
                 }
               },
+              "sig_name": "Mac OS X Builtin Firewall",
               "methods": {
                 "constant": {
                   "101": {
@@ -104102,8 +104943,7 @@ SUPPORT_CHARTS = {
                     "name": "SetFirewallState"
                   }
                 }
-              },
-              "sig_name": "Mac OS X Builtin Firewall"
+              }
             }
           }
         },
@@ -104139,6 +104979,7 @@ SUPPORT_CHARTS = {
                   "name": "FIREWALL"
                 }
               },
+              "sig_name": "McAfee Security",
               "methods": {
                 "manageability": {
                   "1000": {
@@ -104260,8 +105101,7 @@ SUPPORT_CHARTS = {
                     "name": "GetRunningState"
                   }
                 }
-              },
-              "sig_name": "McAfee Security"
+              }
             }
           }
         },
@@ -104334,6 +105174,7 @@ SUPPORT_CHARTS = {
                   "name": "FIREWALL"
                 }
               },
+              "sig_name": "ESET Cyber Security Pro",
               "methods": {
                 "manageability": {
                   "100": {
@@ -104645,8 +105486,7 @@ SUPPORT_CHARTS = {
                     "name": "Uninstall"
                   }
                 }
-              },
-              "sig_name": "ESET Cyber Security Pro"
+              }
             }
           }
         },
@@ -104726,6 +105566,7 @@ SUPPORT_CHARTS = {
                   "name": "FIREWALL"
                 }
               },
+              "sig_name": "F-Secure Anti-Virus for Mac",
               "methods": {
                 "constant": {
                   "103": {
@@ -104869,8 +105710,7 @@ SUPPORT_CHARTS = {
                     "name": "Uninstall"
                   }
                 }
-              },
-              "sig_name": "F-Secure Anti-Virus for Mac"
+              }
             }
           }
         },
@@ -104917,6 +105757,7 @@ SUPPORT_CHARTS = {
                   "name": "FIREWALL"
                 }
               },
+              "sig_name": "McAfee Endpoint Protection for Mac",
               "methods": {
                 "manageability": {
                   "100": {
@@ -105060,8 +105901,7 @@ SUPPORT_CHARTS = {
                     "name": "Uninstall"
                   }
                 }
-              },
-              "sig_name": "McAfee Endpoint Protection for Mac"
+              }
             }
           },
           "marketing_names": [
@@ -105116,6 +105956,7 @@ SUPPORT_CHARTS = {
                   "name": "FIREWALL"
                 }
               },
+              "sig_name": "Norton Internet Security",
               "methods": {
                 "manageability": {
                   "100": {
@@ -105350,8 +106191,7 @@ SUPPORT_CHARTS = {
                     "name": "Scan"
                   }
                 }
-              },
-              "sig_name": "Norton Internet Security"
+              }
             }
           }
         },
@@ -105436,6 +106276,7 @@ SUPPORT_CHARTS = {
                   "name": "FIREWALL"
                 }
               },
+              "sig_name": "VirusBarrier",
               "methods": {
                 "constant": {
                   "103": {
@@ -105624,8 +106465,7 @@ SUPPORT_CHARTS = {
                     "name": "Uninstall"
                   }
                 }
-              },
-              "sig_name": "VirusBarrier"
+              }
             }
           }
         },
@@ -105663,6 +106503,7 @@ SUPPORT_CHARTS = {
                   "name": "FIREWALL"
                 }
               },
+              "sig_name": "NetBarrier",
               "methods": {
                 "manageability": {
                   "100": {
@@ -105684,8 +106525,7 @@ SUPPORT_CHARTS = {
                     "name": "Uninstall"
                   }
                 }
-              },
-              "sig_name": "NetBarrier"
+              }
             }
           }
         },
@@ -105785,6 +106625,7 @@ SUPPORT_CHARTS = {
                   "name": "FIREWALL"
                 }
               },
+              "sig_name": "McAfee Internet Security",
               "methods": {
                 "manageability": {
                   "100": {
@@ -106093,8 +106934,7 @@ SUPPORT_CHARTS = {
                     "name": "TerminateProcesses"
                   }
                 }
-              },
-              "sig_name": "McAfee Internet Security"
+              }
             }
           }
         },
@@ -106135,6 +106975,7 @@ SUPPORT_CHARTS = {
                   "name": "FIREWALL"
                 }
               },
+              "sig_name": "McAfee All Access - Internet Security",
               "methods": {
                 "manageability": {
                   "1000": {
@@ -106355,8 +107196,7 @@ SUPPORT_CHARTS = {
                     "name": "GetFirewallState"
                   }
                 }
-              },
-              "sig_name": "McAfee All Access - Internet Security"
+              }
             }
           },
           "marketing_names": [
@@ -106397,6 +107237,7 @@ SUPPORT_CHARTS = {
                   "name": "ANTIMALWARE"
                 }
               },
+              "sig_name": "Norton AntiVirus 12+",
               "methods": {
                 "manageability": {
                   "1000": {
@@ -106577,8 +107418,7 @@ SUPPORT_CHARTS = {
                     "name": "Scan"
                   }
                 }
-              },
-              "sig_name": "Norton AntiVirus 12+"
+              }
             },
             "100357": {
               "signature": 100357,
@@ -106600,6 +107440,7 @@ SUPPORT_CHARTS = {
                   "name": "FIREWALL"
                 }
               },
+              "sig_name": "Norton AntiVirus",
               "methods": {
                 "manageability": {
                   "100": {
@@ -106863,8 +107704,7 @@ SUPPORT_CHARTS = {
                     "name": "TerminateProcesses"
                   }
                 }
-              },
-              "sig_name": "Norton AntiVirus"
+              }
             }
           }
         },
@@ -106896,8 +107736,8 @@ SUPPORT_CHARTS = {
                   "name": "FIREWALL"
                 }
               },
-              "methods": {},
-              "sig_name": "WaterRoof"
+              "sig_name": "WaterRoof",
+              "methods": {}
             }
           }
         },
@@ -106929,6 +107769,7 @@ SUPPORT_CHARTS = {
                   "name": "FIREWALL"
                 }
               },
+              "sig_name": "IceFloor",
               "methods": {
                 "manageability": {
                   "1007": {
@@ -106978,8 +107819,7 @@ SUPPORT_CHARTS = {
                     "name": "TerminateProcesses"
                   }
                 }
-              },
-              "sig_name": "IceFloor"
+              }
             }
           }
         },
@@ -107099,6 +107939,7 @@ SUPPORT_CHARTS = {
                   "name": "FIREWALL"
                 }
               },
+              "sig_name": "Symantec Endpoint Protection",
               "methods": {
                 "constant": {
                   "1007": {
@@ -107440,8 +108281,7 @@ SUPPORT_CHARTS = {
                     "name": "TerminateProcesses"
                   }
                 }
-              },
-              "sig_name": "Symantec Endpoint Protection"
+              }
             }
           }
         },
@@ -107532,6 +108372,7 @@ SUPPORT_CHARTS = {
                 }
               },
               "whole_disk_encryption": true,
+              "sig_name": "Check Point Endpoint Security",
               "methods": {
                 "manageability": {
                   "100": {
@@ -107863,8 +108704,7 @@ SUPPORT_CHARTS = {
                     "name": "GetInstallationDirectories"
                   }
                 }
-              },
-              "sig_name": "Check Point Endpoint Security"
+              }
             }
           }
         },
@@ -107940,6 +108780,7 @@ SUPPORT_CHARTS = {
                   "name": "FIREWALL"
                 }
               },
+              "sig_name": "McAfee Endpoint Security for Mac",
               "methods": {
                 "constant": {
                   "1003": {
@@ -108120,8 +108961,7 @@ SUPPORT_CHARTS = {
                     "name": "Uninstall"
                   }
                 }
-              },
-              "sig_name": "McAfee Endpoint Security for Mac"
+              }
             }
           }
         },
@@ -108253,6 +109093,7 @@ SUPPORT_CHARTS = {
                   "name": "FIREWALL"
                 }
               },
+              "sig_name": "Little Snitch",
               "methods": {
                 "manageability": {
                   "100": {
@@ -108450,8 +109291,7 @@ SUPPORT_CHARTS = {
                     "name": "GetInstallationDirectories"
                   }
                 }
-              },
-              "sig_name": "Little Snitch"
+              }
             }
           }
         },
@@ -108483,6 +109323,7 @@ SUPPORT_CHARTS = {
                   "name": "FIREWALL"
                 }
               },
+              "sig_name": "DoorStop X",
               "methods": {
                 "manageability": {
                   "1007": {
@@ -108493,8 +109334,7 @@ SUPPORT_CHARTS = {
                     "name": "GetFirewallState"
                   }
                 }
-              },
-              "sig_name": "DoorStop X"
+              }
             }
           }
         },
@@ -108598,6 +109438,7 @@ SUPPORT_CHARTS = {
                   "name": "FIREWALL"
                 }
               },
+              "sig_name": "Norton Security",
               "methods": {
                 "constant": {
                   "103": {
@@ -108814,8 +109655,7 @@ SUPPORT_CHARTS = {
                     "name": "GetInstallationDirectories"
                   }
                 }
-              },
-              "sig_name": "Norton Security"
+              }
             }
           }
         },
@@ -108921,6 +109761,7 @@ SUPPORT_CHARTS = {
                   "name": "FIREWALL"
                 }
               },
+              "sig_name": "ESET Endpoint Security",
               "methods": {
                 "constant": {
                   "103": {
@@ -109392,8 +110233,7 @@ SUPPORT_CHARTS = {
                     "name": "GetInstallationDirectories"
                   }
                 }
-              },
-              "sig_name": "ESET Endpoint Security"
+              }
             }
           },
           "marketing_names": [
@@ -109436,6 +110276,7 @@ SUPPORT_CHARTS = {
                   "name": "FIREWALL"
                 }
               },
+              "sig_name": "Flextivity",
               "methods": {
                 "manageability": {
                   "1000": {
@@ -109520,8 +110361,7 @@ SUPPORT_CHARTS = {
                     "name": "GetFirewallState"
                   }
                 }
-              },
-              "sig_name": "Flextivity"
+              }
             }
           }
         },
@@ -109836,6 +110676,7 @@ SUPPORT_CHARTS = {
                   "name": "FIREWALL"
                 }
               },
+              "sig_name": "Sentinel Agent",
               "methods": {
                 "constant": {
                   "103": {
@@ -110153,8 +110994,7 @@ SUPPORT_CHARTS = {
                     "name": "GetInstallationDirectories"
                   }
                 }
-              },
-              "sig_name": "Sentinel Agent"
+              }
             }
           }
         },
@@ -110458,6 +111298,7 @@ SUPPORT_CHARTS = {
                   "name": "FIREWALL"
                 }
               },
+              "sig_name": "CrowdStrike Falcon",
               "methods": {
                 "constant": {
                   "102": {
@@ -110786,8 +111627,7 @@ SUPPORT_CHARTS = {
                     "name": "GetInstallationDirectories"
                   }
                 }
-              },
-              "sig_name": "CrowdStrike Falcon"
+              }
             }
           }
         },
@@ -110831,6 +111671,7 @@ SUPPORT_CHARTS = {
                   "name": "FIREWALL"
                 }
               },
+              "sig_name": "G DATA Security Client",
               "methods": {
                 "constant": {
                   "103": {
@@ -110955,8 +111796,7 @@ SUPPORT_CHARTS = {
                     "name": "GetRunningState"
                   }
                 }
-              },
-              "sig_name": "G DATA Security Client"
+              }
             }
           }
         },
@@ -111016,6 +111856,7 @@ SUPPORT_CHARTS = {
                   "name": "FIREWALL"
                 }
               },
+              "sig_name": "F-Secure Computer Protection for Mac",
               "methods": {
                 "manageability": {
                   "100": {
@@ -111258,8 +112099,7 @@ SUPPORT_CHARTS = {
                     "name": "TerminateProcesses"
                   }
                 }
-              },
-              "sig_name": "F-Secure Computer Protection for Mac"
+              }
             }
           }
         },
@@ -111311,6 +112151,7 @@ SUPPORT_CHARTS = {
                   "name": "FIREWALL"
                 }
               },
+              "sig_name": "F-Secure Client Security for Mac",
               "methods": {
                 "manageability": {
                   "100": {
@@ -111553,8 +112394,7 @@ SUPPORT_CHARTS = {
                     "name": "TerminateProcesses"
                   }
                 }
-              },
-              "sig_name": "F-Secure Client Security for Mac"
+              }
             }
           }
         },
@@ -111642,6 +112482,7 @@ SUPPORT_CHARTS = {
                   "name": "FIREWALL"
                 }
               },
+              "sig_name": "McAfee Total Protection",
               "methods": {
                 "constant": {
                   "103": {
@@ -111932,8 +112773,7 @@ SUPPORT_CHARTS = {
                     "name": "GetRunningState"
                   }
                 }
-              },
-              "sig_name": "McAfee Total Protection"
+              }
             }
           }
         },
@@ -112045,6 +112885,7 @@ SUPPORT_CHARTS = {
                   "name": "FIREWALL"
                 }
               },
+              "sig_name": "McAfee AntiVirus Plus",
               "methods": {
                 "constant": {
                   "103": {
@@ -112336,8 +113177,7 @@ SUPPORT_CHARTS = {
                     "name": "GetRunningState"
                   }
                 }
-              },
-              "sig_name": "McAfee AntiVirus Plus"
+              }
             }
           }
         },
@@ -112449,6 +113289,7 @@ SUPPORT_CHARTS = {
                   "name": "FIREWALL"
                 }
               },
+              "sig_name": "McAfee LiveSafe™",
               "methods": {
                 "constant": {
                   "103": {
@@ -112756,8 +113597,7 @@ SUPPORT_CHARTS = {
                     "name": "GetInstallationDirectories"
                   }
                 }
-              },
-              "sig_name": "McAfee LiveSafe™"
+              }
             }
           }
         },
@@ -112797,6 +113637,7 @@ SUPPORT_CHARTS = {
                   "name": "FIREWALL"
                 }
               },
+              "sig_name": "Symantec Endpoint Protection Cloud",
               "methods": {
                 "constant": {
                   "1007": {
@@ -113058,8 +113899,7 @@ SUPPORT_CHARTS = {
                     "name": "GetInstallationDirectories"
                   }
                 }
-              },
-              "sig_name": "Symantec Endpoint Protection Cloud"
+              }
             }
           }
         },
@@ -113099,6 +113939,7 @@ SUPPORT_CHARTS = {
                   "name": "FIREWALL"
                 }
               },
+              "sig_name": "Mcafee Multi Access - Internet Security",
               "methods": {
                 "manageability": {
                   "1000": {
@@ -113315,8 +114156,7 @@ SUPPORT_CHARTS = {
                     "name": "EnableRTP"
                   }
                 }
-              },
-              "sig_name": "Mcafee Multi Access - Internet Security"
+              }
             }
           }
         },
@@ -113406,6 +114246,7 @@ SUPPORT_CHARTS = {
                   "name": "FIREWALL"
                 }
               },
+              "sig_name": "FortiClient",
               "methods": {
                 "manageability": {
                   "1000": {
@@ -113536,8 +114377,7 @@ SUPPORT_CHARTS = {
                     "name": "TerminateProcesses"
                   }
                 }
-              },
-              "sig_name": "FortiClient"
+              }
             }
           }
         },
@@ -113577,6 +114417,7 @@ SUPPORT_CHARTS = {
                   "name": "FIREWALL"
                 }
               },
+              "sig_name": "F-Secure Computer Protection and Rapid Detection & Response for Mac",
               "methods": {
                 "manageability": {
                   "100": {
@@ -113707,8 +114548,7 @@ SUPPORT_CHARTS = {
                     "name": "GetRunningState"
                   }
                 }
-              },
-              "sig_name": "F-Secure Computer Protection and Rapid Detection & Response for Mac"
+              }
             }
           }
         },
@@ -113748,6 +114588,7 @@ SUPPORT_CHARTS = {
                   "name": "FIREWALL"
                 }
               },
+              "sig_name": "Norton 360",
               "methods": {
                 "manageability": {
                   "100": {
@@ -114015,8 +114856,7 @@ SUPPORT_CHARTS = {
                     "name": "GetRunningState"
                   }
                 }
-              },
-              "sig_name": "Norton 360"
+              }
             }
           }
         },
@@ -114110,6 +114950,10 @@ SUPPORT_CHARTS = {
             {
               "signature": 100379,
               "version": "9.1.0"
+            },
+            {
+              "signature": 100379,
+              "version": "9.3.0"
             }
           ],
           "labels": [],
@@ -114140,6 +114984,7 @@ SUPPORT_CHARTS = {
                   "name": "FIREWALL"
                 }
               },
+              "sig_name": "Cortex XDR",
               "methods": {
                 "constant": {
                   "103": {
@@ -114546,8 +115391,7 @@ SUPPORT_CHARTS = {
                     "name": "GetInstallationDirectories"
                   }
                 }
-              },
-              "sig_name": "Cortex XDR"
+              }
             }
           }
         },
@@ -114691,6 +115535,7 @@ SUPPORT_CHARTS = {
                   "name": "FIREWALL"
                 }
               },
+              "sig_name": "F-Secure SAFE",
               "methods": {
                 "constant": {
                   "103": {
@@ -114878,8 +115723,7 @@ SUPPORT_CHARTS = {
                     "name": "GetRunningState"
                   }
                 }
-              },
-              "sig_name": "F-Secure SAFE"
+              }
             }
           },
           "marketing_names": [
@@ -115142,6 +115986,10 @@ SUPPORT_CHARTS = {
               "signature": 100448,
               "version": "27.0",
               "release": "Beta"
+            },
+            {
+              "signature": 100448,
+              "version": "26.6"
             }
           ],
           "labels": [],
@@ -115164,6 +116012,7 @@ SUPPORT_CHARTS = {
                   "name": "FIREWALL"
                 }
               },
+              "sig_name": "Packet Filter",
               "methods": {
                 "constant": {
                   "101": {
@@ -115420,8 +116269,7 @@ SUPPORT_CHARTS = {
                     "name": "GetComponents"
                   }
                 }
-              },
-              "sig_name": "Packet Filter"
+              }
             }
           }
         },
@@ -115481,6 +116329,7 @@ SUPPORT_CHARTS = {
                   "name": "FIREWALL"
                 }
               },
+              "sig_name": "Trellix Endpoint Security for Mac",
               "methods": {
                 "constant": {
                   "103": {
@@ -115935,8 +116784,7 @@ SUPPORT_CHARTS = {
                     "name": "IsAuthentic"
                   }
                 }
-              },
-              "sig_name": "Trellix Endpoint Security for Mac"
+              }
             }
           }
         },
@@ -115996,6 +116844,7 @@ SUPPORT_CHARTS = {
                   "name": "FIREWALL"
                 }
               },
+              "sig_name": "WithSecure Elements EPP for Computers",
               "methods": {
                 "constant": {
                   "103": {
@@ -116196,8 +117045,7 @@ SUPPORT_CHARTS = {
                     "name": "Run"
                   }
                 }
-              },
-              "sig_name": "WithSecure Elements EPP for Computers"
+              }
             }
           },
           "marketing_names": [
@@ -116351,6 +117199,7 @@ SUPPORT_CHARTS = {
                   "name": "FIREWALL"
                 }
               },
+              "sig_name": "Norton",
               "methods": {
                 "constant": {
                   "103": {
@@ -116480,8 +117329,7 @@ SUPPORT_CHARTS = {
                     "name": "GetDefinitionState"
                   }
                 }
-              },
-              "sig_name": "Norton"
+              }
             }
           }
         },
@@ -116521,6 +117369,7 @@ SUPPORT_CHARTS = {
                   "name": "FIREWALL"
                 }
               },
+              "sig_name": "Endpoint Security Agent",
               "methods": {
                 "constant": {
                   "103": {
@@ -116893,8 +117742,7 @@ SUPPORT_CHARTS = {
                     "name": "IsAuthentic"
                   }
                 }
-              },
-              "sig_name": "Endpoint Security Agent"
+              }
             }
           }
         }
@@ -116949,6 +117797,7 @@ SUPPORT_CHARTS = {
                   "name": "MESSENGER"
                 }
               },
+              "sig_name": "Skype",
               "methods": {
                 "manageability": {
                   "100": {
@@ -117055,8 +117904,7 @@ SUPPORT_CHARTS = {
                     "name": "GetInstallationDirectories"
                   }
                 }
-              },
-              "sig_name": "Skype"
+              }
             }
           }
         },
@@ -117092,8 +117940,8 @@ SUPPORT_CHARTS = {
                   "name": "MESSENGER"
                 }
               },
-              "methods": {},
-              "sig_name": "Viber"
+              "sig_name": "Viber",
+              "methods": {}
             }
           }
         },
@@ -117129,8 +117977,8 @@ SUPPORT_CHARTS = {
                   "name": "MESSENGER"
                 }
               },
-              "methods": {},
-              "sig_name": "Yahoo! Messenger"
+              "sig_name": "Yahoo! Messenger",
+              "methods": {}
             }
           }
         },
@@ -117190,6 +118038,7 @@ SUPPORT_CHARTS = {
                   "name": "MESSENGER"
                 }
               },
+              "sig_name": "Messages",
               "methods": {
                 "manageability": {
                   "100": {
@@ -117296,8 +118145,7 @@ SUPPORT_CHARTS = {
                     "name": "GetInstallationDirectories"
                   }
                 }
-              },
-              "sig_name": "Messages"
+              }
             }
           }
         },
@@ -117333,8 +118181,8 @@ SUPPORT_CHARTS = {
                   "name": "MESSENGER"
                 }
               },
-              "methods": {},
-              "sig_name": "AIM for Mac"
+              "sig_name": "AIM for Mac",
+              "methods": {}
             }
           }
         },
@@ -117370,8 +118218,8 @@ SUPPORT_CHARTS = {
                   "name": "MESSENGER"
                 }
               },
-              "methods": {},
-              "sig_name": "emesene"
+              "sig_name": "emesene",
+              "methods": {}
             }
           }
         },
@@ -117407,8 +118255,8 @@ SUPPORT_CHARTS = {
                   "name": "MESSENGER"
                 }
               },
-              "methods": {},
-              "sig_name": "ICQ"
+              "sig_name": "ICQ",
+              "methods": {}
             }
           }
         },
@@ -117440,8 +118288,8 @@ SUPPORT_CHARTS = {
                   "name": "MESSENGER"
                 }
               },
-              "methods": {},
-              "sig_name": "LiveChat"
+              "sig_name": "LiveChat",
+              "methods": {}
             }
           }
         },
@@ -117473,8 +118321,8 @@ SUPPORT_CHARTS = {
                   "name": "MESSENGER"
                 }
               },
-              "methods": {},
-              "sig_name": "Piip"
+              "sig_name": "Piip",
+              "methods": {}
             }
           }
         },
@@ -117506,8 +118354,8 @@ SUPPORT_CHARTS = {
                   "name": "MESSENGER"
                 }
               },
-              "methods": {},
-              "sig_name": "QQ"
+              "sig_name": "QQ",
+              "methods": {}
             }
           }
         },
@@ -117543,8 +118391,8 @@ SUPPORT_CHARTS = {
                   "name": "MESSENGER"
                 }
               },
-              "methods": {},
-              "sig_name": "HipChat"
+              "sig_name": "HipChat",
+              "methods": {}
             }
           }
         },
@@ -117580,8 +118428,8 @@ SUPPORT_CHARTS = {
                   "name": "MESSENGER"
                 }
               },
-              "methods": {},
-              "sig_name": "Yugma"
+              "sig_name": "Yugma",
+              "methods": {}
             }
           }
         },
@@ -117617,8 +118465,8 @@ SUPPORT_CHARTS = {
                   "name": "MESSENGER"
                 }
               },
-              "methods": {},
-              "sig_name": "Brosix"
+              "sig_name": "Brosix",
+              "methods": {}
             }
           }
         },
@@ -117658,6 +118506,7 @@ SUPPORT_CHARTS = {
                   "name": "MESSENGER"
                 }
               },
+              "sig_name": "Zalo",
               "methods": {
                 "manageability": {
                   "100": {
@@ -117758,8 +118607,7 @@ SUPPORT_CHARTS = {
                     "name": "GetInstallationDirectories"
                   }
                 }
-              },
-              "sig_name": "Zalo"
+              }
             }
           }
         },
@@ -118077,6 +118925,10 @@ SUPPORT_CHARTS = {
             {
               "signature": 100119,
               "version": "4.51.180"
+            },
+            {
+              "signature": 100119,
+              "version": "4.51.185"
             }
           ],
           "labels": [],
@@ -118103,6 +118955,7 @@ SUPPORT_CHARTS = {
                   "name": "MESSENGER"
                 }
               },
+              "sig_name": "Slack",
               "methods": {
                 "manageability": {
                   "102": {
@@ -118140,8 +118993,7 @@ SUPPORT_CHARTS = {
                     "name": "TerminateProcesses"
                   }
                 }
-              },
-              "sig_name": "Slack"
+              }
             }
           }
         },
@@ -118173,8 +119025,8 @@ SUPPORT_CHARTS = {
                   "name": "MESSENGER"
                 }
               },
-              "methods": {},
-              "sig_name": "Bleep"
+              "sig_name": "Bleep",
+              "methods": {}
             }
           }
         },
@@ -118210,8 +119062,8 @@ SUPPORT_CHARTS = {
                   "name": "MESSENGER"
                 }
               },
-              "methods": {},
-              "sig_name": "Palringo"
+              "sig_name": "Palringo",
+              "methods": {}
             }
           }
         },
@@ -118243,8 +119095,8 @@ SUPPORT_CHARTS = {
                   "name": "MESSENGER"
                 }
               },
-              "methods": {},
-              "sig_name": "Softros LAN Messenger"
+              "sig_name": "Softros LAN Messenger",
+              "methods": {}
             }
           }
         },
@@ -118280,8 +119132,8 @@ SUPPORT_CHARTS = {
                   "name": "MESSENGER"
                 }
               },
-              "methods": {},
-              "sig_name": "IM+"
+              "sig_name": "IM+",
+              "methods": {}
             }
           }
         },
@@ -118313,8 +119165,8 @@ SUPPORT_CHARTS = {
                   "name": "MESSENGER"
                 }
               },
-              "methods": {},
-              "sig_name": "OMessenger"
+              "sig_name": "OMessenger",
+              "methods": {}
             }
           }
         },
@@ -118346,8 +119198,8 @@ SUPPORT_CHARTS = {
                   "name": "MESSENGER"
                 }
               },
-              "methods": {},
-              "sig_name": "Colloquy"
+              "sig_name": "Colloquy",
+              "methods": {}
             }
           }
         },
@@ -118387,8 +119239,8 @@ SUPPORT_CHARTS = {
                   "name": "MESSENGER"
                 }
               },
-              "methods": {},
-              "sig_name": "SolarSeek"
+              "sig_name": "SolarSeek",
+              "methods": {}
             }
           }
         },
@@ -118420,8 +119272,8 @@ SUPPORT_CHARTS = {
                   "name": "MESSENGER"
                 }
               },
-              "methods": {},
-              "sig_name": "ISL Pronto"
+              "sig_name": "ISL Pronto",
+              "methods": {}
             }
           }
         },
@@ -118461,8 +119313,8 @@ SUPPORT_CHARTS = {
                   "name": "MESSENGER"
                 }
               },
-              "methods": {},
-              "sig_name": "Trillian"
+              "sig_name": "Trillian",
+              "methods": {}
             }
           }
         },
@@ -118498,6 +119350,7 @@ SUPPORT_CHARTS = {
                   "name": "MESSENGER"
                 }
               },
+              "sig_name": "CD Messenger",
               "methods": {
                 "manageability": {
                   "100": {
@@ -118509,8 +119362,7 @@ SUPPORT_CHARTS = {
                     "name": "GetRunningState"
                   }
                 }
-              },
-              "sig_name": "CD Messenger"
+              }
             }
           }
         },
@@ -118542,8 +119394,8 @@ SUPPORT_CHARTS = {
                   "name": "MESSENGER"
                 }
               },
-              "methods": {},
-              "sig_name": "AOL Desktop for Mac"
+              "sig_name": "AOL Desktop for Mac",
+              "methods": {}
             }
           }
         },
@@ -118575,8 +119427,8 @@ SUPPORT_CHARTS = {
                   "name": "MESSENGER"
                 }
               },
-              "methods": {},
-              "sig_name": "Sky Mac"
+              "sig_name": "Sky Mac",
+              "methods": {}
             }
           }
         },
@@ -118612,6 +119464,7 @@ SUPPORT_CHARTS = {
                   "name": "MESSENGER"
                 }
               },
+              "sig_name": "Cisco Jabber",
               "methods": {
                 "manageability": {
                   "100": {
@@ -118661,8 +119514,7 @@ SUPPORT_CHARTS = {
                     "name": "TerminateProcesses"
                   }
                 }
-              },
-              "sig_name": "Cisco Jabber"
+              }
             }
           }
         },
@@ -118698,8 +119550,8 @@ SUPPORT_CHARTS = {
                   "name": "MESSENGER"
                 }
               },
-              "methods": {},
-              "sig_name": "Output Messenger"
+              "sig_name": "Output Messenger",
+              "methods": {}
             }
           }
         },
@@ -118731,8 +119583,8 @@ SUPPORT_CHARTS = {
                   "name": "MESSENGER"
                 }
               },
-              "methods": {},
-              "sig_name": "iCall"
+              "sig_name": "iCall",
+              "methods": {}
             }
           }
         },
@@ -118764,8 +119616,8 @@ SUPPORT_CHARTS = {
                   "name": "MESSENGER"
                 }
               },
-              "methods": {},
-              "sig_name": "Live2Support"
+              "sig_name": "Live2Support",
+              "methods": {}
             }
           }
         },
@@ -118797,8 +119649,8 @@ SUPPORT_CHARTS = {
                   "name": "MESSENGER"
                 }
               },
-              "methods": {},
-              "sig_name": "Fat Chat"
+              "sig_name": "Fat Chat",
+              "methods": {}
             }
           }
         },
@@ -118840,8 +119692,8 @@ SUPPORT_CHARTS = {
                   "name": "MESSENGER"
                 }
               },
-              "methods": {},
-              "sig_name": "aMule"
+              "sig_name": "aMule",
+              "methods": {}
             }
           }
         },
@@ -118877,8 +119729,8 @@ SUPPORT_CHARTS = {
                   "name": "MESSENGER"
                 }
               },
-              "methods": {},
-              "sig_name": "Facebook Messenger 4 Mac"
+              "sig_name": "Facebook Messenger 4 Mac",
+              "methods": {}
             }
           }
         },
@@ -119076,6 +119928,7 @@ SUPPORT_CHARTS = {
                   "name": "MESSENGER"
                 }
               },
+              "sig_name": "Zoom",
               "methods": {
                 "manageability": {
                   "100": {
@@ -119133,8 +119986,7 @@ SUPPORT_CHARTS = {
                     "name": "GetVersion"
                   }
                 }
-              },
-              "sig_name": "Zoom"
+              }
             }
           }
         },
@@ -119174,6 +120026,7 @@ SUPPORT_CHARTS = {
                   "name": "MESSENGER"
                 }
               },
+              "sig_name": "Cisco Webex Meetings",
               "methods": {
                 "manageability": {
                   "100": {
@@ -119264,8 +120117,7 @@ SUPPORT_CHARTS = {
                     "name": "TerminateProcesses"
                   }
                 }
-              },
-              "sig_name": "Cisco Webex Meetings"
+              }
             }
           }
         },
@@ -119467,6 +120319,13 @@ SUPPORT_CHARTS = {
             {
               "signature": 100405,
               "version": "46.7.0.35472"
+            },
+            {
+              "methodsStatus": {
+                "103": -1
+              },
+              "signature": 100405,
+              "version": "46.8.0.35593"
             }
           ],
           "labels": [],
@@ -119493,6 +120352,7 @@ SUPPORT_CHARTS = {
                   "name": "MESSENGER"
                 }
               },
+              "sig_name": "Webex",
               "methods": {
                 "manageability": {
                   "100": {
@@ -119619,8 +120479,7 @@ SUPPORT_CHARTS = {
                     "name": "GetInstallationDirectories"
                   }
                 }
-              },
-              "sig_name": "Webex"
+              }
             }
           }
         },
@@ -119698,6 +120557,13 @@ SUPPORT_CHARTS = {
             {
               "signature": 100513,
               "version": "26183.1901.4874.5228"
+            },
+            {
+              "methodsStatus": {
+                "103": -1
+              },
+              "signature": 100513,
+              "version": "26198.202.4929.7171"
             }
           ],
           "labels": [],
@@ -119728,6 +120594,7 @@ SUPPORT_CHARTS = {
                   "name": "MESSENGER"
                 }
               },
+              "sig_name": "Microsoft Teams",
               "methods": {
                 "manageability": {
                   "100": {
@@ -119823,8 +120690,7 @@ SUPPORT_CHARTS = {
                     "name": "TerminateProcesses"
                   }
                 }
-              },
-              "sig_name": "Microsoft Teams"
+              }
             },
             "100513": {
               "signature": 100513,
@@ -119850,6 +120716,7 @@ SUPPORT_CHARTS = {
                   "name": "MESSENGER"
                 }
               },
+              "sig_name": "Microsoft Teams (work or school)",
               "methods": {
                 "manageability": {
                   "100": {
@@ -119907,8 +120774,7 @@ SUPPORT_CHARTS = {
                     "name": "GetVersion"
                   }
                 }
-              },
-              "sig_name": "Microsoft Teams (work or school)"
+              }
             }
           }
         },
@@ -119944,6 +120810,7 @@ SUPPORT_CHARTS = {
                   "name": "MESSENGER"
                 }
               },
+              "sig_name": "Tweetbot",
               "methods": {
                 "manageability": {
                   "101": {
@@ -119976,8 +120843,7 @@ SUPPORT_CHARTS = {
                     "name": "TerminateProcesses"
                   }
                 }
-              },
-              "sig_name": "Tweetbot"
+              }
             }
           }
         },
@@ -120013,6 +120879,7 @@ SUPPORT_CHARTS = {
                   "name": "MESSENGER"
                 }
               },
+              "sig_name": "8x8 Work",
               "methods": {
                 "manageability": {
                   "101": {
@@ -120045,8 +120912,7 @@ SUPPORT_CHARTS = {
                     "name": "TerminateProcesses"
                   }
                 }
-              },
-              "sig_name": "8x8 Work"
+              }
             }
           }
         },
@@ -120094,6 +120960,7 @@ SUPPORT_CHARTS = {
                   "name": "MESSENGER"
                 }
               },
+              "sig_name": "WhatsApp",
               "methods": {
                 "manageability": {
                   "102": {
@@ -120126,8 +120993,7 @@ SUPPORT_CHARTS = {
                     "name": "TerminateProcesses"
                   }
                 }
-              },
-              "sig_name": "WhatsApp"
+              }
             }
           }
         },
@@ -120163,8 +121029,8 @@ SUPPORT_CHARTS = {
                   "name": "MESSENGER"
                 }
               },
-              "methods": {},
-              "sig_name": "BlueJeans"
+              "sig_name": "BlueJeans",
+              "methods": {}
             }
           }
         },
@@ -120200,8 +121066,8 @@ SUPPORT_CHARTS = {
                   "name": "MESSENGER"
                 }
               },
-              "methods": {},
-              "sig_name": "Amazon Chime"
+              "sig_name": "Amazon Chime",
+              "methods": {}
             }
           }
         },
@@ -120241,6 +121107,7 @@ SUPPORT_CHARTS = {
                   "name": "MESSENGER"
                 }
               },
+              "sig_name": "Messenger",
               "methods": {
                 "manageability": {
                   "100": {
@@ -120362,8 +121229,7 @@ SUPPORT_CHARTS = {
                     "name": "GetInstallationDirectories"
                   }
                 }
-              },
-              "sig_name": "Messenger"
+              }
             }
           }
         },
@@ -120407,6 +121273,7 @@ SUPPORT_CHARTS = {
                   "name": "MESSENGER"
                 }
               },
+              "sig_name": "Telegram",
               "methods": {
                 "manageability": {
                   "101": {
@@ -120492,8 +121359,7 @@ SUPPORT_CHARTS = {
                     "name": "GetInstallationDirectories"
                   }
                 }
-              },
-              "sig_name": "Telegram"
+              }
             }
           }
         },
@@ -120529,8 +121395,8 @@ SUPPORT_CHARTS = {
                   "name": "MESSENGER"
                 }
               },
-              "methods": {},
-              "sig_name": "RingCentral"
+              "sig_name": "RingCentral",
+              "methods": {}
             }
           }
         },
@@ -120562,8 +121428,8 @@ SUPPORT_CHARTS = {
                   "name": "MESSENGER"
                 }
               },
-              "methods": {},
-              "sig_name": "Signal"
+              "sig_name": "Signal",
+              "methods": {}
             }
           }
         },
@@ -120599,8 +121465,8 @@ SUPPORT_CHARTS = {
                   "name": "MESSENGER"
                 }
               },
-              "methods": {},
-              "sig_name": "FaceTime"
+              "sig_name": "FaceTime",
+              "methods": {}
             }
           }
         },
@@ -120636,8 +121502,8 @@ SUPPORT_CHARTS = {
                   "name": "MESSENGER"
                 }
               },
-              "methods": {},
-              "sig_name": "Discord"
+              "sig_name": "Discord",
+              "methods": {}
             }
           }
         }
@@ -120680,8 +121546,8 @@ SUPPORT_CHARTS = {
                   "name": "CLOUD_STORAGE"
                 }
               },
-              "methods": {},
-              "sig_name": "SpiderOak"
+              "sig_name": "SpiderOak",
+              "methods": {}
             }
           }
         },
@@ -120721,6 +121587,7 @@ SUPPORT_CHARTS = {
                   "name": "CLOUD_STORAGE"
                 }
               },
+              "sig_name": "Backblaze Online Backup",
               "methods": {
                 "manageability": {
                   "1008": {
@@ -120728,8 +121595,7 @@ SUPPORT_CHARTS = {
                     "name": "GetBackupState"
                   }
                 }
-              },
-              "sig_name": "Backblaze Online Backup"
+              }
             }
           }
         },
@@ -120779,6 +121645,7 @@ SUPPORT_CHARTS = {
                   "name": "CLOUD_STORAGE"
                 }
               },
+              "sig_name": "Box Sync",
               "methods": {
                 "manageability": {
                   "100": {
@@ -120889,8 +121756,7 @@ SUPPORT_CHARTS = {
                     "name": "GetInstallationDirectories"
                   }
                 }
-              },
-              "sig_name": "Box Sync"
+              }
             }
           }
         },
@@ -121172,6 +122038,17 @@ SUPPORT_CHARTS = {
             {
               "signature": 100148,
               "version": "262.4.3183"
+            },
+            {
+              "signature": 100148,
+              "version": "264.4.3385"
+            },
+            {
+              "methodsStatus": {
+                "1008": -1
+              },
+              "signature": 100148,
+              "version": "264.4.3421"
             }
           ],
           "labels": [],
@@ -121198,6 +122075,7 @@ SUPPORT_CHARTS = {
                   "name": "CLOUD_STORAGE"
                 }
               },
+              "sig_name": "Dropbox",
               "methods": {
                 "manageability": {
                   "100": {
@@ -121361,8 +122239,7 @@ SUPPORT_CHARTS = {
                     "name": "Uninstall"
                   }
                 }
-              },
-              "sig_name": "Dropbox"
+              }
             }
           }
         },
@@ -121404,6 +122281,7 @@ SUPPORT_CHARTS = {
                   "name": "CLOUD_STORAGE"
                 }
               },
+              "sig_name": "CrashPlan",
               "methods": {
                 "manageability": {
                   "1008": {
@@ -121480,8 +122358,7 @@ SUPPORT_CHARTS = {
                     "name": "Uninstall"
                   }
                 }
-              },
-              "sig_name": "CrashPlan"
+              }
             }
           }
         },
@@ -121601,6 +122478,7 @@ SUPPORT_CHARTS = {
                   "name": "CLOUD_STORAGE"
                 }
               },
+              "sig_name": "Google Drive",
               "methods": {
                 "manageability": {
                   "1008": {
@@ -121695,8 +122573,7 @@ SUPPORT_CHARTS = {
                     "name": "TerminateProcesses"
                   }
                 }
-              },
-              "sig_name": "Google Drive"
+              }
             }
           }
         },
@@ -121990,6 +122867,10 @@ SUPPORT_CHARTS = {
               "signature": 100424,
               "version": "27.0",
               "release": "Beta"
+            },
+            {
+              "signature": 100424,
+              "version": "26.6"
             }
           ],
           "labels": [],
@@ -122012,6 +122893,7 @@ SUPPORT_CHARTS = {
                   "name": "CLOUD_STORAGE"
                 }
               },
+              "sig_name": "iCloud",
               "methods": {
                 "manageability": {
                   "100": {
@@ -122027,8 +122909,7 @@ SUPPORT_CHARTS = {
                     "name": "TerminateProcesses"
                   }
                 }
-              },
-              "sig_name": "iCloud"
+              }
             },
             "100424": {
               "signature": 100424,
@@ -122046,6 +122927,7 @@ SUPPORT_CHARTS = {
                   "name": "CLOUD_STORAGE"
                 }
               },
+              "sig_name": "iCloud",
               "methods": {
                 "constant": {
                   "102": {
@@ -122285,8 +123167,7 @@ SUPPORT_CHARTS = {
                     "name": "IsAuthentic"
                   }
                 }
-              },
-              "sig_name": "iCloud"
+              }
             }
           }
         },
@@ -122318,8 +123199,8 @@ SUPPORT_CHARTS = {
                   "name": "CLOUD_STORAGE"
                 }
               },
-              "methods": {},
-              "sig_name": "Bitcasa Drive"
+              "sig_name": "Bitcasa Drive",
+              "methods": {}
             }
           }
         },
@@ -122351,8 +123232,8 @@ SUPPORT_CHARTS = {
                   "name": "CLOUD_STORAGE"
                 }
               },
-              "methods": {},
-              "sig_name": "CloudMe Sync"
+              "sig_name": "CloudMe Sync",
+              "methods": {}
             }
           }
         },
@@ -122384,8 +123265,8 @@ SUPPORT_CHARTS = {
                   "name": "CLOUD_STORAGE"
                 }
               },
-              "methods": {},
-              "sig_name": "Egnyte Desktop Sync"
+              "sig_name": "Egnyte Desktop Sync",
+              "methods": {}
             }
           }
         },
@@ -122421,8 +123302,8 @@ SUPPORT_CHARTS = {
                   "name": "CLOUD_STORAGE"
                 }
               },
-              "methods": {},
-              "sig_name": "BitTorrent Sync"
+              "sig_name": "BitTorrent Sync",
+              "methods": {}
             }
           }
         },
@@ -122454,8 +123335,8 @@ SUPPORT_CHARTS = {
                   "name": "CLOUD_STORAGE"
                 }
               },
-              "methods": {},
-              "sig_name": "Dump Truck"
+              "sig_name": "Dump Truck",
+              "methods": {}
             }
           }
         },
@@ -122487,8 +123368,8 @@ SUPPORT_CHARTS = {
                   "name": "CLOUD_STORAGE"
                 }
               },
-              "methods": {},
-              "sig_name": "Wuala"
+              "sig_name": "Wuala",
+              "methods": {}
             }
           }
         },
@@ -122520,8 +123401,8 @@ SUPPORT_CHARTS = {
                   "name": "CLOUD_STORAGE"
                 }
               },
-              "methods": {},
-              "sig_name": "Google Photos Backup"
+              "sig_name": "Google Photos Backup",
+              "methods": {}
             }
           }
         },
@@ -122553,8 +123434,8 @@ SUPPORT_CHARTS = {
                   "name": "CLOUD_STORAGE"
                 }
               },
-              "methods": {},
-              "sig_name": "kiteworks"
+              "sig_name": "kiteworks",
+              "methods": {}
             }
           }
         },
@@ -122586,8 +123467,8 @@ SUPPORT_CHARTS = {
                   "name": "CLOUD_STORAGE"
                 }
               },
-              "methods": {},
-              "sig_name": "Copy"
+              "sig_name": "Copy",
+              "methods": {}
             }
           }
         },
@@ -122773,6 +123654,10 @@ SUPPORT_CHARTS = {
             {
               "signature": 100159,
               "version": "26.113.0614.0004"
+            },
+            {
+              "signature": 100159,
+              "version": "26.134.0713.0007"
             }
           ],
           "labels": [],
@@ -122799,6 +123684,7 @@ SUPPORT_CHARTS = {
                   "name": "CLOUD_STORAGE"
                 }
               },
+              "sig_name": "OneDrive",
               "methods": {
                 "manageability": {
                   "100": {
@@ -123032,8 +123918,7 @@ SUPPORT_CHARTS = {
                     "name": "GetPlugins"
                   }
                 }
-              },
-              "sig_name": "OneDrive"
+              }
             }
           }
         },
@@ -123069,8 +123954,8 @@ SUPPORT_CHARTS = {
                   "name": "CLOUD_STORAGE"
                 }
               },
-              "methods": {},
-              "sig_name": "MozyHome"
+              "sig_name": "MozyHome",
+              "methods": {}
             }
           }
         },
@@ -123130,6 +124015,7 @@ SUPPORT_CHARTS = {
                   "name": "CLOUD_STORAGE"
                 }
               },
+              "sig_name": "IDrive",
               "methods": {
                 "manageability": {
                   "1008": {
@@ -123246,8 +124132,7 @@ SUPPORT_CHARTS = {
                     "name": "TerminateProcesses"
                   }
                 }
-              },
-              "sig_name": "IDrive"
+              }
             }
           }
         },
@@ -123283,8 +124168,8 @@ SUPPORT_CHARTS = {
                   "name": "CLOUD_STORAGE"
                 }
               },
-              "methods": {},
-              "sig_name": "CloudBacko Home"
+              "sig_name": "CloudBacko Home",
+              "methods": {}
             }
           }
         },
@@ -123316,8 +124201,8 @@ SUPPORT_CHARTS = {
                   "name": "CLOUD_STORAGE"
                 }
               },
-              "methods": {},
-              "sig_name": "Verizon Cloud"
+              "sig_name": "Verizon Cloud",
+              "methods": {}
             }
           }
         },
@@ -123355,6 +124240,7 @@ SUPPORT_CHARTS = {
                   "name": "CLOUD_STORAGE"
                 }
               },
+              "sig_name": "Tonido",
               "methods": {
                 "manageability": {
                   "1008": {
@@ -123368,8 +124254,7 @@ SUPPORT_CHARTS = {
                     "name": "Uninstall"
                   }
                 }
-              },
-              "sig_name": "Tonido"
+              }
             }
           }
         },
@@ -123405,6 +124290,7 @@ SUPPORT_CHARTS = {
                   "name": "CLOUD_STORAGE"
                 }
               },
+              "sig_name": "MEGAsync",
               "methods": {
                 "manageability": {
                   "100": {
@@ -123478,8 +124364,7 @@ SUPPORT_CHARTS = {
                     "name": "TerminateProcesses"
                   }
                 }
-              },
-              "sig_name": "MEGAsync"
+              }
             }
           }
         },
@@ -123515,8 +124400,8 @@ SUPPORT_CHARTS = {
                   "name": "CLOUD_STORAGE"
                 }
               },
-              "methods": {},
-              "sig_name": "Box Drive"
+              "sig_name": "Box Drive",
+              "methods": {}
             }
           }
         },
@@ -123556,6 +124441,7 @@ SUPPORT_CHARTS = {
                   "name": "CLOUD_STORAGE"
                 }
               },
+              "sig_name": "ownCloud client",
               "methods": {
                 "removal": {
                   "40000": {
@@ -123563,8 +124449,7 @@ SUPPORT_CHARTS = {
                     "name": "Uninstall"
                   }
                 }
-              },
-              "sig_name": "ownCloud client"
+              }
             }
           }
         },
@@ -123600,6 +124485,7 @@ SUPPORT_CHARTS = {
                   "name": "CLOUD_STORAGE"
                 }
               },
+              "sig_name": "Nextcloud Desktop Client",
               "methods": {
                 "manageability": {
                   "100": {
@@ -123728,8 +124614,7 @@ SUPPORT_CHARTS = {
                     "name": "GetBackupState"
                   }
                 }
-              },
-              "sig_name": "Nextcloud Desktop Client"
+              }
             }
           }
         },
@@ -123765,6 +124650,7 @@ SUPPORT_CHARTS = {
                   "name": "CLOUD_STORAGE"
                 }
               },
+              "sig_name": "Druva inSync",
               "methods": {
                 "constant": {
                   "103": {
@@ -123773,8 +124659,7 @@ SUPPORT_CHARTS = {
                     "name": "TerminateProcesses"
                   }
                 }
-              },
-              "sig_name": "Druva inSync"
+              }
             }
           }
         }
@@ -123782,6 +124667,6 @@ SUPPORT_CHARTS = {
       "name": "CLOUD_STORAGE"
     }
   },
-  "support_chart_type": "CATEGORY",
-  "timestamp": "1785827699"
+  "timestamp": "1786436685",
+  "support_chart_type": "CATEGORY"
 }
