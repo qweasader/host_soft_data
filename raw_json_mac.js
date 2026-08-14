@@ -1338,6 +1338,10 @@ SUPPORT_CHARTS = {
             {
               "signature": 100015,
               "version": "153.0.2"
+            },
+            {
+              "signature": 100015,
+              "version": "153.0.3"
             }
           ],
           "labels": [],
@@ -4217,6 +4221,10 @@ SUPPORT_CHARTS = {
             {
               "signature": 100350,
               "version": "26.001.21771"
+            },
+            {
+              "signature": 100350,
+              "version": "26.001.21789"
             }
           ],
           "labels": [],
@@ -34508,9 +34516,6 @@ SUPPORT_CHARTS = {
               "version": "264.4.3385"
             },
             {
-              "methodsStatus": {
-                "1008": -1
-              },
               "signature": 100148,
               "version": "264.4.3421"
             }
@@ -40845,6 +40850,60 @@ SUPPORT_CHARTS = {
                   }
                 },
                 "manageability": {
+                  "100": {
+                    "id": 100,
+                    "meta_data": {
+                      "param_support": {
+                        "input": {
+                          "instance_id": {
+                            "_supported": false,
+                            "_optional": true
+                          }
+                        },
+                        "output": {
+                          "version": {
+                            "_supported": true,
+                            "_optional": false
+                          },
+                          "architecture": {
+                            "_supported": true,
+                            "_optional": false,
+                            "name": {
+                              "_supported": true,
+                              "_optional": false
+                            },
+                            "bitness": {
+                              "_supported": true,
+                              "_optional": false
+                            }
+                          },
+                          "language": {
+                            "_supported": true,
+                            "_optional": false,
+                            "code": {
+                              "_supported": true,
+                              "_optional": false
+                            },
+                            "name": {
+                              "_supported": true,
+                              "_optional": false
+                            }
+                          },
+                          "channel": {
+                            "_supported": false,
+                            "_optional": true
+                          },
+                          "release": {
+                            "_supported": false,
+                            "_optional": true
+                          }
+                        }
+                      },
+                      "admin_required": false,
+                      "notes": ""
+                    },
+                    "name": "GetVersion"
+                  },
                   "101": {
                     "id": 101,
                     "meta_data": {
@@ -40866,6 +40925,23 @@ SUPPORT_CHARTS = {
                       "notes": ""
                     },
                     "name": "GetRunningState"
+                  },
+                  "102": {
+                    "id": 102,
+                    "meta_data": {
+                      "param_support": {
+                        "input": {
+                          "instance_id": {
+                            "_supported": false,
+                            "_optional": true
+                          }
+                        },
+                        "output": []
+                      },
+                      "admin_required": false,
+                      "notes": ""
+                    },
+                    "name": "Run"
                   },
                   "103": {
                     "id": 103,
@@ -40918,10 +40994,6 @@ SUPPORT_CHARTS = {
         "100594": {
           "id": 100594,
           "tested_points": [
-            {
-              "signature": 100652,
-              "version": "1.20"
-            },
             {
               "signature": 100652,
               "version": "1.0.0"
@@ -45270,6 +45342,10 @@ SUPPORT_CHARTS = {
             {
               "signature": 100004,
               "version": "151.0.7922.109"
+            },
+            {
+              "signature": 100004,
+              "version": "151.0.7922.138"
             }
           ],
           "labels": [],
@@ -50849,10 +50925,6 @@ SUPPORT_CHARTS = {
             {
               "signature": 100214,
               "version": "3.7.1456"
-            },
-            {
-              "signature": 100214,
-              "version": "3.7.2050"
             }
           ],
           "labels": [],
@@ -51112,10 +51184,7 @@ SUPPORT_CHARTS = {
                 }
               }
             }
-          },
-          "marketing_names": [
-            "TrendAI™ Security Agent"
-          ]
+          }
         },
         "100186": {
           "id": 100186,
@@ -61698,6 +61767,437 @@ SUPPORT_CHARTS = {
               }
             }
           }
+        },
+        "100598": {
+          "id": 100598,
+          "tested_points": [
+            {
+              "signature": 100656,
+              "version": "3.7.2050"
+            }
+          ],
+          "labels": [],
+          "languages": [],
+          "name": "TrendAI™ Security Agent",
+          "signatures": {
+            "100656": {
+              "signature": 100656,
+              "product": {
+                "id": 100598,
+                "name": "TrendAI™ Security Agent"
+              },
+              "vendor": {
+                "id": 100016,
+                "name": "Trend Micro, Inc."
+              },
+              "categories": {
+                "4": {
+                  "id": 4,
+                  "name": "ANTIPHISHING"
+                },
+                "5": {
+                  "id": 5,
+                  "name": "ANTIMALWARE"
+                }
+              },
+              "sig_name": "TrendAI™ Security Agent",
+              "methods": {
+                "constant": {
+                  "103": {
+                    "id": 103,
+                    "code": -11,
+                    "name": "TerminateProcesses"
+                  }
+                },
+                "manageability": {
+                  "1000": {
+                    "id": 1000,
+                    "meta_data": {
+                      "param_support": {
+                        "input": {
+                          "skip_connection_check": {
+                            "_supported": false,
+                            "_optional": true
+                          }
+                        },
+                        "output": {
+                          "enabled": {
+                            "_supported": true,
+                            "_optional": false
+                          },
+                          "has_internet_connectivity": {
+                            "_supported": false,
+                            "_optional": true
+                          },
+                          "details": {
+                            "_supported": true,
+                            "_optional": false,
+                            "antivirus": {
+                              "_supported": false,
+                              "_optional": true
+                            },
+                            "antispyware": {
+                              "_supported": false,
+                              "_optional": true
+                            },
+                            "other": {
+                              "_supported": false,
+                              "_optional": true,
+                              "name": {
+                                "_supported": false,
+                                "_optional": true
+                              },
+                              "state": {
+                                "_supported": false,
+                                "_optional": true
+                              }
+                            }
+                          },
+                          "managed_by_3rd_party_products": {
+                            "_supported": false,
+                            "_optional": true,
+                            "product_name": {
+                              "_supported": false,
+                              "_optional": true
+                            },
+                            "remediation_path": {
+                              "_supported": false,
+                              "_optional": true
+                            },
+                            "signature": {
+                              "_supported": false,
+                              "_optional": true
+                            }
+                          }
+                        }
+                      },
+                      "admin_required": false,
+                      "notes": ""
+                    },
+                    "name": "GetRealTimeProtectionState"
+                  },
+                  "1001": {
+                    "id": 1001,
+                    "meta_data": {
+                      "param_support": {
+                        "input": {
+                          "timeframe": {
+                            "_supported": false,
+                            "_optional": true
+                          },
+                          "skip_connection_check": {
+                            "_supported": false,
+                            "_optional": true
+                          }
+                        },
+                        "output": {
+                          "is_recent": {
+                            "_supported": true,
+                            "_optional": false
+                          },
+                          "has_internet_connectivity": {
+                            "_supported": false,
+                            "_optional": true
+                          },
+                          "definitions": {
+                            "_supported": true,
+                            "_optional": false,
+                            "name": {
+                              "_supported": true,
+                              "_optional": false
+                            },
+                            "type": {
+                              "_supported": true,
+                              "_optional": false,
+                              "_values": {
+                                "antimalware": false,
+                                "antivirus": false,
+                                "antispyware": false
+                              }
+                            },
+                            "version": {
+                              "_supported": true,
+                              "_optional": false
+                            },
+                            "engine_version": {
+                              "_supported": false,
+                              "_optional": true
+                            },
+                            "last_update": {
+                              "_optional": false,
+                              "_supported": true,
+                              "_optional_override": true
+                            },
+                            "source_time": {
+                              "_optional": false,
+                              "_supported": true,
+                              "_optional_override": true
+                            },
+                            "count": {
+                              "_supported": false,
+                              "_optional": true
+                            }
+                          }
+                        }
+                      },
+                      "admin_required": false,
+                      "notes": ""
+                    },
+                    "name": "GetDefinitionState"
+                  },
+                  "1002": {
+                    "id": 1002,
+                    "meta_data": {
+                      "param_support": {
+                        "input": {
+                          "api_url": {
+                            "_supported": false,
+                            "_optional": true
+                          },
+                          "token": {
+                            "_supported": false,
+                            "_optional": true
+                          }
+                        },
+                        "output": {
+                          "last_threat_time": {
+                            "_supported": true,
+                            "_optional": false
+                          },
+                          "no_threats": {
+                            "_supported": true,
+                            "_optional": false
+                          },
+                          "threats": {
+                            "_supported": true,
+                            "_optional": false,
+                            "threat_name": {
+                              "_supported": true,
+                              "_optional": false
+                            },
+                            "path": {
+                              "_supported": true,
+                              "_optional": false
+                            },
+                            "scan_time": {
+                              "_supported": true,
+                              "_optional": false
+                            },
+                            "remediation": {
+                              "_supported": true,
+                              "_optional": false,
+                              "_values": {
+                                "none": false,
+                                "unknown": false,
+                                "cleaned": false,
+                                "deleted": false,
+                                "quarantined": false,
+                                "partial": false
+                              }
+                            }
+                          }
+                        }
+                      },
+                      "admin_required": false,
+                      "notes": ""
+                    },
+                    "name": "GetThreats"
+                  },
+                  "1003": {
+                    "id": 1003,
+                    "meta_data": {
+                      "param_support": {
+                        "input": [],
+                        "output": []
+                      },
+                      "admin_required": false,
+                      "notes": ""
+                    },
+                    "name": "UpdateDefinitions"
+                  },
+                  "1004": {
+                    "id": 1004,
+                    "meta_data": {
+                      "param_support": {
+                        "input": {
+                          "scan_type": {
+                            "_supported": false,
+                            "_optional": true,
+                            "_values": {
+                              "full": false,
+                              "default": false,
+                              "path": false
+                            }
+                          },
+                          "api_url": {
+                            "_supported": false,
+                            "_optional": true
+                          },
+                          "token": {
+                            "_supported": false,
+                            "_optional": true
+                          },
+                          "credentials": {
+                            "_supported": false,
+                            "_optional": true,
+                            "client_id": {
+                              "_supported": false,
+                              "_optional": true
+                            },
+                            "client_secret": {
+                              "_supported": false,
+                              "_optional": true
+                            }
+                          }
+                        },
+                        "output": {
+                          "scan_time": {
+                            "_supported": true,
+                            "_optional": false
+                          },
+                          "scan_type": {
+                            "_supported": true,
+                            "_optional": false,
+                            "_values": {
+                              "full": false,
+                              "default": false,
+                              "path": false,
+                              "unspecified": false
+                            }
+                          }
+                        }
+                      },
+                      "admin_required": false,
+                      "notes": ""
+                    },
+                    "name": "GetLastScanTime"
+                  },
+                  "1005": {
+                    "id": 1005,
+                    "meta_data": {
+                      "param_support": {
+                        "input": {
+                          "uninstallCode": {
+                            "_supported": false,
+                            "_optional": true
+                          }
+                        },
+                        "output": []
+                      },
+                      "admin_required": false,
+                      "notes": ""
+                    },
+                    "name": "EnableRTP"
+                  },
+                  "1006": {
+                    "id": 1006,
+                    "meta_data": {
+                      "param_support": {
+                        "input": {
+                          "scan_type": {
+                            "_supported": true,
+                            "_optional": false,
+                            "_values": {
+                              "full": false,
+                              "default": false,
+                              "path": false
+                            }
+                          },
+                          "path": {
+                            "_supported": false,
+                            "_optional": true
+                          },
+                          "clean": {
+                            "_supported": false,
+                            "_optional": true
+                          }
+                        },
+                        "output": {
+                          "malware_found": {
+                            "_supported": false,
+                            "_optional": true
+                          },
+                          "clean": {
+                            "_supported": false,
+                            "_optional": true
+                          },
+                          "threats": {
+                            "_supported": false,
+                            "_optional": true,
+                            "threat_name": {
+                              "_supported": true,
+                              "_optional": false
+                            },
+                            "path": {
+                              "_supported": true,
+                              "_optional": false
+                            },
+                            "scan_time": {
+                              "_supported": true,
+                              "_optional": false
+                            },
+                            "remediation": {
+                              "_supported": true,
+                              "_optional": false,
+                              "_values": {
+                                "none": false,
+                                "cleaned": false,
+                                "deleted": false,
+                                "quarantined": false,
+                                "partial": false
+                              }
+                            }
+                          }
+                        }
+                      },
+                      "admin_required": false,
+                      "notes": ""
+                    },
+                    "name": "Scan"
+                  },
+                  "101": {
+                    "id": 101,
+                    "meta_data": {
+                      "param_support": {
+                        "input": {
+                          "instance_id": {
+                            "_supported": false,
+                            "_optional": true
+                          }
+                        },
+                        "output": {
+                          "running": {
+                            "_supported": true,
+                            "_optional": false
+                          }
+                        }
+                      },
+                      "admin_required": false,
+                      "notes": ""
+                    },
+                    "name": "GetRunningState"
+                  },
+                  "102": {
+                    "id": 102,
+                    "meta_data": {
+                      "param_support": {
+                        "input": {
+                          "instance_id": {
+                            "_supported": false,
+                            "_optional": true
+                          }
+                        },
+                        "output": []
+                      },
+                      "admin_required": false,
+                      "notes": ""
+                    },
+                    "name": "Run"
+                  }
+                }
+              }
+            }
+          }
         }
       },
       "name": "ANTIPHISHING"
@@ -72195,11 +72695,6 @@ SUPPORT_CHARTS = {
               "certification": "platinum",
               "signature": 100214,
               "version": "3.7.1456"
-            },
-            {
-              "certification": "platinum",
-              "signature": 100214,
-              "version": "3.7.2050"
             }
           ],
           "labels": [],
@@ -72459,10 +72954,7 @@ SUPPORT_CHARTS = {
                 }
               }
             }
-          },
-          "marketing_names": [
-            "TrendAI™ Security Agent"
-          ]
+          }
         },
         "100186": {
           "id": 100186,
@@ -99905,6 +100397,437 @@ SUPPORT_CHARTS = {
               }
             }
           }
+        },
+        "100598": {
+          "id": 100598,
+          "tested_points": [
+            {
+              "signature": 100656,
+              "version": "3.7.2050"
+            }
+          ],
+          "labels": [],
+          "languages": [],
+          "name": "TrendAI™ Security Agent",
+          "signatures": {
+            "100656": {
+              "signature": 100656,
+              "product": {
+                "id": 100598,
+                "name": "TrendAI™ Security Agent"
+              },
+              "vendor": {
+                "id": 100016,
+                "name": "Trend Micro, Inc."
+              },
+              "categories": {
+                "4": {
+                  "id": 4,
+                  "name": "ANTIPHISHING"
+                },
+                "5": {
+                  "id": 5,
+                  "name": "ANTIMALWARE"
+                }
+              },
+              "sig_name": "TrendAI™ Security Agent",
+              "methods": {
+                "constant": {
+                  "103": {
+                    "id": 103,
+                    "code": -11,
+                    "name": "TerminateProcesses"
+                  }
+                },
+                "manageability": {
+                  "1000": {
+                    "id": 1000,
+                    "meta_data": {
+                      "param_support": {
+                        "input": {
+                          "skip_connection_check": {
+                            "_supported": false,
+                            "_optional": true
+                          }
+                        },
+                        "output": {
+                          "enabled": {
+                            "_supported": true,
+                            "_optional": false
+                          },
+                          "has_internet_connectivity": {
+                            "_supported": false,
+                            "_optional": true
+                          },
+                          "details": {
+                            "_supported": true,
+                            "_optional": false,
+                            "antivirus": {
+                              "_supported": false,
+                              "_optional": true
+                            },
+                            "antispyware": {
+                              "_supported": false,
+                              "_optional": true
+                            },
+                            "other": {
+                              "_supported": false,
+                              "_optional": true,
+                              "name": {
+                                "_supported": false,
+                                "_optional": true
+                              },
+                              "state": {
+                                "_supported": false,
+                                "_optional": true
+                              }
+                            }
+                          },
+                          "managed_by_3rd_party_products": {
+                            "_supported": false,
+                            "_optional": true,
+                            "product_name": {
+                              "_supported": false,
+                              "_optional": true
+                            },
+                            "remediation_path": {
+                              "_supported": false,
+                              "_optional": true
+                            },
+                            "signature": {
+                              "_supported": false,
+                              "_optional": true
+                            }
+                          }
+                        }
+                      },
+                      "admin_required": false,
+                      "notes": ""
+                    },
+                    "name": "GetRealTimeProtectionState"
+                  },
+                  "1001": {
+                    "id": 1001,
+                    "meta_data": {
+                      "param_support": {
+                        "input": {
+                          "timeframe": {
+                            "_supported": false,
+                            "_optional": true
+                          },
+                          "skip_connection_check": {
+                            "_supported": false,
+                            "_optional": true
+                          }
+                        },
+                        "output": {
+                          "is_recent": {
+                            "_supported": true,
+                            "_optional": false
+                          },
+                          "has_internet_connectivity": {
+                            "_supported": false,
+                            "_optional": true
+                          },
+                          "definitions": {
+                            "_supported": true,
+                            "_optional": false,
+                            "name": {
+                              "_supported": true,
+                              "_optional": false
+                            },
+                            "type": {
+                              "_supported": true,
+                              "_optional": false,
+                              "_values": {
+                                "antimalware": false,
+                                "antivirus": false,
+                                "antispyware": false
+                              }
+                            },
+                            "version": {
+                              "_supported": true,
+                              "_optional": false
+                            },
+                            "engine_version": {
+                              "_supported": false,
+                              "_optional": true
+                            },
+                            "last_update": {
+                              "_optional": false,
+                              "_supported": true,
+                              "_optional_override": true
+                            },
+                            "source_time": {
+                              "_optional": false,
+                              "_supported": true,
+                              "_optional_override": true
+                            },
+                            "count": {
+                              "_supported": false,
+                              "_optional": true
+                            }
+                          }
+                        }
+                      },
+                      "admin_required": false,
+                      "notes": ""
+                    },
+                    "name": "GetDefinitionState"
+                  },
+                  "1002": {
+                    "id": 1002,
+                    "meta_data": {
+                      "param_support": {
+                        "input": {
+                          "api_url": {
+                            "_supported": false,
+                            "_optional": true
+                          },
+                          "token": {
+                            "_supported": false,
+                            "_optional": true
+                          }
+                        },
+                        "output": {
+                          "last_threat_time": {
+                            "_supported": true,
+                            "_optional": false
+                          },
+                          "no_threats": {
+                            "_supported": true,
+                            "_optional": false
+                          },
+                          "threats": {
+                            "_supported": true,
+                            "_optional": false,
+                            "threat_name": {
+                              "_supported": true,
+                              "_optional": false
+                            },
+                            "path": {
+                              "_supported": true,
+                              "_optional": false
+                            },
+                            "scan_time": {
+                              "_supported": true,
+                              "_optional": false
+                            },
+                            "remediation": {
+                              "_supported": true,
+                              "_optional": false,
+                              "_values": {
+                                "none": false,
+                                "unknown": false,
+                                "cleaned": false,
+                                "deleted": false,
+                                "quarantined": false,
+                                "partial": false
+                              }
+                            }
+                          }
+                        }
+                      },
+                      "admin_required": false,
+                      "notes": ""
+                    },
+                    "name": "GetThreats"
+                  },
+                  "1003": {
+                    "id": 1003,
+                    "meta_data": {
+                      "param_support": {
+                        "input": [],
+                        "output": []
+                      },
+                      "admin_required": false,
+                      "notes": ""
+                    },
+                    "name": "UpdateDefinitions"
+                  },
+                  "1004": {
+                    "id": 1004,
+                    "meta_data": {
+                      "param_support": {
+                        "input": {
+                          "scan_type": {
+                            "_supported": false,
+                            "_optional": true,
+                            "_values": {
+                              "full": false,
+                              "default": false,
+                              "path": false
+                            }
+                          },
+                          "api_url": {
+                            "_supported": false,
+                            "_optional": true
+                          },
+                          "token": {
+                            "_supported": false,
+                            "_optional": true
+                          },
+                          "credentials": {
+                            "_supported": false,
+                            "_optional": true,
+                            "client_id": {
+                              "_supported": false,
+                              "_optional": true
+                            },
+                            "client_secret": {
+                              "_supported": false,
+                              "_optional": true
+                            }
+                          }
+                        },
+                        "output": {
+                          "scan_time": {
+                            "_supported": true,
+                            "_optional": false
+                          },
+                          "scan_type": {
+                            "_supported": true,
+                            "_optional": false,
+                            "_values": {
+                              "full": false,
+                              "default": false,
+                              "path": false,
+                              "unspecified": false
+                            }
+                          }
+                        }
+                      },
+                      "admin_required": false,
+                      "notes": ""
+                    },
+                    "name": "GetLastScanTime"
+                  },
+                  "1005": {
+                    "id": 1005,
+                    "meta_data": {
+                      "param_support": {
+                        "input": {
+                          "uninstallCode": {
+                            "_supported": false,
+                            "_optional": true
+                          }
+                        },
+                        "output": []
+                      },
+                      "admin_required": false,
+                      "notes": ""
+                    },
+                    "name": "EnableRTP"
+                  },
+                  "1006": {
+                    "id": 1006,
+                    "meta_data": {
+                      "param_support": {
+                        "input": {
+                          "scan_type": {
+                            "_supported": true,
+                            "_optional": false,
+                            "_values": {
+                              "full": false,
+                              "default": false,
+                              "path": false
+                            }
+                          },
+                          "path": {
+                            "_supported": false,
+                            "_optional": true
+                          },
+                          "clean": {
+                            "_supported": false,
+                            "_optional": true
+                          }
+                        },
+                        "output": {
+                          "malware_found": {
+                            "_supported": false,
+                            "_optional": true
+                          },
+                          "clean": {
+                            "_supported": false,
+                            "_optional": true
+                          },
+                          "threats": {
+                            "_supported": false,
+                            "_optional": true,
+                            "threat_name": {
+                              "_supported": true,
+                              "_optional": false
+                            },
+                            "path": {
+                              "_supported": true,
+                              "_optional": false
+                            },
+                            "scan_time": {
+                              "_supported": true,
+                              "_optional": false
+                            },
+                            "remediation": {
+                              "_supported": true,
+                              "_optional": false,
+                              "_values": {
+                                "none": false,
+                                "cleaned": false,
+                                "deleted": false,
+                                "quarantined": false,
+                                "partial": false
+                              }
+                            }
+                          }
+                        }
+                      },
+                      "admin_required": false,
+                      "notes": ""
+                    },
+                    "name": "Scan"
+                  },
+                  "101": {
+                    "id": 101,
+                    "meta_data": {
+                      "param_support": {
+                        "input": {
+                          "instance_id": {
+                            "_supported": false,
+                            "_optional": true
+                          }
+                        },
+                        "output": {
+                          "running": {
+                            "_supported": true,
+                            "_optional": false
+                          }
+                        }
+                      },
+                      "admin_required": false,
+                      "notes": ""
+                    },
+                    "name": "GetRunningState"
+                  },
+                  "102": {
+                    "id": 102,
+                    "meta_data": {
+                      "param_support": {
+                        "input": {
+                          "instance_id": {
+                            "_supported": false,
+                            "_optional": true
+                          }
+                        },
+                        "output": []
+                      },
+                      "admin_required": false,
+                      "notes": ""
+                    },
+                    "name": "Run"
+                  }
+                }
+              }
+            }
+          }
         }
       },
       "name": "ANTIMALWARE"
@@ -100306,6 +101229,10 @@ SUPPORT_CHARTS = {
             {
               "signature": 100004,
               "version": "151.0.7922.109"
+            },
+            {
+              "signature": 100004,
+              "version": "151.0.7922.138"
             }
           ],
           "labels": [],
@@ -122044,9 +122971,6 @@ SUPPORT_CHARTS = {
               "version": "264.4.3385"
             },
             {
-              "methodsStatus": {
-                "1008": -1
-              },
               "signature": 100148,
               "version": "264.4.3421"
             }
@@ -124667,6 +125591,6 @@ SUPPORT_CHARTS = {
       "name": "CLOUD_STORAGE"
     }
   },
-  "timestamp": "1786436685",
+  "timestamp": "1786617277",
   "support_chart_type": "CATEGORY"
 }
