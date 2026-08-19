@@ -15957,6 +15957,57 @@ SUPPORT_CHARTS = {
               }
             }
           }
+        },
+        "100599": {
+          "id": 100599,
+          "tested_points": [
+            {
+              "signature": 100657,
+              "version": "1.19"
+            }
+          ],
+          "labels": [],
+          "languages": [],
+          "name": "npm",
+          "signatures": {
+            "100657": {
+              "signature": 100657,
+              "product": {
+                "id": 100599,
+                "name": "npm"
+              },
+              "vendor": {
+                "id": 100183,
+                "name": "Joyent, Inc."
+              },
+              "categories": {
+                "10": {
+                  "id": 10,
+                  "name": "UNCLASSIFIED"
+                }
+              },
+              "sig_name": "npm",
+              "methods": {
+                "constant": {
+                  "101": {
+                    "id": 101,
+                    "code": -11,
+                    "name": "GetRunningState"
+                  },
+                  "102": {
+                    "id": 102,
+                    "code": -11,
+                    "name": "Run"
+                  },
+                  "103": {
+                    "id": 103,
+                    "code": -11,
+                    "name": "TerminateProcesses"
+                  }
+                }
+              }
+            }
+          }
         }
       },
       "name": "UNCLASSIFIED"
@@ -32034,6 +32085,10 @@ SUPPORT_CHARTS = {
             {
               "signature": 100119,
               "version": "4.51.185"
+            },
+            {
+              "signature": 100119,
+              "version": "4.51.191"
             }
           ],
           "labels": [],
@@ -35731,6 +35786,10 @@ SUPPORT_CHARTS = {
             {
               "signature": 100159,
               "version": "26.134.0713.0007"
+            },
+            {
+              "signature": 100159,
+              "version": "26.139.0720.0007"
             }
           ],
           "labels": [],
@@ -41034,6 +41093,60 @@ SUPPORT_CHARTS = {
                   }
                 },
                 "manageability": {
+                  "100": {
+                    "id": 100,
+                    "meta_data": {
+                      "param_support": {
+                        "input": {
+                          "instance_id": {
+                            "_supported": false,
+                            "_optional": true
+                          }
+                        },
+                        "output": {
+                          "version": {
+                            "_supported": true,
+                            "_optional": false
+                          },
+                          "architecture": {
+                            "_supported": true,
+                            "_optional": false,
+                            "name": {
+                              "_supported": true,
+                              "_optional": false
+                            },
+                            "bitness": {
+                              "_supported": true,
+                              "_optional": false
+                            }
+                          },
+                          "language": {
+                            "_supported": true,
+                            "_optional": false,
+                            "code": {
+                              "_supported": true,
+                              "_optional": false
+                            },
+                            "name": {
+                              "_supported": true,
+                              "_optional": false
+                            }
+                          },
+                          "channel": {
+                            "_supported": false,
+                            "_optional": true
+                          },
+                          "release": {
+                            "_supported": false,
+                            "_optional": true
+                          }
+                        }
+                      },
+                      "admin_required": false,
+                      "notes": ""
+                    },
+                    "name": "GetVersion"
+                  },
                   "101": {
                     "id": 101,
                     "meta_data": {
@@ -41055,6 +41168,23 @@ SUPPORT_CHARTS = {
                       "notes": ""
                     },
                     "name": "GetRunningState"
+                  },
+                  "102": {
+                    "id": 102,
+                    "meta_data": {
+                      "param_support": {
+                        "input": {
+                          "instance_id": {
+                            "_supported": false,
+                            "_optional": true
+                          }
+                        },
+                        "output": []
+                      },
+                      "admin_required": false,
+                      "notes": ""
+                    },
+                    "name": "Run"
                   },
                   "103": {
                     "id": 103,
@@ -58498,6 +58628,14 @@ SUPPORT_CHARTS = {
             {
               "signature": 100474,
               "version": "151.0.4129.78"
+            },
+            {
+              "signature": 100474,
+              "version": "151.0.4129.86"
+            },
+            {
+              "signature": 100474,
+              "version": "151.0.4129.93"
             }
           ],
           "labels": [],
@@ -92874,6 +93012,10 @@ SUPPORT_CHARTS = {
             {
               "signature": 100428,
               "version": "5353"
+            },
+            {
+              "signature": 100428,
+              "version": "5355"
             }
           ],
           "labels": [],
@@ -104323,6 +104465,14 @@ SUPPORT_CHARTS = {
             {
               "signature": 100474,
               "version": "151.0.4129.78"
+            },
+            {
+              "signature": 100474,
+              "version": "151.0.4129.86"
+            },
+            {
+              "signature": 100474,
+              "version": "151.0.4129.93"
             }
           ],
           "labels": [],
@@ -105695,11 +105845,6 @@ SUPPORT_CHARTS = {
               "sig_name": "Mac OS X Builtin Firewall",
               "methods": {
                 "constant": {
-                  "101": {
-                    "id": 101,
-                    "code": -11,
-                    "name": "GetRunningState"
-                  },
                   "102": {
                     "id": 102,
                     "code": -11,
@@ -105843,6 +105988,28 @@ SUPPORT_CHARTS = {
                       "notes": ""
                     },
                     "name": "GetFirewallState"
+                  },
+                  "101": {
+                    "id": 101,
+                    "meta_data": {
+                      "param_support": {
+                        "input": {
+                          "instance_id": {
+                            "_supported": false,
+                            "_optional": true
+                          }
+                        },
+                        "output": {
+                          "running": {
+                            "_supported": true,
+                            "_optional": false
+                          }
+                        }
+                      },
+                      "admin_required": false,
+                      "notes": ""
+                    },
+                    "name": "GetRunningState"
                   },
                   "1015": {
                     "id": 1015,
@@ -119856,6 +120023,10 @@ SUPPORT_CHARTS = {
             {
               "signature": 100119,
               "version": "4.51.185"
+            },
+            {
+              "signature": 100119,
+              "version": "4.51.191"
             }
           ],
           "labels": [],
@@ -124582,6 +124753,10 @@ SUPPORT_CHARTS = {
             {
               "signature": 100159,
               "version": "26.134.0713.0007"
+            },
+            {
+              "signature": 100159,
+              "version": "26.139.0720.0007"
             }
           ],
           "labels": [],
@@ -125591,6 +125766,6 @@ SUPPORT_CHARTS = {
       "name": "CLOUD_STORAGE"
     }
   },
-  "timestamp": "1786617277",
+  "timestamp": "1787064862",
   "support_chart_type": "CATEGORY"
 }

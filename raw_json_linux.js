@@ -13147,6 +13147,57 @@ SUPPORT_CHARTS = {
               "methods": {}
             }
           }
+        },
+        "200233": {
+          "id": 200233,
+          "tested_points": [
+            {
+              "signature": 200252,
+              "version": "0.0"
+            }
+          ],
+          "labels": [],
+          "languages": [],
+          "name": "npm",
+          "signatures": {
+            "200252": {
+              "signature": 200252,
+              "product": {
+                "id": 200233,
+                "name": "npm"
+              },
+              "vendor": {
+                "id": 200231,
+                "name": "Joyent, Inc."
+              },
+              "categories": {
+                "10": {
+                  "id": 10,
+                  "name": "UNCLASSIFIED"
+                }
+              },
+              "sig_name": "npm",
+              "methods": {
+                "constant": {
+                  "101": {
+                    "id": 101,
+                    "code": -11,
+                    "name": "GetRunningState"
+                  },
+                  "102": {
+                    "id": 102,
+                    "code": -11,
+                    "name": "Run"
+                  },
+                  "103": {
+                    "id": 103,
+                    "code": -11,
+                    "name": "TerminateProcesses"
+                  }
+                }
+              }
+            }
+          }
         }
       },
       "name": "UNCLASSIFIED"
@@ -33761,6 +33812,11 @@ SUPPORT_CHARTS = {
               "certification": "gold",
               "signature": 200138,
               "version": "12.2.5.0"
+            },
+            {
+              "certification": "gold",
+              "signature": 200138,
+              "version": "13.2.3.0"
             }
           ],
           "labels": [],
@@ -44117,6 +44173,6 @@ SUPPORT_CHARTS = {
       "name": "CLOUD_STORAGE"
     }
   },
-  "timestamp": "1786436676",
+  "timestamp": "1787049959",
   "support_chart_type": "CATEGORY"
 }
