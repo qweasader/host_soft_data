@@ -48,6 +48,7 @@ SUPPORT_CHARTS = {
                   "name": "P2PA"
                 }
               },
+              "data_source": "Opswat",
               "methods": {},
               "sig_name": "BitTorrent"
             }
@@ -85,6 +86,7 @@ SUPPORT_CHARTS = {
                   "name": "P2PA"
                 }
               },
+              "data_source": "Opswat",
               "methods": {
                 "manageability": {
                   "100": {
@@ -210,6 +212,7 @@ SUPPORT_CHARTS = {
                   "name": "P2PA"
                 }
               },
+              "data_source": "Opswat",
               "methods": {
                 "manageability": {
                   "100": {
@@ -371,6 +374,7 @@ SUPPORT_CHARTS = {
                   "name": "P2PA"
                 }
               },
+              "data_source": "Opswat",
               "methods": {},
               "sig_name": "qBittorrent"
             }
@@ -408,6 +412,7 @@ SUPPORT_CHARTS = {
                   "name": "P2PA"
                 }
               },
+              "data_source": "Opswat",
               "methods": {},
               "sig_name": "Tribler"
             }
@@ -454,6 +459,7 @@ SUPPORT_CHARTS = {
                   "name": "UNCLASSIFIED"
                 }
               },
+              "data_source": "Opswat",
               "methods": {
                 "manageability": {
                   "100": {
@@ -507,6 +513,7 @@ SUPPORT_CHARTS = {
                   "name": "UNCLASSIFIED"
                 }
               },
+              "data_source": "Opswat",
               "methods": {},
               "sig_name": "Python"
             }
@@ -542,6 +549,7 @@ SUPPORT_CHARTS = {
                   "name": "UNCLASSIFIED"
                 }
               },
+              "data_source": "Opswat",
               "methods": {},
               "sig_name": "Code::Blocks"
             }
@@ -593,6 +601,7 @@ SUPPORT_CHARTS = {
                   "name": "UNCLASSIFIED"
                 }
               },
+              "data_source": "Opswat",
               "methods": {
                 "constant": {
                   "102": {
@@ -735,6 +744,7 @@ SUPPORT_CHARTS = {
                   "name": "UNCLASSIFIED"
                 }
               },
+              "data_source": "Opswat",
               "methods": {
                 "constant": {
                   "102": {
@@ -954,6 +964,7 @@ SUPPORT_CHARTS = {
                   "name": "UNCLASSIFIED"
                 }
               },
+              "data_source": "Opswat",
               "methods": {
                 "manageability": {
                   "101": {
@@ -1019,6 +1030,7 @@ SUPPORT_CHARTS = {
                   "name": "UNCLASSIFIED"
                 }
               },
+              "data_source": "Opswat",
               "methods": {
                 "constant": {
                   "101": {
@@ -1126,6 +1138,7 @@ SUPPORT_CHARTS = {
                   "name": "UNCLASSIFIED"
                 }
               },
+              "data_source": "Opswat",
               "methods": {},
               "sig_name": "Doxygen"
             }
@@ -1163,6 +1176,7 @@ SUPPORT_CHARTS = {
                   "name": "UNCLASSIFIED"
                 }
               },
+              "data_source": "Opswat",
               "methods": {},
               "sig_name": "LibreCAD"
             }
@@ -1196,6 +1210,7 @@ SUPPORT_CHARTS = {
                   "name": "UNCLASSIFIED"
                 }
               },
+              "data_source": "Opswat",
               "methods": {
                 "constant": {
                   "101": {
@@ -1438,6 +1453,7 @@ SUPPORT_CHARTS = {
                   "name": "UNCLASSIFIED"
                 }
               },
+              "data_source": "Opswat",
               "methods": {
                 "manageability": {
                   "100": {
@@ -1646,6 +1662,7 @@ SUPPORT_CHARTS = {
                   "name": "UNCLASSIFIED"
                 }
               },
+              "data_source": "Opswat",
               "methods": {
                 "manageability": {
                   "100": {
@@ -1818,6 +1835,7 @@ SUPPORT_CHARTS = {
                   "name": "UNCLASSIFIED"
                 }
               },
+              "data_source": "Opswat",
               "methods": {
                 "manageability": {
                   "100": {
@@ -1924,6 +1942,7 @@ SUPPORT_CHARTS = {
                   "name": "UNCLASSIFIED"
                 }
               },
+              "data_source": "Opswat",
               "methods": {
                 "manageability": {
                   "100": {
@@ -2030,6 +2049,7 @@ SUPPORT_CHARTS = {
                   "name": "UNCLASSIFIED"
                 }
               },
+              "data_source": "Opswat",
               "methods": {
                 "manageability": {
                   "100": {
@@ -2208,6 +2228,7 @@ SUPPORT_CHARTS = {
                   "name": "UNCLASSIFIED"
                 }
               },
+              "data_source": "Opswat",
               "methods": {
                 "manageability": {
                   "100": {
@@ -2271,6 +2292,7 @@ SUPPORT_CHARTS = {
                   "name": "UNCLASSIFIED"
                 }
               },
+              "data_source": "Opswat",
               "methods": {
                 "manageability": {
                   "100": {
@@ -2334,6 +2356,7 @@ SUPPORT_CHARTS = {
                   "name": "UNCLASSIFIED"
                 }
               },
+              "data_source": "Opswat",
               "methods": {
                 "manageability": {
                   "100": {
@@ -2397,6 +2420,7 @@ SUPPORT_CHARTS = {
                   "name": "UNCLASSIFIED"
                 }
               },
+              "data_source": "Opswat",
               "methods": {
                 "manageability": {
                   "100": {
@@ -2460,6 +2484,7 @@ SUPPORT_CHARTS = {
                   "name": "UNCLASSIFIED"
                 }
               },
+              "data_source": "Opswat",
               "methods": {
                 "manageability": {
                   "100": {
@@ -2523,6 +2548,7 @@ SUPPORT_CHARTS = {
                   "name": "UNCLASSIFIED"
                 }
               },
+              "data_source": "Opswat",
               "methods": {
                 "manageability": {
                   "100": {
@@ -2586,6 +2612,7 @@ SUPPORT_CHARTS = {
                   "name": "UNCLASSIFIED"
                 }
               },
+              "data_source": "Opswat",
               "methods": {
                 "manageability": {
                   "100": {
@@ -2649,6 +2676,7 @@ SUPPORT_CHARTS = {
                   "name": "UNCLASSIFIED"
                 }
               },
+              "data_source": "Opswat",
               "methods": {
                 "manageability": {
                   "100": {
@@ -2712,6 +2740,7 @@ SUPPORT_CHARTS = {
                   "name": "UNCLASSIFIED"
                 }
               },
+              "data_source": "Opswat",
               "methods": {
                 "manageability": {
                   "100": {
@@ -2775,6 +2804,7 @@ SUPPORT_CHARTS = {
                   "name": "UNCLASSIFIED"
                 }
               },
+              "data_source": "Opswat",
               "methods": {
                 "manageability": {
                   "100": {
@@ -2838,6 +2868,7 @@ SUPPORT_CHARTS = {
                   "name": "UNCLASSIFIED"
                 }
               },
+              "data_source": "Opswat",
               "methods": {
                 "constant": {
                   "101": {
@@ -2893,6 +2924,7 @@ SUPPORT_CHARTS = {
                   "name": "UNCLASSIFIED"
                 }
               },
+              "data_source": "Opswat",
               "methods": {
                 "manageability": {
                   "100": {
@@ -3003,6 +3035,7 @@ SUPPORT_CHARTS = {
                   "name": "UNCLASSIFIED"
                 }
               },
+              "data_source": "Opswat",
               "methods": {
                 "manageability": {
                   "100": {
@@ -3121,6 +3154,7 @@ SUPPORT_CHARTS = {
                   "name": "UNCLASSIFIED"
                 }
               },
+              "data_source": "Opswat",
               "methods": {},
               "sig_name": "RStudio"
             }
@@ -3154,6 +3188,7 @@ SUPPORT_CHARTS = {
                   "name": "UNCLASSIFIED"
                 }
               },
+              "data_source": "Opswat",
               "methods": {
                 "manageability": {
                   "100": {
@@ -3262,6 +3297,7 @@ SUPPORT_CHARTS = {
                   "name": "UNCLASSIFIED"
                 }
               },
+              "data_source": "Opswat",
               "methods": {
                 "manageability": {
                   "100": {
@@ -3395,6 +3431,7 @@ SUPPORT_CHARTS = {
                   "name": "UNCLASSIFIED"
                 }
               },
+              "data_source": "Opswat",
               "methods": {
                 "manageability": {
                   "100": {
@@ -3486,6 +3523,7 @@ SUPPORT_CHARTS = {
                   "name": "UNCLASSIFIED"
                 }
               },
+              "data_source": "Opswat",
               "methods": {
                 "manageability": {
                   "100": {
@@ -3567,6 +3605,7 @@ SUPPORT_CHARTS = {
                   "name": "UNCLASSIFIED"
                 }
               },
+              "data_source": "Opswat",
               "methods": {
                 "manageability": {
                   "100": {
@@ -3706,6 +3745,7 @@ SUPPORT_CHARTS = {
                   "name": "UNCLASSIFIED"
                 }
               },
+              "data_source": "Opswat",
               "methods": {
                 "manageability": {
                   "102": {
@@ -3760,6 +3800,7 @@ SUPPORT_CHARTS = {
                   "name": "UNCLASSIFIED"
                 }
               },
+              "data_source": "Opswat",
               "methods": {
                 "constant": {
                   "102": {
@@ -3900,6 +3941,7 @@ SUPPORT_CHARTS = {
                   "name": "UNCLASSIFIED"
                 }
               },
+              "data_source": "Opswat",
               "methods": {
                 "constant": {
                   "101": {
@@ -4017,6 +4059,7 @@ SUPPORT_CHARTS = {
                   "name": "UNCLASSIFIED"
                 }
               },
+              "data_source": "Opswat",
               "methods": {
                 "constant": {
                   "102": {
@@ -4132,6 +4175,7 @@ SUPPORT_CHARTS = {
                   "name": "UNCLASSIFIED"
                 }
               },
+              "data_source": "Opswat",
               "methods": {},
               "sig_name": "aMule"
             }
@@ -4165,6 +4209,7 @@ SUPPORT_CHARTS = {
                   "name": "UNCLASSIFIED"
                 }
               },
+              "data_source": "Opswat",
               "methods": {
                 "manageability": {
                   "101": {
@@ -4230,6 +4275,7 @@ SUPPORT_CHARTS = {
                   "name": "UNCLASSIFIED"
                 }
               },
+              "data_source": "Opswat",
               "methods": {
                 "manageability": {
                   "100": {
@@ -4366,6 +4412,7 @@ SUPPORT_CHARTS = {
                   "name": "UNCLASSIFIED"
                 }
               },
+              "data_source": "Opswat",
               "methods": {
                 "manageability": {
                   "101": {
@@ -4435,6 +4482,7 @@ SUPPORT_CHARTS = {
                   "name": "UNCLASSIFIED"
                 }
               },
+              "data_source": "Opswat",
               "methods": {
                 "manageability": {
                   "100": {
@@ -4555,6 +4603,7 @@ SUPPORT_CHARTS = {
                   "name": "UNCLASSIFIED"
                 }
               },
+              "data_source": "Opswat",
               "methods": {
                 "manageability": {
                   "100": {
@@ -4632,6 +4681,7 @@ SUPPORT_CHARTS = {
                   "name": "UNCLASSIFIED"
                 }
               },
+              "data_source": "Opswat",
               "methods": {},
               "sig_name": "PhpStorm"
             }
@@ -4687,6 +4737,7 @@ SUPPORT_CHARTS = {
                   "name": "UNCLASSIFIED"
                 }
               },
+              "data_source": "Opswat",
               "methods": {
                 "manageability": {
                   "100": {
@@ -4835,6 +4886,7 @@ SUPPORT_CHARTS = {
                   "name": "UNCLASSIFIED"
                 }
               },
+              "data_source": "Opswat",
               "methods": {
                 "manageability": {
                   "101": {
@@ -4904,6 +4956,7 @@ SUPPORT_CHARTS = {
                   "name": "UNCLASSIFIED"
                 }
               },
+              "data_source": "Opswat",
               "methods": {
                 "manageability": {
                   "100": {
@@ -5045,6 +5098,7 @@ SUPPORT_CHARTS = {
                   "name": "UNCLASSIFIED"
                 }
               },
+              "data_source": "Opswat",
               "methods": {
                 "manageability": {
                   "100": {
@@ -5184,6 +5238,7 @@ SUPPORT_CHARTS = {
                   "name": "UNCLASSIFIED"
                 }
               },
+              "data_source": "Opswat",
               "methods": {
                 "manageability": {
                   "100": {
@@ -5304,6 +5359,7 @@ SUPPORT_CHARTS = {
                   "name": "UNCLASSIFIED"
                 }
               },
+              "data_source": "Opswat",
               "methods": {
                 "manageability": {
                   "100": {
@@ -5422,6 +5478,7 @@ SUPPORT_CHARTS = {
                   "name": "UNCLASSIFIED"
                 }
               },
+              "data_source": "Opswat",
               "methods": {
                 "manageability": {
                   "100": {
@@ -5499,6 +5556,7 @@ SUPPORT_CHARTS = {
                   "name": "UNCLASSIFIED"
                 }
               },
+              "data_source": "Opswat",
               "methods": {
                 "manageability": {
                   "101": {
@@ -5588,6 +5646,7 @@ SUPPORT_CHARTS = {
                   "name": "P2PA"
                 }
               },
+              "data_source": "Opswat",
               "methods": {
                 "manageability": {
                   "100": {
@@ -5710,6 +5769,7 @@ SUPPORT_CHARTS = {
                   "name": "UNCLASSIFIED"
                 }
               },
+              "data_source": "Opswat",
               "methods": {
                 "manageability": {
                   "100": {
@@ -5789,6 +5849,7 @@ SUPPORT_CHARTS = {
                   "name": "UNCLASSIFIED"
                 }
               },
+              "data_source": "Opswat",
               "methods": {
                 "manageability": {
                   "100": {
@@ -5907,6 +5968,7 @@ SUPPORT_CHARTS = {
                   "name": "UNCLASSIFIED"
                 }
               },
+              "data_source": "Opswat",
               "methods": {
                 "manageability": {
                   "100": {
@@ -6017,6 +6079,7 @@ SUPPORT_CHARTS = {
                   "name": "UNCLASSIFIED"
                 }
               },
+              "data_source": "Opswat",
               "methods": {
                 "manageability": {
                   "102": {
@@ -6114,6 +6177,7 @@ SUPPORT_CHARTS = {
                   "name": "UNCLASSIFIED"
                 }
               },
+              "data_source": "Opswat",
               "methods": {
                 "constant": {
                   "102": {
@@ -6213,6 +6277,7 @@ SUPPORT_CHARTS = {
                   "name": "UNCLASSIFIED"
                 }
               },
+              "data_source": "Opswat",
               "methods": {
                 "constant": {
                   "102": {
@@ -6312,6 +6377,7 @@ SUPPORT_CHARTS = {
                   "name": "UNCLASSIFIED"
                 }
               },
+              "data_source": "Opswat",
               "methods": {
                 "constant": {
                   "102": {
@@ -6411,6 +6477,7 @@ SUPPORT_CHARTS = {
                   "name": "UNCLASSIFIED"
                 }
               },
+              "data_source": "Opswat",
               "methods": {
                 "constant": {
                   "102": {
@@ -6510,6 +6577,7 @@ SUPPORT_CHARTS = {
                   "name": "UNCLASSIFIED"
                 }
               },
+              "data_source": "Opswat",
               "methods": {
                 "constant": {
                   "102": {
@@ -6609,6 +6677,7 @@ SUPPORT_CHARTS = {
                   "name": "UNCLASSIFIED"
                 }
               },
+              "data_source": "Opswat",
               "methods": {
                 "constant": {
                   "102": {
@@ -6708,6 +6777,7 @@ SUPPORT_CHARTS = {
                   "name": "UNCLASSIFIED"
                 }
               },
+              "data_source": "Opswat",
               "methods": {
                 "constant": {
                   "102": {
@@ -6807,6 +6877,7 @@ SUPPORT_CHARTS = {
                   "name": "UNCLASSIFIED"
                 }
               },
+              "data_source": "Opswat",
               "methods": {
                 "constant": {
                   "102": {
@@ -6942,6 +7013,7 @@ SUPPORT_CHARTS = {
                   "name": "UNCLASSIFIED"
                 }
               },
+              "data_source": "Opswat",
               "methods": {
                 "manageability": {
                   "100": {
@@ -7115,6 +7187,7 @@ SUPPORT_CHARTS = {
                   "name": "P2PA"
                 }
               },
+              "data_source": "Opswat",
               "methods": {
                 "manageability": {
                   "100": {
@@ -7255,6 +7328,7 @@ SUPPORT_CHARTS = {
                   "name": "UNCLASSIFIED"
                 }
               },
+              "data_source": "Opswat",
               "methods": {
                 "manageability": {
                   "100": {
@@ -7433,6 +7507,7 @@ SUPPORT_CHARTS = {
                   "name": "UNCLASSIFIED"
                 }
               },
+              "data_source": "Opswat",
               "methods": {
                 "constant": {
                   "101": {
@@ -7548,6 +7623,7 @@ SUPPORT_CHARTS = {
                   "name": "UNCLASSIFIED"
                 }
               },
+              "data_source": "Opswat",
               "methods": {
                 "manageability": {
                   "100": {
@@ -7689,6 +7765,7 @@ SUPPORT_CHARTS = {
                   "name": "UNCLASSIFIED"
                 }
               },
+              "data_source": "Opswat",
               "methods": {
                 "manageability": {
                   "101": {
@@ -7754,6 +7831,7 @@ SUPPORT_CHARTS = {
                   "name": "UNCLASSIFIED"
                 }
               },
+              "data_source": "Opswat",
               "methods": {
                 "manageability": {
                   "100": {
@@ -7831,6 +7909,7 @@ SUPPORT_CHARTS = {
                   "name": "UNCLASSIFIED"
                 }
               },
+              "data_source": "Opswat",
               "methods": {
                 "manageability": {
                   "100": {
@@ -7983,6 +8062,7 @@ SUPPORT_CHARTS = {
                   "name": "UNCLASSIFIED"
                 }
               },
+              "data_source": "Opswat",
               "methods": {
                 "manageability": {
                   "100": {
@@ -8146,6 +8226,7 @@ SUPPORT_CHARTS = {
                   "name": "UNCLASSIFIED"
                 }
               },
+              "data_source": "Opswat",
               "methods": {
                 "manageability": {
                   "100": {
@@ -8376,6 +8457,7 @@ SUPPORT_CHARTS = {
                   "name": "UNCLASSIFIED"
                 }
               },
+              "data_source": "Opswat",
               "methods": {},
               "sig_name": "SMPlayer"
             }
@@ -8409,6 +8491,7 @@ SUPPORT_CHARTS = {
                   "name": "UNCLASSIFIED"
                 }
               },
+              "data_source": "Opswat",
               "methods": {
                 "manageability": {
                   "101": {
@@ -8474,6 +8557,7 @@ SUPPORT_CHARTS = {
                   "name": "UNCLASSIFIED"
                 }
               },
+              "data_source": "Opswat",
               "methods": {
                 "manageability": {
                   "100": {
@@ -8551,6 +8635,7 @@ SUPPORT_CHARTS = {
                   "name": "UNCLASSIFIED"
                 }
               },
+              "data_source": "Opswat",
               "methods": {},
               "sig_name": "Audacity"
             }
@@ -8608,6 +8693,7 @@ SUPPORT_CHARTS = {
                   "name": "UNCLASSIFIED"
                 }
               },
+              "data_source": "Opswat",
               "methods": {
                 "manageability": {
                   "100": {
@@ -8712,6 +8798,7 @@ SUPPORT_CHARTS = {
                   "name": "UNCLASSIFIED"
                 }
               },
+              "data_source": "Opswat",
               "methods": {
                 "manageability": {
                   "100": {
@@ -8816,6 +8903,7 @@ SUPPORT_CHARTS = {
                   "name": "UNCLASSIFIED"
                 }
               },
+              "data_source": "Opswat",
               "methods": {
                 "manageability": {
                   "100": {
@@ -8920,6 +9008,7 @@ SUPPORT_CHARTS = {
                   "name": "UNCLASSIFIED"
                 }
               },
+              "data_source": "Opswat",
               "methods": {},
               "sig_name": "Visual Paradigm 16.2"
             }
@@ -8953,6 +9042,7 @@ SUPPORT_CHARTS = {
                   "name": "UNCLASSIFIED"
                 }
               },
+              "data_source": "Opswat",
               "methods": {
                 "manageability": {
                   "100": {
@@ -9096,6 +9186,7 @@ SUPPORT_CHARTS = {
                   "name": "UNCLASSIFIED"
                 }
               },
+              "data_source": "Opswat",
               "methods": {
                 "constant": {
                   "102": {
@@ -9218,6 +9309,7 @@ SUPPORT_CHARTS = {
                   "name": "UNCLASSIFIED"
                 }
               },
+              "data_source": "Opswat",
               "methods": {
                 "manageability": {
                   "100": {
@@ -9315,6 +9407,7 @@ SUPPORT_CHARTS = {
                   "name": "UNCLASSIFIED"
                 }
               },
+              "data_source": "Opswat",
               "methods": {
                 "constant": {
                   "101": {
@@ -9413,6 +9506,7 @@ SUPPORT_CHARTS = {
                   "name": "UNCLASSIFIED"
                 }
               },
+              "data_source": "Opswat",
               "methods": {
                 "manageability": {
                   "100": {
@@ -9556,6 +9650,7 @@ SUPPORT_CHARTS = {
                   "name": "UNCLASSIFIED"
                 }
               },
+              "data_source": "Opswat",
               "methods": {
                 "constant": {
                   "101": {
@@ -9671,6 +9766,7 @@ SUPPORT_CHARTS = {
                   "name": "UNCLASSIFIED"
                 }
               },
+              "data_source": "Opswat",
               "methods": {
                 "manageability": {
                   "100": {
@@ -9764,6 +9860,7 @@ SUPPORT_CHARTS = {
                   "name": "UNCLASSIFIED"
                 }
               },
+              "data_source": "Opswat",
               "methods": {
                 "constant": {
                   "101": {
@@ -9935,6 +10032,7 @@ SUPPORT_CHARTS = {
                   "name": "ANTIMALWARE"
                 }
               },
+              "data_source": "Opswat",
               "methods": {
                 "manageability": {
                   "100": {
@@ -10366,6 +10464,7 @@ SUPPORT_CHARTS = {
                   "name": "UNCLASSIFIED"
                 }
               },
+              "data_source": "Opswat",
               "methods": {
                 "manageability": {
                   "100": {
@@ -10495,6 +10594,7 @@ SUPPORT_CHARTS = {
                   "name": "UNCLASSIFIED"
                 }
               },
+              "data_source": "Opswat",
               "methods": {},
               "sig_name": "wine"
             }
@@ -10528,6 +10628,7 @@ SUPPORT_CHARTS = {
                   "name": "UNCLASSIFIED"
                 }
               },
+              "data_source": "Opswat",
               "methods": {
                 "manageability": {
                   "100": {
@@ -10674,6 +10775,7 @@ SUPPORT_CHARTS = {
                   "name": "UNCLASSIFIED"
                 }
               },
+              "data_source": "Opswat",
               "methods": {
                 "constant": {
                   "102": {
@@ -10832,6 +10934,7 @@ SUPPORT_CHARTS = {
                   "name": "UNCLASSIFIED"
                 }
               },
+              "data_source": "Opswat",
               "methods": {
                 "constant": {
                   "102": {
@@ -11016,6 +11119,7 @@ SUPPORT_CHARTS = {
                   "name": "UNCLASSIFIED"
                 }
               },
+              "data_source": "Opswat",
               "methods": {
                 "manageability": {
                   "100": {
@@ -11157,6 +11261,7 @@ SUPPORT_CHARTS = {
                   "name": "UNCLASSIFIED"
                 }
               },
+              "data_source": "Opswat",
               "methods": {
                 "manageability": {
                   "100": {
@@ -11340,6 +11445,7 @@ SUPPORT_CHARTS = {
                   "name": "UNCLASSIFIED"
                 }
               },
+              "data_source": "Opswat",
               "methods": {
                 "manageability": {
                   "100": {
@@ -11495,6 +11601,7 @@ SUPPORT_CHARTS = {
                   "name": "UNCLASSIFIED"
                 }
               },
+              "data_source": "Opswat",
               "methods": {
                 "manageability": {
                   "100": {
@@ -11628,6 +11735,7 @@ SUPPORT_CHARTS = {
                   "name": "UNCLASSIFIED"
                 }
               },
+              "data_source": "Opswat",
               "methods": {
                 "constant": {
                   "102": {
@@ -11764,6 +11872,7 @@ SUPPORT_CHARTS = {
                   "name": "UNCLASSIFIED"
                 }
               },
+              "data_source": "Opswat",
               "methods": {
                 "constant": {
                   "102": {
@@ -11900,6 +12009,7 @@ SUPPORT_CHARTS = {
                   "name": "UNCLASSIFIED"
                 }
               },
+              "data_source": "Opswat",
               "methods": {
                 "constant": {
                   "102": {
@@ -12052,6 +12162,7 @@ SUPPORT_CHARTS = {
                   "name": "UNCLASSIFIED"
                 }
               },
+              "data_source": "Opswat",
               "methods": {
                 "constant": {
                   "102": {
@@ -12153,6 +12264,7 @@ SUPPORT_CHARTS = {
                   "name": "UNCLASSIFIED"
                 }
               },
+              "data_source": "Opswat",
               "methods": {
                 "manageability": {
                   "100": {
@@ -12243,6 +12355,7 @@ SUPPORT_CHARTS = {
                   "name": "UNCLASSIFIED"
                 }
               },
+              "data_source": "Opswat",
               "methods": {
                 "manageability": {
                   "100": {
@@ -12333,6 +12446,7 @@ SUPPORT_CHARTS = {
                   "name": "UNCLASSIFIED"
                 }
               },
+              "data_source": "Opswat",
               "methods": {},
               "sig_name": "Elasticsearch"
             }
@@ -12370,6 +12484,7 @@ SUPPORT_CHARTS = {
                   "name": "UNCLASSIFIED"
                 }
               },
+              "data_source": "Opswat",
               "methods": {
                 "constant": {
                   "101": {
@@ -12507,6 +12622,7 @@ SUPPORT_CHARTS = {
                   "name": "UNCLASSIFIED"
                 }
               },
+              "data_source": "Opswat",
               "methods": {
                 "manageability": {
                   "101": {
@@ -12599,6 +12715,7 @@ SUPPORT_CHARTS = {
                   "name": "UNCLASSIFIED"
                 }
               },
+              "data_source": "Opswat",
               "methods": {
                 "constant": {
                   "102": {
@@ -12735,6 +12852,7 @@ SUPPORT_CHARTS = {
                   "name": "UNCLASSIFIED"
                 }
               },
+              "data_source": "Opswat",
               "methods": {
                 "constant": {
                   "102": {
@@ -12871,6 +12989,7 @@ SUPPORT_CHARTS = {
                   "name": "UNCLASSIFIED"
                 }
               },
+              "data_source": "Opswat",
               "methods": {
                 "constant": {
                   "102": {
@@ -13007,6 +13126,7 @@ SUPPORT_CHARTS = {
                   "name": "UNCLASSIFIED"
                 }
               },
+              "data_source": "Opswat",
               "methods": {
                 "constant": {
                   "102": {
@@ -13143,6 +13263,7 @@ SUPPORT_CHARTS = {
                   "name": "UNCLASSIFIED"
                 }
               },
+              "data_source": "Opswat",
               "methods": {},
               "sig_name": "Amazon WorkSpaces"
             }
@@ -13176,6 +13297,7 @@ SUPPORT_CHARTS = {
                   "name": "UNCLASSIFIED"
                 }
               },
+              "data_source": "Opswat",
               "methods": {
                 "constant": {
                   "101": {
@@ -13390,6 +13512,7 @@ SUPPORT_CHARTS = {
                   "name": "ENCRYPTION"
                 }
               },
+              "data_source": "Opswat",
               "methods": {
                 "manageability": {
                   "101": {
@@ -13482,6 +13605,7 @@ SUPPORT_CHARTS = {
                   "name": "DATA_LOSS_PREVENTION"
                 }
               },
+              "data_source": "Opswat",
               "methods": {
                 "constant": {
                   "103": {
@@ -13582,6 +13706,7 @@ SUPPORT_CHARTS = {
                   "name": "PATCH_MANAGEMENT"
                 }
               },
+              "data_source": "Opswat",
               "methods": {
                 "manageability": {
                   "1012": {
@@ -13686,6 +13811,7 @@ SUPPORT_CHARTS = {
                   "name": "PATCH_MANAGEMENT"
                 }
               },
+              "data_source": "Opswat",
               "methods": {
                 "constant": {
                   "101": {
@@ -14282,6 +14408,7 @@ SUPPORT_CHARTS = {
                   "name": "PATCH_MANAGEMENT"
                 }
               },
+              "data_source": "Opswat",
               "methods": {
                 "constant": {
                   "101": {
@@ -14799,6 +14926,7 @@ SUPPORT_CHARTS = {
                   "name": "PATCH_MANAGEMENT"
                 }
               },
+              "data_source": "Opswat",
               "methods": {
                 "constant": {
                   "101": {
@@ -15375,6 +15503,7 @@ SUPPORT_CHARTS = {
                   "name": "PATCH_MANAGEMENT"
                 }
               },
+              "data_source": "Opswat",
               "methods": {
                 "constant": {
                   "102": {
@@ -15938,6 +16067,7 @@ SUPPORT_CHARTS = {
                   "name": "PATCH_MANAGEMENT"
                 }
               },
+              "data_source": "Opswat",
               "methods": {
                 "constant": {
                   "101": {
@@ -16140,6 +16270,7 @@ SUPPORT_CHARTS = {
                   "name": "PATCH_MANAGEMENT"
                 }
               },
+              "data_source": "Opswat",
               "methods": {
                 "constant": {
                   "1013": {
@@ -16341,6 +16472,7 @@ SUPPORT_CHARTS = {
                   "name": "PATCH_MANAGEMENT"
                 }
               },
+              "data_source": "Opswat",
               "methods": {
                 "manageability": {
                   "102": {
@@ -16415,6 +16547,7 @@ SUPPORT_CHARTS = {
                   "name": "PATCH_MANAGEMENT"
                 }
               },
+              "data_source": "Opswat",
               "methods": {
                 "manageability": {
                   "100": {
@@ -16975,6 +17108,7 @@ SUPPORT_CHARTS = {
                   "name": "PATCH_MANAGEMENT"
                 }
               },
+              "data_source": "Opswat",
               "methods": {
                 "manageability": {
                   "100": {
@@ -17129,6 +17263,7 @@ SUPPORT_CHARTS = {
                   "name": "PATCH_MANAGEMENT"
                 }
               },
+              "data_source": "Opswat",
               "methods": {
                 "constant": {
                   "101": {
@@ -17236,6 +17371,7 @@ SUPPORT_CHARTS = {
                   "name": "PATCH_MANAGEMENT"
                 }
               },
+              "data_source": "Opswat",
               "methods": {
                 "manageability": {
                   "100": {
@@ -17333,6 +17469,7 @@ SUPPORT_CHARTS = {
                   "name": "VPN_CLIENT"
                 }
               },
+              "data_source": "Opswat",
               "methods": {},
               "sig_name": "Aventail Connect"
             }
@@ -17369,6 +17506,7 @@ SUPPORT_CHARTS = {
                   "name": "VPN_CLIENT"
                 }
               },
+              "data_source": "Opswat",
               "methods": {
                 "manageability": {
                   "100": {
@@ -17475,6 +17613,7 @@ SUPPORT_CHARTS = {
                   "name": "VPN_CLIENT"
                 }
               },
+              "data_source": "Opswat",
               "methods": {
                 "manageability": {
                   "100": {
@@ -17556,6 +17695,7 @@ SUPPORT_CHARTS = {
                   "name": "VPN_CLIENT"
                 }
               },
+              "data_source": "Opswat",
               "methods": {
                 "manageability": {
                   "101": {
@@ -17648,6 +17788,7 @@ SUPPORT_CHARTS = {
                   "name": "VPN_CLIENT"
                 }
               },
+              "data_source": "Opswat",
               "methods": {
                 "manageability": {
                   "100": {
@@ -17779,6 +17920,7 @@ SUPPORT_CHARTS = {
                   "name": "VIRTUAL_MACHINE"
                 }
               },
+              "data_source": "Opswat",
               "methods": {},
               "sig_name": "Xen"
             }
@@ -17812,6 +17954,7 @@ SUPPORT_CHARTS = {
                   "name": "VIRTUAL_MACHINE"
                 }
               },
+              "data_source": "Opswat",
               "methods": {
                 "constant": {
                   "101": {
@@ -18003,6 +18146,7 @@ SUPPORT_CHARTS = {
                   "name": "VIRTUAL_MACHINE"
                 }
               },
+              "data_source": "Opswat",
               "methods": {},
               "sig_name": "Xen"
             }
@@ -18044,6 +18188,7 @@ SUPPORT_CHARTS = {
                   "name": "VIRTUAL_MACHINE"
                 }
               },
+              "data_source": "Opswat",
               "methods": {
                 "manageability": {
                   "100": {
@@ -18220,6 +18365,7 @@ SUPPORT_CHARTS = {
                   "name": "VIRTUAL_MACHINE"
                 }
               },
+              "data_source": "Opswat",
               "methods": {},
               "sig_name": "QEMU"
             }
@@ -18253,6 +18399,7 @@ SUPPORT_CHARTS = {
                   "name": "VIRTUAL_MACHINE"
                 }
               },
+              "data_source": "Opswat",
               "methods": {},
               "sig_name": "VirtualBox"
             }
@@ -18298,6 +18445,7 @@ SUPPORT_CHARTS = {
                   "name": "VIRTUAL_MACHINE"
                 }
               },
+              "data_source": "Opswat",
               "methods": {
                 "manageability": {
                   "100": {
@@ -18387,6 +18535,7 @@ SUPPORT_CHARTS = {
                   "name": "VIRTUAL_MACHINE"
                 }
               },
+              "data_source": "Opswat",
               "methods": {
                 "manageability": {
                   "100": {
@@ -18562,6 +18711,7 @@ SUPPORT_CHARTS = {
                   "name": "VIRTUAL_MACHINE"
                 }
               },
+              "data_source": "Opswat",
               "methods": {
                 "manageability": {
                   "100": {
@@ -18926,6 +19076,7 @@ SUPPORT_CHARTS = {
                   "name": "FIREWALL"
                 }
               },
+              "data_source": "Opswat",
               "methods": {
                 "manageability": {
                   "100": {
@@ -19438,6 +19589,7 @@ SUPPORT_CHARTS = {
                   "name": "HEALTH_AGENT"
                 }
               },
+              "data_source": "Opswat",
               "methods": {
                 "manageability": {
                   "100": {
@@ -19658,6 +19810,7 @@ SUPPORT_CHARTS = {
                   "name": "ANTIMALWARE"
                 }
               },
+              "data_source": "Opswat",
               "methods": {
                 "manageability": {
                   "100": {
@@ -20131,6 +20284,7 @@ SUPPORT_CHARTS = {
                   "name": "ANTIMALWARE"
                 }
               },
+              "data_source": "Opswat",
               "methods": {
                 "manageability": {
                   "1000": {
@@ -20607,6 +20761,7 @@ SUPPORT_CHARTS = {
                   "name": "ANTIMALWARE"
                 }
               },
+              "data_source": "Opswat",
               "methods": {
                 "manageability": {
                   "1000": {
@@ -20851,6 +21006,7 @@ SUPPORT_CHARTS = {
                   "name": "REMOTE_CONTROL"
                 }
               },
+              "data_source": "Opswat",
               "methods": {
                 "manageability": {
                   "100": {
@@ -20970,6 +21126,7 @@ SUPPORT_CHARTS = {
                   "name": "REMOTE_CONTROL"
                 }
               },
+              "data_source": "Opswat",
               "methods": {
                 "manageability": {
                   "100": {
@@ -21085,6 +21242,7 @@ SUPPORT_CHARTS = {
                   "name": "WEB_CONFERENCE"
                 }
               },
+              "data_source": "Opswat",
               "methods": {
                 "manageability": {
                   "100": {
@@ -21331,6 +21489,7 @@ SUPPORT_CHARTS = {
                   "name": "REMOTE_CONTROL"
                 }
               },
+              "data_source": "Opswat",
               "methods": {
                 "manageability": {
                   "100": {
@@ -21407,6 +21566,7 @@ SUPPORT_CHARTS = {
                   "name": "REMOTE_CONTROL"
                 }
               },
+              "data_source": "Opswat",
               "methods": {},
               "sig_name": "VNC Viewer (deprecated)"
             }
@@ -21440,6 +21600,7 @@ SUPPORT_CHARTS = {
                   "name": "REMOTE_CONTROL"
                 }
               },
+              "data_source": "Opswat",
               "methods": {
                 "manageability": {
                   "100": {
@@ -21493,6 +21654,7 @@ SUPPORT_CHARTS = {
                   "name": "REMOTE_CONTROL"
                 }
               },
+              "data_source": "Opswat",
               "methods": {},
               "sig_name": "TightVNC"
             }
@@ -21526,6 +21688,7 @@ SUPPORT_CHARTS = {
                   "name": "REMOTE_CONTROL"
                 }
               },
+              "data_source": "Opswat",
               "methods": {},
               "sig_name": "rdesktop"
             }
@@ -21583,6 +21746,7 @@ SUPPORT_CHARTS = {
                   "name": "REMOTE_CONTROL"
                 }
               },
+              "data_source": "Opswat",
               "methods": {
                 "manageability": {
                   "100": {
@@ -21733,6 +21897,7 @@ SUPPORT_CHARTS = {
                   "name": "REMOTE_CONTROL"
                 }
               },
+              "data_source": "Opswat",
               "methods": {
                 "manageability": {
                   "100": {
@@ -21879,6 +22044,7 @@ SUPPORT_CHARTS = {
                   "name": "REMOTE_CONTROL"
                 }
               },
+              "data_source": "Opswat",
               "methods": {
                 "manageability": {
                   "100": {
@@ -22051,6 +22217,7 @@ SUPPORT_CHARTS = {
                   "name": "P2PA"
                 }
               },
+              "data_source": "Opswat",
               "methods": {},
               "sig_name": "BitTorrent"
             }
@@ -22088,6 +22255,7 @@ SUPPORT_CHARTS = {
                   "name": "P2PA"
                 }
               },
+              "data_source": "Opswat",
               "methods": {
                 "manageability": {
                   "100": {
@@ -22190,6 +22358,7 @@ SUPPORT_CHARTS = {
                   "name": "P2PA"
                 }
               },
+              "data_source": "Opswat",
               "methods": {
                 "manageability": {
                   "100": {
@@ -22343,6 +22512,7 @@ SUPPORT_CHARTS = {
                   "name": "P2PA"
                 }
               },
+              "data_source": "Opswat",
               "methods": {
                 "manageability": {
                   "100": {
@@ -22516,6 +22686,7 @@ SUPPORT_CHARTS = {
                   "name": "P2PA"
                 }
               },
+              "data_source": "Opswat",
               "methods": {
                 "manageability": {
                   "100": {
@@ -22640,6 +22811,7 @@ SUPPORT_CHARTS = {
                   "name": "P2PA"
                 }
               },
+              "data_source": "Opswat",
               "methods": {},
               "sig_name": "qBittorrent"
             }
@@ -22677,6 +22849,7 @@ SUPPORT_CHARTS = {
                   "name": "P2PA"
                 }
               },
+              "data_source": "Opswat",
               "methods": {},
               "sig_name": "Tribler"
             }
@@ -22721,6 +22894,7 @@ SUPPORT_CHARTS = {
                   "name": "MESSENGER"
                 }
               },
+              "data_source": "Opswat",
               "methods": {},
               "sig_name": "Brosix"
             }
@@ -22758,6 +22932,7 @@ SUPPORT_CHARTS = {
                   "name": "MESSENGER"
                 }
               },
+              "data_source": "Opswat",
               "methods": {},
               "sig_name": "Skype"
             }
@@ -22795,6 +22970,7 @@ SUPPORT_CHARTS = {
                   "name": "MESSENGER"
                 }
               },
+              "data_source": "Opswat",
               "methods": {},
               "sig_name": "emesene"
             }
@@ -22832,6 +23008,7 @@ SUPPORT_CHARTS = {
                   "name": "MESSENGER"
                 }
               },
+              "data_source": "Opswat",
               "methods": {},
               "sig_name": "ISL Pronto"
             }
@@ -22927,6 +23104,7 @@ SUPPORT_CHARTS = {
                   "name": "WEB_CONFERENCE"
                 }
               },
+              "data_source": "Opswat",
               "methods": {
                 "manageability": {
                   "100": {
@@ -23165,6 +23343,7 @@ SUPPORT_CHARTS = {
                   "name": "MESSENGER"
                 }
               },
+              "data_source": "Opswat",
               "methods": {
                 "manageability": {
                   "100": {
@@ -23344,6 +23523,7 @@ SUPPORT_CHARTS = {
                   "name": "BACKUP"
                 }
               },
+              "data_source": "Opswat",
               "methods": {
                 "manageability": {
                   "100": {
@@ -23428,6 +23608,7 @@ SUPPORT_CHARTS = {
                   "name": "BACKUP"
                 }
               },
+              "data_source": "Opswat",
               "methods": {},
               "sig_name": "Tonido"
             }
@@ -23469,6 +23650,7 @@ SUPPORT_CHARTS = {
                   "name": "CLOUD_STORAGE"
                 }
               },
+              "data_source": "Opswat",
               "methods": {
                 "manageability": {
                   "100": {
@@ -23623,6 +23805,12 @@ SUPPORT_CHARTS = {
       "products": {},
       "name": "SYSTEM_DIAGNOSTIC_AND_CLEANUP"
     },
+    "23": {
+      "id": 23,
+      "methods": {},
+      "products": {},
+      "name": "EDR_XDR"
+    },
     "3": {
       "id": 3,
       "methods": {
@@ -23672,6 +23860,7 @@ SUPPORT_CHARTS = {
                   "name": "ENCRYPTION"
                 }
               },
+              "data_source": "Opswat",
               "methods": {
                 "manageability": {
                   "100": {
@@ -23878,6 +24067,7 @@ SUPPORT_CHARTS = {
                   "name": "ENCRYPTION"
                 }
               },
+              "data_source": "Opswat",
               "methods": {
                 "constant": {
                   "102": {
@@ -24065,6 +24255,7 @@ SUPPORT_CHARTS = {
                   "name": "ENCRYPTION"
                 }
               },
+              "data_source": "Opswat",
               "methods": {},
               "sig_name": "EncFS"
             }
@@ -24098,6 +24289,7 @@ SUPPORT_CHARTS = {
                   "name": "ENCRYPTION"
                 }
               },
+              "data_source": "Opswat",
               "methods": {
                 "manageability": {
                   "100": {
@@ -24191,6 +24383,7 @@ SUPPORT_CHARTS = {
                   "name": "ENCRYPTION"
                 }
               },
+              "data_source": "Opswat",
               "methods": {
                 "manageability": {
                   "101": {
@@ -24491,6 +24684,7 @@ SUPPORT_CHARTS = {
                   "name": "BROWSER"
                 }
               },
+              "data_source": "Opswat",
               "methods": {
                 "manageability": {
                   "100": {
@@ -25007,6 +25201,7 @@ SUPPORT_CHARTS = {
                   "name": "BROWSER"
                 }
               },
+              "data_source": "Opswat",
               "methods": {
                 "manageability": {
                   "100": {
@@ -25229,6 +25424,7 @@ SUPPORT_CHARTS = {
                   "name": "FIREWALL"
                 }
               },
+              "data_source": "Opswat",
               "methods": {
                 "manageability": {
                   "100": {
@@ -25629,6 +25825,7 @@ SUPPORT_CHARTS = {
                   "name": "BROWSER"
                 }
               },
+              "data_source": "Opswat",
               "methods": {
                 "manageability": {
                   "100": {
@@ -25943,6 +26140,7 @@ SUPPORT_CHARTS = {
                   "name": "ANTIPHISHING"
                 }
               },
+              "data_source": "Opswat",
               "methods": {
                 "manageability": {
                   "101": {
@@ -26082,6 +26280,7 @@ SUPPORT_CHARTS = {
                   "name": "ANTIMALWARE"
                 }
               },
+              "data_source": "Opswat",
               "methods": {
                 "manageability": {
                   "100": {
@@ -26274,6 +26473,7 @@ SUPPORT_CHARTS = {
                   "name": "ANTIMALWARE"
                 }
               },
+              "data_source": "Opswat",
               "methods": {
                 "manageability": {
                   "100": {
@@ -26424,6 +26624,7 @@ SUPPORT_CHARTS = {
                   "name": "ANTIMALWARE"
                 }
               },
+              "data_source": "Opswat",
               "methods": {
                 "manageability": {
                   "100": {
@@ -26693,6 +26894,7 @@ SUPPORT_CHARTS = {
                   "name": "ANTIMALWARE"
                 }
               },
+              "data_source": "Opswat",
               "methods": {
                 "manageability": {
                   "100": {
@@ -26893,6 +27095,7 @@ SUPPORT_CHARTS = {
                   "name": "ANTIMALWARE"
                 }
               },
+              "data_source": "Opswat",
               "methods": {},
               "sig_name": "Bytware Anti-Virus"
             }
@@ -26934,6 +27137,7 @@ SUPPORT_CHARTS = {
                   "name": "ANTIMALWARE"
                 }
               },
+              "data_source": "Opswat",
               "methods": {
                 "manageability": {
                   "100": {
@@ -27220,6 +27424,7 @@ SUPPORT_CHARTS = {
                   "name": "ANTIMALWARE"
                 }
               },
+              "data_source": "Opswat",
               "methods": {
                 "manageability": {
                   "100": {
@@ -27428,6 +27633,7 @@ SUPPORT_CHARTS = {
                   "name": "ANTIMALWARE"
                 }
               },
+              "data_source": "Opswat",
               "methods": {},
               "sig_name": "F-Secure Anti-Virus"
             }
@@ -27465,6 +27671,7 @@ SUPPORT_CHARTS = {
                   "name": "ANTIMALWARE"
                 }
               },
+              "data_source": "Opswat",
               "methods": {
                 "manageability": {
                   "1006": {
@@ -27559,6 +27766,7 @@ SUPPORT_CHARTS = {
                   "name": "ANTIMALWARE"
                 }
               },
+              "data_source": "Opswat",
               "methods": {},
               "sig_name": "AVG Anti-Virus"
             }
@@ -27596,6 +27804,7 @@ SUPPORT_CHARTS = {
                   "name": "ANTIMALWARE"
                 }
               },
+              "data_source": "Opswat",
               "methods": {
                 "manageability": {
                   "1001": {
@@ -27693,6 +27902,7 @@ SUPPORT_CHARTS = {
                   "name": "ANTIMALWARE"
                 }
               },
+              "data_source": "Opswat",
               "methods": {
                 "manageability": {
                   "1000": {
@@ -27790,6 +28000,7 @@ SUPPORT_CHARTS = {
                   "name": "FIREWALL"
                 }
               },
+              "data_source": "Opswat",
               "methods": {
                 "manageability": {
                   "100": {
@@ -28329,6 +28540,7 @@ SUPPORT_CHARTS = {
                   "name": "ANTIMALWARE"
                 }
               },
+              "data_source": "Opswat",
               "methods": {},
               "sig_name": "LinuxShield"
             }
@@ -28362,6 +28574,7 @@ SUPPORT_CHARTS = {
                   "name": "ANTIMALWARE"
                 }
               },
+              "data_source": "Opswat",
               "methods": {},
               "sig_name": "McAfee VirusScan Command Line Scanner"
             }
@@ -28409,6 +28622,7 @@ SUPPORT_CHARTS = {
                   "name": "ANTIMALWARE"
                 }
               },
+              "data_source": "Opswat",
               "methods": {
                 "manageability": {
                   "100": {
@@ -28614,6 +28828,7 @@ SUPPORT_CHARTS = {
                   "name": "ANTIMALWARE"
                 }
               },
+              "data_source": "Opswat",
               "methods": {
                 "manageability": {
                   "100": {
@@ -28671,6 +28886,7 @@ SUPPORT_CHARTS = {
                   "name": "ANTIMALWARE"
                 }
               },
+              "data_source": "Opswat",
               "methods": {
                 "manageability": {
                   "100": {
@@ -28822,6 +29038,7 @@ SUPPORT_CHARTS = {
                   "name": "ANTIMALWARE"
                 }
               },
+              "data_source": "Opswat",
               "methods": {},
               "sig_name": "Panda Security For Linux"
             }
@@ -28855,6 +29072,7 @@ SUPPORT_CHARTS = {
                   "name": "ANTIMALWARE"
                 }
               },
+              "data_source": "Opswat",
               "methods": {},
               "sig_name": "Quick Heal AntiVirus"
             }
@@ -28900,6 +29118,7 @@ SUPPORT_CHARTS = {
                   "name": "ANTIMALWARE"
                 }
               },
+              "data_source": "Opswat",
               "methods": {
                 "manageability": {
                   "1001": {
@@ -29025,6 +29244,7 @@ SUPPORT_CHARTS = {
                   "name": "ANTIMALWARE"
                 }
               },
+              "data_source": "Opswat",
               "methods": {
                 "manageability": {
                   "100": {
@@ -29404,6 +29624,7 @@ SUPPORT_CHARTS = {
                   "name": "ANTIMALWARE"
                 }
               },
+              "data_source": "Opswat",
               "methods": {
                 "manageability": {
                   "100": {
@@ -29616,6 +29837,7 @@ SUPPORT_CHARTS = {
                   "name": "ANTIMALWARE"
                 }
               },
+              "data_source": "Opswat",
               "methods": {
                 "manageability": {
                   "100": {
@@ -30066,6 +30288,7 @@ SUPPORT_CHARTS = {
                   "name": "ANTIMALWARE"
                 }
               },
+              "data_source": "Opswat",
               "methods": {},
               "sig_name": "360 天擎"
             }
@@ -30417,6 +30640,7 @@ SUPPORT_CHARTS = {
                   "name": "ANTIMALWARE"
                 }
               },
+              "data_source": "Opswat",
               "methods": {
                 "manageability": {
                   "100": {
@@ -30816,6 +31040,7 @@ SUPPORT_CHARTS = {
                   "name": "FIREWALL"
                 }
               },
+              "data_source": "Opswat",
               "methods": {
                 "manageability": {
                   "100": {
@@ -31316,6 +31541,7 @@ SUPPORT_CHARTS = {
                   "name": "ANTIMALWARE"
                 }
               },
+              "data_source": "Opswat",
               "methods": {
                 "manageability": {
                   "100": {
@@ -31548,6 +31774,7 @@ SUPPORT_CHARTS = {
                   "name": "ANTIMALWARE"
                 }
               },
+              "data_source": "Opswat",
               "methods": {
                 "manageability": {
                   "100": {
@@ -31998,6 +32225,7 @@ SUPPORT_CHARTS = {
                   "name": "ANTIMALWARE"
                 }
               },
+              "data_source": "Opswat",
               "methods": {
                 "manageability": {
                   "1000": {
@@ -32253,6 +32481,7 @@ SUPPORT_CHARTS = {
                   "name": "FIREWALL"
                 }
               },
+              "data_source": "Opswat",
               "methods": {
                 "manageability": {
                   "100": {
@@ -32573,6 +32802,7 @@ SUPPORT_CHARTS = {
                   "name": "ANTIMALWARE"
                 }
               },
+              "data_source": "Opswat",
               "methods": {
                 "manageability": {
                   "1000": {
@@ -32741,6 +32971,7 @@ SUPPORT_CHARTS = {
                   "name": "ANTIMALWARE"
                 }
               },
+              "data_source": "Opswat",
               "methods": {
                 "manageability": {
                   "1000": {
@@ -32898,6 +33129,7 @@ SUPPORT_CHARTS = {
                   "name": "ANTIMALWARE"
                 }
               },
+              "data_source": "Opswat",
               "methods": {
                 "manageability": {
                   "100": {
@@ -33062,6 +33294,7 @@ SUPPORT_CHARTS = {
                   "name": "ANTIMALWARE"
                 }
               },
+              "data_source": "Opswat",
               "methods": {
                 "manageability": {
                   "100": {
@@ -33119,6 +33352,7 @@ SUPPORT_CHARTS = {
                   "name": "ANTIMALWARE"
                 }
               },
+              "data_source": "Opswat",
               "methods": {
                 "manageability": {
                   "100": {
@@ -33339,6 +33573,7 @@ SUPPORT_CHARTS = {
                   "name": "ANTIMALWARE"
                 }
               },
+              "data_source": "Opswat",
               "methods": {
                 "constant": {
                   "101": {
@@ -33409,6 +33644,7 @@ SUPPORT_CHARTS = {
                   "name": "ANTIMALWARE"
                 }
               },
+              "data_source": "Opswat",
               "methods": {
                 "manageability": {
                   "100": {
@@ -33492,6 +33728,7 @@ SUPPORT_CHARTS = {
                   "name": "ANTIMALWARE"
                 }
               },
+              "data_source": "Opswat",
               "methods": {
                 "manageability": {
                   "100": {
@@ -33742,6 +33979,7 @@ SUPPORT_CHARTS = {
                   "name": "FIREWALL"
                 }
               },
+              "data_source": "Opswat",
               "methods": {
                 "manageability": {
                   "100": {
@@ -33925,6 +34163,7 @@ SUPPORT_CHARTS = {
                   "name": "ANTIMALWARE"
                 }
               },
+              "data_source": "Opswat",
               "methods": {
                 "manageability": {
                   "100": {
@@ -34151,6 +34390,7 @@ SUPPORT_CHARTS = {
                   "name": "ANTIMALWARE"
                 }
               },
+              "data_source": "Opswat",
               "methods": {
                 "manageability": {
                   "100": {
@@ -34625,6 +34865,7 @@ SUPPORT_CHARTS = {
                   "name": "ANTIMALWARE"
                 }
               },
+              "data_source": "Opswat",
               "methods": {
                 "manageability": {
                   "100": {
@@ -35098,6 +35339,7 @@ SUPPORT_CHARTS = {
                   "name": "ANTIMALWARE"
                 }
               },
+              "data_source": "Opswat",
               "methods": {
                 "manageability": {
                   "1000": {
@@ -35640,6 +35882,7 @@ SUPPORT_CHARTS = {
                   "name": "ANTIMALWARE"
                 }
               },
+              "data_source": "Opswat",
               "methods": {
                 "manageability": {
                   "100": {
@@ -35928,6 +36171,7 @@ SUPPORT_CHARTS = {
                   "name": "ANTIMALWARE"
                 }
               },
+              "data_source": "Opswat",
               "methods": {
                 "manageability": {
                   "1000": {
@@ -36092,6 +36336,7 @@ SUPPORT_CHARTS = {
                   "name": "ANTIMALWARE"
                 }
               },
+              "data_source": "Opswat",
               "methods": {
                 "manageability": {
                   "1000": {
@@ -36246,6 +36491,7 @@ SUPPORT_CHARTS = {
                   "name": "ANTIMALWARE"
                 }
               },
+              "data_source": "Opswat",
               "methods": {
                 "manageability": {
                   "1000": {
@@ -36489,6 +36735,7 @@ SUPPORT_CHARTS = {
                   "name": "ANTIMALWARE"
                 }
               },
+              "data_source": "Opswat",
               "methods": {
                 "manageability": {
                   "100": {
@@ -36787,6 +37034,7 @@ SUPPORT_CHARTS = {
                   "name": "ANTIMALWARE"
                 }
               },
+              "data_source": "Opswat",
               "methods": {
                 "manageability": {
                   "100": {
@@ -37237,6 +37485,7 @@ SUPPORT_CHARTS = {
                   "name": "FIREWALL"
                 }
               },
+              "data_source": "Opswat",
               "methods": {
                 "manageability": {
                   "100": {
@@ -37452,6 +37701,7 @@ SUPPORT_CHARTS = {
                   "name": "ANTIMALWARE"
                 }
               },
+              "data_source": "Opswat",
               "methods": {
                 "constant": {
                   "103": {
@@ -37827,6 +38077,7 @@ SUPPORT_CHARTS = {
                   "name": "ANTIMALWARE"
                 }
               },
+              "data_source": "Opswat",
               "methods": {},
               "sig_name": "Seqrite Endpoint Protection"
             }
@@ -37861,6 +38112,7 @@ SUPPORT_CHARTS = {
                   "name": "ANTIMALWARE"
                 }
               },
+              "data_source": "Opswat",
               "methods": {
                 "constant": {
                   "102": {
@@ -38134,6 +38386,7 @@ SUPPORT_CHARTS = {
                   "name": "FIREWALL"
                 }
               },
+              "data_source": "Opswat",
               "methods": {
                 "constant": {
                   "102": {
@@ -38363,6 +38616,7 @@ SUPPORT_CHARTS = {
                   "name": "FIREWALL"
                 }
               },
+              "data_source": "Opswat",
               "methods": {
                 "constant": {
                   "102": {
@@ -38589,6 +38843,7 @@ SUPPORT_CHARTS = {
                   "name": "ANTIMALWARE"
                 }
               },
+              "data_source": "Opswat",
               "methods": {
                 "manageability": {
                   "1000": {
@@ -38798,7 +39053,21 @@ SUPPORT_CHARTS = {
                   "name": "FIREWALL"
                 }
               },
-              "methods": {},
+              "data_source": "Opswat",
+              "methods": {
+                "constant": {
+                  "102": {
+                    "id": 102,
+                    "code": -11,
+                    "name": "Run"
+                  },
+                  "103": {
+                    "id": 103,
+                    "code": -11,
+                    "name": "TerminateProcesses"
+                  }
+                }
+              },
               "sig_name": "WatchGuard Endpoint Security Prime"
             }
           }
@@ -38831,7 +39100,21 @@ SUPPORT_CHARTS = {
                   "name": "ANTIMALWARE"
                 }
               },
-              "methods": {},
+              "data_source": "Opswat",
+              "methods": {
+                "constant": {
+                  "102": {
+                    "id": 102,
+                    "code": -11,
+                    "name": "Run"
+                  },
+                  "103": {
+                    "id": 103,
+                    "code": -11,
+                    "name": "TerminateProcesses"
+                  }
+                }
+              },
               "sig_name": "WatchGuard Endpoint Security 360"
             }
           }
@@ -39068,6 +39351,7 @@ SUPPORT_CHARTS = {
                   "name": "BROWSER"
                 }
               },
+              "data_source": "Opswat",
               "methods": {
                 "manageability": {
                   "100": {
@@ -39584,6 +39868,7 @@ SUPPORT_CHARTS = {
                   "name": "BROWSER"
                 }
               },
+              "data_source": "Opswat",
               "methods": {
                 "manageability": {
                   "100": {
@@ -39794,6 +40079,7 @@ SUPPORT_CHARTS = {
                   "name": "BROWSER"
                 }
               },
+              "data_source": "Opswat",
               "methods": {
                 "manageability": {
                   "100": {
@@ -39927,6 +40213,7 @@ SUPPORT_CHARTS = {
                   "name": "BROWSER"
                 }
               },
+              "data_source": "Opswat",
               "methods": {
                 "manageability": {
                   "100": {
@@ -40002,6 +40289,7 @@ SUPPORT_CHARTS = {
                   "name": "BROWSER"
                 }
               },
+              "data_source": "Opswat",
               "methods": {
                 "manageability": {
                   "100": {
@@ -40171,6 +40459,7 @@ SUPPORT_CHARTS = {
                   "name": "BROWSER"
                 }
               },
+              "data_source": "Opswat",
               "methods": {
                 "manageability": {
                   "100": {
@@ -40521,6 +40810,7 @@ SUPPORT_CHARTS = {
                   "name": "FIREWALL"
                 }
               },
+              "data_source": "Opswat",
               "methods": {
                 "manageability": {
                   "100": {
@@ -41076,6 +41366,7 @@ SUPPORT_CHARTS = {
                   "name": "FIREWALL"
                 }
               },
+              "data_source": "Opswat",
               "methods": {
                 "manageability": {
                   "100": {
@@ -41362,6 +41653,7 @@ SUPPORT_CHARTS = {
                   "name": "FIREWALL"
                 }
               },
+              "data_source": "Opswat",
               "methods": {
                 "manageability": {
                   "100": {
@@ -41862,6 +42154,7 @@ SUPPORT_CHARTS = {
                   "name": "FIREWALL"
                 }
               },
+              "data_source": "Opswat",
               "methods": {
                 "manageability": {
                   "100": {
@@ -41973,6 +42266,7 @@ SUPPORT_CHARTS = {
                   "name": "FIREWALL"
                 }
               },
+              "data_source": "Opswat",
               "methods": {
                 "manageability": {
                   "100": {
@@ -42309,6 +42603,7 @@ SUPPORT_CHARTS = {
                   "name": "FIREWALL"
                 }
               },
+              "data_source": "Opswat",
               "methods": {
                 "manageability": {
                   "100": {
@@ -42428,6 +42723,7 @@ SUPPORT_CHARTS = {
                   "name": "FIREWALL"
                 }
               },
+              "data_source": "Opswat",
               "methods": {
                 "manageability": {
                   "100": {
@@ -42647,6 +42943,7 @@ SUPPORT_CHARTS = {
                   "name": "FIREWALL"
                 }
               },
+              "data_source": "Opswat",
               "methods": {
                 "manageability": {
                   "100": {
@@ -42850,6 +43147,7 @@ SUPPORT_CHARTS = {
                   "name": "FIREWALL"
                 }
               },
+              "data_source": "Opswat",
               "methods": {
                 "manageability": {
                   "100": {
@@ -43094,6 +43392,7 @@ SUPPORT_CHARTS = {
                   "name": "FIREWALL"
                 }
               },
+              "data_source": "Opswat",
               "methods": {
                 "manageability": {
                   "100": {
@@ -43307,6 +43606,7 @@ SUPPORT_CHARTS = {
                   "name": "FIREWALL"
                 }
               },
+              "data_source": "Opswat",
               "methods": {
                 "constant": {
                   "102": {
@@ -43536,6 +43836,7 @@ SUPPORT_CHARTS = {
                   "name": "FIREWALL"
                 }
               },
+              "data_source": "Opswat",
               "methods": {
                 "constant": {
                   "102": {
@@ -43761,7 +44062,21 @@ SUPPORT_CHARTS = {
                   "name": "FIREWALL"
                 }
               },
-              "methods": {},
+              "data_source": "Opswat",
+              "methods": {
+                "constant": {
+                  "102": {
+                    "id": 102,
+                    "code": -11,
+                    "name": "Run"
+                  },
+                  "103": {
+                    "id": 103,
+                    "code": -11,
+                    "name": "TerminateProcesses"
+                  }
+                }
+              },
               "sig_name": "WatchGuard Endpoint Security Prime"
             }
           }
@@ -43805,6 +44120,7 @@ SUPPORT_CHARTS = {
                   "name": "MESSENGER"
                 }
               },
+              "data_source": "Opswat",
               "methods": {},
               "sig_name": "Brosix"
             }
@@ -43842,6 +44158,7 @@ SUPPORT_CHARTS = {
                   "name": "MESSENGER"
                 }
               },
+              "data_source": "Opswat",
               "methods": {},
               "sig_name": "Skype"
             }
@@ -43875,6 +44192,7 @@ SUPPORT_CHARTS = {
                   "name": "MESSENGER"
                 }
               },
+              "data_source": "Opswat",
               "methods": {},
               "sig_name": "Trillian"
             }
@@ -43912,6 +44230,7 @@ SUPPORT_CHARTS = {
                   "name": "MESSENGER"
                 }
               },
+              "data_source": "Opswat",
               "methods": {},
               "sig_name": "emesene"
             }
@@ -43945,6 +44264,7 @@ SUPPORT_CHARTS = {
                   "name": "MESSENGER"
                 }
               },
+              "data_source": "Opswat",
               "methods": {},
               "sig_name": "QQ for Linux"
             }
@@ -43982,6 +44302,7 @@ SUPPORT_CHARTS = {
                   "name": "MESSENGER"
                 }
               },
+              "data_source": "Opswat",
               "methods": {},
               "sig_name": "ISL Pronto"
             }
@@ -44019,6 +44340,7 @@ SUPPORT_CHARTS = {
                   "name": "MESSENGER"
                 }
               },
+              "data_source": "Opswat",
               "methods": {
                 "manageability": {
                   "100": {
@@ -44317,6 +44639,7 @@ SUPPORT_CHARTS = {
                   "name": "MESSENGER"
                 }
               },
+              "data_source": "Opswat",
               "methods": {
                 "manageability": {
                   "100": {
@@ -44458,6 +44781,7 @@ SUPPORT_CHARTS = {
                   "name": "MESSENGER"
                 }
               },
+              "data_source": "Opswat",
               "methods": {
                 "manageability": {
                   "100": {
@@ -44628,6 +44952,7 @@ SUPPORT_CHARTS = {
                   "name": "CLOUD_STORAGE"
                 }
               },
+              "data_source": "Opswat",
               "methods": {
                 "manageability": {
                   "100": {
@@ -44766,5 +45091,5 @@ SUPPORT_CHARTS = {
     }
   },
   "support_chart_type": "CATEGORY",
-  "timestamp": "1788858821"
+  "timestamp": "1789453426"
 }
