@@ -1376,6 +1376,10 @@ SUPPORT_CHARTS = {
             {
               "signature": 100015,
               "version": "155.0.1"
+            },
+            {
+              "signature": 100015,
+              "version": "156.0"
             }
           ],
           "labels": [],
@@ -35609,6 +35613,10 @@ SUPPORT_CHARTS = {
             {
               "signature": 100148,
               "version": "268.4.4124"
+            },
+            {
+              "signature": 100148,
+              "version": "270.4.3312"
             }
           ],
           "labels": [],
@@ -46672,6 +46680,13 @@ SUPPORT_CHARTS = {
             {
               "signature": 100004,
               "version": "153.0.8010.37"
+            },
+            {
+              "methodsStatus": {
+                "2000": -1
+              },
+              "signature": 100004,
+              "version": "153.0.8010.48"
             }
           ],
           "labels": [],
@@ -80977,6 +80992,10 @@ SUPPORT_CHARTS = {
             {
               "signature": 100372,
               "version": "5.23.1.3862"
+            },
+            {
+              "signature": 100372,
+              "version": "5.27.1"
             }
           ],
           "labels": [],
@@ -81142,6 +81161,10 @@ SUPPORT_CHARTS = {
                       "param_support": {
                         "input": {
                           "timeframe": {
+                            "_supported": true,
+                            "_optional": true
+                          },
+                          "skip_connection_check": {
                             "_supported": false,
                             "_optional": true
                           }
@@ -81150,6 +81173,10 @@ SUPPORT_CHARTS = {
                           "is_recent": {
                             "_supported": true,
                             "_optional": false
+                          },
+                          "has_internet_connectivity": {
+                            "_supported": false,
+                            "_optional": true
                           },
                           "definitions": {
                             "_supported": true,
@@ -103209,6 +103236,13 @@ SUPPORT_CHARTS = {
             {
               "signature": 100004,
               "version": "153.0.8010.37"
+            },
+            {
+              "methodsStatus": {
+                "2000": -1
+              },
+              "signature": 100004,
+              "version": "153.0.8010.48"
             }
           ],
           "labels": [],
@@ -125173,6 +125207,10 @@ SUPPORT_CHARTS = {
             {
               "signature": 100148,
               "version": "268.4.4124"
+            },
+            {
+              "signature": 100148,
+              "version": "270.4.3312"
             }
           ],
           "labels": [],
@@ -127833,5 +127871,5 @@ SUPPORT_CHARTS = {
     }
   },
   "support_chart_type": "CATEGORY",
-  "timestamp": "1789482202"
+  "timestamp": "1789564349"
 }
