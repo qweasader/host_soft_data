@@ -27111,10 +27111,6 @@ SUPPORT_CHARTS = {
             {
               "signature": 200010,
               "version": "0.104.2"
-            },
-            {
-              "signature": 200010,
-              "version": "0.0"
             }
           ],
           "labels": [],
@@ -36713,6 +36709,14 @@ SUPPORT_CHARTS = {
             {
               "signature": 200199,
               "version": "1.4.3"
+            },
+            {
+              "signature": 200199,
+              "version": "1.5.3"
+            },
+            {
+              "signature": 200199,
+              "version": "1.5.4"
             }
           ],
           "labels": [],
@@ -39026,7 +39030,7 @@ SUPPORT_CHARTS = {
           "tested_points": [
             {
               "signature": 200253,
-              "version": "1.17.00.0000"
+              "version": "03.08.00.0001"
             }
           ],
           "labels": [],
@@ -39077,7 +39081,7 @@ SUPPORT_CHARTS = {
           "tested_points": [
             {
               "signature": 200254,
-              "version": "1.17.00.0000"
+              "version": "03.08.00.0001"
             }
           ],
           "labels": [],
@@ -44035,7 +44039,7 @@ SUPPORT_CHARTS = {
           "tested_points": [
             {
               "signature": 200253,
-              "version": "1.17.00.0000"
+              "version": "03.08.00.0001"
             }
           ],
           "labels": [],
@@ -45091,5 +45095,5 @@ SUPPORT_CHARTS = {
     }
   },
   "support_chart_type": "CATEGORY",
-  "timestamp": "1789453426"
+  "timestamp": "1790061840"
 }

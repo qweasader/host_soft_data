@@ -4298,6 +4298,10 @@ SUPPORT_CHARTS = {
             {
               "signature": 100350,
               "version": "26.001.21789"
+            },
+            {
+              "signature": 100350,
+              "version": "2026.002.21869"
             }
           ],
           "labels": [],
@@ -4343,11 +4347,11 @@ SUPPORT_CHARTS = {
                             "_optional": false,
                             "name": {
                               "_supported": false,
-                              "_optional": true
+                              "_optional": false
                             },
                             "bitness": {
                               "_supported": false,
-                              "_optional": true
+                              "_optional": false
                             }
                           },
                           "language": {
@@ -4361,6 +4365,14 @@ SUPPORT_CHARTS = {
                               "_supported": true,
                               "_optional": false
                             }
+                          },
+                          "channel": {
+                            "_supported": false,
+                            "_optional": true
+                          },
+                          "release": {
+                            "_supported": false,
+                            "_optional": true
                           }
                         }
                       },
@@ -4407,7 +4419,12 @@ SUPPORT_CHARTS = {
                     "id": 103,
                     "meta_data": {
                       "param_support": {
-                        "input": [],
+                        "input": {
+                          "instance_id": {
+                            "_supported": false,
+                            "_optional": true
+                          }
+                        },
                         "output": []
                       },
                       "admin_required": false,
@@ -4498,6 +4515,80 @@ SUPPORT_CHARTS = {
                       "notes": ""
                     },
                     "name": "GetComponents"
+                  },
+                  "108": {
+                    "id": 108,
+                    "meta_data": {
+                      "param_support": {
+                        "input": {
+                          "instance_id": {
+                            "_supported": false,
+                            "_optional": true
+                          },
+                          "hash_binary": {
+                            "_supported": true,
+                            "_optional": true
+                          }
+                        },
+                        "output": {
+                          "authentic": {
+                            "_supported": true,
+                            "_optional": false
+                          },
+                          "details": {
+                            "_supported": true,
+                            "_optional": false,
+                            "file": {
+                              "_supported": true,
+                              "_optional": false
+                            },
+                            "status": {
+                              "_supported": true,
+                              "_optional": false
+                            },
+                            "signing_code": {
+                              "_supported": true,
+                              "_optional": false
+                            },
+                            "sha256": {
+                              "_supported": true,
+                              "_optional": true
+                            },
+                            "certificate_info": {
+                              "_supported": true,
+                              "_optional": true,
+                              "issuer": {
+                                "_supported": true,
+                                "_optional": true
+                              },
+                              "subject": {
+                                "_supported": true,
+                                "_optional": true
+                              },
+                              "valid_from": {
+                                "_supported": true,
+                                "_optional": true
+                              },
+                              "valid_to": {
+                                "_supported": true,
+                                "_optional": true
+                              },
+                              "serial_number": {
+                                "_supported": true,
+                                "_optional": true
+                              },
+                              "thumbprint": {
+                                "_supported": false,
+                                "_optional": true
+                              }
+                            }
+                          }
+                        }
+                      },
+                      "admin_required": false,
+                      "notes": ""
+                    },
+                    "name": "IsAuthentic"
                   }
                 }
               },
@@ -9834,6 +9925,10 @@ SUPPORT_CHARTS = {
             {
               "signature": 100450,
               "version": "1.2.86.502"
+            },
+            {
+              "signature": 100450,
+              "version": "1.3.1.234"
             }
           ],
           "labels": [],
@@ -11115,6 +11210,10 @@ SUPPORT_CHARTS = {
             {
               "signature": 100483,
               "version": "1.137.0"
+            },
+            {
+              "signature": 100483,
+              "version": "1.138.0"
             }
           ],
           "labels": [],
@@ -16492,6 +16591,40 @@ SUPPORT_CHARTS = {
               "sig_name": "DBeaver Community"
             }
           }
+        },
+        "100602": {
+          "id": 100602,
+          "tested_points": [
+            {
+              "signature": 100660,
+              "version": "0.0"
+            }
+          ],
+          "labels": [],
+          "languages": [],
+          "name": "MongoDB Compass",
+          "signatures": {
+            "100660": {
+              "signature": 100660,
+              "product": {
+                "id": 100602,
+                "name": "MongoDB Compass"
+              },
+              "vendor": {
+                "id": 100355,
+                "name": "MongoDB, Inc."
+              },
+              "categories": {
+                "10": {
+                  "id": 10,
+                  "name": "UNCLASSIFIED"
+                }
+              },
+              "data_source": "Opswat",
+              "methods": {},
+              "sig_name": "MongoDB Compass"
+            }
+          }
         }
       },
       "name": "UNCLASSIFIED"
@@ -21473,6 +21606,13 @@ SUPPORT_CHARTS = {
               },
               "data_source": "Opswat",
               "methods": {
+                "constant": {
+                  "103": {
+                    "id": 103,
+                    "code": -11,
+                    "name": "TerminateProcesses"
+                  }
+                },
                 "manageability": {
                   "100": {
                     "id": 100,
@@ -21822,23 +21962,6 @@ SUPPORT_CHARTS = {
                     },
                     "name": "GetInstalledPatches"
                   },
-                  "103": {
-                    "id": 103,
-                    "meta_data": {
-                      "param_support": {
-                        "input": {
-                          "instance_id": {
-                            "_supported": false,
-                            "_optional": true
-                          }
-                        },
-                        "output": []
-                      },
-                      "admin_required": true,
-                      "notes": ""
-                    },
-                    "name": "TerminateProcesses"
-                  },
                   "104": {
                     "id": 104,
                     "meta_data": {
@@ -21864,6 +21987,80 @@ SUPPORT_CHARTS = {
                       "notes": ""
                     },
                     "name": "GetInstallationDirectories"
+                  },
+                  "108": {
+                    "id": 108,
+                    "meta_data": {
+                      "param_support": {
+                        "input": {
+                          "instance_id": {
+                            "_supported": false,
+                            "_optional": true
+                          },
+                          "hash_binary": {
+                            "_supported": false,
+                            "_optional": true
+                          }
+                        },
+                        "output": {
+                          "authentic": {
+                            "_supported": true,
+                            "_optional": false
+                          },
+                          "details": {
+                            "_supported": true,
+                            "_optional": false,
+                            "file": {
+                              "_supported": true,
+                              "_optional": false
+                            },
+                            "status": {
+                              "_supported": true,
+                              "_optional": false
+                            },
+                            "signing_code": {
+                              "_supported": true,
+                              "_optional": false
+                            },
+                            "sha256": {
+                              "_supported": false,
+                              "_optional": true
+                            },
+                            "certificate_info": {
+                              "_supported": false,
+                              "_optional": true,
+                              "issuer": {
+                                "_supported": false,
+                                "_optional": true
+                              },
+                              "subject": {
+                                "_supported": false,
+                                "_optional": true
+                              },
+                              "valid_from": {
+                                "_supported": false,
+                                "_optional": true
+                              },
+                              "valid_to": {
+                                "_supported": false,
+                                "_optional": true
+                              },
+                              "serial_number": {
+                                "_supported": false,
+                                "_optional": true
+                              },
+                              "thumbprint": {
+                                "_supported": false,
+                                "_optional": true
+                              }
+                            }
+                          }
+                        }
+                      },
+                      "admin_required": false,
+                      "notes": ""
+                    },
+                    "name": "IsAuthentic"
                   }
                 }
               },
@@ -23315,6 +23512,80 @@ SUPPORT_CHARTS = {
                       "notes": ""
                     },
                     "name": "TerminateProcesses"
+                  },
+                  "108": {
+                    "id": 108,
+                    "meta_data": {
+                      "param_support": {
+                        "input": {
+                          "instance_id": {
+                            "_supported": false,
+                            "_optional": true
+                          },
+                          "hash_binary": {
+                            "_supported": false,
+                            "_optional": true
+                          }
+                        },
+                        "output": {
+                          "authentic": {
+                            "_supported": true,
+                            "_optional": false
+                          },
+                          "details": {
+                            "_supported": true,
+                            "_optional": false,
+                            "file": {
+                              "_supported": true,
+                              "_optional": false
+                            },
+                            "status": {
+                              "_supported": true,
+                              "_optional": false
+                            },
+                            "signing_code": {
+                              "_supported": true,
+                              "_optional": false
+                            },
+                            "sha256": {
+                              "_supported": false,
+                              "_optional": true
+                            },
+                            "certificate_info": {
+                              "_supported": false,
+                              "_optional": true,
+                              "issuer": {
+                                "_supported": false,
+                                "_optional": true
+                              },
+                              "subject": {
+                                "_supported": false,
+                                "_optional": true
+                              },
+                              "valid_from": {
+                                "_supported": false,
+                                "_optional": true
+                              },
+                              "valid_to": {
+                                "_supported": false,
+                                "_optional": true
+                              },
+                              "serial_number": {
+                                "_supported": false,
+                                "_optional": true
+                              },
+                              "thumbprint": {
+                                "_supported": false,
+                                "_optional": true
+                              }
+                            }
+                          }
+                        }
+                      },
+                      "admin_required": false,
+                      "notes": ""
+                    },
+                    "name": "IsAuthentic"
                   }
                 }
               },
@@ -29396,6 +29667,19 @@ SUPPORT_CHARTS = {
             {
               "signature": 100282,
               "version": "7.1.5"
+            },
+            {
+              "signature": 100282,
+              "version": "7.2.0"
+            },
+            {
+              "methodsStatus": {
+                "101": -1,
+                "102": -1,
+                "103": -1
+              },
+              "signature": 100282,
+              "version": "7.2.1"
             }
           ],
           "labels": [
@@ -29795,6 +30079,10 @@ SUPPORT_CHARTS = {
               },
               "signature": 100513,
               "version": "26213.1006.5011.1671"
+            },
+            {
+              "signature": 100513,
+              "version": "26225.1706.5101.3140"
             }
           ],
           "labels": [],
@@ -30004,6 +30292,45 @@ SUPPORT_CHARTS = {
                       "notes": ""
                     },
                     "name": "GetVersion"
+                  },
+                  "101": {
+                    "id": 101,
+                    "meta_data": {
+                      "param_support": {
+                        "input": {
+                          "instance_id": {
+                            "_supported": false,
+                            "_optional": true
+                          }
+                        },
+                        "output": {
+                          "running": {
+                            "_supported": true,
+                            "_optional": false
+                          }
+                        }
+                      },
+                      "admin_required": false,
+                      "notes": "Install-directory sweep OR product-specific process names; the latter is required because C.Os_GetListProcesses reports com.microsoft.teams2.agent with a RELATIVE image path, which no path-prefix test can match. Verified user/admin/service on macos_26_arm."
+                    },
+                    "name": "GetRunningState"
+                  },
+                  "103": {
+                    "id": 103,
+                    "meta_data": {
+                      "param_support": {
+                        "input": {
+                          "instance_id": {
+                            "_supported": false,
+                            "_optional": true
+                          }
+                        },
+                        "output": []
+                      },
+                      "admin_required": false,
+                      "notes": "Verified in user/admin/service modes on macos_26_arm: bootout of the product's own LaunchAgents (com.microsoft.teams2.agent, com.microsoft.teams2.respawn) plus an install-directory process sweep, no elevation required."
+                    },
+                    "name": "TerminateProcesses"
                   }
                 }
               },
@@ -33560,6 +33887,19 @@ SUPPORT_CHARTS = {
             {
               "signature": 100282,
               "version": "7.1.5"
+            },
+            {
+              "signature": 100282,
+              "version": "7.2.0"
+            },
+            {
+              "methodsStatus": {
+                "101": -1,
+                "102": -1,
+                "103": -1
+              },
+              "signature": 100282,
+              "version": "7.2.1"
             }
           ],
           "labels": [
@@ -34243,6 +34583,10 @@ SUPPORT_CHARTS = {
               },
               "signature": 100513,
               "version": "26213.1006.5011.1671"
+            },
+            {
+              "signature": 100513,
+              "version": "26225.1706.5101.3140"
             }
           ],
           "labels": [],
@@ -34452,6 +34796,45 @@ SUPPORT_CHARTS = {
                       "notes": ""
                     },
                     "name": "GetVersion"
+                  },
+                  "101": {
+                    "id": 101,
+                    "meta_data": {
+                      "param_support": {
+                        "input": {
+                          "instance_id": {
+                            "_supported": false,
+                            "_optional": true
+                          }
+                        },
+                        "output": {
+                          "running": {
+                            "_supported": true,
+                            "_optional": false
+                          }
+                        }
+                      },
+                      "admin_required": false,
+                      "notes": "Install-directory sweep OR product-specific process names; the latter is required because C.Os_GetListProcesses reports com.microsoft.teams2.agent with a RELATIVE image path, which no path-prefix test can match. Verified user/admin/service on macos_26_arm."
+                    },
+                    "name": "GetRunningState"
+                  },
+                  "103": {
+                    "id": 103,
+                    "meta_data": {
+                      "param_support": {
+                        "input": {
+                          "instance_id": {
+                            "_supported": false,
+                            "_optional": true
+                          }
+                        },
+                        "output": []
+                      },
+                      "admin_required": false,
+                      "notes": "Verified in user/admin/service modes on macos_26_arm: bootout of the product's own LaunchAgents (com.microsoft.teams2.agent, com.microsoft.teams2.respawn) plus an install-directory process sweep, no elevation required."
+                    },
+                    "name": "TerminateProcesses"
                   }
                 }
               },
@@ -43076,6 +43459,18 @@ SUPPORT_CHARTS = {
             {
               "signature": 100145,
               "version": "27.0"
+            },
+            {
+              "methodsStatus": {
+                "1009": -1,
+                "102": -1,
+                "103": -1,
+                "104": -1,
+                "105": -1,
+                "108": -1
+              },
+              "signature": 100145,
+              "version": "27.2"
             }
           ],
           "labels": [],
@@ -46682,11 +47077,12 @@ SUPPORT_CHARTS = {
               "version": "153.0.8010.37"
             },
             {
-              "methodsStatus": {
-                "2000": -1
-              },
               "signature": 100004,
               "version": "153.0.8010.48"
+            },
+            {
+              "signature": 100004,
+              "version": "153.0.8010.53"
             }
           ],
           "labels": [],
@@ -48437,6 +48833,10 @@ SUPPORT_CHARTS = {
             {
               "signature": 100292,
               "version": "155.0.1"
+            },
+            {
+              "signature": 100292,
+              "version": "156.0"
             }
           ],
           "labels": [],
@@ -48908,7 +49308,7 @@ SUPPORT_CHARTS = {
                       "param_support": {
                         "input": {
                           "timeframe": {
-                            "_supported": false,
+                            "_supported": true,
                             "_optional": true
                           },
                           "skip_connection_check": {
@@ -48946,7 +49346,7 @@ SUPPORT_CHARTS = {
                               "_optional": false
                             },
                             "engine_version": {
-                              "_supported": false,
+                              "_supported": true,
                               "_optional": true
                             },
                             "last_update": {
@@ -48967,7 +49367,7 @@ SUPPORT_CHARTS = {
                         }
                       },
                       "admin_required": true,
-                      "notes": ""
+                      "notes": "Runs unprivileged too, but only last_update (updates/data.txt) is readable then; version/engine_version/source_time come from updates/updfiles/upd.ver, which is 0600 root-only."
                     },
                     "name": "GetDefinitionState"
                   },
@@ -53737,7 +54137,7 @@ SUPPORT_CHARTS = {
                       "param_support": {
                         "input": {
                           "timeframe": {
-                            "_supported": false,
+                            "_supported": true,
                             "_optional": true
                           },
                           "skip_connection_check": {
@@ -53775,7 +54175,7 @@ SUPPORT_CHARTS = {
                               "_optional": false
                             },
                             "engine_version": {
-                              "_supported": false,
+                              "_supported": true,
                               "_optional": true
                             },
                             "last_update": {
@@ -53796,7 +54196,7 @@ SUPPORT_CHARTS = {
                         }
                       },
                       "admin_required": true,
-                      "notes": ""
+                      "notes": "Runs unprivileged too, but only last_update (updates/data.txt) is readable then; version/engine_version/source_time come from updates/updfiles/upd.ver, which is 0600 root-only."
                     },
                     "name": "GetDefinitionState"
                   },
@@ -59941,6 +60341,14 @@ SUPPORT_CHARTS = {
             {
               "signature": 100474,
               "version": "153.0.4234.32"
+            },
+            {
+              "signature": 100474,
+              "version": "153.0.4234.46"
+            },
+            {
+              "signature": 100474,
+              "version": "153.0.4234.48"
             }
           ],
           "labels": [],
@@ -62915,6 +63323,10 @@ SUPPORT_CHARTS = {
             {
               "signature": 100617,
               "version": "03.08.00.0001"
+            },
+            {
+              "signature": 100617,
+              "version": "03.08.00.0002"
             }
           ],
           "labels": [],
@@ -62961,6 +63373,10 @@ SUPPORT_CHARTS = {
             {
               "signature": 100618,
               "version": "03.08.00.0001"
+            },
+            {
+              "signature": 100618,
+              "version": "03.08.00.0002"
             }
           ],
           "labels": [],
@@ -64440,7 +64856,7 @@ SUPPORT_CHARTS = {
                       "param_support": {
                         "input": {
                           "timeframe": {
-                            "_supported": false,
+                            "_supported": true,
                             "_optional": true
                           },
                           "skip_connection_check": {
@@ -64478,7 +64894,7 @@ SUPPORT_CHARTS = {
                               "_optional": false
                             },
                             "engine_version": {
-                              "_supported": false,
+                              "_supported": true,
                               "_optional": true
                             },
                             "last_update": {
@@ -64499,7 +64915,7 @@ SUPPORT_CHARTS = {
                         }
                       },
                       "admin_required": true,
-                      "notes": ""
+                      "notes": "Runs unprivileged too, but only last_update (updates/data.txt) is readable then; version/engine_version/source_time come from updates/updfiles/upd.ver, which is 0600 root-only."
                     },
                     "name": "GetDefinitionState"
                   },
@@ -75925,7 +76341,7 @@ SUPPORT_CHARTS = {
                       "param_support": {
                         "input": {
                           "timeframe": {
-                            "_supported": false,
+                            "_supported": true,
                             "_optional": true
                           },
                           "skip_connection_check": {
@@ -75963,7 +76379,7 @@ SUPPORT_CHARTS = {
                               "_optional": false
                             },
                             "engine_version": {
-                              "_supported": false,
+                              "_supported": true,
                               "_optional": true
                             },
                             "last_update": {
@@ -75984,7 +76400,7 @@ SUPPORT_CHARTS = {
                         }
                       },
                       "admin_required": true,
-                      "notes": ""
+                      "notes": "Runs unprivileged too, but only last_update (updates/data.txt) is readable then; version/engine_version/source_time come from updates/updfiles/upd.ver, which is 0600 root-only."
                     },
                     "name": "GetDefinitionState"
                   },
@@ -101600,6 +102016,10 @@ SUPPORT_CHARTS = {
             {
               "signature": 100617,
               "version": "03.08.00.0001"
+            },
+            {
+              "signature": 100617,
+              "version": "03.08.00.0002"
             }
           ],
           "labels": [],
@@ -101646,6 +102066,10 @@ SUPPORT_CHARTS = {
             {
               "signature": 100618,
               "version": "03.08.00.0001"
+            },
+            {
+              "signature": 100618,
+              "version": "03.08.00.0002"
             }
           ],
           "labels": [],
@@ -103238,11 +103662,12 @@ SUPPORT_CHARTS = {
               "version": "153.0.8010.37"
             },
             {
-              "methodsStatus": {
-                "2000": -1
-              },
               "signature": 100004,
               "version": "153.0.8010.48"
+            },
+            {
+              "signature": 100004,
+              "version": "153.0.8010.53"
             }
           ],
           "labels": [],
@@ -105044,6 +105469,10 @@ SUPPORT_CHARTS = {
             {
               "signature": 100292,
               "version": "155.0.1"
+            },
+            {
+              "signature": 100292,
+              "version": "156.0"
             }
           ],
           "labels": [],
@@ -106394,6 +106823,14 @@ SUPPORT_CHARTS = {
             {
               "signature": 100474,
               "version": "153.0.4234.32"
+            },
+            {
+              "signature": 100474,
+              "version": "153.0.4234.46"
+            },
+            {
+              "signature": 100474,
+              "version": "153.0.4234.48"
             }
           ],
           "labels": [],
@@ -108268,7 +108705,7 @@ SUPPORT_CHARTS = {
                       "param_support": {
                         "input": {
                           "timeframe": {
-                            "_supported": false,
+                            "_supported": true,
                             "_optional": true
                           },
                           "skip_connection_check": {
@@ -108306,7 +108743,7 @@ SUPPORT_CHARTS = {
                               "_optional": false
                             },
                             "engine_version": {
-                              "_supported": false,
+                              "_supported": true,
                               "_optional": true
                             },
                             "last_update": {
@@ -108327,7 +108764,7 @@ SUPPORT_CHARTS = {
                         }
                       },
                       "admin_required": true,
-                      "notes": ""
+                      "notes": "Runs unprivileged too, but only last_update (updates/data.txt) is readable then; version/engine_version/source_time come from updates/updfiles/upd.ver, which is 0600 root-only."
                     },
                     "name": "GetDefinitionState"
                   },
@@ -112927,7 +113364,7 @@ SUPPORT_CHARTS = {
                       "param_support": {
                         "input": {
                           "timeframe": {
-                            "_supported": false,
+                            "_supported": true,
                             "_optional": true
                           },
                           "skip_connection_check": {
@@ -112965,7 +113402,7 @@ SUPPORT_CHARTS = {
                               "_optional": false
                             },
                             "engine_version": {
-                              "_supported": false,
+                              "_supported": true,
                               "_optional": true
                             },
                             "last_update": {
@@ -112986,7 +113423,7 @@ SUPPORT_CHARTS = {
                         }
                       },
                       "admin_required": true,
-                      "notes": ""
+                      "notes": "Runs unprivileged too, but only last_update (updates/data.txt) is readable then; version/engine_version/source_time come from updates/updfiles/upd.ver, which is 0600 root-only."
                     },
                     "name": "GetDefinitionState"
                   },
@@ -123018,6 +123455,19 @@ SUPPORT_CHARTS = {
             {
               "signature": 100282,
               "version": "7.1.5"
+            },
+            {
+              "signature": 100282,
+              "version": "7.2.0"
+            },
+            {
+              "methodsStatus": {
+                "101": -1,
+                "102": -1,
+                "103": -1
+              },
+              "signature": 100282,
+              "version": "7.2.1"
             }
           ],
           "labels": [
@@ -123701,6 +124151,10 @@ SUPPORT_CHARTS = {
               },
               "signature": 100513,
               "version": "26213.1006.5011.1671"
+            },
+            {
+              "signature": 100513,
+              "version": "26225.1706.5101.3140"
             }
           ],
           "labels": [],
@@ -123910,6 +124364,45 @@ SUPPORT_CHARTS = {
                       "notes": ""
                     },
                     "name": "GetVersion"
+                  },
+                  "101": {
+                    "id": 101,
+                    "meta_data": {
+                      "param_support": {
+                        "input": {
+                          "instance_id": {
+                            "_supported": false,
+                            "_optional": true
+                          }
+                        },
+                        "output": {
+                          "running": {
+                            "_supported": true,
+                            "_optional": false
+                          }
+                        }
+                      },
+                      "admin_required": false,
+                      "notes": "Install-directory sweep OR product-specific process names; the latter is required because C.Os_GetListProcesses reports com.microsoft.teams2.agent with a RELATIVE image path, which no path-prefix test can match. Verified user/admin/service on macos_26_arm."
+                    },
+                    "name": "GetRunningState"
+                  },
+                  "103": {
+                    "id": 103,
+                    "meta_data": {
+                      "param_support": {
+                        "input": {
+                          "instance_id": {
+                            "_supported": false,
+                            "_optional": true
+                          }
+                        },
+                        "output": []
+                      },
+                      "admin_required": false,
+                      "notes": "Verified in user/admin/service modes on macos_26_arm: bootout of the product's own LaunchAgents (com.microsoft.teams2.agent, com.microsoft.teams2.respawn) plus an install-directory process sweep, no elevation required."
+                    },
+                    "name": "TerminateProcesses"
                   }
                 }
               },
@@ -127871,5 +128364,5 @@ SUPPORT_CHARTS = {
     }
   },
   "support_chart_type": "CATEGORY",
-  "timestamp": "1789564349"
+  "timestamp": "1790061863"
 }
