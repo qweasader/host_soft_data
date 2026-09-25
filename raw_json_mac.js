@@ -1380,6 +1380,10 @@ SUPPORT_CHARTS = {
             {
               "signature": 100015,
               "version": "156.0"
+            },
+            {
+              "signature": 100015,
+              "version": "156.0.1"
             }
           ],
           "labels": [],
@@ -11214,6 +11218,10 @@ SUPPORT_CHARTS = {
             {
               "signature": 100483,
               "version": "1.138.0"
+            },
+            {
+              "signature": 100483,
+              "version": "1.139.0"
             }
           ],
           "labels": [],
@@ -18236,6 +18244,9 @@ SUPPORT_CHARTS = {
                                 "update_rollup": false,
                                 "update": false,
                                 "upgrade": false,
+                                "driver": false,
+                                "driver_set": false,
+                                "hotfix": false,
                                 "unknown": false
                               }
                             },
@@ -29673,11 +29684,6 @@ SUPPORT_CHARTS = {
               "version": "7.2.0"
             },
             {
-              "methodsStatus": {
-                "101": -1,
-                "102": -1,
-                "103": -1
-              },
               "signature": 100282,
               "version": "7.2.1"
             }
@@ -30083,6 +30089,10 @@ SUPPORT_CHARTS = {
             {
               "signature": 100513,
               "version": "26225.1706.5101.3140"
+            },
+            {
+              "signature": 100513,
+              "version": "26225.1708.5124.9749"
             }
           ],
           "labels": [],
@@ -33413,6 +33423,10 @@ SUPPORT_CHARTS = {
             {
               "signature": 100119,
               "version": "4.52.155"
+            },
+            {
+              "signature": 100119,
+              "version": "4.52.162"
             }
           ],
           "labels": [],
@@ -33893,11 +33907,6 @@ SUPPORT_CHARTS = {
               "version": "7.2.0"
             },
             {
-              "methodsStatus": {
-                "101": -1,
-                "102": -1,
-                "103": -1
-              },
               "signature": 100282,
               "version": "7.2.1"
             }
@@ -34587,6 +34596,10 @@ SUPPORT_CHARTS = {
             {
               "signature": 100513,
               "version": "26225.1706.5101.3140"
+            },
+            {
+              "signature": 100513,
+              "version": "26225.1708.5124.9749"
             }
           ],
           "labels": [],
@@ -37239,6 +37252,10 @@ SUPPORT_CHARTS = {
             {
               "signature": 100159,
               "version": "26.158.0816.0003"
+            },
+            {
+              "signature": 100159,
+              "version": "26.163.0823.0004"
             }
           ],
           "labels": [],
@@ -47083,6 +47100,10 @@ SUPPORT_CHARTS = {
             {
               "signature": 100004,
               "version": "153.0.8010.53"
+            },
+            {
+              "signature": 100004,
+              "version": "154.0.8037.58"
             }
           ],
           "labels": [],
@@ -48837,6 +48858,10 @@ SUPPORT_CHARTS = {
             {
               "signature": 100292,
               "version": "156.0"
+            },
+            {
+              "signature": 100292,
+              "version": "156.0.1"
             }
           ],
           "labels": [],
@@ -63361,6 +63386,143 @@ SUPPORT_CHARTS = {
                     "code": -11,
                     "name": "TerminateProcesses"
                   }
+                },
+                "manageability": {
+                  "1000": {
+                    "id": 1000,
+                    "meta_data": {
+                      "param_support": {
+                        "input": {
+                          "skip_connection_check": {
+                            "_supported": false,
+                            "_optional": true
+                          }
+                        },
+                        "output": {
+                          "enabled": {
+                            "_supported": true,
+                            "_optional": false
+                          },
+                          "has_internet_connectivity": {
+                            "_supported": false,
+                            "_optional": true
+                          },
+                          "details": {
+                            "_supported": true,
+                            "_optional": false,
+                            "antivirus": {
+                              "_supported": false,
+                              "_optional": true
+                            },
+                            "antispyware": {
+                              "_supported": false,
+                              "_optional": true
+                            },
+                            "other": {
+                              "_supported": false,
+                              "_optional": true,
+                              "name": {
+                                "_supported": false,
+                                "_optional": true
+                              },
+                              "state": {
+                                "_supported": false,
+                                "_optional": true
+                              }
+                            }
+                          },
+                          "managed_by_3rd_party_products": {
+                            "_supported": false,
+                            "_optional": true,
+                            "product_name": {
+                              "_supported": false,
+                              "_optional": true
+                            },
+                            "remediation_path": {
+                              "_supported": false,
+                              "_optional": true
+                            },
+                            "signature": {
+                              "_supported": false,
+                              "_optional": true
+                            }
+                          }
+                        }
+                      },
+                      "admin_required": false,
+                      "notes": ""
+                    },
+                    "name": "GetRealTimeProtectionState"
+                  },
+                  "1001": {
+                    "id": 1001,
+                    "meta_data": {
+                      "param_support": {
+                        "input": {
+                          "timeframe": {
+                            "_supported": false,
+                            "_optional": true
+                          },
+                          "skip_connection_check": {
+                            "_supported": false,
+                            "_optional": true
+                          }
+                        },
+                        "output": {
+                          "is_recent": {
+                            "_supported": true,
+                            "_optional": false
+                          },
+                          "has_internet_connectivity": {
+                            "_supported": false,
+                            "_optional": true
+                          },
+                          "definitions": {
+                            "_supported": true,
+                            "_optional": false,
+                            "name": {
+                              "_supported": true,
+                              "_optional": false
+                            },
+                            "type": {
+                              "_supported": true,
+                              "_optional": false,
+                              "_values": {
+                                "antimalware": false,
+                                "antivirus": false,
+                                "antispyware": false
+                              }
+                            },
+                            "version": {
+                              "_supported": true,
+                              "_optional": false
+                            },
+                            "engine_version": {
+                              "_supported": false,
+                              "_optional": true
+                            },
+                            "last_update": {
+                              "_optional": false,
+                              "_supported": true,
+                              "_optional_override": true
+                            },
+                            "source_time": {
+                              "_optional": false,
+                              "_supported": true,
+                              "_optional_override": true
+                            },
+                            "count": {
+                              "_supported": false,
+                              "_optional": true
+                            }
+                          }
+                        }
+                      },
+                      "admin_required": false,
+                      "notes": ""
+                    },
+                    "name": "GetDefinitionState"
+                  }
                 }
               },
               "sig_name": "WatchGuard Endpoint Security 360"
@@ -63410,6 +63572,143 @@ SUPPORT_CHARTS = {
                     "id": 103,
                     "code": -11,
                     "name": "TerminateProcesses"
+                  }
+                },
+                "manageability": {
+                  "1000": {
+                    "id": 1000,
+                    "meta_data": {
+                      "param_support": {
+                        "input": {
+                          "skip_connection_check": {
+                            "_supported": false,
+                            "_optional": true
+                          }
+                        },
+                        "output": {
+                          "enabled": {
+                            "_supported": true,
+                            "_optional": false
+                          },
+                          "has_internet_connectivity": {
+                            "_supported": false,
+                            "_optional": true
+                          },
+                          "details": {
+                            "_supported": true,
+                            "_optional": false,
+                            "antivirus": {
+                              "_supported": false,
+                              "_optional": true
+                            },
+                            "antispyware": {
+                              "_supported": false,
+                              "_optional": true
+                            },
+                            "other": {
+                              "_supported": false,
+                              "_optional": true,
+                              "name": {
+                                "_supported": false,
+                                "_optional": true
+                              },
+                              "state": {
+                                "_supported": false,
+                                "_optional": true
+                              }
+                            }
+                          },
+                          "managed_by_3rd_party_products": {
+                            "_supported": false,
+                            "_optional": true,
+                            "product_name": {
+                              "_supported": false,
+                              "_optional": true
+                            },
+                            "remediation_path": {
+                              "_supported": false,
+                              "_optional": true
+                            },
+                            "signature": {
+                              "_supported": false,
+                              "_optional": true
+                            }
+                          }
+                        }
+                      },
+                      "admin_required": false,
+                      "notes": ""
+                    },
+                    "name": "GetRealTimeProtectionState"
+                  },
+                  "1001": {
+                    "id": 1001,
+                    "meta_data": {
+                      "param_support": {
+                        "input": {
+                          "timeframe": {
+                            "_supported": false,
+                            "_optional": true
+                          },
+                          "skip_connection_check": {
+                            "_supported": false,
+                            "_optional": true
+                          }
+                        },
+                        "output": {
+                          "is_recent": {
+                            "_supported": true,
+                            "_optional": false
+                          },
+                          "has_internet_connectivity": {
+                            "_supported": false,
+                            "_optional": true
+                          },
+                          "definitions": {
+                            "_supported": true,
+                            "_optional": false,
+                            "name": {
+                              "_supported": true,
+                              "_optional": false
+                            },
+                            "type": {
+                              "_supported": true,
+                              "_optional": false,
+                              "_values": {
+                                "antimalware": false,
+                                "antivirus": false,
+                                "antispyware": false
+                              }
+                            },
+                            "version": {
+                              "_supported": true,
+                              "_optional": false
+                            },
+                            "engine_version": {
+                              "_supported": false,
+                              "_optional": true
+                            },
+                            "last_update": {
+                              "_optional": false,
+                              "_supported": true,
+                              "_optional_override": true
+                            },
+                            "source_time": {
+                              "_optional": false,
+                              "_supported": true,
+                              "_optional_override": true
+                            },
+                            "count": {
+                              "_supported": false,
+                              "_optional": true
+                            }
+                          }
+                        }
+                      },
+                      "admin_required": false,
+                      "notes": ""
+                    },
+                    "name": "GetDefinitionState"
                   }
                 }
               },
@@ -102054,6 +102353,143 @@ SUPPORT_CHARTS = {
                     "code": -11,
                     "name": "TerminateProcesses"
                   }
+                },
+                "manageability": {
+                  "1000": {
+                    "id": 1000,
+                    "meta_data": {
+                      "param_support": {
+                        "input": {
+                          "skip_connection_check": {
+                            "_supported": false,
+                            "_optional": true
+                          }
+                        },
+                        "output": {
+                          "enabled": {
+                            "_supported": true,
+                            "_optional": false
+                          },
+                          "has_internet_connectivity": {
+                            "_supported": false,
+                            "_optional": true
+                          },
+                          "details": {
+                            "_supported": true,
+                            "_optional": false,
+                            "antivirus": {
+                              "_supported": false,
+                              "_optional": true
+                            },
+                            "antispyware": {
+                              "_supported": false,
+                              "_optional": true
+                            },
+                            "other": {
+                              "_supported": false,
+                              "_optional": true,
+                              "name": {
+                                "_supported": false,
+                                "_optional": true
+                              },
+                              "state": {
+                                "_supported": false,
+                                "_optional": true
+                              }
+                            }
+                          },
+                          "managed_by_3rd_party_products": {
+                            "_supported": false,
+                            "_optional": true,
+                            "product_name": {
+                              "_supported": false,
+                              "_optional": true
+                            },
+                            "remediation_path": {
+                              "_supported": false,
+                              "_optional": true
+                            },
+                            "signature": {
+                              "_supported": false,
+                              "_optional": true
+                            }
+                          }
+                        }
+                      },
+                      "admin_required": false,
+                      "notes": ""
+                    },
+                    "name": "GetRealTimeProtectionState"
+                  },
+                  "1001": {
+                    "id": 1001,
+                    "meta_data": {
+                      "param_support": {
+                        "input": {
+                          "timeframe": {
+                            "_supported": false,
+                            "_optional": true
+                          },
+                          "skip_connection_check": {
+                            "_supported": false,
+                            "_optional": true
+                          }
+                        },
+                        "output": {
+                          "is_recent": {
+                            "_supported": true,
+                            "_optional": false
+                          },
+                          "has_internet_connectivity": {
+                            "_supported": false,
+                            "_optional": true
+                          },
+                          "definitions": {
+                            "_supported": true,
+                            "_optional": false,
+                            "name": {
+                              "_supported": true,
+                              "_optional": false
+                            },
+                            "type": {
+                              "_supported": true,
+                              "_optional": false,
+                              "_values": {
+                                "antimalware": false,
+                                "antivirus": false,
+                                "antispyware": false
+                              }
+                            },
+                            "version": {
+                              "_supported": true,
+                              "_optional": false
+                            },
+                            "engine_version": {
+                              "_supported": false,
+                              "_optional": true
+                            },
+                            "last_update": {
+                              "_optional": false,
+                              "_supported": true,
+                              "_optional_override": true
+                            },
+                            "source_time": {
+                              "_optional": false,
+                              "_supported": true,
+                              "_optional_override": true
+                            },
+                            "count": {
+                              "_supported": false,
+                              "_optional": true
+                            }
+                          }
+                        }
+                      },
+                      "admin_required": false,
+                      "notes": ""
+                    },
+                    "name": "GetDefinitionState"
+                  }
                 }
               },
               "sig_name": "WatchGuard Endpoint Security 360"
@@ -102103,6 +102539,143 @@ SUPPORT_CHARTS = {
                     "id": 103,
                     "code": -11,
                     "name": "TerminateProcesses"
+                  }
+                },
+                "manageability": {
+                  "1000": {
+                    "id": 1000,
+                    "meta_data": {
+                      "param_support": {
+                        "input": {
+                          "skip_connection_check": {
+                            "_supported": false,
+                            "_optional": true
+                          }
+                        },
+                        "output": {
+                          "enabled": {
+                            "_supported": true,
+                            "_optional": false
+                          },
+                          "has_internet_connectivity": {
+                            "_supported": false,
+                            "_optional": true
+                          },
+                          "details": {
+                            "_supported": true,
+                            "_optional": false,
+                            "antivirus": {
+                              "_supported": false,
+                              "_optional": true
+                            },
+                            "antispyware": {
+                              "_supported": false,
+                              "_optional": true
+                            },
+                            "other": {
+                              "_supported": false,
+                              "_optional": true,
+                              "name": {
+                                "_supported": false,
+                                "_optional": true
+                              },
+                              "state": {
+                                "_supported": false,
+                                "_optional": true
+                              }
+                            }
+                          },
+                          "managed_by_3rd_party_products": {
+                            "_supported": false,
+                            "_optional": true,
+                            "product_name": {
+                              "_supported": false,
+                              "_optional": true
+                            },
+                            "remediation_path": {
+                              "_supported": false,
+                              "_optional": true
+                            },
+                            "signature": {
+                              "_supported": false,
+                              "_optional": true
+                            }
+                          }
+                        }
+                      },
+                      "admin_required": false,
+                      "notes": ""
+                    },
+                    "name": "GetRealTimeProtectionState"
+                  },
+                  "1001": {
+                    "id": 1001,
+                    "meta_data": {
+                      "param_support": {
+                        "input": {
+                          "timeframe": {
+                            "_supported": false,
+                            "_optional": true
+                          },
+                          "skip_connection_check": {
+                            "_supported": false,
+                            "_optional": true
+                          }
+                        },
+                        "output": {
+                          "is_recent": {
+                            "_supported": true,
+                            "_optional": false
+                          },
+                          "has_internet_connectivity": {
+                            "_supported": false,
+                            "_optional": true
+                          },
+                          "definitions": {
+                            "_supported": true,
+                            "_optional": false,
+                            "name": {
+                              "_supported": true,
+                              "_optional": false
+                            },
+                            "type": {
+                              "_supported": true,
+                              "_optional": false,
+                              "_values": {
+                                "antimalware": false,
+                                "antivirus": false,
+                                "antispyware": false
+                              }
+                            },
+                            "version": {
+                              "_supported": true,
+                              "_optional": false
+                            },
+                            "engine_version": {
+                              "_supported": false,
+                              "_optional": true
+                            },
+                            "last_update": {
+                              "_optional": false,
+                              "_supported": true,
+                              "_optional_override": true
+                            },
+                            "source_time": {
+                              "_optional": false,
+                              "_supported": true,
+                              "_optional_override": true
+                            },
+                            "count": {
+                              "_supported": false,
+                              "_optional": true
+                            }
+                          }
+                        }
+                      },
+                      "admin_required": false,
+                      "notes": ""
+                    },
+                    "name": "GetDefinitionState"
                   }
                 }
               },
@@ -103668,6 +104241,10 @@ SUPPORT_CHARTS = {
             {
               "signature": 100004,
               "version": "153.0.8010.53"
+            },
+            {
+              "signature": 100004,
+              "version": "154.0.8037.58"
             }
           ],
           "labels": [],
@@ -105473,6 +106050,10 @@ SUPPORT_CHARTS = {
             {
               "signature": 100292,
               "version": "156.0"
+            },
+            {
+              "signature": 100292,
+              "version": "156.0.1"
             }
           ],
           "labels": [],
@@ -122468,6 +123049,10 @@ SUPPORT_CHARTS = {
             {
               "signature": 100119,
               "version": "4.52.155"
+            },
+            {
+              "signature": 100119,
+              "version": "4.52.162"
             }
           ],
           "labels": [],
@@ -123461,11 +124046,6 @@ SUPPORT_CHARTS = {
               "version": "7.2.0"
             },
             {
-              "methodsStatus": {
-                "101": -1,
-                "102": -1,
-                "103": -1
-              },
               "signature": 100282,
               "version": "7.2.1"
             }
@@ -124155,6 +124735,10 @@ SUPPORT_CHARTS = {
             {
               "signature": 100513,
               "version": "26225.1706.5101.3140"
+            },
+            {
+              "signature": 100513,
+              "version": "26225.1708.5124.9749"
             }
           ],
           "labels": [],
@@ -127343,6 +127927,10 @@ SUPPORT_CHARTS = {
             {
               "signature": 100159,
               "version": "26.158.0816.0003"
+            },
+            {
+              "signature": 100159,
+              "version": "26.163.0823.0004"
             }
           ],
           "labels": [],
@@ -128364,5 +128952,5 @@ SUPPORT_CHARTS = {
     }
   },
   "support_chart_type": "CATEGORY",
-  "timestamp": "1790061863"
+  "timestamp": "1790248818"
 }
