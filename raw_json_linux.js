@@ -1451,6 +1451,10 @@ SUPPORT_CHARTS = {
             {
               "version": "156.0.1",
               "signature": 200096
+            },
+            {
+              "version": "157.0",
+              "signature": 200096
             }
           ],
           "labels": [],
@@ -1611,6 +1615,32 @@ SUPPORT_CHARTS = {
                       "notes": ""
                     },
                     "name": "GetInstallationDirectories"
+                  },
+                  "105": {
+                    "id": 105,
+                    "meta_data": {
+                      "param_support": {
+                        "input": {
+                          "include_services": {
+                            "_supported": false,
+                            "_optional": true
+                          }
+                        },
+                        "output": {
+                          "components": {
+                            "_supported": true,
+                            "_optional": false
+                          },
+                          "services": {
+                            "_supported": false,
+                            "_optional": true
+                          }
+                        }
+                      },
+                      "admin_required": false,
+                      "notes": ""
+                    },
+                    "name": "GetComponents"
                   }
                 }
               },
@@ -10489,6 +10519,10 @@ SUPPORT_CHARTS = {
             },
             {
               "version": "1.139.1",
+              "signature": 200206
+            },
+            {
+              "version": "1.140.0",
               "signature": 200206
             }
           ],
@@ -25292,6 +25326,10 @@ SUPPORT_CHARTS = {
             {
               "version": "156.0.1",
               "signature": 200003
+            },
+            {
+              "version": "157.0",
+              "signature": 200003
             }
           ],
           "labels": [],
@@ -39628,7 +39666,12 @@ SUPPORT_CHARTS = {
           "id": 200236,
           "tested_points": [
             {
+              "certification": "gold",
               "version": "5.8.6",
+              "signature": 200255
+            },
+            {
+              "version": "50.2.1.64",
               "signature": 200255
             }
           ],
@@ -39664,6 +39707,229 @@ SUPPORT_CHARTS = {
                     "id": 103,
                     "code": -11,
                     "name": "TerminateProcesses"
+                  }
+                },
+                "manageability": {
+                  "100": {
+                    "id": 100,
+                    "meta_data": {
+                      "param_support": {
+                        "input": {
+                          "instance_id": {
+                            "_supported": false,
+                            "_optional": true
+                          }
+                        },
+                        "output": {
+                          "version": {
+                            "_supported": true,
+                            "_optional": false
+                          },
+                          "architecture": {
+                            "_supported": true,
+                            "_optional": false,
+                            "name": {
+                              "_supported": true,
+                              "_optional": false
+                            },
+                            "bitness": {
+                              "_supported": true,
+                              "_optional": false
+                            }
+                          },
+                          "language": {
+                            "_supported": true,
+                            "_optional": false,
+                            "code": {
+                              "_supported": true,
+                              "_optional": false
+                            },
+                            "name": {
+                              "_supported": true,
+                              "_optional": false
+                            }
+                          },
+                          "channel": {
+                            "_supported": false,
+                            "_optional": true
+                          },
+                          "release": {
+                            "_supported": false,
+                            "_optional": true
+                          }
+                        }
+                      },
+                      "admin_required": false,
+                      "notes": ""
+                    },
+                    "name": "GetVersion"
+                  },
+                  "1000": {
+                    "id": 1000,
+                    "meta_data": {
+                      "param_support": {
+                        "input": {
+                          "skip_connection_check": {
+                            "_supported": false,
+                            "_optional": true
+                          }
+                        },
+                        "output": {
+                          "enabled": {
+                            "_supported": true,
+                            "_optional": false
+                          },
+                          "state": {
+                            "_supported": false,
+                            "_optional": true,
+                            "_values": {
+                              "enabled": false,
+                              "disabled": false,
+                              "initializing": false,
+                              "unknown": false
+                            }
+                          },
+                          "has_internet_connectivity": {
+                            "_supported": false,
+                            "_optional": true
+                          },
+                          "details": {
+                            "_supported": true,
+                            "_optional": false,
+                            "antivirus": {
+                              "_supported": false,
+                              "_optional": true
+                            },
+                            "antispyware": {
+                              "_supported": false,
+                              "_optional": true
+                            },
+                            "other": {
+                              "_supported": false,
+                              "_optional": true,
+                              "name": {
+                                "_supported": false,
+                                "_optional": true
+                              },
+                              "state": {
+                                "_supported": false,
+                                "_optional": true
+                              }
+                            }
+                          },
+                          "managed_by_3rd_party_products": {
+                            "_supported": false,
+                            "_optional": true,
+                            "product_name": {
+                              "_supported": false,
+                              "_optional": true
+                            },
+                            "remediation_path": {
+                              "_supported": false,
+                              "_optional": true
+                            },
+                            "signature": {
+                              "_supported": false,
+                              "_optional": true
+                            }
+                          }
+                        }
+                      },
+                      "admin_required": false,
+                      "notes": ""
+                    },
+                    "name": "GetRealTimeProtectionState"
+                  },
+                  "1001": {
+                    "id": 1001,
+                    "meta_data": {
+                      "param_support": {
+                        "input": {
+                          "timeframe": {
+                            "_supported": false,
+                            "_optional": true
+                          },
+                          "skip_connection_check": {
+                            "_supported": false,
+                            "_optional": true
+                          }
+                        },
+                        "output": {
+                          "is_recent": {
+                            "_supported": true,
+                            "_optional": false
+                          },
+                          "has_internet_connectivity": {
+                            "_supported": false,
+                            "_optional": true
+                          },
+                          "definitions": {
+                            "_supported": true,
+                            "_optional": false,
+                            "name": {
+                              "_supported": true,
+                              "_optional": false
+                            },
+                            "type": {
+                              "_supported": true,
+                              "_optional": false,
+                              "_values": {
+                                "antimalware": false,
+                                "antivirus": false,
+                                "antispyware": false
+                              }
+                            },
+                            "version": {
+                              "_supported": true,
+                              "_optional": false
+                            },
+                            "engine_version": {
+                              "_supported": false,
+                              "_optional": true
+                            },
+                            "last_update": {
+                              "_optional": false,
+                              "_supported": true,
+                              "_optional_override": true
+                            },
+                            "source_time": {
+                              "_optional": false,
+                              "_supported": true,
+                              "_optional_override": true
+                            },
+                            "count": {
+                              "_supported": false,
+                              "_optional": true
+                            }
+                          }
+                        }
+                      },
+                      "admin_required": false,
+                      "notes": ""
+                    },
+                    "name": "GetDefinitionState"
+                  },
+                  "101": {
+                    "id": 101,
+                    "meta_data": {
+                      "param_support": {
+                        "input": {
+                          "instance_id": {
+                            "_supported": false,
+                            "_optional": true
+                          }
+                        },
+                        "output": {
+                          "running": {
+                            "_supported": true,
+                            "_optional": false
+                          }
+                        }
+                      },
+                      "admin_required": false,
+                      "notes": ""
+                    },
+                    "name": "GetRunningState"
                   }
                 }
               },
@@ -40405,6 +40671,10 @@ SUPPORT_CHARTS = {
             },
             {
               "version": "156.0.1",
+              "signature": 200003
+            },
+            {
+              "version": "157.0",
               "signature": 200003
             }
           ],
@@ -45854,5 +46124,5 @@ SUPPORT_CHARTS = {
     }
   },
   "support_chart_type": "CATEGORY",
-  "timestamp": "1790671932"
+  "timestamp": "1790931940"
 }

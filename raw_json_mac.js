@@ -1384,6 +1384,14 @@ SUPPORT_CHARTS = {
             {
               "version": "156.0.1",
               "signature": 100015
+            },
+            {
+              "version": "157.0",
+              "signature": 100015
+            },
+            {
+              "version": "157.0.1",
+              "signature": 100015
             }
           ],
           "labels": [],
@@ -11225,6 +11233,10 @@ SUPPORT_CHARTS = {
             },
             {
               "version": "1.139.1",
+              "signature": 100483
+            },
+            {
+              "version": "1.140.0",
               "signature": 100483
             }
           ],
@@ -24449,6 +24461,14 @@ SUPPORT_CHARTS = {
             {
               "version": "89.23.7256",
               "signature": 100187
+            },
+            {
+              "version": "89.30.7380",
+              "signature": 100187
+            },
+            {
+              "version": "89.40.7522",
+              "signature": 100187
             }
           ],
           "labels": [],
@@ -24532,11 +24552,30 @@ SUPPORT_CHARTS = {
                     "id": 1000,
                     "meta_data": {
                       "param_support": {
-                        "input": [],
+                        "input": {
+                          "skip_connection_check": {
+                            "_supported": false,
+                            "_optional": true
+                          }
+                        },
                         "output": {
                           "enabled": {
                             "_supported": true,
                             "_optional": false
+                          },
+                          "state": {
+                            "_supported": false,
+                            "_optional": true,
+                            "_values": {
+                              "enabled": false,
+                              "disabled": false,
+                              "initializing": false,
+                              "unknown": false
+                            }
+                          },
+                          "has_internet_connectivity": {
+                            "_supported": false,
+                            "_optional": true
                           },
                           "details": {
                             "_supported": true,
@@ -24560,6 +24599,22 @@ SUPPORT_CHARTS = {
                                 "_supported": false,
                                 "_optional": true
                               }
+                            }
+                          },
+                          "managed_by_3rd_party_products": {
+                            "_supported": false,
+                            "_optional": true,
+                            "product_name": {
+                              "_supported": false,
+                              "_optional": true
+                            },
+                            "remediation_path": {
+                              "_supported": false,
+                              "_optional": true
+                            },
+                            "signature": {
+                              "_supported": false,
+                              "_optional": true
                             }
                           }
                         }
@@ -36246,6 +36301,14 @@ SUPPORT_CHARTS = {
             {
               "version": "270.4.3312",
               "signature": 100148
+            },
+            {
+              "version": "272.4.3798",
+              "signature": 100148
+            },
+            {
+              "version": "274.3.4783",
+              "signature": 100148
             }
           ],
           "labels": [],
@@ -44503,6 +44566,14 @@ SUPPORT_CHARTS = {
             {
               "version": "89.23.7256",
               "signature": 100187
+            },
+            {
+              "version": "89.30.7380",
+              "signature": 100187
+            },
+            {
+              "version": "89.40.7522",
+              "signature": 100187
             }
           ],
           "labels": [],
@@ -44586,11 +44657,30 @@ SUPPORT_CHARTS = {
                     "id": 1000,
                     "meta_data": {
                       "param_support": {
-                        "input": [],
+                        "input": {
+                          "skip_connection_check": {
+                            "_supported": false,
+                            "_optional": true
+                          }
+                        },
                         "output": {
                           "enabled": {
                             "_supported": true,
                             "_optional": false
+                          },
+                          "state": {
+                            "_supported": false,
+                            "_optional": true,
+                            "_values": {
+                              "enabled": false,
+                              "disabled": false,
+                              "initializing": false,
+                              "unknown": false
+                            }
+                          },
+                          "has_internet_connectivity": {
+                            "_supported": false,
+                            "_optional": true
                           },
                           "details": {
                             "_supported": true,
@@ -44614,6 +44704,22 @@ SUPPORT_CHARTS = {
                                 "_supported": false,
                                 "_optional": true
                               }
+                            }
+                          },
+                          "managed_by_3rd_party_products": {
+                            "_supported": false,
+                            "_optional": true,
+                            "product_name": {
+                              "_supported": false,
+                              "_optional": true
+                            },
+                            "remediation_path": {
+                              "_supported": false,
+                              "_optional": true
+                            },
+                            "signature": {
+                              "_supported": false,
+                              "_optional": true
                             }
                           }
                         }
@@ -47370,6 +47476,14 @@ SUPPORT_CHARTS = {
             {
               "version": "154.0.8037.58",
               "signature": 100004
+            },
+            {
+              "version": "154.0.8037.93",
+              "signature": 100004
+            },
+            {
+              "version": "154.0.8037.98",
+              "signature": 100004
             }
           ],
           "labels": [],
@@ -49127,6 +49241,10 @@ SUPPORT_CHARTS = {
             },
             {
               "version": "156.0.1",
+              "signature": 100292
+            },
+            {
+              "version": "157.0",
               "signature": 100292
             }
           ],
@@ -57536,7 +57654,64 @@ SUPPORT_CHARTS = {
                 }
               },
               "data_source": "Opswat",
-              "methods": {},
+              "methods": {
+                "manageability": {
+                  "100": {
+                    "id": 100,
+                    "meta_data": {
+                      "param_support": {
+                        "input": {
+                          "instance_id": {
+                            "_supported": false,
+                            "_optional": true
+                          }
+                        },
+                        "output": {
+                          "version": {
+                            "_supported": true,
+                            "_optional": false
+                          },
+                          "architecture": {
+                            "_supported": true,
+                            "_optional": false,
+                            "name": {
+                              "_supported": true,
+                              "_optional": false
+                            },
+                            "bitness": {
+                              "_supported": true,
+                              "_optional": false
+                            }
+                          },
+                          "language": {
+                            "_supported": true,
+                            "_optional": false,
+                            "code": {
+                              "_supported": true,
+                              "_optional": false
+                            },
+                            "name": {
+                              "_supported": true,
+                              "_optional": false
+                            }
+                          },
+                          "channel": {
+                            "_supported": false,
+                            "_optional": true
+                          },
+                          "release": {
+                            "_supported": false,
+                            "_optional": true
+                          }
+                        }
+                      },
+                      "admin_required": false,
+                      "notes": ""
+                    },
+                    "name": "GetVersion"
+                  }
+                }
+              },
               "sig_name": "Firefox Developer Edition"
             }
           }
@@ -60014,6 +60189,10 @@ SUPPORT_CHARTS = {
               },
               "version": "20.0.0.252",
               "signature": 100461
+            },
+            {
+              "version": "20.0.0.271",
+              "signature": 100461
             }
           ],
           "labels": [],
@@ -60646,6 +60825,10 @@ SUPPORT_CHARTS = {
             },
             {
               "version": "154.0.4258.37",
+              "signature": 100474
+            },
+            {
+              "version": "154.0.4258.48",
               "signature": 100474
             }
           ],
@@ -73720,6 +73903,14 @@ SUPPORT_CHARTS = {
             {
               "version": "89.23.7256",
               "signature": 100187
+            },
+            {
+              "version": "89.30.7380",
+              "signature": 100187
+            },
+            {
+              "version": "89.40.7522",
+              "signature": 100187
             }
           ],
           "labels": [],
@@ -73803,11 +73994,30 @@ SUPPORT_CHARTS = {
                     "id": 1000,
                     "meta_data": {
                       "param_support": {
-                        "input": [],
+                        "input": {
+                          "skip_connection_check": {
+                            "_supported": false,
+                            "_optional": true
+                          }
+                        },
                         "output": {
                           "enabled": {
                             "_supported": true,
                             "_optional": false
+                          },
+                          "state": {
+                            "_supported": false,
+                            "_optional": true,
+                            "_values": {
+                              "enabled": false,
+                              "disabled": false,
+                              "initializing": false,
+                              "unknown": false
+                            }
+                          },
+                          "has_internet_connectivity": {
+                            "_supported": false,
+                            "_optional": true
                           },
                           "details": {
                             "_supported": true,
@@ -73831,6 +74041,22 @@ SUPPORT_CHARTS = {
                                 "_supported": false,
                                 "_optional": true
                               }
+                            }
+                          },
+                          "managed_by_3rd_party_products": {
+                            "_supported": false,
+                            "_optional": true,
+                            "product_name": {
+                              "_supported": false,
+                              "_optional": true
+                            },
+                            "remediation_path": {
+                              "_supported": false,
+                              "_optional": true
+                            },
+                            "signature": {
+                              "_supported": false,
+                              "_optional": true
                             }
                           }
                         }
@@ -81983,6 +82209,10 @@ SUPPORT_CHARTS = {
             },
             {
               "version": "5.27.1",
+              "signature": 100372
+            },
+            {
+              "version": "5.27.1.4191",
               "signature": 100372
             }
           ],
@@ -95536,6 +95766,10 @@ SUPPORT_CHARTS = {
             {
               "version": "5360",
               "signature": 100428
+            },
+            {
+              "version": "5362",
+              "signature": 100428
             }
           ],
           "labels": [],
@@ -97385,6 +97619,11 @@ SUPPORT_CHARTS = {
                 "1000": -1
               },
               "version": "20.0.0.252",
+              "signature": 100461
+            },
+            {
+              "certification": "gold",
+              "version": "20.0.0.271",
               "signature": 100461
             }
           ],
@@ -102431,10 +102670,12 @@ SUPPORT_CHARTS = {
           "id": 100552,
           "tested_points": [
             {
+              "certification": "gold",
               "version": "5.1.13",
               "signature": 100609
             },
             {
+              "certification": "gold",
               "version": "5.1.102",
               "signature": 100609
             }
@@ -104288,6 +104529,7 @@ SUPPORT_CHARTS = {
           "id": 100601,
           "tested_points": [
             {
+              "certification": "gold",
               "version": "1.0.55",
               "signature": 100659
             }
@@ -104320,9 +104562,264 @@ SUPPORT_CHARTS = {
                     "code": -11,
                     "name": "TerminateProcesses"
                   }
+                },
+                "manageability": {
+                  "1000": {
+                    "id": 1000,
+                    "meta_data": {
+                      "param_support": {
+                        "input": {
+                          "skip_connection_check": {
+                            "_supported": false,
+                            "_optional": true
+                          }
+                        },
+                        "output": {
+                          "enabled": {
+                            "_supported": true,
+                            "_optional": false
+                          },
+                          "has_internet_connectivity": {
+                            "_supported": false,
+                            "_optional": true
+                          },
+                          "details": {
+                            "_supported": true,
+                            "_optional": false,
+                            "antivirus": {
+                              "_supported": false,
+                              "_optional": true
+                            },
+                            "antispyware": {
+                              "_supported": false,
+                              "_optional": true
+                            },
+                            "other": {
+                              "_supported": false,
+                              "_optional": true,
+                              "name": {
+                                "_supported": false,
+                                "_optional": true
+                              },
+                              "state": {
+                                "_supported": false,
+                                "_optional": true
+                              }
+                            }
+                          },
+                          "managed_by_3rd_party_products": {
+                            "_supported": false,
+                            "_optional": true,
+                            "product_name": {
+                              "_supported": false,
+                              "_optional": true
+                            },
+                            "remediation_path": {
+                              "_supported": false,
+                              "_optional": true
+                            },
+                            "signature": {
+                              "_supported": false,
+                              "_optional": true
+                            }
+                          }
+                        }
+                      },
+                      "admin_required": false,
+                      "notes": ""
+                    },
+                    "name": "GetRealTimeProtectionState"
+                  },
+                  "1001": {
+                    "id": 1001,
+                    "meta_data": {
+                      "param_support": {
+                        "input": {
+                          "timeframe": {
+                            "_supported": false,
+                            "_optional": true
+                          },
+                          "skip_connection_check": {
+                            "_supported": false,
+                            "_optional": true
+                          }
+                        },
+                        "output": {
+                          "is_recent": {
+                            "_supported": true,
+                            "_optional": false
+                          },
+                          "has_internet_connectivity": {
+                            "_supported": false,
+                            "_optional": true
+                          },
+                          "definitions": {
+                            "_supported": true,
+                            "_optional": false,
+                            "name": {
+                              "_supported": true,
+                              "_optional": false
+                            },
+                            "type": {
+                              "_supported": true,
+                              "_optional": false,
+                              "_values": {
+                                "antimalware": false,
+                                "antivirus": false,
+                                "antispyware": false
+                              }
+                            },
+                            "version": {
+                              "_supported": true,
+                              "_optional": false
+                            },
+                            "engine_version": {
+                              "_supported": false,
+                              "_optional": true
+                            },
+                            "last_update": {
+                              "_optional": false,
+                              "_supported": true,
+                              "_optional_override": true
+                            },
+                            "source_time": {
+                              "_optional": false,
+                              "_supported": true,
+                              "_optional_override": true
+                            },
+                            "count": {
+                              "_supported": false,
+                              "_optional": true
+                            }
+                          }
+                        }
+                      },
+                      "admin_required": false,
+                      "notes": ""
+                    },
+                    "name": "GetDefinitionState"
+                  },
+                  "108": {
+                    "id": 108,
+                    "meta_data": {
+                      "param_support": {
+                        "input": {
+                          "instance_id": {
+                            "_supported": false,
+                            "_optional": true
+                          },
+                          "hash_binary": {
+                            "_supported": false,
+                            "_optional": true
+                          }
+                        },
+                        "output": {
+                          "authentic": {
+                            "_supported": true,
+                            "_optional": false
+                          },
+                          "details": {
+                            "_supported": true,
+                            "_optional": false,
+                            "file": {
+                              "_supported": true,
+                              "_optional": false
+                            },
+                            "status": {
+                              "_supported": true,
+                              "_optional": false
+                            },
+                            "signing_code": {
+                              "_supported": true,
+                              "_optional": false
+                            },
+                            "sha256": {
+                              "_supported": false,
+                              "_optional": true
+                            },
+                            "certificate_info": {
+                              "_supported": false,
+                              "_optional": true,
+                              "issuer": {
+                                "_supported": false,
+                                "_optional": true
+                              },
+                              "subject": {
+                                "_supported": false,
+                                "_optional": true
+                              },
+                              "valid_from": {
+                                "_supported": false,
+                                "_optional": true
+                              },
+                              "valid_to": {
+                                "_supported": false,
+                                "_optional": true
+                              },
+                              "serial_number": {
+                                "_supported": false,
+                                "_optional": true
+                              },
+                              "thumbprint": {
+                                "_supported": false,
+                                "_optional": true
+                              }
+                            }
+                          }
+                        }
+                      },
+                      "admin_required": false,
+                      "notes": ""
+                    },
+                    "name": "IsAuthentic"
+                  }
                 }
               },
               "sig_name": "Sunbird"
+            }
+          }
+        },
+        "100603": {
+          "id": 100603,
+          "tested_points": [
+            {
+              "version": "2.9.2.1600",
+              "signature": 100661
+            }
+          ],
+          "labels": [
+            "edrxdr"
+          ],
+          "languages": [],
+          "name": "ThreatBook Agent",
+          "signatures": {
+            "100661": {
+              "signature": 100661,
+              "product": {
+                "id": 100603,
+                "name": "ThreatBook Agent"
+              },
+              "vendor": {
+                "id": 100356,
+                "name": "Beijing ThreatBook Technology Co., Ltd"
+              },
+              "categories": {
+                "5": {
+                  "id": 5,
+                  "name": "ANTIMALWARE"
+                }
+              },
+              "data_source": "Opswat",
+              "methods": {
+                "constant": {
+                  "103": {
+                    "id": 103,
+                    "code": -11,
+                    "name": "TerminateProcesses"
+                  }
+                }
+              },
+              "sig_name": "ThreatBook Agent"
             }
           }
         }
@@ -104765,6 +105262,14 @@ SUPPORT_CHARTS = {
             },
             {
               "version": "154.0.8037.58",
+              "signature": 100004
+            },
+            {
+              "version": "154.0.8037.93",
+              "signature": 100004
+            },
+            {
+              "version": "154.0.8037.98",
               "signature": 100004
             }
           ],
@@ -106575,6 +107080,10 @@ SUPPORT_CHARTS = {
             {
               "version": "156.0.1",
               "signature": 100292
+            },
+            {
+              "version": "157.0",
+              "signature": 100292
             }
           ],
           "labels": [],
@@ -107515,7 +108024,64 @@ SUPPORT_CHARTS = {
                 }
               },
               "data_source": "Opswat",
-              "methods": {},
+              "methods": {
+                "manageability": {
+                  "100": {
+                    "id": 100,
+                    "meta_data": {
+                      "param_support": {
+                        "input": {
+                          "instance_id": {
+                            "_supported": false,
+                            "_optional": true
+                          }
+                        },
+                        "output": {
+                          "version": {
+                            "_supported": true,
+                            "_optional": false
+                          },
+                          "architecture": {
+                            "_supported": true,
+                            "_optional": false,
+                            "name": {
+                              "_supported": true,
+                              "_optional": false
+                            },
+                            "bitness": {
+                              "_supported": true,
+                              "_optional": false
+                            }
+                          },
+                          "language": {
+                            "_supported": true,
+                            "_optional": false,
+                            "code": {
+                              "_supported": true,
+                              "_optional": false
+                            },
+                            "name": {
+                              "_supported": true,
+                              "_optional": false
+                            }
+                          },
+                          "channel": {
+                            "_supported": false,
+                            "_optional": true
+                          },
+                          "release": {
+                            "_supported": false,
+                            "_optional": true
+                          }
+                        }
+                      },
+                      "admin_required": false,
+                      "notes": ""
+                    },
+                    "name": "GetVersion"
+                  }
+                }
+              },
               "sig_name": "Firefox Developer Edition"
             }
           }
@@ -107936,6 +108502,10 @@ SUPPORT_CHARTS = {
             },
             {
               "version": "154.0.4258.37",
+              "signature": 100474
+            },
+            {
+              "version": "154.0.4258.48",
               "signature": 100474
             }
           ],
@@ -112921,6 +113491,14 @@ SUPPORT_CHARTS = {
             {
               "version": "89.23.7256",
               "signature": 100187
+            },
+            {
+              "version": "89.30.7380",
+              "signature": 100187
+            },
+            {
+              "version": "89.40.7522",
+              "signature": 100187
             }
           ],
           "labels": [],
@@ -113004,11 +113582,30 @@ SUPPORT_CHARTS = {
                     "id": 1000,
                     "meta_data": {
                       "param_support": {
-                        "input": [],
+                        "input": {
+                          "skip_connection_check": {
+                            "_supported": false,
+                            "_optional": true
+                          }
+                        },
                         "output": {
                           "enabled": {
                             "_supported": true,
                             "_optional": false
+                          },
+                          "state": {
+                            "_supported": false,
+                            "_optional": true,
+                            "_values": {
+                              "enabled": false,
+                              "disabled": false,
+                              "initializing": false,
+                              "unknown": false
+                            }
+                          },
+                          "has_internet_connectivity": {
+                            "_supported": false,
+                            "_optional": true
                           },
                           "details": {
                             "_supported": true,
@@ -113032,6 +113629,22 @@ SUPPORT_CHARTS = {
                                 "_supported": false,
                                 "_optional": true
                               }
+                            }
+                          },
+                          "managed_by_3rd_party_products": {
+                            "_supported": false,
+                            "_optional": true,
+                            "product_name": {
+                              "_supported": false,
+                              "_optional": true
+                            },
+                            "remediation_path": {
+                              "_supported": false,
+                              "_optional": true
+                            },
+                            "signature": {
+                              "_supported": false,
+                              "_optional": true
                             }
                           }
                         }
@@ -126821,6 +127434,14 @@ SUPPORT_CHARTS = {
             {
               "version": "270.4.3312",
               "signature": 100148
+            },
+            {
+              "version": "272.4.3798",
+              "signature": 100148
+            },
+            {
+              "version": "274.3.4783",
+              "signature": 100148
             }
           ],
           "labels": [],
@@ -129489,5 +130110,5 @@ SUPPORT_CHARTS = {
     }
   },
   "support_chart_type": "CATEGORY",
-  "timestamp": "1790671956"
+  "timestamp": "1790931953"
 }
