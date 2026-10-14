@@ -3900,6 +3900,10 @@ SUPPORT_CHARTS = {
             {
               "signature": 100318,
               "version": "26.8.0.3"
+            },
+            {
+              "signature": 100318,
+              "version": "26.8.1.1"
             }
           ],
           "labels": [
@@ -18480,7 +18484,8 @@ SUPPORT_CHARTS = {
                                 "download_failed": false,
                                 "cache_failed": false,
                                 "install_failed": false,
-                                "installed": false
+                                "installed": false,
+                                "canceled": false
                               }
                             },
                             "reboot_required": {
@@ -30415,6 +30420,10 @@ SUPPORT_CHARTS = {
             {
               "signature": 100513,
               "version": "26246.1709.5146.8945"
+            },
+            {
+              "signature": 100513,
+              "version": "26261.303.5165.1465"
             }
           ],
           "labels": [],
@@ -34938,6 +34947,10 @@ SUPPORT_CHARTS = {
             {
               "signature": 100513,
               "version": "26246.1709.5146.8945"
+            },
+            {
+              "signature": 100513,
+              "version": "26261.303.5165.1465"
             }
           ],
           "labels": [],
@@ -36359,6 +36372,10 @@ SUPPORT_CHARTS = {
             {
               "signature": 100148,
               "version": "274.3.4783"
+            },
+            {
+              "signature": 100148,
+              "version": "274.4.4841"
             }
           ],
           "labels": [],
@@ -37619,12 +37636,6 @@ SUPPORT_CHARTS = {
               "version": "26.153.0809.0004"
             },
             {
-              "methodsStatus": {
-                "1008": -1,
-                "104": -1,
-                "105": -1,
-                "2000": -1
-              },
               "signature": 100159,
               "version": "26.173.0906.0008"
             }
@@ -43484,7 +43495,611 @@ SUPPORT_CHARTS = {
           "name": "GetInstalledPatches"
         }
       },
-      "products": {},
+      "products": {
+        "100298": {
+          "id": 100298,
+          "tested_points": [
+            {
+              "signature": 100356,
+              "version": "17.0.40.0"
+            },
+            {
+              "signature": 100356,
+              "version": "19.1.202.0"
+            },
+            {
+              "signature": 100356,
+              "version": "20.1.182.0"
+            },
+            {
+              "signature": 100356,
+              "version": "21.1.204.0"
+            },
+            {
+              "signature": 100356,
+              "version": "21.2.147.0"
+            },
+            {
+              "signature": 100356,
+              "version": "21.2.201.0"
+            },
+            {
+              "signature": 100356,
+              "version": "22.1.27.0"
+            },
+            {
+              "signature": 100356,
+              "version": "21.2.270.0"
+            },
+            {
+              "signature": 100356,
+              "version": "23.1.44.0"
+            },
+            {
+              "signature": 100356,
+              "version": "23.2.4.0"
+            },
+            {
+              "signature": 100356,
+              "version": "23.2.67.0"
+            },
+            {
+              "signature": 100356,
+              "version": "24.1.1.0"
+            },
+            {
+              "signature": 100356,
+              "version": "24.1.81.0"
+            }
+          ],
+          "labels": [
+            "edrxdr"
+          ],
+          "languages": [],
+          "name": "Cybereason ActiveProbe",
+          "signatures": {
+            "100356": {
+              "signature": 100356,
+              "product": {
+                "id": 100298,
+                "name": "Cybereason ActiveProbe"
+              },
+              "vendor": {
+                "id": 100196,
+                "name": "Cybereason"
+              },
+              "categories": {
+                "23": {
+                  "id": 23,
+                  "name": "EDR_XDR"
+                },
+                "5": {
+                  "id": 5,
+                  "name": "ANTIMALWARE"
+                }
+              },
+              "data_source": "Opswat",
+              "sig_name": "Cybereason ActiveProbe",
+              "methods": {
+                "constant": {
+                  "103": {
+                    "id": 103,
+                    "code": -11,
+                    "name": "TerminateProcesses"
+                  }
+                },
+                "manageability": {
+                  "100": {
+                    "id": 100,
+                    "meta_data": {
+                      "param_support": {
+                        "input": [],
+                        "output": {
+                          "version": {
+                            "_supported": true,
+                            "_optional": false
+                          },
+                          "architecture": {
+                            "_supported": true,
+                            "_optional": false,
+                            "name": {
+                              "_supported": false,
+                              "_optional": true
+                            },
+                            "bitness": {
+                              "_supported": false,
+                              "_optional": true
+                            }
+                          },
+                          "language": {
+                            "_supported": true,
+                            "_optional": false,
+                            "code": {
+                              "_supported": true,
+                              "_optional": false
+                            },
+                            "name": {
+                              "_supported": true,
+                              "_optional": false
+                            }
+                          }
+                        }
+                      },
+                      "admin_required": false,
+                      "notes": ""
+                    },
+                    "name": "GetVersion"
+                  },
+                  "1000": {
+                    "id": 1000,
+                    "meta_data": {
+                      "param_support": {
+                        "input": {
+                          "skip_connection_check": {
+                            "_supported": false,
+                            "_optional": true
+                          }
+                        },
+                        "output": {
+                          "enabled": {
+                            "_supported": true,
+                            "_optional": false
+                          },
+                          "has_internet_connectivity": {
+                            "_supported": false,
+                            "_optional": true
+                          },
+                          "details": {
+                            "_supported": true,
+                            "_optional": false,
+                            "antivirus": {
+                              "_supported": false,
+                              "_optional": true
+                            },
+                            "antispyware": {
+                              "_supported": false,
+                              "_optional": true
+                            },
+                            "other": {
+                              "_supported": false,
+                              "_optional": true,
+                              "name": {
+                                "_supported": false,
+                                "_optional": true
+                              },
+                              "state": {
+                                "_supported": false,
+                                "_optional": true
+                              }
+                            }
+                          }
+                        }
+                      },
+                      "admin_required": false,
+                      "notes": ""
+                    },
+                    "name": "GetRealTimeProtectionState"
+                  },
+                  "1001": {
+                    "id": 1001,
+                    "meta_data": {
+                      "param_support": {
+                        "input": {
+                          "timeframe": {
+                            "_supported": false,
+                            "_optional": true
+                          },
+                          "skip_connection_check": {
+                            "_supported": false,
+                            "_optional": true
+                          }
+                        },
+                        "output": {
+                          "is_recent": {
+                            "_supported": true,
+                            "_optional": false
+                          },
+                          "has_internet_connectivity": {
+                            "_supported": false,
+                            "_optional": true
+                          },
+                          "definitions": {
+                            "_supported": true,
+                            "_optional": false,
+                            "name": {
+                              "_supported": true,
+                              "_optional": false
+                            },
+                            "type": {
+                              "_supported": true,
+                              "_optional": false,
+                              "_values": {
+                                "antimalware": false,
+                                "antivirus": false,
+                                "antispyware": false
+                              }
+                            },
+                            "version": {
+                              "_supported": true,
+                              "_optional": false
+                            },
+                            "engine_version": {
+                              "_supported": false,
+                              "_optional": true
+                            },
+                            "last_update": {
+                              "_optional": false,
+                              "_supported": true,
+                              "_optional_override": true
+                            },
+                            "source_time": {
+                              "_optional": false,
+                              "_supported": true,
+                              "_optional_override": true
+                            },
+                            "count": {
+                              "_supported": false,
+                              "_optional": true
+                            }
+                          }
+                        }
+                      },
+                      "admin_required": false,
+                      "notes": ""
+                    },
+                    "name": "GetDefinitionState"
+                  },
+                  "1004": {
+                    "id": 1004,
+                    "meta_data": {
+                      "param_support": {
+                        "input": {
+                          "scan_type": {
+                            "_supported": false,
+                            "_optional": true,
+                            "_values": {
+                              "full": false,
+                              "default": false,
+                              "path": false
+                            }
+                          }
+                        },
+                        "output": {
+                          "scan_time": {
+                            "_supported": true,
+                            "_optional": false
+                          },
+                          "scan_type": {
+                            "_supported": true,
+                            "_optional": false,
+                            "_values": {
+                              "full": false,
+                              "default": false,
+                              "path": false,
+                              "unspecified": false
+                            }
+                          }
+                        }
+                      },
+                      "admin_required": false,
+                      "notes": ""
+                    },
+                    "name": "GetLastScanTime"
+                  },
+                  "101": {
+                    "id": 101,
+                    "meta_data": {
+                      "param_support": {
+                        "input": [],
+                        "output": {
+                          "running": {
+                            "_supported": true,
+                            "_optional": false
+                          }
+                        }
+                      },
+                      "admin_required": false,
+                      "notes": ""
+                    },
+                    "name": "GetRunningState"
+                  }
+                }
+              }
+            }
+          }
+        },
+        "100362": {
+          "id": 100362,
+          "tested_points": [
+            {
+              "signature": 100423,
+              "version": "20.1.182.0"
+            },
+            {
+              "signature": 100423,
+              "version": "21.1.204.0"
+            },
+            {
+              "signature": 100423,
+              "version": "21.2.270.0"
+            },
+            {
+              "signature": 100423,
+              "version": "23.1.44.0"
+            },
+            {
+              "signature": 100423,
+              "version": "23.2.4.0"
+            },
+            {
+              "signature": 100423,
+              "version": "23.2.67.0"
+            },
+            {
+              "signature": 100423,
+              "version": "24.1.1.0"
+            },
+            {
+              "signature": 100423,
+              "version": "24.1.81.0"
+            }
+          ],
+          "labels": [
+            "edrxdr"
+          ],
+          "languages": [],
+          "name": "Cybereason ActiveProbe Antimalware",
+          "signatures": {
+            "100423": {
+              "signature": 100423,
+              "product": {
+                "id": 100362,
+                "name": "Cybereason ActiveProbe Antimalware"
+              },
+              "vendor": {
+                "id": 100196,
+                "name": "Cybereason"
+              },
+              "categories": {
+                "23": {
+                  "id": 23,
+                  "name": "EDR_XDR"
+                },
+                "5": {
+                  "id": 5,
+                  "name": "ANTIMALWARE"
+                }
+              },
+              "data_source": "Opswat",
+              "sig_name": "Cybereason ActiveProbe Antimalware",
+              "methods": {
+                "constant": {
+                  "103": {
+                    "id": 103,
+                    "code": -11,
+                    "name": "TerminateProcesses"
+                  }
+                },
+                "manageability": {
+                  "100": {
+                    "id": 100,
+                    "meta_data": {
+                      "param_support": {
+                        "input": [],
+                        "output": {
+                          "version": {
+                            "_supported": true,
+                            "_optional": false
+                          },
+                          "architecture": {
+                            "_supported": true,
+                            "_optional": false,
+                            "name": {
+                              "_supported": false,
+                              "_optional": true
+                            },
+                            "bitness": {
+                              "_supported": false,
+                              "_optional": true
+                            }
+                          },
+                          "language": {
+                            "_supported": true,
+                            "_optional": false,
+                            "code": {
+                              "_supported": true,
+                              "_optional": false
+                            },
+                            "name": {
+                              "_supported": true,
+                              "_optional": false
+                            }
+                          }
+                        }
+                      },
+                      "admin_required": false,
+                      "notes": ""
+                    },
+                    "name": "GetVersion"
+                  },
+                  "1000": {
+                    "id": 1000,
+                    "meta_data": {
+                      "param_support": {
+                        "input": [],
+                        "output": {
+                          "enabled": {
+                            "_supported": true,
+                            "_optional": false
+                          },
+                          "details": {
+                            "_supported": true,
+                            "_optional": false,
+                            "antivirus": {
+                              "_supported": false,
+                              "_optional": true
+                            },
+                            "antispyware": {
+                              "_supported": false,
+                              "_optional": true
+                            },
+                            "other": {
+                              "_supported": false,
+                              "_optional": true,
+                              "name": {
+                                "_supported": false,
+                                "_optional": true
+                              },
+                              "state": {
+                                "_supported": false,
+                                "_optional": true
+                              }
+                            }
+                          }
+                        }
+                      },
+                      "admin_required": false,
+                      "notes": ""
+                    },
+                    "name": "GetRealTimeProtectionState"
+                  },
+                  "1001": {
+                    "id": 1001,
+                    "meta_data": {
+                      "param_support": {
+                        "input": {
+                          "timeframe": {
+                            "_supported": false,
+                            "_optional": true
+                          }
+                        },
+                        "output": {
+                          "is_recent": {
+                            "_supported": true,
+                            "_optional": false
+                          },
+                          "definitions": {
+                            "_supported": true,
+                            "_optional": false,
+                            "name": {
+                              "_supported": true,
+                              "_optional": false
+                            },
+                            "type": {
+                              "_supported": true,
+                              "_optional": false,
+                              "_values": {
+                                "antimalware": false,
+                                "antivirus": false,
+                                "antispyware": false
+                              }
+                            },
+                            "version": {
+                              "_supported": true,
+                              "_optional": false
+                            },
+                            "engine_version": {
+                              "_supported": false,
+                              "_optional": true
+                            },
+                            "last_update": {
+                              "_optional": false,
+                              "_supported": true,
+                              "_optional_override": true
+                            },
+                            "source_time": {
+                              "_optional": false,
+                              "_supported": true,
+                              "_optional_override": true
+                            },
+                            "count": {
+                              "_supported": false,
+                              "_optional": true
+                            }
+                          }
+                        }
+                      },
+                      "admin_required": false,
+                      "notes": ""
+                    },
+                    "name": "GetDefinitionState"
+                  },
+                  "101": {
+                    "id": 101,
+                    "meta_data": {
+                      "param_support": {
+                        "input": {
+                          "instance_id": {
+                            "_supported": false,
+                            "_optional": true
+                          }
+                        },
+                        "output": {
+                          "running": {
+                            "_supported": true,
+                            "_optional": false
+                          }
+                        }
+                      },
+                      "admin_required": false,
+                      "notes": ""
+                    },
+                    "name": "GetRunningState"
+                  }
+                }
+              }
+            }
+          }
+        },
+        "100603": {
+          "id": 100603,
+          "tested_points": [
+            {
+              "signature": 100661,
+              "version": "2.9.2.1600"
+            }
+          ],
+          "labels": [
+            "edrxdr"
+          ],
+          "languages": [],
+          "name": "ThreatBook Agent",
+          "signatures": {
+            "100661": {
+              "signature": 100661,
+              "product": {
+                "id": 100603,
+                "name": "ThreatBook Agent"
+              },
+              "vendor": {
+                "id": 100356,
+                "name": "Beijing ThreatBook Technology Co., Ltd"
+              },
+              "categories": {
+                "23": {
+                  "id": 23,
+                  "name": "EDR_XDR"
+                },
+                "5": {
+                  "id": 5,
+                  "name": "ANTIMALWARE"
+                }
+              },
+              "data_source": "Opswat",
+              "sig_name": "ThreatBook Agent",
+              "methods": {
+                "constant": {
+                  "103": {
+                    "id": 103,
+                    "code": -11,
+                    "name": "TerminateProcesses"
+                  }
+                }
+              }
+            }
+          }
+        }
+      },
       "name": "EDR_XDR"
     },
     "3": {
@@ -43878,14 +44493,6 @@ SUPPORT_CHARTS = {
               "version": "27.0"
             },
             {
-              "methodsStatus": {
-                "1009": -1,
-                "102": -1,
-                "103": -1,
-                "104": -1,
-                "105": -1,
-                "108": -1
-              },
               "signature": 100145,
               "version": "27.2"
             }
@@ -49881,6 +50488,18 @@ SUPPORT_CHARTS = {
                           "token": {
                             "_supported": false,
                             "_optional": true
+                          },
+                          "credentials": {
+                            "_supported": false,
+                            "_optional": true,
+                            "client_id": {
+                              "_supported": false,
+                              "_optional": true
+                            },
+                            "client_secret": {
+                              "_supported": false,
+                              "_optional": true
+                            }
                           }
                         },
                         "output": {
@@ -50089,6 +50708,14 @@ SUPPORT_CHARTS = {
             {
               "signature": 100153,
               "version": "9.0.5300.0"
+            },
+            {
+              "signature": 100153,
+              "version": "10.0.2100.0"
+            },
+            {
+              "signature": 100153,
+              "version": "9.0.6700.0"
             }
           ],
           "labels": [],
@@ -50320,6 +50947,18 @@ SUPPORT_CHARTS = {
                           "token": {
                             "_supported": false,
                             "_optional": true
+                          },
+                          "credentials": {
+                            "_supported": false,
+                            "_optional": true,
+                            "client_id": {
+                              "_supported": false,
+                              "_optional": true
+                            },
+                            "client_secret": {
+                              "_supported": false,
+                              "_optional": true
+                            }
                           }
                         },
                         "output": {
@@ -54698,6 +55337,18 @@ SUPPORT_CHARTS = {
                           "token": {
                             "_supported": false,
                             "_optional": true
+                          },
+                          "credentials": {
+                            "_supported": false,
+                            "_optional": true,
+                            "client_id": {
+                              "_supported": false,
+                              "_optional": true
+                            },
+                            "client_secret": {
+                              "_supported": false,
+                              "_optional": true
+                            }
                           }
                         },
                         "output": {
@@ -60893,6 +61544,10 @@ SUPPORT_CHARTS = {
             {
               "signature": 100474,
               "version": "154.0.4258.62"
+            },
+            {
+              "signature": 100474,
+              "version": "155.0.4283.45"
             }
           ],
           "labels": [],
@@ -65771,6 +66426,18 @@ SUPPORT_CHARTS = {
                           "token": {
                             "_supported": false,
                             "_optional": true
+                          },
+                          "credentials": {
+                            "_supported": false,
+                            "_optional": true,
+                            "client_id": {
+                              "_supported": false,
+                              "_optional": true
+                            },
+                            "client_secret": {
+                              "_supported": false,
+                              "_optional": true
+                            }
                           }
                         },
                         "output": {
@@ -66465,6 +67132,15 @@ SUPPORT_CHARTS = {
               "certification": "gold",
               "signature": 100153,
               "version": "9.0.5300.0"
+            },
+            {
+              "signature": 100153,
+              "version": "10.0.2100.0"
+            },
+            {
+              "certification": "gold",
+              "signature": 100153,
+              "version": "9.0.6700.0"
             }
           ],
           "labels": [],
@@ -66696,6 +67372,18 @@ SUPPORT_CHARTS = {
                           "token": {
                             "_supported": false,
                             "_optional": true
+                          },
+                          "credentials": {
+                            "_supported": false,
+                            "_optional": true,
+                            "client_id": {
+                              "_supported": false,
+                              "_optional": true
+                            },
+                            "client_secret": {
+                              "_supported": false,
+                              "_optional": true
+                            }
                           }
                         },
                         "output": {
@@ -77287,6 +77975,18 @@ SUPPORT_CHARTS = {
                           "token": {
                             "_supported": false,
                             "_optional": true
+                          },
+                          "credentials": {
+                            "_supported": false,
+                            "_optional": true,
+                            "client_id": {
+                              "_supported": false,
+                              "_optional": true
+                            },
+                            "client_secret": {
+                              "_supported": false,
+                              "_optional": true
+                            }
                           }
                         },
                         "output": {
@@ -87324,6 +88024,10 @@ SUPPORT_CHARTS = {
                 "name": "Cybereason"
               },
               "categories": {
+                "23": {
+                  "id": 23,
+                  "name": "EDR_XDR"
+                },
                 "5": {
                   "id": 5,
                   "name": "ANTIMALWARE"
@@ -93970,6 +94674,10 @@ SUPPORT_CHARTS = {
                 "name": "Cybereason"
               },
               "categories": {
+                "23": {
+                  "id": 23,
+                  "name": "EDR_XDR"
+                },
                 "5": {
                   "id": 5,
                   "name": "ANTIMALWARE"
@@ -95829,6 +96537,10 @@ SUPPORT_CHARTS = {
             {
               "signature": 100428,
               "version": "5363"
+            },
+            {
+              "signature": 100428,
+              "version": "5366"
             }
           ],
           "labels": [],
@@ -104863,6 +105575,10 @@ SUPPORT_CHARTS = {
                 "name": "Beijing ThreatBook Technology Co., Ltd"
               },
               "categories": {
+                "23": {
+                  "id": 23,
+                  "name": "EDR_XDR"
+                },
                 "5": {
                   "id": 5,
                   "name": "ANTIMALWARE"
@@ -104879,6 +105595,40 @@ SUPPORT_CHARTS = {
                   }
                 }
               }
+            }
+          }
+        },
+        "100605": {
+          "id": 100605,
+          "tested_points": [
+            {
+              "signature": 100663,
+              "version": "0.0"
+            }
+          ],
+          "labels": [],
+          "languages": [],
+          "name": "Trellix EDRF",
+          "signatures": {
+            "100663": {
+              "signature": 100663,
+              "product": {
+                "id": 100605,
+                "name": "Trellix EDRF"
+              },
+              "vendor": {
+                "id": 100358,
+                "name": "Trellix"
+              },
+              "categories": {
+                "5": {
+                  "id": 5,
+                  "name": "ANTIMALWARE"
+                }
+              },
+              "data_source": "Opswat",
+              "sig_name": "Trellix EDRF",
+              "methods": {}
             }
           }
         }
@@ -108582,6 +109332,10 @@ SUPPORT_CHARTS = {
             {
               "signature": 100474,
               "version": "154.0.4258.62"
+            },
+            {
+              "signature": 100474,
+              "version": "155.0.4283.45"
             }
           ],
           "labels": [],
@@ -110553,6 +111307,18 @@ SUPPORT_CHARTS = {
                           "token": {
                             "_supported": false,
                             "_optional": true
+                          },
+                          "credentials": {
+                            "_supported": false,
+                            "_optional": true,
+                            "client_id": {
+                              "_supported": false,
+                              "_optional": true
+                            },
+                            "client_secret": {
+                              "_supported": false,
+                              "_optional": true
+                            }
                           }
                         },
                         "output": {
@@ -115243,6 +116009,18 @@ SUPPORT_CHARTS = {
                           "token": {
                             "_supported": false,
                             "_optional": true
+                          },
+                          "credentials": {
+                            "_supported": false,
+                            "_optional": true,
+                            "client_id": {
+                              "_supported": false,
+                              "_optional": true
+                            },
+                            "client_secret": {
+                              "_supported": false,
+                              "_optional": true
+                            }
                           }
                         },
                         "output": {
@@ -125968,6 +126746,10 @@ SUPPORT_CHARTS = {
             {
               "signature": 100513,
               "version": "26246.1709.5146.8945"
+            },
+            {
+              "signature": 100513,
+              "version": "26261.303.5165.1465"
             }
           ],
           "labels": [],
@@ -127525,6 +128307,10 @@ SUPPORT_CHARTS = {
             {
               "signature": 100148,
               "version": "274.3.4783"
+            },
+            {
+              "signature": 100148,
+              "version": "274.4.4841"
             }
           ],
           "labels": [],
@@ -129185,12 +129971,6 @@ SUPPORT_CHARTS = {
               "version": "26.153.0809.0004"
             },
             {
-              "methodsStatus": {
-                "1008": -1,
-                "104": -1,
-                "105": -1,
-                "2000": -1
-              },
               "signature": 100159,
               "version": "26.173.0906.0008"
             }
@@ -130213,6 +130993,6 @@ SUPPORT_CHARTS = {
       "name": "CLOUD_STORAGE"
     }
   },
-  "timestamp": "1791354812",
+  "timestamp": "1791805449",
   "support_chart_type": "CATEGORY"
 }

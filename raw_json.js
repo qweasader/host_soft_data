@@ -43587,6 +43587,10 @@ SUPPORT_CHARTS = {
               "version": "26.03"
             },
             {
+              "signature": 3813,
+              "version": "26.04"
+            },
+            {
               "signature": 3815,
               "version": "24.05"
             },
@@ -46173,6 +46177,10 @@ SUPPORT_CHARTS = {
             {
               "signature": 204,
               "version": "1.3.3.264"
+            },
+            {
+              "signature": 204,
+              "version": "1.3.4.258"
             }
           ],
           "labels": [],
@@ -92168,6 +92176,10 @@ SUPPORT_CHARTS = {
               "version": "1.140.0"
             },
             {
+              "signature": 3202,
+              "version": "1.141.0"
+            },
+            {
               "signature": 3217,
               "version": "1.31.1"
             },
@@ -92368,6 +92380,10 @@ SUPPORT_CHARTS = {
             {
               "signature": 3217,
               "version": "1.140.0"
+            },
+            {
+              "signature": 3217,
+              "version": "1.141.0"
             },
             {
               "signature": 3218,
@@ -104439,6 +104455,23 @@ SUPPORT_CHARTS = {
                       "notes": ""
                     },
                     "name": "GetRunningState"
+                  },
+                  "102": {
+                    "id": 102,
+                    "meta_data": {
+                      "param_support": {
+                        "input": {
+                          "instance_id": {
+                            "_supported": false,
+                            "_optional": true
+                          }
+                        },
+                        "output": []
+                      },
+                      "admin_required": false,
+                      "notes": ""
+                    },
+                    "name": "Run"
                   },
                   "103": {
                     "id": 103,
@@ -117149,6 +117182,10 @@ SUPPORT_CHARTS = {
             {
               "signature": 3456,
               "version": "20204.21.0217.1203"
+            },
+            {
+              "signature": 3456,
+              "version": "2026.2.3"
             }
           ],
           "labels": [],
@@ -117225,7 +117262,7 @@ SUPPORT_CHARTS = {
                         }
                       },
                       "admin_required": false,
-                      "notes": ""
+                      "notes": "MDESDK-11511 (round 2): version now matches Help > About (e.g. 2026.2.3), read from the constants block in bin\\tabcoredata.dll anchored on tabreader.exe's build number; DisplayName-regex then DisplayVersion kept as fallbacks."
                     },
                     "name": "GetVersion"
                   },
@@ -178255,6 +178292,60 @@ SUPPORT_CHARTS = {
               "sig_name": "Xerox Workplace Cloud Client",
               "methods": {
                 "manageability": {
+                  "100": {
+                    "id": 100,
+                    "meta_data": {
+                      "param_support": {
+                        "input": {
+                          "instance_id": {
+                            "_supported": false,
+                            "_optional": true
+                          }
+                        },
+                        "output": {
+                          "version": {
+                            "_supported": true,
+                            "_optional": false
+                          },
+                          "architecture": {
+                            "_supported": true,
+                            "_optional": false,
+                            "name": {
+                              "_supported": true,
+                              "_optional": false
+                            },
+                            "bitness": {
+                              "_supported": true,
+                              "_optional": false
+                            }
+                          },
+                          "language": {
+                            "_supported": true,
+                            "_optional": false,
+                            "code": {
+                              "_supported": true,
+                              "_optional": false
+                            },
+                            "name": {
+                              "_supported": true,
+                              "_optional": false
+                            }
+                          },
+                          "channel": {
+                            "_supported": false,
+                            "_optional": true
+                          },
+                          "release": {
+                            "_supported": false,
+                            "_optional": true
+                          }
+                        }
+                      },
+                      "admin_required": false,
+                      "notes": "First script for this (signature, method) - signature 4348 had no methods.100 entry; the generic engine fallback misreported architecture as x86 for the product's AnyCPU/MSIL main binaries. See MDESDK-11791."
+                    },
+                    "name": "GetVersion"
+                  },
                   "101": {
                     "id": 101,
                     "meta_data": {
@@ -182682,6 +182773,129 @@ SUPPORT_CHARTS = {
                       "notes": ""
                     },
                     "name": "GetUninstallString"
+                  },
+                  "108": {
+                    "id": 108,
+                    "meta_data": {
+                      "param_support": {
+                        "input": {
+                          "instance_id": {
+                            "_supported": false,
+                            "_optional": true
+                          },
+                          "hash_binary": {
+                            "_supported": false,
+                            "_optional": true
+                          }
+                        },
+                        "output": {
+                          "authentic": {
+                            "_supported": true,
+                            "_optional": false
+                          },
+                          "details": {
+                            "_supported": true,
+                            "_optional": false,
+                            "file": {
+                              "_supported": true,
+                              "_optional": false
+                            },
+                            "status": {
+                              "_supported": true,
+                              "_optional": false
+                            },
+                            "signing_code": {
+                              "_supported": true,
+                              "_optional": false
+                            },
+                            "sha256": {
+                              "_supported": false,
+                              "_optional": true
+                            },
+                            "certificate_info": {
+                              "_supported": false,
+                              "_optional": true,
+                              "issuer": {
+                                "_supported": false,
+                                "_optional": true
+                              },
+                              "subject": {
+                                "_supported": false,
+                                "_optional": true
+                              },
+                              "valid_from": {
+                                "_supported": false,
+                                "_optional": true
+                              },
+                              "valid_to": {
+                                "_supported": false,
+                                "_optional": true
+                              },
+                              "serial_number": {
+                                "_supported": false,
+                                "_optional": true
+                              },
+                              "thumbprint": {
+                                "_supported": false,
+                                "_optional": true
+                              }
+                            }
+                          }
+                        }
+                      },
+                      "admin_required": false,
+                      "notes": ""
+                    },
+                    "name": "IsAuthentic"
+                  },
+                  "110": {
+                    "id": 110,
+                    "meta_data": {
+                      "param_support": {
+                        "input": [],
+                        "output": {
+                          "uninstall_hive": {
+                            "_supported": true,
+                            "_optional": false,
+                            "KeyName": {
+                              "_supported": false,
+                              "_optional": true
+                            },
+                            "DisplayName": {
+                              "_supported": false,
+                              "_optional": true
+                            },
+                            "DisplayVersion": {
+                              "_supported": false,
+                              "_optional": true
+                            },
+                            "InstallLocation": {
+                              "_supported": false,
+                              "_optional": true
+                            },
+                            "UninstallString": {
+                              "_supported": false,
+                              "_optional": true
+                            },
+                            "InstallDate": {
+                              "_supported": false,
+                              "_optional": true
+                            },
+                            "ModifyPath": {
+                              "_supported": false,
+                              "_optional": true
+                            },
+                            "Publisher": {
+                              "_supported": false,
+                              "_optional": true
+                            }
+                          }
+                        }
+                      },
+                      "admin_required": false,
+                      "notes": ""
+                    },
+                    "name": "GetUninstallHive"
                   }
                 }
               }
@@ -182877,6 +183091,129 @@ SUPPORT_CHARTS = {
                       "notes": ""
                     },
                     "name": "GetUninstallString"
+                  },
+                  "108": {
+                    "id": 108,
+                    "meta_data": {
+                      "param_support": {
+                        "input": {
+                          "instance_id": {
+                            "_supported": false,
+                            "_optional": true
+                          },
+                          "hash_binary": {
+                            "_supported": false,
+                            "_optional": true
+                          }
+                        },
+                        "output": {
+                          "authentic": {
+                            "_supported": true,
+                            "_optional": false
+                          },
+                          "details": {
+                            "_supported": true,
+                            "_optional": false,
+                            "file": {
+                              "_supported": true,
+                              "_optional": false
+                            },
+                            "status": {
+                              "_supported": true,
+                              "_optional": false
+                            },
+                            "signing_code": {
+                              "_supported": true,
+                              "_optional": false
+                            },
+                            "sha256": {
+                              "_supported": false,
+                              "_optional": true
+                            },
+                            "certificate_info": {
+                              "_supported": false,
+                              "_optional": true,
+                              "issuer": {
+                                "_supported": false,
+                                "_optional": true
+                              },
+                              "subject": {
+                                "_supported": false,
+                                "_optional": true
+                              },
+                              "valid_from": {
+                                "_supported": false,
+                                "_optional": true
+                              },
+                              "valid_to": {
+                                "_supported": false,
+                                "_optional": true
+                              },
+                              "serial_number": {
+                                "_supported": false,
+                                "_optional": true
+                              },
+                              "thumbprint": {
+                                "_supported": false,
+                                "_optional": true
+                              }
+                            }
+                          }
+                        }
+                      },
+                      "admin_required": false,
+                      "notes": ""
+                    },
+                    "name": "IsAuthentic"
+                  },
+                  "110": {
+                    "id": 110,
+                    "meta_data": {
+                      "param_support": {
+                        "input": [],
+                        "output": {
+                          "uninstall_hive": {
+                            "_supported": true,
+                            "_optional": false,
+                            "KeyName": {
+                              "_supported": false,
+                              "_optional": true
+                            },
+                            "DisplayName": {
+                              "_supported": false,
+                              "_optional": true
+                            },
+                            "DisplayVersion": {
+                              "_supported": false,
+                              "_optional": true
+                            },
+                            "InstallLocation": {
+                              "_supported": false,
+                              "_optional": true
+                            },
+                            "UninstallString": {
+                              "_supported": false,
+                              "_optional": true
+                            },
+                            "InstallDate": {
+                              "_supported": false,
+                              "_optional": true
+                            },
+                            "ModifyPath": {
+                              "_supported": false,
+                              "_optional": true
+                            },
+                            "Publisher": {
+                              "_supported": false,
+                              "_optional": true
+                            }
+                          }
+                        }
+                      },
+                      "admin_required": false,
+                      "notes": ""
+                    },
+                    "name": "GetUninstallHive"
                   }
                 }
               }
@@ -183072,6 +183409,129 @@ SUPPORT_CHARTS = {
                       "notes": ""
                     },
                     "name": "GetUninstallString"
+                  },
+                  "108": {
+                    "id": 108,
+                    "meta_data": {
+                      "param_support": {
+                        "input": {
+                          "instance_id": {
+                            "_supported": false,
+                            "_optional": true
+                          },
+                          "hash_binary": {
+                            "_supported": false,
+                            "_optional": true
+                          }
+                        },
+                        "output": {
+                          "authentic": {
+                            "_supported": true,
+                            "_optional": false
+                          },
+                          "details": {
+                            "_supported": true,
+                            "_optional": false,
+                            "file": {
+                              "_supported": true,
+                              "_optional": false
+                            },
+                            "status": {
+                              "_supported": true,
+                              "_optional": false
+                            },
+                            "signing_code": {
+                              "_supported": true,
+                              "_optional": false
+                            },
+                            "sha256": {
+                              "_supported": false,
+                              "_optional": true
+                            },
+                            "certificate_info": {
+                              "_supported": false,
+                              "_optional": true,
+                              "issuer": {
+                                "_supported": false,
+                                "_optional": true
+                              },
+                              "subject": {
+                                "_supported": false,
+                                "_optional": true
+                              },
+                              "valid_from": {
+                                "_supported": false,
+                                "_optional": true
+                              },
+                              "valid_to": {
+                                "_supported": false,
+                                "_optional": true
+                              },
+                              "serial_number": {
+                                "_supported": false,
+                                "_optional": true
+                              },
+                              "thumbprint": {
+                                "_supported": false,
+                                "_optional": true
+                              }
+                            }
+                          }
+                        }
+                      },
+                      "admin_required": false,
+                      "notes": ""
+                    },
+                    "name": "IsAuthentic"
+                  },
+                  "110": {
+                    "id": 110,
+                    "meta_data": {
+                      "param_support": {
+                        "input": [],
+                        "output": {
+                          "uninstall_hive": {
+                            "_supported": true,
+                            "_optional": false,
+                            "KeyName": {
+                              "_supported": false,
+                              "_optional": true
+                            },
+                            "DisplayName": {
+                              "_supported": false,
+                              "_optional": true
+                            },
+                            "DisplayVersion": {
+                              "_supported": false,
+                              "_optional": true
+                            },
+                            "InstallLocation": {
+                              "_supported": false,
+                              "_optional": true
+                            },
+                            "UninstallString": {
+                              "_supported": false,
+                              "_optional": true
+                            },
+                            "InstallDate": {
+                              "_supported": false,
+                              "_optional": true
+                            },
+                            "ModifyPath": {
+                              "_supported": false,
+                              "_optional": true
+                            },
+                            "Publisher": {
+                              "_supported": false,
+                              "_optional": true
+                            }
+                          }
+                        }
+                      },
+                      "admin_required": false,
+                      "notes": ""
+                    },
+                    "name": "GetUninstallHive"
                   }
                 }
               }
@@ -183735,6 +184195,28 @@ SUPPORT_CHARTS = {
                     },
                     "name": "GetVersion"
                   },
+                  "101": {
+                    "id": 101,
+                    "meta_data": {
+                      "param_support": {
+                        "input": {
+                          "instance_id": {
+                            "_supported": false,
+                            "_optional": true
+                          }
+                        },
+                        "output": {
+                          "running": {
+                            "_supported": true,
+                            "_optional": false
+                          }
+                        }
+                      },
+                      "admin_required": false,
+                      "notes": ""
+                    },
+                    "name": "GetRunningState"
+                  },
                   "102": {
                     "id": 102,
                     "meta_data": {
@@ -183751,6 +184233,23 @@ SUPPORT_CHARTS = {
                       "notes": ""
                     },
                     "name": "Run"
+                  },
+                  "103": {
+                    "id": 103,
+                    "meta_data": {
+                      "param_support": {
+                        "input": {
+                          "instance_id": {
+                            "_supported": false,
+                            "_optional": true
+                          }
+                        },
+                        "output": []
+                      },
+                      "admin_required": false,
+                      "notes": ""
+                    },
+                    "name": "TerminateProcesses"
                   }
                 }
               }
@@ -183829,6 +184328,28 @@ SUPPORT_CHARTS = {
                     },
                     "name": "GetVersion"
                   },
+                  "101": {
+                    "id": 101,
+                    "meta_data": {
+                      "param_support": {
+                        "input": {
+                          "instance_id": {
+                            "_supported": false,
+                            "_optional": true
+                          }
+                        },
+                        "output": {
+                          "running": {
+                            "_supported": true,
+                            "_optional": false
+                          }
+                        }
+                      },
+                      "admin_required": false,
+                      "notes": ""
+                    },
+                    "name": "GetRunningState"
+                  },
                   "102": {
                     "id": 102,
                     "meta_data": {
@@ -183845,6 +184366,23 @@ SUPPORT_CHARTS = {
                       "notes": ""
                     },
                     "name": "Run"
+                  },
+                  "103": {
+                    "id": 103,
+                    "meta_data": {
+                      "param_support": {
+                        "input": {
+                          "instance_id": {
+                            "_supported": false,
+                            "_optional": true
+                          }
+                        },
+                        "output": []
+                      },
+                      "admin_required": false,
+                      "notes": ""
+                    },
+                    "name": "TerminateProcesses"
                   }
                 }
               }
@@ -187876,6 +188414,403 @@ SUPPORT_CHARTS = {
             }
           }
         },
+        "4286": {
+          "id": 4286,
+          "tested_points": [],
+          "labels": [],
+          "languages": [],
+          "name": "AFFiNE",
+          "signatures": {
+            "4744": {
+              "signature": 4744,
+              "product": {
+                "id": 4286,
+                "name": "AFFiNE"
+              },
+              "vendor": {
+                "id": 2381,
+                "name": "AFFiNE"
+              },
+              "categories": {
+                "10": {
+                  "id": 10,
+                  "name": "UNCLASSIFIED"
+                }
+              },
+              "data_source": "winget",
+              "sig_name": "AFFiNE",
+              "methods": {}
+            }
+          }
+        },
+        "4287": {
+          "id": 4287,
+          "tested_points": [],
+          "labels": [],
+          "languages": [],
+          "name": "MarkText",
+          "signatures": {
+            "4745": {
+              "signature": 4745,
+              "product": {
+                "id": 4287,
+                "name": "MarkText"
+              },
+              "vendor": {
+                "id": 2382,
+                "name": "Jocs"
+              },
+              "categories": {
+                "10": {
+                  "id": 10,
+                  "name": "UNCLASSIFIED"
+                }
+              },
+              "data_source": "winget",
+              "sig_name": "MarkText",
+              "methods": {}
+            }
+          }
+        },
+        "4288": {
+          "id": 4288,
+          "tested_points": [],
+          "labels": [],
+          "languages": [],
+          "name": "starship",
+          "signatures": {
+            "4746": {
+              "signature": 4746,
+              "product": {
+                "id": 4288,
+                "name": "starship"
+              },
+              "vendor": {
+                "id": 2383,
+                "name": "Starship Contributors"
+              },
+              "categories": {
+                "10": {
+                  "id": 10,
+                  "name": "UNCLASSIFIED"
+                }
+              },
+              "data_source": "winget",
+              "sig_name": "starship",
+              "methods": {}
+            }
+          }
+        },
+        "4289": {
+          "id": 4289,
+          "tested_points": [],
+          "labels": [],
+          "languages": [],
+          "name": "lx-music-desktop",
+          "signatures": {
+            "4747": {
+              "signature": 4747,
+              "product": {
+                "id": 4289,
+                "name": "lx-music-desktop"
+              },
+              "vendor": {
+                "id": 2384,
+                "name": "lyswhut"
+              },
+              "categories": {
+                "10": {
+                  "id": 10,
+                  "name": "UNCLASSIFIED"
+                }
+              },
+              "data_source": "winget",
+              "sig_name": "lx-music-desktop",
+              "methods": {}
+            }
+          }
+        },
+        "4290": {
+          "id": 4290,
+          "tested_points": [],
+          "labels": [],
+          "languages": [],
+          "name": "Joplin",
+          "signatures": {
+            "4748": {
+              "signature": 4748,
+              "product": {
+                "id": 4290,
+                "name": "Joplin"
+              },
+              "vendor": {
+                "id": 2385,
+                "name": "Laurent Cozic"
+              },
+              "categories": {
+                "10": {
+                  "id": 10,
+                  "name": "UNCLASSIFIED"
+                }
+              },
+              "data_source": "winget",
+              "sig_name": "Joplin",
+              "methods": {}
+            }
+          }
+        },
+        "4292": {
+          "id": 4292,
+          "tested_points": [],
+          "labels": [],
+          "languages": [],
+          "name": "imhex",
+          "signatures": {
+            "4750": {
+              "signature": 4750,
+              "product": {
+                "id": 4292,
+                "name": "imhex"
+              },
+              "vendor": {
+                "id": 2386,
+                "name": "WerWolv"
+              },
+              "categories": {
+                "10": {
+                  "id": 10,
+                  "name": "UNCLASSIFIED"
+                }
+              },
+              "data_source": "winget",
+              "sig_name": "imhex",
+              "methods": {}
+            }
+          }
+        },
+        "4293": {
+          "id": 4293,
+          "tested_points": [],
+          "labels": [],
+          "languages": [],
+          "name": "Julia",
+          "signatures": {
+            "4751": {
+              "signature": 4751,
+              "product": {
+                "id": 4293,
+                "name": "Julia"
+              },
+              "vendor": {
+                "id": 2387,
+                "name": "Julia Computing, Inc."
+              },
+              "categories": {
+                "10": {
+                  "id": 10,
+                  "name": "UNCLASSIFIED"
+                }
+              },
+              "data_source": "winget",
+              "sig_name": "Julia",
+              "methods": {}
+            },
+            "4752": {
+              "signature": 4752,
+              "product": {
+                "id": 4293,
+                "name": "Julia"
+              },
+              "vendor": {
+                "id": 2387,
+                "name": "Julia Computing, Inc."
+              },
+              "categories": {
+                "10": {
+                  "id": 10,
+                  "name": "UNCLASSIFIED"
+                }
+              },
+              "data_source": "winget",
+              "sig_name": "Julia",
+              "methods": {}
+            }
+          }
+        },
+        "4294": {
+          "id": 4294,
+          "tested_points": [],
+          "labels": [],
+          "languages": [],
+          "name": "Cal",
+          "signatures": {
+            "4753": {
+              "signature": 4753,
+              "product": {
+                "id": 4294,
+                "name": "Cal"
+              },
+              "vendor": {
+                "id": 2389,
+                "name": "Cal"
+              },
+              "categories": {
+                "10": {
+                  "id": 10,
+                  "name": "UNCLASSIFIED"
+                }
+              },
+              "data_source": "winget",
+              "sig_name": "Cal",
+              "methods": {}
+            }
+          }
+        },
+        "4295": {
+          "id": 4295,
+          "tested_points": [],
+          "labels": [],
+          "languages": [],
+          "name": "NVM for Windows",
+          "signatures": {
+            "4754": {
+              "signature": 4754,
+              "product": {
+                "id": 4295,
+                "name": "NVM for Windows"
+              },
+              "vendor": {
+                "id": 2390,
+                "name": "Author Software Inc."
+              },
+              "categories": {
+                "10": {
+                  "id": 10,
+                  "name": "UNCLASSIFIED"
+                }
+              },
+              "data_source": "winget",
+              "sig_name": "NVM for Windows",
+              "methods": {}
+            }
+          }
+        },
+        "4296": {
+          "id": 4296,
+          "tested_points": [],
+          "labels": [],
+          "languages": [],
+          "name": "GitHub CLI",
+          "signatures": {
+            "4755": {
+              "signature": 4755,
+              "product": {
+                "id": 4296,
+                "name": "GitHub CLI"
+              },
+              "vendor": {
+                "id": 716,
+                "name": "GitHub, Inc."
+              },
+              "categories": {
+                "10": {
+                  "id": 10,
+                  "name": "UNCLASSIFIED"
+                }
+              },
+              "data_source": "winget",
+              "sig_name": "GitHub CLI",
+              "methods": {}
+            }
+          }
+        },
+        "4297": {
+          "id": 4297,
+          "tested_points": [],
+          "labels": [],
+          "languages": [],
+          "name": "SiYuan",
+          "signatures": {
+            "4756": {
+              "signature": 4756,
+              "product": {
+                "id": 4297,
+                "name": "SiYuan"
+              },
+              "vendor": {
+                "id": 2391,
+                "name": "Yunnan Liandi Technology Co., Ltd."
+              },
+              "categories": {
+                "10": {
+                  "id": 10,
+                  "name": "UNCLASSIFIED"
+                }
+              },
+              "data_source": "winget",
+              "sig_name": "SiYuan",
+              "methods": {}
+            }
+          }
+        },
+        "4298": {
+          "id": 4298,
+          "tested_points": [],
+          "labels": [],
+          "languages": [],
+          "name": "mitmproxy",
+          "signatures": {
+            "4757": {
+              "signature": 4757,
+              "product": {
+                "id": 4298,
+                "name": "mitmproxy"
+              },
+              "vendor": {
+                "id": 2392,
+                "name": "mitmproxy"
+              },
+              "categories": {
+                "10": {
+                  "id": 10,
+                  "name": "UNCLASSIFIED"
+                }
+              },
+              "data_source": "winget",
+              "sig_name": "mitmproxy",
+              "methods": {}
+            }
+          }
+        },
+        "4299": {
+          "id": 4299,
+          "tested_points": [],
+          "labels": [],
+          "languages": [],
+          "name": "Logseq",
+          "signatures": {
+            "4758": {
+              "signature": 4758,
+              "product": {
+                "id": 4299,
+                "name": "Logseq"
+              },
+              "vendor": {
+                "id": 2393,
+                "name": "Logseq"
+              },
+              "categories": {
+                "10": {
+                  "id": 10,
+                  "name": "UNCLASSIFIED"
+                }
+              },
+              "data_source": "winget",
+              "sig_name": "Logseq",
+              "methods": {}
+            }
+          }
+        },
         "430": {
           "id": 430,
           "tested_points": [
@@ -187908,6 +188843,528 @@ SUPPORT_CHARTS = {
               },
               "data_source": "Opswat",
               "sig_name": "Tenorshare Data Recovery Professional",
+              "methods": {}
+            }
+          }
+        },
+        "4301": {
+          "id": 4301,
+          "tested_points": [],
+          "labels": [],
+          "languages": [],
+          "name": "LLVM",
+          "signatures": {
+            "4760": {
+              "signature": 4760,
+              "product": {
+                "id": 4301,
+                "name": "LLVM"
+              },
+              "vendor": {
+                "id": 2395,
+                "name": "LLVM"
+              },
+              "categories": {
+                "10": {
+                  "id": 10,
+                  "name": "UNCLASSIFIED"
+                }
+              },
+              "data_source": "winget",
+              "sig_name": "LLVM",
+              "methods": {}
+            }
+          }
+        },
+        "4302": {
+          "id": 4302,
+          "tested_points": [],
+          "labels": [],
+          "languages": [],
+          "name": "Outline",
+          "signatures": {
+            "4761": {
+              "signature": 4761,
+              "product": {
+                "id": 4302,
+                "name": "Outline"
+              },
+              "vendor": {
+                "id": 2396,
+                "name": "General Outline, Inc"
+              },
+              "categories": {
+                "10": {
+                  "id": 10,
+                  "name": "UNCLASSIFIED"
+                }
+              },
+              "data_source": "winget",
+              "sig_name": "Outline",
+              "methods": {}
+            }
+          }
+        },
+        "4305": {
+          "id": 4305,
+          "tested_points": [],
+          "labels": [],
+          "languages": [],
+          "name": "Zellij",
+          "signatures": {
+            "4764": {
+              "signature": 4764,
+              "product": {
+                "id": 4305,
+                "name": "Zellij"
+              },
+              "vendor": {
+                "id": 2399,
+                "name": "Zellij Contributors"
+              },
+              "categories": {
+                "10": {
+                  "id": 10,
+                  "name": "UNCLASSIFIED"
+                }
+              },
+              "data_source": "winget",
+              "sig_name": "Zellij",
+              "methods": {}
+            }
+          }
+        },
+        "4306": {
+          "id": 4306,
+          "tested_points": [],
+          "labels": [],
+          "languages": [],
+          "name": "YouTube Music",
+          "signatures": {
+            "4765": {
+              "signature": 4765,
+              "product": {
+                "id": 4306,
+                "name": "YouTube Music"
+              },
+              "vendor": {
+                "id": 2400,
+                "name": "th-ch"
+              },
+              "categories": {
+                "10": {
+                  "id": 10,
+                  "name": "UNCLASSIFIED"
+                }
+              },
+              "data_source": "winget",
+              "sig_name": "YouTube Music",
+              "methods": {}
+            }
+          }
+        },
+        "4307": {
+          "id": 4307,
+          "tested_points": [],
+          "labels": [],
+          "languages": [],
+          "name": "Podman CLI",
+          "signatures": {
+            "4766": {
+              "signature": 4766,
+              "product": {
+                "id": 4307,
+                "name": "Podman CLI"
+              },
+              "vendor": {
+                "id": 2401,
+                "name": "Podman"
+              },
+              "categories": {
+                "10": {
+                  "id": 10,
+                  "name": "UNCLASSIFIED"
+                }
+              },
+              "data_source": "winget",
+              "sig_name": "Podman CLI",
+              "methods": {}
+            }
+          }
+        },
+        "4308": {
+          "id": 4308,
+          "tested_points": [],
+          "labels": [],
+          "languages": [],
+          "name": "Podman",
+          "signatures": {
+            "4767": {
+              "signature": 4767,
+              "product": {
+                "id": 4308,
+                "name": "Podman"
+              },
+              "vendor": {
+                "id": 2402,
+                "name": "Red Hat"
+              },
+              "categories": {
+                "10": {
+                  "id": 10,
+                  "name": "UNCLASSIFIED"
+                }
+              },
+              "data_source": "winget",
+              "sig_name": "Podman",
+              "methods": {}
+            }
+          }
+        },
+        "4310": {
+          "id": 4310,
+          "tested_points": [],
+          "labels": [],
+          "languages": [],
+          "name": "k6",
+          "signatures": {
+            "4769": {
+              "signature": 4769,
+              "product": {
+                "id": 4310,
+                "name": "k6"
+              },
+              "vendor": {
+                "id": 1858,
+                "name": "Grafana Labs"
+              },
+              "categories": {
+                "10": {
+                  "id": 10,
+                  "name": "UNCLASSIFIED"
+                }
+              },
+              "data_source": "winget",
+              "sig_name": "k6",
+              "methods": {}
+            }
+          }
+        },
+        "4311": {
+          "id": 4311,
+          "tested_points": [],
+          "labels": [],
+          "languages": [],
+          "name": "Anki",
+          "signatures": {
+            "4770": {
+              "signature": 4770,
+              "product": {
+                "id": 4311,
+                "name": "Anki"
+              },
+              "vendor": {
+                "id": 2404,
+                "name": "Anki"
+              },
+              "categories": {
+                "10": {
+                  "id": 10,
+                  "name": "UNCLASSIFIED"
+                }
+              },
+              "data_source": "winget",
+              "sig_name": "Anki",
+              "methods": {}
+            }
+          }
+        },
+        "4312": {
+          "id": 4312,
+          "tested_points": [],
+          "labels": [],
+          "languages": [],
+          "name": "Flameshot",
+          "signatures": {
+            "4771": {
+              "signature": 4771,
+              "product": {
+                "id": 4312,
+                "name": "Flameshot"
+              },
+              "vendor": {
+                "id": 2405,
+                "name": "flameshot-org"
+              },
+              "categories": {
+                "10": {
+                  "id": 10,
+                  "name": "UNCLASSIFIED"
+                }
+              },
+              "data_source": "winget",
+              "sig_name": "Flameshot",
+              "methods": {}
+            }
+          }
+        },
+        "4314": {
+          "id": 4314,
+          "tested_points": [],
+          "labels": [],
+          "languages": [],
+          "name": "Koodo Reader",
+          "signatures": {
+            "4773": {
+              "signature": 4773,
+              "product": {
+                "id": 4314,
+                "name": "Koodo Reader"
+              },
+              "vendor": {
+                "id": 2407,
+                "name": "App by Troye"
+              },
+              "categories": {
+                "10": {
+                  "id": 10,
+                  "name": "UNCLASSIFIED"
+                }
+              },
+              "data_source": "winget",
+              "sig_name": "Koodo Reader",
+              "methods": {}
+            }
+          }
+        },
+        "4315": {
+          "id": 4315,
+          "tested_points": [],
+          "labels": [],
+          "languages": [],
+          "name": "ScreenToGif",
+          "signatures": {
+            "4774": {
+              "signature": 4774,
+              "product": {
+                "id": 4315,
+                "name": "ScreenToGif"
+              },
+              "vendor": {
+                "id": 2408,
+                "name": "Nicke Manarin"
+              },
+              "categories": {
+                "10": {
+                  "id": 10,
+                  "name": "UNCLASSIFIED"
+                }
+              },
+              "data_source": "winget",
+              "sig_name": "ScreenToGif",
+              "methods": {}
+            }
+          }
+        },
+        "4319": {
+          "id": 4319,
+          "tested_points": [],
+          "labels": [],
+          "languages": [],
+          "name": "D2",
+          "signatures": {
+            "4778": {
+              "signature": 4778,
+              "product": {
+                "id": 4319,
+                "name": "D2"
+              },
+              "vendor": {
+                "id": 2411,
+                "name": "Terrastruct, Inc."
+              },
+              "categories": {
+                "10": {
+                  "id": 10,
+                  "name": "UNCLASSIFIED"
+                }
+              },
+              "data_source": "winget",
+              "sig_name": "D2",
+              "methods": {}
+            }
+          }
+        },
+        "4321": {
+          "id": 4321,
+          "tested_points": [],
+          "labels": [],
+          "languages": [],
+          "name": "QuickLook",
+          "signatures": {
+            "4780": {
+              "signature": 4780,
+              "product": {
+                "id": 4321,
+                "name": "QuickLook"
+              },
+              "vendor": {
+                "id": 2413,
+                "name": "Paddy Xu"
+              },
+              "categories": {
+                "10": {
+                  "id": 10,
+                  "name": "UNCLASSIFIED"
+                }
+              },
+              "data_source": "winget",
+              "sig_name": "QuickLook",
+              "methods": {}
+            }
+          }
+        },
+        "4322": {
+          "id": 4322,
+          "tested_points": [],
+          "labels": [],
+          "languages": [],
+          "name": "DBX",
+          "signatures": {
+            "4781": {
+              "signature": 4781,
+              "product": {
+                "id": 4322,
+                "name": "DBX"
+              },
+              "vendor": {
+                "id": 2414,
+                "name": "t8y2"
+              },
+              "categories": {
+                "10": {
+                  "id": 10,
+                  "name": "UNCLASSIFIED"
+                }
+              },
+              "data_source": "winget",
+              "sig_name": "DBX",
+              "methods": {}
+            }
+          }
+        },
+        "4326": {
+          "id": 4326,
+          "tested_points": [],
+          "labels": [],
+          "languages": [],
+          "name": "OpenLogi",
+          "signatures": {
+            "4785": {
+              "signature": 4785,
+              "product": {
+                "id": 4326,
+                "name": "OpenLogi"
+              },
+              "vendor": {
+                "id": 2417,
+                "name": "AprilNEA"
+              },
+              "categories": {
+                "10": {
+                  "id": 10,
+                  "name": "UNCLASSIFIED"
+                }
+              },
+              "data_source": "winget",
+              "sig_name": "OpenLogi",
+              "methods": {}
+            }
+          }
+        },
+        "4327": {
+          "id": 4327,
+          "tested_points": [],
+          "labels": [],
+          "languages": [],
+          "name": "Super Productivity",
+          "signatures": {
+            "4786": {
+              "signature": 4786,
+              "product": {
+                "id": 4327,
+                "name": "Super Productivity"
+              },
+              "vendor": {
+                "id": 2418,
+                "name": "Johannes Millan"
+              },
+              "categories": {
+                "10": {
+                  "id": 10,
+                  "name": "UNCLASSIFIED"
+                }
+              },
+              "data_source": "winget",
+              "sig_name": "Super Productivity",
+              "methods": {}
+            }
+          }
+        },
+        "4328": {
+          "id": 4328,
+          "tested_points": [],
+          "labels": [],
+          "languages": [],
+          "name": "gitui",
+          "signatures": {
+            "4787": {
+              "signature": 4787,
+              "product": {
+                "id": 4328,
+                "name": "gitui"
+              },
+              "vendor": {
+                "id": 2419,
+                "name": "Stephan Dilly"
+              },
+              "categories": {
+                "10": {
+                  "id": 10,
+                  "name": "UNCLASSIFIED"
+                }
+              },
+              "data_source": "winget",
+              "sig_name": "gitui",
+              "methods": {}
+            }
+          }
+        },
+        "4329": {
+          "id": 4329,
+          "tested_points": [],
+          "labels": [],
+          "languages": [],
+          "name": "GitHub Desktop Beta",
+          "signatures": {
+            "4788": {
+              "signature": 4788,
+              "product": {
+                "id": 4329,
+                "name": "GitHub Desktop Beta"
+              },
+              "vendor": {
+                "id": 716,
+                "name": "GitHub, Inc."
+              },
+              "categories": {
+                "10": {
+                  "id": 10,
+                  "name": "UNCLASSIFIED"
+                }
+              },
+              "data_source": "winget",
+              "sig_name": "GitHub Desktop Beta",
               "methods": {}
             }
           }
@@ -187946,6 +189403,209 @@ SUPPORT_CHARTS = {
             }
           }
         },
+        "4330": {
+          "id": 4330,
+          "tested_points": [],
+          "labels": [],
+          "languages": [],
+          "name": "GitButler",
+          "signatures": {
+            "4789": {
+              "signature": 4789,
+              "product": {
+                "id": 4330,
+                "name": "GitButler"
+              },
+              "vendor": {
+                "id": 2420,
+                "name": "GitButler"
+              },
+              "categories": {
+                "10": {
+                  "id": 10,
+                  "name": "UNCLASSIFIED"
+                }
+              },
+              "data_source": "winget",
+              "sig_name": "GitButler",
+              "methods": {}
+            }
+          }
+        },
+        "4331": {
+          "id": 4331,
+          "tested_points": [],
+          "labels": [],
+          "languages": [],
+          "name": "Redis on Windows",
+          "signatures": {
+            "4790": {
+              "signature": 4790,
+              "product": {
+                "id": 4331,
+                "name": "Redis on Windows"
+              },
+              "vendor": {
+                "id": 2421,
+                "name": "MSOpenTech"
+              },
+              "categories": {
+                "10": {
+                  "id": 10,
+                  "name": "UNCLASSIFIED"
+                }
+              },
+              "data_source": "winget",
+              "sig_name": "Redis on Windows",
+              "methods": {}
+            }
+          }
+        },
+        "4332": {
+          "id": 4332,
+          "tested_points": [],
+          "labels": [],
+          "languages": [],
+          "name": "Tolaria",
+          "signatures": {
+            "4791": {
+              "signature": 4791,
+              "product": {
+                "id": 4332,
+                "name": "Tolaria"
+              },
+              "vendor": {
+                "id": 2422,
+                "name": "refactoring"
+              },
+              "categories": {
+                "10": {
+                  "id": 10,
+                  "name": "UNCLASSIFIED"
+                }
+              },
+              "data_source": "winget",
+              "sig_name": "Tolaria",
+              "methods": {}
+            }
+          }
+        },
+        "4336": {
+          "id": 4336,
+          "tested_points": [],
+          "labels": [],
+          "languages": [],
+          "name": "Yaak",
+          "signatures": {
+            "4795": {
+              "signature": 4795,
+              "product": {
+                "id": 4336,
+                "name": "Yaak"
+              },
+              "vendor": {
+                "id": 2426,
+                "name": "Mountain Loop Labs"
+              },
+              "categories": {
+                "10": {
+                  "id": 10,
+                  "name": "UNCLASSIFIED"
+                }
+              },
+              "data_source": "winget",
+              "sig_name": "Yaak",
+              "methods": {}
+            }
+          }
+        },
+        "4337": {
+          "id": 4337,
+          "tested_points": [],
+          "labels": [],
+          "languages": [],
+          "name": "ABDownloadManager",
+          "signatures": {
+            "4796": {
+              "signature": 4796,
+              "product": {
+                "id": 4337,
+                "name": "ABDownloadManager"
+              },
+              "vendor": {
+                "id": 2427,
+                "name": "abdownloadmanager.com"
+              },
+              "categories": {
+                "10": {
+                  "id": 10,
+                  "name": "UNCLASSIFIED"
+                }
+              },
+              "data_source": "winget",
+              "sig_name": "ABDownloadManager",
+              "methods": {}
+            }
+          }
+        },
+        "4338": {
+          "id": 4338,
+          "tested_points": [],
+          "labels": [],
+          "languages": [],
+          "name": "CopyTranslator",
+          "signatures": {
+            "4797": {
+              "signature": 4797,
+              "product": {
+                "id": 4338,
+                "name": "CopyTranslator"
+              },
+              "vendor": {
+                "id": 2428,
+                "name": "CopyTranslator"
+              },
+              "categories": {
+                "10": {
+                  "id": 10,
+                  "name": "UNCLASSIFIED"
+                }
+              },
+              "data_source": "winget",
+              "sig_name": "CopyTranslator",
+              "methods": {}
+            }
+          }
+        },
+        "4339": {
+          "id": 4339,
+          "tested_points": [],
+          "labels": [],
+          "languages": [],
+          "name": "Mailspring",
+          "signatures": {
+            "4798": {
+              "signature": 4798,
+              "product": {
+                "id": 4339,
+                "name": "Mailspring"
+              },
+              "vendor": {
+                "id": 2429,
+                "name": "Foundry 376, LLC"
+              },
+              "categories": {
+                "10": {
+                  "id": 10,
+                  "name": "UNCLASSIFIED"
+                }
+              },
+              "data_source": "winget",
+              "sig_name": "Mailspring",
+              "methods": {}
+            }
+          }
+        },
         "434": {
           "id": 434,
           "tested_points": [
@@ -187980,6 +189640,64 @@ SUPPORT_CHARTS = {
             }
           }
         },
+        "4342": {
+          "id": 4342,
+          "tested_points": [],
+          "labels": [],
+          "languages": [],
+          "name": "GitHub Store",
+          "signatures": {
+            "4801": {
+              "signature": 4801,
+              "product": {
+                "id": 4342,
+                "name": "GitHub Store"
+              },
+              "vendor": {
+                "id": 2432,
+                "name": "rainxchzed"
+              },
+              "categories": {
+                "10": {
+                  "id": 10,
+                  "name": "UNCLASSIFIED"
+                }
+              },
+              "data_source": "winget",
+              "sig_name": "GitHub Store",
+              "methods": {}
+            }
+          }
+        },
+        "4343": {
+          "id": 4343,
+          "tested_points": [],
+          "labels": [],
+          "languages": [],
+          "name": "AWS Command Line Interface",
+          "signatures": {
+            "4802": {
+              "signature": 4802,
+              "product": {
+                "id": 4343,
+                "name": "AWS Command Line Interface"
+              },
+              "vendor": {
+                "id": 2433,
+                "name": "Amazon Web Services"
+              },
+              "categories": {
+                "10": {
+                  "id": 10,
+                  "name": "UNCLASSIFIED"
+                }
+              },
+              "data_source": "winget",
+              "sig_name": "AWS Command Line Interface",
+              "methods": {}
+            }
+          }
+        },
         "435": {
           "id": 435,
           "tested_points": [
@@ -188010,6 +189728,35 @@ SUPPORT_CHARTS = {
               },
               "data_source": "Opswat",
               "sig_name": "Picasa",
+              "methods": {}
+            }
+          }
+        },
+        "4350": {
+          "id": 4350,
+          "tested_points": [],
+          "labels": [],
+          "languages": [],
+          "name": "Scalar",
+          "signatures": {
+            "4809": {
+              "signature": 4809,
+              "product": {
+                "id": 4350,
+                "name": "Scalar"
+              },
+              "vendor": {
+                "id": 2439,
+                "name": "Scalar"
+              },
+              "categories": {
+                "10": {
+                  "id": 10,
+                  "name": "UNCLASSIFIED"
+                }
+              },
+              "data_source": "winget",
+              "sig_name": "Scalar",
               "methods": {}
             }
           }
@@ -205005,101 +206752,22 @@ SUPPORT_CHARTS = {
               "version": "14.0.20315"
             },
             {
-              "methodsStatus": {
-                "1000": -1,
-                "1001": -1,
-                "1002": -1,
-                "1003": -1,
-                "1004": -1,
-                "1006": -1,
-                "1007": -1,
-                "1010": -1,
-                "1022": -1
-              },
               "signature": 3050,
               "version": "14.0.20372"
             },
             {
-              "methodsStatus": {
-                "1000": -1,
-                "1001": -1,
-                "1002": -1,
-                "1003": -1,
-                "1004": -1,
-                "1006": -1,
-                "1007": -1,
-                "1010": -1,
-                "1022": -1
-              },
               "signature": 3050,
               "version": "14.0.20422"
             },
             {
-              "methodsStatus": {
-                "1000": -1,
-                "1001": -1,
-                "1002": -1,
-                "1003": -1,
-                "1004": -1,
-                "1006": -1,
-                "1007": -1,
-                "101": -1,
-                "1010": -1,
-                "102": -1,
-                "1022": -1,
-                "103": -1,
-                "104": -1,
-                "105": -1,
-                "106": -1,
-                "108": -1,
-                "110": -1
-              },
               "signature": 3050,
               "version": "14.0.20521"
             },
             {
-              "methodsStatus": {
-                "1000": -1,
-                "1001": -1,
-                "1002": -1,
-                "1003": -1,
-                "1004": -1,
-                "1006": -1,
-                "1007": -1,
-                "101": -1,
-                "1010": -1,
-                "102": -1,
-                "1022": -1,
-                "103": -1,
-                "104": -1,
-                "105": -1,
-                "106": -1,
-                "108": -1,
-                "110": -1
-              },
               "signature": 3050,
               "version": "14.0.20524"
             },
             {
-              "methodsStatus": {
-                "1000": -1,
-                "1001": -1,
-                "1002": -1,
-                "1003": -1,
-                "1004": -1,
-                "1006": -1,
-                "1007": -1,
-                "101": -1,
-                "1010": -1,
-                "102": -1,
-                "1022": -1,
-                "103": -1,
-                "104": -1,
-                "105": -1,
-                "106": -1,
-                "108": -1,
-                "110": -1
-              },
               "signature": 3050,
               "version": "14.0.20731"
             },
@@ -216152,6 +217820,10 @@ SUPPORT_CHARTS = {
             {
               "signature": 3068,
               "version": "14.1.19"
+            },
+            {
+              "signature": 3068,
+              "version": "14.1"
             }
           ],
           "labels": [],
@@ -222747,6 +224419,35 @@ SUPPORT_CHARTS = {
               },
               "data_source": "winget",
               "sig_name": "DJIAssistant2ForMatrice",
+              "methods": {}
+            }
+          }
+        },
+        "4318": {
+          "id": 4318,
+          "tested_points": [],
+          "labels": [],
+          "languages": [],
+          "name": "App Installer",
+          "signatures": {
+            "4777": {
+              "signature": 4777,
+              "product": {
+                "id": 4318,
+                "name": "App Installer"
+              },
+              "vendor": {
+                "id": 90,
+                "name": "Microsoft Corporation"
+              },
+              "categories": {
+                "12": {
+                  "id": 12,
+                  "name": "PATCH_MANAGEMENT"
+                }
+              },
+              "data_source": "winget",
+              "sig_name": "App Installer",
               "methods": {}
             }
           }
@@ -231645,6 +233346,122 @@ SUPPORT_CHARTS = {
             }
           }
         },
+        "4304": {
+          "id": 4304,
+          "tested_points": [],
+          "labels": [],
+          "languages": [],
+          "name": "Tailscale",
+          "signatures": {
+            "4763": {
+              "signature": 4763,
+              "product": {
+                "id": 4304,
+                "name": "Tailscale"
+              },
+              "vendor": {
+                "id": 2398,
+                "name": "Tailscale Inc."
+              },
+              "categories": {
+                "13": {
+                  "id": 13,
+                  "name": "VPN_CLIENT"
+                }
+              },
+              "data_source": "winget",
+              "sig_name": "Tailscale",
+              "methods": {}
+            }
+          }
+        },
+        "4313": {
+          "id": 4313,
+          "tested_points": [],
+          "labels": [],
+          "languages": [],
+          "name": "Netbird",
+          "signatures": {
+            "4772": {
+              "signature": 4772,
+              "product": {
+                "id": 4313,
+                "name": "Netbird"
+              },
+              "vendor": {
+                "id": 2406,
+                "name": "NetBird GmbH"
+              },
+              "categories": {
+                "13": {
+                  "id": 13,
+                  "name": "VPN_CLIENT"
+                }
+              },
+              "data_source": "winget",
+              "sig_name": "Netbird",
+              "methods": {}
+            }
+          }
+        },
+        "4317": {
+          "id": 4317,
+          "tested_points": [],
+          "labels": [],
+          "languages": [],
+          "name": "Mihomo-Party",
+          "signatures": {
+            "4776": {
+              "signature": 4776,
+              "product": {
+                "id": 4317,
+                "name": "Mihomo-Party"
+              },
+              "vendor": {
+                "id": 2410,
+                "name": "Mihomo-Party"
+              },
+              "categories": {
+                "13": {
+                  "id": 13,
+                  "name": "VPN_CLIENT"
+                }
+              },
+              "data_source": "winget",
+              "sig_name": "Mihomo-Party",
+              "methods": {}
+            }
+          }
+        },
+        "4353": {
+          "id": 4353,
+          "tested_points": [],
+          "labels": [],
+          "languages": [],
+          "name": "cloudflared",
+          "signatures": {
+            "4812": {
+              "signature": 4812,
+              "product": {
+                "id": 4353,
+                "name": "cloudflared"
+              },
+              "vendor": {
+                "id": 2442,
+                "name": "cloudflare"
+              },
+              "categories": {
+                "13": {
+                  "id": 13,
+                  "name": "VPN_CLIENT"
+                }
+              },
+              "data_source": "winget",
+              "sig_name": "cloudflared",
+              "methods": {}
+            }
+          }
+        },
         "595": {
           "id": 595,
           "tested_points": [
@@ -233631,6 +235448,155 @@ SUPPORT_CHARTS = {
               },
               "data_source": "winget",
               "sig_name": "ViceSharp",
+              "methods": {}
+            }
+          }
+        },
+        "4309": {
+          "id": 4309,
+          "tested_points": [],
+          "labels": [],
+          "languages": [],
+          "name": "Kubernetes - Minikube - A Local Kubernetes Development Environment",
+          "signatures": {
+            "4768": {
+              "signature": 4768,
+              "product": {
+                "id": 4309,
+                "name": "Kubernetes - Minikube - A Local Kubernetes Development Environment"
+              },
+              "vendor": {
+                "id": 2403,
+                "name": "Kubernetes"
+              },
+              "categories": {
+                "14": {
+                  "id": 14,
+                  "name": "VIRTUAL_MACHINE"
+                }
+              },
+              "data_source": "winget",
+              "sig_name": "Kubernetes - Minikube - A Local Kubernetes Development Environment",
+              "methods": {}
+            }
+          }
+        },
+        "4323": {
+          "id": 4323,
+          "tested_points": [],
+          "labels": [],
+          "languages": [],
+          "name": "windows95",
+          "signatures": {
+            "4782": {
+              "signature": 4782,
+              "product": {
+                "id": 4323,
+                "name": "windows95"
+              },
+              "vendor": {
+                "id": 2415,
+                "name": "Felix Rieseberg"
+              },
+              "categories": {
+                "14": {
+                  "id": 14,
+                  "name": "VIRTUAL_MACHINE"
+                }
+              },
+              "data_source": "winget",
+              "sig_name": "windows95",
+              "methods": {}
+            }
+          }
+        },
+        "4333": {
+          "id": 4333,
+          "tested_points": [],
+          "labels": [],
+          "languages": [],
+          "name": "Sandboxie-Plus",
+          "signatures": {
+            "4792": {
+              "signature": 4792,
+              "product": {
+                "id": 4333,
+                "name": "Sandboxie-Plus"
+              },
+              "vendor": {
+                "id": 2423,
+                "name": "http://xanasoft.com/"
+              },
+              "categories": {
+                "14": {
+                  "id": 14,
+                  "name": "VIRTUAL_MACHINE"
+                },
+                "5": {
+                  "id": 5,
+                  "name": "ANTIMALWARE"
+                }
+              },
+              "data_source": "winget",
+              "sig_name": "Sandboxie-Plus",
+              "methods": {}
+            }
+          }
+        },
+        "4334": {
+          "id": 4334,
+          "tested_points": [],
+          "labels": [],
+          "languages": [],
+          "name": "Sandboxie",
+          "signatures": {
+            "4793": {
+              "signature": 4793,
+              "product": {
+                "id": 4334,
+                "name": "Sandboxie"
+              },
+              "vendor": {
+                "id": 2424,
+                "name": "sandboxie-plus.com"
+              },
+              "categories": {
+                "14": {
+                  "id": 14,
+                  "name": "VIRTUAL_MACHINE"
+                }
+              },
+              "data_source": "winget",
+              "sig_name": "Sandboxie",
+              "methods": {}
+            }
+          }
+        },
+        "4344": {
+          "id": 4344,
+          "tested_points": [],
+          "labels": [],
+          "languages": [],
+          "name": "Wasmtime",
+          "signatures": {
+            "4803": {
+              "signature": 4803,
+              "product": {
+                "id": 4344,
+                "name": "Wasmtime"
+              },
+              "vendor": {
+                "id": 2434,
+                "name": "Crane Station"
+              },
+              "categories": {
+                "14": {
+                  "id": 14,
+                  "name": "VIRTUAL_MACHINE"
+                }
+              },
+              "data_source": "winget",
+              "sig_name": "Wasmtime",
               "methods": {}
             }
           }
@@ -236916,6 +238882,10 @@ SUPPORT_CHARTS = {
             {
               "signature": 3194,
               "version": "10.0.28000.2704"
+            },
+            {
+              "signature": 3194,
+              "version": "10.0.26100.9457"
             }
           ],
           "labels": [
@@ -240250,6 +242220,72 @@ SUPPORT_CHARTS = {
               },
               "data_source": "winget",
               "sig_name": "BumbleHive",
+              "methods": {}
+            }
+          }
+        },
+        "4325": {
+          "id": 4325,
+          "tested_points": [],
+          "labels": [],
+          "languages": [],
+          "name": "osquery",
+          "signatures": {
+            "4784": {
+              "signature": 4784,
+              "product": {
+                "id": 4325,
+                "name": "osquery"
+              },
+              "vendor": {
+                "id": 2416,
+                "name": "osquery"
+              },
+              "categories": {
+                "15": {
+                  "id": 15,
+                  "name": "HEALTH_AGENT"
+                },
+                "22": {
+                  "id": 22,
+                  "name": "SYSTEM_DIAGNOSTIC_AND_CLEANUP"
+                }
+              },
+              "data_source": "winget",
+              "sig_name": "osquery",
+              "methods": {}
+            }
+          }
+        },
+        "4351": {
+          "id": 4351,
+          "tested_points": [],
+          "labels": [],
+          "languages": [],
+          "name": "System Informer (Canary)",
+          "signatures": {
+            "4810": {
+              "signature": 4810,
+              "product": {
+                "id": 4351,
+                "name": "System Informer (Canary)"
+              },
+              "vendor": {
+                "id": 2440,
+                "name": "Winsider Seminars & Solutions, Inc."
+              },
+              "categories": {
+                "15": {
+                  "id": 15,
+                  "name": "HEALTH_AGENT"
+                },
+                "22": {
+                  "id": 22,
+                  "name": "SYSTEM_DIAGNOSTIC_AND_CLEANUP"
+                }
+              },
+              "data_source": "winget",
+              "sig_name": "System Informer (Canary)",
               "methods": {}
             }
           }
@@ -253369,6 +255405,64 @@ SUPPORT_CHARTS = {
               },
               "data_source": "winget",
               "sig_name": "SyntroSend",
+              "methods": {}
+            }
+          }
+        },
+        "4284": {
+          "id": 4284,
+          "tested_points": [],
+          "labels": [],
+          "languages": [],
+          "name": "Bitcoin Core",
+          "signatures": {
+            "4742": {
+              "signature": 4742,
+              "product": {
+                "id": 4284,
+                "name": "Bitcoin Core"
+              },
+              "vendor": {
+                "id": 2379,
+                "name": "Bitcoin Core project"
+              },
+              "categories": {
+                "17": {
+                  "id": 17,
+                  "name": "P2PA"
+                }
+              },
+              "data_source": "winget",
+              "sig_name": "Bitcoin Core",
+              "methods": {}
+            }
+          }
+        },
+        "4352": {
+          "id": 4352,
+          "tested_points": [],
+          "labels": [],
+          "languages": [],
+          "name": "Jackett",
+          "signatures": {
+            "4811": {
+              "signature": 4811,
+              "product": {
+                "id": 4352,
+                "name": "Jackett"
+              },
+              "vendor": {
+                "id": 2441,
+                "name": "Jackett"
+              },
+              "categories": {
+                "17": {
+                  "id": 17,
+                  "name": "P2PA"
+                }
+              },
+              "data_source": "winget",
+              "sig_name": "Jackett",
               "methods": {}
             }
           }
@@ -266719,6 +268813,151 @@ SUPPORT_CHARTS = {
               },
               "data_source": "winget",
               "sig_name": "USKMaker",
+              "methods": {}
+            }
+          }
+        },
+        "4300": {
+          "id": 4300,
+          "tested_points": [],
+          "labels": [],
+          "languages": [],
+          "name": "Sunshine",
+          "signatures": {
+            "4759": {
+              "signature": 4759,
+              "product": {
+                "id": 4300,
+                "name": "Sunshine"
+              },
+              "vendor": {
+                "id": 2394,
+                "name": "LizardByte"
+              },
+              "categories": {
+                "19": {
+                  "id": 19,
+                  "name": "GAMING"
+                }
+              },
+              "data_source": "winget",
+              "sig_name": "Sunshine",
+              "methods": {}
+            }
+          }
+        },
+        "4341": {
+          "id": 4341,
+          "tested_points": [],
+          "labels": [],
+          "languages": [],
+          "name": "OpenRA",
+          "signatures": {
+            "4800": {
+              "signature": 4800,
+              "product": {
+                "id": 4341,
+                "name": "OpenRA"
+              },
+              "vendor": {
+                "id": 2431,
+                "name": "OpenRA developers"
+              },
+              "categories": {
+                "19": {
+                  "id": 19,
+                  "name": "GAMING"
+                }
+              },
+              "data_source": "winget",
+              "sig_name": "OpenRA",
+              "methods": {}
+            }
+          }
+        },
+        "4345": {
+          "id": 4345,
+          "tested_points": [],
+          "labels": [],
+          "languages": [],
+          "name": "Hydra",
+          "signatures": {
+            "4804": {
+              "signature": 4804,
+              "product": {
+                "id": 4345,
+                "name": "Hydra"
+              },
+              "vendor": {
+                "id": 2435,
+                "name": "Los Broxas"
+              },
+              "categories": {
+                "19": {
+                  "id": 19,
+                  "name": "GAMING"
+                }
+              },
+              "data_source": "winget",
+              "sig_name": "Hydra",
+              "methods": {}
+            }
+          }
+        },
+        "4346": {
+          "id": 4346,
+          "tested_points": [],
+          "labels": [],
+          "languages": [],
+          "name": "SDL3",
+          "signatures": {
+            "4805": {
+              "signature": 4805,
+              "product": {
+                "id": 4346,
+                "name": "SDL3"
+              },
+              "vendor": {
+                "id": 2436,
+                "name": "RobedPixel"
+              },
+              "categories": {
+                "19": {
+                  "id": 19,
+                  "name": "GAMING"
+                }
+              },
+              "data_source": "winget",
+              "sig_name": "SDL3",
+              "methods": {}
+            }
+          }
+        },
+        "4348": {
+          "id": 4348,
+          "tested_points": [],
+          "labels": [],
+          "languages": [],
+          "name": "OpenRCT2",
+          "signatures": {
+            "4807": {
+              "signature": 4807,
+              "product": {
+                "id": 4348,
+                "name": "OpenRCT2"
+              },
+              "vendor": {
+                "id": 2437,
+                "name": "OpenRCT2"
+              },
+              "categories": {
+                "19": {
+                  "id": 19,
+                  "name": "GAMING"
+                }
+              },
+              "data_source": "winget",
+              "sig_name": "OpenRCT2",
               "methods": {}
             }
           }
@@ -296835,6 +299074,35 @@ SUPPORT_CHARTS = {
               "methods": {}
             }
           }
+        },
+        "4285": {
+          "id": 4285,
+          "tested_points": [],
+          "labels": [],
+          "languages": [],
+          "name": "MinerU",
+          "signatures": {
+            "4743": {
+              "signature": 4743,
+              "product": {
+                "id": 4285,
+                "name": "MinerU"
+              },
+              "vendor": {
+                "id": 2380,
+                "name": "opendatalab.com"
+              },
+              "categories": {
+                "21": {
+                  "id": 21,
+                  "name": "ARTIFICIAL_INTELLIGENCE"
+                }
+              },
+              "data_source": "winget",
+              "sig_name": "MinerU",
+              "methods": {}
+            }
+          }
         }
       },
       "name": "ARTIFICIAL_INTELLIGENCE"
@@ -298814,6 +301082,159 @@ SUPPORT_CHARTS = {
             }
           }
         },
+        "4291": {
+          "id": 4291,
+          "tested_points": [],
+          "labels": [],
+          "languages": [],
+          "name": "PowerShell Preview",
+          "signatures": {
+            "4749": {
+              "signature": 4749,
+              "product": {
+                "id": 4291,
+                "name": "PowerShell Preview"
+              },
+              "vendor": {
+                "id": 90,
+                "name": "Microsoft Corporation"
+              },
+              "categories": {
+                "22": {
+                  "id": 22,
+                  "name": "SYSTEM_DIAGNOSTIC_AND_CLEANUP"
+                }
+              },
+              "data_source": "winget",
+              "sig_name": "PowerShell Preview",
+              "methods": {}
+            }
+          }
+        },
+        "4316": {
+          "id": 4316,
+          "tested_points": [],
+          "labels": [],
+          "languages": [],
+          "name": "SwitchHosts",
+          "signatures": {
+            "4775": {
+              "signature": 4775,
+              "product": {
+                "id": 4316,
+                "name": "SwitchHosts"
+              },
+              "vendor": {
+                "id": 2409,
+                "name": "oldj"
+              },
+              "categories": {
+                "22": {
+                  "id": 22,
+                  "name": "SYSTEM_DIAGNOSTIC_AND_CLEANUP"
+                }
+              },
+              "data_source": "winget",
+              "sig_name": "SwitchHosts",
+              "methods": {}
+            }
+          }
+        },
+        "4325": {
+          "id": 4325,
+          "tested_points": [],
+          "labels": [],
+          "languages": [],
+          "name": "osquery",
+          "signatures": {
+            "4784": {
+              "signature": 4784,
+              "product": {
+                "id": 4325,
+                "name": "osquery"
+              },
+              "vendor": {
+                "id": 2416,
+                "name": "osquery"
+              },
+              "categories": {
+                "15": {
+                  "id": 15,
+                  "name": "HEALTH_AGENT"
+                },
+                "22": {
+                  "id": 22,
+                  "name": "SYSTEM_DIAGNOSTIC_AND_CLEANUP"
+                }
+              },
+              "data_source": "winget",
+              "sig_name": "osquery",
+              "methods": {}
+            }
+          }
+        },
+        "4340": {
+          "id": 4340,
+          "tested_points": [],
+          "labels": [],
+          "languages": [],
+          "name": "Seelen UI",
+          "signatures": {
+            "4799": {
+              "signature": 4799,
+              "product": {
+                "id": 4340,
+                "name": "Seelen UI"
+              },
+              "vendor": {
+                "id": 2430,
+                "name": "Seelen"
+              },
+              "categories": {
+                "22": {
+                  "id": 22,
+                  "name": "SYSTEM_DIAGNOSTIC_AND_CLEANUP"
+                }
+              },
+              "data_source": "winget",
+              "sig_name": "Seelen UI",
+              "methods": {}
+            }
+          }
+        },
+        "4351": {
+          "id": 4351,
+          "tested_points": [],
+          "labels": [],
+          "languages": [],
+          "name": "System Informer (Canary)",
+          "signatures": {
+            "4810": {
+              "signature": 4810,
+              "product": {
+                "id": 4351,
+                "name": "System Informer (Canary)"
+              },
+              "vendor": {
+                "id": 2440,
+                "name": "Winsider Seminars & Solutions, Inc."
+              },
+              "categories": {
+                "15": {
+                  "id": 15,
+                  "name": "HEALTH_AGENT"
+                },
+                "22": {
+                  "id": 22,
+                  "name": "SYSTEM_DIAGNOSTIC_AND_CLEANUP"
+                }
+              },
+              "data_source": "winget",
+              "sig_name": "System Informer (Canary)",
+              "methods": {}
+            }
+          }
+        },
         "626": {
           "id": 626,
           "tested_points": [
@@ -300525,6 +302946,16 @@ SUPPORT_CHARTS = {
                             "_supported": true,
                             "_optional": false
                           },
+                          "state": {
+                            "_supported": false,
+                            "_optional": true,
+                            "_values": {
+                              "enabled": false,
+                              "disabled": false,
+                              "initializing": false,
+                              "unknown": false
+                            }
+                          },
                           "has_internet_connectivity": {
                             "_supported": true,
                             "_optional": true
@@ -300551,6 +302982,22 @@ SUPPORT_CHARTS = {
                                 "_supported": false,
                                 "_optional": true
                               }
+                            }
+                          },
+                          "managed_by_3rd_party_products": {
+                            "_supported": false,
+                            "_optional": true,
+                            "product_name": {
+                              "_supported": false,
+                              "_optional": true
+                            },
+                            "remediation_path": {
+                              "_supported": false,
+                              "_optional": true
+                            },
+                            "signature": {
+                              "_supported": false,
+                              "_optional": true
                             }
                           }
                         }
@@ -300623,6 +303070,16 @@ SUPPORT_CHARTS = {
                             "_supported": true,
                             "_optional": false
                           },
+                          "state": {
+                            "_supported": false,
+                            "_optional": true,
+                            "_values": {
+                              "enabled": false,
+                              "disabled": false,
+                              "initializing": false,
+                              "unknown": false
+                            }
+                          },
                           "has_internet_connectivity": {
                             "_supported": true,
                             "_optional": true
@@ -300649,6 +303106,22 @@ SUPPORT_CHARTS = {
                                 "_supported": false,
                                 "_optional": true
                               }
+                            }
+                          },
+                          "managed_by_3rd_party_products": {
+                            "_supported": false,
+                            "_optional": true,
+                            "product_name": {
+                              "_supported": false,
+                              "_optional": true
+                            },
+                            "remediation_path": {
+                              "_supported": false,
+                              "_optional": true
+                            },
+                            "signature": {
+                              "_supported": false,
+                              "_optional": true
                             }
                           }
                         }
@@ -305341,6 +307814,10 @@ SUPPORT_CHARTS = {
             {
               "signature": 3194,
               "version": "10.0.28000.2704"
+            },
+            {
+              "signature": 3194,
+              "version": "10.0.26100.9457"
             }
           ],
           "labels": [
@@ -319815,11 +322292,8 @@ SUPPORT_CHARTS = {
             },
             {
               "certification": "platinum",
-              "methodsStatus": {
-                "1009": -1
-              },
               "signature": 2409,
-              "version": "6.0.0.4013"
+              "version": "6.0.0.3328"
             }
           ],
           "labels": [],
@@ -329129,7 +331603,12 @@ SUPPORT_CHARTS = {
         },
         "3906": {
           "id": 3906,
-          "tested_points": [],
+          "tested_points": [
+            {
+              "signature": 4358,
+              "version": "4.11.1.5434"
+            }
+          ],
           "labels": [],
           "languages": [],
           "name": "DigiDoc4 Client",
@@ -329292,6 +331771,35 @@ SUPPORT_CHARTS = {
               },
               "data_source": "winget",
               "sig_name": "PGP Utility",
+              "methods": {}
+            }
+          }
+        },
+        "4349": {
+          "id": 4349,
+          "tested_points": [],
+          "labels": [],
+          "languages": [],
+          "name": "Cryptomator",
+          "signatures": {
+            "4808": {
+              "signature": 4808,
+              "product": {
+                "id": 4349,
+                "name": "Cryptomator"
+              },
+              "vendor": {
+                "id": 2438,
+                "name": "Skymatic GmbH"
+              },
+              "categories": {
+                "3": {
+                  "id": 3,
+                  "name": "ENCRYPTION"
+                }
+              },
+              "data_source": "winget",
+              "sig_name": "Cryptomator",
               "methods": {}
             }
           }
@@ -353836,6 +356344,10 @@ SUPPORT_CHARTS = {
             {
               "signature": 3103,
               "version": "154.0.4258.62"
+            },
+            {
+              "signature": 3103,
+              "version": "155.0.4283.45"
             }
           ],
           "labels": [],
@@ -365048,101 +367560,22 @@ SUPPORT_CHARTS = {
               "version": "14.0.20315"
             },
             {
-              "methodsStatus": {
-                "1000": -1,
-                "1001": -1,
-                "1002": -1,
-                "1003": -1,
-                "1004": -1,
-                "1006": -1,
-                "1007": -1,
-                "1010": -1,
-                "1022": -1
-              },
               "signature": 3050,
               "version": "14.0.20372"
             },
             {
-              "methodsStatus": {
-                "1000": -1,
-                "1001": -1,
-                "1002": -1,
-                "1003": -1,
-                "1004": -1,
-                "1006": -1,
-                "1007": -1,
-                "1010": -1,
-                "1022": -1
-              },
               "signature": 3050,
               "version": "14.0.20422"
             },
             {
-              "methodsStatus": {
-                "1000": -1,
-                "1001": -1,
-                "1002": -1,
-                "1003": -1,
-                "1004": -1,
-                "1006": -1,
-                "1007": -1,
-                "101": -1,
-                "1010": -1,
-                "102": -1,
-                "1022": -1,
-                "103": -1,
-                "104": -1,
-                "105": -1,
-                "106": -1,
-                "108": -1,
-                "110": -1
-              },
               "signature": 3050,
               "version": "14.0.20521"
             },
             {
-              "methodsStatus": {
-                "1000": -1,
-                "1001": -1,
-                "1002": -1,
-                "1003": -1,
-                "1004": -1,
-                "1006": -1,
-                "1007": -1,
-                "101": -1,
-                "1010": -1,
-                "102": -1,
-                "1022": -1,
-                "103": -1,
-                "104": -1,
-                "105": -1,
-                "106": -1,
-                "108": -1,
-                "110": -1
-              },
               "signature": 3050,
               "version": "14.0.20524"
             },
             {
-              "methodsStatus": {
-                "1000": -1,
-                "1001": -1,
-                "1002": -1,
-                "1003": -1,
-                "1004": -1,
-                "1006": -1,
-                "1007": -1,
-                "101": -1,
-                "1010": -1,
-                "102": -1,
-                "1022": -1,
-                "103": -1,
-                "104": -1,
-                "105": -1,
-                "106": -1,
-                "108": -1,
-                "110": -1
-              },
               "signature": 3050,
               "version": "14.0.20731"
             },
@@ -408954,6 +411387,10 @@ SUPPORT_CHARTS = {
             {
               "signature": 43,
               "version": "136.0.6008.80"
+            },
+            {
+              "signature": 43,
+              "version": "137.0.6036.39"
             }
           ],
           "labels": [],
@@ -409354,6 +411791,39 @@ SUPPORT_CHARTS = {
                   }
                 }
               }
+            }
+          }
+        },
+        "4324": {
+          "id": 4324,
+          "tested_points": [],
+          "labels": [],
+          "languages": [],
+          "name": "Brave Origin Nightly",
+          "signatures": {
+            "4783": {
+              "signature": 4783,
+              "product": {
+                "id": 4324,
+                "name": "Brave Origin Nightly"
+              },
+              "vendor": {
+                "id": 1955,
+                "name": "Brave Software Inc"
+              },
+              "categories": {
+                "4": {
+                  "id": 4,
+                  "name": "ANTIPHISHING"
+                },
+                "6": {
+                  "id": 6,
+                  "name": "BROWSER"
+                }
+              },
+              "data_source": "winget",
+              "sig_name": "Brave Origin Nightly",
+              "methods": {}
             }
           }
         },
@@ -410157,6 +412627,10 @@ SUPPORT_CHARTS = {
             {
               "signature": 3872,
               "version": "157.0"
+            },
+            {
+              "signature": 3872,
+              "version": "157.0.1"
             },
             {
               "signature": 3995,
@@ -482051,6 +484525,16 @@ SUPPORT_CHARTS = {
                             "_supported": true,
                             "_optional": false
                           },
+                          "state": {
+                            "_supported": false,
+                            "_optional": true,
+                            "_values": {
+                              "enabled": false,
+                              "disabled": false,
+                              "initializing": false,
+                              "unknown": false
+                            }
+                          },
                           "has_internet_connectivity": {
                             "_supported": true,
                             "_optional": true
@@ -482077,6 +484561,22 @@ SUPPORT_CHARTS = {
                                 "_supported": false,
                                 "_optional": true
                               }
+                            }
+                          },
+                          "managed_by_3rd_party_products": {
+                            "_supported": false,
+                            "_optional": true,
+                            "product_name": {
+                              "_supported": false,
+                              "_optional": true
+                            },
+                            "remediation_path": {
+                              "_supported": false,
+                              "_optional": true
+                            },
+                            "signature": {
+                              "_supported": false,
+                              "_optional": true
                             }
                           }
                         }
@@ -482149,6 +484649,16 @@ SUPPORT_CHARTS = {
                             "_supported": true,
                             "_optional": false
                           },
+                          "state": {
+                            "_supported": false,
+                            "_optional": true,
+                            "_values": {
+                              "enabled": false,
+                              "disabled": false,
+                              "initializing": false,
+                              "unknown": false
+                            }
+                          },
                           "has_internet_connectivity": {
                             "_supported": true,
                             "_optional": true
@@ -482175,6 +484685,22 @@ SUPPORT_CHARTS = {
                                 "_supported": false,
                                 "_optional": true
                               }
+                            }
+                          },
+                          "managed_by_3rd_party_products": {
+                            "_supported": false,
+                            "_optional": true,
+                            "product_name": {
+                              "_supported": false,
+                              "_optional": true
+                            },
+                            "remediation_path": {
+                              "_supported": false,
+                              "_optional": true
+                            },
+                            "signature": {
+                              "_supported": false,
+                              "_optional": true
                             }
                           }
                         }
@@ -495451,105 +497977,26 @@ SUPPORT_CHARTS = {
             },
             {
               "certification": "gold",
-              "methodsStatus": {
-                "1000": -1,
-                "1001": -1,
-                "1002": -1,
-                "1003": -1,
-                "1004": -1,
-                "1006": -1,
-                "1007": -1,
-                "1010": -1,
-                "1022": -1
-              },
               "signature": 3050,
               "version": "14.0.20372"
             },
             {
               "certification": "gold",
-              "methodsStatus": {
-                "1000": -1,
-                "1001": -1,
-                "1002": -1,
-                "1003": -1,
-                "1004": -1,
-                "1006": -1,
-                "1007": -1,
-                "1010": -1,
-                "1022": -1
-              },
               "signature": 3050,
               "version": "14.0.20422"
             },
             {
               "certification": "gold",
-              "methodsStatus": {
-                "1000": -1,
-                "1001": -1,
-                "1002": -1,
-                "1003": -1,
-                "1004": -1,
-                "1006": -1,
-                "1007": -1,
-                "101": -1,
-                "1010": -1,
-                "102": -1,
-                "1022": -1,
-                "103": -1,
-                "104": -1,
-                "105": -1,
-                "106": -1,
-                "108": -1,
-                "110": -1
-              },
               "signature": 3050,
               "version": "14.0.20521"
             },
             {
               "certification": "gold",
-              "methodsStatus": {
-                "1000": -1,
-                "1001": -1,
-                "1002": -1,
-                "1003": -1,
-                "1004": -1,
-                "1006": -1,
-                "1007": -1,
-                "101": -1,
-                "1010": -1,
-                "102": -1,
-                "1022": -1,
-                "103": -1,
-                "104": -1,
-                "105": -1,
-                "106": -1,
-                "108": -1,
-                "110": -1
-              },
               "signature": 3050,
               "version": "14.0.20524"
             },
             {
               "certification": "gold",
-              "methodsStatus": {
-                "1000": -1,
-                "1001": -1,
-                "1002": -1,
-                "1003": -1,
-                "1004": -1,
-                "1006": -1,
-                "1007": -1,
-                "101": -1,
-                "1010": -1,
-                "102": -1,
-                "1022": -1,
-                "103": -1,
-                "104": -1,
-                "105": -1,
-                "106": -1,
-                "108": -1,
-                "110": -1
-              },
               "signature": 3050,
               "version": "14.0.20731"
             },
@@ -506444,6 +508891,11 @@ SUPPORT_CHARTS = {
               "certification": "platinum",
               "signature": 3194,
               "version": "10.0.28000.2704"
+            },
+            {
+              "certification": "platinum",
+              "signature": 3194,
+              "version": "10.0.26100.9457"
             }
           ],
           "labels": [
@@ -560995,6 +563447,39 @@ SUPPORT_CHARTS = {
             }
           }
         },
+        "4333": {
+          "id": 4333,
+          "tested_points": [],
+          "labels": [],
+          "languages": [],
+          "name": "Sandboxie-Plus",
+          "signatures": {
+            "4792": {
+              "signature": 4792,
+              "product": {
+                "id": 4333,
+                "name": "Sandboxie-Plus"
+              },
+              "vendor": {
+                "id": 2423,
+                "name": "http://xanasoft.com/"
+              },
+              "categories": {
+                "14": {
+                  "id": 14,
+                  "name": "VIRTUAL_MACHINE"
+                },
+                "5": {
+                  "id": 5,
+                  "name": "ANTIMALWARE"
+                }
+              },
+              "data_source": "winget",
+              "sig_name": "Sandboxie-Plus",
+              "methods": {}
+            }
+          }
+        },
         "455": {
           "id": 455,
           "tested_points": [
@@ -599343,6 +601828,10 @@ SUPPORT_CHARTS = {
             {
               "signature": 3103,
               "version": "154.0.4258.62"
+            },
+            {
+              "signature": 3103,
+              "version": "155.0.4283.45"
             }
           ],
           "labels": [],
@@ -600376,6 +602865,10 @@ SUPPORT_CHARTS = {
             {
               "signature": 2897,
               "version": "1.96.61"
+            },
+            {
+              "signature": 2897,
+              "version": "1.97.56"
             },
             {
               "signature": 3704,
@@ -604076,6 +606569,10 @@ SUPPORT_CHARTS = {
             {
               "signature": 43,
               "version": "136.0.6008.80"
+            },
+            {
+              "signature": 43,
+              "version": "137.0.6036.39"
             }
           ],
           "labels": [],
@@ -604505,6 +607002,97 @@ SUPPORT_CHARTS = {
                   }
                 }
               }
+            }
+          }
+        },
+        "4303": {
+          "id": 4303,
+          "tested_points": [],
+          "labels": [],
+          "languages": [],
+          "name": "Servo",
+          "signatures": {
+            "4762": {
+              "signature": 4762,
+              "product": {
+                "id": 4303,
+                "name": "Servo"
+              },
+              "vendor": {
+                "id": 2397,
+                "name": "Servo"
+              },
+              "categories": {
+                "6": {
+                  "id": 6,
+                  "name": "BROWSER"
+                }
+              },
+              "data_source": "winget",
+              "sig_name": "Servo",
+              "methods": {}
+            }
+          }
+        },
+        "4320": {
+          "id": 4320,
+          "tested_points": [],
+          "labels": [],
+          "languages": [],
+          "name": "ResponsivelyApp",
+          "signatures": {
+            "4779": {
+              "signature": 4779,
+              "product": {
+                "id": 4320,
+                "name": "ResponsivelyApp"
+              },
+              "vendor": {
+                "id": 2412,
+                "name": "Responsively"
+              },
+              "categories": {
+                "6": {
+                  "id": 6,
+                  "name": "BROWSER"
+                }
+              },
+              "data_source": "winget",
+              "sig_name": "ResponsivelyApp",
+              "methods": {}
+            }
+          }
+        },
+        "4324": {
+          "id": 4324,
+          "tested_points": [],
+          "labels": [],
+          "languages": [],
+          "name": "Brave Origin Nightly",
+          "signatures": {
+            "4783": {
+              "signature": 4783,
+              "product": {
+                "id": 4324,
+                "name": "Brave Origin Nightly"
+              },
+              "vendor": {
+                "id": 1955,
+                "name": "Brave Software Inc"
+              },
+              "categories": {
+                "4": {
+                  "id": 4,
+                  "name": "ANTIPHISHING"
+                },
+                "6": {
+                  "id": 6,
+                  "name": "BROWSER"
+                }
+              },
+              "data_source": "winget",
+              "sig_name": "Brave Origin Nightly",
+              "methods": {}
             }
           }
         },
@@ -605308,6 +607896,10 @@ SUPPORT_CHARTS = {
             {
               "signature": 3872,
               "version": "157.0"
+            },
+            {
+              "signature": 3872,
+              "version": "157.0.1"
             },
             {
               "signature": 3995,
@@ -631386,6 +633978,16 @@ SUPPORT_CHARTS = {
                             "_supported": true,
                             "_optional": false
                           },
+                          "state": {
+                            "_supported": false,
+                            "_optional": true,
+                            "_values": {
+                              "enabled": false,
+                              "disabled": false,
+                              "initializing": false,
+                              "unknown": false
+                            }
+                          },
                           "has_internet_connectivity": {
                             "_supported": true,
                             "_optional": true
@@ -631412,6 +634014,22 @@ SUPPORT_CHARTS = {
                                 "_supported": false,
                                 "_optional": true
                               }
+                            }
+                          },
+                          "managed_by_3rd_party_products": {
+                            "_supported": false,
+                            "_optional": true,
+                            "product_name": {
+                              "_supported": false,
+                              "_optional": true
+                            },
+                            "remediation_path": {
+                              "_supported": false,
+                              "_optional": true
+                            },
+                            "signature": {
+                              "_supported": false,
+                              "_optional": true
                             }
                           }
                         }
@@ -631484,6 +634102,16 @@ SUPPORT_CHARTS = {
                             "_supported": true,
                             "_optional": false
                           },
+                          "state": {
+                            "_supported": false,
+                            "_optional": true,
+                            "_values": {
+                              "enabled": false,
+                              "disabled": false,
+                              "initializing": false,
+                              "unknown": false
+                            }
+                          },
                           "has_internet_connectivity": {
                             "_supported": true,
                             "_optional": true
@@ -631510,6 +634138,22 @@ SUPPORT_CHARTS = {
                                 "_supported": false,
                                 "_optional": true
                               }
+                            }
+                          },
+                          "managed_by_3rd_party_products": {
+                            "_supported": false,
+                            "_optional": true,
+                            "product_name": {
+                              "_supported": false,
+                              "_optional": true
+                            },
+                            "remediation_path": {
+                              "_supported": false,
+                              "_optional": true
+                            },
+                            "signature": {
+                              "_supported": false,
+                              "_optional": true
                             }
                           }
                         }
@@ -639569,101 +642213,22 @@ SUPPORT_CHARTS = {
               "version": "14.0.20315"
             },
             {
-              "methodsStatus": {
-                "1000": -1,
-                "1001": -1,
-                "1002": -1,
-                "1003": -1,
-                "1004": -1,
-                "1006": -1,
-                "1007": -1,
-                "1010": -1,
-                "1022": -1
-              },
               "signature": 3050,
               "version": "14.0.20372"
             },
             {
-              "methodsStatus": {
-                "1000": -1,
-                "1001": -1,
-                "1002": -1,
-                "1003": -1,
-                "1004": -1,
-                "1006": -1,
-                "1007": -1,
-                "1010": -1,
-                "1022": -1
-              },
               "signature": 3050,
               "version": "14.0.20422"
             },
             {
-              "methodsStatus": {
-                "1000": -1,
-                "1001": -1,
-                "1002": -1,
-                "1003": -1,
-                "1004": -1,
-                "1006": -1,
-                "1007": -1,
-                "101": -1,
-                "1010": -1,
-                "102": -1,
-                "1022": -1,
-                "103": -1,
-                "104": -1,
-                "105": -1,
-                "106": -1,
-                "108": -1,
-                "110": -1
-              },
               "signature": 3050,
               "version": "14.0.20521"
             },
             {
-              "methodsStatus": {
-                "1000": -1,
-                "1001": -1,
-                "1002": -1,
-                "1003": -1,
-                "1004": -1,
-                "1006": -1,
-                "1007": -1,
-                "101": -1,
-                "1010": -1,
-                "102": -1,
-                "1022": -1,
-                "103": -1,
-                "104": -1,
-                "105": -1,
-                "106": -1,
-                "108": -1,
-                "110": -1
-              },
               "signature": 3050,
               "version": "14.0.20524"
             },
             {
-              "methodsStatus": {
-                "1000": -1,
-                "1001": -1,
-                "1002": -1,
-                "1003": -1,
-                "1004": -1,
-                "1006": -1,
-                "1007": -1,
-                "101": -1,
-                "1010": -1,
-                "102": -1,
-                "1022": -1,
-                "103": -1,
-                "104": -1,
-                "105": -1,
-                "106": -1,
-                "108": -1,
-                "110": -1
-              },
               "signature": 3050,
               "version": "14.0.20731"
             },
@@ -712956,6 +715521,64 @@ SUPPORT_CHARTS = {
             }
           }
         },
+        "4335": {
+          "id": 4335,
+          "tested_points": [],
+          "labels": [],
+          "languages": [],
+          "name": "SimpleX Chat",
+          "signatures": {
+            "4794": {
+              "signature": 4794,
+              "product": {
+                "id": 4335,
+                "name": "SimpleX Chat"
+              },
+              "vendor": {
+                "id": 2425,
+                "name": "SimpleX"
+              },
+              "categories": {
+                "8": {
+                  "id": 8,
+                  "name": "MESSENGER"
+                }
+              },
+              "data_source": "winget",
+              "sig_name": "SimpleX Chat",
+              "methods": {}
+            }
+          }
+        },
+        "4347": {
+          "id": 4347,
+          "tested_points": [],
+          "labels": [],
+          "languages": [],
+          "name": "Signal Beta",
+          "signatures": {
+            "4806": {
+              "signature": 4806,
+              "product": {
+                "id": 4347,
+                "name": "Signal Beta"
+              },
+              "vendor": {
+                "id": 1796,
+                "name": "Signal Messenger, LLC"
+              },
+              "categories": {
+                "8": {
+                  "id": 8,
+                  "name": "MESSENGER"
+                }
+              },
+              "data_source": "winget",
+              "sig_name": "Signal Beta",
+              "methods": {}
+            }
+          }
+        },
         "703": {
           "id": 703,
           "tested_points": [
@@ -724110,6 +726733,6 @@ SUPPORT_CHARTS = {
       "name": "CLOUD_STORAGE"
     }
   },
-  "timestamp": "1791354856",
+  "timestamp": "1791804756",
   "support_chart_type": "CATEGORY"
 }
