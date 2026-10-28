@@ -1392,6 +1392,14 @@ SUPPORT_CHARTS = {
             {
               "signature": 100015,
               "version": "157.0.1"
+            },
+            {
+              "signature": 100015,
+              "version": "158.0"
+            },
+            {
+              "signature": 100015,
+              "version": "158.0.1"
             }
           ],
           "labels": [],
@@ -1832,6 +1840,10 @@ SUPPORT_CHARTS = {
             {
               "signature": 100321,
               "version": "Build 3143"
+            },
+            {
+              "signature": 100664,
+              "version": "4"
             }
           ],
           "labels": [],
@@ -1860,6 +1872,26 @@ SUPPORT_CHARTS = {
             },
             "100321": {
               "signature": 100321,
+              "product": {
+                "id": 100109,
+                "name": "Sublime Text"
+              },
+              "vendor": {
+                "id": 100089,
+                "name": "Sublime HQ Pty Ltd"
+              },
+              "categories": {
+                "10": {
+                  "id": 10,
+                  "name": "UNCLASSIFIED"
+                }
+              },
+              "data_source": "Opswat",
+              "sig_name": "Sublime Text",
+              "methods": {}
+            },
+            "100664": {
+              "signature": 100664,
               "product": {
                 "id": 100109,
                 "name": "Sublime Text"
@@ -4207,11 +4239,6 @@ SUPPORT_CHARTS = {
               "version": "24.001.20643"
             },
             {
-              "methodsStatus": {
-                "101": -1,
-                "102": -1,
-                "103": -1
-              },
               "signature": 100350,
               "version": "25.001.20756"
             },
@@ -11129,11 +11156,6 @@ SUPPORT_CHARTS = {
               "version": "1.117.0"
             },
             {
-              "methodsStatus": {
-                "101": -1,
-                "102": -1,
-                "103": -1
-              },
               "signature": 100483,
               "version": "1.118.0"
             },
@@ -11142,11 +11164,6 @@ SUPPORT_CHARTS = {
               "version": "1.118.1"
             },
             {
-              "methodsStatus": {
-                "101": -1,
-                "102": -1,
-                "103": -1
-              },
               "signature": 100483,
               "version": "1.119.0"
             },
@@ -17456,6 +17473,10 @@ SUPPORT_CHARTS = {
             {
               "signature": 100495,
               "version": "10.7.13"
+            },
+            {
+              "signature": 100495,
+              "version": "26.8.0"
             }
           ],
           "labels": [],
@@ -25147,10 +25168,6 @@ SUPPORT_CHARTS = {
               "version": "7.4.3.1761"
             },
             {
-              "methodsStatus": {
-                "1000": -1,
-                "1001": -1
-              },
               "signature": 100363,
               "version": "7.4.4.1831"
             },
@@ -25159,16 +25176,6 @@ SUPPORT_CHARTS = {
               "version": "7.4.5.1888"
             },
             {
-              "methodsStatus": {
-                "1000": -1,
-                "1001": -1,
-                "101": -1,
-                "102": -1,
-                "103": -1,
-                "104": -1,
-                "105": -1,
-                "108": -1
-              },
               "signature": 100363,
               "version": "7.4.6.1926"
             },
@@ -26205,6 +26212,44 @@ SUPPORT_CHARTS = {
                   }
                 }
               }
+            }
+          }
+        },
+        "100606": {
+          "id": 100606,
+          "tested_points": [
+            {
+              "signature": 100665,
+              "version": "6.3.3-1199"
+            }
+          ],
+          "labels": [],
+          "languages": [],
+          "name": "GlobalProtect",
+          "signatures": {
+            "100665": {
+              "signature": 100665,
+              "product": {
+                "id": 100606,
+                "name": "GlobalProtect"
+              },
+              "vendor": {
+                "id": 100174,
+                "name": "Palo Alto Networks, Inc."
+              },
+              "categories": {
+                "13": {
+                  "id": 13,
+                  "name": "VPN_CLIENT"
+                },
+                "15": {
+                  "id": 15,
+                  "name": "HEALTH_AGENT"
+                }
+              },
+              "data_source": "Opswat",
+              "sig_name": "GlobalProtect",
+              "methods": {}
             }
           }
         }
@@ -28189,6 +28234,10 @@ SUPPORT_CHARTS = {
             {
               "signature": 100379,
               "version": "9.3.0"
+            },
+            {
+              "signature": 100379,
+              "version": "9.4.0"
             }
           ],
           "labels": [],
@@ -29531,6 +29580,44 @@ SUPPORT_CHARTS = {
               }
             }
           }
+        },
+        "100606": {
+          "id": 100606,
+          "tested_points": [
+            {
+              "signature": 100665,
+              "version": "6.3.3-1199"
+            }
+          ],
+          "labels": [],
+          "languages": [],
+          "name": "GlobalProtect",
+          "signatures": {
+            "100665": {
+              "signature": 100665,
+              "product": {
+                "id": 100606,
+                "name": "GlobalProtect"
+              },
+              "vendor": {
+                "id": 100174,
+                "name": "Palo Alto Networks, Inc."
+              },
+              "categories": {
+                "13": {
+                  "id": 13,
+                  "name": "VPN_CLIENT"
+                },
+                "15": {
+                  "id": 15,
+                  "name": "HEALTH_AGENT"
+                }
+              },
+              "data_source": "Opswat",
+              "sig_name": "GlobalProtect",
+              "methods": {}
+            }
+          }
         }
       },
       "name": "HEALTH_AGENT"
@@ -30424,6 +30511,10 @@ SUPPORT_CHARTS = {
             {
               "signature": 100513,
               "version": "26261.303.5165.1465"
+            },
+            {
+              "signature": 100513,
+              "version": "26276.505.5234.9924"
             }
           ],
           "labels": [],
@@ -33708,10 +33799,6 @@ SUPPORT_CHARTS = {
               "version": "4.48.99"
             },
             {
-              "methodsStatus": {
-                "101": -1,
-                "102": -1
-              },
               "signature": 100119,
               "version": "4.48.100"
             },
@@ -34688,6 +34775,10 @@ SUPPORT_CHARTS = {
             {
               "signature": 100405,
               "version": "46.9.0.35800"
+            },
+            {
+              "signature": 100405,
+              "version": "46.10.0.36042"
             }
           ],
           "labels": [],
@@ -34951,6 +35042,10 @@ SUPPORT_CHARTS = {
             {
               "signature": 100513,
               "version": "26261.303.5165.1465"
+            },
+            {
+              "signature": 100513,
+              "version": "26276.505.5234.9924"
             }
           ],
           "labels": [],
@@ -36376,6 +36471,14 @@ SUPPORT_CHARTS = {
             {
               "signature": 100148,
               "version": "274.4.4841"
+            },
+            {
+              "signature": 100148,
+              "version": "275.4.3565"
+            },
+            {
+              "signature": 100148,
+              "version": "276.4.5266"
             }
           ],
           "labels": [],
@@ -44094,6 +44197,246 @@ SUPPORT_CHARTS = {
                     "code": -11,
                     "name": "TerminateProcesses"
                   }
+                },
+                "manageability": {
+                  "100": {
+                    "id": 100,
+                    "meta_data": {
+                      "param_support": {
+                        "input": {
+                          "instance_id": {
+                            "_supported": false,
+                            "_optional": true
+                          }
+                        },
+                        "output": {
+                          "version": {
+                            "_supported": true,
+                            "_optional": false
+                          },
+                          "architecture": {
+                            "_supported": true,
+                            "_optional": false,
+                            "name": {
+                              "_supported": true,
+                              "_optional": false
+                            },
+                            "bitness": {
+                              "_supported": true,
+                              "_optional": false
+                            }
+                          },
+                          "language": {
+                            "_supported": true,
+                            "_optional": false,
+                            "code": {
+                              "_supported": true,
+                              "_optional": false
+                            },
+                            "name": {
+                              "_supported": true,
+                              "_optional": false
+                            }
+                          },
+                          "channel": {
+                            "_supported": false,
+                            "_optional": true
+                          },
+                          "release": {
+                            "_supported": false,
+                            "_optional": true
+                          }
+                        }
+                      },
+                      "admin_required": false,
+                      "notes": ""
+                    },
+                    "name": "GetVersion"
+                  },
+                  "1000": {
+                    "id": 1000,
+                    "meta_data": {
+                      "param_support": {
+                        "input": {
+                          "skip_connection_check": {
+                            "_supported": false,
+                            "_optional": true
+                          }
+                        },
+                        "output": {
+                          "enabled": {
+                            "_supported": true,
+                            "_optional": false
+                          },
+                          "state": {
+                            "_supported": false,
+                            "_optional": true,
+                            "_values": {
+                              "enabled": false,
+                              "disabled": false,
+                              "initializing": false,
+                              "unknown": false
+                            }
+                          },
+                          "has_internet_connectivity": {
+                            "_supported": false,
+                            "_optional": true
+                          },
+                          "details": {
+                            "_supported": true,
+                            "_optional": false,
+                            "antivirus": {
+                              "_supported": false,
+                              "_optional": true
+                            },
+                            "antispyware": {
+                              "_supported": false,
+                              "_optional": true
+                            },
+                            "other": {
+                              "_supported": false,
+                              "_optional": true,
+                              "name": {
+                                "_supported": false,
+                                "_optional": true
+                              },
+                              "state": {
+                                "_supported": false,
+                                "_optional": true
+                              }
+                            }
+                          },
+                          "managed_by_3rd_party_products": {
+                            "_supported": false,
+                            "_optional": true,
+                            "product_name": {
+                              "_supported": false,
+                              "_optional": true
+                            },
+                            "remediation_path": {
+                              "_supported": false,
+                              "_optional": true
+                            },
+                            "signature": {
+                              "_supported": false,
+                              "_optional": true
+                            }
+                          }
+                        }
+                      },
+                      "admin_required": false,
+                      "notes": ""
+                    },
+                    "name": "GetRealTimeProtectionState"
+                  },
+                  "1001": {
+                    "id": 1001,
+                    "meta_data": {
+                      "param_support": {
+                        "input": {
+                          "timeframe": {
+                            "_supported": false,
+                            "_optional": true
+                          },
+                          "skip_connection_check": {
+                            "_supported": false,
+                            "_optional": true
+                          }
+                        },
+                        "output": {
+                          "is_recent": {
+                            "_supported": true,
+                            "_optional": false
+                          },
+                          "has_internet_connectivity": {
+                            "_supported": false,
+                            "_optional": true
+                          },
+                          "definitions": {
+                            "_supported": true,
+                            "_optional": false,
+                            "name": {
+                              "_supported": true,
+                              "_optional": false
+                            },
+                            "type": {
+                              "_supported": true,
+                              "_optional": false,
+                              "_values": {
+                                "antimalware": false,
+                                "antivirus": false,
+                                "antispyware": false
+                              }
+                            },
+                            "version": {
+                              "_supported": true,
+                              "_optional": false
+                            },
+                            "engine_version": {
+                              "_supported": false,
+                              "_optional": true
+                            },
+                            "last_update": {
+                              "_optional": false,
+                              "_supported": true,
+                              "_optional_override": true
+                            },
+                            "source_time": {
+                              "_optional": false,
+                              "_supported": true,
+                              "_optional_override": true
+                            },
+                            "count": {
+                              "_supported": false,
+                              "_optional": true
+                            }
+                          }
+                        }
+                      },
+                      "admin_required": false,
+                      "notes": ""
+                    },
+                    "name": "GetDefinitionState"
+                  },
+                  "101": {
+                    "id": 101,
+                    "meta_data": {
+                      "param_support": {
+                        "input": {
+                          "instance_id": {
+                            "_supported": false,
+                            "_optional": true
+                          }
+                        },
+                        "output": {
+                          "running": {
+                            "_supported": true,
+                            "_optional": false
+                          }
+                        }
+                      },
+                      "admin_required": false,
+                      "notes": ""
+                    },
+                    "name": "GetRunningState"
+                  },
+                  "102": {
+                    "id": 102,
+                    "meta_data": {
+                      "param_support": {
+                        "input": {
+                          "instance_id": {
+                            "_supported": false,
+                            "_optional": true
+                          }
+                        },
+                        "output": []
+                      },
+                      "admin_required": false,
+                      "notes": ""
+                    },
+                    "name": "Run"
+                  }
                 }
               }
             }
@@ -45839,84 +46182,31 @@ SUPPORT_CHARTS = {
             },
             {
               "certification": "gold",
-              "methodsStatus": {
-                "1000": -1,
-                "1001": -1,
-                "1002": -1,
-                "1003": -1,
-                "1004": -1,
-                "1005": -1
-              },
               "signature": 100269,
               "version": "7.21.54.200103"
             },
             {
               "certification": "gold",
-              "methodsStatus": {
-                "1000": -1,
-                "1001": -1,
-                "1002": -1,
-                "1003": -1,
-                "1004": -1,
-                "1005": -1
-              },
               "signature": 100269,
               "version": "7.21.54.200105"
             },
             {
               "certification": "gold",
-              "methodsStatus": {
-                "1000": -1,
-                "1001": -1,
-                "1002": -1,
-                "1003": -1,
-                "1004": -1,
-                "1005": -1
-              },
               "signature": 100269,
               "version": "7.21.54.200107"
             },
             {
               "certification": "gold",
-              "methodsStatus": {
-                "1000": -1,
-                "1001": -1,
-                "1002": -1,
-                "1003": -1,
-                "1004": -1,
-                "1005": -1
-              },
               "signature": 100269,
               "version": "7.21.54.200108"
             },
             {
               "certification": "gold",
-              "methodsStatus": {
-                "1000": -1,
-                "1001": -1,
-                "1002": -1,
-                "1003": -1,
-                "1004": -1,
-                "1005": -1
-              },
               "signature": 100269,
               "version": "7.23.56.200128"
             },
             {
               "certification": "gold",
-              "methodsStatus": {
-                "1000": -1,
-                "1001": -1,
-                "1002": -1,
-                "1003": -1,
-                "1004": -1,
-                "1005": -1,
-                "101": -1,
-                "102": -1,
-                "103": -1,
-                "104": -1,
-                "105": -1
-              },
               "signature": 100269,
               "version": "7.23.56.200130"
             },
@@ -45926,20 +46216,6 @@ SUPPORT_CHARTS = {
               "version": "7.23.56.200141"
             },
             {
-              "methodsStatus": {
-                "1000": -1,
-                "1001": -1,
-                "1002": -1,
-                "1003": -1,
-                "1004": -1,
-                "1005": -1,
-                "101": -1,
-                "102": -1,
-                "103": -1,
-                "104": -1,
-                "105": -1,
-                "108": -1
-              },
               "signature": 100269,
               "version": "8.26.03.200006"
             },
@@ -45964,98 +46240,26 @@ SUPPORT_CHARTS = {
               "version": "8.26.06.200022"
             },
             {
-              "methodsStatus": {
-                "1001": -1,
-                "1002": -1,
-                "1003": -1,
-                "1004": -1,
-                "1005": -1,
-                "102": -1,
-                "103": -1,
-                "104": -1,
-                "105": -1,
-                "108": -1
-              },
               "signature": 100269,
               "version": "8.26.06.200024"
             },
             {
-              "methodsStatus": {
-                "1001": -1,
-                "1002": -1,
-                "1003": -1,
-                "1004": -1,
-                "1005": -1,
-                "102": -1,
-                "103": -1,
-                "104": -1,
-                "105": -1,
-                "108": -1
-              },
               "signature": 100269,
               "version": "8.26.06.200029"
             },
             {
-              "methodsStatus": {
-                "1001": -1,
-                "1002": -1,
-                "1003": -1,
-                "1004": -1,
-                "1005": -1,
-                "102": -1,
-                "103": -1,
-                "104": -1,
-                "105": -1,
-                "108": -1
-              },
               "signature": 100269,
               "version": "8.26.06.200030"
             },
             {
-              "methodsStatus": {
-                "1001": -1,
-                "1002": -1,
-                "1003": -1,
-                "1004": -1,
-                "1005": -1,
-                "102": -1,
-                "103": -1,
-                "104": -1,
-                "105": -1,
-                "108": -1
-              },
               "signature": 100269,
               "version": "8.26.07.200032"
             },
             {
-              "methodsStatus": {
-                "1001": -1,
-                "1002": -1,
-                "1003": -1,
-                "1004": -1,
-                "1005": -1,
-                "102": -1,
-                "103": -1,
-                "104": -1,
-                "105": -1,
-                "108": -1
-              },
               "signature": 100269,
               "version": "8.26.07.200036"
             },
             {
-              "methodsStatus": {
-                "1001": -1,
-                "1002": -1,
-                "1003": -1,
-                "1004": -1,
-                "1005": -1,
-                "102": -1,
-                "103": -1,
-                "104": -1,
-                "105": -1,
-                "108": -1
-              },
               "signature": 100269,
               "version": "8.26.07.200037"
             },
@@ -46578,18 +46782,6 @@ SUPPORT_CHARTS = {
               "version": "2025.2.0.96"
             },
             {
-              "methodsStatus": {
-                "1000": -1,
-                "1001": -1,
-                "1004": -1,
-                "1006": -1,
-                "101": -1,
-                "102": -1,
-                "103": -1,
-                "104": -1,
-                "105": -1,
-                "108": -1
-              },
               "signature": 100362,
               "version": "2025.3.1.3"
             },
@@ -47914,12 +48106,6 @@ SUPPORT_CHARTS = {
               "version": "140.0.7339.81"
             },
             {
-              "methodsStatus": {
-                "101": -1,
-                "1011": -1,
-                "103": -1,
-                "2000": -1
-              },
               "signature": 100004,
               "version": "140.0.7339.186"
             },
@@ -47988,12 +48174,6 @@ SUPPORT_CHARTS = {
               "version": "146.0.7680.72"
             },
             {
-              "methodsStatus": {
-                "101": -1,
-                "1011": -1,
-                "103": -1,
-                "2000": -1
-              },
               "signature": 100004,
               "version": "146.0.7680.80"
             },
@@ -48002,12 +48182,6 @@ SUPPORT_CHARTS = {
               "version": "146.0.7680.165"
             },
             {
-              "methodsStatus": {
-                "101": -1,
-                "1011": -1,
-                "103": -1,
-                "2000": -1
-              },
               "signature": 100004,
               "version": "146.0.7680.178"
             },
@@ -48154,6 +48328,18 @@ SUPPORT_CHARTS = {
             {
               "signature": 100004,
               "version": "155.0.8059.40"
+            },
+            {
+              "signature": 100004,
+              "version": "155.0.8059.80"
+            },
+            {
+              "signature": 100004,
+              "version": "155.0.8059.85"
+            },
+            {
+              "signature": 100004,
+              "version": "156.0.8078.48"
             }
           ],
           "labels": [],
@@ -49860,9 +50046,6 @@ SUPPORT_CHARTS = {
               "version": "151.0.4"
             },
             {
-              "methodsStatus": {
-                "1010": -1
-              },
               "signature": 100292,
               "version": "152.0"
             },
@@ -49895,9 +50078,6 @@ SUPPORT_CHARTS = {
               "version": "153.0.1"
             },
             {
-              "methodsStatus": {
-                "1010": -1
-              },
               "signature": 100292,
               "version": "153.0.3"
             },
@@ -49920,6 +50100,14 @@ SUPPORT_CHARTS = {
             {
               "signature": 100292,
               "version": "157.0.1"
+            },
+            {
+              "signature": 100292,
+              "version": "158.0"
+            },
+            {
+              "signature": 100292,
+              "version": "158.0.1"
             }
           ],
           "labels": [],
@@ -55084,24 +55272,19 @@ SUPPORT_CHARTS = {
               "version": "9.0.5400.0"
             },
             {
-              "methodsStatus": {
-                "1005": -1,
-                "1006": -1,
-                "1007": -1,
-                "101": -1,
-                "1010": -1,
-                "102": -1,
-                "103": -1,
-                "104": -1,
-                "105": -1,
-                "108": -1
-              },
               "signature": 100256,
               "version": "9.1.2000.0"
             },
             {
               "signature": 100256,
               "version": "9.1.2500.0"
+            },
+            {
+              "methodsStatus": {
+                "1004": 2
+              },
+              "signature": 100256,
+              "version": "10.0.2200.0"
             }
           ],
           "labels": [],
@@ -55322,7 +55505,7 @@ SUPPORT_CHARTS = {
                       "param_support": {
                         "input": {
                           "scan_type": {
-                            "_supported": false,
+                            "_supported": true,
                             "_optional": true,
                             "_values": {
                               "full": false,
@@ -55736,79 +55919,26 @@ SUPPORT_CHARTS = {
               "version": "7.21.53.200097"
             },
             {
-              "methodsStatus": {
-                "1000": -1,
-                "1001": -1,
-                "1002": -1,
-                "1003": -1,
-                "1004": -1,
-                "1005": -1
-              },
               "signature": 100269,
               "version": "7.21.54.200103"
             },
             {
-              "methodsStatus": {
-                "1000": -1,
-                "1001": -1,
-                "1002": -1,
-                "1003": -1,
-                "1004": -1,
-                "1005": -1
-              },
               "signature": 100269,
               "version": "7.21.54.200105"
             },
             {
-              "methodsStatus": {
-                "1000": -1,
-                "1001": -1,
-                "1002": -1,
-                "1003": -1,
-                "1004": -1,
-                "1005": -1
-              },
               "signature": 100269,
               "version": "7.21.54.200107"
             },
             {
-              "methodsStatus": {
-                "1000": -1,
-                "1001": -1,
-                "1002": -1,
-                "1003": -1,
-                "1004": -1,
-                "1005": -1
-              },
               "signature": 100269,
               "version": "7.21.54.200108"
             },
             {
-              "methodsStatus": {
-                "1000": -1,
-                "1001": -1,
-                "1002": -1,
-                "1003": -1,
-                "1004": -1,
-                "1005": -1
-              },
               "signature": 100269,
               "version": "7.23.56.200128"
             },
             {
-              "methodsStatus": {
-                "1000": -1,
-                "1001": -1,
-                "1002": -1,
-                "1003": -1,
-                "1004": -1,
-                "1005": -1,
-                "101": -1,
-                "102": -1,
-                "103": -1,
-                "104": -1,
-                "105": -1
-              },
               "signature": 100269,
               "version": "7.23.56.200130"
             },
@@ -55817,20 +55947,6 @@ SUPPORT_CHARTS = {
               "version": "7.23.56.200141"
             },
             {
-              "methodsStatus": {
-                "1000": -1,
-                "1001": -1,
-                "1002": -1,
-                "1003": -1,
-                "1004": -1,
-                "1005": -1,
-                "101": -1,
-                "102": -1,
-                "103": -1,
-                "104": -1,
-                "105": -1,
-                "108": -1
-              },
               "signature": 100269,
               "version": "8.26.03.200006"
             },
@@ -55855,98 +55971,26 @@ SUPPORT_CHARTS = {
               "version": "8.26.06.200022"
             },
             {
-              "methodsStatus": {
-                "1001": -1,
-                "1002": -1,
-                "1003": -1,
-                "1004": -1,
-                "1005": -1,
-                "102": -1,
-                "103": -1,
-                "104": -1,
-                "105": -1,
-                "108": -1
-              },
               "signature": 100269,
               "version": "8.26.06.200024"
             },
             {
-              "methodsStatus": {
-                "1001": -1,
-                "1002": -1,
-                "1003": -1,
-                "1004": -1,
-                "1005": -1,
-                "102": -1,
-                "103": -1,
-                "104": -1,
-                "105": -1,
-                "108": -1
-              },
               "signature": 100269,
               "version": "8.26.06.200029"
             },
             {
-              "methodsStatus": {
-                "1001": -1,
-                "1002": -1,
-                "1003": -1,
-                "1004": -1,
-                "1005": -1,
-                "102": -1,
-                "103": -1,
-                "104": -1,
-                "105": -1,
-                "108": -1
-              },
               "signature": 100269,
               "version": "8.26.06.200030"
             },
             {
-              "methodsStatus": {
-                "1001": -1,
-                "1002": -1,
-                "1003": -1,
-                "1004": -1,
-                "1005": -1,
-                "102": -1,
-                "103": -1,
-                "104": -1,
-                "105": -1,
-                "108": -1
-              },
               "signature": 100269,
               "version": "8.26.07.200032"
             },
             {
-              "methodsStatus": {
-                "1001": -1,
-                "1002": -1,
-                "1003": -1,
-                "1004": -1,
-                "1005": -1,
-                "102": -1,
-                "103": -1,
-                "104": -1,
-                "105": -1,
-                "108": -1
-              },
               "signature": 100269,
               "version": "8.26.07.200036"
             },
             {
-              "methodsStatus": {
-                "1001": -1,
-                "1002": -1,
-                "1003": -1,
-                "1004": -1,
-                "1005": -1,
-                "102": -1,
-                "103": -1,
-                "104": -1,
-                "105": -1,
-                "108": -1
-              },
               "signature": 100269,
               "version": "8.26.07.200037"
             },
@@ -56709,6 +56753,10 @@ SUPPORT_CHARTS = {
             {
               "signature": 100279,
               "version": "12.2.0.694"
+            },
+            {
+              "signature": 100279,
+              "version": "12.2.1.191"
             }
           ],
           "labels": [],
@@ -56854,7 +56902,7 @@ SUPPORT_CHARTS = {
                         }
                       },
                       "admin_required": false,
-                      "notes": ""
+                      "notes": "GetDefinitionState for Kaspersky Endpoint Security for Mac (sig 100279). source_time = the arch-appropriate KDB release FileDate from u1901g.xml (uname -m selects kdbma64 on arm64, kdb-x64 on x86_64, kdb-i386 on i386); version yyyy.mm.dd; last_update = max(index file mtime, kav 'statistics Updater' Time Finish)."
                     },
                     "name": "GetDefinitionState"
                   },
@@ -59124,10 +59172,6 @@ SUPPORT_CHARTS = {
               "version": "7.4.3.1761"
             },
             {
-              "methodsStatus": {
-                "1000": -1,
-                "1001": -1
-              },
               "signature": 100363,
               "version": "7.4.4.1831"
             },
@@ -59136,16 +59180,6 @@ SUPPORT_CHARTS = {
               "version": "7.4.5.1888"
             },
             {
-              "methodsStatus": {
-                "1000": -1,
-                "1001": -1,
-                "101": -1,
-                "102": -1,
-                "103": -1,
-                "104": -1,
-                "105": -1,
-                "108": -1
-              },
               "signature": 100363,
               "version": "7.4.6.1926"
             },
@@ -60890,9 +60924,6 @@ SUPPORT_CHARTS = {
               "version": "20.0.0.246"
             },
             {
-              "methodsStatus": {
-                "1000": -1
-              },
               "signature": 100461,
               "version": "20.0.0.252"
             },
@@ -60951,6 +60982,20 @@ SUPPORT_CHARTS = {
                             "_supported": true,
                             "_optional": false
                           },
+                          "state": {
+                            "_supported": false,
+                            "_optional": true,
+                            "_values": {
+                              "enabled": false,
+                              "disabled": false,
+                              "initializing": false,
+                              "unknown": false
+                            }
+                          },
+                          "has_internet_connectivity": {
+                            "_supported": false,
+                            "_optional": true
+                          },
                           "details": {
                             "_supported": true,
                             "_optional": false,
@@ -60973,6 +61018,22 @@ SUPPORT_CHARTS = {
                                 "_supported": false,
                                 "_optional": true
                               }
+                            }
+                          },
+                          "managed_by_3rd_party_products": {
+                            "_supported": false,
+                            "_optional": true,
+                            "product_name": {
+                              "_supported": false,
+                              "_optional": true
+                            },
+                            "remediation_path": {
+                              "_supported": false,
+                              "_optional": true
+                            },
+                            "signature": {
+                              "_supported": false,
+                              "_optional": true
                             }
                           }
                         }
@@ -61377,11 +61438,6 @@ SUPPORT_CHARTS = {
               "version": "145.0.3800.82"
             },
             {
-              "methodsStatus": {
-                "1010": -1,
-                "1011": -1,
-                "2000": -1
-              },
               "signature": 100474,
               "version": "145.0.3800.97"
             },
@@ -61548,6 +61604,18 @@ SUPPORT_CHARTS = {
             {
               "signature": 100474,
               "version": "155.0.4283.45"
+            },
+            {
+              "signature": 100474,
+              "version": "155.0.4283.60"
+            },
+            {
+              "signature": 100474,
+              "version": "155.0.4283.62"
+            },
+            {
+              "signature": 100474,
+              "version": "156.0.4314.42"
             }
           ],
           "labels": [],
@@ -62416,6 +62484,10 @@ SUPPORT_CHARTS = {
             {
               "signature": 100495,
               "version": "10.7.13"
+            },
+            {
+              "signature": 100495,
+              "version": "26.8.0"
             }
           ],
           "labels": [],
@@ -77721,18 +77793,6 @@ SUPPORT_CHARTS = {
             },
             {
               "certification": "gold",
-              "methodsStatus": {
-                "1005": -1,
-                "1006": -1,
-                "1007": -1,
-                "101": -1,
-                "1010": -1,
-                "102": -1,
-                "103": -1,
-                "104": -1,
-                "105": -1,
-                "108": -1
-              },
               "signature": 100256,
               "version": "9.1.2000.0"
             },
@@ -77740,6 +77800,13 @@ SUPPORT_CHARTS = {
               "certification": "gold",
               "signature": 100256,
               "version": "9.1.2500.0"
+            },
+            {
+              "methodsStatus": {
+                "1004": 2
+              },
+              "signature": 100256,
+              "version": "10.0.2200.0"
             }
           ],
           "labels": [],
@@ -77960,7 +78027,7 @@ SUPPORT_CHARTS = {
                       "param_support": {
                         "input": {
                           "scan_type": {
-                            "_supported": false,
+                            "_supported": true,
                             "_optional": true,
                             "_values": {
                               "full": false,
@@ -78550,84 +78617,31 @@ SUPPORT_CHARTS = {
             },
             {
               "certification": "platinum",
-              "methodsStatus": {
-                "1000": -1,
-                "1001": -1,
-                "1002": -1,
-                "1003": -1,
-                "1004": -1,
-                "1005": -1
-              },
               "signature": 100269,
               "version": "7.21.54.200103"
             },
             {
               "certification": "platinum",
-              "methodsStatus": {
-                "1000": -1,
-                "1001": -1,
-                "1002": -1,
-                "1003": -1,
-                "1004": -1,
-                "1005": -1
-              },
               "signature": 100269,
               "version": "7.21.54.200105"
             },
             {
               "certification": "platinum",
-              "methodsStatus": {
-                "1000": -1,
-                "1001": -1,
-                "1002": -1,
-                "1003": -1,
-                "1004": -1,
-                "1005": -1
-              },
               "signature": 100269,
               "version": "7.21.54.200107"
             },
             {
               "certification": "platinum",
-              "methodsStatus": {
-                "1000": -1,
-                "1001": -1,
-                "1002": -1,
-                "1003": -1,
-                "1004": -1,
-                "1005": -1
-              },
               "signature": 100269,
               "version": "7.21.54.200108"
             },
             {
               "certification": "platinum",
-              "methodsStatus": {
-                "1000": -1,
-                "1001": -1,
-                "1002": -1,
-                "1003": -1,
-                "1004": -1,
-                "1005": -1
-              },
               "signature": 100269,
               "version": "7.23.56.200128"
             },
             {
               "certification": "platinum",
-              "methodsStatus": {
-                "1000": -1,
-                "1001": -1,
-                "1002": -1,
-                "1003": -1,
-                "1004": -1,
-                "1005": -1,
-                "101": -1,
-                "102": -1,
-                "103": -1,
-                "104": -1,
-                "105": -1
-              },
               "signature": 100269,
               "version": "7.23.56.200130"
             },
@@ -78638,20 +78652,6 @@ SUPPORT_CHARTS = {
             },
             {
               "certification": "platinum",
-              "methodsStatus": {
-                "1000": -1,
-                "1001": -1,
-                "1002": -1,
-                "1003": -1,
-                "1004": -1,
-                "1005": -1,
-                "101": -1,
-                "102": -1,
-                "103": -1,
-                "104": -1,
-                "105": -1,
-                "108": -1
-              },
               "signature": 100269,
               "version": "8.26.03.200006"
             },
@@ -78682,103 +78682,31 @@ SUPPORT_CHARTS = {
             },
             {
               "certification": "platinum",
-              "methodsStatus": {
-                "1001": -1,
-                "1002": -1,
-                "1003": -1,
-                "1004": -1,
-                "1005": -1,
-                "102": -1,
-                "103": -1,
-                "104": -1,
-                "105": -1,
-                "108": -1
-              },
               "signature": 100269,
               "version": "8.26.06.200024"
             },
             {
               "certification": "platinum",
-              "methodsStatus": {
-                "1001": -1,
-                "1002": -1,
-                "1003": -1,
-                "1004": -1,
-                "1005": -1,
-                "102": -1,
-                "103": -1,
-                "104": -1,
-                "105": -1,
-                "108": -1
-              },
               "signature": 100269,
               "version": "8.26.06.200029"
             },
             {
               "certification": "platinum",
-              "methodsStatus": {
-                "1001": -1,
-                "1002": -1,
-                "1003": -1,
-                "1004": -1,
-                "1005": -1,
-                "102": -1,
-                "103": -1,
-                "104": -1,
-                "105": -1,
-                "108": -1
-              },
               "signature": 100269,
               "version": "8.26.06.200030"
             },
             {
               "certification": "platinum",
-              "methodsStatus": {
-                "1001": -1,
-                "1002": -1,
-                "1003": -1,
-                "1004": -1,
-                "1005": -1,
-                "102": -1,
-                "103": -1,
-                "104": -1,
-                "105": -1,
-                "108": -1
-              },
               "signature": 100269,
               "version": "8.26.07.200032"
             },
             {
               "certification": "platinum",
-              "methodsStatus": {
-                "1001": -1,
-                "1002": -1,
-                "1003": -1,
-                "1004": -1,
-                "1005": -1,
-                "102": -1,
-                "103": -1,
-                "104": -1,
-                "105": -1,
-                "108": -1
-              },
               "signature": 100269,
               "version": "8.26.07.200036"
             },
             {
               "certification": "platinum",
-              "methodsStatus": {
-                "1001": -1,
-                "1002": -1,
-                "1003": -1,
-                "1004": -1,
-                "1005": -1,
-                "102": -1,
-                "103": -1,
-                "104": -1,
-                "105": -1,
-                "108": -1
-              },
               "signature": 100269,
               "version": "8.26.07.200037"
             },
@@ -79689,6 +79617,11 @@ SUPPORT_CHARTS = {
               "certification": "platinum",
               "signature": 100279,
               "version": "12.2.0.694"
+            },
+            {
+              "certification": "platinum",
+              "signature": 100279,
+              "version": "12.2.1.191"
             }
           ],
           "labels": [],
@@ -79834,7 +79767,7 @@ SUPPORT_CHARTS = {
                         }
                       },
                       "admin_required": false,
-                      "notes": ""
+                      "notes": "GetDefinitionState for Kaspersky Endpoint Security for Mac (sig 100279). source_time = the arch-appropriate KDB release FileDate from u1901g.xml (uname -m selects kdbma64 on arm64, kdb-x64 on x86_64, kdb-i386 on i386); version yyyy.mm.dd; last_update = max(index file mtime, kav 'statistics Updater' Time Finish)."
                     },
                     "name": "GetDefinitionState"
                   },
@@ -89081,18 +89014,6 @@ SUPPORT_CHARTS = {
               "version": "2025.2.0.96"
             },
             {
-              "methodsStatus": {
-                "1000": -1,
-                "1001": -1,
-                "1004": -1,
-                "1006": -1,
-                "101": -1,
-                "102": -1,
-                "103": -1,
-                "104": -1,
-                "105": -1,
-                "108": -1
-              },
               "signature": 100362,
               "version": "2025.3.1.3"
             },
@@ -89437,10 +89358,6 @@ SUPPORT_CHARTS = {
             },
             {
               "certification": "gold",
-              "methodsStatus": {
-                "1000": -1,
-                "1001": -1
-              },
               "signature": 100363,
               "version": "7.4.4.1831"
             },
@@ -89451,16 +89368,6 @@ SUPPORT_CHARTS = {
             },
             {
               "certification": "gold",
-              "methodsStatus": {
-                "1000": -1,
-                "1001": -1,
-                "101": -1,
-                "102": -1,
-                "103": -1,
-                "104": -1,
-                "105": -1,
-                "108": -1
-              },
               "signature": 100363,
               "version": "7.4.6.1926"
             },
@@ -92076,6 +91983,11 @@ SUPPORT_CHARTS = {
               "certification": "gold",
               "signature": 100379,
               "version": "9.3.0"
+            },
+            {
+              "certification": "gold",
+              "signature": 100379,
+              "version": "9.4.0"
             }
           ],
           "labels": [],
@@ -93414,18 +93326,6 @@ SUPPORT_CHARTS = {
               "version": "11.5.1724"
             },
             {
-              "methodsStatus": {
-                "1000": -1,
-                "1001": -1,
-                "1002": -1,
-                "1004": -1,
-                "101": -1,
-                "102": -1,
-                "103": -1,
-                "104": -1,
-                "105": -1,
-                "106": -1
-              },
               "signature": 100392,
               "version": "11.9.36"
             },
@@ -98386,9 +98286,6 @@ SUPPORT_CHARTS = {
             },
             {
               "certification": "gold",
-              "methodsStatus": {
-                "1000": -1
-              },
               "signature": 100461,
               "version": "20.0.0.252"
             },
@@ -98448,6 +98345,20 @@ SUPPORT_CHARTS = {
                             "_supported": true,
                             "_optional": false
                           },
+                          "state": {
+                            "_supported": false,
+                            "_optional": true,
+                            "_values": {
+                              "enabled": false,
+                              "disabled": false,
+                              "initializing": false,
+                              "unknown": false
+                            }
+                          },
+                          "has_internet_connectivity": {
+                            "_supported": false,
+                            "_optional": true
+                          },
                           "details": {
                             "_supported": true,
                             "_optional": false,
@@ -98470,6 +98381,22 @@ SUPPORT_CHARTS = {
                                 "_supported": false,
                                 "_optional": true
                               }
+                            }
+                          },
+                          "managed_by_3rd_party_products": {
+                            "_supported": false,
+                            "_optional": true,
+                            "product_name": {
+                              "_supported": false,
+                              "_optional": true
+                            },
+                            "remediation_path": {
+                              "_supported": false,
+                              "_optional": true
+                            },
+                            "signature": {
+                              "_supported": false,
+                              "_optional": true
                             }
                           }
                         }
@@ -99554,6 +99481,10 @@ SUPPORT_CHARTS = {
             {
               "signature": 100495,
               "version": "10.7.13"
+            },
+            {
+              "signature": 100495,
+              "version": "26.8.0"
             }
           ],
           "labels": [],
@@ -105554,6 +105485,7 @@ SUPPORT_CHARTS = {
           "id": 100603,
           "tested_points": [
             {
+              "certification": "gold",
               "signature": 100661,
               "version": "2.9.2.1600"
             }
@@ -105593,6 +105525,246 @@ SUPPORT_CHARTS = {
                     "code": -11,
                     "name": "TerminateProcesses"
                   }
+                },
+                "manageability": {
+                  "100": {
+                    "id": 100,
+                    "meta_data": {
+                      "param_support": {
+                        "input": {
+                          "instance_id": {
+                            "_supported": false,
+                            "_optional": true
+                          }
+                        },
+                        "output": {
+                          "version": {
+                            "_supported": true,
+                            "_optional": false
+                          },
+                          "architecture": {
+                            "_supported": true,
+                            "_optional": false,
+                            "name": {
+                              "_supported": true,
+                              "_optional": false
+                            },
+                            "bitness": {
+                              "_supported": true,
+                              "_optional": false
+                            }
+                          },
+                          "language": {
+                            "_supported": true,
+                            "_optional": false,
+                            "code": {
+                              "_supported": true,
+                              "_optional": false
+                            },
+                            "name": {
+                              "_supported": true,
+                              "_optional": false
+                            }
+                          },
+                          "channel": {
+                            "_supported": false,
+                            "_optional": true
+                          },
+                          "release": {
+                            "_supported": false,
+                            "_optional": true
+                          }
+                        }
+                      },
+                      "admin_required": false,
+                      "notes": ""
+                    },
+                    "name": "GetVersion"
+                  },
+                  "1000": {
+                    "id": 1000,
+                    "meta_data": {
+                      "param_support": {
+                        "input": {
+                          "skip_connection_check": {
+                            "_supported": false,
+                            "_optional": true
+                          }
+                        },
+                        "output": {
+                          "enabled": {
+                            "_supported": true,
+                            "_optional": false
+                          },
+                          "state": {
+                            "_supported": false,
+                            "_optional": true,
+                            "_values": {
+                              "enabled": false,
+                              "disabled": false,
+                              "initializing": false,
+                              "unknown": false
+                            }
+                          },
+                          "has_internet_connectivity": {
+                            "_supported": false,
+                            "_optional": true
+                          },
+                          "details": {
+                            "_supported": true,
+                            "_optional": false,
+                            "antivirus": {
+                              "_supported": false,
+                              "_optional": true
+                            },
+                            "antispyware": {
+                              "_supported": false,
+                              "_optional": true
+                            },
+                            "other": {
+                              "_supported": false,
+                              "_optional": true,
+                              "name": {
+                                "_supported": false,
+                                "_optional": true
+                              },
+                              "state": {
+                                "_supported": false,
+                                "_optional": true
+                              }
+                            }
+                          },
+                          "managed_by_3rd_party_products": {
+                            "_supported": false,
+                            "_optional": true,
+                            "product_name": {
+                              "_supported": false,
+                              "_optional": true
+                            },
+                            "remediation_path": {
+                              "_supported": false,
+                              "_optional": true
+                            },
+                            "signature": {
+                              "_supported": false,
+                              "_optional": true
+                            }
+                          }
+                        }
+                      },
+                      "admin_required": false,
+                      "notes": ""
+                    },
+                    "name": "GetRealTimeProtectionState"
+                  },
+                  "1001": {
+                    "id": 1001,
+                    "meta_data": {
+                      "param_support": {
+                        "input": {
+                          "timeframe": {
+                            "_supported": false,
+                            "_optional": true
+                          },
+                          "skip_connection_check": {
+                            "_supported": false,
+                            "_optional": true
+                          }
+                        },
+                        "output": {
+                          "is_recent": {
+                            "_supported": true,
+                            "_optional": false
+                          },
+                          "has_internet_connectivity": {
+                            "_supported": false,
+                            "_optional": true
+                          },
+                          "definitions": {
+                            "_supported": true,
+                            "_optional": false,
+                            "name": {
+                              "_supported": true,
+                              "_optional": false
+                            },
+                            "type": {
+                              "_supported": true,
+                              "_optional": false,
+                              "_values": {
+                                "antimalware": false,
+                                "antivirus": false,
+                                "antispyware": false
+                              }
+                            },
+                            "version": {
+                              "_supported": true,
+                              "_optional": false
+                            },
+                            "engine_version": {
+                              "_supported": false,
+                              "_optional": true
+                            },
+                            "last_update": {
+                              "_optional": false,
+                              "_supported": true,
+                              "_optional_override": true
+                            },
+                            "source_time": {
+                              "_optional": false,
+                              "_supported": true,
+                              "_optional_override": true
+                            },
+                            "count": {
+                              "_supported": false,
+                              "_optional": true
+                            }
+                          }
+                        }
+                      },
+                      "admin_required": false,
+                      "notes": ""
+                    },
+                    "name": "GetDefinitionState"
+                  },
+                  "101": {
+                    "id": 101,
+                    "meta_data": {
+                      "param_support": {
+                        "input": {
+                          "instance_id": {
+                            "_supported": false,
+                            "_optional": true
+                          }
+                        },
+                        "output": {
+                          "running": {
+                            "_supported": true,
+                            "_optional": false
+                          }
+                        }
+                      },
+                      "admin_required": false,
+                      "notes": ""
+                    },
+                    "name": "GetRunningState"
+                  },
+                  "102": {
+                    "id": 102,
+                    "meta_data": {
+                      "param_support": {
+                        "input": {
+                          "instance_id": {
+                            "_supported": false,
+                            "_optional": true
+                          }
+                        },
+                        "output": []
+                      },
+                      "admin_required": false,
+                      "notes": ""
+                    },
+                    "name": "Run"
+                  }
                 }
               }
             }
@@ -105628,7 +105800,15 @@ SUPPORT_CHARTS = {
               },
               "data_source": "Opswat",
               "sig_name": "Trellix EDRF",
-              "methods": {}
+              "methods": {
+                "constant": {
+                  "103": {
+                    "id": 103,
+                    "code": -11,
+                    "name": "TerminateProcesses"
+                  }
+                }
+              }
             }
           }
         }
@@ -105844,12 +106024,6 @@ SUPPORT_CHARTS = {
               "version": "140.0.7339.81"
             },
             {
-              "methodsStatus": {
-                "101": -1,
-                "1011": -1,
-                "103": -1,
-                "2000": -1
-              },
               "signature": 100004,
               "version": "140.0.7339.186"
             },
@@ -105918,12 +106092,6 @@ SUPPORT_CHARTS = {
               "version": "146.0.7680.72"
             },
             {
-              "methodsStatus": {
-                "101": -1,
-                "1011": -1,
-                "103": -1,
-                "2000": -1
-              },
               "signature": 100004,
               "version": "146.0.7680.80"
             },
@@ -105932,12 +106100,6 @@ SUPPORT_CHARTS = {
               "version": "146.0.7680.165"
             },
             {
-              "methodsStatus": {
-                "101": -1,
-                "1011": -1,
-                "103": -1,
-                "2000": -1
-              },
               "signature": 100004,
               "version": "146.0.7680.178"
             },
@@ -106084,6 +106246,18 @@ SUPPORT_CHARTS = {
             {
               "signature": 100004,
               "version": "155.0.8059.40"
+            },
+            {
+              "signature": 100004,
+              "version": "155.0.8059.80"
+            },
+            {
+              "signature": 100004,
+              "version": "155.0.8059.85"
+            },
+            {
+              "signature": 100004,
+              "version": "156.0.8078.48"
             }
           ],
           "labels": [],
@@ -107841,9 +108015,6 @@ SUPPORT_CHARTS = {
               "version": "151.0.4"
             },
             {
-              "methodsStatus": {
-                "1010": -1
-              },
               "signature": 100292,
               "version": "152.0"
             },
@@ -107876,9 +108047,6 @@ SUPPORT_CHARTS = {
               "version": "153.0.1"
             },
             {
-              "methodsStatus": {
-                "1010": -1
-              },
               "signature": 100292,
               "version": "153.0.3"
             },
@@ -107901,6 +108069,14 @@ SUPPORT_CHARTS = {
             {
               "signature": 100292,
               "version": "157.0.1"
+            },
+            {
+              "signature": 100292,
+              "version": "158.0"
+            },
+            {
+              "signature": 100292,
+              "version": "158.0.1"
             }
           ],
           "labels": [],
@@ -109165,11 +109341,6 @@ SUPPORT_CHARTS = {
               "version": "145.0.3800.82"
             },
             {
-              "methodsStatus": {
-                "1010": -1,
-                "1011": -1,
-                "2000": -1
-              },
               "signature": 100474,
               "version": "145.0.3800.97"
             },
@@ -109336,6 +109507,18 @@ SUPPORT_CHARTS = {
             {
               "signature": 100474,
               "version": "155.0.4283.45"
+            },
+            {
+              "signature": 100474,
+              "version": "155.0.4283.60"
+            },
+            {
+              "signature": 100474,
+              "version": "155.0.4283.62"
+            },
+            {
+              "signature": 100474,
+              "version": "156.0.4314.42"
             }
           ],
           "labels": [],
@@ -115111,6 +115294,10 @@ SUPPORT_CHARTS = {
             {
               "signature": 100244,
               "version": "6.3.3"
+            },
+            {
+              "signature": 100244,
+              "version": "6.5"
             }
           ],
           "labels": [],
@@ -115756,24 +115943,19 @@ SUPPORT_CHARTS = {
               "version": "9.0.5400.0"
             },
             {
-              "methodsStatus": {
-                "1005": -1,
-                "1006": -1,
-                "1007": -1,
-                "101": -1,
-                "1010": -1,
-                "102": -1,
-                "103": -1,
-                "104": -1,
-                "105": -1,
-                "108": -1
-              },
               "signature": 100256,
               "version": "9.1.2000.0"
             },
             {
               "signature": 100256,
               "version": "9.1.2500.0"
+            },
+            {
+              "methodsStatus": {
+                "1004": 2
+              },
+              "signature": 100256,
+              "version": "10.0.2200.0"
             }
           ],
           "labels": [],
@@ -115994,7 +116176,7 @@ SUPPORT_CHARTS = {
                       "param_support": {
                         "input": {
                           "scan_type": {
-                            "_supported": false,
+                            "_supported": true,
                             "_optional": true,
                             "_values": {
                               "full": false,
@@ -120259,10 +120441,6 @@ SUPPORT_CHARTS = {
               "version": "7.4.3.1761"
             },
             {
-              "methodsStatus": {
-                "1000": -1,
-                "1001": -1
-              },
               "signature": 100363,
               "version": "7.4.4.1831"
             },
@@ -120271,16 +120449,6 @@ SUPPORT_CHARTS = {
               "version": "7.4.5.1888"
             },
             {
-              "methodsStatus": {
-                "1000": -1,
-                "1001": -1,
-                "101": -1,
-                "102": -1,
-                "103": -1,
-                "104": -1,
-                "105": -1,
-                "108": -1
-              },
               "signature": 100363,
               "version": "7.4.6.1926"
             },
@@ -121032,6 +121200,10 @@ SUPPORT_CHARTS = {
             {
               "signature": 100379,
               "version": "9.3.0"
+            },
+            {
+              "signature": 100379,
+              "version": "9.4.0"
             }
           ],
           "labels": [],
@@ -122380,6 +122552,10 @@ SUPPORT_CHARTS = {
             {
               "signature": 100495,
               "version": "10.7.13"
+            },
+            {
+              "signature": 100495,
+              "version": "26.8.0"
             }
           ],
           "labels": [],
@@ -124994,10 +125170,6 @@ SUPPORT_CHARTS = {
               "version": "4.48.99"
             },
             {
-              "methodsStatus": {
-                "101": -1,
-                "102": -1
-              },
               "signature": 100119,
               "version": "4.48.100"
             },
@@ -126487,6 +126659,10 @@ SUPPORT_CHARTS = {
             {
               "signature": 100405,
               "version": "46.9.0.35800"
+            },
+            {
+              "signature": 100405,
+              "version": "46.10.0.36042"
             }
           ],
           "labels": [],
@@ -126750,6 +126926,10 @@ SUPPORT_CHARTS = {
             {
               "signature": 100513,
               "version": "26261.303.5165.1465"
+            },
+            {
+              "signature": 100513,
+              "version": "26276.505.5234.9924"
             }
           ],
           "labels": [],
@@ -128311,6 +128491,14 @@ SUPPORT_CHARTS = {
             {
               "signature": 100148,
               "version": "274.4.4841"
+            },
+            {
+              "signature": 100148,
+              "version": "275.4.3565"
+            },
+            {
+              "signature": 100148,
+              "version": "276.4.5266"
             }
           ],
           "labels": [],
@@ -130993,6 +131181,6 @@ SUPPORT_CHARTS = {
       "name": "CLOUD_STORAGE"
     }
   },
-  "timestamp": "1791805449",
+  "timestamp": "1793013579",
   "support_chart_type": "CATEGORY"
 }

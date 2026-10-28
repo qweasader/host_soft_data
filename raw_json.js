@@ -626,15 +626,6 @@ SUPPORT_CHARTS = {
               "version": "3.70.6"
             },
             {
-              "methodsStatus": {
-                "102": -1,
-                "103": -1,
-                "104": -1,
-                "105": -1,
-                "106": -1,
-                "108": -1,
-                "110": -1
-              },
               "signature": 184,
               "version": "3.71.0"
             },
@@ -1329,6 +1320,14 @@ SUPPORT_CHARTS = {
             {
               "signature": 3,
               "version": "7.11.0.46555"
+            },
+            {
+              "signature": 3,
+              "version": "7.11.0.47391"
+            },
+            {
+              "signature": 3,
+              "version": "7.11.0.47255"
             }
           ],
           "labels": [
@@ -2378,6 +2377,10 @@ SUPPORT_CHARTS = {
             {
               "signature": 3268,
               "version": "46.9.0.35800"
+            },
+            {
+              "signature": 3268,
+              "version": "46.10.0.36042"
             },
             {
               "signature": 3817,
@@ -4020,6 +4023,159 @@ SUPPORT_CHARTS = {
             }
           }
         },
+        "4395": {
+          "id": 4395,
+          "tested_points": [],
+          "labels": [],
+          "languages": [],
+          "name": "SFTPGo",
+          "signatures": {
+            "4854": {
+              "signature": 4854,
+              "product": {
+                "id": 4395,
+                "name": "SFTPGo"
+              },
+              "vendor": {
+                "id": 2478,
+                "name": "Nicola Murino"
+              },
+              "categories": {
+                "1": {
+                  "id": 1,
+                  "name": "PUBLIC_FILE_SHARING"
+                },
+                "3": {
+                  "id": 3,
+                  "name": "ENCRYPTION"
+                }
+              },
+              "data_source": "winget",
+              "sig_name": "SFTPGo",
+              "methods": {}
+            }
+          }
+        },
+        "4413": {
+          "id": 4413,
+          "tested_points": [],
+          "labels": [],
+          "languages": [],
+          "name": "Rayburst",
+          "signatures": {
+            "4872": {
+              "signature": 4872,
+              "product": {
+                "id": 4413,
+                "name": "Rayburst"
+              },
+              "vendor": {
+                "id": 2494,
+                "name": "motrix"
+              },
+              "categories": {
+                "1": {
+                  "id": 1,
+                  "name": "PUBLIC_FILE_SHARING"
+                }
+              },
+              "data_source": "winget",
+              "sig_name": "Rayburst",
+              "methods": {}
+            }
+          }
+        },
+        "4429": {
+          "id": 4429,
+          "tested_points": [],
+          "labels": [],
+          "languages": [],
+          "name": "Ghost Downloader",
+          "signatures": {
+            "4890": {
+              "signature": 4890,
+              "product": {
+                "id": 4429,
+                "name": "Ghost Downloader"
+              },
+              "vendor": {
+                "id": 2510,
+                "name": "XiaoYouChR"
+              },
+              "categories": {
+                "1": {
+                  "id": 1,
+                  "name": "PUBLIC_FILE_SHARING"
+                }
+              },
+              "data_source": "winget",
+              "sig_name": "Ghost Downloader",
+              "methods": {}
+            }
+          }
+        },
+        "4472": {
+          "id": 4472,
+          "tested_points": [],
+          "labels": [],
+          "languages": [],
+          "name": "Prowlarr",
+          "signatures": {
+            "4933": {
+              "signature": 4933,
+              "product": {
+                "id": 4472,
+                "name": "Prowlarr"
+              },
+              "vendor": {
+                "id": 2550,
+                "name": "Team Prowlarr"
+              },
+              "categories": {
+                "1": {
+                  "id": 1,
+                  "name": "PUBLIC_FILE_SHARING"
+                },
+                "17": {
+                  "id": 17,
+                  "name": "P2PA"
+                }
+              },
+              "data_source": "winget",
+              "sig_name": "Prowlarr",
+              "methods": {}
+            }
+          }
+        },
+        "4478": {
+          "id": 4478,
+          "tested_points": [],
+          "labels": [],
+          "languages": [],
+          "name": "OnionShare",
+          "signatures": {
+            "4939": {
+              "signature": 4939,
+              "product": {
+                "id": 4478,
+                "name": "OnionShare"
+              },
+              "vendor": {
+                "id": 2556,
+                "name": "Micah Lee, et al."
+              },
+              "categories": {
+                "1": {
+                  "id": 1,
+                  "name": "PUBLIC_FILE_SHARING"
+                }
+              },
+              "data_source": "winget",
+              "sig_name": "OnionShare",
+              "methods": {}
+            }
+          }
+        },
         "45": {
           "id": 45,
           "tested_points": [
@@ -4064,6 +4220,68 @@ SUPPORT_CHARTS = {
                   }
                 }
               }
+            }
+          }
+        },
+        "4557": {
+          "id": 4557,
+          "tested_points": [],
+          "labels": [],
+          "languages": [],
+          "name": "Syncthing",
+          "signatures": {
+            "5018": {
+              "signature": 5018,
+              "product": {
+                "id": 4557,
+                "name": "Syncthing"
+              },
+              "vendor": {
+                "id": 2630,
+                "name": "Syncthing Foundation"
+              },
+              "categories": {
+                "1": {
+                  "id": 1,
+                  "name": "PUBLIC_FILE_SHARING"
+                },
+                "17": {
+                  "id": 17,
+                  "name": "P2PA"
+                }
+              },
+              "data_source": "winget",
+              "sig_name": "Syncthing",
+              "methods": {}
+            }
+          }
+        },
+        "4590": {
+          "id": 4590,
+          "tested_points": [],
+          "labels": [],
+          "languages": [],
+          "name": "SABnzbd",
+          "signatures": {
+            "5051": {
+              "signature": 5051,
+              "product": {
+                "id": 4590,
+                "name": "SABnzbd"
+              },
+              "vendor": {
+                "id": 2657,
+                "name": "The SABnzbd Team"
+              },
+              "categories": {
+                "1": {
+                  "id": 1,
+                  "name": "PUBLIC_FILE_SHARING"
+                }
+              },
+              "data_source": "winget",
+              "sig_name": "SABnzbd",
+              "methods": {}
             }
           }
         },
@@ -12375,9 +12593,53 @@ SUPPORT_CHARTS = {
             {
               "signature": 1150,
               "version": "5.3.21"
+            },
+            {
+              "signature": 5071,
+              "version": "8.5.12"
+            },
+            {
+              "signature": 5072,
+              "version": "8.5.12"
+            },
+            {
+              "signature": 5073,
+              "version": "8.4.27"
+            },
+            {
+              "signature": 5074,
+              "version": "8.2.35"
+            },
+            {
+              "signature": 5075,
+              "version": "8.5.12"
+            },
+            {
+              "signature": 5075,
+              "version": "8.2.35"
+            },
+            {
+              "signature": 5076,
+              "version": "8.3.36"
+            },
+            {
+              "signature": 5077,
+              "version": "8.3.36"
+            },
+            {
+              "signature": 5109,
+              "version": "8.4.27"
             }
           ],
           "labels": [
+            "devtool",
+            "devtool",
+            "devtool",
+            "devtool",
+            "devtool",
+            "devtool",
+            "devtool",
+            "devtool",
             "devtool"
           ],
           "languages": [],
@@ -12401,6 +12663,166 @@ SUPPORT_CHARTS = {
               },
               "data_source": "Opswat",
               "sig_name": "PHP",
+              "methods": {}
+            },
+            "5071": {
+              "signature": 5071,
+              "product": {
+                "id": 1136,
+                "name": "PHP"
+              },
+              "vendor": {
+                "id": 686,
+                "name": "The PHP Group"
+              },
+              "categories": {
+                "10": {
+                  "id": 10,
+                  "name": "UNCLASSIFIED"
+                }
+              },
+              "data_source": "Opswat",
+              "sig_name": "PHP 8.5",
+              "methods": {}
+            },
+            "5072": {
+              "signature": 5072,
+              "product": {
+                "id": 1136,
+                "name": "PHP"
+              },
+              "vendor": {
+                "id": 686,
+                "name": "The PHP Group"
+              },
+              "categories": {
+                "10": {
+                  "id": 10,
+                  "name": "UNCLASSIFIED"
+                }
+              },
+              "data_source": "Opswat",
+              "sig_name": "PHP NTS 8.5",
+              "methods": {}
+            },
+            "5073": {
+              "signature": 5073,
+              "product": {
+                "id": 1136,
+                "name": "PHP"
+              },
+              "vendor": {
+                "id": 686,
+                "name": "The PHP Group"
+              },
+              "categories": {
+                "10": {
+                  "id": 10,
+                  "name": "UNCLASSIFIED"
+                }
+              },
+              "data_source": "Opswat",
+              "sig_name": "PHP NTS 8.4",
+              "methods": {}
+            },
+            "5074": {
+              "signature": 5074,
+              "product": {
+                "id": 1136,
+                "name": "PHP"
+              },
+              "vendor": {
+                "id": 686,
+                "name": "The PHP Group"
+              },
+              "categories": {
+                "10": {
+                  "id": 10,
+                  "name": "UNCLASSIFIED"
+                }
+              },
+              "data_source": "Opswat",
+              "sig_name": "PHP NTS 8.2",
+              "methods": {}
+            },
+            "5075": {
+              "signature": 5075,
+              "product": {
+                "id": 1136,
+                "name": "PHP"
+              },
+              "vendor": {
+                "id": 686,
+                "name": "The PHP Group"
+              },
+              "categories": {
+                "10": {
+                  "id": 10,
+                  "name": "UNCLASSIFIED"
+                }
+              },
+              "data_source": "Opswat",
+              "sig_name": "PHP 8.2",
+              "methods": {}
+            },
+            "5076": {
+              "signature": 5076,
+              "product": {
+                "id": 1136,
+                "name": "PHP"
+              },
+              "vendor": {
+                "id": 686,
+                "name": "The PHP Group"
+              },
+              "categories": {
+                "10": {
+                  "id": 10,
+                  "name": "UNCLASSIFIED"
+                }
+              },
+              "data_source": "Opswat",
+              "sig_name": "PHP NTS 8.3",
+              "methods": {}
+            },
+            "5077": {
+              "signature": 5077,
+              "product": {
+                "id": 1136,
+                "name": "PHP"
+              },
+              "vendor": {
+                "id": 686,
+                "name": "The PHP Group"
+              },
+              "categories": {
+                "10": {
+                  "id": 10,
+                  "name": "UNCLASSIFIED"
+                }
+              },
+              "data_source": "Opswat",
+              "sig_name": "PHP 8.3",
+              "methods": {}
+            },
+            "5109": {
+              "signature": 5109,
+              "product": {
+                "id": 1136,
+                "name": "PHP"
+              },
+              "vendor": {
+                "id": 686,
+                "name": "The PHP Group"
+              },
+              "categories": {
+                "10": {
+                  "id": 10,
+                  "name": "UNCLASSIFIED"
+                }
+              },
+              "data_source": "Opswat",
+              "sig_name": "PHP 8.4",
               "methods": {}
             }
           }
@@ -43435,6 +43857,10 @@ SUPPORT_CHARTS = {
               "version": "26.04"
             },
             {
+              "signature": 200,
+              "version": "26.05"
+            },
+            {
               "signature": 3112,
               "version": "19.00"
             },
@@ -43495,6 +43921,10 @@ SUPPORT_CHARTS = {
               "version": "26.04"
             },
             {
+              "signature": 3112,
+              "version": "26.05"
+            },
+            {
               "signature": 3812,
               "version": "24.04"
             },
@@ -43547,6 +43977,10 @@ SUPPORT_CHARTS = {
               "version": "26.04"
             },
             {
+              "signature": 3812,
+              "version": "26.05"
+            },
+            {
               "signature": 3813,
               "version": "24.04"
             },
@@ -43589,6 +44023,10 @@ SUPPORT_CHARTS = {
             {
               "signature": 3813,
               "version": "26.04"
+            },
+            {
+              "signature": 3813,
+              "version": "26.05"
             },
             {
               "signature": 3815,
@@ -43671,6 +44109,10 @@ SUPPORT_CHARTS = {
             {
               "signature": 3815,
               "version": "26.04"
+            },
+            {
+              "signature": 3815,
+              "version": "26.05"
             }
           ],
           "labels": [],
@@ -46112,9 +46554,6 @@ SUPPORT_CHARTS = {
               "version": "1.2.82.428"
             },
             {
-              "methodsStatus": {
-                "102": -1
-              },
               "signature": 204,
               "version": "1.2.84.465"
             },
@@ -46181,6 +46620,14 @@ SUPPORT_CHARTS = {
             {
               "signature": 204,
               "version": "1.3.4.258"
+            },
+            {
+              "signature": 204,
+              "version": "1.3.5.3058"
+            },
+            {
+              "signature": 204,
+              "version": "1.3.6.1921"
             }
           ],
           "labels": [],
@@ -60828,7 +61275,50 @@ SUPPORT_CHARTS = {
               },
               "data_source": "Opswat",
               "sig_name": "Internet Download Manager",
-              "methods": {}
+              "methods": {
+                "manageability": {
+                  "100": {
+                    "id": 100,
+                    "meta_data": {
+                      "param_support": {
+                        "output": {
+                          "version": {
+                            "_supported": true,
+                            "_optional": false
+                          },
+                          "architecture": {
+                            "_supported": true,
+                            "_optional": false,
+                            "name": {
+                              "_supported": true,
+                              "_optional": false
+                            },
+                            "bitness": {
+                              "_supported": true,
+                              "_optional": false
+                            }
+                          },
+                          "language": {
+                            "_supported": true,
+                            "_optional": false,
+                            "code": {
+                              "_supported": true,
+                              "_optional": false
+                            },
+                            "name": {
+                              "_supported": true,
+                              "_optional": false
+                            }
+                          }
+                        }
+                      },
+                      "admin_required": false,
+                      "notes": "First-ever GetVersion script for signature 248 (no methods entry existed); the engine's generic fallback was reporting the main exe's raw 4-part file version (6.43.15.2) instead of the product's own UI/registry format (6.43.15)."
+                    },
+                    "name": "GetVersion"
+                  }
+                }
+              }
             }
           }
         },
@@ -79221,6 +79711,10 @@ SUPPORT_CHARTS = {
             {
               "signature": 3029,
               "version": "16.0.20228.20158"
+            },
+            {
+              "signature": 3029,
+              "version": "16.0.20527.20088"
             }
           ],
           "labels": [],
@@ -79995,6 +80489,14 @@ SUPPORT_CHARTS = {
             {
               "signature": 3033,
               "version": "26.002.21931"
+            },
+            {
+              "signature": 3033,
+              "version": "26.002.21996"
+            },
+            {
+              "signature": 3033,
+              "version": "26.002.22031"
             }
           ],
           "labels": [],
@@ -92180,6 +92682,14 @@ SUPPORT_CHARTS = {
               "version": "1.141.0"
             },
             {
+              "signature": 3202,
+              "version": "1.141.2"
+            },
+            {
+              "signature": 3202,
+              "version": "1.143.1"
+            },
+            {
               "signature": 3217,
               "version": "1.31.1"
             },
@@ -92260,11 +92770,6 @@ SUPPORT_CHARTS = {
               "version": "1.109.2"
             },
             {
-              "methodsStatus": {
-                "101": -1,
-                "102": -1,
-                "103": -1
-              },
               "signature": 3217,
               "version": "1.109.3"
             },
@@ -92353,11 +92858,6 @@ SUPPORT_CHARTS = {
               "version": "1.136.0"
             },
             {
-              "methodsStatus": {
-                "101": -1,
-                "102": -1,
-                "103": -1
-              },
               "signature": 3217,
               "version": "1.136.1"
             },
@@ -92384,6 +92884,10 @@ SUPPORT_CHARTS = {
             {
               "signature": 3217,
               "version": "1.141.0"
+            },
+            {
+              "signature": 3217,
+              "version": "1.141.2"
             },
             {
               "signature": 3218,
@@ -92560,6 +93064,14 @@ SUPPORT_CHARTS = {
               "version": "1.140.0"
             },
             {
+              "signature": 3800,
+              "version": "1.141.0"
+            },
+            {
+              "signature": 3800,
+              "version": "1.142.0"
+            },
+            {
               "signature": 3801,
               "version": "1.88.1"
             },
@@ -92718,6 +93230,14 @@ SUPPORT_CHARTS = {
             {
               "signature": 3801,
               "version": "1.140.0"
+            },
+            {
+              "signature": 3801,
+              "version": "1.141.0"
+            },
+            {
+              "signature": 3801,
+              "version": "1.142.0"
             }
           ],
           "labels": [],
@@ -97273,6 +97793,10 @@ SUPPORT_CHARTS = {
               "version": "16.0.20228.20158"
             },
             {
+              "signature": 3676,
+              "version": "16.0.20326.20232"
+            },
+            {
               "signature": 3894,
               "version": "16.0.18025.20030"
             },
@@ -99886,39 +100410,15 @@ SUPPORT_CHARTS = {
             },
             {
               "signature": 3260,
-              "version": "2025.2.3.8.0"
-            },
-            {
-              "signature": 3260,
-              "version": "2026.1.0.1681.0"
-            },
-            {
-              "methodsStatus": {
-                "1001": -1,
-                "1002": -1,
-                "1004": -1,
-                "1005": -1,
-                "1006": -1,
-                "1007": -1,
-                "102": -1,
-                "1022": -1,
-                "103": -1,
-                "104": -1,
-                "105": -1,
-                "106": -1,
-                "108": -1,
-                "110": -1
-              },
-              "signature": 3260,
-              "version": "2026.2.0.42.0"
-            },
-            {
-              "signature": 3260,
               "version": "2026.2.1.3.0"
             },
             {
               "signature": 3260,
-              "version": "2026.2.2.1.0"
+              "version": "2026.3.0.2090.0"
+            },
+            {
+              "signature": 3260,
+              "version": "2026.3.0.2090"
             }
           ],
           "labels": [],
@@ -100035,6 +100535,16 @@ SUPPORT_CHARTS = {
                             "_supported": true,
                             "_optional": false
                           },
+                          "state": {
+                            "_supported": false,
+                            "_optional": true,
+                            "_values": {
+                              "enabled": false,
+                              "disabled": false,
+                              "initializing": false,
+                              "unknown": false
+                            }
+                          },
                           "has_internet_connectivity": {
                             "_supported": false,
                             "_optional": true
@@ -100062,10 +100572,26 @@ SUPPORT_CHARTS = {
                                 "_optional": true
                               }
                             }
+                          },
+                          "managed_by_3rd_party_products": {
+                            "_supported": false,
+                            "_optional": true,
+                            "product_name": {
+                              "_supported": false,
+                              "_optional": true
+                            },
+                            "remediation_path": {
+                              "_supported": false,
+                              "_optional": true
+                            },
+                            "signature": {
+                              "_supported": false,
+                              "_optional": true
+                            }
                           }
                         }
                       },
-                      "admin_required": true,
+                      "admin_required": false,
                       "notes": ""
                     },
                     "name": "GetRealTimeProtectionState"
@@ -122534,7 +123060,6 @@ SUPPORT_CHARTS = {
                     "id": 100,
                     "meta_data": {
                       "param_support": {
-                        "input": [],
                         "output": {
                           "version": {
                             "_supported": true,
@@ -122544,12 +123069,12 @@ SUPPORT_CHARTS = {
                             "_supported": true,
                             "_optional": false,
                             "name": {
-                              "_supported": false,
-                              "_optional": true
+                              "_supported": true,
+                              "_optional": false
                             },
                             "bitness": {
-                              "_supported": false,
-                              "_optional": true
+                              "_supported": true,
+                              "_optional": false
                             }
                           },
                           "language": {
@@ -168415,381 +168940,6 @@ SUPPORT_CHARTS = {
             }
           }
         },
-        "3684": {
-          "id": 3684,
-          "tested_points": [
-            {
-              "signature": 4105,
-              "version": "0.13.2"
-            },
-            {
-              "signature": 4105,
-              "version": "0.13.5"
-            }
-          ],
-          "labels": [],
-          "languages": [],
-          "name": "Ollama",
-          "signatures": {
-            "4105": {
-              "signature": 4105,
-              "product": {
-                "id": 3684,
-                "name": "Ollama"
-              },
-              "vendor": {
-                "id": 1875,
-                "name": "Ollama"
-              },
-              "categories": {
-                "10": {
-                  "id": 10,
-                  "name": "UNCLASSIFIED"
-                }
-              },
-              "data_source": "Opswat",
-              "sig_name": "Ollama",
-              "methods": {
-                "manageability": {
-                  "100": {
-                    "id": 100,
-                    "meta_data": {
-                      "param_support": {
-                        "input": {
-                          "instance_id": {
-                            "_supported": false,
-                            "_optional": true
-                          }
-                        },
-                        "output": {
-                          "version": {
-                            "_supported": true,
-                            "_optional": false
-                          },
-                          "architecture": {
-                            "_supported": true,
-                            "_optional": false,
-                            "name": {
-                              "_supported": true,
-                              "_optional": false
-                            },
-                            "bitness": {
-                              "_supported": true,
-                              "_optional": false
-                            }
-                          },
-                          "language": {
-                            "_supported": true,
-                            "_optional": false,
-                            "code": {
-                              "_supported": true,
-                              "_optional": false
-                            },
-                            "name": {
-                              "_supported": true,
-                              "_optional": false
-                            }
-                          },
-                          "channel": {
-                            "_supported": false,
-                            "_optional": true
-                          },
-                          "release": {
-                            "_supported": false,
-                            "_optional": true
-                          }
-                        }
-                      },
-                      "admin_required": false,
-                      "notes": ""
-                    },
-                    "name": "GetVersion"
-                  },
-                  "101": {
-                    "id": 101,
-                    "meta_data": {
-                      "param_support": {
-                        "input": {
-                          "instance_id": {
-                            "_supported": false,
-                            "_optional": true
-                          }
-                        },
-                        "output": {
-                          "running": {
-                            "_supported": true,
-                            "_optional": false
-                          }
-                        }
-                      },
-                      "admin_required": false,
-                      "notes": ""
-                    },
-                    "name": "GetRunningState"
-                  },
-                  "102": {
-                    "id": 102,
-                    "meta_data": {
-                      "param_support": {
-                        "input": {
-                          "instance_id": {
-                            "_supported": false,
-                            "_optional": true
-                          }
-                        },
-                        "output": []
-                      },
-                      "admin_required": false,
-                      "notes": ""
-                    },
-                    "name": "Run"
-                  },
-                  "103": {
-                    "id": 103,
-                    "meta_data": {
-                      "param_support": {
-                        "input": {
-                          "instance_id": {
-                            "_supported": false,
-                            "_optional": true
-                          }
-                        },
-                        "output": []
-                      },
-                      "admin_required": false,
-                      "notes": ""
-                    },
-                    "name": "TerminateProcesses"
-                  },
-                  "104": {
-                    "id": 104,
-                    "meta_data": {
-                      "param_support": {
-                        "input": {
-                          "instance_id": {
-                            "_supported": false,
-                            "_optional": true
-                          }
-                        },
-                        "output": {
-                          "main": {
-                            "_supported": true,
-                            "_optional": false
-                          },
-                          "directories": {
-                            "_supported": true,
-                            "_optional": false
-                          }
-                        }
-                      },
-                      "admin_required": false,
-                      "notes": ""
-                    },
-                    "name": "GetInstallationDirectories"
-                  },
-                  "105": {
-                    "id": 105,
-                    "meta_data": {
-                      "param_support": {
-                        "input": {
-                          "include_services": {
-                            "_supported": false,
-                            "_optional": true
-                          },
-                          "instance_id": {
-                            "_supported": false,
-                            "_optional": true
-                          }
-                        },
-                        "output": {
-                          "components": {
-                            "_supported": true,
-                            "_optional": false,
-                            "path": {
-                              "_supported": true,
-                              "_optional": false
-                            },
-                            "version": {
-                              "_supported": true,
-                              "_optional": false
-                            },
-                            "description": {
-                              "_supported": true,
-                              "_optional": false
-                            }
-                          },
-                          "services": {
-                            "_supported": false,
-                            "_optional": true,
-                            "name": {
-                              "_supported": true,
-                              "_optional": false
-                            },
-                            "path": {
-                              "_supported": true,
-                              "_optional": false
-                            },
-                            "state": {
-                              "_supported": true,
-                              "_optional": false
-                            },
-                            "md5": {
-                              "_supported": true,
-                              "_optional": false
-                            }
-                          }
-                        }
-                      },
-                      "admin_required": false,
-                      "notes": ""
-                    },
-                    "name": "GetComponents"
-                  },
-                  "106": {
-                    "id": 106,
-                    "meta_data": {
-                      "param_support": {
-                        "input": [],
-                        "output": {
-                          "uninstall": {
-                            "_supported": true,
-                            "_optional": false
-                          }
-                        }
-                      },
-                      "admin_required": false,
-                      "notes": ""
-                    },
-                    "name": "GetUninstallString"
-                  },
-                  "108": {
-                    "id": 108,
-                    "meta_data": {
-                      "param_support": {
-                        "input": {
-                          "instance_id": {
-                            "_supported": false,
-                            "_optional": true
-                          },
-                          "hash_binary": {
-                            "_supported": false,
-                            "_optional": true
-                          }
-                        },
-                        "output": {
-                          "authentic": {
-                            "_supported": true,
-                            "_optional": false
-                          },
-                          "details": {
-                            "_supported": true,
-                            "_optional": false,
-                            "file": {
-                              "_supported": true,
-                              "_optional": false
-                            },
-                            "status": {
-                              "_supported": true,
-                              "_optional": false
-                            },
-                            "signing_code": {
-                              "_supported": true,
-                              "_optional": false
-                            },
-                            "sha256": {
-                              "_supported": false,
-                              "_optional": true
-                            },
-                            "certificate_info": {
-                              "_supported": false,
-                              "_optional": true,
-                              "issuer": {
-                                "_supported": false,
-                                "_optional": true
-                              },
-                              "subject": {
-                                "_supported": false,
-                                "_optional": true
-                              },
-                              "valid_from": {
-                                "_supported": false,
-                                "_optional": true
-                              },
-                              "valid_to": {
-                                "_supported": false,
-                                "_optional": true
-                              },
-                              "serial_number": {
-                                "_supported": false,
-                                "_optional": true
-                              },
-                              "thumbprint": {
-                                "_supported": false,
-                                "_optional": true
-                              }
-                            }
-                          }
-                        }
-                      },
-                      "admin_required": false,
-                      "notes": ""
-                    },
-                    "name": "IsAuthentic"
-                  },
-                  "110": {
-                    "id": 110,
-                    "meta_data": {
-                      "param_support": {
-                        "input": [],
-                        "output": {
-                          "uninstall_hive": {
-                            "_supported": true,
-                            "_optional": false,
-                            "KeyName": {
-                              "_supported": false,
-                              "_optional": true
-                            },
-                            "DisplayName": {
-                              "_supported": false,
-                              "_optional": true
-                            },
-                            "DisplayVersion": {
-                              "_supported": false,
-                              "_optional": true
-                            },
-                            "InstallLocation": {
-                              "_supported": false,
-                              "_optional": true
-                            },
-                            "UninstallString": {
-                              "_supported": false,
-                              "_optional": true
-                            },
-                            "InstallDate": {
-                              "_supported": false,
-                              "_optional": true
-                            },
-                            "ModifyPath": {
-                              "_supported": false,
-                              "_optional": true
-                            },
-                            "Publisher": {
-                              "_supported": false,
-                              "_optional": true
-                            }
-                          }
-                        }
-                      },
-                      "admin_required": false,
-                      "notes": ""
-                    },
-                    "name": "GetUninstallHive"
-                  }
-                }
-              }
-            }
-          }
-        },
         "3686": {
           "id": 3686,
           "tested_points": [
@@ -189761,6 +189911,64 @@ SUPPORT_CHARTS = {
             }
           }
         },
+        "4358": {
+          "id": 4358,
+          "tested_points": [],
+          "labels": [],
+          "languages": [],
+          "name": "Xournal++",
+          "signatures": {
+            "4817": {
+              "signature": 4817,
+              "product": {
+                "id": 4358,
+                "name": "Xournal++"
+              },
+              "vendor": {
+                "id": 2446,
+                "name": "The Xournal++ Team"
+              },
+              "categories": {
+                "10": {
+                  "id": 10,
+                  "name": "UNCLASSIFIED"
+                }
+              },
+              "data_source": "winget",
+              "sig_name": "Xournal++",
+              "methods": {}
+            }
+          }
+        },
+        "4359": {
+          "id": 4359,
+          "tested_points": [],
+          "labels": [],
+          "languages": [],
+          "name": "Shotcut",
+          "signatures": {
+            "4818": {
+              "signature": 4818,
+              "product": {
+                "id": 4359,
+                "name": "Shotcut"
+              },
+              "vendor": {
+                "id": 2447,
+                "name": "Meltytech"
+              },
+              "categories": {
+                "10": {
+                  "id": 10,
+                  "name": "UNCLASSIFIED"
+                }
+              },
+              "data_source": "winget",
+              "sig_name": "Shotcut",
+              "methods": {}
+            }
+          }
+        },
         "436": {
           "id": 436,
           "tested_points": [
@@ -189793,6 +190001,122 @@ SUPPORT_CHARTS = {
               },
               "data_source": "Opswat",
               "sig_name": "O&O MediaRecovery",
+              "methods": {}
+            }
+          }
+        },
+        "4360": {
+          "id": 4360,
+          "tested_points": [],
+          "labels": [],
+          "languages": [],
+          "name": "File Converter",
+          "signatures": {
+            "4819": {
+              "signature": 4819,
+              "product": {
+                "id": 4360,
+                "name": "File Converter"
+              },
+              "vendor": {
+                "id": 2448,
+                "name": "Adrien Allard"
+              },
+              "categories": {
+                "10": {
+                  "id": 10,
+                  "name": "UNCLASSIFIED"
+                }
+              },
+              "data_source": "winget",
+              "sig_name": "File Converter",
+              "methods": {}
+            }
+          }
+        },
+        "4363": {
+          "id": 4363,
+          "tested_points": [],
+          "labels": [],
+          "languages": [],
+          "name": "MuseScore",
+          "signatures": {
+            "4822": {
+              "signature": 4822,
+              "product": {
+                "id": 4363,
+                "name": "MuseScore"
+              },
+              "vendor": {
+                "id": 2451,
+                "name": "MuseScore BVBA and Others"
+              },
+              "categories": {
+                "10": {
+                  "id": 10,
+                  "name": "UNCLASSIFIED"
+                }
+              },
+              "data_source": "winget",
+              "sig_name": "MuseScore",
+              "methods": {}
+            }
+          }
+        },
+        "4367": {
+          "id": 4367,
+          "tested_points": [],
+          "labels": [],
+          "languages": [],
+          "name": "Notesnook",
+          "signatures": {
+            "4826": {
+              "signature": 4826,
+              "product": {
+                "id": 4367,
+                "name": "Notesnook"
+              },
+              "vendor": {
+                "id": 2455,
+                "name": "Streetwriters"
+              },
+              "categories": {
+                "10": {
+                  "id": 10,
+                  "name": "UNCLASSIFIED"
+                }
+              },
+              "data_source": "winget",
+              "sig_name": "Notesnook",
+              "methods": {}
+            }
+          }
+        },
+        "4368": {
+          "id": 4368,
+          "tested_points": [],
+          "labels": [],
+          "languages": [],
+          "name": "Notepad Next",
+          "signatures": {
+            "4827": {
+              "signature": 4827,
+              "product": {
+                "id": 4368,
+                "name": "Notepad Next"
+              },
+              "vendor": {
+                "id": 2456,
+                "name": "Notepad Next"
+              },
+              "categories": {
+                "10": {
+                  "id": 10,
+                  "name": "UNCLASSIFIED"
+                }
+              },
+              "data_source": "winget",
+              "sig_name": "Notepad Next",
               "methods": {}
             }
           }
@@ -189831,6 +190155,383 @@ SUPPORT_CHARTS = {
             }
           }
         },
+        "4370": {
+          "id": 4370,
+          "tested_points": [],
+          "labels": [],
+          "languages": [],
+          "name": "Espanso",
+          "signatures": {
+            "4829": {
+              "signature": 4829,
+              "product": {
+                "id": 4370,
+                "name": "Espanso"
+              },
+              "vendor": {
+                "id": 2458,
+                "name": "Federico Terzi"
+              },
+              "categories": {
+                "10": {
+                  "id": 10,
+                  "name": "UNCLASSIFIED"
+                }
+              },
+              "data_source": "winget",
+              "sig_name": "Espanso",
+              "methods": {}
+            }
+          }
+        },
+        "4373": {
+          "id": 4373,
+          "tested_points": [],
+          "labels": [],
+          "languages": [],
+          "name": "ImageGlass",
+          "signatures": {
+            "4832": {
+              "signature": 4832,
+              "product": {
+                "id": 4373,
+                "name": "ImageGlass"
+              },
+              "vendor": {
+                "id": 2461,
+                "name": "Duong Dieu Phap"
+              },
+              "categories": {
+                "10": {
+                  "id": 10,
+                  "name": "UNCLASSIFIED"
+                }
+              },
+              "data_source": "winget",
+              "sig_name": "ImageGlass",
+              "methods": {}
+            }
+          }
+        },
+        "4374": {
+          "id": 4374,
+          "tested_points": [],
+          "labels": [],
+          "languages": [],
+          "name": "QGIS",
+          "signatures": {
+            "4833": {
+              "signature": 4833,
+              "product": {
+                "id": 4374,
+                "name": "QGIS"
+              },
+              "vendor": {
+                "id": 2462,
+                "name": "QGIS.org"
+              },
+              "categories": {
+                "10": {
+                  "id": 10,
+                  "name": "UNCLASSIFIED"
+                }
+              },
+              "data_source": "winget",
+              "sig_name": "QGIS",
+              "methods": {}
+            }
+          }
+        },
+        "4378": {
+          "id": 4378,
+          "tested_points": [],
+          "labels": [],
+          "languages": [],
+          "name": "easytier-gui",
+          "signatures": {
+            "4837": {
+              "signature": 4837,
+              "product": {
+                "id": 4378,
+                "name": "easytier-gui"
+              },
+              "vendor": {
+                "id": 2466,
+                "name": "kkrainbow"
+              },
+              "categories": {
+                "10": {
+                  "id": 10,
+                  "name": "UNCLASSIFIED"
+                }
+              },
+              "data_source": "winget",
+              "sig_name": "easytier-gui",
+              "methods": {}
+            }
+          }
+        },
+        "4380": {
+          "id": 4380,
+          "tested_points": [],
+          "labels": [],
+          "languages": [],
+          "name": "Zettlr",
+          "signatures": {
+            "4839": {
+              "signature": 4839,
+              "product": {
+                "id": 4380,
+                "name": "Zettlr"
+              },
+              "vendor": {
+                "id": 2468,
+                "name": "Hendrik Erz"
+              },
+              "categories": {
+                "10": {
+                  "id": 10,
+                  "name": "UNCLASSIFIED"
+                }
+              },
+              "data_source": "winget",
+              "sig_name": "Zettlr",
+              "methods": {}
+            }
+          }
+        },
+        "4383": {
+          "id": 4383,
+          "tested_points": [],
+          "labels": [],
+          "languages": [],
+          "name": "darktable",
+          "signatures": {
+            "4842": {
+              "signature": 4842,
+              "product": {
+                "id": 4383,
+                "name": "darktable"
+              },
+              "vendor": {
+                "id": 2471,
+                "name": "darktable team"
+              },
+              "categories": {
+                "10": {
+                  "id": 10,
+                  "name": "UNCLASSIFIED"
+                }
+              },
+              "data_source": "winget",
+              "sig_name": "darktable",
+              "methods": {}
+            }
+          }
+        },
+        "4384": {
+          "id": 4384,
+          "tested_points": [],
+          "labels": [],
+          "languages": [],
+          "name": "Tiny RDM",
+          "signatures": {
+            "4843": {
+              "signature": 4843,
+              "product": {
+                "id": 4384,
+                "name": "Tiny RDM"
+              },
+              "vendor": {
+                "id": 2472,
+                "name": "Tiny Craft"
+              },
+              "categories": {
+                "10": {
+                  "id": 10,
+                  "name": "UNCLASSIFIED"
+                }
+              },
+              "data_source": "winget",
+              "sig_name": "Tiny RDM",
+              "methods": {}
+            }
+          }
+        },
+        "4385": {
+          "id": 4385,
+          "tested_points": [],
+          "labels": [],
+          "languages": [],
+          "name": "Tiled",
+          "signatures": {
+            "4844": {
+              "signature": 4844,
+              "product": {
+                "id": 4385,
+                "name": "Tiled"
+              },
+              "vendor": {
+                "id": 2473,
+                "name": "mapeditor.org"
+              },
+              "categories": {
+                "10": {
+                  "id": 10,
+                  "name": "UNCLASSIFIED"
+                }
+              },
+              "data_source": "winget",
+              "sig_name": "Tiled",
+              "methods": {}
+            }
+          }
+        },
+        "4386": {
+          "id": 4386,
+          "tested_points": [],
+          "labels": [],
+          "languages": [],
+          "name": "GlazeWM",
+          "signatures": {
+            "4845": {
+              "signature": 4845,
+              "product": {
+                "id": 4386,
+                "name": "GlazeWM"
+              },
+              "vendor": {
+                "id": 2474,
+                "name": "Glzr Software Pte. Ltd."
+              },
+              "categories": {
+                "10": {
+                  "id": 10,
+                  "name": "UNCLASSIFIED"
+                }
+              },
+              "data_source": "winget",
+              "sig_name": "GlazeWM",
+              "methods": {}
+            }
+          }
+        },
+        "4387": {
+          "id": 4387,
+          "tested_points": [],
+          "labels": [],
+          "languages": [],
+          "name": "Zeal",
+          "signatures": {
+            "4846": {
+              "signature": 4846,
+              "product": {
+                "id": 4387,
+                "name": "Zeal"
+              },
+              "vendor": {
+                "id": 2475,
+                "name": "Oleg Shparber"
+              },
+              "categories": {
+                "10": {
+                  "id": 10,
+                  "name": "UNCLASSIFIED"
+                }
+              },
+              "data_source": "winget",
+              "sig_name": "Zeal",
+              "methods": {}
+            }
+          }
+        },
+        "4394": {
+          "id": 4394,
+          "tested_points": [],
+          "labels": [],
+          "languages": [],
+          "name": "WordPress.com",
+          "signatures": {
+            "4853": {
+              "signature": 4853,
+              "product": {
+                "id": 4394,
+                "name": "WordPress.com"
+              },
+              "vendor": {
+                "id": 2477,
+                "name": "Automattic Inc."
+              },
+              "categories": {
+                "10": {
+                  "id": 10,
+                  "name": "UNCLASSIFIED"
+                }
+              },
+              "data_source": "winget",
+              "sig_name": "WordPress.com",
+              "methods": {}
+            }
+          }
+        },
+        "4398": {
+          "id": 4398,
+          "tested_points": [],
+          "labels": [],
+          "languages": [],
+          "name": "Erlang OTP",
+          "signatures": {
+            "4857": {
+              "signature": 4857,
+              "product": {
+                "id": 4398,
+                "name": "Erlang OTP"
+              },
+              "vendor": {
+                "id": 2481,
+                "name": "Ericsson AB"
+              },
+              "categories": {
+                "10": {
+                  "id": 10,
+                  "name": "UNCLASSIFIED"
+                }
+              },
+              "data_source": "winget",
+              "sig_name": "Erlang OTP",
+              "methods": {}
+            }
+          }
+        },
+        "4399": {
+          "id": 4399,
+          "tested_points": [],
+          "labels": [],
+          "languages": [],
+          "name": "CopyQ",
+          "signatures": {
+            "4858": {
+              "signature": 4858,
+              "product": {
+                "id": 4399,
+                "name": "CopyQ"
+              },
+              "vendor": {
+                "id": 2482,
+                "name": "Lukas Holecek"
+              },
+              "categories": {
+                "10": {
+                  "id": 10,
+                  "name": "UNCLASSIFIED"
+                }
+              },
+              "data_source": "winget",
+              "sig_name": "CopyQ",
+              "methods": {}
+            }
+          }
+        },
         "440": {
           "id": 440,
           "tested_points": [
@@ -189865,6 +190566,185 @@ SUPPORT_CHARTS = {
             }
           }
         },
+        "4400": {
+          "id": 4400,
+          "tested_points": [],
+          "labels": [],
+          "languages": [],
+          "name": "XMake build utility",
+          "signatures": {
+            "4859": {
+              "signature": 4859,
+              "product": {
+                "id": 4400,
+                "name": "XMake build utility"
+              },
+              "vendor": {
+                "id": 2483,
+                "name": "The TBOOX Open Source Group"
+              },
+              "categories": {
+                "10": {
+                  "id": 10,
+                  "name": "UNCLASSIFIED"
+                }
+              },
+              "data_source": "winget",
+              "sig_name": "XMake build utility",
+              "methods": {}
+            }
+          }
+        },
+        "4401": {
+          "id": 4401,
+          "tested_points": [],
+          "labels": [],
+          "languages": [],
+          "name": "Sonic Pi",
+          "signatures": {
+            "4860": {
+              "signature": 4860,
+              "product": {
+                "id": 4401,
+                "name": "Sonic Pi"
+              },
+              "vendor": {
+                "id": 2484,
+                "name": "Sonic Pi"
+              },
+              "categories": {
+                "10": {
+                  "id": 10,
+                  "name": "UNCLASSIFIED"
+                }
+              },
+              "data_source": "winget",
+              "sig_name": "Sonic Pi",
+              "methods": {}
+            }
+          }
+        },
+        "4403": {
+          "id": 4403,
+          "tested_points": [],
+          "labels": [],
+          "languages": [],
+          "name": "OpenRefine",
+          "signatures": {
+            "4862": {
+              "signature": 4862,
+              "product": {
+                "id": 4403,
+                "name": "OpenRefine"
+              },
+              "vendor": {
+                "id": 2486,
+                "name": "OpenRefine"
+              },
+              "categories": {
+                "10": {
+                  "id": 10,
+                  "name": "UNCLASSIFIED"
+                }
+              },
+              "data_source": "winget",
+              "sig_name": "OpenRefine",
+              "methods": {}
+            }
+          }
+        },
+        "4405": {
+          "id": 4405,
+          "tested_points": [
+            {
+              "signature": 4864,
+              "version": "0.15.1"
+            }
+          ],
+          "labels": [],
+          "languages": [],
+          "name": "OpenPencil",
+          "signatures": {
+            "4864": {
+              "signature": 4864,
+              "product": {
+                "id": 4405,
+                "name": "OpenPencil"
+              },
+              "vendor": {
+                "id": 2488,
+                "name": "dannote"
+              },
+              "categories": {
+                "10": {
+                  "id": 10,
+                  "name": "UNCLASSIFIED"
+                }
+              },
+              "data_source": "Opswat",
+              "sig_name": "OpenPencil",
+              "methods": {}
+            }
+          }
+        },
+        "4406": {
+          "id": 4406,
+          "tested_points": [],
+          "labels": [],
+          "languages": [],
+          "name": "Rnote",
+          "signatures": {
+            "4865": {
+              "signature": 4865,
+              "product": {
+                "id": 4406,
+                "name": "Rnote"
+              },
+              "vendor": {
+                "id": 2489,
+                "name": "Felix Zwettler"
+              },
+              "categories": {
+                "10": {
+                  "id": 10,
+                  "name": "UNCLASSIFIED"
+                }
+              },
+              "data_source": "winget",
+              "sig_name": "Rnote",
+              "methods": {}
+            }
+          }
+        },
+        "4409": {
+          "id": 4409,
+          "tested_points": [],
+          "labels": [],
+          "languages": [],
+          "name": "RenderDoc",
+          "signatures": {
+            "4868": {
+              "signature": 4868,
+              "product": {
+                "id": 4409,
+                "name": "RenderDoc"
+              },
+              "vendor": {
+                "id": 2492,
+                "name": "Baldur Karlsson"
+              },
+              "categories": {
+                "10": {
+                  "id": 10,
+                  "name": "UNCLASSIFIED"
+                }
+              },
+              "data_source": "winget",
+              "sig_name": "RenderDoc",
+              "methods": {}
+            }
+          }
+        },
         "441": {
           "id": 441,
           "tested_points": [
@@ -189895,6 +190775,151 @@ SUPPORT_CHARTS = {
               },
               "data_source": "Opswat",
               "sig_name": "ViceVersa FREE",
+              "methods": {}
+            }
+          }
+        },
+        "4412": {
+          "id": 4412,
+          "tested_points": [],
+          "labels": [],
+          "languages": [],
+          "name": "MotrixNext",
+          "signatures": {
+            "4871": {
+              "signature": 4871,
+              "product": {
+                "id": 4412,
+                "name": "MotrixNext"
+              },
+              "vendor": {
+                "id": 2494,
+                "name": "motrix"
+              },
+              "categories": {
+                "10": {
+                  "id": 10,
+                  "name": "UNCLASSIFIED"
+                }
+              },
+              "data_source": "winget",
+              "sig_name": "MotrixNext",
+              "methods": {}
+            }
+          }
+        },
+        "4416": {
+          "id": 4416,
+          "tested_points": [],
+          "labels": [],
+          "languages": [],
+          "name": "Krita",
+          "signatures": {
+            "4875": {
+              "signature": 4875,
+              "product": {
+                "id": 4416,
+                "name": "Krita"
+              },
+              "vendor": {
+                "id": 2497,
+                "name": "Krita Foundation"
+              },
+              "categories": {
+                "10": {
+                  "id": 10,
+                  "name": "UNCLASSIFIED"
+                }
+              },
+              "data_source": "winget",
+              "sig_name": "Krita",
+              "methods": {}
+            }
+          }
+        },
+        "4417": {
+          "id": 4417,
+          "tested_points": [],
+          "labels": [],
+          "languages": [],
+          "name": "Pixelorama",
+          "signatures": {
+            "4876": {
+              "signature": 4876,
+              "product": {
+                "id": 4417,
+                "name": "Pixelorama"
+              },
+              "vendor": {
+                "id": 2498,
+                "name": "Orama Interactive"
+              },
+              "categories": {
+                "10": {
+                  "id": 10,
+                  "name": "UNCLASSIFIED"
+                }
+              },
+              "data_source": "winget",
+              "sig_name": "Pixelorama",
+              "methods": {}
+            }
+          }
+        },
+        "4418": {
+          "id": 4418,
+          "tested_points": [],
+          "labels": [],
+          "languages": [],
+          "name": "YTDownloader",
+          "signatures": {
+            "4877": {
+              "signature": 4877,
+              "product": {
+                "id": 4418,
+                "name": "YTDownloader"
+              },
+              "vendor": {
+                "id": 2499,
+                "name": "Andrew"
+              },
+              "categories": {
+                "10": {
+                  "id": 10,
+                  "name": "UNCLASSIFIED"
+                }
+              },
+              "data_source": "winget",
+              "sig_name": "YTDownloader",
+              "methods": {}
+            }
+          }
+        },
+        "4419": {
+          "id": 4419,
+          "tested_points": [],
+          "labels": [],
+          "languages": [],
+          "name": "RapidRAW",
+          "signatures": {
+            "4878": {
+              "signature": 4878,
+              "product": {
+                "id": 4419,
+                "name": "RapidRAW"
+              },
+              "vendor": {
+                "id": 2500,
+                "name": "Timon Käch"
+              },
+              "categories": {
+                "10": {
+                  "id": 10,
+                  "name": "UNCLASSIFIED"
+                }
+              },
+              "data_source": "winget",
+              "sig_name": "RapidRAW",
               "methods": {}
             }
           }
@@ -189935,6 +190960,433 @@ SUPPORT_CHARTS = {
             }
           }
         },
+        "4420": {
+          "id": 4420,
+          "tested_points": [],
+          "labels": [],
+          "languages": [],
+          "name": "Lepton",
+          "signatures": {
+            "4879": {
+              "signature": 4879,
+              "product": {
+                "id": 4420,
+                "name": "Lepton"
+              },
+              "vendor": {
+                "id": 2501,
+                "name": "CosmoX"
+              },
+              "categories": {
+                "10": {
+                  "id": 10,
+                  "name": "UNCLASSIFIED"
+                }
+              },
+              "data_source": "winget",
+              "sig_name": "Lepton",
+              "methods": {}
+            }
+          }
+        },
+        "4421": {
+          "id": 4421,
+          "tested_points": [
+            {
+              "signature": 4880,
+              "version": "2.3.10"
+            },
+            {
+              "signature": 4881,
+              "version": "2.3.10"
+            },
+            {
+              "signature": 4882,
+              "version": "2.3.10"
+            }
+          ],
+          "labels": [],
+          "languages": [],
+          "name": "Arduino IDE",
+          "signatures": {
+            "4880": {
+              "signature": 4880,
+              "product": {
+                "id": 4421,
+                "name": "Arduino IDE"
+              },
+              "vendor": {
+                "id": 2502,
+                "name": "Arduino s.r.l."
+              },
+              "categories": {
+                "10": {
+                  "id": 10,
+                  "name": "UNCLASSIFIED"
+                }
+              },
+              "data_source": "Opswat",
+              "sig_name": "Arduino IDE exe",
+              "methods": {
+                "manageability": {
+                  "100": {
+                    "id": 100,
+                    "meta_data": {
+                      "param_support": {
+                        "input": {
+                          "instance_id": {
+                            "_supported": false,
+                            "_optional": true
+                          }
+                        },
+                        "output": {
+                          "version": {
+                            "_supported": true,
+                            "_optional": false
+                          },
+                          "architecture": {
+                            "_supported": true,
+                            "_optional": false,
+                            "name": {
+                              "_supported": true,
+                              "_optional": false
+                            },
+                            "bitness": {
+                              "_supported": true,
+                              "_optional": false
+                            }
+                          },
+                          "language": {
+                            "_supported": true,
+                            "_optional": false,
+                            "code": {
+                              "_supported": true,
+                              "_optional": false
+                            },
+                            "name": {
+                              "_supported": true,
+                              "_optional": false
+                            }
+                          },
+                          "channel": {
+                            "_supported": false,
+                            "_optional": true
+                          },
+                          "release": {
+                            "_supported": false,
+                            "_optional": true
+                          }
+                        }
+                      },
+                      "admin_required": false,
+                      "notes": ""
+                    },
+                    "name": "GetVersion"
+                  }
+                }
+              }
+            },
+            "4881": {
+              "signature": 4881,
+              "product": {
+                "id": 4421,
+                "name": "Arduino IDE"
+              },
+              "vendor": {
+                "id": 2502,
+                "name": "Arduino s.r.l."
+              },
+              "categories": {
+                "10": {
+                  "id": 10,
+                  "name": "UNCLASSIFIED"
+                }
+              },
+              "data_source": "Opswat",
+              "sig_name": "Arduino IDE exe (User)",
+              "methods": {
+                "manageability": {
+                  "100": {
+                    "id": 100,
+                    "meta_data": {
+                      "param_support": {
+                        "input": {
+                          "instance_id": {
+                            "_supported": false,
+                            "_optional": true
+                          }
+                        },
+                        "output": {
+                          "version": {
+                            "_supported": true,
+                            "_optional": false
+                          },
+                          "architecture": {
+                            "_supported": true,
+                            "_optional": false,
+                            "name": {
+                              "_supported": true,
+                              "_optional": false
+                            },
+                            "bitness": {
+                              "_supported": true,
+                              "_optional": false
+                            }
+                          },
+                          "language": {
+                            "_supported": true,
+                            "_optional": false,
+                            "code": {
+                              "_supported": true,
+                              "_optional": false
+                            },
+                            "name": {
+                              "_supported": true,
+                              "_optional": false
+                            }
+                          },
+                          "channel": {
+                            "_supported": false,
+                            "_optional": true
+                          },
+                          "release": {
+                            "_supported": false,
+                            "_optional": true
+                          }
+                        }
+                      },
+                      "admin_required": false,
+                      "notes": ""
+                    },
+                    "name": "GetVersion"
+                  }
+                }
+              }
+            },
+            "4882": {
+              "signature": 4882,
+              "product": {
+                "id": 4421,
+                "name": "Arduino IDE"
+              },
+              "vendor": {
+                "id": 2502,
+                "name": "Arduino s.r.l."
+              },
+              "categories": {
+                "10": {
+                  "id": 10,
+                  "name": "UNCLASSIFIED"
+                }
+              },
+              "data_source": "Opswat",
+              "sig_name": "Arduino IDE msi",
+              "methods": {
+                "manageability": {
+                  "100": {
+                    "id": 100,
+                    "meta_data": {
+                      "param_support": {
+                        "input": {
+                          "instance_id": {
+                            "_supported": false,
+                            "_optional": true
+                          }
+                        },
+                        "output": {
+                          "version": {
+                            "_supported": true,
+                            "_optional": false
+                          },
+                          "architecture": {
+                            "_supported": true,
+                            "_optional": false,
+                            "name": {
+                              "_supported": true,
+                              "_optional": false
+                            },
+                            "bitness": {
+                              "_supported": true,
+                              "_optional": false
+                            }
+                          },
+                          "language": {
+                            "_supported": true,
+                            "_optional": false,
+                            "code": {
+                              "_supported": true,
+                              "_optional": false
+                            },
+                            "name": {
+                              "_supported": true,
+                              "_optional": false
+                            }
+                          },
+                          "channel": {
+                            "_supported": false,
+                            "_optional": true
+                          },
+                          "release": {
+                            "_supported": false,
+                            "_optional": true
+                          }
+                        }
+                      },
+                      "admin_required": false,
+                      "notes": ""
+                    },
+                    "name": "GetVersion"
+                  }
+                }
+              }
+            }
+          }
+        },
+        "4422": {
+          "id": 4422,
+          "tested_points": [],
+          "labels": [],
+          "languages": [],
+          "name": "Feishin",
+          "signatures": {
+            "4883": {
+              "signature": 4883,
+              "product": {
+                "id": 4422,
+                "name": "Feishin"
+              },
+              "vendor": {
+                "id": 2503,
+                "name": "jeffvli"
+              },
+              "categories": {
+                "10": {
+                  "id": 10,
+                  "name": "UNCLASSIFIED"
+                }
+              },
+              "data_source": "winget",
+              "sig_name": "Feishin",
+              "methods": {}
+            }
+          }
+        },
+        "4423": {
+          "id": 4423,
+          "tested_points": [],
+          "labels": [],
+          "languages": [],
+          "name": "Stellarium",
+          "signatures": {
+            "4884": {
+              "signature": 4884,
+              "product": {
+                "id": 4423,
+                "name": "Stellarium"
+              },
+              "vendor": {
+                "id": 2504,
+                "name": "Stellarium team"
+              },
+              "categories": {
+                "10": {
+                  "id": 10,
+                  "name": "UNCLASSIFIED"
+                }
+              },
+              "data_source": "winget",
+              "sig_name": "Stellarium",
+              "methods": {}
+            }
+          }
+        },
+        "4425": {
+          "id": 4425,
+          "tested_points": [],
+          "labels": [],
+          "languages": [],
+          "name": "Auto Dark Mode",
+          "signatures": {
+            "4886": {
+              "signature": 4886,
+              "product": {
+                "id": 4425,
+                "name": "Auto Dark Mode"
+              },
+              "vendor": {
+                "id": 2506,
+                "name": "Armin Osaj & Samuel Schiegg"
+              },
+              "categories": {
+                "10": {
+                  "id": 10,
+                  "name": "UNCLASSIFIED"
+                }
+              },
+              "data_source": "winget",
+              "sig_name": "Auto Dark Mode",
+              "methods": {}
+            }
+          }
+        },
+        "4426": {
+          "id": 4426,
+          "tested_points": [],
+          "labels": [],
+          "languages": [],
+          "name": "Fluent Reader",
+          "signatures": {
+            "4887": {
+              "signature": 4887,
+              "product": {
+                "id": 4426,
+                "name": "Fluent Reader"
+              },
+              "vendor": {
+                "id": 2507,
+                "name": "Haoyuan Liu"
+              },
+              "categories": {
+                "10": {
+                  "id": 10,
+                  "name": "UNCLASSIFIED"
+                }
+              },
+              "data_source": "winget",
+              "sig_name": "Fluent Reader",
+              "methods": {}
+            }
+          }
+        },
+        "4427": {
+          "id": 4427,
+          "tested_points": [],
+          "labels": [],
+          "languages": [],
+          "name": "Keyviz",
+          "signatures": {
+            "4888": {
+              "signature": 4888,
+              "product": {
+                "id": 4427,
+                "name": "Keyviz"
+              },
+              "vendor": {
+                "id": 2508,
+                "name": "Rahul Mula"
+              },
+              "categories": {
+                "10": {
+                  "id": 10,
+                  "name": "UNCLASSIFIED"
+                }
+              },
+              "data_source": "winget",
+              "sig_name": "Keyviz",
+              "methods": {}
+            }
+          }
+        },
         "443": {
           "id": 443,
           "tested_points": [
@@ -189967,6 +191419,209 @@ SUPPORT_CHARTS = {
               },
               "data_source": "Opswat",
               "sig_name": "NTFS Undelete",
+              "methods": {}
+            }
+          }
+        },
+        "4430": {
+          "id": 4430,
+          "tested_points": [],
+          "labels": [],
+          "languages": [],
+          "name": "PrusaSlicer",
+          "signatures": {
+            "4891": {
+              "signature": 4891,
+              "product": {
+                "id": 4430,
+                "name": "PrusaSlicer"
+              },
+              "vendor": {
+                "id": 2511,
+                "name": "Prusa Research"
+              },
+              "categories": {
+                "10": {
+                  "id": 10,
+                  "name": "UNCLASSIFIED"
+                }
+              },
+              "data_source": "winget",
+              "sig_name": "PrusaSlicer",
+              "methods": {}
+            }
+          }
+        },
+        "4432": {
+          "id": 4432,
+          "tested_points": [],
+          "labels": [],
+          "languages": [],
+          "name": "Windhawk",
+          "signatures": {
+            "4893": {
+              "signature": 4893,
+              "product": {
+                "id": 4432,
+                "name": "Windhawk"
+              },
+              "vendor": {
+                "id": 2513,
+                "name": "Ramen Software"
+              },
+              "categories": {
+                "10": {
+                  "id": 10,
+                  "name": "UNCLASSIFIED"
+                }
+              },
+              "data_source": "winget",
+              "sig_name": "Windhawk",
+              "methods": {}
+            }
+          }
+        },
+        "4434": {
+          "id": 4434,
+          "tested_points": [],
+          "labels": [],
+          "languages": [],
+          "name": "Twinkle Tray",
+          "signatures": {
+            "4895": {
+              "signature": 4895,
+              "product": {
+                "id": 4434,
+                "name": "Twinkle Tray"
+              },
+              "vendor": {
+                "id": 2515,
+                "name": "Xander Frangos"
+              },
+              "categories": {
+                "10": {
+                  "id": 10,
+                  "name": "UNCLASSIFIED"
+                }
+              },
+              "data_source": "winget",
+              "sig_name": "Twinkle Tray",
+              "methods": {}
+            }
+          }
+        },
+        "4436": {
+          "id": 4436,
+          "tested_points": [],
+          "labels": [],
+          "languages": [],
+          "name": "Webstudio",
+          "signatures": {
+            "4897": {
+              "signature": 4897,
+              "product": {
+                "id": 4436,
+                "name": "Webstudio"
+              },
+              "vendor": {
+                "id": 2517,
+                "name": "Webstudio"
+              },
+              "categories": {
+                "10": {
+                  "id": 10,
+                  "name": "UNCLASSIFIED"
+                }
+              },
+              "data_source": "winget",
+              "sig_name": "Webstudio",
+              "methods": {}
+            }
+          }
+        },
+        "4437": {
+          "id": 4437,
+          "tested_points": [],
+          "labels": [],
+          "languages": [],
+          "name": "AnxReader",
+          "signatures": {
+            "4898": {
+              "signature": 4898,
+              "product": {
+                "id": 4437,
+                "name": "AnxReader"
+              },
+              "vendor": {
+                "id": 2518,
+                "name": "Anxcye"
+              },
+              "categories": {
+                "10": {
+                  "id": 10,
+                  "name": "UNCLASSIFIED"
+                }
+              },
+              "data_source": "winget",
+              "sig_name": "AnxReader",
+              "methods": {}
+            }
+          }
+        },
+        "4438": {
+          "id": 4438,
+          "tested_points": [],
+          "labels": [],
+          "languages": [],
+          "name": "MusicFree",
+          "signatures": {
+            "4899": {
+              "signature": 4899,
+              "product": {
+                "id": 4438,
+                "name": "MusicFree"
+              },
+              "vendor": {
+                "id": 2519,
+                "name": "maotoumao"
+              },
+              "categories": {
+                "10": {
+                  "id": 10,
+                  "name": "UNCLASSIFIED"
+                }
+              },
+              "data_source": "winget",
+              "sig_name": "MusicFree",
+              "methods": {}
+            }
+          }
+        },
+        "4439": {
+          "id": 4439,
+          "tested_points": [],
+          "labels": [],
+          "languages": [],
+          "name": "Redis Insight",
+          "signatures": {
+            "4900": {
+              "signature": 4900,
+              "product": {
+                "id": 4439,
+                "name": "Redis Insight"
+              },
+              "vendor": {
+                "id": 2520,
+                "name": "Redis Ltd."
+              },
+              "categories": {
+                "10": {
+                  "id": 10,
+                  "name": "UNCLASSIFIED"
+                }
+              },
+              "data_source": "winget",
+              "sig_name": "Redis Insight",
               "methods": {}
             }
           }
@@ -190007,6 +191662,354 @@ SUPPORT_CHARTS = {
             }
           }
         },
+        "4440": {
+          "id": 4440,
+          "tested_points": [],
+          "labels": [],
+          "languages": [],
+          "name": "Lore Desktop",
+          "signatures": {
+            "4901": {
+              "signature": 4901,
+              "product": {
+                "id": 4440,
+                "name": "Lore Desktop"
+              },
+              "vendor": {
+                "id": 2521,
+                "name": "epicgames.com"
+              },
+              "categories": {
+                "10": {
+                  "id": 10,
+                  "name": "UNCLASSIFIED"
+                }
+              },
+              "data_source": "winget",
+              "sig_name": "Lore Desktop",
+              "methods": {}
+            }
+          }
+        },
+        "4441": {
+          "id": 4441,
+          "tested_points": [],
+          "labels": [],
+          "languages": [],
+          "name": "Lore",
+          "signatures": {
+            "4902": {
+              "signature": 4902,
+              "product": {
+                "id": 4441,
+                "name": "Lore"
+              },
+              "vendor": {
+                "id": 2522,
+                "name": "Epic Games"
+              },
+              "categories": {
+                "10": {
+                  "id": 10,
+                  "name": "UNCLASSIFIED"
+                }
+              },
+              "data_source": "winget",
+              "sig_name": "Lore",
+              "methods": {}
+            }
+          }
+        },
+        "4443": {
+          "id": 4443,
+          "tested_points": [],
+          "labels": [],
+          "languages": [],
+          "name": "MariaDB",
+          "signatures": {
+            "4904": {
+              "signature": 4904,
+              "product": {
+                "id": 4443,
+                "name": "MariaDB"
+              },
+              "vendor": {
+                "id": 2524,
+                "name": "MariaDB Corporation Ab"
+              },
+              "categories": {
+                "10": {
+                  "id": 10,
+                  "name": "UNCLASSIFIED"
+                }
+              },
+              "data_source": "winget",
+              "sig_name": "MariaDB",
+              "methods": {}
+            }
+          }
+        },
+        "4446": {
+          "id": 4446,
+          "tested_points": [],
+          "labels": [],
+          "languages": [],
+          "name": "CMake",
+          "signatures": {
+            "4907": {
+              "signature": 4907,
+              "product": {
+                "id": 4446,
+                "name": "CMake"
+              },
+              "vendor": {
+                "id": 2526,
+                "name": "Kitware"
+              },
+              "categories": {
+                "10": {
+                  "id": 10,
+                  "name": "UNCLASSIFIED"
+                }
+              },
+              "data_source": "winget",
+              "sig_name": "CMake",
+              "methods": {}
+            }
+          }
+        },
+        "4447": {
+          "id": 4447,
+          "tested_points": [],
+          "labels": [],
+          "languages": [],
+          "name": "Podman Desktop",
+          "signatures": {
+            "4908": {
+              "signature": 4908,
+              "product": {
+                "id": 4447,
+                "name": "Podman Desktop"
+              },
+              "vendor": {
+                "id": 2527,
+                "name": "RedHat"
+              },
+              "categories": {
+                "10": {
+                  "id": 10,
+                  "name": "UNCLASSIFIED"
+                }
+              },
+              "data_source": "winget",
+              "sig_name": "Podman Desktop",
+              "methods": {}
+            }
+          }
+        },
+        "4448": {
+          "id": 4448,
+          "tested_points": [],
+          "labels": [],
+          "languages": [],
+          "name": "FontForge",
+          "signatures": {
+            "4909": {
+              "signature": 4909,
+              "product": {
+                "id": 4448,
+                "name": "FontForge"
+              },
+              "vendor": {
+                "id": 2528,
+                "name": "FontForgeBuilds"
+              },
+              "categories": {
+                "10": {
+                  "id": 10,
+                  "name": "UNCLASSIFIED"
+                }
+              },
+              "data_source": "winget",
+              "sig_name": "FontForge",
+              "methods": {}
+            }
+          }
+        },
+        "4449": {
+          "id": 4449,
+          "tested_points": [],
+          "labels": [],
+          "languages": [],
+          "name": "Tuta Mail",
+          "signatures": {
+            "4910": {
+              "signature": 4910,
+              "product": {
+                "id": 4449,
+                "name": "Tuta Mail"
+              },
+              "vendor": {
+                "id": 2529,
+                "name": "Tutao GmbH"
+              },
+              "categories": {
+                "10": {
+                  "id": 10,
+                  "name": "UNCLASSIFIED"
+                }
+              },
+              "data_source": "winget",
+              "sig_name": "Tuta Mail",
+              "methods": {}
+            }
+          }
+        },
+        "4452": {
+          "id": 4452,
+          "tested_points": [],
+          "labels": [],
+          "languages": [],
+          "name": "GeoLibre Desktop",
+          "signatures": {
+            "4913": {
+              "signature": 4913,
+              "product": {
+                "id": 4452,
+                "name": "GeoLibre Desktop"
+              },
+              "vendor": {
+                "id": 2532,
+                "name": "OpenGeos"
+              },
+              "categories": {
+                "10": {
+                  "id": 10,
+                  "name": "UNCLASSIFIED"
+                }
+              },
+              "data_source": "winget",
+              "sig_name": "GeoLibre Desktop",
+              "methods": {}
+            }
+          }
+        },
+        "4453": {
+          "id": 4453,
+          "tested_points": [],
+          "labels": [],
+          "languages": [],
+          "name": "Suwayomi Server",
+          "signatures": {
+            "4914": {
+              "signature": 4914,
+              "product": {
+                "id": 4453,
+                "name": "Suwayomi Server"
+              },
+              "vendor": {
+                "id": 2533,
+                "name": "Suwayomi"
+              },
+              "categories": {
+                "10": {
+                  "id": 10,
+                  "name": "UNCLASSIFIED"
+                }
+              },
+              "data_source": "winget",
+              "sig_name": "Suwayomi Server",
+              "methods": {}
+            }
+          }
+        },
+        "4454": {
+          "id": 4454,
+          "tested_points": [],
+          "labels": [],
+          "languages": [],
+          "name": "OpenToonz",
+          "signatures": {
+            "4915": {
+              "signature": 4915,
+              "product": {
+                "id": 4454,
+                "name": "OpenToonz"
+              },
+              "vendor": {
+                "id": 2534,
+                "name": "DWANGO Co., Ltd."
+              },
+              "categories": {
+                "10": {
+                  "id": 10,
+                  "name": "UNCLASSIFIED"
+                }
+              },
+              "data_source": "winget",
+              "sig_name": "OpenToonz",
+              "methods": {}
+            }
+          }
+        },
+        "4455": {
+          "id": 4455,
+          "tested_points": [],
+          "labels": [],
+          "languages": [],
+          "name": "Electron Fiddle",
+          "signatures": {
+            "4916": {
+              "signature": 4916,
+              "product": {
+                "id": 4455,
+                "name": "Electron Fiddle"
+              },
+              "vendor": {
+                "id": 2535,
+                "name": "Electron Community"
+              },
+              "categories": {
+                "10": {
+                  "id": 10,
+                  "name": "UNCLASSIFIED"
+                }
+              },
+              "data_source": "winget",
+              "sig_name": "Electron Fiddle",
+              "methods": {}
+            }
+          }
+        },
+        "4456": {
+          "id": 4456,
+          "tested_points": [],
+          "labels": [],
+          "languages": [],
+          "name": "Logisim-evolution",
+          "signatures": {
+            "4917": {
+              "signature": 4917,
+              "product": {
+                "id": 4456,
+                "name": "Logisim-evolution"
+              },
+              "vendor": {
+                "id": 2536,
+                "name": "logisim-evolution developers"
+              },
+              "categories": {
+                "10": {
+                  "id": 10,
+                  "name": "UNCLASSIFIED"
+                }
+              },
+              "data_source": "winget",
+              "sig_name": "Logisim-evolution",
+              "methods": {}
+            }
+          }
+        },
         "446": {
           "id": 446,
           "tested_points": [
@@ -190039,6 +192042,325 @@ SUPPORT_CHARTS = {
               },
               "data_source": "Opswat",
               "sig_name": "DDR - Memory Card Recovery",
+              "methods": {}
+            }
+          }
+        },
+        "4463": {
+          "id": 4463,
+          "tested_points": [],
+          "labels": [],
+          "languages": [],
+          "name": "EcoPaste",
+          "signatures": {
+            "4924": {
+              "signature": 4924,
+              "product": {
+                "id": 4463,
+                "name": "EcoPaste"
+              },
+              "vendor": {
+                "id": 2542,
+                "name": "ayangweb"
+              },
+              "categories": {
+                "10": {
+                  "id": 10,
+                  "name": "UNCLASSIFIED"
+                }
+              },
+              "data_source": "winget",
+              "sig_name": "EcoPaste",
+              "methods": {}
+            }
+          }
+        },
+        "4465": {
+          "id": 4465,
+          "tested_points": [],
+          "labels": [],
+          "languages": [],
+          "name": "Enso",
+          "signatures": {
+            "4926": {
+              "signature": 4926,
+              "product": {
+                "id": 4465,
+                "name": "Enso"
+              },
+              "vendor": {
+                "id": 2544,
+                "name": "Enso Analytics"
+              },
+              "categories": {
+                "10": {
+                  "id": 10,
+                  "name": "UNCLASSIFIED"
+                }
+              },
+              "data_source": "winget",
+              "sig_name": "Enso",
+              "methods": {}
+            }
+          }
+        },
+        "4469": {
+          "id": 4469,
+          "tested_points": [],
+          "labels": [],
+          "languages": [],
+          "name": "NSwagStudio",
+          "signatures": {
+            "4930": {
+              "signature": 4930,
+              "product": {
+                "id": 4469,
+                "name": "NSwagStudio"
+              },
+              "vendor": {
+                "id": 2548,
+                "name": "Rico Suter"
+              },
+              "categories": {
+                "10": {
+                  "id": 10,
+                  "name": "UNCLASSIFIED"
+                }
+              },
+              "data_source": "winget",
+              "sig_name": "NSwagStudio",
+              "methods": {}
+            }
+          }
+        },
+        "4470": {
+          "id": 4470,
+          "tested_points": [],
+          "labels": [],
+          "languages": [],
+          "name": "Chez Scheme",
+          "signatures": {
+            "4931": {
+              "signature": 4931,
+              "product": {
+                "id": 4470,
+                "name": "Chez Scheme"
+              },
+              "vendor": {
+                "id": 166,
+                "name": "Cisco Systems, Inc."
+              },
+              "categories": {
+                "10": {
+                  "id": 10,
+                  "name": "UNCLASSIFIED"
+                }
+              },
+              "data_source": "winget",
+              "sig_name": "Chez Scheme",
+              "methods": {}
+            }
+          }
+        },
+        "4471": {
+          "id": 4471,
+          "tested_points": [],
+          "labels": [],
+          "languages": [],
+          "name": "DbGate",
+          "signatures": {
+            "4932": {
+              "signature": 4932,
+              "product": {
+                "id": 4471,
+                "name": "DbGate"
+              },
+              "vendor": {
+                "id": 2549,
+                "name": "Jan Prochazka"
+              },
+              "categories": {
+                "10": {
+                  "id": 10,
+                  "name": "UNCLASSIFIED"
+                }
+              },
+              "data_source": "winget",
+              "sig_name": "DbGate",
+              "methods": {}
+            }
+          }
+        },
+        "4473": {
+          "id": 4473,
+          "tested_points": [],
+          "labels": [],
+          "languages": [],
+          "name": "IPTVnator",
+          "signatures": {
+            "4934": {
+              "signature": 4934,
+              "product": {
+                "id": 4473,
+                "name": "IPTVnator"
+              },
+              "vendor": {
+                "id": 2551,
+                "name": "4gray"
+              },
+              "categories": {
+                "10": {
+                  "id": 10,
+                  "name": "UNCLASSIFIED"
+                }
+              },
+              "data_source": "winget",
+              "sig_name": "IPTVnator",
+              "methods": {}
+            }
+          }
+        },
+        "4474": {
+          "id": 4474,
+          "tested_points": [],
+          "labels": [],
+          "languages": [],
+          "name": "Nickvision Parabolic",
+          "signatures": {
+            "4935": {
+              "signature": 4935,
+              "product": {
+                "id": 4474,
+                "name": "Nickvision Parabolic"
+              },
+              "vendor": {
+                "id": 2552,
+                "name": "Nickvision"
+              },
+              "categories": {
+                "10": {
+                  "id": 10,
+                  "name": "UNCLASSIFIED"
+                }
+              },
+              "data_source": "winget",
+              "sig_name": "Nickvision Parabolic",
+              "methods": {}
+            }
+          }
+        },
+        "4475": {
+          "id": 4475,
+          "tested_points": [],
+          "labels": [],
+          "languages": [],
+          "name": "eSearch",
+          "signatures": {
+            "4936": {
+              "signature": 4936,
+              "product": {
+                "id": 4475,
+                "name": "eSearch"
+              },
+              "vendor": {
+                "id": 2553,
+                "name": "xsf"
+              },
+              "categories": {
+                "10": {
+                  "id": 10,
+                  "name": "UNCLASSIFIED"
+                }
+              },
+              "data_source": "winget",
+              "sig_name": "eSearch",
+              "methods": {}
+            }
+          }
+        },
+        "4476": {
+          "id": 4476,
+          "tested_points": [],
+          "labels": [],
+          "languages": [],
+          "name": "Hatch",
+          "signatures": {
+            "4937": {
+              "signature": 4937,
+              "product": {
+                "id": 4476,
+                "name": "Hatch"
+              },
+              "vendor": {
+                "id": 2554,
+                "name": "Python Packaging Authority"
+              },
+              "categories": {
+                "10": {
+                  "id": 10,
+                  "name": "UNCLASSIFIED"
+                }
+              },
+              "data_source": "winget",
+              "sig_name": "Hatch",
+              "methods": {}
+            }
+          }
+        },
+        "4477": {
+          "id": 4477,
+          "tested_points": [],
+          "labels": [],
+          "languages": [],
+          "name": "Mixxx",
+          "signatures": {
+            "4938": {
+              "signature": 4938,
+              "product": {
+                "id": 4477,
+                "name": "Mixxx"
+              },
+              "vendor": {
+                "id": 2555,
+                "name": "Mixxx Project"
+              },
+              "categories": {
+                "10": {
+                  "id": 10,
+                  "name": "UNCLASSIFIED"
+                }
+              },
+              "data_source": "winget",
+              "sig_name": "Mixxx",
+              "methods": {}
+            }
+          }
+        },
+        "4479": {
+          "id": 4479,
+          "tested_points": [],
+          "labels": [],
+          "languages": [],
+          "name": "Ultimaker Cura",
+          "signatures": {
+            "4940": {
+              "signature": 4940,
+              "product": {
+                "id": 4479,
+                "name": "Ultimaker Cura"
+              },
+              "vendor": {
+                "id": 2557,
+                "name": "UltiMaker"
+              },
+              "categories": {
+                "10": {
+                  "id": 10,
+                  "name": "UNCLASSIFIED"
+                }
+              },
+              "data_source": "winget",
+              "sig_name": "Ultimaker Cura",
               "methods": {}
             }
           }
@@ -190079,6 +192401,760 @@ SUPPORT_CHARTS = {
             }
           }
         },
+        "4481": {
+          "id": 4481,
+          "tested_points": [],
+          "labels": [],
+          "languages": [],
+          "name": "Reqable",
+          "signatures": {
+            "4942": {
+              "signature": 4942,
+              "product": {
+                "id": 4481,
+                "name": "Reqable"
+              },
+              "vendor": {
+                "id": 2559,
+                "name": "Reqqable Inc."
+              },
+              "categories": {
+                "10": {
+                  "id": 10,
+                  "name": "UNCLASSIFIED"
+                }
+              },
+              "data_source": "winget",
+              "sig_name": "Reqable",
+              "methods": {}
+            }
+          }
+        },
+        "4482": {
+          "id": 4482,
+          "tested_points": [],
+          "labels": [],
+          "languages": [],
+          "name": "SuperCollider",
+          "signatures": {
+            "4943": {
+              "signature": 4943,
+              "product": {
+                "id": 4482,
+                "name": "SuperCollider"
+              },
+              "vendor": {
+                "id": 2560,
+                "name": "SuperCollider Community"
+              },
+              "categories": {
+                "10": {
+                  "id": 10,
+                  "name": "UNCLASSIFIED"
+                }
+              },
+              "data_source": "winget",
+              "sig_name": "SuperCollider",
+              "methods": {}
+            }
+          }
+        },
+        "4483": {
+          "id": 4483,
+          "tested_points": [],
+          "labels": [],
+          "languages": [],
+          "name": "SQLiteStudio",
+          "signatures": {
+            "4944": {
+              "signature": 4944,
+              "product": {
+                "id": 4483,
+                "name": "SQLiteStudio"
+              },
+              "vendor": {
+                "id": 2561,
+                "name": "sqlitestudio.pl"
+              },
+              "categories": {
+                "10": {
+                  "id": 10,
+                  "name": "UNCLASSIFIED"
+                }
+              },
+              "data_source": "winget",
+              "sig_name": "SQLiteStudio",
+              "methods": {}
+            }
+          }
+        },
+        "4484": {
+          "id": 4484,
+          "tested_points": [],
+          "labels": [],
+          "languages": [],
+          "name": "AWS SAM Command Line Interface",
+          "signatures": {
+            "4945": {
+              "signature": 4945,
+              "product": {
+                "id": 4484,
+                "name": "AWS SAM Command Line Interface"
+              },
+              "vendor": {
+                "id": 2562,
+                "name": "AWS Serverless Applications"
+              },
+              "categories": {
+                "10": {
+                  "id": 10,
+                  "name": "UNCLASSIFIED"
+                }
+              },
+              "data_source": "winget",
+              "sig_name": "AWS SAM Command Line Interface",
+              "methods": {}
+            }
+          }
+        },
+        "4485": {
+          "id": 4485,
+          "tested_points": [],
+          "labels": [],
+          "languages": [],
+          "name": "Notepad3",
+          "signatures": {
+            "4946": {
+              "signature": 4946,
+              "product": {
+                "id": 4485,
+                "name": "Notepad3"
+              },
+              "vendor": {
+                "id": 2563,
+                "name": "Rizonesoft"
+              },
+              "categories": {
+                "10": {
+                  "id": 10,
+                  "name": "UNCLASSIFIED"
+                }
+              },
+              "data_source": "winget",
+              "sig_name": "Notepad3",
+              "methods": {}
+            }
+          }
+        },
+        "4486": {
+          "id": 4486,
+          "tested_points": [],
+          "labels": [],
+          "languages": [],
+          "name": "Gephi",
+          "signatures": {
+            "4947": {
+              "signature": 4947,
+              "product": {
+                "id": 4486,
+                "name": "Gephi"
+              },
+              "vendor": {
+                "id": 2564,
+                "name": "Gephi"
+              },
+              "categories": {
+                "10": {
+                  "id": 10,
+                  "name": "UNCLASSIFIED"
+                }
+              },
+              "data_source": "winget",
+              "sig_name": "Gephi",
+              "methods": {}
+            }
+          }
+        },
+        "4488": {
+          "id": 4488,
+          "tested_points": [],
+          "labels": [],
+          "languages": [],
+          "name": "Meson Build System",
+          "signatures": {
+            "4949": {
+              "signature": 4949,
+              "product": {
+                "id": 4488,
+                "name": "Meson Build System"
+              },
+              "vendor": {
+                "id": 2566,
+                "name": "The Meson Development Team"
+              },
+              "categories": {
+                "10": {
+                  "id": 10,
+                  "name": "UNCLASSIFIED"
+                }
+              },
+              "data_source": "winget",
+              "sig_name": "Meson Build System",
+              "methods": {}
+            }
+          }
+        },
+        "4490": {
+          "id": 4490,
+          "tested_points": [],
+          "labels": [],
+          "languages": [],
+          "name": "OpenShot Video Editor",
+          "signatures": {
+            "4951": {
+              "signature": 4951,
+              "product": {
+                "id": 4490,
+                "name": "OpenShot Video Editor"
+              },
+              "vendor": {
+                "id": 2568,
+                "name": "OpenShot Studios, LLC"
+              },
+              "categories": {
+                "10": {
+                  "id": 10,
+                  "name": "UNCLASSIFIED"
+                }
+              },
+              "data_source": "winget",
+              "sig_name": "OpenShot Video Editor",
+              "methods": {}
+            }
+          }
+        },
+        "4493": {
+          "id": 4493,
+          "tested_points": [],
+          "labels": [],
+          "languages": [],
+          "name": "YouTube Music Desktop App",
+          "signatures": {
+            "4954": {
+              "signature": 4954,
+              "product": {
+                "id": 4493,
+                "name": "YouTube Music Desktop App"
+              },
+              "vendor": {
+                "id": 2571,
+                "name": "NovusTheory"
+              },
+              "categories": {
+                "10": {
+                  "id": 10,
+                  "name": "UNCLASSIFIED"
+                }
+              },
+              "data_source": "winget",
+              "sig_name": "YouTube Music Desktop App",
+              "methods": {}
+            }
+          }
+        },
+        "4495": {
+          "id": 4495,
+          "tested_points": [],
+          "labels": [],
+          "languages": [],
+          "name": "Namida",
+          "signatures": {
+            "4956": {
+              "signature": 4956,
+              "product": {
+                "id": 4495,
+                "name": "Namida"
+              },
+              "vendor": {
+                "id": 2573,
+                "name": "namidaco"
+              },
+              "categories": {
+                "10": {
+                  "id": 10,
+                  "name": "UNCLASSIFIED"
+                }
+              },
+              "data_source": "winget",
+              "sig_name": "Namida",
+              "methods": {}
+            }
+          }
+        },
+        "4498": {
+          "id": 4498,
+          "tested_points": [],
+          "labels": [],
+          "languages": [],
+          "name": "Libation",
+          "signatures": {
+            "4959": {
+              "signature": 4959,
+              "product": {
+                "id": 4498,
+                "name": "Libation"
+              },
+              "vendor": {
+                "id": 2576,
+                "name": "rmcrackan"
+              },
+              "categories": {
+                "10": {
+                  "id": 10,
+                  "name": "UNCLASSIFIED"
+                }
+              },
+              "data_source": "winget",
+              "sig_name": "Libation",
+              "methods": {}
+            }
+          }
+        },
+        "4499": {
+          "id": 4499,
+          "tested_points": [],
+          "labels": [],
+          "languages": [],
+          "name": "GVFS",
+          "signatures": {
+            "4960": {
+              "signature": 4960,
+              "product": {
+                "id": 4499,
+                "name": "GVFS"
+              },
+              "vendor": {
+                "id": 90,
+                "name": "Microsoft Corporation"
+              },
+              "categories": {
+                "10": {
+                  "id": 10,
+                  "name": "UNCLASSIFIED"
+                }
+              },
+              "data_source": "winget",
+              "sig_name": "GVFS",
+              "methods": {}
+            }
+          }
+        },
+        "4500": {
+          "id": 4500,
+          "tested_points": [],
+          "labels": [],
+          "languages": [],
+          "name": "gsudo",
+          "signatures": {
+            "4961": {
+              "signature": 4961,
+              "product": {
+                "id": 4500,
+                "name": "gsudo"
+              },
+              "vendor": {
+                "id": 2577,
+                "name": "Gerardo Grignoli"
+              },
+              "categories": {
+                "10": {
+                  "id": 10,
+                  "name": "UNCLASSIFIED"
+                }
+              },
+              "data_source": "winget",
+              "sig_name": "gsudo",
+              "methods": {}
+            }
+          }
+        },
+        "4501": {
+          "id": 4501,
+          "tested_points": [],
+          "labels": [],
+          "languages": [],
+          "name": "Quarto",
+          "signatures": {
+            "4962": {
+              "signature": 4962,
+              "product": {
+                "id": 4501,
+                "name": "Quarto"
+              },
+              "vendor": {
+                "id": 2578,
+                "name": "Rstudio, PBC"
+              },
+              "categories": {
+                "10": {
+                  "id": 10,
+                  "name": "UNCLASSIFIED"
+                }
+              },
+              "data_source": "winget",
+              "sig_name": "Quarto",
+              "methods": {}
+            }
+          }
+        },
+        "4503": {
+          "id": 4503,
+          "tested_points": [],
+          "labels": [],
+          "languages": [],
+          "name": "PDF Arranger",
+          "signatures": {
+            "4964": {
+              "signature": 4964,
+              "product": {
+                "id": 4503,
+                "name": "PDF Arranger"
+              },
+              "vendor": {
+                "id": 2580,
+                "name": "The PDF Arranger team"
+              },
+              "categories": {
+                "10": {
+                  "id": 10,
+                  "name": "UNCLASSIFIED"
+                }
+              },
+              "data_source": "winget",
+              "sig_name": "PDF Arranger",
+              "methods": {}
+            }
+          }
+        },
+        "4505": {
+          "id": 4505,
+          "tested_points": [],
+          "labels": [],
+          "languages": [],
+          "name": "Rebased",
+          "signatures": {
+            "4966": {
+              "signature": 4966,
+              "product": {
+                "id": 4505,
+                "name": "Rebased"
+              },
+              "vendor": {
+                "id": 2582,
+                "name": "detachhead"
+              },
+              "categories": {
+                "10": {
+                  "id": 10,
+                  "name": "UNCLASSIFIED"
+                }
+              },
+              "data_source": "winget",
+              "sig_name": "Rebased",
+              "methods": {}
+            }
+          }
+        },
+        "4506": {
+          "id": 4506,
+          "tested_points": [],
+          "labels": [],
+          "languages": [],
+          "name": "Kdenlive",
+          "signatures": {
+            "4967": {
+              "signature": 4967,
+              "product": {
+                "id": 4506,
+                "name": "Kdenlive"
+              },
+              "vendor": {
+                "id": 2583,
+                "name": "KDE e.V."
+              },
+              "categories": {
+                "10": {
+                  "id": 10,
+                  "name": "UNCLASSIFIED"
+                }
+              },
+              "data_source": "winget",
+              "sig_name": "Kdenlive",
+              "methods": {}
+            }
+          }
+        },
+        "4508": {
+          "id": 4508,
+          "tested_points": [],
+          "labels": [],
+          "languages": [],
+          "name": "Lidarr",
+          "signatures": {
+            "4969": {
+              "signature": 4969,
+              "product": {
+                "id": 4508,
+                "name": "Lidarr"
+              },
+              "vendor": {
+                "id": 2585,
+                "name": "Team Lidarr"
+              },
+              "categories": {
+                "10": {
+                  "id": 10,
+                  "name": "UNCLASSIFIED"
+                }
+              },
+              "data_source": "winget",
+              "sig_name": "Lidarr",
+              "methods": {}
+            }
+          }
+        },
+        "4509": {
+          "id": 4509,
+          "tested_points": [],
+          "labels": [],
+          "languages": [],
+          "name": "Freelens",
+          "signatures": {
+            "4970": {
+              "signature": 4970,
+              "product": {
+                "id": 4509,
+                "name": "Freelens"
+              },
+              "vendor": {
+                "id": 2586,
+                "name": "Freelens Authors"
+              },
+              "categories": {
+                "10": {
+                  "id": 10,
+                  "name": "UNCLASSIFIED"
+                }
+              },
+              "data_source": "winget",
+              "sig_name": "Freelens",
+              "methods": {}
+            }
+          }
+        },
+        "4510": {
+          "id": 4510,
+          "tested_points": [],
+          "labels": [],
+          "languages": [],
+          "name": "Liquibase",
+          "signatures": {
+            "4971": {
+              "signature": 4971,
+              "product": {
+                "id": 4510,
+                "name": "Liquibase"
+              },
+              "vendor": {
+                "id": 2587,
+                "name": "Liquibase"
+              },
+              "categories": {
+                "10": {
+                  "id": 10,
+                  "name": "UNCLASSIFIED"
+                }
+              },
+              "data_source": "winget",
+              "sig_name": "Liquibase",
+              "methods": {}
+            }
+          }
+        },
+        "4511": {
+          "id": 4511,
+          "tested_points": [],
+          "labels": [],
+          "languages": [],
+          "name": "yasb",
+          "signatures": {
+            "4972": {
+              "signature": 4972,
+              "product": {
+                "id": 4511,
+                "name": "yasb"
+              },
+              "vendor": {
+                "id": 2588,
+                "name": "AmN"
+              },
+              "categories": {
+                "10": {
+                  "id": 10,
+                  "name": "UNCLASSIFIED"
+                }
+              },
+              "data_source": "winget",
+              "sig_name": "yasb",
+              "methods": {}
+            }
+          }
+        },
+        "4512": {
+          "id": 4512,
+          "tested_points": [],
+          "labels": [],
+          "languages": [],
+          "name": "Clink",
+          "signatures": {
+            "4973": {
+              "signature": 4973,
+              "product": {
+                "id": 4512,
+                "name": "Clink"
+              },
+              "vendor": {
+                "id": 2589,
+                "name": "Christopher Antos"
+              },
+              "categories": {
+                "10": {
+                  "id": 10,
+                  "name": "UNCLASSIFIED"
+                }
+              },
+              "data_source": "winget",
+              "sig_name": "Clink",
+              "methods": {}
+            }
+          }
+        },
+        "4515": {
+          "id": 4515,
+          "tested_points": [],
+          "labels": [],
+          "languages": [],
+          "name": "Groovy 4",
+          "signatures": {
+            "4976": {
+              "signature": 4976,
+              "product": {
+                "id": 4515,
+                "name": "Groovy 4"
+              },
+              "vendor": {
+                "id": 2592,
+                "name": "The Groovy Team"
+              },
+              "categories": {
+                "10": {
+                  "id": 10,
+                  "name": "UNCLASSIFIED"
+                }
+              },
+              "data_source": "winget",
+              "sig_name": "Groovy 4",
+              "methods": {}
+            }
+          }
+        },
+        "4516": {
+          "id": 4516,
+          "tested_points": [],
+          "labels": [],
+          "languages": [],
+          "name": "Groovy 5",
+          "signatures": {
+            "4977": {
+              "signature": 4977,
+              "product": {
+                "id": 4516,
+                "name": "Groovy 5"
+              },
+              "vendor": {
+                "id": 2592,
+                "name": "The Groovy Team"
+              },
+              "categories": {
+                "10": {
+                  "id": 10,
+                  "name": "UNCLASSIFIED"
+                }
+              },
+              "data_source": "winget",
+              "sig_name": "Groovy 5",
+              "methods": {}
+            }
+          }
+        },
+        "4517": {
+          "id": 4517,
+          "tested_points": [],
+          "labels": [],
+          "languages": [],
+          "name": "QPDF",
+          "signatures": {
+            "4978": {
+              "signature": 4978,
+              "product": {
+                "id": 4517,
+                "name": "QPDF"
+              },
+              "vendor": {
+                "id": 2593,
+                "name": "QPDF"
+              },
+              "categories": {
+                "10": {
+                  "id": 10,
+                  "name": "UNCLASSIFIED"
+                }
+              },
+              "data_source": "winget",
+              "sig_name": "QPDF",
+              "methods": {}
+            }
+          }
+        },
+        "4519": {
+          "id": 4519,
+          "tested_points": [],
+          "labels": [],
+          "languages": [],
+          "name": "Altair GraphQL Client",
+          "signatures": {
+            "4980": {
+              "signature": 4980,
+              "product": {
+                "id": 4519,
+                "name": "Altair GraphQL Client"
+              },
+              "vendor": {
+                "id": 2595,
+                "name": "Samuel Imolorhe"
+              },
+              "categories": {
+                "10": {
+                  "id": 10,
+                  "name": "UNCLASSIFIED"
+                }
+              },
+              "data_source": "winget",
+              "sig_name": "Altair GraphQL Client",
+              "methods": {}
+            }
+          }
+        },
         "452": {
           "id": 452,
           "tested_points": [
@@ -190109,6 +193185,151 @@ SUPPORT_CHARTS = {
               },
               "data_source": "Opswat",
               "sig_name": "Virtual CD Manager",
+              "methods": {}
+            }
+          }
+        },
+        "4521": {
+          "id": 4521,
+          "tested_points": [],
+          "labels": [],
+          "languages": [],
+          "name": "Gitify",
+          "signatures": {
+            "4982": {
+              "signature": 4982,
+              "product": {
+                "id": 4521,
+                "name": "Gitify"
+              },
+              "vendor": {
+                "id": 2597,
+                "name": "Emmanouil Konstantinidis"
+              },
+              "categories": {
+                "10": {
+                  "id": 10,
+                  "name": "UNCLASSIFIED"
+                }
+              },
+              "data_source": "winget",
+              "sig_name": "Gitify",
+              "methods": {}
+            }
+          }
+        },
+        "4523": {
+          "id": 4523,
+          "tested_points": [],
+          "labels": [],
+          "languages": [],
+          "name": "TagSpaces",
+          "signatures": {
+            "4984": {
+              "signature": 4984,
+              "product": {
+                "id": 4523,
+                "name": "TagSpaces"
+              },
+              "vendor": {
+                "id": 2599,
+                "name": "TagSpaces UG"
+              },
+              "categories": {
+                "10": {
+                  "id": 10,
+                  "name": "UNCLASSIFIED"
+                }
+              },
+              "data_source": "winget",
+              "sig_name": "TagSpaces",
+              "methods": {}
+            }
+          }
+        },
+        "4525": {
+          "id": 4525,
+          "tested_points": [],
+          "labels": [],
+          "languages": [],
+          "name": "Simplenote",
+          "signatures": {
+            "4986": {
+              "signature": 4986,
+              "product": {
+                "id": 4525,
+                "name": "Simplenote"
+              },
+              "vendor": {
+                "id": 2601,
+                "name": "Automattic, Inc."
+              },
+              "categories": {
+                "10": {
+                  "id": 10,
+                  "name": "UNCLASSIFIED"
+                }
+              },
+              "data_source": "winget",
+              "sig_name": "Simplenote",
+              "methods": {}
+            }
+          }
+        },
+        "4526": {
+          "id": 4526,
+          "tested_points": [],
+          "labels": [],
+          "languages": [],
+          "name": "AltSnap",
+          "signatures": {
+            "4987": {
+              "signature": 4987,
+              "product": {
+                "id": 4526,
+                "name": "AltSnap"
+              },
+              "vendor": {
+                "id": 2602,
+                "name": "Raymond Gillibert"
+              },
+              "categories": {
+                "10": {
+                  "id": 10,
+                  "name": "UNCLASSIFIED"
+                }
+              },
+              "data_source": "winget",
+              "sig_name": "AltSnap",
+              "methods": {}
+            }
+          }
+        },
+        "4528": {
+          "id": 4528,
+          "tested_points": [],
+          "labels": [],
+          "languages": [],
+          "name": "Coreutils for Windows",
+          "signatures": {
+            "4989": {
+              "signature": 4989,
+              "product": {
+                "id": 4528,
+                "name": "Coreutils for Windows"
+              },
+              "vendor": {
+                "id": 90,
+                "name": "Microsoft Corporation"
+              },
+              "categories": {
+                "10": {
+                  "id": 10,
+                  "name": "UNCLASSIFIED"
+                }
+              },
+              "data_source": "winget",
+              "sig_name": "Coreutils for Windows",
               "methods": {}
             }
           }
@@ -190147,6 +193368,591 @@ SUPPORT_CHARTS = {
             }
           }
         },
+        "4533": {
+          "id": 4533,
+          "tested_points": [],
+          "labels": [],
+          "languages": [],
+          "name": "SyncClipboard",
+          "signatures": {
+            "4994": {
+              "signature": 4994,
+              "product": {
+                "id": 4533,
+                "name": "SyncClipboard"
+              },
+              "vendor": {
+                "id": 2608,
+                "name": "SyncClipboard"
+              },
+              "categories": {
+                "10": {
+                  "id": 10,
+                  "name": "UNCLASSIFIED"
+                }
+              },
+              "data_source": "winget",
+              "sig_name": "SyncClipboard",
+              "methods": {}
+            }
+          }
+        },
+        "4534": {
+          "id": 4534,
+          "tested_points": [],
+          "labels": [],
+          "languages": [],
+          "name": "MQTTX",
+          "signatures": {
+            "4995": {
+              "signature": 4995,
+              "product": {
+                "id": 4534,
+                "name": "MQTTX"
+              },
+              "vendor": {
+                "id": 2609,
+                "name": "EMQX Team"
+              },
+              "categories": {
+                "10": {
+                  "id": 10,
+                  "name": "UNCLASSIFIED"
+                }
+              },
+              "data_source": "winget",
+              "sig_name": "MQTTX",
+              "methods": {}
+            }
+          }
+        },
+        "4535": {
+          "id": 4535,
+          "tested_points": [],
+          "labels": [],
+          "languages": [],
+          "name": "Arduino CLI",
+          "signatures": {
+            "4996": {
+              "signature": 4996,
+              "product": {
+                "id": 4535,
+                "name": "Arduino CLI"
+              },
+              "vendor": {
+                "id": 2610,
+                "name": "Arduino SA"
+              },
+              "categories": {
+                "10": {
+                  "id": 10,
+                  "name": "UNCLASSIFIED"
+                }
+              },
+              "data_source": "winget",
+              "sig_name": "Arduino CLI",
+              "methods": {}
+            }
+          }
+        },
+        "4536": {
+          "id": 4536,
+          "tested_points": [],
+          "labels": [],
+          "languages": [],
+          "name": "WinDynamicDesktop",
+          "signatures": {
+            "4997": {
+              "signature": 4997,
+              "product": {
+                "id": 4536,
+                "name": "WinDynamicDesktop"
+              },
+              "vendor": {
+                "id": 2611,
+                "name": "Timothy Johnson"
+              },
+              "categories": {
+                "10": {
+                  "id": 10,
+                  "name": "UNCLASSIFIED"
+                }
+              },
+              "data_source": "winget",
+              "sig_name": "WinDynamicDesktop",
+              "methods": {}
+            }
+          }
+        },
+        "4537": {
+          "id": 4537,
+          "tested_points": [
+            {
+              "signature": 4998,
+              "version": "1.26.1.0"
+            }
+          ],
+          "labels": [],
+          "languages": [],
+          "name": "Unbound",
+          "signatures": {
+            "4998": {
+              "signature": 4998,
+              "product": {
+                "id": 4537,
+                "name": "Unbound"
+              },
+              "vendor": {
+                "id": 2612,
+                "name": "NLnet Labs"
+              },
+              "categories": {
+                "10": {
+                  "id": 10,
+                  "name": "UNCLASSIFIED"
+                }
+              },
+              "data_source": "winget",
+              "sig_name": "Unbound",
+              "methods": {}
+            }
+          }
+        },
+        "4538": {
+          "id": 4538,
+          "tested_points": [],
+          "labels": [],
+          "languages": [],
+          "name": "sbt",
+          "signatures": {
+            "4999": {
+              "signature": 4999,
+              "product": {
+                "id": 4538,
+                "name": "sbt"
+              },
+              "vendor": {
+                "id": 2613,
+                "name": "Lightbend, Inc."
+              },
+              "categories": {
+                "10": {
+                  "id": 10,
+                  "name": "UNCLASSIFIED"
+                }
+              },
+              "data_source": "winget",
+              "sig_name": "sbt",
+              "methods": {}
+            }
+          }
+        },
+        "4539": {
+          "id": 4539,
+          "tested_points": [],
+          "labels": [],
+          "languages": [],
+          "name": "Pomatez",
+          "signatures": {
+            "5000": {
+              "signature": 5000,
+              "product": {
+                "id": 4539,
+                "name": "Pomatez"
+              },
+              "vendor": {
+                "id": 2614,
+                "name": "Roldan Montilla Jr"
+              },
+              "categories": {
+                "10": {
+                  "id": 10,
+                  "name": "UNCLASSIFIED"
+                }
+              },
+              "data_source": "winget",
+              "sig_name": "Pomatez",
+              "methods": {}
+            }
+          }
+        },
+        "4543": {
+          "id": 4543,
+          "tested_points": [],
+          "labels": [],
+          "languages": [],
+          "name": "Az",
+          "signatures": {
+            "5004": {
+              "signature": 5004,
+              "product": {
+                "id": 4543,
+                "name": "Az"
+              },
+              "vendor": {
+                "id": 90,
+                "name": "Microsoft Corporation"
+              },
+              "categories": {
+                "10": {
+                  "id": 10,
+                  "name": "UNCLASSIFIED"
+                }
+              },
+              "data_source": "winget",
+              "sig_name": "Az",
+              "methods": {}
+            }
+          }
+        },
+        "4544": {
+          "id": 4544,
+          "tested_points": [],
+          "labels": [],
+          "languages": [],
+          "name": "F3D",
+          "signatures": {
+            "5005": {
+              "signature": 5005,
+              "product": {
+                "id": 4544,
+                "name": "F3D"
+              },
+              "vendor": {
+                "id": 2618,
+                "name": "F3D-app"
+              },
+              "categories": {
+                "10": {
+                  "id": 10,
+                  "name": "UNCLASSIFIED"
+                }
+              },
+              "data_source": "winget",
+              "sig_name": "F3D",
+              "methods": {}
+            }
+          }
+        },
+        "4545": {
+          "id": 4545,
+          "tested_points": [],
+          "labels": [],
+          "languages": [],
+          "name": "幕境",
+          "signatures": {
+            "5006": {
+              "signature": 5006,
+              "product": {
+                "id": 4545,
+                "name": "幕境"
+              },
+              "vendor": {
+                "id": 2619,
+                "name": "深圳市龙华区幕境网络工作室"
+              },
+              "categories": {
+                "10": {
+                  "id": 10,
+                  "name": "UNCLASSIFIED"
+                }
+              },
+              "data_source": "winget",
+              "sig_name": "幕境",
+              "methods": {}
+            }
+          }
+        },
+        "4546": {
+          "id": 4546,
+          "tested_points": [],
+          "labels": [],
+          "languages": [],
+          "name": "Ferdium Nightly",
+          "signatures": {
+            "5007": {
+              "signature": 5007,
+              "product": {
+                "id": 4546,
+                "name": "Ferdium Nightly"
+              },
+              "vendor": {
+                "id": 2620,
+                "name": "Ferdium Contributors"
+              },
+              "categories": {
+                "10": {
+                  "id": 10,
+                  "name": "UNCLASSIFIED"
+                }
+              },
+              "data_source": "winget",
+              "sig_name": "Ferdium Nightly",
+              "methods": {}
+            }
+          }
+        },
+        "4548": {
+          "id": 4548,
+          "tested_points": [],
+          "labels": [],
+          "languages": [],
+          "name": "ueli",
+          "signatures": {
+            "5009": {
+              "signature": 5009,
+              "product": {
+                "id": 4548,
+                "name": "ueli"
+              },
+              "vendor": {
+                "id": 2622,
+                "name": "Oliver Schwendener"
+              },
+              "categories": {
+                "10": {
+                  "id": 10,
+                  "name": "UNCLASSIFIED"
+                }
+              },
+              "data_source": "winget",
+              "sig_name": "ueli",
+              "methods": {}
+            }
+          }
+        },
+        "4550": {
+          "id": 4550,
+          "tested_points": [],
+          "labels": [],
+          "languages": [],
+          "name": "FxSound",
+          "signatures": {
+            "5011": {
+              "signature": 5011,
+              "product": {
+                "id": 4550,
+                "name": "FxSound"
+              },
+              "vendor": {
+                "id": 2624,
+                "name": "FxSound LLC"
+              },
+              "categories": {
+                "10": {
+                  "id": 10,
+                  "name": "UNCLASSIFIED"
+                }
+              },
+              "data_source": "winget",
+              "sig_name": "FxSound",
+              "methods": {}
+            }
+          }
+        },
+        "4551": {
+          "id": 4551,
+          "tested_points": [],
+          "labels": [],
+          "languages": [],
+          "name": "Screenbox",
+          "signatures": {
+            "5012": {
+              "signature": 5012,
+              "product": {
+                "id": 4551,
+                "name": "Screenbox"
+              },
+              "vendor": {
+                "id": 2625,
+                "name": "Tung Huynh"
+              },
+              "categories": {
+                "10": {
+                  "id": 10,
+                  "name": "UNCLASSIFIED"
+                }
+              },
+              "data_source": "winget",
+              "sig_name": "Screenbox",
+              "methods": {}
+            }
+          }
+        },
+        "4553": {
+          "id": 4553,
+          "tested_points": [],
+          "labels": [],
+          "languages": [],
+          "name": "libjpeg-turbo SDK for Visual C++",
+          "signatures": {
+            "5014": {
+              "signature": 5014,
+              "product": {
+                "id": 4553,
+                "name": "libjpeg-turbo SDK for Visual C++"
+              },
+              "vendor": {
+                "id": 2627,
+                "name": "libjpeg-turbo"
+              },
+              "categories": {
+                "10": {
+                  "id": 10,
+                  "name": "UNCLASSIFIED"
+                }
+              },
+              "data_source": "winget",
+              "sig_name": "libjpeg-turbo SDK for Visual C++",
+              "methods": {}
+            }
+          }
+        },
+        "4554": {
+          "id": 4554,
+          "tested_points": [],
+          "labels": [],
+          "languages": [],
+          "name": "libjpeg-turbo SDK for GCC",
+          "signatures": {
+            "5015": {
+              "signature": 5015,
+              "product": {
+                "id": 4554,
+                "name": "libjpeg-turbo SDK for GCC"
+              },
+              "vendor": {
+                "id": 2627,
+                "name": "libjpeg-turbo"
+              },
+              "categories": {
+                "10": {
+                  "id": 10,
+                  "name": "UNCLASSIFIED"
+                }
+              },
+              "data_source": "winget",
+              "sig_name": "libjpeg-turbo SDK for GCC",
+              "methods": {}
+            }
+          }
+        },
+        "4555": {
+          "id": 4555,
+          "tested_points": [],
+          "labels": [],
+          "languages": [],
+          "name": "Janet",
+          "signatures": {
+            "5016": {
+              "signature": 5016,
+              "product": {
+                "id": 4555,
+                "name": "Janet"
+              },
+              "vendor": {
+                "id": 2628,
+                "name": "JanetLang"
+              },
+              "categories": {
+                "10": {
+                  "id": 10,
+                  "name": "UNCLASSIFIED"
+                }
+              },
+              "data_source": "winget",
+              "sig_name": "Janet",
+              "methods": {}
+            }
+          }
+        },
+        "4556": {
+          "id": 4556,
+          "tested_points": [],
+          "labels": [],
+          "languages": [],
+          "name": "OpenUTAU Beta",
+          "signatures": {
+            "5017": {
+              "signature": 5017,
+              "product": {
+                "id": 4556,
+                "name": "OpenUTAU Beta"
+              },
+              "vendor": {
+                "id": 2629,
+                "name": "stakira"
+              },
+              "categories": {
+                "10": {
+                  "id": 10,
+                  "name": "UNCLASSIFIED"
+                }
+              },
+              "data_source": "winget",
+              "sig_name": "OpenUTAU Beta",
+              "methods": {}
+            }
+          }
+        },
+        "4558": {
+          "id": 4558,
+          "tested_points": [],
+          "labels": [],
+          "languages": [],
+          "name": "GnuCash",
+          "signatures": {
+            "5019": {
+              "signature": 5019,
+              "product": {
+                "id": 4558,
+                "name": "GnuCash"
+              },
+              "vendor": {
+                "id": 2631,
+                "name": "GnuCash Development Team"
+              },
+              "categories": {
+                "10": {
+                  "id": 10,
+                  "name": "UNCLASSIFIED"
+                }
+              },
+              "data_source": "winget",
+              "sig_name": "GnuCash",
+              "methods": {}
+            }
+          }
+        },
+        "4559": {
+          "id": 4559,
+          "tested_points": [],
+          "labels": [],
+          "languages": [],
+          "name": "Kiro",
+          "signatures": {
+            "5020": {
+              "signature": 5020,
+              "product": {
+                "id": 4559,
+                "name": "Kiro"
+              },
+              "vendor": {
+                "id": 2433,
+                "name": "Amazon Web Services"
+              },
+              "categories": {
+                "10": {
+                  "id": 10,
+                  "name": "UNCLASSIFIED"
+                }
+              },
+              "data_source": "winget",
+              "sig_name": "Kiro",
+              "methods": {}
+            }
+          }
+        },
         "456": {
           "id": 456,
           "tested_points": [
@@ -190177,6 +193983,122 @@ SUPPORT_CHARTS = {
               },
               "data_source": "Opswat",
               "sig_name": "Noki",
+              "methods": {}
+            }
+          }
+        },
+        "4560": {
+          "id": 4560,
+          "tested_points": [],
+          "labels": [],
+          "languages": [],
+          "name": "gam",
+          "signatures": {
+            "5021": {
+              "signature": 5021,
+              "product": {
+                "id": 4560,
+                "name": "gam"
+              },
+              "vendor": {
+                "id": 2632,
+                "name": "GAM Team - google-apps-manager@googlegroups.com"
+              },
+              "categories": {
+                "10": {
+                  "id": 10,
+                  "name": "UNCLASSIFIED"
+                }
+              },
+              "data_source": "winget",
+              "sig_name": "gam",
+              "methods": {}
+            }
+          }
+        },
+        "4561": {
+          "id": 4561,
+          "tested_points": [],
+          "labels": [],
+          "languages": [],
+          "name": "Positron",
+          "signatures": {
+            "5022": {
+              "signature": 5022,
+              "product": {
+                "id": 4561,
+                "name": "Positron"
+              },
+              "vendor": {
+                "id": 2633,
+                "name": "Posit Software, PBC"
+              },
+              "categories": {
+                "10": {
+                  "id": 10,
+                  "name": "UNCLASSIFIED"
+                }
+              },
+              "data_source": "winget",
+              "sig_name": "Positron",
+              "methods": {}
+            }
+          }
+        },
+        "4564": {
+          "id": 4564,
+          "tested_points": [],
+          "labels": [],
+          "languages": [],
+          "name": "any-listen",
+          "signatures": {
+            "5025": {
+              "signature": 5025,
+              "product": {
+                "id": 4564,
+                "name": "any-listen"
+              },
+              "vendor": {
+                "id": 2384,
+                "name": "lyswhut"
+              },
+              "categories": {
+                "10": {
+                  "id": 10,
+                  "name": "UNCLASSIFIED"
+                }
+              },
+              "data_source": "winget",
+              "sig_name": "any-listen",
+              "methods": {}
+            }
+          }
+        },
+        "4569": {
+          "id": 4569,
+          "tested_points": [],
+          "labels": [],
+          "languages": [],
+          "name": "doxx",
+          "signatures": {
+            "5030": {
+              "signature": 5030,
+              "product": {
+                "id": 4569,
+                "name": "doxx"
+              },
+              "vendor": {
+                "id": 2640,
+                "name": "Brandon Greenwell"
+              },
+              "categories": {
+                "10": {
+                  "id": 10,
+                  "name": "UNCLASSIFIED"
+                }
+              },
+              "data_source": "winget",
+              "sig_name": "doxx",
               "methods": {}
             }
           }
@@ -190212,6 +194134,351 @@ SUPPORT_CHARTS = {
               "data_source": "Opswat",
               "sig_name": "Oxygen Express Trial",
               "methods": {}
+            }
+          }
+        },
+        "4573": {
+          "id": 4573,
+          "tested_points": [],
+          "labels": [],
+          "languages": [],
+          "name": "TeXstudio",
+          "signatures": {
+            "5034": {
+              "signature": 5034,
+              "product": {
+                "id": 4573,
+                "name": "TeXstudio"
+              },
+              "vendor": {
+                "id": 2644,
+                "name": "Benito van der Zander"
+              },
+              "categories": {
+                "10": {
+                  "id": 10,
+                  "name": "UNCLASSIFIED"
+                }
+              },
+              "data_source": "winget",
+              "sig_name": "TeXstudio",
+              "methods": {}
+            }
+          }
+        },
+        "4574": {
+          "id": 4574,
+          "tested_points": [],
+          "labels": [],
+          "languages": [],
+          "name": "GitHub Stars Manager",
+          "signatures": {
+            "5035": {
+              "signature": 5035,
+              "product": {
+                "id": 4574,
+                "name": "GitHub Stars Manager"
+              },
+              "vendor": {
+                "id": 2645,
+                "name": "AmintaCCCP"
+              },
+              "categories": {
+                "10": {
+                  "id": 10,
+                  "name": "UNCLASSIFIED"
+                }
+              },
+              "data_source": "winget",
+              "sig_name": "GitHub Stars Manager",
+              "methods": {}
+            }
+          }
+        },
+        "4576": {
+          "id": 4576,
+          "tested_points": [],
+          "labels": [],
+          "languages": [],
+          "name": "PicView",
+          "signatures": {
+            "5037": {
+              "signature": 5037,
+              "product": {
+                "id": 4576,
+                "name": "PicView"
+              },
+              "vendor": {
+                "id": 2647,
+                "name": "PicView"
+              },
+              "categories": {
+                "10": {
+                  "id": 10,
+                  "name": "UNCLASSIFIED"
+                }
+              },
+              "data_source": "winget",
+              "sig_name": "PicView",
+              "methods": {}
+            }
+          }
+        },
+        "4578": {
+          "id": 4578,
+          "tested_points": [],
+          "labels": [],
+          "languages": [],
+          "name": "Helio",
+          "signatures": {
+            "5039": {
+              "signature": 5039,
+              "product": {
+                "id": 4578,
+                "name": "Helio"
+              },
+              "vendor": {
+                "id": 2648,
+                "name": "Peter Rudenko"
+              },
+              "categories": {
+                "10": {
+                  "id": 10,
+                  "name": "UNCLASSIFIED"
+                }
+              },
+              "data_source": "winget",
+              "sig_name": "Helio",
+              "methods": {}
+            }
+          }
+        },
+        "4579": {
+          "id": 4579,
+          "tested_points": [],
+          "labels": [],
+          "languages": [],
+          "name": "Music Presence",
+          "signatures": {
+            "5040": {
+              "signature": 5040,
+              "product": {
+                "id": 4579,
+                "name": "Music Presence"
+              },
+              "vendor": {
+                "id": 2649,
+                "name": "Jonas van den Berg"
+              },
+              "categories": {
+                "10": {
+                  "id": 10,
+                  "name": "UNCLASSIFIED"
+                }
+              },
+              "data_source": "winget",
+              "sig_name": "Music Presence",
+              "methods": {}
+            }
+          }
+        },
+        "4580": {
+          "id": 4580,
+          "tested_points": [],
+          "labels": [],
+          "languages": [],
+          "name": "AirPodsDesktop",
+          "signatures": {
+            "5041": {
+              "signature": 5041,
+              "product": {
+                "id": 4580,
+                "name": "AirPodsDesktop"
+              },
+              "vendor": {
+                "id": 2650,
+                "name": "AirPodsDesktop"
+              },
+              "categories": {
+                "10": {
+                  "id": 10,
+                  "name": "UNCLASSIFIED"
+                }
+              },
+              "data_source": "winget",
+              "sig_name": "AirPodsDesktop",
+              "methods": {}
+            }
+          }
+        },
+        "4585": {
+          "id": 4585,
+          "tested_points": [],
+          "labels": [],
+          "languages": [],
+          "name": "LRCGET",
+          "signatures": {
+            "5046": {
+              "signature": 5046,
+              "product": {
+                "id": 4585,
+                "name": "LRCGET"
+              },
+              "vendor": {
+                "id": 2653,
+                "name": "LRCLIB"
+              },
+              "categories": {
+                "10": {
+                  "id": 10,
+                  "name": "UNCLASSIFIED"
+                }
+              },
+              "data_source": "winget",
+              "sig_name": "LRCGET",
+              "methods": {}
+            }
+          }
+        },
+        "4586": {
+          "id": 4586,
+          "tested_points": [],
+          "labels": [],
+          "languages": [],
+          "name": "Gauge",
+          "signatures": {
+            "5047": {
+              "signature": 5047,
+              "product": {
+                "id": 4586,
+                "name": "Gauge"
+              },
+              "vendor": {
+                "id": 2654,
+                "name": "ThoughtWorks Inc."
+              },
+              "categories": {
+                "10": {
+                  "id": 10,
+                  "name": "UNCLASSIFIED"
+                }
+              },
+              "data_source": "winget",
+              "sig_name": "Gauge",
+              "methods": {}
+            }
+          }
+        },
+        "4589": {
+          "id": 4589,
+          "tested_points": [
+            {
+              "signature": 5050,
+              "version": "3.6.7"
+            }
+          ],
+          "labels": [],
+          "languages": [],
+          "name": "GitHub Desktop",
+          "signatures": {
+            "5050": {
+              "signature": 5050,
+              "product": {
+                "id": 4589,
+                "name": "GitHub Desktop"
+              },
+              "vendor": {
+                "id": 716,
+                "name": "GitHub, Inc."
+              },
+              "categories": {
+                "10": {
+                  "id": 10,
+                  "name": "UNCLASSIFIED"
+                }
+              },
+              "data_source": "Opswat",
+              "sig_name": "GitHub Desktop",
+              "methods": {
+                "manageability": {
+                  "100": {
+                    "id": 100,
+                    "meta_data": {
+                      "param_support": {
+                        "input": {
+                          "instance_id": {
+                            "_supported": false,
+                            "_optional": true
+                          }
+                        },
+                        "output": {
+                          "version": {
+                            "_supported": true,
+                            "_optional": false
+                          },
+                          "architecture": {
+                            "_supported": true,
+                            "_optional": false,
+                            "name": {
+                              "_supported": true,
+                              "_optional": false
+                            },
+                            "bitness": {
+                              "_supported": true,
+                              "_optional": false
+                            }
+                          },
+                          "language": {
+                            "_supported": true,
+                            "_optional": false,
+                            "code": {
+                              "_supported": true,
+                              "_optional": false
+                            },
+                            "name": {
+                              "_supported": true,
+                              "_optional": false
+                            }
+                          },
+                          "channel": {
+                            "_supported": false,
+                            "_optional": true
+                          },
+                          "release": {
+                            "_supported": false,
+                            "_optional": true
+                          }
+                        }
+                      },
+                      "admin_required": false,
+                      "notes": ""
+                    },
+                    "name": "GetVersion"
+                  },
+                  "101": {
+                    "id": 101,
+                    "meta_data": {
+                      "param_support": {
+                        "input": {
+                          "instance_id": {
+                            "_supported": false,
+                            "_optional": true
+                          }
+                        },
+                        "output": {
+                          "running": {
+                            "_supported": true,
+                            "_optional": false
+                          }
+                        }
+                      },
+                      "admin_required": false,
+                      "notes": ""
+                    },
+                    "name": "GetRunningState"
+                  }
+                }
+              }
             }
           }
         },
@@ -190251,6 +194518,151 @@ SUPPORT_CHARTS = {
             }
           }
         },
+        "4591": {
+          "id": 4591,
+          "tested_points": [],
+          "labels": [],
+          "languages": [],
+          "name": "GrampsAIO",
+          "signatures": {
+            "5052": {
+              "signature": 5052,
+              "product": {
+                "id": 4591,
+                "name": "GrampsAIO"
+              },
+              "vendor": {
+                "id": 2658,
+                "name": "The Gramps project"
+              },
+              "categories": {
+                "10": {
+                  "id": 10,
+                  "name": "UNCLASSIFIED"
+                }
+              },
+              "data_source": "winget",
+              "sig_name": "GrampsAIO",
+              "methods": {}
+            }
+          }
+        },
+        "4593": {
+          "id": 4593,
+          "tested_points": [],
+          "labels": [],
+          "languages": [],
+          "name": "LibrePCB",
+          "signatures": {
+            "5054": {
+              "signature": 5054,
+              "product": {
+                "id": 4593,
+                "name": "LibrePCB"
+              },
+              "vendor": {
+                "id": 2660,
+                "name": "LibrePCB Developers"
+              },
+              "categories": {
+                "10": {
+                  "id": 10,
+                  "name": "UNCLASSIFIED"
+                }
+              },
+              "data_source": "winget",
+              "sig_name": "LibrePCB",
+              "methods": {}
+            }
+          }
+        },
+        "4594": {
+          "id": 4594,
+          "tested_points": [],
+          "labels": [],
+          "languages": [],
+          "name": "KiCad",
+          "signatures": {
+            "5055": {
+              "signature": 5055,
+              "product": {
+                "id": 4594,
+                "name": "KiCad"
+              },
+              "vendor": {
+                "id": 2661,
+                "name": "KiCad"
+              },
+              "categories": {
+                "10": {
+                  "id": 10,
+                  "name": "UNCLASSIFIED"
+                }
+              },
+              "data_source": "winget",
+              "sig_name": "KiCad",
+              "methods": {}
+            }
+          }
+        },
+        "4595": {
+          "id": 4595,
+          "tested_points": [],
+          "labels": [],
+          "languages": [],
+          "name": "TriliumNext Notes",
+          "signatures": {
+            "5056": {
+              "signature": 5056,
+              "product": {
+                "id": 4595,
+                "name": "TriliumNext Notes"
+              },
+              "vendor": {
+                "id": 2662,
+                "name": "TriliumNext Notes Team"
+              },
+              "categories": {
+                "10": {
+                  "id": 10,
+                  "name": "UNCLASSIFIED"
+                }
+              },
+              "data_source": "winget",
+              "sig_name": "TriliumNext Notes",
+              "methods": {}
+            }
+          }
+        },
+        "4599": {
+          "id": 4599,
+          "tested_points": [],
+          "labels": [],
+          "languages": [],
+          "name": "Thorium",
+          "signatures": {
+            "5060": {
+              "signature": 5060,
+              "product": {
+                "id": 4599,
+                "name": "Thorium"
+              },
+              "vendor": {
+                "id": 2666,
+                "name": "EDRLab"
+              },
+              "categories": {
+                "10": {
+                  "id": 10,
+                  "name": "UNCLASSIFIED"
+                }
+              },
+              "data_source": "winget",
+              "sig_name": "Thorium",
+              "methods": {}
+            }
+          }
+        },
         "460": {
           "id": 460,
           "tested_points": [
@@ -190281,6 +194693,195 @@ SUPPORT_CHARTS = {
               },
               "data_source": "Opswat",
               "sig_name": "iPhone to Computer Transfer",
+              "methods": {}
+            }
+          }
+        },
+        "4600": {
+          "id": 4600,
+          "tested_points": [
+            {
+              "signature": 5062,
+              "version": "0.83.4"
+            }
+          ],
+          "labels": [],
+          "languages": [],
+          "name": "koharu",
+          "signatures": {
+            "5062": {
+              "signature": 5062,
+              "product": {
+                "id": 4600,
+                "name": "koharu"
+              },
+              "vendor": {
+                "id": 2668,
+                "name": "mayocream"
+              },
+              "categories": {
+                "10": {
+                  "id": 10,
+                  "name": "UNCLASSIFIED"
+                }
+              },
+              "data_source": "Opswat",
+              "sig_name": "koharu",
+              "methods": {}
+            }
+          }
+        },
+        "4603": {
+          "id": 4603,
+          "tested_points": [],
+          "labels": [],
+          "languages": [],
+          "name": "Alexandria",
+          "signatures": {
+            "5065": {
+              "signature": 5065,
+              "product": {
+                "id": 4603,
+                "name": "Alexandria"
+              },
+              "vendor": {
+                "id": 2671,
+                "name": "Bret Papkoff"
+              },
+              "categories": {
+                "10": {
+                  "id": 10,
+                  "name": "UNCLASSIFIED"
+                }
+              },
+              "data_source": "winget",
+              "sig_name": "Alexandria",
+              "methods": {}
+            }
+          }
+        },
+        "4605": {
+          "id": 4605,
+          "tested_points": [],
+          "labels": [],
+          "languages": [],
+          "name": "Qalculate!",
+          "signatures": {
+            "5067": {
+              "signature": 5067,
+              "product": {
+                "id": 4605,
+                "name": "Qalculate!"
+              },
+              "vendor": {
+                "id": 2673,
+                "name": "Hanna Knutsson"
+              },
+              "categories": {
+                "10": {
+                  "id": 10,
+                  "name": "UNCLASSIFIED"
+                }
+              },
+              "data_source": "winget",
+              "sig_name": "Qalculate!",
+              "methods": {}
+            }
+          }
+        },
+        "4607": {
+          "id": 4607,
+          "tested_points": [
+            {
+              "signature": 5069,
+              "version": "1.0.0.0"
+            }
+          ],
+          "labels": [],
+          "languages": [],
+          "name": "XAMPP",
+          "signatures": {
+            "5069": {
+              "signature": 5069,
+              "product": {
+                "id": 4607,
+                "name": "XAMPP"
+              },
+              "vendor": {
+                "id": 2675,
+                "name": "Apache Friends"
+              },
+              "categories": {
+                "10": {
+                  "id": 10,
+                  "name": "UNCLASSIFIED"
+                }
+              },
+              "data_source": "Opswat",
+              "sig_name": "XAMPP",
+              "methods": {}
+            }
+          }
+        },
+        "4608": {
+          "id": 4608,
+          "tested_points": [],
+          "labels": [],
+          "languages": [],
+          "name": "Universal Media Server",
+          "signatures": {
+            "5070": {
+              "signature": 5070,
+              "product": {
+                "id": 4608,
+                "name": "Universal Media Server"
+              },
+              "vendor": {
+                "id": 2676,
+                "name": "Universial Media Server"
+              },
+              "categories": {
+                "10": {
+                  "id": 10,
+                  "name": "UNCLASSIFIED"
+                }
+              },
+              "data_source": "winget",
+              "sig_name": "Universal Media Server",
+              "methods": {}
+            }
+          }
+        },
+        "4609": {
+          "id": 4609,
+          "tested_points": [
+            {
+              "signature": 5078,
+              "version": "9.3.1"
+            }
+          ],
+          "labels": [],
+          "languages": [],
+          "name": "Netron",
+          "signatures": {
+            "5078": {
+              "signature": 5078,
+              "product": {
+                "id": 4609,
+                "name": "Netron"
+              },
+              "vendor": {
+                "id": 2677,
+                "name": "Lutz Roeder"
+              },
+              "categories": {
+                "10": {
+                  "id": 10,
+                  "name": "UNCLASSIFIED"
+                }
+              },
+              "data_source": "Opswat",
+              "sig_name": "Netron",
               "methods": {}
             }
           }
@@ -190321,6 +194922,64 @@ SUPPORT_CHARTS = {
             }
           }
         },
+        "4611": {
+          "id": 4611,
+          "tested_points": [],
+          "labels": [],
+          "languages": [],
+          "name": "webOS Dev Manager",
+          "signatures": {
+            "5080": {
+              "signature": 5080,
+              "product": {
+                "id": 4611,
+                "name": "webOS Dev Manager"
+              },
+              "vendor": {
+                "id": 2679,
+                "name": "webosbrew"
+              },
+              "categories": {
+                "10": {
+                  "id": 10,
+                  "name": "UNCLASSIFIED"
+                }
+              },
+              "data_source": "winget",
+              "sig_name": "webOS Dev Manager",
+              "methods": {}
+            }
+          }
+        },
+        "4616": {
+          "id": 4616,
+          "tested_points": [],
+          "labels": [],
+          "languages": [],
+          "name": "Plover",
+          "signatures": {
+            "5084": {
+              "signature": 5084,
+              "product": {
+                "id": 4616,
+                "name": "Plover"
+              },
+              "vendor": {
+                "id": 2683,
+                "name": "Open Steno Project"
+              },
+              "categories": {
+                "10": {
+                  "id": 10,
+                  "name": "UNCLASSIFIED"
+                }
+              },
+              "data_source": "winget",
+              "sig_name": "Plover",
+              "methods": {}
+            }
+          }
+        },
         "462": {
           "id": 462,
           "tested_points": [
@@ -190353,6 +195012,383 @@ SUPPORT_CHARTS = {
               },
               "data_source": "Opswat",
               "sig_name": "MMC Card Recovery Pro",
+              "methods": {}
+            }
+          }
+        },
+        "4621": {
+          "id": 4621,
+          "tested_points": [],
+          "labels": [],
+          "languages": [],
+          "name": "Jellyfin MPV Shim",
+          "signatures": {
+            "5089": {
+              "signature": 5089,
+              "product": {
+                "id": 4621,
+                "name": "Jellyfin MPV Shim"
+              },
+              "vendor": {
+                "id": 2688,
+                "name": "Ian Walton"
+              },
+              "categories": {
+                "10": {
+                  "id": 10,
+                  "name": "UNCLASSIFIED"
+                }
+              },
+              "data_source": "winget",
+              "sig_name": "Jellyfin MPV Shim",
+              "methods": {}
+            }
+          }
+        },
+        "4624": {
+          "id": 4624,
+          "tested_points": [],
+          "labels": [],
+          "languages": [],
+          "name": "NetPad",
+          "signatures": {
+            "5092": {
+              "signature": 5092,
+              "product": {
+                "id": 4624,
+                "name": "NetPad"
+              },
+              "vendor": {
+                "id": 2691,
+                "name": "Tareq Imbasher"
+              },
+              "categories": {
+                "10": {
+                  "id": 10,
+                  "name": "UNCLASSIFIED"
+                }
+              },
+              "data_source": "winget",
+              "sig_name": "NetPad",
+              "methods": {}
+            }
+          }
+        },
+        "4625": {
+          "id": 4625,
+          "tested_points": [],
+          "labels": [],
+          "languages": [],
+          "name": "NetPad vNext",
+          "signatures": {
+            "5093": {
+              "signature": 5093,
+              "product": {
+                "id": 4625,
+                "name": "NetPad vNext"
+              },
+              "vendor": {
+                "id": 2691,
+                "name": "Tareq Imbasher"
+              },
+              "categories": {
+                "10": {
+                  "id": 10,
+                  "name": "UNCLASSIFIED"
+                }
+              },
+              "data_source": "winget",
+              "sig_name": "NetPad vNext",
+              "methods": {}
+            }
+          }
+        },
+        "4626": {
+          "id": 4626,
+          "tested_points": [],
+          "labels": [],
+          "languages": [],
+          "name": "Mayo",
+          "signatures": {
+            "5094": {
+              "signature": 5094,
+              "product": {
+                "id": 4626,
+                "name": "Mayo"
+              },
+              "vendor": {
+                "id": 2692,
+                "name": "Fougue"
+              },
+              "categories": {
+                "10": {
+                  "id": 10,
+                  "name": "UNCLASSIFIED"
+                }
+              },
+              "data_source": "winget",
+              "sig_name": "Mayo",
+              "methods": {}
+            }
+          }
+        },
+        "4627": {
+          "id": 4627,
+          "tested_points": [],
+          "labels": [],
+          "languages": [],
+          "name": "Gaphor",
+          "signatures": {
+            "5095": {
+              "signature": 5095,
+              "product": {
+                "id": 4627,
+                "name": "Gaphor"
+              },
+              "vendor": {
+                "id": 2693,
+                "name": "Gaphor Community"
+              },
+              "categories": {
+                "10": {
+                  "id": 10,
+                  "name": "UNCLASSIFIED"
+                }
+              },
+              "data_source": "winget",
+              "sig_name": "Gaphor",
+              "methods": {}
+            }
+          }
+        },
+        "4628": {
+          "id": 4628,
+          "tested_points": [],
+          "labels": [],
+          "languages": [],
+          "name": "Money Manager EX",
+          "signatures": {
+            "5096": {
+              "signature": 5096,
+              "product": {
+                "id": 4628,
+                "name": "Money Manager EX"
+              },
+              "vendor": {
+                "id": 2694,
+                "name": "Humanity"
+              },
+              "categories": {
+                "10": {
+                  "id": 10,
+                  "name": "UNCLASSIFIED"
+                }
+              },
+              "data_source": "winget",
+              "sig_name": "Money Manager EX",
+              "methods": {}
+            }
+          }
+        },
+        "4631": {
+          "id": 4631,
+          "tested_points": [],
+          "labels": [],
+          "languages": [],
+          "name": "win-vind",
+          "signatures": {
+            "5099": {
+              "signature": 5099,
+              "product": {
+                "id": 4631,
+                "name": "win-vind"
+              },
+              "vendor": {
+                "id": 2697,
+                "name": "pit-ray"
+              },
+              "categories": {
+                "10": {
+                  "id": 10,
+                  "name": "UNCLASSIFIED"
+                }
+              },
+              "data_source": "winget",
+              "sig_name": "win-vind",
+              "methods": {}
+            }
+          }
+        },
+        "4634": {
+          "id": 4634,
+          "tested_points": [],
+          "labels": [],
+          "languages": [],
+          "name": "muffon",
+          "signatures": {
+            "5102": {
+              "signature": 5102,
+              "product": {
+                "id": 4634,
+                "name": "muffon"
+              },
+              "vendor": {
+                "id": 2700,
+                "name": "Aleksey Shpakovsky"
+              },
+              "categories": {
+                "10": {
+                  "id": 10,
+                  "name": "UNCLASSIFIED"
+                }
+              },
+              "data_source": "winget",
+              "sig_name": "muffon",
+              "methods": {}
+            }
+          }
+        },
+        "4635": {
+          "id": 4635,
+          "tested_points": [],
+          "labels": [],
+          "languages": [],
+          "name": "Far Manager 3",
+          "signatures": {
+            "5103": {
+              "signature": 5103,
+              "product": {
+                "id": 4635,
+                "name": "Far Manager 3"
+              },
+              "vendor": {
+                "id": 2701,
+                "name": "Eugene Roshal & Far Group"
+              },
+              "categories": {
+                "10": {
+                  "id": 10,
+                  "name": "UNCLASSIFIED"
+                }
+              },
+              "data_source": "winget",
+              "sig_name": "Far Manager 3",
+              "methods": {}
+            }
+          }
+        },
+        "4639": {
+          "id": 4639,
+          "tested_points": [],
+          "labels": [],
+          "languages": [],
+          "name": "RunJS",
+          "signatures": {
+            "5107": {
+              "signature": 5107,
+              "product": {
+                "id": 4639,
+                "name": "RunJS"
+              },
+              "vendor": {
+                "id": 2705,
+                "name": "Haas Labs Ltd"
+              },
+              "categories": {
+                "10": {
+                  "id": 10,
+                  "name": "UNCLASSIFIED"
+                }
+              },
+              "data_source": "winget",
+              "sig_name": "RunJS",
+              "methods": {}
+            }
+          }
+        },
+        "4641": {
+          "id": 4641,
+          "tested_points": [],
+          "labels": [],
+          "languages": [],
+          "name": "Dune 3D",
+          "signatures": {
+            "5110": {
+              "signature": 5110,
+              "product": {
+                "id": 4641,
+                "name": "Dune 3D"
+              },
+              "vendor": {
+                "id": 2707,
+                "name": "Dune 3D project"
+              },
+              "categories": {
+                "10": {
+                  "id": 10,
+                  "name": "UNCLASSIFIED"
+                }
+              },
+              "data_source": "winget",
+              "sig_name": "Dune 3D",
+              "methods": {}
+            }
+          }
+        },
+        "4643": {
+          "id": 4643,
+          "tested_points": [],
+          "labels": [],
+          "languages": [],
+          "name": "KeyStore Explorer",
+          "signatures": {
+            "5112": {
+              "signature": 5112,
+              "product": {
+                "id": 4643,
+                "name": "KeyStore Explorer"
+              },
+              "vendor": {
+                "id": 2709,
+                "name": "Kai Kramer"
+              },
+              "categories": {
+                "10": {
+                  "id": 10,
+                  "name": "UNCLASSIFIED"
+                }
+              },
+              "data_source": "winget",
+              "sig_name": "KeyStore Explorer",
+              "methods": {}
+            }
+          }
+        },
+        "4646": {
+          "id": 4646,
+          "tested_points": [],
+          "labels": [],
+          "languages": [],
+          "name": "sleek",
+          "signatures": {
+            "5116": {
+              "signature": 5116,
+              "product": {
+                "id": 4646,
+                "name": "sleek"
+              },
+              "vendor": {
+                "id": 2712,
+                "name": "Robin Ahle"
+              },
+              "categories": {
+                "10": {
+                  "id": 10,
+                  "name": "UNCLASSIFIED"
+                }
+              },
+              "data_source": "winget",
+              "sig_name": "sleek",
               "methods": {}
             }
           }
@@ -198534,6 +203570,14 @@ SUPPORT_CHARTS = {
               "version": "157.0.1"
             },
             {
+              "signature": 3023,
+              "version": "158.0"
+            },
+            {
+              "signature": 3023,
+              "version": "158.0.1"
+            },
+            {
               "signature": 813,
               "version": "24.5.0"
             },
@@ -198654,6 +203698,14 @@ SUPPORT_CHARTS = {
             {
               "signature": 813,
               "version": "157.0.1"
+            },
+            {
+              "signature": 813,
+              "version": "158.0"
+            },
+            {
+              "signature": 813,
+              "version": "158.0.1"
             }
           ],
           "labels": [],
@@ -201200,6 +206252,10 @@ SUPPORT_CHARTS = {
             {
               "signature": 857,
               "version": "89.20.0308"
+            },
+            {
+              "signature": 857,
+              "version": "89.26.6011"
             }
           ],
           "labels": [],
@@ -202051,6 +207107,10 @@ SUPPORT_CHARTS = {
           "id": 870,
           "tested_points": [
             {
+              "signature": 5115,
+              "version": "5.7.1ae000ef"
+            },
+            {
               "signature": 879,
               "version": "4.82"
             }
@@ -202059,6 +207119,83 @@ SUPPORT_CHARTS = {
           "languages": [],
           "name": "Tera Term",
           "signatures": {
+            "5115": {
+              "signature": 5115,
+              "product": {
+                "id": 870,
+                "name": "Tera Term"
+              },
+              "vendor": {
+                "id": 585,
+                "name": "TeraTerm Project T. Teranishi"
+              },
+              "categories": {
+                "10": {
+                  "id": 10,
+                  "name": "UNCLASSIFIED"
+                }
+              },
+              "data_source": "Opswat",
+              "sig_name": "Tera Term (User)",
+              "methods": {
+                "manageability": {
+                  "100": {
+                    "id": 100,
+                    "meta_data": {
+                      "param_support": {
+                        "input": {
+                          "instance_id": {
+                            "_supported": false,
+                            "_optional": true
+                          }
+                        },
+                        "output": {
+                          "version": {
+                            "_supported": true,
+                            "_optional": false
+                          },
+                          "architecture": {
+                            "_supported": true,
+                            "_optional": false,
+                            "name": {
+                              "_supported": true,
+                              "_optional": false
+                            },
+                            "bitness": {
+                              "_supported": true,
+                              "_optional": false
+                            }
+                          },
+                          "language": {
+                            "_supported": true,
+                            "_optional": false,
+                            "code": {
+                              "_supported": true,
+                              "_optional": false
+                            },
+                            "name": {
+                              "_supported": true,
+                              "_optional": false
+                            }
+                          },
+                          "channel": {
+                            "_supported": false,
+                            "_optional": true
+                          },
+                          "release": {
+                            "_supported": false,
+                            "_optional": true
+                          }
+                        }
+                      },
+                      "admin_required": false,
+                      "notes": ""
+                    },
+                    "name": "GetVersion"
+                  }
+                }
+              }
+            },
             "879": {
               "signature": 879,
               "product": {
@@ -206772,9 +211909,6 @@ SUPPORT_CHARTS = {
               "version": "14.0.20731"
             },
             {
-              "methodsStatus": {
-                "1006": -1
-              },
               "signature": 3050,
               "version": "14.0.20790"
             }
@@ -210547,6 +215681,35 @@ SUPPORT_CHARTS = {
             }
           }
         },
+        "4604": {
+          "id": 4604,
+          "tested_points": [],
+          "labels": [],
+          "languages": [],
+          "name": "ExifCleaner",
+          "signatures": {
+            "5066": {
+              "signature": 5066,
+              "product": {
+                "id": 4604,
+                "name": "ExifCleaner"
+              },
+              "vendor": {
+                "id": 2672,
+                "name": "szTheory"
+              },
+              "categories": {
+                "11": {
+                  "id": 11,
+                  "name": "DATA_LOSS_PREVENTION"
+                }
+              },
+              "data_source": "winget",
+              "sig_name": "ExifCleaner",
+              "methods": {}
+            }
+          }
+        },
         "539": {
           "id": 539,
           "tested_points": [
@@ -212806,6 +217969,20 @@ SUPPORT_CHARTS = {
             {
               "signature": 1103,
               "version": "1510.2608.26052.0",
+              "release": "Preview"
+            },
+            {
+              "signature": 1103,
+              "version": "1510.2610.1012.0"
+            },
+            {
+              "signature": 1103,
+              "version": "1510.2610.1012.0",
+              "release": "Preview"
+            },
+            {
+              "signature": 1103,
+              "version": "1511.2610.2022.0",
               "release": "Preview"
             }
           ],
@@ -215157,27 +220334,6 @@ SUPPORT_CHARTS = {
               "version": "13.2.8665"
             },
             {
-              "methodsStatus": {
-                "1000": -1,
-                "1001": -1,
-                "1002": -1,
-                "1003": -1,
-                "1004": -1,
-                "1005": -1,
-                "1007": -1,
-                "101": -1,
-                "1010": -1,
-                "1012": -1,
-                "102": -1,
-                "1022": -1,
-                "103": -1,
-                "104": -1,
-                "105": -1,
-                "106": -1,
-                "108": -1,
-                "109": -1,
-                "110": -1
-              },
               "signature": 2689,
               "version": "13.2.8670"
             }
@@ -220472,16 +225628,6 @@ SUPPORT_CHARTS = {
               "version": "11.0.2.125"
             },
             {
-              "methodsStatus": {
-                "100": -1,
-                "101": -1,
-                "1012": -1,
-                "1013": -1,
-                "102": -1,
-                "1021": -1,
-                "103": -1,
-                "104": -1
-              },
               "signature": 3564,
               "version": "11.0.4.60"
             }
@@ -224448,6 +229594,122 @@ SUPPORT_CHARTS = {
               },
               "data_source": "winget",
               "sig_name": "App Installer",
+              "methods": {}
+            }
+          }
+        },
+        "4408": {
+          "id": 4408,
+          "tested_points": [],
+          "labels": [],
+          "languages": [],
+          "name": "Chocolatey",
+          "signatures": {
+            "4867": {
+              "signature": 4867,
+              "product": {
+                "id": 4408,
+                "name": "Chocolatey"
+              },
+              "vendor": {
+                "id": 2491,
+                "name": "Chocolatey Software, Inc."
+              },
+              "categories": {
+                "12": {
+                  "id": 12,
+                  "name": "PATCH_MANAGEMENT"
+                }
+              },
+              "data_source": "winget",
+              "sig_name": "Chocolatey",
+              "methods": {}
+            }
+          }
+        },
+        "4428": {
+          "id": 4428,
+          "tested_points": [],
+          "labels": [],
+          "languages": [],
+          "name": "Conan Package Manager",
+          "signatures": {
+            "4889": {
+              "signature": 4889,
+              "product": {
+                "id": 4428,
+                "name": "Conan Package Manager"
+              },
+              "vendor": {
+                "id": 2509,
+                "name": "JFrog"
+              },
+              "categories": {
+                "12": {
+                  "id": 12,
+                  "name": "PATCH_MANAGEMENT"
+                }
+              },
+              "data_source": "winget",
+              "sig_name": "Conan Package Manager",
+              "methods": {}
+            }
+          }
+        },
+        "4451": {
+          "id": 4451,
+          "tested_points": [],
+          "labels": [],
+          "languages": [],
+          "name": "pixi",
+          "signatures": {
+            "4912": {
+              "signature": 4912,
+              "product": {
+                "id": 4451,
+                "name": "pixi"
+              },
+              "vendor": {
+                "id": 2531,
+                "name": "prefix-dev"
+              },
+              "categories": {
+                "12": {
+                  "id": 12,
+                  "name": "PATCH_MANAGEMENT"
+                }
+              },
+              "data_source": "winget",
+              "sig_name": "pixi",
+              "methods": {}
+            }
+          }
+        },
+        "4527": {
+          "id": 4527,
+          "tested_points": [],
+          "labels": [],
+          "languages": [],
+          "name": "Galaxy Buds Manager (Unofficial)",
+          "signatures": {
+            "4988": {
+              "signature": 4988,
+              "product": {
+                "id": 4527,
+                "name": "Galaxy Buds Manager (Unofficial)"
+              },
+              "vendor": {
+                "id": 2603,
+                "name": "timschneeb"
+              },
+              "categories": {
+                "12": {
+                  "id": 12,
+                  "name": "PATCH_MANAGEMENT"
+                }
+              },
+              "data_source": "winget",
+              "sig_name": "Galaxy Buds Manager (Unofficial)",
               "methods": {}
             }
           }
@@ -228985,11 +234247,6 @@ SUPPORT_CHARTS = {
               "version": "1.1.109.1990"
             },
             {
-              "methodsStatus": {
-                "1000": -1,
-                "1004": -1,
-                "1005": -1
-              },
               "signature": 3636,
               "version": "1.1.111.2624"
             },
@@ -233462,6 +238719,238 @@ SUPPORT_CHARTS = {
             }
           }
         },
+        "4357": {
+          "id": 4357,
+          "tested_points": [],
+          "labels": [],
+          "languages": [],
+          "name": "Karing",
+          "signatures": {
+            "4816": {
+              "signature": 4816,
+              "product": {
+                "id": 4357,
+                "name": "Karing"
+              },
+              "vendor": {
+                "id": 2169,
+                "name": "Supernova Nebula LLC"
+              },
+              "categories": {
+                "13": {
+                  "id": 13,
+                  "name": "VPN_CLIENT"
+                }
+              },
+              "data_source": "winget",
+              "sig_name": "Karing",
+              "methods": {}
+            }
+          }
+        },
+        "4435": {
+          "id": 4435,
+          "tested_points": [],
+          "labels": [],
+          "languages": [],
+          "name": "Firezone",
+          "signatures": {
+            "4896": {
+              "signature": 4896,
+              "product": {
+                "id": 4435,
+                "name": "Firezone"
+              },
+              "vendor": {
+                "id": 2516,
+                "name": "Firezone"
+              },
+              "categories": {
+                "13": {
+                  "id": 13,
+                  "name": "VPN_CLIENT"
+                }
+              },
+              "data_source": "winget",
+              "sig_name": "Firezone",
+              "methods": {}
+            }
+          }
+        },
+        "4450": {
+          "id": 4450,
+          "tested_points": [],
+          "labels": [],
+          "languages": [],
+          "name": "Sparkle",
+          "signatures": {
+            "4911": {
+              "signature": 4911,
+              "product": {
+                "id": 4450,
+                "name": "Sparkle"
+              },
+              "vendor": {
+                "id": 2530,
+                "name": "xishang0128"
+              },
+              "categories": {
+                "13": {
+                  "id": 13,
+                  "name": "VPN_CLIENT"
+                }
+              },
+              "data_source": "winget",
+              "sig_name": "Sparkle",
+              "methods": {}
+            }
+          }
+        },
+        "4457": {
+          "id": 4457,
+          "tested_points": [],
+          "labels": [],
+          "languages": [],
+          "name": "Mullvad VPN",
+          "signatures": {
+            "4918": {
+              "signature": 4918,
+              "product": {
+                "id": 4457,
+                "name": "Mullvad VPN"
+              },
+              "vendor": {
+                "id": 2002,
+                "name": "Mullvad VPN"
+              },
+              "categories": {
+                "13": {
+                  "id": 13,
+                  "name": "VPN_CLIENT"
+                }
+              },
+              "data_source": "winget",
+              "sig_name": "Mullvad VPN",
+              "methods": {}
+            }
+          }
+        },
+        "4468": {
+          "id": 4468,
+          "tested_points": [],
+          "labels": [],
+          "languages": [],
+          "name": "Throne",
+          "signatures": {
+            "4929": {
+              "signature": 4929,
+              "product": {
+                "id": 4468,
+                "name": "Throne"
+              },
+              "vendor": {
+                "id": 2547,
+                "name": "Throneproj"
+              },
+              "categories": {
+                "13": {
+                  "id": 13,
+                  "name": "VPN_CLIENT"
+                }
+              },
+              "data_source": "winget",
+              "sig_name": "Throne",
+              "methods": {}
+            }
+          }
+        },
+        "4480": {
+          "id": 4480,
+          "tested_points": [],
+          "labels": [],
+          "languages": [],
+          "name": "Frpc-Desktop",
+          "signatures": {
+            "4941": {
+              "signature": 4941,
+              "product": {
+                "id": 4480,
+                "name": "Frpc-Desktop"
+              },
+              "vendor": {
+                "id": 2558,
+                "name": "luckjiawei"
+              },
+              "categories": {
+                "13": {
+                  "id": 13,
+                  "name": "VPN_CLIENT"
+                }
+              },
+              "data_source": "winget",
+              "sig_name": "Frpc-Desktop",
+              "methods": {}
+            }
+          }
+        },
+        "4518": {
+          "id": 4518,
+          "tested_points": [],
+          "labels": [],
+          "languages": [],
+          "name": "Yggdrasil Network",
+          "signatures": {
+            "4979": {
+              "signature": 4979,
+              "product": {
+                "id": 4518,
+                "name": "Yggdrasil Network"
+              },
+              "vendor": {
+                "id": 2594,
+                "name": "github.com/yggdrasil-network"
+              },
+              "categories": {
+                "13": {
+                  "id": 13,
+                  "name": "VPN_CLIENT"
+                }
+              },
+              "data_source": "winget",
+              "sig_name": "Yggdrasil Network",
+              "methods": {}
+            }
+          }
+        },
+        "4552": {
+          "id": 4552,
+          "tested_points": [],
+          "labels": [],
+          "languages": [],
+          "name": "MetaCubeXD",
+          "signatures": {
+            "5013": {
+              "signature": 5013,
+              "product": {
+                "id": 4552,
+                "name": "MetaCubeXD"
+              },
+              "vendor": {
+                "id": 2626,
+                "name": "MetaCubeX"
+              },
+              "categories": {
+                "13": {
+                  "id": 13,
+                  "name": "VPN_CLIENT"
+                }
+              },
+              "data_source": "winget",
+              "sig_name": "MetaCubeXD",
+              "methods": {}
+            }
+          }
+        },
         "595": {
           "id": 595,
           "tested_points": [
@@ -233522,32 +239011,10 @@ SUPPORT_CHARTS = {
               "version": "7.4.3.1790"
             },
             {
-              "methodsStatus": {
-                "1000": -1,
-                "1001": -1,
-                "1004": -1,
-                "1006": -1,
-                "1007": -1
-              },
               "signature": 602,
               "version": "7.4.4.1887"
             },
             {
-              "methodsStatus": {
-                "1000": -1,
-                "1001": -1,
-                "1004": -1,
-                "1006": -1,
-                "1007": -1,
-                "101": -1,
-                "102": -1,
-                "103": -1,
-                "104": -1,
-                "105": -1,
-                "106": -1,
-                "108": -1,
-                "110": -1
-              },
               "signature": 602,
               "version": "7.4.5.1949"
             },
@@ -234012,6 +239479,10 @@ SUPPORT_CHARTS = {
             {
               "signature": 857,
               "version": "89.20.0308"
+            },
+            {
+              "signature": 857,
+              "version": "89.26.6011"
             }
           ],
           "labels": [],
@@ -235601,6 +241072,39 @@ SUPPORT_CHARTS = {
             }
           }
         },
+        "4355": {
+          "id": 4355,
+          "tested_points": [],
+          "labels": [],
+          "languages": [],
+          "name": "PCSX2",
+          "signatures": {
+            "4814": {
+              "signature": 4814,
+              "product": {
+                "id": 4355,
+                "name": "PCSX2"
+              },
+              "vendor": {
+                "id": 2444,
+                "name": "PCSX2 Team"
+              },
+              "categories": {
+                "14": {
+                  "id": 14,
+                  "name": "VIRTUAL_MACHINE"
+                },
+                "19": {
+                  "id": 19,
+                  "name": "GAMING"
+                }
+              },
+              "data_source": "winget",
+              "sig_name": "PCSX2",
+              "methods": {}
+            }
+          }
+        },
         "454": {
           "id": 454,
           "tested_points": [
@@ -235961,6 +241465,93 @@ SUPPORT_CHARTS = {
                   }
                 }
               }
+            }
+          }
+        },
+        "4565": {
+          "id": 4565,
+          "tested_points": [],
+          "labels": [],
+          "languages": [],
+          "name": "WSL Dashboard",
+          "signatures": {
+            "5026": {
+              "signature": 5026,
+              "product": {
+                "id": 4565,
+                "name": "WSL Dashboard"
+              },
+              "vendor": {
+                "id": 2636,
+                "name": "https://github.com/owu"
+              },
+              "categories": {
+                "14": {
+                  "id": 14,
+                  "name": "VIRTUAL_MACHINE"
+                }
+              },
+              "data_source": "winget",
+              "sig_name": "WSL Dashboard",
+              "methods": {}
+            }
+          }
+        },
+        "4572": {
+          "id": 4572,
+          "tested_points": [],
+          "labels": [],
+          "languages": [],
+          "name": "DOSBox-X",
+          "signatures": {
+            "5033": {
+              "signature": 5033,
+              "product": {
+                "id": 4572,
+                "name": "DOSBox-X"
+              },
+              "vendor": {
+                "id": 2643,
+                "name": "joncampbell123 [DOSBox-X Team]"
+              },
+              "categories": {
+                "14": {
+                  "id": 14,
+                  "name": "VIRTUAL_MACHINE"
+                }
+              },
+              "data_source": "winget",
+              "sig_name": "DOSBox-X",
+              "methods": {}
+            }
+          }
+        },
+        "4637": {
+          "id": 4637,
+          "tested_points": [],
+          "labels": [],
+          "languages": [],
+          "name": "AutomatedLab",
+          "signatures": {
+            "5105": {
+              "signature": 5105,
+              "product": {
+                "id": 4637,
+                "name": "AutomatedLab"
+              },
+              "vendor": {
+                "id": 2703,
+                "name": "AutomatedLab Team"
+              },
+              "categories": {
+                "14": {
+                  "id": 14,
+                  "name": "VIRTUAL_MACHINE"
+                }
+              },
+              "data_source": "winget",
+              "sig_name": "AutomatedLab",
+              "methods": {}
             }
           }
         }
@@ -236797,25 +242388,6 @@ SUPPORT_CHARTS = {
               "version": "7.34.20610.0"
             },
             {
-              "methodsStatus": {
-                "1000": -1,
-                "1001": -1,
-                "1002": -1,
-                "1007": -1,
-                "101": -1,
-                "1012": -1,
-                "102": -1,
-                "103": -1,
-                "104": -1,
-                "105": -1,
-                "106": -1,
-                "108": -1,
-                "110": -1
-              },
-              "signature": 2866,
-              "version": "7.35.20709.0"
-            },
-            {
               "signature": 2866,
               "version": "7.36.20805.0"
             },
@@ -236868,26 +242440,16 @@ SUPPORT_CHARTS = {
               "version": "8.10.21401.0"
             },
             {
-              "methodsStatus": {
-                "1001": -1,
-                "1002": -1,
-                "1004": -1,
-                "1007": -1,
-                "1012": -1,
-                "102": -1,
-                "103": -1,
-                "104": -1,
-                "105": -1,
-                "106": -1,
-                "108": -1,
-                "110": -1
-              },
               "signature": 2866,
               "version": "8.10.21405.0"
             },
             {
               "signature": 2866,
               "version": "8.10.21408.0"
+            },
+            {
+              "signature": 2866,
+              "version": "7.35.20712.0"
             }
           ],
           "labels": [
@@ -237950,6 +243512,14 @@ SUPPORT_CHARTS = {
             {
               "signature": 3141,
               "version": "9.3.0.209"
+            },
+            {
+              "signature": 3141,
+              "version": "9.4.0.442"
+            },
+            {
+              "signature": 3141,
+              "version": "9.2"
             }
           ],
           "labels": [
@@ -238845,17 +244415,6 @@ SUPPORT_CHARTS = {
               "version": "10.0.26100.4202"
             },
             {
-              "methodsStatus": {
-                "100": -1,
-                "1000": -1,
-                "1001": -1,
-                "1004": -1,
-                "1006": -1,
-                "101": -1,
-                "104": -1,
-                "106": -1,
-                "110": -1
-              },
               "signature": 3194,
               "version": "10.0.26200.6899"
             },
@@ -238868,10 +244427,6 @@ SUPPORT_CHARTS = {
               "version": "10.0.28000.2179"
             },
             {
-              "methodsStatus": {
-                "1004": -1,
-                "1006": -1
-              },
               "signature": 3194,
               "version": "10.0.28000.2269"
             },
@@ -238886,6 +244441,10 @@ SUPPORT_CHARTS = {
             {
               "signature": 3194,
               "version": "10.0.26100.9457"
+            },
+            {
+              "signature": 3194,
+              "version": "10.0.26100.9711"
             }
           ],
           "labels": [
@@ -242290,6 +247849,393 @@ SUPPORT_CHARTS = {
             }
           }
         },
+        "4388": {
+          "id": 4388,
+          "tested_points": [],
+          "labels": [],
+          "languages": [],
+          "name": "Beats winlogbeat",
+          "signatures": {
+            "4847": {
+              "signature": 4847,
+              "product": {
+                "id": 4388,
+                "name": "Beats winlogbeat"
+              },
+              "vendor": {
+                "id": 2476,
+                "name": "Elastic"
+              },
+              "categories": {
+                "15": {
+                  "id": 15,
+                  "name": "HEALTH_AGENT"
+                }
+              },
+              "data_source": "winget",
+              "sig_name": "Beats winlogbeat",
+              "methods": {}
+            }
+          }
+        },
+        "4389": {
+          "id": 4389,
+          "tested_points": [],
+          "labels": [],
+          "languages": [],
+          "name": "Beats auditbeat",
+          "signatures": {
+            "4848": {
+              "signature": 4848,
+              "product": {
+                "id": 4389,
+                "name": "Beats auditbeat"
+              },
+              "vendor": {
+                "id": 2476,
+                "name": "Elastic"
+              },
+              "categories": {
+                "15": {
+                  "id": 15,
+                  "name": "HEALTH_AGENT"
+                }
+              },
+              "data_source": "winget",
+              "sig_name": "Beats auditbeat",
+              "methods": {}
+            }
+          }
+        },
+        "4390": {
+          "id": 4390,
+          "tested_points": [],
+          "labels": [],
+          "languages": [],
+          "name": "Beats heartbeat",
+          "signatures": {
+            "4849": {
+              "signature": 4849,
+              "product": {
+                "id": 4390,
+                "name": "Beats heartbeat"
+              },
+              "vendor": {
+                "id": 2476,
+                "name": "Elastic"
+              },
+              "categories": {
+                "15": {
+                  "id": 15,
+                  "name": "HEALTH_AGENT"
+                }
+              },
+              "data_source": "winget",
+              "sig_name": "Beats heartbeat",
+              "methods": {}
+            }
+          }
+        },
+        "4391": {
+          "id": 4391,
+          "tested_points": [
+            {
+              "signature": 4850,
+              "version": "9.5.5"
+            }
+          ],
+          "labels": [],
+          "languages": [],
+          "name": "Beats filebeat",
+          "signatures": {
+            "4850": {
+              "signature": 4850,
+              "product": {
+                "id": 4391,
+                "name": "Beats filebeat"
+              },
+              "vendor": {
+                "id": 2476,
+                "name": "Elastic"
+              },
+              "categories": {
+                "15": {
+                  "id": 15,
+                  "name": "HEALTH_AGENT"
+                }
+              },
+              "data_source": "winget",
+              "sig_name": "Beats filebeat",
+              "methods": {}
+            }
+          }
+        },
+        "4392": {
+          "id": 4392,
+          "tested_points": [],
+          "labels": [],
+          "languages": [],
+          "name": "Beats packetbeat",
+          "signatures": {
+            "4851": {
+              "signature": 4851,
+              "product": {
+                "id": 4392,
+                "name": "Beats packetbeat"
+              },
+              "vendor": {
+                "id": 2476,
+                "name": "Elastic"
+              },
+              "categories": {
+                "15": {
+                  "id": 15,
+                  "name": "HEALTH_AGENT"
+                }
+              },
+              "data_source": "winget",
+              "sig_name": "Beats packetbeat",
+              "methods": {}
+            }
+          }
+        },
+        "4393": {
+          "id": 4393,
+          "tested_points": [],
+          "labels": [],
+          "languages": [],
+          "name": "Beats metricbeat",
+          "signatures": {
+            "4852": {
+              "signature": 4852,
+              "product": {
+                "id": 4393,
+                "name": "Beats metricbeat"
+              },
+              "vendor": {
+                "id": 2476,
+                "name": "Elastic"
+              },
+              "categories": {
+                "15": {
+                  "id": 15,
+                  "name": "HEALTH_AGENT"
+                }
+              },
+              "data_source": "winget",
+              "sig_name": "Beats metricbeat",
+              "methods": {}
+            }
+          }
+        },
+        "4445": {
+          "id": 4445,
+          "tested_points": [],
+          "labels": [],
+          "languages": [],
+          "name": "fluent-bit",
+          "signatures": {
+            "4906": {
+              "signature": 4906,
+              "product": {
+                "id": 4445,
+                "name": "fluent-bit"
+              },
+              "vendor": {
+                "id": 2525,
+                "name": "Chronosphere Inc."
+              },
+              "categories": {
+                "15": {
+                  "id": 15,
+                  "name": "HEALTH_AGENT"
+                }
+              },
+              "data_source": "winget",
+              "sig_name": "fluent-bit",
+              "methods": {}
+            }
+          }
+        },
+        "4489": {
+          "id": 4489,
+          "tested_points": [],
+          "labels": [],
+          "languages": [],
+          "name": "Tautulli",
+          "signatures": {
+            "4950": {
+              "signature": 4950,
+              "product": {
+                "id": 4489,
+                "name": "Tautulli"
+              },
+              "vendor": {
+                "id": 2567,
+                "name": "Tautulli"
+              },
+              "categories": {
+                "15": {
+                  "id": 15,
+                  "name": "HEALTH_AGENT"
+                }
+              },
+              "data_source": "winget",
+              "sig_name": "Tautulli",
+              "methods": {}
+            }
+          }
+        },
+        "4494": {
+          "id": 4494,
+          "tested_points": [],
+          "labels": [],
+          "languages": [],
+          "name": "Stretchly",
+          "signatures": {
+            "4955": {
+              "signature": 4955,
+              "product": {
+                "id": 4494,
+                "name": "Stretchly"
+              },
+              "vendor": {
+                "id": 2572,
+                "name": "Jan Hovancik"
+              },
+              "categories": {
+                "15": {
+                  "id": 15,
+                  "name": "HEALTH_AGENT"
+                }
+              },
+              "data_source": "winget",
+              "sig_name": "Stretchly",
+              "methods": {}
+            }
+          }
+        },
+        "4575": {
+          "id": 4575,
+          "tested_points": [],
+          "labels": [],
+          "languages": [],
+          "name": "windows_exporter",
+          "signatures": {
+            "5036": {
+              "signature": 5036,
+              "product": {
+                "id": 4575,
+                "name": "windows_exporter"
+              },
+              "vendor": {
+                "id": 2646,
+                "name": "Prometheus Community"
+              },
+              "categories": {
+                "15": {
+                  "id": 15,
+                  "name": "HEALTH_AGENT"
+                }
+              },
+              "data_source": "winget",
+              "sig_name": "windows_exporter",
+              "methods": {}
+            }
+          }
+        },
+        "4577": {
+          "id": 4577,
+          "tested_points": [],
+          "labels": [],
+          "languages": [],
+          "name": "Alloy",
+          "signatures": {
+            "5038": {
+              "signature": 5038,
+              "product": {
+                "id": 4577,
+                "name": "Alloy"
+              },
+              "vendor": {
+                "id": 1858,
+                "name": "Grafana Labs"
+              },
+              "categories": {
+                "15": {
+                  "id": 15,
+                  "name": "HEALTH_AGENT"
+                }
+              },
+              "data_source": "winget",
+              "sig_name": "Alloy",
+              "methods": {}
+            }
+          }
+        },
+        "4640": {
+          "id": 4640,
+          "tested_points": [
+            {
+              "signature": 5108,
+              "version": "7.84.5.0"
+            }
+          ],
+          "labels": [],
+          "languages": [],
+          "name": "Datadog Agent",
+          "signatures": {
+            "5108": {
+              "signature": 5108,
+              "product": {
+                "id": 4640,
+                "name": "Datadog Agent"
+              },
+              "vendor": {
+                "id": 2706,
+                "name": "Datadog, Inc."
+              },
+              "categories": {
+                "15": {
+                  "id": 15,
+                  "name": "HEALTH_AGENT"
+                }
+              },
+              "data_source": "Opswat",
+              "sig_name": "Datadog Agent",
+              "methods": {}
+            }
+          }
+        },
+        "4647": {
+          "id": 4647,
+          "tested_points": [],
+          "labels": [],
+          "languages": [],
+          "name": "Servy",
+          "signatures": {
+            "5117": {
+              "signature": 5117,
+              "product": {
+                "id": 4647,
+                "name": "Servy"
+              },
+              "vendor": {
+                "id": 2713,
+                "name": "Akram El Assas"
+              },
+              "categories": {
+                "15": {
+                  "id": 15,
+                  "name": "HEALTH_AGENT"
+                }
+              },
+              "data_source": "winget",
+              "sig_name": "Servy",
+              "methods": {}
+            }
+          }
+        },
         "848": {
           "id": 848,
           "tested_points": [
@@ -242412,6 +248358,10 @@ SUPPORT_CHARTS = {
             {
               "signature": 857,
               "version": "89.20.0308"
+            },
+            {
+              "signature": 857,
+              "version": "89.26.6011"
             }
           ],
           "labels": [],
@@ -247624,6 +253574,10 @@ SUPPORT_CHARTS = {
             {
               "signature": 3797,
               "version": "26198.304.4946.9672"
+            },
+            {
+              "signature": 3797,
+              "version": "26225.1806.5074.1452"
             },
             {
               "signature": 3799,
@@ -253714,6 +259668,180 @@ SUPPORT_CHARTS = {
             }
           }
         },
+        "4361": {
+          "id": 4361,
+          "tested_points": [],
+          "labels": [],
+          "languages": [],
+          "name": "electerm",
+          "signatures": {
+            "4820": {
+              "signature": 4820,
+              "product": {
+                "id": 4361,
+                "name": "electerm"
+              },
+              "vendor": {
+                "id": 2449,
+                "name": "ZHAO Xudong"
+              },
+              "categories": {
+                "16": {
+                  "id": 16,
+                  "name": "REMOTE_CONTROL"
+                }
+              },
+              "data_source": "winget",
+              "sig_name": "electerm",
+              "methods": {}
+            }
+          }
+        },
+        "4371": {
+          "id": 4371,
+          "tested_points": [],
+          "labels": [],
+          "languages": [],
+          "name": "XPipe",
+          "signatures": {
+            "4830": {
+              "signature": 4830,
+              "product": {
+                "id": 4371,
+                "name": "XPipe"
+              },
+              "vendor": {
+                "id": 2459,
+                "name": "XPipe UG (haftungsbeschränkt)"
+              },
+              "categories": {
+                "16": {
+                  "id": 16,
+                  "name": "REMOTE_CONTROL"
+                }
+              },
+              "data_source": "winget",
+              "sig_name": "XPipe",
+              "methods": {}
+            }
+          }
+        },
+        "4404": {
+          "id": 4404,
+          "tested_points": [],
+          "labels": [],
+          "languages": [],
+          "name": "Escrcpy",
+          "signatures": {
+            "4863": {
+              "signature": 4863,
+              "product": {
+                "id": 4404,
+                "name": "Escrcpy"
+              },
+              "vendor": {
+                "id": 2487,
+                "name": "viarotel"
+              },
+              "categories": {
+                "16": {
+                  "id": 16,
+                  "name": "REMOTE_CONTROL"
+                }
+              },
+              "data_source": "winget",
+              "sig_name": "Escrcpy",
+              "methods": {}
+            }
+          }
+        },
+        "4444": {
+          "id": 4444,
+          "tested_points": [],
+          "labels": [],
+          "languages": [],
+          "name": "OpenSSH Preview",
+          "signatures": {
+            "4905": {
+              "signature": 4905,
+              "product": {
+                "id": 4444,
+                "name": "OpenSSH Preview"
+              },
+              "vendor": {
+                "id": 90,
+                "name": "Microsoft Corporation"
+              },
+              "categories": {
+                "16": {
+                  "id": 16,
+                  "name": "REMOTE_CONTROL"
+                }
+              },
+              "data_source": "winget",
+              "sig_name": "OpenSSH Preview",
+              "methods": {}
+            }
+          }
+        },
+        "4461": {
+          "id": 4461,
+          "tested_points": [],
+          "labels": [],
+          "languages": [],
+          "name": "TigerVNC",
+          "signatures": {
+            "4922": {
+              "signature": 4922,
+              "product": {
+                "id": 4461,
+                "name": "TigerVNC"
+              },
+              "vendor": {
+                "id": 2540,
+                "name": "TigerVNC project"
+              },
+              "categories": {
+                "16": {
+                  "id": 16,
+                  "name": "REMOTE_CONTROL"
+                }
+              },
+              "data_source": "winget",
+              "sig_name": "TigerVNC",
+              "methods": {}
+            }
+          }
+        },
+        "4496": {
+          "id": 4496,
+          "tested_points": [],
+          "labels": [],
+          "languages": [],
+          "name": "Netcatty",
+          "signatures": {
+            "4957": {
+              "signature": 4957,
+              "product": {
+                "id": 4496,
+                "name": "Netcatty"
+              },
+              "vendor": {
+                "id": 2574,
+                "name": "binaricat"
+              },
+              "categories": {
+                "16": {
+                  "id": 16,
+                  "name": "REMOTE_CONTROL"
+                }
+              },
+              "data_source": "winget",
+              "sig_name": "Netcatty",
+              "methods": {}
+            }
+          }
+        },
         "774": {
           "id": 774,
           "tested_points": [
@@ -254789,6 +260917,14 @@ SUPPORT_CHARTS = {
             {
               "signature": 3,
               "version": "7.11.0.46555"
+            },
+            {
+              "signature": 3,
+              "version": "7.11.0.47391"
+            },
+            {
+              "signature": 3,
+              "version": "7.11.0.47255"
             }
           ],
           "labels": [
@@ -255467,6 +261603,126 @@ SUPPORT_CHARTS = {
             }
           }
         },
+        "4372": {
+          "id": 4372,
+          "tested_points": [],
+          "labels": [],
+          "languages": [],
+          "name": "Radarr",
+          "signatures": {
+            "4831": {
+              "signature": 4831,
+              "product": {
+                "id": 4372,
+                "name": "Radarr"
+              },
+              "vendor": {
+                "id": 2460,
+                "name": "Team Radarr"
+              },
+              "categories": {
+                "17": {
+                  "id": 17,
+                  "name": "P2PA"
+                }
+              },
+              "data_source": "winget",
+              "sig_name": "Radarr",
+              "methods": {}
+            }
+          }
+        },
+        "4411": {
+          "id": 4411,
+          "tested_points": [],
+          "labels": [],
+          "languages": [],
+          "name": "Chia",
+          "signatures": {
+            "4870": {
+              "signature": 4870,
+              "product": {
+                "id": 4411,
+                "name": "Chia"
+              },
+              "vendor": {
+                "id": 2493,
+                "name": "Chia Network"
+              },
+              "categories": {
+                "17": {
+                  "id": 17,
+                  "name": "P2PA"
+                }
+              },
+              "data_source": "winget",
+              "sig_name": "Chia",
+              "methods": {}
+            }
+          }
+        },
+        "4472": {
+          "id": 4472,
+          "tested_points": [],
+          "labels": [],
+          "languages": [],
+          "name": "Prowlarr",
+          "signatures": {
+            "4933": {
+              "signature": 4933,
+              "product": {
+                "id": 4472,
+                "name": "Prowlarr"
+              },
+              "vendor": {
+                "id": 2550,
+                "name": "Team Prowlarr"
+              },
+              "categories": {
+                "1": {
+                  "id": 1,
+                  "name": "PUBLIC_FILE_SHARING"
+                },
+                "17": {
+                  "id": 17,
+                  "name": "P2PA"
+                }
+              },
+              "data_source": "winget",
+              "sig_name": "Prowlarr",
+              "methods": {}
+            }
+          }
+        },
+        "4492": {
+          "id": 4492,
+          "tested_points": [],
+          "labels": [],
+          "languages": [],
+          "name": "IPFS Desktop",
+          "signatures": {
+            "4953": {
+              "signature": 4953,
+              "product": {
+                "id": 4492,
+                "name": "IPFS Desktop"
+              },
+              "vendor": {
+                "id": 2570,
+                "name": "Protocol Labs, Inc."
+              },
+              "categories": {
+                "17": {
+                  "id": 17,
+                  "name": "P2PA"
+                }
+              },
+              "data_source": "winget",
+              "sig_name": "IPFS Desktop",
+              "methods": {}
+            }
+          }
+        },
         "45": {
           "id": 45,
           "tested_points": [
@@ -255514,6 +261770,97 @@ SUPPORT_CHARTS = {
             }
           }
         },
+        "4522": {
+          "id": 4522,
+          "tested_points": [],
+          "labels": [],
+          "languages": [],
+          "name": "Flying Carpet",
+          "signatures": {
+            "4983": {
+              "signature": 4983,
+              "product": {
+                "id": 4522,
+                "name": "Flying Carpet"
+              },
+              "vendor": {
+                "id": 2598,
+                "name": "Theron Spiegl"
+              },
+              "categories": {
+                "17": {
+                  "id": 17,
+                  "name": "P2PA"
+                }
+              },
+              "data_source": "winget",
+              "sig_name": "Flying Carpet",
+              "methods": {}
+            }
+          }
+        },
+        "4530": {
+          "id": 4530,
+          "tested_points": [],
+          "labels": [],
+          "languages": [],
+          "name": "Bisq",
+          "signatures": {
+            "4991": {
+              "signature": 4991,
+              "product": {
+                "id": 4530,
+                "name": "Bisq"
+              },
+              "vendor": {
+                "id": 2605,
+                "name": "Bisq"
+              },
+              "categories": {
+                "17": {
+                  "id": 17,
+                  "name": "P2PA"
+                }
+              },
+              "data_source": "winget",
+              "sig_name": "Bisq",
+              "methods": {}
+            }
+          }
+        },
+        "4557": {
+          "id": 4557,
+          "tested_points": [],
+          "labels": [],
+          "languages": [],
+          "name": "Syncthing",
+          "signatures": {
+            "5018": {
+              "signature": 5018,
+              "product": {
+                "id": 4557,
+                "name": "Syncthing"
+              },
+              "vendor": {
+                "id": 2630,
+                "name": "Syncthing Foundation"
+              },
+              "categories": {
+                "1": {
+                  "id": 1,
+                  "name": "PUBLIC_FILE_SHARING"
+                },
+                "17": {
+                  "id": 17,
+                  "name": "P2PA"
+                }
+              },
+              "data_source": "winget",
+              "sig_name": "Syncthing",
+              "methods": {}
+            }
+          }
+        },
         "46": {
           "id": 46,
           "tested_points": [
@@ -255558,6 +261905,93 @@ SUPPORT_CHARTS = {
                   }
                 }
               }
+            }
+          }
+        },
+        "4614": {
+          "id": 4614,
+          "tested_points": [],
+          "labels": [],
+          "languages": [],
+          "name": "Wasabi Wallet",
+          "signatures": {
+            "5082": {
+              "signature": 5082,
+              "product": {
+                "id": 4614,
+                "name": "Wasabi Wallet"
+              },
+              "vendor": {
+                "id": 2681,
+                "name": "zkSNACKs"
+              },
+              "categories": {
+                "17": {
+                  "id": 17,
+                  "name": "P2PA"
+                }
+              },
+              "data_source": "winget",
+              "sig_name": "Wasabi Wallet",
+              "methods": {}
+            }
+          }
+        },
+        "4620": {
+          "id": 4620,
+          "tested_points": [],
+          "labels": [],
+          "languages": [],
+          "name": "BOINC",
+          "signatures": {
+            "5088": {
+              "signature": 5088,
+              "product": {
+                "id": 4620,
+                "name": "BOINC"
+              },
+              "vendor": {
+                "id": 2687,
+                "name": "Space Sciences Laboratory, U.C. Berkeley"
+              },
+              "categories": {
+                "17": {
+                  "id": 17,
+                  "name": "P2PA"
+                }
+              },
+              "data_source": "winget",
+              "sig_name": "BOINC",
+              "methods": {}
+            }
+          }
+        },
+        "4644": {
+          "id": 4644,
+          "tested_points": [],
+          "labels": [],
+          "languages": [],
+          "name": "SyncTrayzor (x64)",
+          "signatures": {
+            "5113": {
+              "signature": 5113,
+              "product": {
+                "id": 4644,
+                "name": "SyncTrayzor (x64)"
+              },
+              "vendor": {
+                "id": 2710,
+                "name": "SyncTrayzor"
+              },
+              "categories": {
+                "17": {
+                  "id": 17,
+                  "name": "P2PA"
+                }
+              },
+              "data_source": "winget",
+              "sig_name": "SyncTrayzor (x64)",
+              "methods": {}
             }
           }
         },
@@ -259208,6 +265642,10 @@ SUPPORT_CHARTS = {
             {
               "signature": 2059,
               "version": "4.52.178"
+            },
+            {
+              "signature": 2059,
+              "version": "4.52.182"
             }
           ],
           "labels": [],
@@ -260160,6 +266598,10 @@ SUPPORT_CHARTS = {
             {
               "signature": 3797,
               "version": "26198.304.4946.9672"
+            },
+            {
+              "signature": 3797,
+              "version": "26225.1806.5074.1452"
             },
             {
               "signature": 3799,
@@ -263289,6 +269731,10 @@ SUPPORT_CHARTS = {
             {
               "signature": 3268,
               "version": "46.9.0.35800"
+            },
+            {
+              "signature": 3268,
+              "version": "46.10.0.36042"
             },
             {
               "signature": 3817,
@@ -266623,6 +273069,72 @@ SUPPORT_CHARTS = {
             }
           }
         },
+        "4541": {
+          "id": 4541,
+          "tested_points": [],
+          "labels": [],
+          "languages": [],
+          "name": "Streamlabs Desktop",
+          "signatures": {
+            "5002": {
+              "signature": 5002,
+              "product": {
+                "id": 4541,
+                "name": "Streamlabs Desktop"
+              },
+              "vendor": {
+                "id": 2616,
+                "name": "General Workings, Inc."
+              },
+              "categories": {
+                "18": {
+                  "id": 18,
+                  "name": "WEB_CONFERENCE"
+                },
+                "19": {
+                  "id": 19,
+                  "name": "GAMING"
+                }
+              },
+              "data_source": "winget",
+              "sig_name": "Streamlabs Desktop",
+              "methods": {}
+            }
+          }
+        },
+        "4629": {
+          "id": 4629,
+          "tested_points": [],
+          "labels": [],
+          "languages": [],
+          "name": "Mattermost",
+          "signatures": {
+            "5097": {
+              "signature": 5097,
+              "product": {
+                "id": 4629,
+                "name": "Mattermost"
+              },
+              "vendor": {
+                "id": 2695,
+                "name": "Mattermost, Inc."
+              },
+              "categories": {
+                "18": {
+                  "id": 18,
+                  "name": "WEB_CONFERENCE"
+                },
+                "8": {
+                  "id": 8,
+                  "name": "MESSENGER"
+                }
+              },
+              "data_source": "winget",
+              "sig_name": "Mattermost",
+              "methods": {}
+            }
+          }
+        },
         "704": {
           "id": 704,
           "tested_points": [
@@ -268962,6 +275474,743 @@ SUPPORT_CHARTS = {
             }
           }
         },
+        "4355": {
+          "id": 4355,
+          "tested_points": [],
+          "labels": [],
+          "languages": [],
+          "name": "PCSX2",
+          "signatures": {
+            "4814": {
+              "signature": 4814,
+              "product": {
+                "id": 4355,
+                "name": "PCSX2"
+              },
+              "vendor": {
+                "id": 2444,
+                "name": "PCSX2 Team"
+              },
+              "categories": {
+                "14": {
+                  "id": 14,
+                  "name": "VIRTUAL_MACHINE"
+                },
+                "19": {
+                  "id": 19,
+                  "name": "GAMING"
+                }
+              },
+              "data_source": "winget",
+              "sig_name": "PCSX2",
+              "methods": {}
+            }
+          }
+        },
+        "4366": {
+          "id": 4366,
+          "tested_points": [],
+          "labels": [],
+          "languages": [],
+          "name": "Game Cheats Manager",
+          "signatures": {
+            "4825": {
+              "signature": 4825,
+              "product": {
+                "id": 4366,
+                "name": "Game Cheats Manager"
+              },
+              "vendor": {
+                "id": 2454,
+                "name": "Yongcan Yang"
+              },
+              "categories": {
+                "19": {
+                  "id": 19,
+                  "name": "GAMING"
+                }
+              },
+              "data_source": "winget",
+              "sig_name": "Game Cheats Manager",
+              "methods": {}
+            }
+          }
+        },
+        "4369": {
+          "id": 4369,
+          "tested_points": [],
+          "labels": [],
+          "languages": [],
+          "name": "PPSSPP",
+          "signatures": {
+            "4828": {
+              "signature": 4828,
+              "product": {
+                "id": 4369,
+                "name": "PPSSPP"
+              },
+              "vendor": {
+                "id": 2457,
+                "name": "PPSSPP Project"
+              },
+              "categories": {
+                "19": {
+                  "id": 19,
+                  "name": "GAMING"
+                }
+              },
+              "data_source": "winget",
+              "sig_name": "PPSSPP",
+              "methods": {}
+            }
+          }
+        },
+        "4376": {
+          "id": 4376,
+          "tested_points": [],
+          "labels": [],
+          "languages": [],
+          "name": "RetroArch",
+          "signatures": {
+            "4835": {
+              "signature": 4835,
+              "product": {
+                "id": 4376,
+                "name": "RetroArch"
+              },
+              "vendor": {
+                "id": 2464,
+                "name": "Libretro"
+              },
+              "categories": {
+                "19": {
+                  "id": 19,
+                  "name": "GAMING"
+                }
+              },
+              "data_source": "winget",
+              "sig_name": "RetroArch",
+              "methods": {}
+            }
+          }
+        },
+        "4377": {
+          "id": 4377,
+          "tested_points": [],
+          "labels": [],
+          "languages": [],
+          "name": "Playnite",
+          "signatures": {
+            "4836": {
+              "signature": 4836,
+              "product": {
+                "id": 4377,
+                "name": "Playnite"
+              },
+              "vendor": {
+                "id": 2465,
+                "name": "Josef Nemec"
+              },
+              "categories": {
+                "19": {
+                  "id": 19,
+                  "name": "GAMING"
+                }
+              },
+              "data_source": "winget",
+              "sig_name": "Playnite",
+              "methods": {}
+            }
+          }
+        },
+        "4397": {
+          "id": 4397,
+          "tested_points": [],
+          "labels": [],
+          "languages": [],
+          "name": "Heroic",
+          "signatures": {
+            "4856": {
+              "signature": 4856,
+              "product": {
+                "id": 4397,
+                "name": "Heroic"
+              },
+              "vendor": {
+                "id": 2480,
+                "name": "Heroic Games Launcher"
+              },
+              "categories": {
+                "19": {
+                  "id": 19,
+                  "name": "GAMING"
+                }
+              },
+              "data_source": "winget",
+              "sig_name": "Heroic",
+              "methods": {}
+            }
+          }
+        },
+        "4414": {
+          "id": 4414,
+          "tested_points": [],
+          "labels": [],
+          "languages": [],
+          "name": "Prism Launcher",
+          "signatures": {
+            "4873": {
+              "signature": 4873,
+              "product": {
+                "id": 4414,
+                "name": "Prism Launcher"
+              },
+              "vendor": {
+                "id": 2495,
+                "name": "Prism Launcher Contributors"
+              },
+              "categories": {
+                "19": {
+                  "id": 19,
+                  "name": "GAMING"
+                }
+              },
+              "data_source": "winget",
+              "sig_name": "Prism Launcher",
+              "methods": {}
+            }
+          }
+        },
+        "4442": {
+          "id": 4442,
+          "tested_points": [],
+          "labels": [],
+          "languages": [],
+          "name": "OpenTTD",
+          "signatures": {
+            "4903": {
+              "signature": 4903,
+              "product": {
+                "id": 4442,
+                "name": "OpenTTD"
+              },
+              "vendor": {
+                "id": 2523,
+                "name": "OpenTTD"
+              },
+              "categories": {
+                "19": {
+                  "id": 19,
+                  "name": "GAMING"
+                }
+              },
+              "data_source": "winget",
+              "sig_name": "OpenTTD",
+              "methods": {}
+            }
+          }
+        },
+        "4459": {
+          "id": 4459,
+          "tested_points": [],
+          "labels": [],
+          "languages": [],
+          "name": "Endless Sky",
+          "signatures": {
+            "4920": {
+              "signature": 4920,
+              "product": {
+                "id": 4459,
+                "name": "Endless Sky"
+              },
+              "vendor": {
+                "id": 2538,
+                "name": "Endless Sky"
+              },
+              "categories": {
+                "19": {
+                  "id": 19,
+                  "name": "GAMING"
+                }
+              },
+              "data_source": "winget",
+              "sig_name": "Endless Sky",
+              "methods": {}
+            }
+          }
+        },
+        "4460": {
+          "id": 4460,
+          "tested_points": [],
+          "labels": [],
+          "languages": [],
+          "name": "DLSS Swapper",
+          "signatures": {
+            "4921": {
+              "signature": 4921,
+              "product": {
+                "id": 4460,
+                "name": "DLSS Swapper"
+              },
+              "vendor": {
+                "id": 2539,
+                "name": "beeradmoore"
+              },
+              "categories": {
+                "19": {
+                  "id": 19,
+                  "name": "GAMING"
+                }
+              },
+              "data_source": "winget",
+              "sig_name": "DLSS Swapper",
+              "methods": {}
+            }
+          }
+        },
+        "4502": {
+          "id": 4502,
+          "tested_points": [],
+          "labels": [],
+          "languages": [],
+          "name": "Blockbench",
+          "signatures": {
+            "4963": {
+              "signature": 4963,
+              "product": {
+                "id": 4502,
+                "name": "Blockbench"
+              },
+              "vendor": {
+                "id": 2579,
+                "name": "JannisX11"
+              },
+              "categories": {
+                "19": {
+                  "id": 19,
+                  "name": "GAMING"
+                }
+              },
+              "data_source": "winget",
+              "sig_name": "Blockbench",
+              "methods": {}
+            }
+          }
+        },
+        "4504": {
+          "id": 4504,
+          "tested_points": [],
+          "labels": [],
+          "languages": [],
+          "name": "VCMI",
+          "signatures": {
+            "4965": {
+              "signature": 4965,
+              "product": {
+                "id": 4504,
+                "name": "VCMI"
+              },
+              "vendor": {
+                "id": 2581,
+                "name": "vcmi"
+              },
+              "categories": {
+                "19": {
+                  "id": 19,
+                  "name": "GAMING"
+                }
+              },
+              "data_source": "winget",
+              "sig_name": "VCMI",
+              "methods": {}
+            }
+          }
+        },
+        "4520": {
+          "id": 4520,
+          "tested_points": [],
+          "labels": [],
+          "languages": [],
+          "name": "SuperTuxKart",
+          "signatures": {
+            "4981": {
+              "signature": 4981,
+              "product": {
+                "id": 4520,
+                "name": "SuperTuxKart"
+              },
+              "vendor": {
+                "id": 2596,
+                "name": "SuperTuxKart Team"
+              },
+              "categories": {
+                "19": {
+                  "id": 19,
+                  "name": "GAMING"
+                }
+              },
+              "data_source": "winget",
+              "sig_name": "SuperTuxKart",
+              "methods": {}
+            }
+          }
+        },
+        "4529": {
+          "id": 4529,
+          "tested_points": [],
+          "labels": [],
+          "languages": [],
+          "name": "opentrack",
+          "signatures": {
+            "4990": {
+              "signature": 4990,
+              "product": {
+                "id": 4529,
+                "name": "opentrack"
+              },
+              "vendor": {
+                "id": 2604,
+                "name": "opentrack"
+              },
+              "categories": {
+                "19": {
+                  "id": 19,
+                  "name": "GAMING"
+                }
+              },
+              "data_source": "winget",
+              "sig_name": "opentrack",
+              "methods": {}
+            }
+          }
+        },
+        "4540": {
+          "id": 4540,
+          "tested_points": [],
+          "labels": [],
+          "languages": [],
+          "name": "MCA Selector",
+          "signatures": {
+            "5001": {
+              "signature": 5001,
+              "product": {
+                "id": 4540,
+                "name": "MCA Selector"
+              },
+              "vendor": {
+                "id": 2615,
+                "name": "Querz"
+              },
+              "categories": {
+                "19": {
+                  "id": 19,
+                  "name": "GAMING"
+                }
+              },
+              "data_source": "winget",
+              "sig_name": "MCA Selector",
+              "methods": {}
+            }
+          }
+        },
+        "4541": {
+          "id": 4541,
+          "tested_points": [],
+          "labels": [],
+          "languages": [],
+          "name": "Streamlabs Desktop",
+          "signatures": {
+            "5002": {
+              "signature": 5002,
+              "product": {
+                "id": 4541,
+                "name": "Streamlabs Desktop"
+              },
+              "vendor": {
+                "id": 2616,
+                "name": "General Workings, Inc."
+              },
+              "categories": {
+                "18": {
+                  "id": 18,
+                  "name": "WEB_CONFERENCE"
+                },
+                "19": {
+                  "id": 19,
+                  "name": "GAMING"
+                }
+              },
+              "data_source": "winget",
+              "sig_name": "Streamlabs Desktop",
+              "methods": {}
+            }
+          }
+        },
+        "4549": {
+          "id": 4549,
+          "tested_points": [],
+          "labels": [],
+          "languages": [],
+          "name": "CorsixTH",
+          "signatures": {
+            "5010": {
+              "signature": 5010,
+              "product": {
+                "id": 4549,
+                "name": "CorsixTH"
+              },
+              "vendor": {
+                "id": 2623,
+                "name": "CorsixTH Team"
+              },
+              "categories": {
+                "19": {
+                  "id": 19,
+                  "name": "GAMING"
+                }
+              },
+              "data_source": "winget",
+              "sig_name": "CorsixTH",
+              "methods": {}
+            }
+          }
+        },
+        "4587": {
+          "id": 4587,
+          "tested_points": [],
+          "labels": [],
+          "languages": [],
+          "name": "XIVLauncher",
+          "signatures": {
+            "5048": {
+              "signature": 5048,
+              "product": {
+                "id": 4587,
+                "name": "XIVLauncher"
+              },
+              "vendor": {
+                "id": 2655,
+                "name": "goaaats"
+              },
+              "categories": {
+                "19": {
+                  "id": 19,
+                  "name": "GAMING"
+                }
+              },
+              "data_source": "winget",
+              "sig_name": "XIVLauncher",
+              "methods": {}
+            }
+          }
+        },
+        "4588": {
+          "id": 4588,
+          "tested_points": [],
+          "labels": [],
+          "languages": [],
+          "name": "SuperTux",
+          "signatures": {
+            "5049": {
+              "signature": 5049,
+              "product": {
+                "id": 4588,
+                "name": "SuperTux"
+              },
+              "vendor": {
+                "id": 2656,
+                "name": "SuperTux Devel Team"
+              },
+              "categories": {
+                "19": {
+                  "id": 19,
+                  "name": "GAMING"
+                }
+              },
+              "data_source": "winget",
+              "sig_name": "SuperTux",
+              "methods": {}
+            }
+          }
+        },
+        "4598": {
+          "id": 4598,
+          "tested_points": [],
+          "labels": [],
+          "languages": [],
+          "name": "Twine",
+          "signatures": {
+            "5059": {
+              "signature": 5059,
+              "product": {
+                "id": 4598,
+                "name": "Twine"
+              },
+              "vendor": {
+                "id": 2665,
+                "name": "Chris Klimas"
+              },
+              "categories": {
+                "19": {
+                  "id": 19,
+                  "name": "GAMING"
+                }
+              },
+              "data_source": "winget",
+              "sig_name": "Twine",
+              "methods": {}
+            }
+          }
+        },
+        "4615": {
+          "id": 4615,
+          "tested_points": [],
+          "labels": [],
+          "languages": [],
+          "name": "Intel(R) PresentMon",
+          "signatures": {
+            "5083": {
+              "signature": 5083,
+              "product": {
+                "id": 4615,
+                "name": "Intel(R) PresentMon"
+              },
+              "vendor": {
+                "id": 2682,
+                "name": "Intel(R) Corporation"
+              },
+              "categories": {
+                "19": {
+                  "id": 19,
+                  "name": "GAMING"
+                },
+                "22": {
+                  "id": 22,
+                  "name": "SYSTEM_DIAGNOSTIC_AND_CLEANUP"
+                }
+              },
+              "data_source": "winget",
+              "sig_name": "Intel(R) PresentMon",
+              "methods": {}
+            }
+          }
+        },
+        "4632": {
+          "id": 4632,
+          "tested_points": [],
+          "labels": [],
+          "languages": [],
+          "name": "OpenDeck",
+          "signatures": {
+            "5100": {
+              "signature": 5100,
+              "product": {
+                "id": 4632,
+                "name": "OpenDeck"
+              },
+              "vendor": {
+                "id": 2698,
+                "name": "Aman Khanna (nekename)"
+              },
+              "categories": {
+                "19": {
+                  "id": 19,
+                  "name": "GAMING"
+                }
+              },
+              "data_source": "winget",
+              "sig_name": "OpenDeck",
+              "methods": {}
+            }
+          }
+        },
+        "4636": {
+          "id": 4636,
+          "tested_points": [],
+          "labels": [],
+          "languages": [],
+          "name": "TEdit",
+          "signatures": {
+            "5104": {
+              "signature": 5104,
+              "product": {
+                "id": 4636,
+                "name": "TEdit"
+              },
+              "vendor": {
+                "id": 2702,
+                "name": "TEdit"
+              },
+              "categories": {
+                "19": {
+                  "id": 19,
+                  "name": "GAMING"
+                }
+              },
+              "data_source": "winget",
+              "sig_name": "TEdit",
+              "methods": {}
+            }
+          }
+        },
+        "4642": {
+          "id": 4642,
+          "tested_points": [],
+          "labels": [],
+          "languages": [],
+          "name": "PolyMC",
+          "signatures": {
+            "5111": {
+              "signature": 5111,
+              "product": {
+                "id": 4642,
+                "name": "PolyMC"
+              },
+              "vendor": {
+                "id": 2708,
+                "name": "PolyMC"
+              },
+              "categories": {
+                "19": {
+                  "id": 19,
+                  "name": "GAMING"
+                }
+              },
+              "data_source": "winget",
+              "sig_name": "PolyMC",
+              "methods": {}
+            }
+          }
+        },
+        "4645": {
+          "id": 4645,
+          "tested_points": [],
+          "labels": [],
+          "languages": [],
+          "name": "Blur-AutoClicker",
+          "signatures": {
+            "5114": {
+              "signature": 5114,
+              "product": {
+                "id": 4645,
+                "name": "Blur-AutoClicker"
+              },
+              "vendor": {
+                "id": 2711,
+                "name": "Blur009"
+              },
+              "categories": {
+                "19": {
+                  "id": 19,
+                  "name": "GAMING"
+                }
+              },
+              "data_source": "winget",
+              "sig_name": "Blur-AutoClicker",
+              "methods": {}
+            }
+          }
+        },
         "936": {
           "id": 936,
           "tested_points": [
@@ -270056,6 +277305,14 @@ SUPPORT_CHARTS = {
             {
               "signature": 2543,
               "version": "274.4.4841"
+            },
+            {
+              "signature": 2543,
+              "version": "275.4.3565"
+            },
+            {
+              "signature": 2543,
+              "version": "276.4.5266"
             }
           ],
           "labels": [],
@@ -274502,10 +281759,6 @@ SUPPORT_CHARTS = {
               "version": "27.0.55.298"
             },
             {
-              "methodsStatus": {
-                "1008": -1,
-                "1009": -1
-              },
               "signature": 158,
               "version": "27.0.62.355"
             },
@@ -285289,6 +292542,105 @@ SUPPORT_CHARTS = {
             }
           }
         },
+        "4354": {
+          "id": 4354,
+          "tested_points": [],
+          "labels": [],
+          "languages": [],
+          "name": "Data Version Control",
+          "signatures": {
+            "4813": {
+              "signature": 4813,
+              "product": {
+                "id": 4354,
+                "name": "Data Version Control"
+              },
+              "vendor": {
+                "id": 2443,
+                "name": "Iterative"
+              },
+              "categories": {
+                "2": {
+                  "id": 2,
+                  "name": "BACKUP"
+                }
+              },
+              "data_source": "winget",
+              "sig_name": "Data Version Control",
+              "methods": {}
+            }
+          }
+        },
+        "4365": {
+          "id": 4365,
+          "tested_points": [],
+          "labels": [],
+          "languages": [],
+          "name": "Duplicati 2",
+          "signatures": {
+            "4824": {
+              "signature": 4824,
+              "product": {
+                "id": 4365,
+                "name": "Duplicati 2"
+              },
+              "vendor": {
+                "id": 2453,
+                "name": "Duplicati Team"
+              },
+              "categories": {
+                "2": {
+                  "id": 2,
+                  "name": "BACKUP"
+                },
+                "3": {
+                  "id": 3,
+                  "name": "ENCRYPTION"
+                }
+              },
+              "data_source": "winget",
+              "sig_name": "Duplicati 2",
+              "methods": {}
+            }
+          }
+        },
+        "4375": {
+          "id": 4375,
+          "tested_points": [],
+          "labels": [],
+          "languages": [],
+          "name": "KopiaUI",
+          "signatures": {
+            "4834": {
+              "signature": 4834,
+              "product": {
+                "id": 4375,
+                "name": "KopiaUI"
+              },
+              "vendor": {
+                "id": 2463,
+                "name": "Kopia Authors"
+              },
+              "categories": {
+                "2": {
+                  "id": 2,
+                  "name": "BACKUP"
+                },
+                "3": {
+                  "id": 3,
+                  "name": "ENCRYPTION"
+                },
+                "9": {
+                  "id": 9,
+                  "name": "CLOUD_STORAGE"
+                }
+              },
+              "data_source": "winget",
+              "sig_name": "KopiaUI",
+              "methods": {}
+            }
+          }
+        },
         "438": {
           "id": 438,
           "tested_points": [
@@ -285395,6 +292747,35 @@ SUPPORT_CHARTS = {
                   }
                 }
               }
+            }
+          }
+        },
+        "4464": {
+          "id": 4464,
+          "tested_points": [],
+          "labels": [],
+          "languages": [],
+          "name": "Backrest",
+          "signatures": {
+            "4925": {
+              "signature": 4925,
+              "product": {
+                "id": 4464,
+                "name": "Backrest"
+              },
+              "vendor": {
+                "id": 2543,
+                "name": "garethgeorge"
+              },
+              "categories": {
+                "2": {
+                  "id": 2,
+                  "name": "BACKUP"
+                }
+              },
+              "data_source": "winget",
+              "sig_name": "Backrest",
+              "methods": {}
             }
           }
         },
@@ -292732,6 +300113,10 @@ SUPPORT_CHARTS = {
             {
               "signature": 842,
               "version": "26.150.0804.0011"
+            },
+            {
+              "signature": 842,
+              "version": "26.183.0920.0005"
             }
           ],
           "labels": [],
@@ -294866,6 +302251,35 @@ SUPPORT_CHARTS = {
               "methods": {}
             }
           }
+        },
+        "4396": {
+          "id": 4396,
+          "tested_points": [],
+          "labels": [],
+          "languages": [],
+          "name": "Universal Radio Hacker",
+          "signatures": {
+            "4855": {
+              "signature": 4855,
+              "product": {
+                "id": 4396,
+                "name": "Universal Radio Hacker"
+              },
+              "vendor": {
+                "id": 2479,
+                "name": "Johannes Pohl"
+              },
+              "categories": {
+                "20": {
+                  "id": 20,
+                  "name": "VULNERABILITY_MANAGEMENT"
+                }
+              },
+              "data_source": "winget",
+              "sig_name": "Universal Radio Hacker",
+              "methods": {}
+            }
+          }
         }
       },
       "name": "VULNERABILITY_MANAGEMENT"
@@ -295408,6 +302822,381 @@ SUPPORT_CHARTS = {
                       "notes": ""
                     },
                     "name": "GetPlugins"
+                  }
+                }
+              }
+            }
+          }
+        },
+        "3684": {
+          "id": 3684,
+          "tested_points": [
+            {
+              "signature": 4105,
+              "version": "0.13.2"
+            },
+            {
+              "signature": 4105,
+              "version": "0.13.5"
+            }
+          ],
+          "labels": [],
+          "languages": [],
+          "name": "Ollama",
+          "signatures": {
+            "4105": {
+              "signature": 4105,
+              "product": {
+                "id": 3684,
+                "name": "Ollama"
+              },
+              "vendor": {
+                "id": 1875,
+                "name": "Ollama"
+              },
+              "categories": {
+                "21": {
+                  "id": 21,
+                  "name": "ARTIFICIAL_INTELLIGENCE"
+                }
+              },
+              "data_source": "Opswat",
+              "sig_name": "Ollama",
+              "methods": {
+                "manageability": {
+                  "100": {
+                    "id": 100,
+                    "meta_data": {
+                      "param_support": {
+                        "input": {
+                          "instance_id": {
+                            "_supported": false,
+                            "_optional": true
+                          }
+                        },
+                        "output": {
+                          "version": {
+                            "_supported": true,
+                            "_optional": false
+                          },
+                          "architecture": {
+                            "_supported": true,
+                            "_optional": false,
+                            "name": {
+                              "_supported": true,
+                              "_optional": false
+                            },
+                            "bitness": {
+                              "_supported": true,
+                              "_optional": false
+                            }
+                          },
+                          "language": {
+                            "_supported": true,
+                            "_optional": false,
+                            "code": {
+                              "_supported": true,
+                              "_optional": false
+                            },
+                            "name": {
+                              "_supported": true,
+                              "_optional": false
+                            }
+                          },
+                          "channel": {
+                            "_supported": false,
+                            "_optional": true
+                          },
+                          "release": {
+                            "_supported": false,
+                            "_optional": true
+                          }
+                        }
+                      },
+                      "admin_required": false,
+                      "notes": ""
+                    },
+                    "name": "GetVersion"
+                  },
+                  "101": {
+                    "id": 101,
+                    "meta_data": {
+                      "param_support": {
+                        "input": {
+                          "instance_id": {
+                            "_supported": false,
+                            "_optional": true
+                          }
+                        },
+                        "output": {
+                          "running": {
+                            "_supported": true,
+                            "_optional": false
+                          }
+                        }
+                      },
+                      "admin_required": false,
+                      "notes": ""
+                    },
+                    "name": "GetRunningState"
+                  },
+                  "102": {
+                    "id": 102,
+                    "meta_data": {
+                      "param_support": {
+                        "input": {
+                          "instance_id": {
+                            "_supported": false,
+                            "_optional": true
+                          }
+                        },
+                        "output": []
+                      },
+                      "admin_required": false,
+                      "notes": ""
+                    },
+                    "name": "Run"
+                  },
+                  "103": {
+                    "id": 103,
+                    "meta_data": {
+                      "param_support": {
+                        "input": {
+                          "instance_id": {
+                            "_supported": false,
+                            "_optional": true
+                          }
+                        },
+                        "output": []
+                      },
+                      "admin_required": false,
+                      "notes": ""
+                    },
+                    "name": "TerminateProcesses"
+                  },
+                  "104": {
+                    "id": 104,
+                    "meta_data": {
+                      "param_support": {
+                        "input": {
+                          "instance_id": {
+                            "_supported": false,
+                            "_optional": true
+                          }
+                        },
+                        "output": {
+                          "main": {
+                            "_supported": true,
+                            "_optional": false
+                          },
+                          "directories": {
+                            "_supported": true,
+                            "_optional": false
+                          }
+                        }
+                      },
+                      "admin_required": false,
+                      "notes": ""
+                    },
+                    "name": "GetInstallationDirectories"
+                  },
+                  "105": {
+                    "id": 105,
+                    "meta_data": {
+                      "param_support": {
+                        "input": {
+                          "include_services": {
+                            "_supported": false,
+                            "_optional": true
+                          },
+                          "instance_id": {
+                            "_supported": false,
+                            "_optional": true
+                          }
+                        },
+                        "output": {
+                          "components": {
+                            "_supported": true,
+                            "_optional": false,
+                            "path": {
+                              "_supported": true,
+                              "_optional": false
+                            },
+                            "version": {
+                              "_supported": true,
+                              "_optional": false
+                            },
+                            "description": {
+                              "_supported": true,
+                              "_optional": false
+                            }
+                          },
+                          "services": {
+                            "_supported": false,
+                            "_optional": true,
+                            "name": {
+                              "_supported": true,
+                              "_optional": false
+                            },
+                            "path": {
+                              "_supported": true,
+                              "_optional": false
+                            },
+                            "state": {
+                              "_supported": true,
+                              "_optional": false
+                            },
+                            "md5": {
+                              "_supported": true,
+                              "_optional": false
+                            }
+                          }
+                        }
+                      },
+                      "admin_required": false,
+                      "notes": ""
+                    },
+                    "name": "GetComponents"
+                  },
+                  "106": {
+                    "id": 106,
+                    "meta_data": {
+                      "param_support": {
+                        "input": [],
+                        "output": {
+                          "uninstall": {
+                            "_supported": true,
+                            "_optional": false
+                          }
+                        }
+                      },
+                      "admin_required": false,
+                      "notes": ""
+                    },
+                    "name": "GetUninstallString"
+                  },
+                  "108": {
+                    "id": 108,
+                    "meta_data": {
+                      "param_support": {
+                        "input": {
+                          "instance_id": {
+                            "_supported": false,
+                            "_optional": true
+                          },
+                          "hash_binary": {
+                            "_supported": false,
+                            "_optional": true
+                          }
+                        },
+                        "output": {
+                          "authentic": {
+                            "_supported": true,
+                            "_optional": false
+                          },
+                          "details": {
+                            "_supported": true,
+                            "_optional": false,
+                            "file": {
+                              "_supported": true,
+                              "_optional": false
+                            },
+                            "status": {
+                              "_supported": true,
+                              "_optional": false
+                            },
+                            "signing_code": {
+                              "_supported": true,
+                              "_optional": false
+                            },
+                            "sha256": {
+                              "_supported": false,
+                              "_optional": true
+                            },
+                            "certificate_info": {
+                              "_supported": false,
+                              "_optional": true,
+                              "issuer": {
+                                "_supported": false,
+                                "_optional": true
+                              },
+                              "subject": {
+                                "_supported": false,
+                                "_optional": true
+                              },
+                              "valid_from": {
+                                "_supported": false,
+                                "_optional": true
+                              },
+                              "valid_to": {
+                                "_supported": false,
+                                "_optional": true
+                              },
+                              "serial_number": {
+                                "_supported": false,
+                                "_optional": true
+                              },
+                              "thumbprint": {
+                                "_supported": false,
+                                "_optional": true
+                              }
+                            }
+                          }
+                        }
+                      },
+                      "admin_required": false,
+                      "notes": ""
+                    },
+                    "name": "IsAuthentic"
+                  },
+                  "110": {
+                    "id": 110,
+                    "meta_data": {
+                      "param_support": {
+                        "input": [],
+                        "output": {
+                          "uninstall_hive": {
+                            "_supported": true,
+                            "_optional": false,
+                            "KeyName": {
+                              "_supported": false,
+                              "_optional": true
+                            },
+                            "DisplayName": {
+                              "_supported": false,
+                              "_optional": true
+                            },
+                            "DisplayVersion": {
+                              "_supported": false,
+                              "_optional": true
+                            },
+                            "InstallLocation": {
+                              "_supported": false,
+                              "_optional": true
+                            },
+                            "UninstallString": {
+                              "_supported": false,
+                              "_optional": true
+                            },
+                            "InstallDate": {
+                              "_supported": false,
+                              "_optional": true
+                            },
+                            "ModifyPath": {
+                              "_supported": false,
+                              "_optional": true
+                            },
+                            "Publisher": {
+                              "_supported": false,
+                              "_optional": true
+                            }
+                          }
+                        }
+                      },
+                      "admin_required": false,
+                      "notes": ""
+                    },
+                    "name": "GetUninstallHive"
                   }
                 }
               }
@@ -299103,6 +306892,820 @@ SUPPORT_CHARTS = {
               "methods": {}
             }
           }
+        },
+        "4410": {
+          "id": 4410,
+          "tested_points": [],
+          "labels": [],
+          "languages": [],
+          "name": "Intel® OpenVINO Toolkit",
+          "signatures": {
+            "4869": {
+              "signature": 4869,
+              "product": {
+                "id": 4410,
+                "name": "Intel® OpenVINO Toolkit"
+              },
+              "vendor": {
+                "id": 1856,
+                "name": "Intel Corporation"
+              },
+              "categories": {
+                "21": {
+                  "id": 21,
+                  "name": "ARTIFICIAL_INTELLIGENCE"
+                }
+              },
+              "data_source": "winget",
+              "sig_name": "Intel® OpenVINO Toolkit",
+              "methods": {}
+            }
+          }
+        },
+        "4458": {
+          "id": 4458,
+          "tested_points": [
+            {
+              "signature": 4919,
+              "version": "1.10.2"
+            }
+          ],
+          "labels": [],
+          "languages": [],
+          "name": "OpenWhispr",
+          "signatures": {
+            "4919": {
+              "signature": 4919,
+              "product": {
+                "id": 4458,
+                "name": "OpenWhispr"
+              },
+              "vendor": {
+                "id": 2537,
+                "name": "OpenWhispr"
+              },
+              "categories": {
+                "21": {
+                  "id": 21,
+                  "name": "ARTIFICIAL_INTELLIGENCE"
+                }
+              },
+              "data_source": "Opswat",
+              "sig_name": "OpenWhispr",
+              "methods": {}
+            }
+          }
+        },
+        "4514": {
+          "id": 4514,
+          "tested_points": [],
+          "labels": [],
+          "languages": [],
+          "name": "Snow Shot",
+          "signatures": {
+            "4975": {
+              "signature": 4975,
+              "product": {
+                "id": 4514,
+                "name": "Snow Shot"
+              },
+              "vendor": {
+                "id": 2591,
+                "name": "Snow Apps"
+              },
+              "categories": {
+                "21": {
+                  "id": 21,
+                  "name": "ARTIFICIAL_INTELLIGENCE"
+                }
+              },
+              "data_source": "winget",
+              "sig_name": "Snow Shot",
+              "methods": {}
+            }
+          }
+        },
+        "4524": {
+          "id": 4524,
+          "tested_points": [
+            {
+              "signature": 4985,
+              "version": "0.0"
+            }
+          ],
+          "labels": [],
+          "languages": [],
+          "name": "NextAI Translator",
+          "signatures": {
+            "4985": {
+              "signature": 4985,
+              "product": {
+                "id": 4524,
+                "name": "NextAI Translator"
+              },
+              "vendor": {
+                "id": 2600,
+                "name": "yetone"
+              },
+              "categories": {
+                "21": {
+                  "id": 21,
+                  "name": "ARTIFICIAL_INTELLIGENCE"
+                }
+              },
+              "data_source": "Opswat",
+              "sig_name": "NextAI Translator",
+              "methods": {
+                "manageability": {
+                  "100": {
+                    "id": 100,
+                    "meta_data": {
+                      "param_support": {
+                        "output": {
+                          "version": {
+                            "_supported": true,
+                            "_optional": false
+                          },
+                          "architecture": {
+                            "_supported": true,
+                            "_optional": false,
+                            "name": {
+                              "_supported": true,
+                              "_optional": false
+                            },
+                            "bitness": {
+                              "_supported": true,
+                              "_optional": false
+                            }
+                          },
+                          "language": {
+                            "_supported": false,
+                            "_optional": false,
+                            "code": {
+                              "_supported": false,
+                              "_optional": false
+                            },
+                            "name": {
+                              "_supported": false,
+                              "_optional": false
+                            }
+                          }
+                        }
+                      },
+                      "admin_required": false,
+                      "notes": "Version read from ARP DisplayVersion (per-user HKCU install) with uninstall.exe file version as fallback, not the main app.exe version strings (stale Tauri/Cargo default 0.1.0). The product exposes no language, so language stays n/a."
+                    },
+                    "name": "GetVersion"
+                  }
+                }
+              }
+            }
+          }
+        },
+        "4562": {
+          "id": 4562,
+          "tested_points": [
+            {
+              "signature": 5023,
+              "version": "0.4.16"
+            }
+          ],
+          "labels": [],
+          "languages": [],
+          "name": "Next AI Draw.io",
+          "signatures": {
+            "5023": {
+              "signature": 5023,
+              "product": {
+                "id": 4562,
+                "name": "Next AI Draw.io"
+              },
+              "vendor": {
+                "id": 2634,
+                "name": "DayuanJiang"
+              },
+              "categories": {
+                "21": {
+                  "id": 21,
+                  "name": "ARTIFICIAL_INTELLIGENCE"
+                }
+              },
+              "data_source": "Opswat",
+              "sig_name": "Next AI Draw.io",
+              "methods": {}
+            }
+          }
+        },
+        "4563": {
+          "id": 4563,
+          "tested_points": [
+            {
+              "signature": 5024,
+              "version": "0.3.0"
+            }
+          ],
+          "labels": [],
+          "languages": [],
+          "name": "OpenWorker",
+          "signatures": {
+            "5024": {
+              "signature": 5024,
+              "product": {
+                "id": 4563,
+                "name": "OpenWorker"
+              },
+              "vendor": {
+                "id": 2635,
+                "name": "AndrewNg"
+              },
+              "categories": {
+                "21": {
+                  "id": 21,
+                  "name": "ARTIFICIAL_INTELLIGENCE"
+                }
+              },
+              "data_source": "Opswat",
+              "sig_name": "OpenWorker",
+              "methods": {
+                "manageability": {
+                  "102": {
+                    "id": 102,
+                    "meta_data": {
+                      "param_support": {
+                        "input": {
+                          "instance_id": {
+                            "_supported": false,
+                            "_optional": true
+                          }
+                        },
+                        "output": []
+                      },
+                      "admin_required": false,
+                      "notes": "Verified in user/admin/service mode; per-user install under %LOCALAPPDATA%, no elevation needed to launch."
+                    },
+                    "name": "Run"
+                  }
+                }
+              }
+            }
+          }
+        },
+        "4566": {
+          "id": 4566,
+          "tested_points": [
+            {
+              "signature": 5027,
+              "version": "1.39.7"
+            }
+          ],
+          "labels": [],
+          "languages": [],
+          "name": "ReasonixDesktop",
+          "signatures": {
+            "5027": {
+              "signature": 5027,
+              "product": {
+                "id": 4566,
+                "name": "ReasonixDesktop"
+              },
+              "vendor": {
+                "id": 2637,
+                "name": "ESEngine"
+              },
+              "categories": {
+                "21": {
+                  "id": 21,
+                  "name": "ARTIFICIAL_INTELLIGENCE"
+                }
+              },
+              "data_source": "Opswat",
+              "sig_name": "Reasonix",
+              "methods": {}
+            }
+          }
+        },
+        "4592": {
+          "id": 4592,
+          "tested_points": [
+            {
+              "signature": 5053,
+              "version": "0.11.4"
+            }
+          ],
+          "labels": [],
+          "languages": [],
+          "name": "Paseo",
+          "signatures": {
+            "5053": {
+              "signature": 5053,
+              "product": {
+                "id": 4592,
+                "name": "Paseo"
+              },
+              "vendor": {
+                "id": 2659,
+                "name": "Paseo"
+              },
+              "categories": {
+                "21": {
+                  "id": 21,
+                  "name": "ARTIFICIAL_INTELLIGENCE"
+                }
+              },
+              "data_source": "Opswat",
+              "sig_name": "Paseo",
+              "methods": {}
+            }
+          }
+        },
+        "4596": {
+          "id": 4596,
+          "tested_points": [
+            {
+              "signature": 5057,
+              "version": "1.3.0"
+            }
+          ],
+          "labels": [],
+          "languages": [],
+          "name": "Clawd on Desk",
+          "signatures": {
+            "5057": {
+              "signature": 5057,
+              "product": {
+                "id": 4596,
+                "name": "Clawd on Desk"
+              },
+              "vendor": {
+                "id": 2663,
+                "name": "rullerzhou-afk"
+              },
+              "categories": {
+                "21": {
+                  "id": 21,
+                  "name": "ARTIFICIAL_INTELLIGENCE"
+                }
+              },
+              "data_source": "Opswat",
+              "sig_name": "Clawd on Desk",
+              "methods": {}
+            }
+          }
+        },
+        "4601": {
+          "id": 4601,
+          "tested_points": [
+            {
+              "signature": 5063,
+              "version": "0.15.3"
+            }
+          ],
+          "labels": [],
+          "languages": [],
+          "name": "5ire",
+          "signatures": {
+            "5063": {
+              "signature": 5063,
+              "product": {
+                "id": 4601,
+                "name": "5ire"
+              },
+              "vendor": {
+                "id": 2669,
+                "name": "Ironben"
+              },
+              "categories": {
+                "21": {
+                  "id": 21,
+                  "name": "ARTIFICIAL_INTELLIGENCE"
+                }
+              },
+              "data_source": "Opswat",
+              "sig_name": "5ire",
+              "methods": {}
+            }
+          }
+        },
+        "4610": {
+          "id": 4610,
+          "tested_points": [
+            {
+              "signature": 5079,
+              "version": "1.0.5"
+            }
+          ],
+          "labels": [],
+          "languages": [],
+          "name": "Eigent",
+          "signatures": {
+            "5079": {
+              "signature": 5079,
+              "product": {
+                "id": 4610,
+                "name": "Eigent"
+              },
+              "vendor": {
+                "id": 2678,
+                "name": "Eigent.AI"
+              },
+              "categories": {
+                "21": {
+                  "id": 21,
+                  "name": "ARTIFICIAL_INTELLIGENCE"
+                }
+              },
+              "data_source": "Opswat",
+              "sig_name": "Eigent",
+              "methods": {}
+            }
+          }
+        },
+        "4612": {
+          "id": 4612,
+          "tested_points": [
+            {
+              "signature": 5061,
+              "version": "0.8.3"
+            }
+          ],
+          "labels": [],
+          "languages": [],
+          "name": "OpenPencil",
+          "signatures": {
+            "5061": {
+              "signature": 5061,
+              "product": {
+                "id": 4612,
+                "name": "OpenPencil"
+              },
+              "vendor": {
+                "id": 2667,
+                "name": "ZSeven-W"
+              },
+              "categories": {
+                "21": {
+                  "id": 21,
+                  "name": "ARTIFICIAL_INTELLIGENCE"
+                }
+              },
+              "data_source": "Opswat",
+              "sig_name": "OpenPencil",
+              "methods": {
+                "manageability": {
+                  "100": {
+                    "id": 100,
+                    "meta_data": {
+                      "param_support": {
+                        "input": {
+                          "instance_id": {
+                            "_supported": false,
+                            "_optional": true
+                          }
+                        },
+                        "output": {
+                          "version": {
+                            "_supported": true,
+                            "_optional": false
+                          },
+                          "architecture": {
+                            "_supported": true,
+                            "_optional": false,
+                            "name": {
+                              "_supported": true,
+                              "_optional": false
+                            },
+                            "bitness": {
+                              "_supported": true,
+                              "_optional": false
+                            }
+                          },
+                          "language": {
+                            "_supported": true,
+                            "_optional": false,
+                            "code": {
+                              "_supported": true,
+                              "_optional": false
+                            },
+                            "name": {
+                              "_supported": true,
+                              "_optional": false
+                            }
+                          },
+                          "channel": {
+                            "_supported": false,
+                            "_optional": true
+                          },
+                          "release": {
+                            "_supported": false,
+                            "_optional": true
+                          }
+                        }
+                      },
+                      "admin_required": false,
+                      "notes": ""
+                    },
+                    "name": "GetVersion"
+                  },
+                  "104": {
+                    "id": 104,
+                    "meta_data": {
+                      "param_support": {
+                        "input": {
+                          "instance_id": {
+                            "_supported": false,
+                            "_optional": true
+                          }
+                        },
+                        "output": {
+                          "main": {
+                            "_supported": true,
+                            "_optional": false
+                          },
+                          "directories": {
+                            "_supported": true,
+                            "_optional": false
+                          }
+                        }
+                      },
+                      "admin_required": false,
+                      "notes": ""
+                    },
+                    "name": "GetInstallationDirectories"
+                  },
+                  "106": {
+                    "id": 106,
+                    "meta_data": {
+                      "param_support": {
+                        "input": [],
+                        "output": {
+                          "uninstall": {
+                            "_supported": true,
+                            "_optional": false
+                          }
+                        }
+                      },
+                      "admin_required": false,
+                      "notes": ""
+                    },
+                    "name": "GetUninstallString"
+                  },
+                  "110": {
+                    "id": 110,
+                    "meta_data": {
+                      "param_support": {
+                        "input": [],
+                        "output": {
+                          "uninstall_hive": {
+                            "_supported": true,
+                            "_optional": false,
+                            "KeyName": {
+                              "_supported": false,
+                              "_optional": true
+                            },
+                            "DisplayName": {
+                              "_supported": false,
+                              "_optional": true
+                            },
+                            "DisplayVersion": {
+                              "_supported": false,
+                              "_optional": true
+                            },
+                            "InstallLocation": {
+                              "_supported": false,
+                              "_optional": true
+                            },
+                            "UninstallString": {
+                              "_supported": false,
+                              "_optional": true
+                            },
+                            "InstallDate": {
+                              "_supported": false,
+                              "_optional": true
+                            },
+                            "ModifyPath": {
+                              "_supported": false,
+                              "_optional": true
+                            },
+                            "Publisher": {
+                              "_supported": false,
+                              "_optional": true
+                            }
+                          }
+                        }
+                      },
+                      "admin_required": false,
+                      "notes": ""
+                    },
+                    "name": "GetUninstallHive"
+                  }
+                }
+              }
+            }
+          }
+        },
+        "4617": {
+          "id": 4617,
+          "tested_points": [
+            {
+              "signature": 5085,
+              "version": "1.0.0"
+            }
+          ],
+          "labels": [],
+          "languages": [],
+          "name": "Noi",
+          "signatures": {
+            "5085": {
+              "signature": 5085,
+              "product": {
+                "id": 4617,
+                "name": "Noi"
+              },
+              "vendor": {
+                "id": 2684,
+                "name": "lencx"
+              },
+              "categories": {
+                "21": {
+                  "id": 21,
+                  "name": "ARTIFICIAL_INTELLIGENCE"
+                }
+              },
+              "data_source": "Opswat",
+              "sig_name": "Noi",
+              "methods": {}
+            }
+          }
+        },
+        "4618": {
+          "id": 4618,
+          "tested_points": [
+            {
+              "signature": 5086,
+              "version": "0.7.6"
+            }
+          ],
+          "labels": [],
+          "languages": [],
+          "name": "Hermes One",
+          "signatures": {
+            "5086": {
+              "signature": 5086,
+              "product": {
+                "id": 4618,
+                "name": "Hermes One"
+              },
+              "vendor": {
+                "id": 2685,
+                "name": "fathah"
+              },
+              "categories": {
+                "21": {
+                  "id": 21,
+                  "name": "ARTIFICIAL_INTELLIGENCE"
+                }
+              },
+              "data_source": "Opswat",
+              "sig_name": "Hermes One",
+              "methods": {}
+            }
+          }
+        },
+        "4622": {
+          "id": 4622,
+          "tested_points": [
+            {
+              "signature": 5090,
+              "version": "1.1.5"
+            }
+          ],
+          "labels": [],
+          "languages": [],
+          "name": "CC GUI",
+          "signatures": {
+            "5090": {
+              "signature": 5090,
+              "product": {
+                "id": 4622,
+                "name": "CC GUI"
+              },
+              "vendor": {
+                "id": 2689,
+                "name": "zhukunpenglinyutong"
+              },
+              "categories": {
+                "21": {
+                  "id": 21,
+                  "name": "ARTIFICIAL_INTELLIGENCE"
+                }
+              },
+              "data_source": "Opswat",
+              "sig_name": "CC GUI",
+              "methods": {}
+            }
+          }
+        },
+        "4623": {
+          "id": 4623,
+          "tested_points": [
+            {
+              "signature": 5091,
+              "version": "0.38.0"
+            }
+          ],
+          "labels": [],
+          "languages": [],
+          "name": "Codeg",
+          "signatures": {
+            "5091": {
+              "signature": 5091,
+              "product": {
+                "id": 4623,
+                "name": "Codeg"
+              },
+              "vendor": {
+                "id": 2690,
+                "name": "XinTaoFei"
+              },
+              "categories": {
+                "21": {
+                  "id": 21,
+                  "name": "ARTIFICIAL_INTELLIGENCE"
+                }
+              },
+              "data_source": "Opswat",
+              "sig_name": "Codeg",
+              "methods": {}
+            }
+          }
+        },
+        "4630": {
+          "id": 4630,
+          "tested_points": [
+            {
+              "signature": 5098,
+              "version": "0.0.19"
+            }
+          ],
+          "labels": [],
+          "languages": [],
+          "name": "Open WebUI",
+          "signatures": {
+            "5098": {
+              "signature": 5098,
+              "product": {
+                "id": 4630,
+                "name": "Open WebUI"
+              },
+              "vendor": {
+                "id": 2696,
+                "name": "Open WebUI Inc."
+              },
+              "categories": {
+                "21": {
+                  "id": 21,
+                  "name": "ARTIFICIAL_INTELLIGENCE"
+                }
+              },
+              "data_source": "Opswat",
+              "sig_name": "Open WebUI",
+              "methods": {}
+            }
+          }
+        },
+        "4633": {
+          "id": 4633,
+          "tested_points": [
+            {
+              "signature": 5101,
+              "version": "0.1.114"
+            }
+          ],
+          "labels": [],
+          "languages": [],
+          "name": "Cindy",
+          "signatures": {
+            "5101": {
+              "signature": 5101,
+              "product": {
+                "id": 4633,
+                "name": "Cindy"
+              },
+              "vendor": {
+                "id": 2699,
+                "name": "XD Inc."
+              },
+              "categories": {
+                "21": {
+                  "id": 21,
+                  "name": "ARTIFICIAL_INTELLIGENCE"
+                }
+              },
+              "data_source": "Opswat",
+              "sig_name": "Cindy",
+              "methods": {}
+            }
+          }
         }
       },
       "name": "ARTIFICIAL_INTELLIGENCE"
@@ -301235,6 +309838,681 @@ SUPPORT_CHARTS = {
             }
           }
         },
+        "4356": {
+          "id": 4356,
+          "tested_points": [],
+          "labels": [],
+          "languages": [],
+          "name": "Reactotron",
+          "signatures": {
+            "4815": {
+              "signature": 4815,
+              "product": {
+                "id": 4356,
+                "name": "Reactotron"
+              },
+              "vendor": {
+                "id": 2445,
+                "name": "Infinite Red"
+              },
+              "categories": {
+                "22": {
+                  "id": 22,
+                  "name": "SYSTEM_DIAGNOSTIC_AND_CLEANUP"
+                }
+              },
+              "data_source": "winget",
+              "sig_name": "Reactotron",
+              "methods": {}
+            }
+          }
+        },
+        "4362": {
+          "id": 4362,
+          "tested_points": [],
+          "labels": [],
+          "languages": [],
+          "name": "komorebi",
+          "signatures": {
+            "4821": {
+              "signature": 4821,
+              "product": {
+                "id": 4362,
+                "name": "komorebi"
+              },
+              "vendor": {
+                "id": 2450,
+                "name": "LGUG2Z"
+              },
+              "categories": {
+                "22": {
+                  "id": 22,
+                  "name": "SYSTEM_DIAGNOSTIC_AND_CLEANUP"
+                }
+              },
+              "data_source": "winget",
+              "sig_name": "komorebi",
+              "methods": {}
+            }
+          }
+        },
+        "4382": {
+          "id": 4382,
+          "tested_points": [],
+          "labels": [],
+          "languages": [],
+          "name": "Winhance",
+          "signatures": {
+            "4841": {
+              "signature": 4841,
+              "product": {
+                "id": 4382,
+                "name": "Winhance"
+              },
+              "vendor": {
+                "id": 2470,
+                "name": "Marco du Plessis"
+              },
+              "categories": {
+                "22": {
+                  "id": 22,
+                  "name": "SYSTEM_DIAGNOSTIC_AND_CLEANUP"
+                }
+              },
+              "data_source": "winget",
+              "sig_name": "Winhance",
+              "methods": {}
+            }
+          }
+        },
+        "4402": {
+          "id": 4402,
+          "tested_points": [],
+          "labels": [],
+          "languages": [],
+          "name": "onefetch",
+          "signatures": {
+            "4861": {
+              "signature": 4861,
+              "product": {
+                "id": 4402,
+                "name": "onefetch"
+              },
+              "vendor": {
+                "id": 2485,
+                "name": "Ossama Hjaji"
+              },
+              "categories": {
+                "22": {
+                  "id": 22,
+                  "name": "SYSTEM_DIAGNOSTIC_AND_CLEANUP"
+                }
+              },
+              "data_source": "winget",
+              "sig_name": "onefetch",
+              "methods": {}
+            }
+          }
+        },
+        "4424": {
+          "id": 4424,
+          "tested_points": [],
+          "labels": [],
+          "languages": [],
+          "name": "rubick",
+          "signatures": {
+            "4885": {
+              "signature": 4885,
+              "product": {
+                "id": 4424,
+                "name": "rubick"
+              },
+              "vendor": {
+                "id": 2505,
+                "name": "muwoo"
+              },
+              "categories": {
+                "22": {
+                  "id": 22,
+                  "name": "SYSTEM_DIAGNOSTIC_AND_CLEANUP"
+                }
+              },
+              "data_source": "winget",
+              "sig_name": "rubick",
+              "methods": {}
+            }
+          }
+        },
+        "4431": {
+          "id": 4431,
+          "tested_points": [],
+          "labels": [],
+          "languages": [],
+          "name": "Open-Shell",
+          "signatures": {
+            "4892": {
+              "signature": 4892,
+              "product": {
+                "id": 4431,
+                "name": "Open-Shell"
+              },
+              "vendor": {
+                "id": 2512,
+                "name": "The Open-Shell Team"
+              },
+              "categories": {
+                "22": {
+                  "id": 22,
+                  "name": "SYSTEM_DIAGNOSTIC_AND_CLEANUP"
+                }
+              },
+              "data_source": "winget",
+              "sig_name": "Open-Shell",
+              "methods": {}
+            }
+          }
+        },
+        "4467": {
+          "id": 4467,
+          "tested_points": [],
+          "labels": [],
+          "languages": [],
+          "name": "Headlamp",
+          "signatures": {
+            "4928": {
+              "signature": 4928,
+              "product": {
+                "id": 4467,
+                "name": "Headlamp"
+              },
+              "vendor": {
+                "id": 2546,
+                "name": "Headlamp"
+              },
+              "categories": {
+                "22": {
+                  "id": 22,
+                  "name": "SYSTEM_DIAGNOSTIC_AND_CLEANUP"
+                }
+              },
+              "data_source": "winget",
+              "sig_name": "Headlamp",
+              "methods": {}
+            }
+          }
+        },
+        "4497": {
+          "id": 4497,
+          "tested_points": [],
+          "labels": [],
+          "languages": [],
+          "name": "fio",
+          "signatures": {
+            "4958": {
+              "signature": 4958,
+              "product": {
+                "id": 4497,
+                "name": "fio"
+              },
+              "vendor": {
+                "id": 2575,
+                "name": "fio"
+              },
+              "categories": {
+                "22": {
+                  "id": 22,
+                  "name": "SYSTEM_DIAGNOSTIC_AND_CLEANUP"
+                }
+              },
+              "data_source": "winget",
+              "sig_name": "fio",
+              "methods": {}
+            }
+          }
+        },
+        "4513": {
+          "id": 4513,
+          "tested_points": [],
+          "labels": [],
+          "languages": [],
+          "name": "AYA",
+          "signatures": {
+            "4974": {
+              "signature": 4974,
+              "product": {
+                "id": 4513,
+                "name": "AYA"
+              },
+              "vendor": {
+                "id": 2590,
+                "name": "surunzi"
+              },
+              "categories": {
+                "22": {
+                  "id": 22,
+                  "name": "SYSTEM_DIAGNOSTIC_AND_CLEANUP"
+                }
+              },
+              "data_source": "winget",
+              "sig_name": "AYA",
+              "methods": {}
+            }
+          }
+        },
+        "4531": {
+          "id": 4531,
+          "tested_points": [],
+          "labels": [],
+          "languages": [],
+          "name": "图吧工具箱winui3",
+          "signatures": {
+            "4992": {
+              "signature": 4992,
+              "product": {
+                "id": 4531,
+                "name": "图吧工具箱winui3"
+              },
+              "vendor": {
+                "id": 2606,
+                "name": "罗澜嘎嘎"
+              },
+              "categories": {
+                "22": {
+                  "id": 22,
+                  "name": "SYSTEM_DIAGNOSTIC_AND_CLEANUP"
+                }
+              },
+              "data_source": "winget",
+              "sig_name": "图吧工具箱winui3",
+              "methods": {}
+            }
+          }
+        },
+        "4547": {
+          "id": 4547,
+          "tested_points": [],
+          "labels": [],
+          "languages": [],
+          "name": "Double Commander",
+          "signatures": {
+            "5008": {
+              "signature": 5008,
+              "product": {
+                "id": 4547,
+                "name": "Double Commander"
+              },
+              "vendor": {
+                "id": 2621,
+                "name": "Alexander Koblov"
+              },
+              "categories": {
+                "22": {
+                  "id": 22,
+                  "name": "SYSTEM_DIAGNOSTIC_AND_CLEANUP"
+                }
+              },
+              "data_source": "winget",
+              "sig_name": "Double Commander",
+              "methods": {}
+            }
+          }
+        },
+        "4567": {
+          "id": 4567,
+          "tested_points": [],
+          "labels": [],
+          "languages": [],
+          "name": "TaskExplorer",
+          "signatures": {
+            "5028": {
+              "signature": 5028,
+              "product": {
+                "id": 4567,
+                "name": "TaskExplorer"
+              },
+              "vendor": {
+                "id": 2638,
+                "name": "DavidXanatos (xanasoft.com)"
+              },
+              "categories": {
+                "22": {
+                  "id": 22,
+                  "name": "SYSTEM_DIAGNOSTIC_AND_CLEANUP"
+                }
+              },
+              "data_source": "winget",
+              "sig_name": "TaskExplorer",
+              "methods": {}
+            }
+          }
+        },
+        "4570": {
+          "id": 4570,
+          "tested_points": [],
+          "labels": [],
+          "languages": [],
+          "name": "MangoDisk",
+          "signatures": {
+            "5031": {
+              "signature": 5031,
+              "product": {
+                "id": 4570,
+                "name": "MangoDisk"
+              },
+              "vendor": {
+                "id": 2641,
+                "name": "MangoDisk"
+              },
+              "categories": {
+                "22": {
+                  "id": 22,
+                  "name": "SYSTEM_DIAGNOSTIC_AND_CLEANUP"
+                }
+              },
+              "data_source": "winget",
+              "sig_name": "MangoDisk",
+              "methods": {}
+            }
+          }
+        },
+        "4571": {
+          "id": 4571,
+          "tested_points": [],
+          "labels": [],
+          "languages": [],
+          "name": "Kudu",
+          "signatures": {
+            "5032": {
+              "signature": 5032,
+              "product": {
+                "id": 4571,
+                "name": "Kudu"
+              },
+              "vendor": {
+                "id": 2642,
+                "name": "Advent Development, Inc."
+              },
+              "categories": {
+                "22": {
+                  "id": 22,
+                  "name": "SYSTEM_DIAGNOSTIC_AND_CLEANUP"
+                },
+                "5": {
+                  "id": 5,
+                  "name": "ANTIMALWARE"
+                }
+              },
+              "data_source": "winget",
+              "sig_name": "Kudu",
+              "methods": {}
+            }
+          }
+        },
+        "4581": {
+          "id": 4581,
+          "tested_points": [],
+          "labels": [],
+          "languages": [],
+          "name": "Context Menu Manager Plus",
+          "signatures": {
+            "5042": {
+              "signature": 5042,
+              "product": {
+                "id": 4581,
+                "name": "Context Menu Manager Plus"
+              },
+              "vendor": {
+                "id": 2651,
+                "name": "PLFJY"
+              },
+              "categories": {
+                "22": {
+                  "id": 22,
+                  "name": "SYSTEM_DIAGNOSTIC_AND_CLEANUP"
+                }
+              },
+              "data_source": "winget",
+              "sig_name": "Context Menu Manager Plus",
+              "methods": {}
+            }
+          }
+        },
+        "4583": {
+          "id": 4583,
+          "tested_points": [],
+          "labels": [],
+          "languages": [],
+          "name": "CrystalDiskInfo Kurei Kei Edition",
+          "signatures": {
+            "5044": {
+              "signature": 5044,
+              "product": {
+                "id": 4583,
+                "name": "CrystalDiskInfo Kurei Kei Edition"
+              },
+              "vendor": {
+                "id": 1180,
+                "name": "Crystal Dew World"
+              },
+              "categories": {
+                "22": {
+                  "id": 22,
+                  "name": "SYSTEM_DIAGNOSTIC_AND_CLEANUP"
+                }
+              },
+              "data_source": "winget",
+              "sig_name": "CrystalDiskInfo Kurei Kei Edition",
+              "methods": {}
+            }
+          }
+        },
+        "4584": {
+          "id": 4584,
+          "tested_points": [],
+          "labels": [],
+          "languages": [],
+          "name": "CrystalDiskInfo Aoi Edition",
+          "signatures": {
+            "5045": {
+              "signature": 5045,
+              "product": {
+                "id": 4584,
+                "name": "CrystalDiskInfo Aoi Edition"
+              },
+              "vendor": {
+                "id": 1180,
+                "name": "Crystal Dew World"
+              },
+              "categories": {
+                "22": {
+                  "id": 22,
+                  "name": "SYSTEM_DIAGNOSTIC_AND_CLEANUP"
+                }
+              },
+              "data_source": "winget",
+              "sig_name": "CrystalDiskInfo Aoi Edition",
+              "methods": {}
+            }
+          }
+        },
+        "4597": {
+          "id": 4597,
+          "tested_points": [],
+          "labels": [],
+          "languages": [],
+          "name": "WinScript",
+          "signatures": {
+            "5058": {
+              "signature": 5058,
+              "product": {
+                "id": 4597,
+                "name": "WinScript"
+              },
+              "vendor": {
+                "id": 2664,
+                "name": "flick9000"
+              },
+              "categories": {
+                "22": {
+                  "id": 22,
+                  "name": "SYSTEM_DIAGNOSTIC_AND_CLEANUP"
+                }
+              },
+              "data_source": "winget",
+              "sig_name": "WinScript",
+              "methods": {}
+            }
+          }
+        },
+        "4602": {
+          "id": 4602,
+          "tested_points": [],
+          "labels": [],
+          "languages": [],
+          "name": "Dr. Memory",
+          "signatures": {
+            "5064": {
+              "signature": 5064,
+              "product": {
+                "id": 4602,
+                "name": "Dr. Memory"
+              },
+              "vendor": {
+                "id": 2670,
+                "name": "DynamoRIO"
+              },
+              "categories": {
+                "22": {
+                  "id": 22,
+                  "name": "SYSTEM_DIAGNOSTIC_AND_CLEANUP"
+                }
+              },
+              "data_source": "winget",
+              "sig_name": "Dr. Memory",
+              "methods": {}
+            }
+          }
+        },
+        "4606": {
+          "id": 4606,
+          "tested_points": [],
+          "labels": [],
+          "languages": [],
+          "name": "Packet Sender",
+          "signatures": {
+            "5068": {
+              "signature": 5068,
+              "product": {
+                "id": 4606,
+                "name": "Packet Sender"
+              },
+              "vendor": {
+                "id": 2674,
+                "name": "NagleCode, LLC"
+              },
+              "categories": {
+                "22": {
+                  "id": 22,
+                  "name": "SYSTEM_DIAGNOSTIC_AND_CLEANUP"
+                }
+              },
+              "data_source": "winget",
+              "sig_name": "Packet Sender",
+              "methods": {}
+            }
+          }
+        },
+        "4615": {
+          "id": 4615,
+          "tested_points": [],
+          "labels": [],
+          "languages": [],
+          "name": "Intel(R) PresentMon",
+          "signatures": {
+            "5083": {
+              "signature": 5083,
+              "product": {
+                "id": 4615,
+                "name": "Intel(R) PresentMon"
+              },
+              "vendor": {
+                "id": 2682,
+                "name": "Intel(R) Corporation"
+              },
+              "categories": {
+                "19": {
+                  "id": 19,
+                  "name": "GAMING"
+                },
+                "22": {
+                  "id": 22,
+                  "name": "SYSTEM_DIAGNOSTIC_AND_CLEANUP"
+                }
+              },
+              "data_source": "winget",
+              "sig_name": "Intel(R) PresentMon",
+              "methods": {}
+            }
+          }
+        },
+        "4619": {
+          "id": 4619,
+          "tested_points": [],
+          "labels": [],
+          "languages": [],
+          "name": "Snoop",
+          "signatures": {
+            "5087": {
+              "signature": 5087,
+              "product": {
+                "id": 4619,
+                "name": "Snoop"
+              },
+              "vendor": {
+                "id": 2686,
+                "name": "https://github.com/snoopwpf"
+              },
+              "categories": {
+                "22": {
+                  "id": 22,
+                  "name": "SYSTEM_DIAGNOSTIC_AND_CLEANUP"
+                }
+              },
+              "data_source": "winget",
+              "sig_name": "Snoop",
+              "methods": {}
+            }
+          }
+        },
+        "4638": {
+          "id": 4638,
+          "tested_points": [],
+          "labels": [],
+          "languages": [],
+          "name": "Fluent Search",
+          "signatures": {
+            "5106": {
+              "signature": 5106,
+              "product": {
+                "id": 4638,
+                "name": "Fluent Search"
+              },
+              "vendor": {
+                "id": 2704,
+                "name": "BlastApps"
+              },
+              "categories": {
+                "22": {
+                  "id": 22,
+                  "name": "SYSTEM_DIAGNOSTIC_AND_CLEANUP"
+                }
+              },
+              "data_source": "winget",
+              "sig_name": "Fluent Search",
+              "methods": {}
+            }
+          }
+        },
         "626": {
           "id": 626,
           "tested_points": [
@@ -302861,34 +312139,10 @@ SUPPORT_CHARTS = {
               "version": "26.1.2.175"
             },
             {
-              "methodsStatus": {
-                "1001": -1,
-                "1004": -1,
-                "1007": -1,
-                "102": -1,
-                "103": -1,
-                "104": -1,
-                "105": -1,
-                "106": -1,
-                "108": -1,
-                "110": -1
-              },
               "signature": 2860,
               "version": "26.1.2.177"
             },
             {
-              "methodsStatus": {
-                "1001": -1,
-                "1004": -1,
-                "1007": -1,
-                "102": -1,
-                "103": -1,
-                "104": -1,
-                "105": -1,
-                "106": -1,
-                "108": -1,
-                "110": -1
-              },
               "signature": 2860,
               "version": "26.2.1.131"
             },
@@ -303948,25 +313202,6 @@ SUPPORT_CHARTS = {
               "version": "7.34.20610.0"
             },
             {
-              "methodsStatus": {
-                "1000": -1,
-                "1001": -1,
-                "1002": -1,
-                "1007": -1,
-                "101": -1,
-                "1012": -1,
-                "102": -1,
-                "103": -1,
-                "104": -1,
-                "105": -1,
-                "106": -1,
-                "108": -1,
-                "110": -1
-              },
-              "signature": 2866,
-              "version": "7.35.20709.0"
-            },
-            {
               "signature": 2866,
               "version": "7.36.20805.0"
             },
@@ -304019,26 +313254,16 @@ SUPPORT_CHARTS = {
               "version": "8.10.21401.0"
             },
             {
-              "methodsStatus": {
-                "1001": -1,
-                "1002": -1,
-                "1004": -1,
-                "1007": -1,
-                "1012": -1,
-                "102": -1,
-                "103": -1,
-                "104": -1,
-                "105": -1,
-                "106": -1,
-                "108": -1,
-                "110": -1
-              },
               "signature": 2866,
               "version": "8.10.21405.0"
             },
             {
               "signature": 2866,
               "version": "8.10.21408.0"
+            },
+            {
+              "signature": 2866,
+              "version": "7.35.20712.0"
             }
           ],
           "labels": [
@@ -306882,6 +316107,14 @@ SUPPORT_CHARTS = {
             {
               "signature": 3141,
               "version": "9.3.0.209"
+            },
+            {
+              "signature": 3141,
+              "version": "9.4.0.442"
+            },
+            {
+              "signature": 3141,
+              "version": "9.2"
             }
           ],
           "labels": [
@@ -307777,17 +317010,6 @@ SUPPORT_CHARTS = {
               "version": "10.0.26100.4202"
             },
             {
-              "methodsStatus": {
-                "100": -1,
-                "1000": -1,
-                "1001": -1,
-                "1004": -1,
-                "1006": -1,
-                "101": -1,
-                "104": -1,
-                "106": -1,
-                "110": -1
-              },
               "signature": 3194,
               "version": "10.0.26200.6899"
             },
@@ -307800,10 +317022,6 @@ SUPPORT_CHARTS = {
               "version": "10.0.28000.2179"
             },
             {
-              "methodsStatus": {
-                "1004": -1,
-                "1006": -1
-              },
               "signature": 3194,
               "version": "10.0.28000.2269"
             },
@@ -307818,6 +317036,10 @@ SUPPORT_CHARTS = {
             {
               "signature": 3194,
               "version": "10.0.26100.9457"
+            },
+            {
+              "signature": 3194,
+              "version": "10.0.26100.9711"
             }
           ],
           "labels": [
@@ -311794,6 +321016,14 @@ SUPPORT_CHARTS = {
             {
               "signature": 3572,
               "version": "8.5.0.30551"
+            },
+            {
+              "signature": 3572,
+              "version": "8.6.3.30659"
+            },
+            {
+              "signature": 3572,
+              "version": "8.6.3"
             }
           ],
           "labels": [
@@ -314307,11 +323537,11 @@ SUPPORT_CHARTS = {
           "tested_points": [
             {
               "signature": 4574,
-              "version": "2.9.2.1600"
+              "version": "2.8.8.1600"
             },
             {
               "signature": 4574,
-              "version": "2.8.8.1600"
+              "version": "2.9.2.1600"
             }
           ],
           "labels": [
@@ -314411,7 +323641,7 @@ SUPPORT_CHARTS = {
                       "param_support": {
                         "input": {
                           "skip_connection_check": {
-                            "_supported": false,
+                            "_supported": true,
                             "_optional": true
                           }
                         },
@@ -314431,18 +323661,18 @@ SUPPORT_CHARTS = {
                             }
                           },
                           "has_internet_connectivity": {
-                            "_supported": false,
+                            "_supported": true,
                             "_optional": true
                           },
                           "details": {
                             "_supported": true,
                             "_optional": false,
                             "antivirus": {
-                              "_supported": false,
+                              "_supported": true,
                               "_optional": true
                             },
                             "antispyware": {
-                              "_supported": false,
+                              "_supported": true,
                               "_optional": true
                             },
                             "other": {
@@ -314487,11 +323717,11 @@ SUPPORT_CHARTS = {
                       "param_support": {
                         "input": {
                           "timeframe": {
-                            "_supported": false,
+                            "_supported": true,
                             "_optional": true
                           },
                           "skip_connection_check": {
-                            "_supported": false,
+                            "_supported": true,
                             "_optional": true
                           }
                         },
@@ -314501,7 +323731,7 @@ SUPPORT_CHARTS = {
                             "_optional": false
                           },
                           "has_internet_connectivity": {
-                            "_supported": false,
+                            "_supported": true,
                             "_optional": true
                           },
                           "definitions": {
@@ -314525,7 +323755,7 @@ SUPPORT_CHARTS = {
                               "_optional": false
                             },
                             "engine_version": {
-                              "_supported": false,
+                              "_supported": true,
                               "_optional": true
                             },
                             "last_update": {
@@ -314539,7 +323769,7 @@ SUPPORT_CHARTS = {
                               "_optional_override": true
                             },
                             "count": {
-                              "_supported": false,
+                              "_supported": true,
                               "_optional": true
                             }
                           }
@@ -314680,65 +323910,14 @@ SUPPORT_CHARTS = {
               "version": "9.0.42.42"
             },
             {
-              "methodsStatus": {
-                "1001": -1,
-                "1002": -1,
-                "1004": -1,
-                "1005": -1,
-                "1006": -1,
-                "1007": -1,
-                "1010": -1,
-                "102": -1,
-                "1022": -1,
-                "103": -1,
-                "104": -1,
-                "105": -1,
-                "106": -1,
-                "108": -1,
-                "110": -1
-              },
               "signature": 687,
               "version": "9.0.44.40"
             },
             {
-              "methodsStatus": {
-                "1001": -1,
-                "1002": -1,
-                "1004": -1,
-                "1005": -1,
-                "1006": -1,
-                "1007": -1,
-                "1010": -1,
-                "102": -1,
-                "1022": -1,
-                "103": -1,
-                "104": -1,
-                "105": -1,
-                "106": -1,
-                "108": -1,
-                "110": -1
-              },
               "signature": 687,
               "version": "9.0.44.46"
             },
             {
-              "methodsStatus": {
-                "1001": -1,
-                "1002": -1,
-                "1004": -1,
-                "1005": -1,
-                "1006": -1,
-                "1007": -1,
-                "1010": -1,
-                "102": -1,
-                "1022": -1,
-                "103": -1,
-                "104": -1,
-                "105": -1,
-                "106": -1,
-                "108": -1,
-                "110": -1
-              },
               "signature": 687,
               "version": "9.0.45.63"
             },
@@ -316544,6 +325723,10 @@ SUPPORT_CHARTS = {
             {
               "signature": 1401,
               "version": "14.1.0.423"
+            },
+            {
+              "signature": 1401,
+              "version": "14.2.0.536"
             }
           ],
           "labels": [],
@@ -318983,10 +328166,6 @@ SUPPORT_CHARTS = {
               "version": "27.0.55.298"
             },
             {
-              "methodsStatus": {
-                "1008": -1,
-                "1009": -1
-              },
               "signature": 158,
               "version": "27.0.62.355"
             },
@@ -321367,98 +330546,18 @@ SUPPORT_CHARTS = {
               "version": "8.26.2.611"
             },
             {
-              "methodsStatus": {
-                "1000": -1,
-                "1001": -1,
-                "1002": -1,
-                "1003": -1,
-                "1004": -1,
-                "1005": -1,
-                "1006": -1,
-                "1007": -1,
-                "101": -1,
-                "1010": -1,
-                "1015": -1,
-                "102": -1,
-                "103": -1,
-                "104": -1,
-                "105": -1,
-                "106": -1,
-                "108": -1,
-                "110": -1
-              },
               "signature": 2406,
               "version": "8.26.3.618"
             },
             {
-              "methodsStatus": {
-                "1000": -1,
-                "1001": -1,
-                "1002": -1,
-                "1003": -1,
-                "1004": -1,
-                "1005": -1,
-                "1006": -1,
-                "1007": -1,
-                "101": -1,
-                "1010": -1,
-                "1015": -1,
-                "102": -1,
-                "103": -1,
-                "104": -1,
-                "105": -1,
-                "106": -1,
-                "108": -1,
-                "110": -1
-              },
               "signature": 2406,
               "version": "8.26.3.622"
             },
             {
-              "methodsStatus": {
-                "1000": -1,
-                "1001": -1,
-                "1002": -1,
-                "1003": -1,
-                "1004": -1,
-                "1005": -1,
-                "1006": -1,
-                "1007": -1,
-                "101": -1,
-                "1010": -1,
-                "1015": -1,
-                "102": -1,
-                "103": -1,
-                "104": -1,
-                "105": -1,
-                "106": -1,
-                "108": -1,
-                "110": -1
-              },
               "signature": 2406,
               "version": "8.26.4.628"
             },
             {
-              "methodsStatus": {
-                "1000": -1,
-                "1001": -1,
-                "1002": -1,
-                "1003": -1,
-                "1004": -1,
-                "1005": -1,
-                "1006": -1,
-                "1007": -1,
-                "101": -1,
-                "1010": -1,
-                "1015": -1,
-                "102": -1,
-                "103": -1,
-                "104": -1,
-                "105": -1,
-                "106": -1,
-                "108": -1,
-                "110": -1
-              },
               "signature": 2406,
               "version": "8.26.4.631"
             },
@@ -321467,52 +330566,24 @@ SUPPORT_CHARTS = {
               "version": "8.26.6.644"
             },
             {
-              "methodsStatus": {
-                "1001": -1,
-                "1002": -1,
-                "1003": -1,
-                "1004": -1,
-                "1005": -1,
-                "1006": -1,
-                "1007": -1,
-                "1010": -1,
-                "1015": -1,
-                "102": -1,
-                "103": -1,
-                "104": -1,
-                "105": -1,
-                "106": -1,
-                "108": -1,
-                "110": -1
-              },
               "signature": 2406,
               "version": "8.26.4.632"
             },
             {
-              "methodsStatus": {
-                "1001": -1,
-                "1002": -1,
-                "1003": -1,
-                "1004": -1,
-                "1005": -1,
-                "1006": -1,
-                "1007": -1,
-                "1010": -1,
-                "1015": -1,
-                "102": -1,
-                "103": -1,
-                "104": -1,
-                "105": -1,
-                "106": -1,
-                "108": -1,
-                "110": -1
-              },
               "signature": 2406,
               "version": "8.26.5.640"
             },
             {
               "signature": 2406,
               "version": "8.26.9.668"
+            },
+            {
+              "signature": 2406,
+              "version": "8.26.10.671"
+            },
+            {
+              "signature": 2406,
+              "version": "2022.4"
             }
           ],
           "labels": [],
@@ -324692,17 +333763,6 @@ SUPPORT_CHARTS = {
             },
             {
               "certification": "platinum",
-              "methodsStatus": {
-                "1009": -1,
-                "101": -1,
-                "102": -1,
-                "103": -1,
-                "104": -1,
-                "105": -1,
-                "106": -1,
-                "108": -1,
-                "110": -1
-              },
               "signature": 3045,
               "version": "5.4.20.0"
             }
@@ -326666,39 +335726,15 @@ SUPPORT_CHARTS = {
             },
             {
               "signature": 3260,
-              "version": "2025.2.3.8.0"
-            },
-            {
-              "signature": 3260,
-              "version": "2026.1.0.1681.0"
-            },
-            {
-              "methodsStatus": {
-                "1001": -1,
-                "1002": -1,
-                "1004": -1,
-                "1005": -1,
-                "1006": -1,
-                "1007": -1,
-                "102": -1,
-                "1022": -1,
-                "103": -1,
-                "104": -1,
-                "105": -1,
-                "106": -1,
-                "108": -1,
-                "110": -1
-              },
-              "signature": 3260,
-              "version": "2026.2.0.42.0"
-            },
-            {
-              "signature": 3260,
               "version": "2026.2.1.3.0"
             },
             {
               "signature": 3260,
-              "version": "2026.2.2.1.0"
+              "version": "2026.3.0.2090.0"
+            },
+            {
+              "signature": 3260,
+              "version": "2026.3.0.2090"
             }
           ],
           "labels": [],
@@ -326815,6 +335851,16 @@ SUPPORT_CHARTS = {
                             "_supported": true,
                             "_optional": false
                           },
+                          "state": {
+                            "_supported": false,
+                            "_optional": true,
+                            "_values": {
+                              "enabled": false,
+                              "disabled": false,
+                              "initializing": false,
+                              "unknown": false
+                            }
+                          },
                           "has_internet_connectivity": {
                             "_supported": false,
                             "_optional": true
@@ -326842,10 +335888,26 @@ SUPPORT_CHARTS = {
                                 "_optional": true
                               }
                             }
+                          },
+                          "managed_by_3rd_party_products": {
+                            "_supported": false,
+                            "_optional": true,
+                            "product_name": {
+                              "_supported": false,
+                              "_optional": true
+                            },
+                            "remediation_path": {
+                              "_supported": false,
+                              "_optional": true
+                            },
+                            "signature": {
+                              "_supported": false,
+                              "_optional": true
+                            }
                           }
                         }
                       },
-                      "admin_required": true,
+                      "admin_required": false,
                       "notes": ""
                     },
                     "name": "GetRealTimeProtectionState"
@@ -331804,6 +340866,142 @@ SUPPORT_CHARTS = {
             }
           }
         },
+        "4365": {
+          "id": 4365,
+          "tested_points": [],
+          "labels": [],
+          "languages": [],
+          "name": "Duplicati 2",
+          "signatures": {
+            "4824": {
+              "signature": 4824,
+              "product": {
+                "id": 4365,
+                "name": "Duplicati 2"
+              },
+              "vendor": {
+                "id": 2453,
+                "name": "Duplicati Team"
+              },
+              "categories": {
+                "2": {
+                  "id": 2,
+                  "name": "BACKUP"
+                },
+                "3": {
+                  "id": 3,
+                  "name": "ENCRYPTION"
+                }
+              },
+              "data_source": "winget",
+              "sig_name": "Duplicati 2",
+              "methods": {}
+            }
+          }
+        },
+        "4375": {
+          "id": 4375,
+          "tested_points": [],
+          "labels": [],
+          "languages": [],
+          "name": "KopiaUI",
+          "signatures": {
+            "4834": {
+              "signature": 4834,
+              "product": {
+                "id": 4375,
+                "name": "KopiaUI"
+              },
+              "vendor": {
+                "id": 2463,
+                "name": "Kopia Authors"
+              },
+              "categories": {
+                "2": {
+                  "id": 2,
+                  "name": "BACKUP"
+                },
+                "3": {
+                  "id": 3,
+                  "name": "ENCRYPTION"
+                },
+                "9": {
+                  "id": 9,
+                  "name": "CLOUD_STORAGE"
+                }
+              },
+              "data_source": "winget",
+              "sig_name": "KopiaUI",
+              "methods": {}
+            }
+          }
+        },
+        "4395": {
+          "id": 4395,
+          "tested_points": [],
+          "labels": [],
+          "languages": [],
+          "name": "SFTPGo",
+          "signatures": {
+            "4854": {
+              "signature": 4854,
+              "product": {
+                "id": 4395,
+                "name": "SFTPGo"
+              },
+              "vendor": {
+                "id": 2478,
+                "name": "Nicola Murino"
+              },
+              "categories": {
+                "1": {
+                  "id": 1,
+                  "name": "PUBLIC_FILE_SHARING"
+                },
+                "3": {
+                  "id": 3,
+                  "name": "ENCRYPTION"
+                }
+              },
+              "data_source": "winget",
+              "sig_name": "SFTPGo",
+              "methods": {}
+            }
+          }
+        },
+        "4487": {
+          "id": 4487,
+          "tested_points": [],
+          "labels": [],
+          "languages": [],
+          "name": "Standard Notes",
+          "signatures": {
+            "4948": {
+              "signature": 4948,
+              "product": {
+                "id": 4487,
+                "name": "Standard Notes"
+              },
+              "vendor": {
+                "id": 2565,
+                "name": "Standard Notes"
+              },
+              "categories": {
+                "3": {
+                  "id": 3,
+                  "name": "ENCRYPTION"
+                },
+                "9": {
+                  "id": 9,
+                  "name": "CLOUD_STORAGE"
+                }
+              },
+              "data_source": "winget",
+              "sig_name": "Standard Notes",
+              "methods": {}
+            }
+          }
+        },
         "501": {
           "id": 501,
           "tested_points": [
@@ -335847,6 +345045,10 @@ SUPPORT_CHARTS = {
             {
               "signature": 857,
               "version": "89.20.0308"
+            },
+            {
+              "signature": 857,
+              "version": "89.26.6011"
             }
           ],
           "labels": [],
@@ -336523,9 +345725,6 @@ SUPPORT_CHARTS = {
               "version": "10.0.28000.2179"
             },
             {
-              "methodsStatus": {
-                "105": -1
-              },
               "signature": 882,
               "version": "10.0.28000.2336"
             },
@@ -340028,6 +349227,10 @@ SUPPORT_CHARTS = {
             {
               "signature": 1401,
               "version": "14.1.0.423"
+            },
+            {
+              "signature": 1401,
+              "version": "14.2.0.536"
             }
           ],
           "labels": [],
@@ -344703,10 +353906,6 @@ SUPPORT_CHARTS = {
               "version": "27.0.55.298"
             },
             {
-              "methodsStatus": {
-                "1008": -1,
-                "1009": -1
-              },
               "signature": 158,
               "version": "27.0.62.355"
             },
@@ -354890,98 +364089,18 @@ SUPPORT_CHARTS = {
               "version": "8.26.2.611"
             },
             {
-              "methodsStatus": {
-                "1000": -1,
-                "1001": -1,
-                "1002": -1,
-                "1003": -1,
-                "1004": -1,
-                "1005": -1,
-                "1006": -1,
-                "1007": -1,
-                "101": -1,
-                "1010": -1,
-                "1015": -1,
-                "102": -1,
-                "103": -1,
-                "104": -1,
-                "105": -1,
-                "106": -1,
-                "108": -1,
-                "110": -1
-              },
               "signature": 2406,
               "version": "8.26.3.618"
             },
             {
-              "methodsStatus": {
-                "1000": -1,
-                "1001": -1,
-                "1002": -1,
-                "1003": -1,
-                "1004": -1,
-                "1005": -1,
-                "1006": -1,
-                "1007": -1,
-                "101": -1,
-                "1010": -1,
-                "1015": -1,
-                "102": -1,
-                "103": -1,
-                "104": -1,
-                "105": -1,
-                "106": -1,
-                "108": -1,
-                "110": -1
-              },
               "signature": 2406,
               "version": "8.26.3.622"
             },
             {
-              "methodsStatus": {
-                "1000": -1,
-                "1001": -1,
-                "1002": -1,
-                "1003": -1,
-                "1004": -1,
-                "1005": -1,
-                "1006": -1,
-                "1007": -1,
-                "101": -1,
-                "1010": -1,
-                "1015": -1,
-                "102": -1,
-                "103": -1,
-                "104": -1,
-                "105": -1,
-                "106": -1,
-                "108": -1,
-                "110": -1
-              },
               "signature": 2406,
               "version": "8.26.4.628"
             },
             {
-              "methodsStatus": {
-                "1000": -1,
-                "1001": -1,
-                "1002": -1,
-                "1003": -1,
-                "1004": -1,
-                "1005": -1,
-                "1006": -1,
-                "1007": -1,
-                "101": -1,
-                "1010": -1,
-                "1015": -1,
-                "102": -1,
-                "103": -1,
-                "104": -1,
-                "105": -1,
-                "106": -1,
-                "108": -1,
-                "110": -1
-              },
               "signature": 2406,
               "version": "8.26.4.631"
             },
@@ -354990,52 +364109,24 @@ SUPPORT_CHARTS = {
               "version": "8.26.6.644"
             },
             {
-              "methodsStatus": {
-                "1001": -1,
-                "1002": -1,
-                "1003": -1,
-                "1004": -1,
-                "1005": -1,
-                "1006": -1,
-                "1007": -1,
-                "1010": -1,
-                "1015": -1,
-                "102": -1,
-                "103": -1,
-                "104": -1,
-                "105": -1,
-                "106": -1,
-                "108": -1,
-                "110": -1
-              },
               "signature": 2406,
               "version": "8.26.4.632"
             },
             {
-              "methodsStatus": {
-                "1001": -1,
-                "1002": -1,
-                "1003": -1,
-                "1004": -1,
-                "1005": -1,
-                "1006": -1,
-                "1007": -1,
-                "1010": -1,
-                "1015": -1,
-                "102": -1,
-                "103": -1,
-                "104": -1,
-                "105": -1,
-                "106": -1,
-                "108": -1,
-                "110": -1
-              },
               "signature": 2406,
               "version": "8.26.5.640"
             },
             {
               "signature": 2406,
               "version": "8.26.9.668"
+            },
+            {
+              "signature": 2406,
+              "version": "8.26.10.671"
+            },
+            {
+              "signature": 2406,
+              "version": "2022.4"
             }
           ],
           "labels": [],
@@ -356221,9 +365312,6 @@ SUPPORT_CHARTS = {
               "version": "148.0.3967.70"
             },
             {
-              "methodsStatus": {
-                "2000": -1
-              },
               "signature": 3103,
               "version": "148.0.3967.83"
             },
@@ -356288,9 +365376,6 @@ SUPPORT_CHARTS = {
               "version": "151.0.4129.72"
             },
             {
-              "methodsStatus": {
-                "2000": -1
-              },
               "signature": 3103,
               "version": "151.0.4129.78"
             },
@@ -356303,9 +365388,6 @@ SUPPORT_CHARTS = {
               "version": "151.0.4129.93"
             },
             {
-              "methodsStatus": {
-                "2000": -1
-              },
               "signature": 3103,
               "version": "152.0.4191.53"
             },
@@ -356348,6 +365430,18 @@ SUPPORT_CHARTS = {
             {
               "signature": 3103,
               "version": "155.0.4283.45"
+            },
+            {
+              "signature": 3103,
+              "version": "155.0.4283.60"
+            },
+            {
+              "signature": 3103,
+              "version": "155.0.4283.62"
+            },
+            {
+              "signature": 3103,
+              "version": "156.0.4314.42"
             }
           ],
           "labels": [],
@@ -357689,17 +366783,6 @@ SUPPORT_CHARTS = {
               "version": "12.0.2058.0"
             },
             {
-              "methodsStatus": {
-                "1000": -1,
-                "1001": -1,
-                "1002": -1,
-                "1003": -1,
-                "1004": -1,
-                "1005": -1,
-                "1006": -1,
-                "1007": -1,
-                "1015": -1
-              },
               "signature": 25,
               "version": "12.0.2062.0"
             },
@@ -357708,32 +366791,10 @@ SUPPORT_CHARTS = {
               "version": "12.1.2057.3"
             },
             {
-              "methodsStatus": {
-                "1000": -1,
-                "1001": -1,
-                "1002": -1,
-                "1003": -1,
-                "1004": -1,
-                "1005": -1,
-                "1006": -1,
-                "1007": -1,
-                "101": -1,
-                "1015": -1,
-                "102": -1,
-                "103": -1,
-                "104": -1,
-                "105": -1,
-                "106": -1,
-                "108": -1,
-                "110": -1
-              },
               "signature": 25,
               "version": "12.1.2076.0"
             },
             {
-              "methodsStatus": {
-                "1005": -1
-              },
               "signature": 25,
               "version": "13.0.2044.0"
             },
@@ -359675,27 +368736,6 @@ SUPPORT_CHARTS = {
               "version": "13.2.8665"
             },
             {
-              "methodsStatus": {
-                "1000": -1,
-                "1001": -1,
-                "1002": -1,
-                "1003": -1,
-                "1004": -1,
-                "1005": -1,
-                "1007": -1,
-                "101": -1,
-                "1010": -1,
-                "1012": -1,
-                "102": -1,
-                "1022": -1,
-                "103": -1,
-                "104": -1,
-                "105": -1,
-                "106": -1,
-                "108": -1,
-                "109": -1,
-                "110": -1
-              },
               "signature": 2689,
               "version": "13.2.8670"
             }
@@ -360193,13 +369233,6 @@ SUPPORT_CHARTS = {
               "version": "19.1.12.0"
             },
             {
-              "methodsStatus": {
-                "1000": -1,
-                "1004": -1,
-                "1005": -1,
-                "1015": -1,
-                "1022": -1
-              },
               "signature": 2721,
               "version": "19.2.7.0"
             },
@@ -362141,6 +371174,10 @@ SUPPORT_CHARTS = {
             {
               "signature": 2843,
               "version": "26.9.11171.3833"
+            },
+            {
+              "signature": 2843,
+              "version": "26.10.11201.3863"
             }
           ],
           "labels": [],
@@ -367580,9 +376617,6 @@ SUPPORT_CHARTS = {
               "version": "14.0.20731"
             },
             {
-              "methodsStatus": {
-                "1006": -1
-              },
               "signature": 3050,
               "version": "14.0.20790"
             }
@@ -373265,6 +382299,10 @@ SUPPORT_CHARTS = {
             {
               "signature": 517,
               "version": "17.8.1192"
+            },
+            {
+              "signature": 517,
+              "version": "17.9.1187"
             }
           ],
           "labels": [],
@@ -386790,11 +395828,6 @@ SUPPORT_CHARTS = {
               "version": "1.1.109.1990"
             },
             {
-              "methodsStatus": {
-                "1000": -1,
-                "1004": -1,
-                "1005": -1
-              },
               "signature": 3636,
               "version": "1.1.111.2624"
             },
@@ -399024,38 +408057,10 @@ SUPPORT_CHARTS = {
               "version": "26.3.10860"
             },
             {
-              "methodsStatus": {
-                "1000": -1,
-                "1001": -1,
-                "1004": -1,
-                "1007": -1,
-                "101": -1,
-                "102": -1,
-                "103": -1,
-                "104": -1,
-                "105": -1,
-                "106": -1,
-                "108": -1,
-                "110": -1
-              },
               "signature": 3888,
               "version": "26.3.10886"
             },
             {
-              "methodsStatus": {
-                "1000": -1,
-                "1001": -1,
-                "1004": -1,
-                "1007": -1,
-                "101": -1,
-                "102": -1,
-                "103": -1,
-                "104": -1,
-                "105": -1,
-                "106": -1,
-                "108": -1,
-                "110": -1
-              },
               "signature": 3888,
               "version": "26.4.10921"
             },
@@ -399066,6 +408071,10 @@ SUPPORT_CHARTS = {
             {
               "signature": 3888,
               "version": "26.5.10994"
+            },
+            {
+              "signature": 3888,
+              "version": "26.11.11219"
             }
           ],
           "labels": [],
@@ -408334,9 +417343,6 @@ SUPPORT_CHARTS = {
               "version": "150.0.7871.115"
             },
             {
-              "methodsStatus": {
-                "1010": -1
-              },
               "signature": 41,
               "version": "150.0.7871.125"
             },
@@ -408373,9 +417379,6 @@ SUPPORT_CHARTS = {
               "version": "151.0.7922.170"
             },
             {
-              "methodsStatus": {
-                "2000": -1
-              },
               "signature": 41,
               "version": "151.0.7922.174"
             },
@@ -408418,6 +417421,18 @@ SUPPORT_CHARTS = {
             {
               "signature": 41,
               "version": "155.0.8059.40"
+            },
+            {
+              "signature": 41,
+              "version": "156.0.8078.35"
+            },
+            {
+              "signature": 41,
+              "version": "155.0.8059.85"
+            },
+            {
+              "signature": 41,
+              "version": "156.0.8078.48"
             }
           ],
           "labels": [],
@@ -411310,9 +420325,6 @@ SUPPORT_CHARTS = {
               "version": "132.0.5905.11"
             },
             {
-              "methodsStatus": {
-                "103": -1
-              },
               "signature": 43,
               "version": "132.0.5905.19"
             },
@@ -411827,6 +420839,35 @@ SUPPORT_CHARTS = {
             }
           }
         },
+        "4381": {
+          "id": 4381,
+          "tested_points": [],
+          "labels": [],
+          "languages": [],
+          "name": "dnscrypt-proxy",
+          "signatures": {
+            "4840": {
+              "signature": 4840,
+              "product": {
+                "id": 4381,
+                "name": "dnscrypt-proxy"
+              },
+              "vendor": {
+                "id": 2469,
+                "name": "DNSCrypt"
+              },
+              "categories": {
+                "4": {
+                  "id": 4,
+                  "name": "ANTIPHISHING"
+                }
+              },
+              "data_source": "winget",
+              "sig_name": "dnscrypt-proxy",
+              "methods": {}
+            }
+          }
+        },
         "44": {
           "id": 44,
           "tested_points": [
@@ -412167,12 +421208,6 @@ SUPPORT_CHARTS = {
               "version": "136.0.1"
             },
             {
-              "methodsStatus": {
-                "1010": -1,
-                "1011": -1,
-                "1025": -1,
-                "2000": -1
-              },
               "signature": 3039,
               "version": "136.0.2"
             },
@@ -412857,12 +421892,6 @@ SUPPORT_CHARTS = {
               "version": "136.0.1"
             },
             {
-              "methodsStatus": {
-                "1010": -1,
-                "1011": -1,
-                "1025": -1,
-                "2000": -1
-              },
               "signature": 46,
               "version": "136.0.2"
             },
@@ -414220,6 +423249,72 @@ SUPPORT_CHARTS = {
                   }
                 }
               }
+            }
+          }
+        },
+        "4407": {
+          "id": 4407,
+          "tested_points": [],
+          "labels": [],
+          "languages": [],
+          "name": "qutebrowser",
+          "signatures": {
+            "4866": {
+              "signature": 4866,
+              "product": {
+                "id": 4407,
+                "name": "qutebrowser"
+              },
+              "vendor": {
+                "id": 2490,
+                "name": "qutebrowser.org"
+              },
+              "categories": {
+                "4": {
+                  "id": 4,
+                  "name": "ANTIPHISHING"
+                },
+                "6": {
+                  "id": 6,
+                  "name": "BROWSER"
+                }
+              },
+              "data_source": "winget",
+              "sig_name": "qutebrowser",
+              "methods": {}
+            }
+          }
+        },
+        "4542": {
+          "id": 4542,
+          "tested_points": [],
+          "labels": [],
+          "languages": [],
+          "name": "Supermium",
+          "signatures": {
+            "5003": {
+              "signature": 5003,
+              "product": {
+                "id": 4542,
+                "name": "Supermium"
+              },
+              "vendor": {
+                "id": 2617,
+                "name": "win32ss"
+              },
+              "categories": {
+                "4": {
+                  "id": 4,
+                  "name": "ANTIPHISHING"
+                },
+                "6": {
+                  "id": 6,
+                  "name": "BROWSER"
+                }
+              },
+              "data_source": "winget",
+              "sig_name": "Supermium",
+              "methods": {}
             }
           }
         },
@@ -419359,154 +428454,30 @@ SUPPORT_CHARTS = {
               "version": "27.0.55.298"
             },
             {
-              "methodsStatus": {
-                "1000": -1,
-                "1001": -1,
-                "1002": -1,
-                "1003": -1,
-                "1004": -1,
-                "1005": -1,
-                "1006": -1,
-                "101": -1,
-                "1010": -1,
-                "102": -1,
-                "103": -1,
-                "104": -1,
-                "105": -1,
-                "106": -1,
-                "108": -1,
-                "110": -1
-              },
               "signature": 514,
               "version": "27.0.55.303"
             },
             {
-              "methodsStatus": {
-                "1000": -1,
-                "1001": -1,
-                "1002": -1,
-                "1003": -1,
-                "1004": -1,
-                "1005": -1,
-                "1006": -1,
-                "101": -1,
-                "1010": -1,
-                "102": -1,
-                "103": -1,
-                "104": -1,
-                "105": -1,
-                "106": -1,
-                "108": -1,
-                "110": -1
-              },
               "signature": 514,
               "version": "27.0.56.308"
             },
             {
-              "methodsStatus": {
-                "1000": -1,
-                "1001": -1,
-                "1002": -1,
-                "1003": -1,
-                "1004": -1,
-                "1005": -1,
-                "1006": -1,
-                "101": -1,
-                "1010": -1,
-                "102": -1,
-                "103": -1,
-                "104": -1,
-                "105": -1,
-                "106": -1,
-                "108": -1,
-                "110": -1
-              },
               "signature": 514,
               "version": "27.0.57.313"
             },
             {
-              "methodsStatus": {
-                "1000": -1,
-                "1001": -1,
-                "1002": -1,
-                "1003": -1,
-                "1004": -1,
-                "1005": -1,
-                "1006": -1,
-                "101": -1,
-                "1010": -1,
-                "102": -1,
-                "103": -1,
-                "104": -1,
-                "105": -1,
-                "106": -1,
-                "108": -1,
-                "110": -1
-              },
               "signature": 514,
               "version": "27.0.58.323"
             },
             {
-              "methodsStatus": {
-                "1000": -1,
-                "1001": -1,
-                "1002": -1,
-                "1003": -1,
-                "1004": -1,
-                "1005": -1,
-                "1006": -1,
-                "101": -1,
-                "1010": -1,
-                "102": -1,
-                "103": -1,
-                "104": -1,
-                "105": -1,
-                "106": -1,
-                "108": -1,
-                "110": -1
-              },
               "signature": 514,
               "version": "27.0.58.324"
             },
             {
-              "methodsStatus": {
-                "1000": -1,
-                "1001": -1,
-                "1002": -1,
-                "1003": -1,
-                "1004": -1,
-                "1005": -1,
-                "1006": -1,
-                "101": -1,
-                "1010": -1,
-                "102": -1,
-                "103": -1,
-                "104": -1,
-                "105": -1,
-                "106": -1,
-                "108": -1,
-                "110": -1
-              },
               "signature": 514,
               "version": "27.0.59.328"
             },
             {
-              "methodsStatus": {
-                "1001": -1,
-                "1002": -1,
-                "1003": -1,
-                "1004": -1,
-                "1005": -1,
-                "1006": -1,
-                "1010": -1,
-                "102": -1,
-                "103": -1,
-                "104": -1,
-                "105": -1,
-                "106": -1,
-                "108": -1,
-                "110": -1
-              },
               "signature": 514,
               "version": "27.0.59.332"
             },
@@ -419515,124 +428486,36 @@ SUPPORT_CHARTS = {
               "version": "27.0.59.334"
             },
             {
-              "methodsStatus": {
-                "1001": -1,
-                "1002": -1,
-                "1003": -1,
-                "1004": -1,
-                "1005": -1,
-                "1006": -1,
-                "1010": -1,
-                "102": -1,
-                "103": -1,
-                "104": -1,
-                "105": -1,
-                "106": -1,
-                "108": -1,
-                "110": -1
-              },
               "signature": 514,
               "version": "27.0.60.338"
             },
             {
-              "methodsStatus": {
-                "1001": -1,
-                "1002": -1,
-                "1003": -1,
-                "1004": -1,
-                "1005": -1,
-                "1006": -1,
-                "1010": -1,
-                "102": -1,
-                "103": -1,
-                "104": -1,
-                "105": -1,
-                "106": -1,
-                "108": -1,
-                "110": -1
-              },
               "signature": 514,
               "version": "27.0.60.339"
             },
             {
-              "methodsStatus": {
-                "1001": -1,
-                "1002": -1,
-                "1003": -1,
-                "1004": -1,
-                "1005": -1,
-                "1006": -1,
-                "1010": -1,
-                "102": -1,
-                "103": -1,
-                "104": -1,
-                "105": -1,
-                "106": -1,
-                "108": -1,
-                "110": -1
-              },
               "signature": 514,
               "version": "27.0.60.341"
             },
             {
-              "methodsStatus": {
-                "1001": -1,
-                "1002": -1,
-                "1003": -1,
-                "1004": -1,
-                "1005": -1,
-                "1006": -1,
-                "1010": -1,
-                "102": -1,
-                "103": -1,
-                "104": -1,
-                "105": -1,
-                "106": -1,
-                "108": -1,
-                "110": -1
-              },
               "signature": 514,
               "version": "27.0.61.344"
             },
             {
-              "methodsStatus": {
-                "1001": -1,
-                "1002": -1,
-                "1003": -1,
-                "1004": -1,
-                "1005": -1,
-                "1006": -1,
-                "1010": -1,
-                "102": -1,
-                "103": -1,
-                "104": -1,
-                "105": -1,
-                "106": -1,
-                "108": -1,
-                "110": -1
-              },
               "signature": 514,
               "version": "27.0.62.352"
             },
             {
-              "methodsStatus": {
-                "1001": -1,
-                "1002": -1,
-                "1003": -1,
-                "1004": -1,
-                "1005": -1,
-                "1006": -1,
-                "1010": -1,
-                "102": -1,
-                "103": -1,
-                "104": -1,
-                "105": -1,
-                "106": -1,
-                "108": -1,
-                "110": -1
-              },
               "signature": 514,
               "version": "27.0.62.355"
+            },
+            {
+              "signature": 514,
+              "version": "27.0.63.360"
+            },
+            {
+              "signature": 514,
+              "version": "1.2.1.1"
             }
           ],
           "labels": [],
@@ -429383,10 +438266,6 @@ SUPPORT_CHARTS = {
               "version": "20.0.10738"
             },
             {
-              "methodsStatus": {
-                "1002": -1,
-                "1004": -1
-              },
               "signature": 618,
               "version": "20.0.31108"
             }
@@ -433535,67 +442414,16 @@ SUPPORT_CHARTS = {
             },
             {
               "certification": "platinum",
-              "methodsStatus": {
-                "1001": -1,
-                "1002": -1,
-                "1004": -1,
-                "1005": -1,
-                "1006": -1,
-                "1007": -1,
-                "1010": -1,
-                "102": -1,
-                "1022": -1,
-                "103": -1,
-                "104": -1,
-                "105": -1,
-                "106": -1,
-                "108": -1,
-                "110": -1
-              },
               "signature": 687,
               "version": "9.0.44.40"
             },
             {
               "certification": "platinum",
-              "methodsStatus": {
-                "1001": -1,
-                "1002": -1,
-                "1004": -1,
-                "1005": -1,
-                "1006": -1,
-                "1007": -1,
-                "1010": -1,
-                "102": -1,
-                "1022": -1,
-                "103": -1,
-                "104": -1,
-                "105": -1,
-                "106": -1,
-                "108": -1,
-                "110": -1
-              },
               "signature": 687,
               "version": "9.0.44.46"
             },
             {
               "certification": "platinum",
-              "methodsStatus": {
-                "1001": -1,
-                "1002": -1,
-                "1004": -1,
-                "1005": -1,
-                "1006": -1,
-                "1007": -1,
-                "1010": -1,
-                "102": -1,
-                "1022": -1,
-                "103": -1,
-                "104": -1,
-                "105": -1,
-                "106": -1,
-                "108": -1,
-                "110": -1
-              },
               "signature": 687,
               "version": "9.0.45.63"
             },
@@ -436636,9 +445464,6 @@ SUPPORT_CHARTS = {
               "version": "19.1.12.0"
             },
             {
-              "methodsStatus": {
-                "1005": -1
-              },
               "signature": 2685,
               "version": "19.2.7.0"
             },
@@ -437631,6 +446456,10 @@ SUPPORT_CHARTS = {
             {
               "signature": 857,
               "version": "89.20.0308"
+            },
+            {
+              "signature": 857,
+              "version": "89.26.6011"
             }
           ],
           "labels": [],
@@ -445720,6 +454549,10 @@ SUPPORT_CHARTS = {
             {
               "signature": 1401,
               "version": "14.1.0.423"
+            },
+            {
+              "signature": 1401,
+              "version": "14.2.0.536"
             }
           ],
           "labels": [],
@@ -447579,15 +456412,6 @@ SUPPORT_CHARTS = {
             },
             {
               "certification": "platinum",
-              "methodsStatus": {
-                "1000": -1,
-                "1001": -1,
-                "1002": -1,
-                "1003": -1,
-                "1004": -1,
-                "1005": -1,
-                "1006": -1
-              },
               "signature": 1473,
               "version": "12.0.2062.0"
             },
@@ -447598,23 +456422,6 @@ SUPPORT_CHARTS = {
             },
             {
               "certification": "platinum",
-              "methodsStatus": {
-                "1000": -1,
-                "1001": -1,
-                "1002": -1,
-                "1003": -1,
-                "1004": -1,
-                "1005": -1,
-                "1006": -1,
-                "101": -1,
-                "102": -1,
-                "103": -1,
-                "104": -1,
-                "105": -1,
-                "106": -1,
-                "108": -1,
-                "110": -1
-              },
               "signature": 1473,
               "version": "12.1.2076.0"
             },
@@ -452744,10 +461551,6 @@ SUPPORT_CHARTS = {
               "version": "27.0.55.298"
             },
             {
-              "methodsStatus": {
-                "1008": -1,
-                "1009": -1
-              },
               "signature": 158,
               "version": "27.0.62.355"
             },
@@ -469141,101 +477944,21 @@ SUPPORT_CHARTS = {
             },
             {
               "certification": "platinum",
-              "methodsStatus": {
-                "1000": -1,
-                "1001": -1,
-                "1002": -1,
-                "1003": -1,
-                "1004": -1,
-                "1005": -1,
-                "1006": -1,
-                "1007": -1,
-                "101": -1,
-                "1010": -1,
-                "1015": -1,
-                "102": -1,
-                "103": -1,
-                "104": -1,
-                "105": -1,
-                "106": -1,
-                "108": -1,
-                "110": -1
-              },
               "signature": 2406,
               "version": "8.26.3.618"
             },
             {
               "certification": "platinum",
-              "methodsStatus": {
-                "1000": -1,
-                "1001": -1,
-                "1002": -1,
-                "1003": -1,
-                "1004": -1,
-                "1005": -1,
-                "1006": -1,
-                "1007": -1,
-                "101": -1,
-                "1010": -1,
-                "1015": -1,
-                "102": -1,
-                "103": -1,
-                "104": -1,
-                "105": -1,
-                "106": -1,
-                "108": -1,
-                "110": -1
-              },
               "signature": 2406,
               "version": "8.26.3.622"
             },
             {
               "certification": "platinum",
-              "methodsStatus": {
-                "1000": -1,
-                "1001": -1,
-                "1002": -1,
-                "1003": -1,
-                "1004": -1,
-                "1005": -1,
-                "1006": -1,
-                "1007": -1,
-                "101": -1,
-                "1010": -1,
-                "1015": -1,
-                "102": -1,
-                "103": -1,
-                "104": -1,
-                "105": -1,
-                "106": -1,
-                "108": -1,
-                "110": -1
-              },
               "signature": 2406,
               "version": "8.26.4.628"
             },
             {
               "certification": "platinum",
-              "methodsStatus": {
-                "1000": -1,
-                "1001": -1,
-                "1002": -1,
-                "1003": -1,
-                "1004": -1,
-                "1005": -1,
-                "1006": -1,
-                "1007": -1,
-                "101": -1,
-                "1010": -1,
-                "1015": -1,
-                "102": -1,
-                "103": -1,
-                "104": -1,
-                "105": -1,
-                "106": -1,
-                "108": -1,
-                "110": -1
-              },
               "signature": 2406,
               "version": "8.26.4.631"
             },
@@ -469246,47 +477969,11 @@ SUPPORT_CHARTS = {
             },
             {
               "certification": "platinum",
-              "methodsStatus": {
-                "1001": -1,
-                "1002": -1,
-                "1003": -1,
-                "1004": -1,
-                "1005": -1,
-                "1006": -1,
-                "1007": -1,
-                "1010": -1,
-                "1015": -1,
-                "102": -1,
-                "103": -1,
-                "104": -1,
-                "105": -1,
-                "106": -1,
-                "108": -1,
-                "110": -1
-              },
               "signature": 2406,
               "version": "8.26.4.632"
             },
             {
               "certification": "platinum",
-              "methodsStatus": {
-                "1001": -1,
-                "1002": -1,
-                "1003": -1,
-                "1004": -1,
-                "1005": -1,
-                "1006": -1,
-                "1007": -1,
-                "1010": -1,
-                "1015": -1,
-                "102": -1,
-                "103": -1,
-                "104": -1,
-                "105": -1,
-                "106": -1,
-                "108": -1,
-                "110": -1
-              },
               "signature": 2406,
               "version": "8.26.5.640"
             },
@@ -469294,6 +477981,15 @@ SUPPORT_CHARTS = {
               "certification": "platinum",
               "signature": 2406,
               "version": "8.26.9.668"
+            },
+            {
+              "certification": "platinum",
+              "signature": 2406,
+              "version": "8.26.10.671"
+            },
+            {
+              "signature": 2406,
+              "version": "2022.4"
             }
           ],
           "labels": [],
@@ -471728,162 +480424,34 @@ SUPPORT_CHARTS = {
               "version": "5.4.5.226"
             },
             {
-              "methodsStatus": {
-                "1001": -1,
-                "1002": -1,
-                "1003": -1,
-                "1004": -1,
-                "1005": -1,
-                "1006": -1,
-                "101": -1,
-                "102": -1,
-                "103": -1,
-                "104": -1,
-                "105": -1,
-                "106": -1,
-                "108": -1,
-                "110": -1
-              },
               "signature": 245,
               "version": "5.4.6.227"
             },
             {
-              "methodsStatus": {
-                "1001": -1,
-                "1002": -1,
-                "1003": -1,
-                "1004": -1,
-                "1005": -1,
-                "1006": -1,
-                "101": -1,
-                "102": -1,
-                "103": -1,
-                "104": -1,
-                "105": -1,
-                "106": -1,
-                "108": -1,
-                "110": -1
-              },
               "signature": 245,
               "version": "5.4.7.229"
             },
             {
-              "methodsStatus": {
-                "1001": -1,
-                "1002": -1,
-                "1003": -1,
-                "1004": -1,
-                "1005": -1,
-                "1006": -1,
-                "101": -1,
-                "102": -1,
-                "103": -1,
-                "104": -1,
-                "105": -1,
-                "106": -1,
-                "108": -1,
-                "110": -1
-              },
               "signature": 245,
               "version": "5.4.8.232"
             },
             {
-              "methodsStatus": {
-                "1001": -1,
-                "1002": -1,
-                "1003": -1,
-                "1004": -1,
-                "1005": -1,
-                "1006": -1,
-                "101": -1,
-                "102": -1,
-                "103": -1,
-                "104": -1,
-                "105": -1,
-                "106": -1,
-                "108": -1,
-                "110": -1
-              },
               "signature": 245,
               "version": "5.5.0.237"
             },
             {
-              "methodsStatus": {
-                "1001": -1,
-                "1002": -1,
-                "1003": -1,
-                "1004": -1,
-                "1005": -1,
-                "1006": -1,
-                "101": -1,
-                "102": -1,
-                "103": -1,
-                "104": -1,
-                "105": -1,
-                "106": -1,
-                "108": -1,
-                "110": -1
-              },
               "signature": 245,
               "version": "5.5.1.240"
             },
             {
-              "methodsStatus": {
-                "1001": -1,
-                "1002": -1,
-                "1003": -1,
-                "1004": -1,
-                "1005": -1,
-                "1006": -1,
-                "101": -1,
-                "102": -1,
-                "103": -1,
-                "104": -1,
-                "105": -1,
-                "106": -1,
-                "108": -1,
-                "110": -1
-              },
               "signature": 245,
               "version": "5.5.2.242"
             },
             {
-              "methodsStatus": {
-                "1001": -1,
-                "1002": -1,
-                "1003": -1,
-                "1004": -1,
-                "1005": -1,
-                "1006": -1,
-                "101": -1,
-                "102": -1,
-                "103": -1,
-                "104": -1,
-                "105": -1,
-                "106": -1,
-                "108": -1,
-                "110": -1
-              },
               "signature": 245,
               "version": "5.5.3.246"
             },
             {
-              "methodsStatus": {
-                "1001": -1,
-                "1002": -1,
-                "1003": -1,
-                "1004": -1,
-                "1005": -1,
-                "1006": -1,
-                "101": -1,
-                "102": -1,
-                "103": -1,
-                "104": -1,
-                "105": -1,
-                "106": -1,
-                "108": -1,
-                "110": -1
-              },
               "signature": 245,
               "version": "5.5.4.252"
             },
@@ -471896,40 +480464,10 @@ SUPPORT_CHARTS = {
               "version": "5.5.6.254"
             },
             {
-              "methodsStatus": {
-                "1001": -1,
-                "1002": -1,
-                "1003": -1,
-                "1004": -1,
-                "1005": -1,
-                "1006": -1,
-                "102": -1,
-                "103": -1,
-                "104": -1,
-                "105": -1,
-                "106": -1,
-                "108": -1,
-                "110": -1
-              },
               "signature": 245,
               "version": "5.5.7.255"
             },
             {
-              "methodsStatus": {
-                "1001": -1,
-                "1002": -1,
-                "1003": -1,
-                "1004": -1,
-                "1005": -1,
-                "1006": -1,
-                "102": -1,
-                "103": -1,
-                "104": -1,
-                "105": -1,
-                "106": -1,
-                "108": -1,
-                "110": -1
-              },
               "signature": 245,
               "version": "5.6.0.256"
             },
@@ -471938,78 +480476,18 @@ SUPPORT_CHARTS = {
               "version": "5.6.1.257"
             },
             {
-              "methodsStatus": {
-                "1001": -1,
-                "1002": -1,
-                "1003": -1,
-                "1004": -1,
-                "1005": -1,
-                "1006": -1,
-                "102": -1,
-                "103": -1,
-                "104": -1,
-                "105": -1,
-                "106": -1,
-                "108": -1,
-                "110": -1
-              },
               "signature": 245,
               "version": "5.6.2.268"
             },
             {
-              "methodsStatus": {
-                "1001": -1,
-                "1002": -1,
-                "1003": -1,
-                "1004": -1,
-                "1005": -1,
-                "1006": -1,
-                "102": -1,
-                "103": -1,
-                "104": -1,
-                "105": -1,
-                "106": -1,
-                "108": -1,
-                "110": -1
-              },
               "signature": 245,
               "version": "5.6.3.277"
             },
             {
-              "methodsStatus": {
-                "1001": -1,
-                "1002": -1,
-                "1003": -1,
-                "1004": -1,
-                "1005": -1,
-                "1006": -1,
-                "102": -1,
-                "103": -1,
-                "104": -1,
-                "105": -1,
-                "106": -1,
-                "108": -1,
-                "110": -1
-              },
               "signature": 245,
               "version": "5.6.3.284"
             },
             {
-              "methodsStatus": {
-                "1001": -1,
-                "1002": -1,
-                "1003": -1,
-                "1004": -1,
-                "1005": -1,
-                "1006": -1,
-                "102": -1,
-                "103": -1,
-                "104": -1,
-                "105": -1,
-                "106": -1,
-                "108": -1,
-                "110": -1
-              },
               "signature": 245,
               "version": "5.6.5.306"
             },
@@ -472773,17 +481251,6 @@ SUPPORT_CHARTS = {
             },
             {
               "certification": "platinum",
-              "methodsStatus": {
-                "1000": -1,
-                "1001": -1,
-                "1002": -1,
-                "1003": -1,
-                "1004": -1,
-                "1005": -1,
-                "1006": -1,
-                "1007": -1,
-                "1015": -1
-              },
               "signature": 25,
               "version": "12.0.2062.0"
             },
@@ -472794,33 +481261,11 @@ SUPPORT_CHARTS = {
             },
             {
               "certification": "platinum",
-              "methodsStatus": {
-                "1000": -1,
-                "1001": -1,
-                "1002": -1,
-                "1003": -1,
-                "1004": -1,
-                "1005": -1,
-                "1006": -1,
-                "1007": -1,
-                "101": -1,
-                "1015": -1,
-                "102": -1,
-                "103": -1,
-                "104": -1,
-                "105": -1,
-                "106": -1,
-                "108": -1,
-                "110": -1
-              },
               "signature": 25,
               "version": "12.1.2076.0"
             },
             {
               "certification": "platinum",
-              "methodsStatus": {
-                "1005": -1
-              },
               "signature": 25,
               "version": "13.0.2044.0"
             },
@@ -476518,27 +484963,6 @@ SUPPORT_CHARTS = {
             },
             {
               "certification": "platinum",
-              "methodsStatus": {
-                "1000": -1,
-                "1001": -1,
-                "1002": -1,
-                "1003": -1,
-                "1004": -1,
-                "1005": -1,
-                "1007": -1,
-                "101": -1,
-                "1010": -1,
-                "1012": -1,
-                "102": -1,
-                "1022": -1,
-                "103": -1,
-                "104": -1,
-                "105": -1,
-                "106": -1,
-                "108": -1,
-                "109": -1,
-                "110": -1
-              },
               "signature": 2689,
               "version": "13.2.8670"
             }
@@ -477659,13 +486083,6 @@ SUPPORT_CHARTS = {
               "version": "19.1.12.0"
             },
             {
-              "methodsStatus": {
-                "1000": -1,
-                "1004": -1,
-                "1005": -1,
-                "1015": -1,
-                "1022": -1
-              },
               "signature": 2721,
               "version": "19.2.7.0"
             },
@@ -482967,6 +491384,10 @@ SUPPORT_CHARTS = {
             {
               "signature": 2843,
               "version": "26.9.11171.3833"
+            },
+            {
+              "signature": 2843,
+              "version": "26.10.11201.3863"
             }
           ],
           "labels": [],
@@ -484440,34 +492861,10 @@ SUPPORT_CHARTS = {
               "version": "26.1.2.175"
             },
             {
-              "methodsStatus": {
-                "1001": -1,
-                "1004": -1,
-                "1007": -1,
-                "102": -1,
-                "103": -1,
-                "104": -1,
-                "105": -1,
-                "106": -1,
-                "108": -1,
-                "110": -1
-              },
               "signature": 2860,
               "version": "26.1.2.177"
             },
             {
-              "methodsStatus": {
-                "1001": -1,
-                "1004": -1,
-                "1007": -1,
-                "102": -1,
-                "103": -1,
-                "104": -1,
-                "105": -1,
-                "106": -1,
-                "108": -1,
-                "110": -1
-              },
               "signature": 2860,
               "version": "26.2.1.131"
             },
@@ -485625,26 +494022,6 @@ SUPPORT_CHARTS = {
             },
             {
               "certification": "gold",
-              "methodsStatus": {
-                "1000": -1,
-                "1001": -1,
-                "1002": -1,
-                "1007": -1,
-                "101": -1,
-                "1012": -1,
-                "102": -1,
-                "103": -1,
-                "104": -1,
-                "105": -1,
-                "106": -1,
-                "108": -1,
-                "110": -1
-              },
-              "signature": 2866,
-              "version": "7.35.20709.0"
-            },
-            {
-              "certification": "gold",
               "signature": 2866,
               "version": "7.36.20805.0"
             },
@@ -485703,20 +494080,6 @@ SUPPORT_CHARTS = {
             },
             {
               "certification": "gold",
-              "methodsStatus": {
-                "1001": -1,
-                "1002": -1,
-                "1004": -1,
-                "1007": -1,
-                "1012": -1,
-                "102": -1,
-                "103": -1,
-                "104": -1,
-                "105": -1,
-                "106": -1,
-                "108": -1,
-                "110": -1
-              },
               "signature": 2866,
               "version": "8.10.21405.0"
             },
@@ -485724,6 +494087,11 @@ SUPPORT_CHARTS = {
               "certification": "gold",
               "signature": 2866,
               "version": "8.10.21408.0"
+            },
+            {
+              "certification": "gold",
+              "signature": 2866,
+              "version": "7.35.20712.0"
             }
           ],
           "labels": [
@@ -498002,9 +506370,6 @@ SUPPORT_CHARTS = {
             },
             {
               "certification": "gold",
-              "methodsStatus": {
-                "1006": -1
-              },
               "signature": 3050,
               "version": "14.0.20790"
             }
@@ -504878,6 +513243,10 @@ SUPPORT_CHARTS = {
             {
               "signature": 517,
               "version": "17.8.1192"
+            },
+            {
+              "signature": 517,
+              "version": "17.9.1187"
             }
           ],
           "labels": [],
@@ -507886,6 +516255,16 @@ SUPPORT_CHARTS = {
               "certification": "gold",
               "signature": 3141,
               "version": "9.3.0.209"
+            },
+            {
+              "certification": "gold",
+              "signature": 3141,
+              "version": "9.4.0.442"
+            },
+            {
+              "certification": "gold",
+              "signature": 3141,
+              "version": "9.2"
             }
           ],
           "labels": [
@@ -508849,17 +517228,6 @@ SUPPORT_CHARTS = {
             },
             {
               "certification": "platinum",
-              "methodsStatus": {
-                "100": -1,
-                "1000": -1,
-                "1001": -1,
-                "1004": -1,
-                "1006": -1,
-                "101": -1,
-                "104": -1,
-                "106": -1,
-                "110": -1
-              },
               "signature": 3194,
               "version": "10.0.26200.6899"
             },
@@ -508875,10 +517243,6 @@ SUPPORT_CHARTS = {
             },
             {
               "certification": "platinum",
-              "methodsStatus": {
-                "1004": -1,
-                "1006": -1
-              },
               "signature": 3194,
               "version": "10.0.28000.2269"
             },
@@ -508896,6 +517260,11 @@ SUPPORT_CHARTS = {
               "certification": "platinum",
               "signature": 3194,
               "version": "10.0.26100.9457"
+            },
+            {
+              "certification": "platinum",
+              "signature": 3194,
+              "version": "10.0.26100.9711"
             }
           ],
           "labels": [
@@ -510114,41 +518483,16 @@ SUPPORT_CHARTS = {
               "version": "2025.2.2.4.0"
             },
             {
-              "certification": "gold",
-              "signature": 3260,
-              "version": "2025.2.3.8.0"
-            },
-            {
-              "signature": 3260,
-              "version": "2026.1.0.1681.0"
-            },
-            {
-              "methodsStatus": {
-                "1001": -1,
-                "1002": -1,
-                "1004": -1,
-                "1005": -1,
-                "1006": -1,
-                "1007": -1,
-                "102": -1,
-                "1022": -1,
-                "103": -1,
-                "104": -1,
-                "105": -1,
-                "106": -1,
-                "108": -1,
-                "110": -1
-              },
-              "signature": 3260,
-              "version": "2026.2.0.42.0"
-            },
-            {
               "signature": 3260,
               "version": "2026.2.1.3.0"
             },
             {
               "signature": 3260,
-              "version": "2026.2.2.1.0"
+              "version": "2026.3.0.2090.0"
+            },
+            {
+              "signature": 3260,
+              "version": "2026.3.0.2090"
             }
           ],
           "labels": [],
@@ -510265,6 +518609,16 @@ SUPPORT_CHARTS = {
                             "_supported": true,
                             "_optional": false
                           },
+                          "state": {
+                            "_supported": false,
+                            "_optional": true,
+                            "_values": {
+                              "enabled": false,
+                              "disabled": false,
+                              "initializing": false,
+                              "unknown": false
+                            }
+                          },
                           "has_internet_connectivity": {
                             "_supported": false,
                             "_optional": true
@@ -510292,10 +518646,26 @@ SUPPORT_CHARTS = {
                                 "_optional": true
                               }
                             }
+                          },
+                          "managed_by_3rd_party_products": {
+                            "_supported": false,
+                            "_optional": true,
+                            "product_name": {
+                              "_supported": false,
+                              "_optional": true
+                            },
+                            "remediation_path": {
+                              "_supported": false,
+                              "_optional": true
+                            },
+                            "signature": {
+                              "_supported": false,
+                              "_optional": true
+                            }
                           }
                         }
                       },
-                      "admin_required": true,
+                      "admin_required": false,
                       "notes": ""
                     },
                     "name": "GetRealTimeProtectionState"
@@ -521338,6 +529708,16 @@ SUPPORT_CHARTS = {
               "certification": "gold",
               "signature": 3572,
               "version": "8.5.0.30551"
+            },
+            {
+              "certification": "gold",
+              "signature": 3572,
+              "version": "8.6.3.30659"
+            },
+            {
+              "certification": "gold",
+              "signature": 3572,
+              "version": "8.6.3"
             }
           ],
           "labels": [
@@ -530393,11 +538773,6 @@ SUPPORT_CHARTS = {
               "version": "1.1.109.1990"
             },
             {
-              "methodsStatus": {
-                "1000": -1,
-                "1004": -1,
-                "1005": -1
-              },
               "signature": 3636,
               "version": "1.1.111.2624"
             },
@@ -547827,38 +556202,10 @@ SUPPORT_CHARTS = {
               "version": "26.3.10860"
             },
             {
-              "methodsStatus": {
-                "1000": -1,
-                "1001": -1,
-                "1004": -1,
-                "1007": -1,
-                "101": -1,
-                "102": -1,
-                "103": -1,
-                "104": -1,
-                "105": -1,
-                "106": -1,
-                "108": -1,
-                "110": -1
-              },
               "signature": 3888,
               "version": "26.3.10886"
             },
             {
-              "methodsStatus": {
-                "1000": -1,
-                "1001": -1,
-                "1004": -1,
-                "1007": -1,
-                "101": -1,
-                "102": -1,
-                "103": -1,
-                "104": -1,
-                "105": -1,
-                "106": -1,
-                "108": -1,
-                "110": -1
-              },
               "signature": 3888,
               "version": "26.4.10921"
             },
@@ -547869,6 +556216,10 @@ SUPPORT_CHARTS = {
             {
               "signature": 3888,
               "version": "26.5.10994"
+            },
+            {
+              "signature": 3888,
+              "version": "26.11.11219"
             }
           ],
           "labels": [],
@@ -554765,9 +563116,6 @@ SUPPORT_CHARTS = {
             },
             {
               "certification": "platinum",
-              "methodsStatus": {
-                "1003": -1
-              },
               "signature": 477,
               "version": "4.18.25090.3009"
             },
@@ -554820,6 +563168,11 @@ SUPPORT_CHARTS = {
               "certification": "platinum",
               "signature": 477,
               "version": "4.18.26080.4"
+            },
+            {
+              "certification": "platinum",
+              "signature": 477,
+              "version": "4.18.26090.9"
             }
           ],
           "labels": [],
@@ -563080,12 +571433,14 @@ SUPPORT_CHARTS = {
           "id": 4116,
           "tested_points": [
             {
-              "signature": 4574,
-              "version": "2.9.2.1600"
-            },
-            {
+              "certification": "gold",
               "signature": 4574,
               "version": "2.8.8.1600"
+            },
+            {
+              "certification": "gold",
+              "signature": 4574,
+              "version": "2.9.2.1600"
             }
           ],
           "labels": [
@@ -563122,6 +571477,394 @@ SUPPORT_CHARTS = {
                     "id": 103,
                     "code": -11,
                     "name": "TerminateProcesses"
+                  }
+                },
+                "manageability": {
+                  "100": {
+                    "id": 100,
+                    "meta_data": {
+                      "param_support": {
+                        "input": {
+                          "instance_id": {
+                            "_supported": false,
+                            "_optional": true
+                          }
+                        },
+                        "output": {
+                          "version": {
+                            "_supported": true,
+                            "_optional": false
+                          },
+                          "architecture": {
+                            "_supported": true,
+                            "_optional": false,
+                            "name": {
+                              "_supported": true,
+                              "_optional": false
+                            },
+                            "bitness": {
+                              "_supported": true,
+                              "_optional": false
+                            }
+                          },
+                          "language": {
+                            "_supported": true,
+                            "_optional": false,
+                            "code": {
+                              "_supported": true,
+                              "_optional": false
+                            },
+                            "name": {
+                              "_supported": true,
+                              "_optional": false
+                            }
+                          },
+                          "channel": {
+                            "_supported": false,
+                            "_optional": true
+                          },
+                          "release": {
+                            "_supported": false,
+                            "_optional": true
+                          }
+                        }
+                      },
+                      "admin_required": false,
+                      "notes": ""
+                    },
+                    "name": "GetVersion"
+                  },
+                  "1000": {
+                    "id": 1000,
+                    "meta_data": {
+                      "param_support": {
+                        "input": {
+                          "skip_connection_check": {
+                            "_supported": true,
+                            "_optional": true
+                          }
+                        },
+                        "output": {
+                          "enabled": {
+                            "_supported": true,
+                            "_optional": false
+                          },
+                          "state": {
+                            "_supported": false,
+                            "_optional": true,
+                            "_values": {
+                              "enabled": false,
+                              "disabled": false,
+                              "initializing": false,
+                              "unknown": false
+                            }
+                          },
+                          "has_internet_connectivity": {
+                            "_supported": true,
+                            "_optional": true
+                          },
+                          "details": {
+                            "_supported": true,
+                            "_optional": false,
+                            "antivirus": {
+                              "_supported": true,
+                              "_optional": true
+                            },
+                            "antispyware": {
+                              "_supported": true,
+                              "_optional": true
+                            },
+                            "other": {
+                              "_supported": false,
+                              "_optional": true,
+                              "name": {
+                                "_supported": false,
+                                "_optional": true
+                              },
+                              "state": {
+                                "_supported": false,
+                                "_optional": true
+                              }
+                            }
+                          },
+                          "managed_by_3rd_party_products": {
+                            "_supported": false,
+                            "_optional": true,
+                            "product_name": {
+                              "_supported": false,
+                              "_optional": true
+                            },
+                            "remediation_path": {
+                              "_supported": false,
+                              "_optional": true
+                            },
+                            "signature": {
+                              "_supported": false,
+                              "_optional": true
+                            }
+                          }
+                        }
+                      },
+                      "admin_required": false,
+                      "notes": ""
+                    },
+                    "name": "GetRealTimeProtectionState"
+                  },
+                  "1001": {
+                    "id": 1001,
+                    "meta_data": {
+                      "param_support": {
+                        "input": {
+                          "timeframe": {
+                            "_supported": true,
+                            "_optional": true
+                          },
+                          "skip_connection_check": {
+                            "_supported": true,
+                            "_optional": true
+                          }
+                        },
+                        "output": {
+                          "is_recent": {
+                            "_supported": true,
+                            "_optional": false
+                          },
+                          "has_internet_connectivity": {
+                            "_supported": true,
+                            "_optional": true
+                          },
+                          "definitions": {
+                            "_supported": true,
+                            "_optional": false,
+                            "name": {
+                              "_supported": true,
+                              "_optional": false
+                            },
+                            "type": {
+                              "_supported": true,
+                              "_optional": false,
+                              "_values": {
+                                "antimalware": false,
+                                "antivirus": false,
+                                "antispyware": false
+                              }
+                            },
+                            "version": {
+                              "_supported": true,
+                              "_optional": false
+                            },
+                            "engine_version": {
+                              "_supported": true,
+                              "_optional": true
+                            },
+                            "last_update": {
+                              "_optional": false,
+                              "_supported": true,
+                              "_optional_override": true
+                            },
+                            "source_time": {
+                              "_optional": false,
+                              "_supported": true,
+                              "_optional_override": true
+                            },
+                            "count": {
+                              "_supported": true,
+                              "_optional": true
+                            }
+                          }
+                        }
+                      },
+                      "admin_required": false,
+                      "notes": ""
+                    },
+                    "name": "GetDefinitionState"
+                  },
+                  "1004": {
+                    "id": 1004,
+                    "meta_data": {
+                      "param_support": {
+                        "input": {
+                          "scan_type": {
+                            "_supported": false,
+                            "_optional": true,
+                            "_values": {
+                              "full": false,
+                              "default": false,
+                              "path": false
+                            }
+                          },
+                          "api_url": {
+                            "_supported": false,
+                            "_optional": true
+                          },
+                          "token": {
+                            "_supported": false,
+                            "_optional": true
+                          },
+                          "credentials": {
+                            "_supported": false,
+                            "_optional": true,
+                            "client_id": {
+                              "_supported": false,
+                              "_optional": true
+                            },
+                            "client_secret": {
+                              "_supported": false,
+                              "_optional": true
+                            }
+                          }
+                        },
+                        "output": {
+                          "scan_time": {
+                            "_supported": true,
+                            "_optional": false
+                          },
+                          "scan_type": {
+                            "_supported": true,
+                            "_optional": false,
+                            "_values": {
+                              "full": false,
+                              "default": false,
+                              "path": false,
+                              "unspecified": false
+                            }
+                          }
+                        }
+                      },
+                      "admin_required": false,
+                      "notes": ""
+                    },
+                    "name": "GetLastScanTime"
+                  }
+                }
+              }
+            }
+          }
+        },
+        "4241": {
+          "id": 4241,
+          "tested_points": [
+            {
+              "certification": "gold",
+              "signature": 4699,
+              "version": "25.00"
+            }
+          ],
+          "labels": [],
+          "languages": [],
+          "name": "MalwareFox",
+          "signatures": {
+            "4699": {
+              "signature": 4699,
+              "product": {
+                "id": 4241,
+                "name": "MalwareFox"
+              },
+              "vendor": {
+                "id": 2337,
+                "name": "MalwareFox"
+              },
+              "categories": {
+                "5": {
+                  "id": 5,
+                  "name": "ANTIMALWARE"
+                }
+              },
+              "data_source": "Opswat",
+              "sig_name": "MalwareFox",
+              "methods": {
+                "constant": {
+                  "102": {
+                    "id": 102,
+                    "code": -11,
+                    "name": "Run"
+                  },
+                  "103": {
+                    "id": 103,
+                    "code": -11,
+                    "name": "TerminateProcesses"
+                  }
+                },
+                "local": {
+                  "1000": {
+                    "id": 1000,
+                    "meta_data": {
+                      "param_support": {
+                        "input": {
+                          "skip_connection_check": {
+                            "_supported": false,
+                            "_optional": true
+                          }
+                        },
+                        "output": {
+                          "enabled": {
+                            "_supported": true,
+                            "_optional": false
+                          },
+                          "state": {
+                            "_supported": false,
+                            "_optional": true,
+                            "_values": {
+                              "enabled": false,
+                              "disabled": false,
+                              "initializing": false,
+                              "unknown": false
+                            }
+                          },
+                          "has_internet_connectivity": {
+                            "_supported": false,
+                            "_optional": true
+                          },
+                          "details": {
+                            "_supported": true,
+                            "_optional": false,
+                            "antivirus": {
+                              "_supported": false,
+                              "_optional": true
+                            },
+                            "antispyware": {
+                              "_supported": false,
+                              "_optional": true
+                            },
+                            "other": {
+                              "_supported": false,
+                              "_optional": true,
+                              "name": {
+                                "_supported": false,
+                                "_optional": true
+                              },
+                              "state": {
+                                "_supported": false,
+                                "_optional": true
+                              }
+                            }
+                          },
+                          "managed_by_3rd_party_products": {
+                            "_supported": false,
+                            "_optional": true,
+                            "product_name": {
+                              "_supported": false,
+                              "_optional": true
+                            },
+                            "remediation_path": {
+                              "_supported": false,
+                              "_optional": true
+                            },
+                            "signature": {
+                              "_supported": false,
+                              "_optional": true
+                            }
+                          }
+                        }
+                      },
+                      "admin_required": false,
+                      "notes": ""
+                    },
+                    "name": "GetRealTimeProtectionState"
+                  },
+                  "1007": {
+                    "id": 1007,
+                    "name": "GetFirewallState"
                   }
                 },
                 "manageability": {
@@ -563324,123 +572067,27 @@ SUPPORT_CHARTS = {
                     },
                     "name": "GetDefinitionState"
                   },
-                  "1004": {
-                    "id": 1004,
+                  "101": {
+                    "id": 101,
                     "meta_data": {
                       "param_support": {
                         "input": {
-                          "scan_type": {
-                            "_supported": false,
-                            "_optional": true,
-                            "_values": {
-                              "full": false,
-                              "default": false,
-                              "path": false
-                            }
-                          },
-                          "api_url": {
+                          "instance_id": {
                             "_supported": false,
                             "_optional": true
-                          },
-                          "token": {
-                            "_supported": false,
-                            "_optional": true
-                          },
-                          "credentials": {
-                            "_supported": false,
-                            "_optional": true,
-                            "client_id": {
-                              "_supported": false,
-                              "_optional": true
-                            },
-                            "client_secret": {
-                              "_supported": false,
-                              "_optional": true
-                            }
                           }
                         },
                         "output": {
-                          "scan_time": {
+                          "running": {
                             "_supported": true,
                             "_optional": false
-                          },
-                          "scan_type": {
-                            "_supported": true,
-                            "_optional": false,
-                            "_values": {
-                              "full": false,
-                              "default": false,
-                              "path": false,
-                              "unspecified": false
-                            }
                           }
                         }
                       },
                       "admin_required": false,
                       "notes": ""
                     },
-                    "name": "GetLastScanTime"
-                  }
-                }
-              }
-            }
-          }
-        },
-        "4241": {
-          "id": 4241,
-          "tested_points": [
-            {
-              "signature": 4699,
-              "version": "1.0.0.0"
-            },
-            {
-              "signature": 4699,
-              "version": "16.0.0.0"
-            }
-          ],
-          "labels": [],
-          "languages": [],
-          "name": "MalwareFox",
-          "signatures": {
-            "4699": {
-              "signature": 4699,
-              "product": {
-                "id": 4241,
-                "name": "MalwareFox"
-              },
-              "vendor": {
-                "id": 2337,
-                "name": "MalwareFox"
-              },
-              "categories": {
-                "5": {
-                  "id": 5,
-                  "name": "ANTIMALWARE"
-                }
-              },
-              "data_source": "Opswat",
-              "sig_name": "MalwareFox",
-              "methods": {
-                "constant": {
-                  "102": {
-                    "id": 102,
-                    "code": -11,
-                    "name": "Run"
-                  },
-                  "103": {
-                    "id": 103,
-                    "code": -11,
-                    "name": "TerminateProcesses"
-                  }
-                },
-                "local": {
-                  "1000": {
-                    "id": 1000,
-                    "name": "GetRealTimeProtectionState"
-                  },
-                  "1007": {
-                    "id": 1007,
-                    "name": "GetFirewallState"
+                    "name": "GetRunningState"
                   }
                 }
               }
@@ -563476,6 +572123,35 @@ SUPPORT_CHARTS = {
               },
               "data_source": "winget",
               "sig_name": "Sandboxie-Plus",
+              "methods": {}
+            }
+          }
+        },
+        "4507": {
+          "id": 4507,
+          "tested_points": [],
+          "labels": [],
+          "languages": [],
+          "name": "Dangerzone",
+          "signatures": {
+            "4968": {
+              "signature": 4968,
+              "product": {
+                "id": 4507,
+                "name": "Dangerzone"
+              },
+              "vendor": {
+                "id": 2584,
+                "name": "Freedom of the Press Foundation"
+              },
+              "categories": {
+                "5": {
+                  "id": 5,
+                  "name": "ANTIMALWARE"
+                }
+              },
+              "data_source": "winget",
+              "sig_name": "Dangerzone",
               "methods": {}
             }
           }
@@ -563810,6 +572486,39 @@ SUPPORT_CHARTS = {
                   }
                 }
               }
+            }
+          }
+        },
+        "4571": {
+          "id": 4571,
+          "tested_points": [],
+          "labels": [],
+          "languages": [],
+          "name": "Kudu",
+          "signatures": {
+            "5032": {
+              "signature": 5032,
+              "product": {
+                "id": 4571,
+                "name": "Kudu"
+              },
+              "vendor": {
+                "id": 2642,
+                "name": "Advent Development, Inc."
+              },
+              "categories": {
+                "22": {
+                  "id": 22,
+                  "name": "SYSTEM_DIAGNOSTIC_AND_CLEANUP"
+                },
+                "5": {
+                  "id": 5,
+                  "name": "ANTIMALWARE"
+                }
+              },
+              "data_source": "winget",
+              "sig_name": "Kudu",
+              "methods": {}
             }
           }
         },
@@ -569148,154 +577857,30 @@ SUPPORT_CHARTS = {
               "version": "27.0.55.298"
             },
             {
-              "methodsStatus": {
-                "1000": -1,
-                "1001": -1,
-                "1002": -1,
-                "1003": -1,
-                "1004": -1,
-                "1005": -1,
-                "1006": -1,
-                "101": -1,
-                "1010": -1,
-                "102": -1,
-                "103": -1,
-                "104": -1,
-                "105": -1,
-                "106": -1,
-                "108": -1,
-                "110": -1
-              },
               "signature": 514,
               "version": "27.0.55.303"
             },
             {
-              "methodsStatus": {
-                "1000": -1,
-                "1001": -1,
-                "1002": -1,
-                "1003": -1,
-                "1004": -1,
-                "1005": -1,
-                "1006": -1,
-                "101": -1,
-                "1010": -1,
-                "102": -1,
-                "103": -1,
-                "104": -1,
-                "105": -1,
-                "106": -1,
-                "108": -1,
-                "110": -1
-              },
               "signature": 514,
               "version": "27.0.56.308"
             },
             {
-              "methodsStatus": {
-                "1000": -1,
-                "1001": -1,
-                "1002": -1,
-                "1003": -1,
-                "1004": -1,
-                "1005": -1,
-                "1006": -1,
-                "101": -1,
-                "1010": -1,
-                "102": -1,
-                "103": -1,
-                "104": -1,
-                "105": -1,
-                "106": -1,
-                "108": -1,
-                "110": -1
-              },
               "signature": 514,
               "version": "27.0.57.313"
             },
             {
-              "methodsStatus": {
-                "1000": -1,
-                "1001": -1,
-                "1002": -1,
-                "1003": -1,
-                "1004": -1,
-                "1005": -1,
-                "1006": -1,
-                "101": -1,
-                "1010": -1,
-                "102": -1,
-                "103": -1,
-                "104": -1,
-                "105": -1,
-                "106": -1,
-                "108": -1,
-                "110": -1
-              },
               "signature": 514,
               "version": "27.0.58.323"
             },
             {
-              "methodsStatus": {
-                "1000": -1,
-                "1001": -1,
-                "1002": -1,
-                "1003": -1,
-                "1004": -1,
-                "1005": -1,
-                "1006": -1,
-                "101": -1,
-                "1010": -1,
-                "102": -1,
-                "103": -1,
-                "104": -1,
-                "105": -1,
-                "106": -1,
-                "108": -1,
-                "110": -1
-              },
               "signature": 514,
               "version": "27.0.58.324"
             },
             {
-              "methodsStatus": {
-                "1000": -1,
-                "1001": -1,
-                "1002": -1,
-                "1003": -1,
-                "1004": -1,
-                "1005": -1,
-                "1006": -1,
-                "101": -1,
-                "1010": -1,
-                "102": -1,
-                "103": -1,
-                "104": -1,
-                "105": -1,
-                "106": -1,
-                "108": -1,
-                "110": -1
-              },
               "signature": 514,
               "version": "27.0.59.328"
             },
             {
-              "methodsStatus": {
-                "1001": -1,
-                "1002": -1,
-                "1003": -1,
-                "1004": -1,
-                "1005": -1,
-                "1006": -1,
-                "1010": -1,
-                "102": -1,
-                "103": -1,
-                "104": -1,
-                "105": -1,
-                "106": -1,
-                "108": -1,
-                "110": -1
-              },
               "signature": 514,
               "version": "27.0.59.332"
             },
@@ -569304,124 +577889,36 @@ SUPPORT_CHARTS = {
               "version": "27.0.59.334"
             },
             {
-              "methodsStatus": {
-                "1001": -1,
-                "1002": -1,
-                "1003": -1,
-                "1004": -1,
-                "1005": -1,
-                "1006": -1,
-                "1010": -1,
-                "102": -1,
-                "103": -1,
-                "104": -1,
-                "105": -1,
-                "106": -1,
-                "108": -1,
-                "110": -1
-              },
               "signature": 514,
               "version": "27.0.60.338"
             },
             {
-              "methodsStatus": {
-                "1001": -1,
-                "1002": -1,
-                "1003": -1,
-                "1004": -1,
-                "1005": -1,
-                "1006": -1,
-                "1010": -1,
-                "102": -1,
-                "103": -1,
-                "104": -1,
-                "105": -1,
-                "106": -1,
-                "108": -1,
-                "110": -1
-              },
               "signature": 514,
               "version": "27.0.60.339"
             },
             {
-              "methodsStatus": {
-                "1001": -1,
-                "1002": -1,
-                "1003": -1,
-                "1004": -1,
-                "1005": -1,
-                "1006": -1,
-                "1010": -1,
-                "102": -1,
-                "103": -1,
-                "104": -1,
-                "105": -1,
-                "106": -1,
-                "108": -1,
-                "110": -1
-              },
               "signature": 514,
               "version": "27.0.60.341"
             },
             {
-              "methodsStatus": {
-                "1001": -1,
-                "1002": -1,
-                "1003": -1,
-                "1004": -1,
-                "1005": -1,
-                "1006": -1,
-                "1010": -1,
-                "102": -1,
-                "103": -1,
-                "104": -1,
-                "105": -1,
-                "106": -1,
-                "108": -1,
-                "110": -1
-              },
               "signature": 514,
               "version": "27.0.61.344"
             },
             {
-              "methodsStatus": {
-                "1001": -1,
-                "1002": -1,
-                "1003": -1,
-                "1004": -1,
-                "1005": -1,
-                "1006": -1,
-                "1010": -1,
-                "102": -1,
-                "103": -1,
-                "104": -1,
-                "105": -1,
-                "106": -1,
-                "108": -1,
-                "110": -1
-              },
               "signature": 514,
               "version": "27.0.62.352"
             },
             {
-              "methodsStatus": {
-                "1001": -1,
-                "1002": -1,
-                "1003": -1,
-                "1004": -1,
-                "1005": -1,
-                "1006": -1,
-                "1010": -1,
-                "102": -1,
-                "103": -1,
-                "104": -1,
-                "105": -1,
-                "106": -1,
-                "108": -1,
-                "110": -1
-              },
               "signature": 514,
               "version": "27.0.62.355"
+            },
+            {
+              "signature": 514,
+              "version": "27.0.63.360"
+            },
+            {
+              "signature": 514,
+              "version": "1.2.1.1"
             }
           ],
           "labels": [],
@@ -574127,26 +582624,6 @@ SUPPORT_CHARTS = {
             },
             {
               "certification": "platinum",
-              "methodsStatus": {
-                "1000": -1,
-                "1001": -1,
-                "1002": -1,
-                "1003": -1,
-                "1004": -1,
-                "1005": -1,
-                "1006": -1,
-                "1007": -1,
-                "101": -1,
-                "1015": -1,
-                "102": -1,
-                "1022": -1,
-                "103": -1,
-                "104": -1,
-                "105": -1,
-                "106": -1,
-                "108": -1,
-                "110": -1
-              },
               "signature": 543,
               "version": "14.3.12167.10000"
             },
@@ -582753,33 +591230,11 @@ SUPPORT_CHARTS = {
             },
             {
               "certification": "gold",
-              "methodsStatus": {
-                "1000": -1,
-                "1001": -1,
-                "1004": -1,
-                "1006": -1,
-                "1007": -1
-              },
               "signature": 602,
               "version": "7.4.4.1887"
             },
             {
               "certification": "gold",
-              "methodsStatus": {
-                "1000": -1,
-                "1001": -1,
-                "1004": -1,
-                "1006": -1,
-                "1007": -1,
-                "101": -1,
-                "102": -1,
-                "103": -1,
-                "104": -1,
-                "105": -1,
-                "106": -1,
-                "108": -1,
-                "110": -1
-              },
               "signature": 602,
               "version": "7.4.5.1949"
             },
@@ -584915,10 +593370,6 @@ SUPPORT_CHARTS = {
             },
             {
               "certification": "gold",
-              "methodsStatus": {
-                "1002": -1,
-                "1004": -1
-              },
               "signature": 618,
               "version": "20.0.31108"
             }
@@ -591818,6 +600269,10 @@ SUPPORT_CHARTS = {
               "version": "3.0.1.3"
             },
             {
+              "signature": 3002,
+              "version": "5.1.31.15596"
+            },
+            {
               "certification": "gold",
               "signature": 685,
               "version": "2.5.0.15"
@@ -591880,9 +600335,85 @@ SUPPORT_CHARTS = {
                   }
                 },
                 "manageability": {
+                  "100": {
+                    "id": 100,
+                    "meta_data": {
+                      "param_support": {
+                        "input": {
+                          "instance_id": {
+                            "_supported": false,
+                            "_optional": true
+                          }
+                        },
+                        "output": {
+                          "version": {
+                            "_supported": true,
+                            "_optional": false
+                          },
+                          "architecture": {
+                            "_supported": true,
+                            "_optional": false,
+                            "name": {
+                              "_supported": true,
+                              "_optional": false
+                            },
+                            "bitness": {
+                              "_supported": true,
+                              "_optional": false
+                            }
+                          },
+                          "language": {
+                            "_supported": true,
+                            "_optional": false,
+                            "code": {
+                              "_supported": true,
+                              "_optional": false
+                            },
+                            "name": {
+                              "_supported": true,
+                              "_optional": false
+                            }
+                          },
+                          "channel": {
+                            "_supported": false,
+                            "_optional": true
+                          },
+                          "release": {
+                            "_supported": false,
+                            "_optional": true
+                          }
+                        }
+                      },
+                      "admin_required": false,
+                      "notes": ""
+                    },
+                    "name": "GetVersion"
+                  },
                   "1001": {
                     "id": 1001,
                     "name": "GetDefinitionState"
+                  },
+                  "101": {
+                    "id": 101,
+                    "meta_data": {
+                      "param_support": {
+                        "input": {
+                          "instance_id": {
+                            "_supported": false,
+                            "_optional": true
+                          }
+                        },
+                        "output": {
+                          "running": {
+                            "_supported": true,
+                            "_optional": false
+                          }
+                        }
+                      },
+                      "admin_required": false,
+                      "notes": ""
+                    },
+                    "name": "GetRunningState"
                   }
                 }
               }
@@ -592176,67 +600707,16 @@ SUPPORT_CHARTS = {
             },
             {
               "certification": "platinum",
-              "methodsStatus": {
-                "1001": -1,
-                "1002": -1,
-                "1004": -1,
-                "1005": -1,
-                "1006": -1,
-                "1007": -1,
-                "1010": -1,
-                "102": -1,
-                "1022": -1,
-                "103": -1,
-                "104": -1,
-                "105": -1,
-                "106": -1,
-                "108": -1,
-                "110": -1
-              },
               "signature": 687,
               "version": "9.0.44.40"
             },
             {
               "certification": "platinum",
-              "methodsStatus": {
-                "1001": -1,
-                "1002": -1,
-                "1004": -1,
-                "1005": -1,
-                "1006": -1,
-                "1007": -1,
-                "1010": -1,
-                "102": -1,
-                "1022": -1,
-                "103": -1,
-                "104": -1,
-                "105": -1,
-                "106": -1,
-                "108": -1,
-                "110": -1
-              },
               "signature": 687,
               "version": "9.0.44.46"
             },
             {
               "certification": "platinum",
-              "methodsStatus": {
-                "1001": -1,
-                "1002": -1,
-                "1004": -1,
-                "1005": -1,
-                "1006": -1,
-                "1007": -1,
-                "1010": -1,
-                "102": -1,
-                "1022": -1,
-                "103": -1,
-                "104": -1,
-                "105": -1,
-                "106": -1,
-                "108": -1,
-                "110": -1
-              },
               "signature": 687,
               "version": "9.0.45.63"
             },
@@ -595520,9 +604000,6 @@ SUPPORT_CHARTS = {
               "version": "19.1.12.0"
             },
             {
-              "methodsStatus": {
-                "1005": -1
-              },
               "signature": 2685,
               "version": "19.2.7.0"
             },
@@ -596577,6 +605054,10 @@ SUPPORT_CHARTS = {
             {
               "signature": 857,
               "version": "89.20.0308"
+            },
+            {
+              "signature": 857,
+              "version": "89.26.6011"
             }
           ],
           "labels": [],
@@ -601705,9 +610186,6 @@ SUPPORT_CHARTS = {
               "version": "148.0.3967.70"
             },
             {
-              "methodsStatus": {
-                "2000": -1
-              },
               "signature": 3103,
               "version": "148.0.3967.83"
             },
@@ -601772,9 +610250,6 @@ SUPPORT_CHARTS = {
               "version": "151.0.4129.72"
             },
             {
-              "methodsStatus": {
-                "2000": -1
-              },
               "signature": 3103,
               "version": "151.0.4129.78"
             },
@@ -601787,9 +610262,6 @@ SUPPORT_CHARTS = {
               "version": "151.0.4129.93"
             },
             {
-              "methodsStatus": {
-                "2000": -1
-              },
               "signature": 3103,
               "version": "152.0.4191.53"
             },
@@ -601832,6 +610304,18 @@ SUPPORT_CHARTS = {
             {
               "signature": 3103,
               "version": "155.0.4283.45"
+            },
+            {
+              "signature": 3103,
+              "version": "155.0.4283.60"
+            },
+            {
+              "signature": 3103,
+              "version": "155.0.4283.62"
+            },
+            {
+              "signature": 3103,
+              "version": "156.0.4314.42"
             }
           ],
           "labels": [],
@@ -602639,9 +611123,6 @@ SUPPORT_CHARTS = {
               "version": "1.76.82"
             },
             {
-              "methodsStatus": {
-                "1011": -1
-              },
               "signature": 2897,
               "version": "1.77.95"
             },
@@ -602694,9 +611175,6 @@ SUPPORT_CHARTS = {
               "version": "1.86.139"
             },
             {
-              "methodsStatus": {
-                "1011": -1
-              },
               "signature": 2897,
               "version": "1.86.142"
             },
@@ -602717,9 +611195,6 @@ SUPPORT_CHARTS = {
               "version": "1.87.190"
             },
             {
-              "methodsStatus": {
-                "1011": -1
-              },
               "signature": 2897,
               "version": "1.87.191"
             },
@@ -602836,13 +611311,6 @@ SUPPORT_CHARTS = {
               "version": "1.93.137"
             },
             {
-              "methodsStatus": {
-                "1011": -1,
-                "103": -1,
-                "104": -1,
-                "105": -1,
-                "106": -1
-              },
               "signature": 2897,
               "version": "1.93.138"
             },
@@ -603220,6 +611688,14 @@ SUPPORT_CHARTS = {
             {
               "signature": 3047,
               "version": "140.17.0"
+            },
+            {
+              "signature": 3047,
+              "version": "153.5.0"
+            },
+            {
+              "signature": 3047,
+              "version": "153.5.1"
             },
             {
               "signature": 3048,
@@ -605671,9 +614147,6 @@ SUPPORT_CHARTS = {
               "version": "150.0.7871.115"
             },
             {
-              "methodsStatus": {
-                "1010": -1
-              },
               "signature": 41,
               "version": "150.0.7871.125"
             },
@@ -605710,9 +614183,6 @@ SUPPORT_CHARTS = {
               "version": "151.0.7922.170"
             },
             {
-              "methodsStatus": {
-                "2000": -1
-              },
               "signature": 41,
               "version": "151.0.7922.174"
             },
@@ -605755,6 +614225,18 @@ SUPPORT_CHARTS = {
             {
               "signature": 41,
               "version": "155.0.8059.40"
+            },
+            {
+              "signature": 41,
+              "version": "156.0.8078.35"
+            },
+            {
+              "signature": 41,
+              "version": "155.0.8059.85"
+            },
+            {
+              "signature": 41,
+              "version": "156.0.8078.48"
             }
           ],
           "labels": [],
@@ -606492,9 +614974,6 @@ SUPPORT_CHARTS = {
               "version": "132.0.5905.11"
             },
             {
-              "methodsStatus": {
-                "103": -1
-              },
               "signature": 43,
               "version": "132.0.5905.19"
             },
@@ -607436,12 +615915,6 @@ SUPPORT_CHARTS = {
               "version": "136.0.1"
             },
             {
-              "methodsStatus": {
-                "1010": -1,
-                "1011": -1,
-                "1025": -1,
-                "2000": -1
-              },
               "signature": 3039,
               "version": "136.0.2"
             },
@@ -608126,12 +616599,6 @@ SUPPORT_CHARTS = {
               "version": "136.0.1"
             },
             {
-              "methodsStatus": {
-                "1010": -1,
-                "1011": -1,
-                "1025": -1,
-                "2000": -1
-              },
               "signature": 46,
               "version": "136.0.2"
             },
@@ -609489,6 +617956,72 @@ SUPPORT_CHARTS = {
                   }
                 }
               }
+            }
+          }
+        },
+        "4407": {
+          "id": 4407,
+          "tested_points": [],
+          "labels": [],
+          "languages": [],
+          "name": "qutebrowser",
+          "signatures": {
+            "4866": {
+              "signature": 4866,
+              "product": {
+                "id": 4407,
+                "name": "qutebrowser"
+              },
+              "vendor": {
+                "id": 2490,
+                "name": "qutebrowser.org"
+              },
+              "categories": {
+                "4": {
+                  "id": 4,
+                  "name": "ANTIPHISHING"
+                },
+                "6": {
+                  "id": 6,
+                  "name": "BROWSER"
+                }
+              },
+              "data_source": "winget",
+              "sig_name": "qutebrowser",
+              "methods": {}
+            }
+          }
+        },
+        "4542": {
+          "id": 4542,
+          "tested_points": [],
+          "labels": [],
+          "languages": [],
+          "name": "Supermium",
+          "signatures": {
+            "5003": {
+              "signature": 5003,
+              "product": {
+                "id": 4542,
+                "name": "Supermium"
+              },
+              "vendor": {
+                "id": 2617,
+                "name": "win32ss"
+              },
+              "categories": {
+                "4": {
+                  "id": 4,
+                  "name": "ANTIPHISHING"
+                },
+                "6": {
+                  "id": 6,
+                  "name": "BROWSER"
+                }
+              },
+              "data_source": "winget",
+              "sig_name": "Supermium",
+              "methods": {}
             }
           }
         },
@@ -613244,6 +621777,10 @@ SUPPORT_CHARTS = {
             {
               "signature": 1401,
               "version": "14.1.0.423"
+            },
+            {
+              "signature": 1401,
+              "version": "14.2.0.536"
             }
           ],
           "labels": [],
@@ -616944,10 +625481,6 @@ SUPPORT_CHARTS = {
               "version": "27.0.55.298"
             },
             {
-              "methodsStatus": {
-                "1008": -1,
-                "1009": -1
-              },
               "signature": 158,
               "version": "27.0.62.355"
             },
@@ -626652,98 +635185,18 @@ SUPPORT_CHARTS = {
               "version": "8.26.2.611"
             },
             {
-              "methodsStatus": {
-                "1000": -1,
-                "1001": -1,
-                "1002": -1,
-                "1003": -1,
-                "1004": -1,
-                "1005": -1,
-                "1006": -1,
-                "1007": -1,
-                "101": -1,
-                "1010": -1,
-                "1015": -1,
-                "102": -1,
-                "103": -1,
-                "104": -1,
-                "105": -1,
-                "106": -1,
-                "108": -1,
-                "110": -1
-              },
               "signature": 2406,
               "version": "8.26.3.618"
             },
             {
-              "methodsStatus": {
-                "1000": -1,
-                "1001": -1,
-                "1002": -1,
-                "1003": -1,
-                "1004": -1,
-                "1005": -1,
-                "1006": -1,
-                "1007": -1,
-                "101": -1,
-                "1010": -1,
-                "1015": -1,
-                "102": -1,
-                "103": -1,
-                "104": -1,
-                "105": -1,
-                "106": -1,
-                "108": -1,
-                "110": -1
-              },
               "signature": 2406,
               "version": "8.26.3.622"
             },
             {
-              "methodsStatus": {
-                "1000": -1,
-                "1001": -1,
-                "1002": -1,
-                "1003": -1,
-                "1004": -1,
-                "1005": -1,
-                "1006": -1,
-                "1007": -1,
-                "101": -1,
-                "1010": -1,
-                "1015": -1,
-                "102": -1,
-                "103": -1,
-                "104": -1,
-                "105": -1,
-                "106": -1,
-                "108": -1,
-                "110": -1
-              },
               "signature": 2406,
               "version": "8.26.4.628"
             },
             {
-              "methodsStatus": {
-                "1000": -1,
-                "1001": -1,
-                "1002": -1,
-                "1003": -1,
-                "1004": -1,
-                "1005": -1,
-                "1006": -1,
-                "1007": -1,
-                "101": -1,
-                "1010": -1,
-                "1015": -1,
-                "102": -1,
-                "103": -1,
-                "104": -1,
-                "105": -1,
-                "106": -1,
-                "108": -1,
-                "110": -1
-              },
               "signature": 2406,
               "version": "8.26.4.631"
             },
@@ -626752,52 +635205,24 @@ SUPPORT_CHARTS = {
               "version": "8.26.6.644"
             },
             {
-              "methodsStatus": {
-                "1001": -1,
-                "1002": -1,
-                "1003": -1,
-                "1004": -1,
-                "1005": -1,
-                "1006": -1,
-                "1007": -1,
-                "1010": -1,
-                "1015": -1,
-                "102": -1,
-                "103": -1,
-                "104": -1,
-                "105": -1,
-                "106": -1,
-                "108": -1,
-                "110": -1
-              },
               "signature": 2406,
               "version": "8.26.4.632"
             },
             {
-              "methodsStatus": {
-                "1001": -1,
-                "1002": -1,
-                "1003": -1,
-                "1004": -1,
-                "1005": -1,
-                "1006": -1,
-                "1007": -1,
-                "1010": -1,
-                "1015": -1,
-                "102": -1,
-                "103": -1,
-                "104": -1,
-                "105": -1,
-                "106": -1,
-                "108": -1,
-                "110": -1
-              },
               "signature": 2406,
               "version": "8.26.5.640"
             },
             {
               "signature": 2406,
               "version": "8.26.9.668"
+            },
+            {
+              "signature": 2406,
+              "version": "8.26.10.671"
+            },
+            {
+              "signature": 2406,
+              "version": "2022.4"
             }
           ],
           "labels": [],
@@ -628417,17 +636842,6 @@ SUPPORT_CHARTS = {
               "version": "12.0.2058.0"
             },
             {
-              "methodsStatus": {
-                "1000": -1,
-                "1001": -1,
-                "1002": -1,
-                "1003": -1,
-                "1004": -1,
-                "1005": -1,
-                "1006": -1,
-                "1007": -1,
-                "1015": -1
-              },
               "signature": 25,
               "version": "12.0.2062.0"
             },
@@ -628436,32 +636850,10 @@ SUPPORT_CHARTS = {
               "version": "12.1.2057.3"
             },
             {
-              "methodsStatus": {
-                "1000": -1,
-                "1001": -1,
-                "1002": -1,
-                "1003": -1,
-                "1004": -1,
-                "1005": -1,
-                "1006": -1,
-                "1007": -1,
-                "101": -1,
-                "1015": -1,
-                "102": -1,
-                "103": -1,
-                "104": -1,
-                "105": -1,
-                "106": -1,
-                "108": -1,
-                "110": -1
-              },
               "signature": 25,
               "version": "12.1.2076.0"
             },
             {
-              "methodsStatus": {
-                "1005": -1
-              },
               "signature": 25,
               "version": "13.0.2044.0"
             },
@@ -630680,27 +639072,6 @@ SUPPORT_CHARTS = {
               "version": "13.2.8665"
             },
             {
-              "methodsStatus": {
-                "1000": -1,
-                "1001": -1,
-                "1002": -1,
-                "1003": -1,
-                "1004": -1,
-                "1005": -1,
-                "1007": -1,
-                "101": -1,
-                "1010": -1,
-                "1012": -1,
-                "102": -1,
-                "1022": -1,
-                "103": -1,
-                "104": -1,
-                "105": -1,
-                "106": -1,
-                "108": -1,
-                "109": -1,
-                "110": -1
-              },
               "signature": 2689,
               "version": "13.2.8670"
             }
@@ -631419,13 +639790,6 @@ SUPPORT_CHARTS = {
               "version": "19.1.12.0"
             },
             {
-              "methodsStatus": {
-                "1000": -1,
-                "1004": -1,
-                "1005": -1,
-                "1015": -1,
-                "1022": -1
-              },
               "signature": 2721,
               "version": "19.2.7.0"
             },
@@ -633893,34 +642257,10 @@ SUPPORT_CHARTS = {
               "version": "26.1.2.175"
             },
             {
-              "methodsStatus": {
-                "1001": -1,
-                "1004": -1,
-                "1007": -1,
-                "102": -1,
-                "103": -1,
-                "104": -1,
-                "105": -1,
-                "106": -1,
-                "108": -1,
-                "110": -1
-              },
               "signature": 2860,
               "version": "26.1.2.177"
             },
             {
-              "methodsStatus": {
-                "1001": -1,
-                "1004": -1,
-                "1007": -1,
-                "102": -1,
-                "103": -1,
-                "104": -1,
-                "105": -1,
-                "106": -1,
-                "108": -1,
-                "110": -1
-              },
               "signature": 2860,
               "version": "26.2.1.131"
             },
@@ -634749,25 +643089,6 @@ SUPPORT_CHARTS = {
               "version": "7.34.20610.0"
             },
             {
-              "methodsStatus": {
-                "1000": -1,
-                "1001": -1,
-                "1002": -1,
-                "1007": -1,
-                "101": -1,
-                "1012": -1,
-                "102": -1,
-                "103": -1,
-                "104": -1,
-                "105": -1,
-                "106": -1,
-                "108": -1,
-                "110": -1
-              },
-              "signature": 2866,
-              "version": "7.35.20709.0"
-            },
-            {
               "signature": 2866,
               "version": "7.36.20805.0"
             },
@@ -634820,26 +643141,16 @@ SUPPORT_CHARTS = {
               "version": "8.10.21401.0"
             },
             {
-              "methodsStatus": {
-                "1001": -1,
-                "1002": -1,
-                "1004": -1,
-                "1007": -1,
-                "1012": -1,
-                "102": -1,
-                "103": -1,
-                "104": -1,
-                "105": -1,
-                "106": -1,
-                "108": -1,
-                "110": -1
-              },
               "signature": 2866,
               "version": "8.10.21405.0"
             },
             {
               "signature": 2866,
               "version": "8.10.21408.0"
+            },
+            {
+              "signature": 2866,
+              "version": "7.35.20712.0"
             }
           ],
           "labels": [
@@ -642233,9 +650544,6 @@ SUPPORT_CHARTS = {
               "version": "14.0.20731"
             },
             {
-              "methodsStatus": {
-                "1006": -1
-              },
               "signature": 3050,
               "version": "14.0.20790"
             }
@@ -649504,6 +657812,14 @@ SUPPORT_CHARTS = {
             {
               "signature": 3141,
               "version": "9.3.0.209"
+            },
+            {
+              "signature": 3141,
+              "version": "9.4.0.442"
+            },
+            {
+              "signature": 3141,
+              "version": "9.2"
             }
           ],
           "labels": [
@@ -650323,39 +658639,15 @@ SUPPORT_CHARTS = {
             },
             {
               "signature": 3260,
-              "version": "2025.2.3.8.0"
-            },
-            {
-              "signature": 3260,
-              "version": "2026.1.0.1681.0"
-            },
-            {
-              "methodsStatus": {
-                "1001": -1,
-                "1002": -1,
-                "1004": -1,
-                "1005": -1,
-                "1006": -1,
-                "1007": -1,
-                "102": -1,
-                "1022": -1,
-                "103": -1,
-                "104": -1,
-                "105": -1,
-                "106": -1,
-                "108": -1,
-                "110": -1
-              },
-              "signature": 3260,
-              "version": "2026.2.0.42.0"
-            },
-            {
-              "signature": 3260,
               "version": "2026.2.1.3.0"
             },
             {
               "signature": 3260,
-              "version": "2026.2.2.1.0"
+              "version": "2026.3.0.2090.0"
+            },
+            {
+              "signature": 3260,
+              "version": "2026.3.0.2090"
             }
           ],
           "labels": [],
@@ -650472,6 +658764,16 @@ SUPPORT_CHARTS = {
                             "_supported": true,
                             "_optional": false
                           },
+                          "state": {
+                            "_supported": false,
+                            "_optional": true,
+                            "_values": {
+                              "enabled": false,
+                              "disabled": false,
+                              "initializing": false,
+                              "unknown": false
+                            }
+                          },
                           "has_internet_connectivity": {
                             "_supported": false,
                             "_optional": true
@@ -650499,10 +658801,26 @@ SUPPORT_CHARTS = {
                                 "_optional": true
                               }
                             }
+                          },
+                          "managed_by_3rd_party_products": {
+                            "_supported": false,
+                            "_optional": true,
+                            "product_name": {
+                              "_supported": false,
+                              "_optional": true
+                            },
+                            "remediation_path": {
+                              "_supported": false,
+                              "_optional": true
+                            },
+                            "signature": {
+                              "_supported": false,
+                              "_optional": true
+                            }
                           }
                         }
                       },
-                      "admin_required": true,
+                      "admin_required": false,
                       "notes": ""
                     },
                     "name": "GetRealTimeProtectionState"
@@ -660005,11 +668323,6 @@ SUPPORT_CHARTS = {
               "version": "1.1.109.1990"
             },
             {
-              "methodsStatus": {
-                "1000": -1,
-                "1004": -1,
-                "1005": -1
-              },
               "signature": 3636,
               "version": "1.1.111.2624"
             },
@@ -672918,38 +681231,10 @@ SUPPORT_CHARTS = {
               "version": "26.3.10860"
             },
             {
-              "methodsStatus": {
-                "1000": -1,
-                "1001": -1,
-                "1004": -1,
-                "1007": -1,
-                "101": -1,
-                "102": -1,
-                "103": -1,
-                "104": -1,
-                "105": -1,
-                "106": -1,
-                "108": -1,
-                "110": -1
-              },
               "signature": 3888,
               "version": "26.3.10886"
             },
             {
-              "methodsStatus": {
-                "1000": -1,
-                "1001": -1,
-                "1004": -1,
-                "1007": -1,
-                "101": -1,
-                "102": -1,
-                "103": -1,
-                "104": -1,
-                "105": -1,
-                "106": -1,
-                "108": -1,
-                "110": -1
-              },
               "signature": 3888,
               "version": "26.4.10921"
             },
@@ -672960,6 +681245,10 @@ SUPPORT_CHARTS = {
             {
               "signature": 3888,
               "version": "26.5.10994"
+            },
+            {
+              "signature": 3888,
+              "version": "26.11.11219"
             }
           ],
           "labels": [],
@@ -680392,6 +688681,93 @@ SUPPORT_CHARTS = {
             }
           }
         },
+        "4364": {
+          "id": 4364,
+          "tested_points": [],
+          "labels": [],
+          "languages": [],
+          "name": "CrowdSec",
+          "signatures": {
+            "4823": {
+              "signature": 4823,
+              "product": {
+                "id": 4364,
+                "name": "CrowdSec"
+              },
+              "vendor": {
+                "id": 2452,
+                "name": "CrowdSecurity"
+              },
+              "categories": {
+                "7": {
+                  "id": 7,
+                  "name": "FIREWALL"
+                }
+              },
+              "data_source": "winget",
+              "sig_name": "CrowdSec",
+              "methods": {}
+            }
+          }
+        },
+        "4379": {
+          "id": 4379,
+          "tested_points": [],
+          "labels": [],
+          "languages": [],
+          "name": "Portmaster",
+          "signatures": {
+            "4838": {
+              "signature": 4838,
+              "product": {
+                "id": 4379,
+                "name": "Portmaster"
+              },
+              "vendor": {
+                "id": 2467,
+                "name": "Safing ICS Technologies GmbH"
+              },
+              "categories": {
+                "7": {
+                  "id": 7,
+                  "name": "FIREWALL"
+                }
+              },
+              "data_source": "winget",
+              "sig_name": "Portmaster",
+              "methods": {}
+            }
+          }
+        },
+        "4491": {
+          "id": 4491,
+          "tested_points": [],
+          "labels": [],
+          "languages": [],
+          "name": "ProxyBridge",
+          "signatures": {
+            "4952": {
+              "signature": 4952,
+              "product": {
+                "id": 4491,
+                "name": "ProxyBridge"
+              },
+              "vendor": {
+                "id": 2569,
+                "name": "InterceptSuite"
+              },
+              "categories": {
+                "7": {
+                  "id": 7,
+                  "name": "FIREWALL"
+                }
+              },
+              "data_source": "winget",
+              "sig_name": "ProxyBridge",
+              "methods": {}
+            }
+          }
+        },
         "455": {
           "id": 455,
           "tested_points": [
@@ -687539,26 +695915,6 @@ SUPPORT_CHARTS = {
               "release": "14.3 RU9"
             },
             {
-              "methodsStatus": {
-                "1000": -1,
-                "1001": -1,
-                "1002": -1,
-                "1003": -1,
-                "1004": -1,
-                "1005": -1,
-                "1006": -1,
-                "1007": -1,
-                "101": -1,
-                "1015": -1,
-                "102": -1,
-                "1022": -1,
-                "103": -1,
-                "104": -1,
-                "105": -1,
-                "106": -1,
-                "108": -1,
-                "110": -1
-              },
               "signature": 543,
               "version": "14.3.12167.10000"
             },
@@ -694053,32 +702409,10 @@ SUPPORT_CHARTS = {
               "version": "7.4.3.1790"
             },
             {
-              "methodsStatus": {
-                "1000": -1,
-                "1001": -1,
-                "1004": -1,
-                "1006": -1,
-                "1007": -1
-              },
               "signature": 602,
               "version": "7.4.4.1887"
             },
             {
-              "methodsStatus": {
-                "1000": -1,
-                "1001": -1,
-                "1004": -1,
-                "1006": -1,
-                "1007": -1,
-                "101": -1,
-                "102": -1,
-                "103": -1,
-                "104": -1,
-                "105": -1,
-                "106": -1,
-                "108": -1,
-                "110": -1
-              },
               "signature": 602,
               "version": "7.4.5.1949"
             },
@@ -695523,10 +703857,6 @@ SUPPORT_CHARTS = {
               "version": "20.0.10738"
             },
             {
-              "methodsStatus": {
-                "1002": -1,
-                "1004": -1
-              },
               "signature": 618,
               "version": "20.0.31108"
             }
@@ -700144,6 +708474,10 @@ SUPPORT_CHARTS = {
               "version": "3.0.1.3"
             },
             {
+              "signature": 3002,
+              "version": "5.1.31.15596"
+            },
+            {
               "certification": "gold",
               "signature": 685,
               "version": "2.5.0.15"
@@ -700206,9 +708540,85 @@ SUPPORT_CHARTS = {
                   }
                 },
                 "manageability": {
+                  "100": {
+                    "id": 100,
+                    "meta_data": {
+                      "param_support": {
+                        "input": {
+                          "instance_id": {
+                            "_supported": false,
+                            "_optional": true
+                          }
+                        },
+                        "output": {
+                          "version": {
+                            "_supported": true,
+                            "_optional": false
+                          },
+                          "architecture": {
+                            "_supported": true,
+                            "_optional": false,
+                            "name": {
+                              "_supported": true,
+                              "_optional": false
+                            },
+                            "bitness": {
+                              "_supported": true,
+                              "_optional": false
+                            }
+                          },
+                          "language": {
+                            "_supported": true,
+                            "_optional": false,
+                            "code": {
+                              "_supported": true,
+                              "_optional": false
+                            },
+                            "name": {
+                              "_supported": true,
+                              "_optional": false
+                            }
+                          },
+                          "channel": {
+                            "_supported": false,
+                            "_optional": true
+                          },
+                          "release": {
+                            "_supported": false,
+                            "_optional": true
+                          }
+                        }
+                      },
+                      "admin_required": false,
+                      "notes": ""
+                    },
+                    "name": "GetVersion"
+                  },
                   "1001": {
                     "id": 1001,
                     "name": "GetDefinitionState"
+                  },
+                  "101": {
+                    "id": 101,
+                    "meta_data": {
+                      "param_support": {
+                        "input": {
+                          "instance_id": {
+                            "_supported": false,
+                            "_optional": true
+                          }
+                        },
+                        "output": {
+                          "running": {
+                            "_supported": true,
+                            "_optional": false
+                          }
+                        }
+                      },
+                      "admin_required": false,
+                      "notes": ""
+                    },
+                    "name": "GetRunningState"
                   }
                 }
               }
@@ -700502,67 +708912,16 @@ SUPPORT_CHARTS = {
             },
             {
               "certification": "gold",
-              "methodsStatus": {
-                "1001": -1,
-                "1002": -1,
-                "1004": -1,
-                "1005": -1,
-                "1006": -1,
-                "1007": -1,
-                "1010": -1,
-                "102": -1,
-                "1022": -1,
-                "103": -1,
-                "104": -1,
-                "105": -1,
-                "106": -1,
-                "108": -1,
-                "110": -1
-              },
               "signature": 687,
               "version": "9.0.44.40"
             },
             {
               "certification": "gold",
-              "methodsStatus": {
-                "1001": -1,
-                "1002": -1,
-                "1004": -1,
-                "1005": -1,
-                "1006": -1,
-                "1007": -1,
-                "1010": -1,
-                "102": -1,
-                "1022": -1,
-                "103": -1,
-                "104": -1,
-                "105": -1,
-                "106": -1,
-                "108": -1,
-                "110": -1
-              },
               "signature": 687,
               "version": "9.0.44.46"
             },
             {
               "certification": "gold",
-              "methodsStatus": {
-                "1001": -1,
-                "1002": -1,
-                "1004": -1,
-                "1005": -1,
-                "1006": -1,
-                "1007": -1,
-                "1010": -1,
-                "102": -1,
-                "1022": -1,
-                "103": -1,
-                "104": -1,
-                "105": -1,
-                "106": -1,
-                "108": -1,
-                "110": -1
-              },
               "signature": 687,
               "version": "9.0.45.63"
             },
@@ -702690,6 +711049,10 @@ SUPPORT_CHARTS = {
             {
               "signature": 857,
               "version": "89.20.0308"
+            },
+            {
+              "signature": 857,
+              "version": "89.26.6011"
             }
           ],
           "labels": [],
@@ -707310,6 +715673,10 @@ SUPPORT_CHARTS = {
             {
               "signature": 2059,
               "version": "4.52.178"
+            },
+            {
+              "signature": 2059,
+              "version": "4.52.182"
             }
           ],
           "labels": [],
@@ -708772,6 +717139,10 @@ SUPPORT_CHARTS = {
             {
               "signature": 3797,
               "version": "26198.304.4946.9672"
+            },
+            {
+              "signature": 3797,
+              "version": "26225.1806.5074.1452"
             },
             {
               "signature": 3799,
@@ -712139,6 +720510,10 @@ SUPPORT_CHARTS = {
             {
               "signature": 3268,
               "version": "46.9.0.35800"
+            },
+            {
+              "signature": 3268,
+              "version": "46.10.0.36042"
             },
             {
               "signature": 3817,
@@ -715579,6 +723954,217 @@ SUPPORT_CHARTS = {
             }
           }
         },
+        "4415": {
+          "id": 4415,
+          "tested_points": [],
+          "labels": [],
+          "languages": [],
+          "name": "Fluxer",
+          "signatures": {
+            "4874": {
+              "signature": 4874,
+              "product": {
+                "id": 4415,
+                "name": "Fluxer"
+              },
+              "vendor": {
+                "id": 2496,
+                "name": "Fluxer Contributors"
+              },
+              "categories": {
+                "8": {
+                  "id": 8,
+                  "name": "MESSENGER"
+                }
+              },
+              "data_source": "winget",
+              "sig_name": "Fluxer",
+              "methods": {}
+            }
+          }
+        },
+        "4433": {
+          "id": 4433,
+          "tested_points": [],
+          "labels": [],
+          "languages": [],
+          "name": "Keybase",
+          "signatures": {
+            "4894": {
+              "signature": 4894,
+              "product": {
+                "id": 4433,
+                "name": "Keybase"
+              },
+              "vendor": {
+                "id": 2514,
+                "name": "Keybase, Inc."
+              },
+              "categories": {
+                "8": {
+                  "id": 8,
+                  "name": "MESSENGER"
+                },
+                "9": {
+                  "id": 9,
+                  "name": "CLOUD_STORAGE"
+                }
+              },
+              "data_source": "winget",
+              "sig_name": "Keybase",
+              "methods": {}
+            }
+          }
+        },
+        "4462": {
+          "id": 4462,
+          "tested_points": [],
+          "labels": [],
+          "languages": [],
+          "name": "ChatLab",
+          "signatures": {
+            "4923": {
+              "signature": 4923,
+              "product": {
+                "id": 4462,
+                "name": "ChatLab"
+              },
+              "vendor": {
+                "id": 2541,
+                "name": "digua"
+              },
+              "categories": {
+                "8": {
+                  "id": 8,
+                  "name": "MESSENGER"
+                }
+              },
+              "data_source": "winget",
+              "sig_name": "ChatLab",
+              "methods": {}
+            }
+          }
+        },
+        "4466": {
+          "id": 4466,
+          "tested_points": [],
+          "labels": [],
+          "languages": [],
+          "name": "Caprine",
+          "signatures": {
+            "4927": {
+              "signature": 4927,
+              "product": {
+                "id": 4466,
+                "name": "Caprine"
+              },
+              "vendor": {
+                "id": 2545,
+                "name": "Sindre Sorhus"
+              },
+              "categories": {
+                "8": {
+                  "id": 8,
+                  "name": "MESSENGER"
+                }
+              },
+              "data_source": "winget",
+              "sig_name": "Caprine",
+              "methods": {}
+            }
+          }
+        },
+        "4582": {
+          "id": 4582,
+          "tested_points": [],
+          "labels": [],
+          "languages": [],
+          "name": "Legcord",
+          "signatures": {
+            "5043": {
+              "signature": 5043,
+              "product": {
+                "id": 4582,
+                "name": "Legcord"
+              },
+              "vendor": {
+                "id": 2652,
+                "name": "smartfrigde"
+              },
+              "categories": {
+                "8": {
+                  "id": 8,
+                  "name": "MESSENGER"
+                }
+              },
+              "data_source": "winget",
+              "sig_name": "Legcord",
+              "methods": {}
+            }
+          }
+        },
+        "4613": {
+          "id": 4613,
+          "tested_points": [],
+          "labels": [],
+          "languages": [],
+          "name": "Dorion",
+          "signatures": {
+            "5081": {
+              "signature": 5081,
+              "product": {
+                "id": 4613,
+                "name": "Dorion"
+              },
+              "vendor": {
+                "id": 2680,
+                "name": "SpikeHD"
+              },
+              "categories": {
+                "8": {
+                  "id": 8,
+                  "name": "MESSENGER"
+                }
+              },
+              "data_source": "winget",
+              "sig_name": "Dorion",
+              "methods": {}
+            }
+          }
+        },
+        "4629": {
+          "id": 4629,
+          "tested_points": [],
+          "labels": [],
+          "languages": [],
+          "name": "Mattermost",
+          "signatures": {
+            "5097": {
+              "signature": 5097,
+              "product": {
+                "id": 4629,
+                "name": "Mattermost"
+              },
+              "vendor": {
+                "id": 2695,
+                "name": "Mattermost, Inc."
+              },
+              "categories": {
+                "18": {
+                  "id": 18,
+                  "name": "WEB_CONFERENCE"
+                },
+                "8": {
+                  "id": 8,
+                  "name": "MESSENGER"
+                }
+              },
+              "data_source": "winget",
+              "sig_name": "Mattermost",
+              "methods": {}
+            }
+          }
+        },
         "703": {
           "id": 703,
           "tested_points": [
@@ -717086,6 +725672,14 @@ SUPPORT_CHARTS = {
             {
               "signature": 2543,
               "version": "274.4.4841"
+            },
+            {
+              "signature": 2543,
+              "version": "275.4.3565"
+            },
+            {
+              "signature": 2543,
+              "version": "276.4.5266"
             }
           ],
           "labels": [],
@@ -718948,10 +727542,6 @@ SUPPORT_CHARTS = {
               "version": "27.0.55.298"
             },
             {
-              "methodsStatus": {
-                "1008": -1,
-                "1009": -1
-              },
               "signature": 158,
               "version": "27.0.62.355"
             },
@@ -722232,38 +730822,10 @@ SUPPORT_CHARTS = {
               "version": "26.3.10860"
             },
             {
-              "methodsStatus": {
-                "1000": -1,
-                "1001": -1,
-                "1004": -1,
-                "1007": -1,
-                "101": -1,
-                "102": -1,
-                "103": -1,
-                "104": -1,
-                "105": -1,
-                "106": -1,
-                "108": -1,
-                "110": -1
-              },
               "signature": 3888,
               "version": "26.3.10886"
             },
             {
-              "methodsStatus": {
-                "1000": -1,
-                "1001": -1,
-                "1004": -1,
-                "1007": -1,
-                "101": -1,
-                "102": -1,
-                "103": -1,
-                "104": -1,
-                "105": -1,
-                "106": -1,
-                "108": -1,
-                "110": -1
-              },
               "signature": 3888,
               "version": "26.4.10921"
             },
@@ -722274,6 +730836,10 @@ SUPPORT_CHARTS = {
             {
               "signature": 3888,
               "version": "26.5.10994"
+            },
+            {
+              "signature": 3888,
+              "version": "26.11.11219"
             }
           ],
           "labels": [],
@@ -722821,6 +731387,167 @@ SUPPORT_CHARTS = {
               },
               "data_source": "winget",
               "sig_name": "RClone Manager",
+              "methods": {}
+            }
+          }
+        },
+        "4375": {
+          "id": 4375,
+          "tested_points": [],
+          "labels": [],
+          "languages": [],
+          "name": "KopiaUI",
+          "signatures": {
+            "4834": {
+              "signature": 4834,
+              "product": {
+                "id": 4375,
+                "name": "KopiaUI"
+              },
+              "vendor": {
+                "id": 2463,
+                "name": "Kopia Authors"
+              },
+              "categories": {
+                "2": {
+                  "id": 2,
+                  "name": "BACKUP"
+                },
+                "3": {
+                  "id": 3,
+                  "name": "ENCRYPTION"
+                },
+                "9": {
+                  "id": 9,
+                  "name": "CLOUD_STORAGE"
+                }
+              },
+              "data_source": "winget",
+              "sig_name": "KopiaUI",
+              "methods": {}
+            }
+          }
+        },
+        "4433": {
+          "id": 4433,
+          "tested_points": [],
+          "labels": [],
+          "languages": [],
+          "name": "Keybase",
+          "signatures": {
+            "4894": {
+              "signature": 4894,
+              "product": {
+                "id": 4433,
+                "name": "Keybase"
+              },
+              "vendor": {
+                "id": 2514,
+                "name": "Keybase, Inc."
+              },
+              "categories": {
+                "8": {
+                  "id": 8,
+                  "name": "MESSENGER"
+                },
+                "9": {
+                  "id": 9,
+                  "name": "CLOUD_STORAGE"
+                }
+              },
+              "data_source": "winget",
+              "sig_name": "Keybase",
+              "methods": {}
+            }
+          }
+        },
+        "4487": {
+          "id": 4487,
+          "tested_points": [],
+          "labels": [],
+          "languages": [],
+          "name": "Standard Notes",
+          "signatures": {
+            "4948": {
+              "signature": 4948,
+              "product": {
+                "id": 4487,
+                "name": "Standard Notes"
+              },
+              "vendor": {
+                "id": 2565,
+                "name": "Standard Notes"
+              },
+              "categories": {
+                "3": {
+                  "id": 3,
+                  "name": "ENCRYPTION"
+                },
+                "9": {
+                  "id": 9,
+                  "name": "CLOUD_STORAGE"
+                }
+              },
+              "data_source": "winget",
+              "sig_name": "Standard Notes",
+              "methods": {}
+            }
+          }
+        },
+        "4532": {
+          "id": 4532,
+          "tested_points": [],
+          "labels": [],
+          "languages": [],
+          "name": "aliyunpan",
+          "signatures": {
+            "4993": {
+              "signature": 4993,
+              "product": {
+                "id": 4532,
+                "name": "aliyunpan"
+              },
+              "vendor": {
+                "id": 2607,
+                "name": "tickstep"
+              },
+              "categories": {
+                "9": {
+                  "id": 9,
+                  "name": "CLOUD_STORAGE"
+                }
+              },
+              "data_source": "winget",
+              "sig_name": "aliyunpan",
+              "methods": {}
+            }
+          }
+        },
+        "4568": {
+          "id": 4568,
+          "tested_points": [],
+          "labels": [],
+          "languages": [],
+          "name": "PicList",
+          "signatures": {
+            "5029": {
+              "signature": 5029,
+              "product": {
+                "id": 4568,
+                "name": "PicList"
+              },
+              "vendor": {
+                "id": 2639,
+                "name": "Kuingsmile"
+              },
+              "categories": {
+                "9": {
+                  "id": 9,
+                  "name": "CLOUD_STORAGE"
+                }
+              },
+              "data_source": "winget",
+              "sig_name": "PicList",
               "methods": {}
             }
           }
@@ -725768,6 +734495,10 @@ SUPPORT_CHARTS = {
             {
               "signature": 842,
               "version": "26.150.0804.0011"
+            },
+            {
+              "signature": 842,
+              "version": "26.183.0920.0005"
             }
           ],
           "labels": [],
@@ -726733,6 +735464,6 @@ SUPPORT_CHARTS = {
       "name": "CLOUD_STORAGE"
     }
   },
-  "timestamp": "1791804756",
+  "timestamp": "1793013595",
   "support_chart_type": "CATEGORY"
 }

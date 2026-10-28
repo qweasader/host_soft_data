@@ -259,13 +259,6 @@ SUPPORT_CHARTS = {
               "version": "3.69.5"
             },
             {
-              "methodsStatus": {
-                "101": -1,
-                "102": -1,
-                "103": -1,
-                "104": -1,
-                "105": -1
-              },
               "signature": 200150,
               "version": "3.69.6"
             },
@@ -1545,6 +1538,14 @@ SUPPORT_CHARTS = {
             {
               "signature": 200096,
               "version": "157.0.1"
+            },
+            {
+              "signature": 200096,
+              "version": "158.0"
+            },
+            {
+              "signature": 200096,
+              "version": "158.0.1"
             }
           ],
           "labels": [],
@@ -4861,6 +4862,10 @@ SUPPORT_CHARTS = {
             {
               "signature": 200134,
               "version": "26.7.0"
+            },
+            {
+              "signature": 200134,
+              "version": "26.10.0"
             }
           ],
           "labels": [
@@ -10618,6 +10623,14 @@ SUPPORT_CHARTS = {
             {
               "signature": 200206,
               "version": "1.141.0"
+            },
+            {
+              "signature": 200206,
+              "version": "1.142.0"
+            },
+            {
+              "signature": 200206,
+              "version": "1.143.1"
             }
           ],
           "labels": [],
@@ -12774,103 +12787,6 @@ SUPPORT_CHARTS = {
             }
           }
         },
-        "200220": {
-          "id": 200220,
-          "tested_points": [
-            {
-              "signature": 200239,
-              "version": "0.12.112"
-            },
-            {
-              "signature": 200239,
-              "version": "0.13.37"
-            }
-          ],
-          "labels": [],
-          "languages": [],
-          "name": "Claude",
-          "signatures": {
-            "200239": {
-              "signature": 200239,
-              "product": {
-                "id": 200220,
-                "name": "Claude"
-              },
-              "vendor": {
-                "id": 200225,
-                "name": "Anthropic PBC"
-              },
-              "categories": {
-                "10": {
-                  "id": 10,
-                  "name": "UNCLASSIFIED"
-                }
-              },
-              "data_source": "Opswat",
-              "sig_name": "Claude",
-              "methods": {
-                "manageability": {
-                  "101": {
-                    "id": 101,
-                    "meta_data": {
-                      "param_support": {
-                        "input": {
-                          "instance_id": {
-                            "_supported": false,
-                            "_optional": true
-                          }
-                        },
-                        "output": {
-                          "running": {
-                            "_supported": true,
-                            "_optional": false
-                          }
-                        }
-                      },
-                      "admin_required": false,
-                      "notes": ""
-                    },
-                    "name": "GetRunningState"
-                  },
-                  "102": {
-                    "id": 102,
-                    "meta_data": {
-                      "param_support": {
-                        "input": {
-                          "instance_id": {
-                            "_supported": false,
-                            "_optional": true
-                          }
-                        },
-                        "output": []
-                      },
-                      "admin_required": false,
-                      "notes": ""
-                    },
-                    "name": "Run"
-                  },
-                  "103": {
-                    "id": 103,
-                    "meta_data": {
-                      "param_support": {
-                        "input": {
-                          "instance_id": {
-                            "_supported": false,
-                            "_optional": true
-                          }
-                        },
-                        "output": []
-                      },
-                      "admin_required": false,
-                      "notes": ""
-                    },
-                    "name": "TerminateProcesses"
-                  }
-                }
-              }
-            }
-          }
-        },
         "200221": {
           "id": 200221,
           "tested_points": [
@@ -13985,6 +13901,10 @@ SUPPORT_CHARTS = {
             {
               "signature": 200041,
               "version": "3.3.2"
+            },
+            {
+              "signature": 200041,
+              "version": "3.3.4"
             }
           ],
           "labels": [],
@@ -19275,6 +19195,10 @@ SUPPORT_CHARTS = {
             {
               "signature": 200057,
               "version": "7.38.19102.0"
+            },
+            {
+              "signature": 200057,
+              "version": "8.11.19508.0"
             }
           ],
           "labels": [],
@@ -20013,6 +19937,10 @@ SUPPORT_CHARTS = {
             {
               "signature": 200159,
               "version": "9.3.0.202"
+            },
+            {
+              "signature": 200159,
+              "version": "9.4.0.454"
             }
           ],
           "labels": [],
@@ -22796,13 +22724,6 @@ SUPPORT_CHARTS = {
               "version": "3.69.5"
             },
             {
-              "methodsStatus": {
-                "101": -1,
-                "102": -1,
-                "103": -1,
-                "104": -1,
-                "105": -1
-              },
               "signature": 200150,
               "version": "3.69.6"
             },
@@ -24135,7 +24056,105 @@ SUPPORT_CHARTS = {
     "21": {
       "id": 21,
       "methods": {},
-      "products": {},
+      "products": {
+        "200220": {
+          "id": 200220,
+          "tested_points": [
+            {
+              "signature": 200239,
+              "version": "0.12.112"
+            },
+            {
+              "signature": 200239,
+              "version": "0.13.37"
+            }
+          ],
+          "labels": [],
+          "languages": [],
+          "name": "Claude",
+          "signatures": {
+            "200239": {
+              "signature": 200239,
+              "product": {
+                "id": 200220,
+                "name": "Claude"
+              },
+              "vendor": {
+                "id": 200225,
+                "name": "Anthropic PBC"
+              },
+              "categories": {
+                "21": {
+                  "id": 21,
+                  "name": "ARTIFICIAL_INTELLIGENCE"
+                }
+              },
+              "data_source": "Opswat",
+              "sig_name": "Claude",
+              "methods": {
+                "manageability": {
+                  "101": {
+                    "id": 101,
+                    "meta_data": {
+                      "param_support": {
+                        "input": {
+                          "instance_id": {
+                            "_supported": false,
+                            "_optional": true
+                          }
+                        },
+                        "output": {
+                          "running": {
+                            "_supported": true,
+                            "_optional": false
+                          }
+                        }
+                      },
+                      "admin_required": false,
+                      "notes": ""
+                    },
+                    "name": "GetRunningState"
+                  },
+                  "102": {
+                    "id": 102,
+                    "meta_data": {
+                      "param_support": {
+                        "input": {
+                          "instance_id": {
+                            "_supported": false,
+                            "_optional": true
+                          }
+                        },
+                        "output": []
+                      },
+                      "admin_required": false,
+                      "notes": ""
+                    },
+                    "name": "Run"
+                  },
+                  "103": {
+                    "id": 103,
+                    "meta_data": {
+                      "param_support": {
+                        "input": {
+                          "instance_id": {
+                            "_supported": false,
+                            "_optional": true
+                          }
+                        },
+                        "output": []
+                      },
+                      "admin_required": false,
+                      "notes": ""
+                    },
+                    "name": "TerminateProcesses"
+                  }
+                }
+              }
+            }
+          }
+        }
+      },
       "name": "ARTIFICIAL_INTELLIGENCE"
     },
     "22": {
@@ -25030,6 +25049,10 @@ SUPPORT_CHARTS = {
             {
               "signature": 200002,
               "version": "154.0.8037.57"
+            },
+            {
+              "signature": 200002,
+              "version": "156.0.8078.47"
             }
           ],
           "labels": [],
@@ -25563,6 +25586,10 @@ SUPPORT_CHARTS = {
             {
               "signature": 200003,
               "version": "157.0.1"
+            },
+            {
+              "signature": 200003,
+              "version": "158.0"
             }
           ],
           "labels": [],
@@ -26213,6 +26240,18 @@ SUPPORT_CHARTS = {
             {
               "signature": 200146,
               "version": "140.11.0"
+            },
+            {
+              "signature": 200146,
+              "version": "140.17.0"
+            },
+            {
+              "signature": 200146,
+              "version": "153.0"
+            },
+            {
+              "signature": 200146,
+              "version": "153.5.0"
             }
           ],
           "labels": [],
@@ -31022,10 +31061,6 @@ SUPPORT_CHARTS = {
               "version": "25.2.1.20"
             },
             {
-              "methodsStatus": {
-                "1004": -1,
-                "1007": -1
-              },
               "signature": 200055,
               "version": "25.2.2.14"
             }
@@ -31420,6 +31455,11 @@ SUPPORT_CHARTS = {
               "certification": "gold",
               "signature": 200057,
               "version": "7.38.19102.0"
+            },
+            {
+              "certification": "gold",
+              "signature": 200057,
+              "version": "8.11.19508.0"
             }
           ],
           "labels": [],
@@ -35249,6 +35289,11 @@ SUPPORT_CHARTS = {
               "certification": "gold",
               "signature": 200159,
               "version": "9.3.0.202"
+            },
+            {
+              "certification": "gold",
+              "signature": 200159,
+              "version": "9.4.0.454"
             }
           ],
           "labels": [],
@@ -40406,6 +40451,10 @@ SUPPORT_CHARTS = {
             {
               "signature": 200002,
               "version": "154.0.8037.57"
+            },
+            {
+              "signature": 200002,
+              "version": "156.0.8078.47"
             }
           ],
           "labels": [],
@@ -40939,6 +40988,10 @@ SUPPORT_CHARTS = {
             {
               "signature": 200003,
               "version": "157.0.1"
+            },
+            {
+              "signature": 200003,
+              "version": "158.0"
             }
           ],
           "labels": [],
@@ -41556,6 +41609,18 @@ SUPPORT_CHARTS = {
             {
               "signature": 200146,
               "version": "140.11.0"
+            },
+            {
+              "signature": 200146,
+              "version": "140.17.0"
+            },
+            {
+              "signature": 200146,
+              "version": "153.0"
+            },
+            {
+              "signature": 200146,
+              "version": "153.5.0"
             }
           ],
           "labels": [],
@@ -42467,6 +42532,10 @@ SUPPORT_CHARTS = {
             {
               "signature": 200034,
               "version": "1.8.11"
+            },
+            {
+              "signature": 200034,
+              "version": "1.8.13"
             }
           ],
           "labels": [],
@@ -42746,6 +42815,10 @@ SUPPORT_CHARTS = {
             {
               "signature": 200057,
               "version": "7.38.19102.0"
+            },
+            {
+              "signature": 200057,
+              "version": "8.11.19508.0"
             }
           ],
           "labels": [],
@@ -45955,6 +46028,14 @@ SUPPORT_CHARTS = {
             {
               "signature": 200210,
               "version": "8.30.0"
+            },
+            {
+              "signature": 200210,
+              "version": "8.31.0"
+            },
+            {
+              "signature": 200210,
+              "version": "8.32.0"
             }
           ],
           "labels": [],
@@ -46428,6 +46509,6 @@ SUPPORT_CHARTS = {
       "name": "CLOUD_STORAGE"
     }
   },
-  "timestamp": "1791805362",
+  "timestamp": "1793013590",
   "support_chart_type": "CATEGORY"
 }
