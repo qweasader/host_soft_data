@@ -68,6 +68,10 @@ SUPPORT_CHARTS = {
             {
               "signature": 200131,
               "version": "4.1.3"
+            },
+            {
+              "signature": 200131,
+              "version": "4.1.4"
             }
           ],
           "labels": [],
@@ -1546,6 +1550,10 @@ SUPPORT_CHARTS = {
             {
               "signature": 200096,
               "version": "158.0.1"
+            },
+            {
+              "signature": 200096,
+              "version": "159.0"
             }
           ],
           "labels": [],
@@ -11294,6 +11302,14 @@ SUPPORT_CHARTS = {
             {
               "signature": 200165,
               "version": "26.8.1.1"
+            },
+            {
+              "signature": 200165,
+              "version": "26.8.2.2"
+            },
+            {
+              "signature": 200165,
+              "version": "26.8.2"
             }
           ],
           "labels": [],
@@ -11436,6 +11452,14 @@ SUPPORT_CHARTS = {
             {
               "signature": 200218,
               "version": "25.08.0.88"
+            },
+            {
+              "signature": 200218,
+              "version": "26.08.0.225"
+            },
+            {
+              "signature": 200218,
+              "version": "26.04.10.1"
             }
           ],
           "labels": [],
@@ -13905,6 +13929,14 @@ SUPPORT_CHARTS = {
             {
               "signature": 200041,
               "version": "3.3.4"
+            },
+            {
+              "signature": 200041,
+              "version": "3.3.5"
+            },
+            {
+              "signature": 200041,
+              "version": "3.3.6"
             }
           ],
           "labels": [],
@@ -21375,6 +21407,14 @@ SUPPORT_CHARTS = {
             {
               "signature": 200071,
               "version": "7.2.1.5760"
+            },
+            {
+              "signature": 200071,
+              "version": "7.2.5.6661"
+            },
+            {
+              "signature": 200071,
+              "version": "7.2.5"
             }
           ],
           "labels": [
@@ -22402,6 +22442,10 @@ SUPPORT_CHARTS = {
             {
               "signature": 200131,
               "version": "4.1.3"
+            },
+            {
+              "signature": 200131,
+              "version": "4.1.4"
             }
           ],
           "labels": [],
@@ -23336,6 +23380,14 @@ SUPPORT_CHARTS = {
             {
               "signature": 200071,
               "version": "7.2.1.5760"
+            },
+            {
+              "signature": 200071,
+              "version": "7.2.5.6661"
+            },
+            {
+              "signature": 200071,
+              "version": "7.2.5"
             }
           ],
           "labels": [
@@ -25053,6 +25105,10 @@ SUPPORT_CHARTS = {
             {
               "signature": 200002,
               "version": "156.0.8078.47"
+            },
+            {
+              "signature": 200002,
+              "version": "157.0.8103.38"
             }
           ],
           "labels": [],
@@ -25590,6 +25646,18 @@ SUPPORT_CHARTS = {
             {
               "signature": 200003,
               "version": "158.0"
+            },
+            {
+              "signature": 200003,
+              "version": "158.0.1"
+            },
+            {
+              "signature": 200003,
+              "version": "159.0"
+            },
+            {
+              "signature": 200003,
+              "version": "159.0.1"
             }
           ],
           "labels": [],
@@ -25798,16 +25866,48 @@ SUPPORT_CHARTS = {
                           "include_services": {
                             "_supported": false,
                             "_optional": true
+                          },
+                          "instance_id": {
+                            "_supported": false,
+                            "_optional": true
                           }
                         },
                         "output": {
                           "components": {
                             "_supported": true,
-                            "_optional": false
+                            "_optional": false,
+                            "path": {
+                              "_supported": true,
+                              "_optional": false
+                            },
+                            "version": {
+                              "_supported": true,
+                              "_optional": false
+                            },
+                            "description": {
+                              "_supported": true,
+                              "_optional": false
+                            }
                           },
                           "services": {
                             "_supported": false,
-                            "_optional": true
+                            "_optional": true,
+                            "name": {
+                              "_supported": true,
+                              "_optional": false
+                            },
+                            "path": {
+                              "_supported": true,
+                              "_optional": false
+                            },
+                            "state": {
+                              "_supported": true,
+                              "_optional": false
+                            },
+                            "md5": {
+                              "_supported": true,
+                              "_optional": false
+                            }
                           }
                         }
                       },
@@ -26252,6 +26352,10 @@ SUPPORT_CHARTS = {
             {
               "signature": 200146,
               "version": "153.5.0"
+            },
+            {
+              "signature": 200146,
+              "version": "153.6.0"
             }
           ],
           "labels": [],
@@ -28423,6 +28527,10 @@ SUPPORT_CHARTS = {
             {
               "signature": 200017,
               "version": "12.3.0"
+            },
+            {
+              "signature": 200017,
+              "version": "12.5.0"
             }
           ],
           "labels": [],
@@ -40455,6 +40563,10 @@ SUPPORT_CHARTS = {
             {
               "signature": 200002,
               "version": "156.0.8078.47"
+            },
+            {
+              "signature": 200002,
+              "version": "157.0.8103.38"
             }
           ],
           "labels": [],
@@ -40992,6 +41104,18 @@ SUPPORT_CHARTS = {
             {
               "signature": 200003,
               "version": "158.0"
+            },
+            {
+              "signature": 200003,
+              "version": "158.0.1"
+            },
+            {
+              "signature": 200003,
+              "version": "159.0"
+            },
+            {
+              "signature": 200003,
+              "version": "159.0.1"
             }
           ],
           "labels": [],
@@ -41200,16 +41324,48 @@ SUPPORT_CHARTS = {
                           "include_services": {
                             "_supported": false,
                             "_optional": true
+                          },
+                          "instance_id": {
+                            "_supported": false,
+                            "_optional": true
                           }
                         },
                         "output": {
                           "components": {
                             "_supported": true,
-                            "_optional": false
+                            "_optional": false,
+                            "path": {
+                              "_supported": true,
+                              "_optional": false
+                            },
+                            "version": {
+                              "_supported": true,
+                              "_optional": false
+                            },
+                            "description": {
+                              "_supported": true,
+                              "_optional": false
+                            }
                           },
                           "services": {
                             "_supported": false,
-                            "_optional": true
+                            "_optional": true,
+                            "name": {
+                              "_supported": true,
+                              "_optional": false
+                            },
+                            "path": {
+                              "_supported": true,
+                              "_optional": false
+                            },
+                            "state": {
+                              "_supported": true,
+                              "_optional": false
+                            },
+                            "md5": {
+                              "_supported": true,
+                              "_optional": false
+                            }
                           }
                         }
                       },
@@ -41621,6 +41777,10 @@ SUPPORT_CHARTS = {
             {
               "signature": 200146,
               "version": "153.5.0"
+            },
+            {
+              "signature": 200146,
+              "version": "153.6.0"
             }
           ],
           "labels": [],
@@ -41972,6 +42132,10 @@ SUPPORT_CHARTS = {
             {
               "signature": 200017,
               "version": "12.3.0"
+            },
+            {
+              "signature": 200017,
+              "version": "12.5.0"
             }
           ],
           "labels": [],
@@ -46036,6 +46200,14 @@ SUPPORT_CHARTS = {
             {
               "signature": 200210,
               "version": "8.32.0"
+            },
+            {
+              "signature": 200210,
+              "version": "8.33.0"
+            },
+            {
+              "signature": 200210,
+              "version": "8.34.0"
             }
           ],
           "labels": [],
@@ -46509,6 +46681,6 @@ SUPPORT_CHARTS = {
       "name": "CLOUD_STORAGE"
     }
   },
-  "timestamp": "1793013590",
+  "timestamp": "1794223765",
   "support_chart_type": "CATEGORY"
 }

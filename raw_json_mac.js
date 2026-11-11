@@ -1847,7 +1847,7 @@ SUPPORT_CHARTS = {
             },
             {
               "signature": 100664,
-              "version": "4"
+              "version": "Build 4215"
             }
           ],
           "labels": [],
@@ -1912,7 +1912,32 @@ SUPPORT_CHARTS = {
               },
               "data_source": "Opswat",
               "sig_name": "Sublime Text 4",
-              "methods": {}
+              "methods": {
+                "manageability": {
+                  "101": {
+                    "id": 101,
+                    "meta_data": {
+                      "param_support": {
+                        "input": {
+                          "instance_id": {
+                            "_supported": false,
+                            "_optional": true
+                          }
+                        },
+                        "output": {
+                          "running": {
+                            "_supported": true,
+                            "_optional": false
+                          }
+                        }
+                      },
+                      "admin_required": false,
+                      "notes": ""
+                    },
+                    "name": "GetRunningState"
+                  }
+                }
+              }
             }
           }
         },
@@ -3127,6 +3152,10 @@ SUPPORT_CHARTS = {
             {
               "signature": 100283,
               "version": "3.0.23"
+            },
+            {
+              "signature": 100283,
+              "version": "3.0.24"
             }
           ],
           "labels": [],
@@ -3528,7 +3557,7 @@ SUPPORT_CHARTS = {
                         }
                       },
                       "admin_required": false,
-                      "notes": ""
+                      "notes": "macOS: version read from Info.plist via bundle id resolution (com.1password.1password primary, legacy com.agilebits.onepassword4 / com.agilebits.onepassword7 kept as fallback); architecture/language are filled by SDK Core's own macOS GetVersion logic once bundle resolution succeeds without throwing."
                     },
                     "name": "GetVersion"
                   },
@@ -3940,6 +3969,10 @@ SUPPORT_CHARTS = {
             {
               "signature": 100318,
               "version": "26.8.1.1"
+            },
+            {
+              "signature": 100318,
+              "version": "26.8.2.2"
             }
           ],
           "labels": [
@@ -9984,6 +10017,10 @@ SUPPORT_CHARTS = {
             {
               "signature": 100450,
               "version": "1.3.6.1921"
+            },
+            {
+              "signature": 100450,
+              "version": "1.3.8.620"
             }
           ],
           "labels": [],
@@ -11275,6 +11312,22 @@ SUPPORT_CHARTS = {
             {
               "signature": 100483,
               "version": "1.143.1"
+            },
+            {
+              "signature": 100483,
+              "version": "1.144.0"
+            },
+            {
+              "signature": 100483,
+              "version": "1.145.0"
+            },
+            {
+              "signature": 100483,
+              "version": "1.145.1"
+            },
+            {
+              "signature": 100483,
+              "version": "1.145.2"
             }
           ],
           "labels": [],
@@ -17489,6 +17542,10 @@ SUPPORT_CHARTS = {
             {
               "signature": 100495,
               "version": "26.8.0"
+            },
+            {
+              "signature": 100495,
+              "version": "26.8.0.217"
             }
           ],
           "labels": [],
@@ -26261,7 +26318,120 @@ SUPPORT_CHARTS = {
               },
               "data_source": "Opswat",
               "sig_name": "GlobalProtect",
-              "methods": {}
+              "methods": {
+                "manageability": {
+                  "100": {
+                    "id": 100,
+                    "meta_data": {
+                      "param_support": {
+                        "input": {
+                          "instance_id": {
+                            "_supported": false,
+                            "_optional": true
+                          }
+                        },
+                        "output": {
+                          "version": {
+                            "_supported": true,
+                            "_optional": false
+                          },
+                          "architecture": {
+                            "_supported": true,
+                            "_optional": false,
+                            "name": {
+                              "_supported": true,
+                              "_optional": false
+                            },
+                            "bitness": {
+                              "_supported": true,
+                              "_optional": false
+                            }
+                          },
+                          "language": {
+                            "_supported": true,
+                            "_optional": false,
+                            "code": {
+                              "_supported": true,
+                              "_optional": false
+                            },
+                            "name": {
+                              "_supported": true,
+                              "_optional": false
+                            }
+                          },
+                          "channel": {
+                            "_supported": false,
+                            "_optional": true
+                          },
+                          "release": {
+                            "_supported": false,
+                            "_optional": true
+                          }
+                        }
+                      },
+                      "admin_required": false,
+                      "notes": ""
+                    },
+                    "name": "GetVersion"
+                  },
+                  "101": {
+                    "id": 101,
+                    "meta_data": {
+                      "param_support": {
+                        "input": {
+                          "instance_id": {
+                            "_supported": false,
+                            "_optional": true
+                          }
+                        },
+                        "output": {
+                          "running": {
+                            "_supported": true,
+                            "_optional": false
+                          }
+                        }
+                      },
+                      "admin_required": false,
+                      "notes": "Install-directory sweep (bundle com.paloaltonetworks.GlobalProtect.client, falls back to /Applications/GlobalProtect.app) against GlobalProtect.app's processes; name-based fallback (GlobalProtect|PanGPS) if the install directory cannot be resolved."
+                    },
+                    "name": "GetRunningState"
+                  },
+                  "102": {
+                    "id": 102,
+                    "meta_data": {
+                      "param_support": {
+                        "input": {
+                          "instance_id": {
+                            "_supported": false,
+                            "_optional": true
+                          }
+                        },
+                        "output": []
+                      },
+                      "admin_required": false,
+                      "notes": ""
+                    },
+                    "name": "Run"
+                  },
+                  "103": {
+                    "id": 103,
+                    "meta_data": {
+                      "param_support": {
+                        "input": {
+                          "instance_id": {
+                            "_supported": false,
+                            "_optional": true
+                          }
+                        },
+                        "output": []
+                      },
+                      "admin_required": true,
+                      "notes": "Boots out the product's own launchd jobs (com.paloaltonetworks.gp.*.plist under /Library/LaunchAgents and /Library/LaunchDaemons) before sweeping the install directory by PID -- a bare kill/SIGTERM is respawned by launchd (pangpa carries KeepAlive=true unconditionally)."
+                    },
+                    "name": "TerminateProcesses"
+                  }
+                }
+              }
             }
           }
         }
@@ -29729,7 +29899,120 @@ SUPPORT_CHARTS = {
               },
               "data_source": "Opswat",
               "sig_name": "GlobalProtect",
-              "methods": {}
+              "methods": {
+                "manageability": {
+                  "100": {
+                    "id": 100,
+                    "meta_data": {
+                      "param_support": {
+                        "input": {
+                          "instance_id": {
+                            "_supported": false,
+                            "_optional": true
+                          }
+                        },
+                        "output": {
+                          "version": {
+                            "_supported": true,
+                            "_optional": false
+                          },
+                          "architecture": {
+                            "_supported": true,
+                            "_optional": false,
+                            "name": {
+                              "_supported": true,
+                              "_optional": false
+                            },
+                            "bitness": {
+                              "_supported": true,
+                              "_optional": false
+                            }
+                          },
+                          "language": {
+                            "_supported": true,
+                            "_optional": false,
+                            "code": {
+                              "_supported": true,
+                              "_optional": false
+                            },
+                            "name": {
+                              "_supported": true,
+                              "_optional": false
+                            }
+                          },
+                          "channel": {
+                            "_supported": false,
+                            "_optional": true
+                          },
+                          "release": {
+                            "_supported": false,
+                            "_optional": true
+                          }
+                        }
+                      },
+                      "admin_required": false,
+                      "notes": ""
+                    },
+                    "name": "GetVersion"
+                  },
+                  "101": {
+                    "id": 101,
+                    "meta_data": {
+                      "param_support": {
+                        "input": {
+                          "instance_id": {
+                            "_supported": false,
+                            "_optional": true
+                          }
+                        },
+                        "output": {
+                          "running": {
+                            "_supported": true,
+                            "_optional": false
+                          }
+                        }
+                      },
+                      "admin_required": false,
+                      "notes": "Install-directory sweep (bundle com.paloaltonetworks.GlobalProtect.client, falls back to /Applications/GlobalProtect.app) against GlobalProtect.app's processes; name-based fallback (GlobalProtect|PanGPS) if the install directory cannot be resolved."
+                    },
+                    "name": "GetRunningState"
+                  },
+                  "102": {
+                    "id": 102,
+                    "meta_data": {
+                      "param_support": {
+                        "input": {
+                          "instance_id": {
+                            "_supported": false,
+                            "_optional": true
+                          }
+                        },
+                        "output": []
+                      },
+                      "admin_required": false,
+                      "notes": ""
+                    },
+                    "name": "Run"
+                  },
+                  "103": {
+                    "id": 103,
+                    "meta_data": {
+                      "param_support": {
+                        "input": {
+                          "instance_id": {
+                            "_supported": false,
+                            "_optional": true
+                          }
+                        },
+                        "output": []
+                      },
+                      "admin_required": true,
+                      "notes": "Boots out the product's own launchd jobs (com.paloaltonetworks.gp.*.plist under /Library/LaunchAgents and /Library/LaunchDaemons) before sweeping the install directory by PID -- a bare kill/SIGTERM is respawned by launchd (pangpa carries KeepAlive=true unconditionally)."
+                    },
+                    "name": "TerminateProcesses"
+                  }
+                }
+              }
             }
           }
         }
@@ -30214,6 +30497,10 @@ SUPPORT_CHARTS = {
             {
               "signature": 100282,
               "version": "7.2.2"
+            },
+            {
+              "signature": 100282,
+              "version": "7.2.5"
             }
           ],
           "labels": [
@@ -30633,6 +30920,10 @@ SUPPORT_CHARTS = {
             {
               "signature": 100513,
               "version": "26276.505.5234.9924"
+            },
+            {
+              "signature": 100513,
+              "version": "26289.204.5281.6363"
             }
           ],
           "labels": [],
@@ -30918,6 +31209,10 @@ SUPPORT_CHARTS = {
             {
               "signature": 100449,
               "version": "7.18.1"
+            },
+            {
+              "signature": 100449,
+              "version": "7.19.0"
             }
           ],
           "labels": [],
@@ -34461,6 +34756,10 @@ SUPPORT_CHARTS = {
             {
               "signature": 100282,
               "version": "7.2.2"
+            },
+            {
+              "signature": 100282,
+              "version": "7.2.5"
             }
           ],
           "labels": [
@@ -35168,6 +35467,10 @@ SUPPORT_CHARTS = {
             {
               "signature": 100513,
               "version": "26276.505.5234.9924"
+            },
+            {
+              "signature": 100513,
+              "version": "26289.204.5281.6363"
             }
           ],
           "labels": [],
@@ -36175,6 +36478,73 @@ SUPPORT_CHARTS = {
                   },
                   "1008": {
                     "id": 1008,
+                    "meta_data": {
+                      "param_support": {
+                        "input": [],
+                        "output": {
+                          "last_backup_activity": {
+                            "_supported": true,
+                            "_optional": false
+                          },
+                          "backup_active": {
+                            "_supported": false,
+                            "_optional": true
+                          },
+                          "backups": {
+                            "_supported": true,
+                            "_optional": false,
+                            "path": {
+                              "_supported": false,
+                              "_optional": true
+                            },
+                            "time_started": {
+                              "_supported": false,
+                              "_optional": true
+                            },
+                            "time_ended": {
+                              "_supported": false,
+                              "_optional": true
+                            },
+                            "type": {
+                              "_supported": false,
+                              "_optional": true,
+                              "_values": {
+                                "partial": false,
+                                "system": false
+                              }
+                            },
+                            "device": {
+                              "_supported": false,
+                              "_optional": true,
+                              "_values": {
+                                "local": false,
+                                "network": false,
+                                "cloud": false,
+                                "tape": false,
+                                "disc": false
+                              }
+                            },
+                            "status": {
+                              "_supported": false,
+                              "_optional": false,
+                              "_values": {
+                                "success": false,
+                                "in_progress": false,
+                                "paused": false,
+                                "failed": false,
+                                "unknown": false
+                              }
+                            },
+                            "destination": {
+                              "_supported": false,
+                              "_optional": true
+                            }
+                          }
+                        }
+                      },
+                      "admin_required": false,
+                      "notes": "Reads Box Sync's own log file ($HOME/Library/Logs/Box/Box Sync) for the most recent 'Sync app status is now Complete' entry to derive last_backup_activity. backups[] is always empty - this product publishes no per-item backup record, only a rolling log of sync completions."
+                    },
                     "name": "GetBackupState"
                   },
                   "101": {
@@ -36605,6 +36975,10 @@ SUPPORT_CHARTS = {
             {
               "signature": 100148,
               "version": "277.4.4974"
+            },
+            {
+              "signature": 100148,
+              "version": "278.4.3944"
             }
           ],
           "labels": [],
@@ -37867,6 +38241,14 @@ SUPPORT_CHARTS = {
             {
               "signature": 100159,
               "version": "26.173.0906.0008"
+            },
+            {
+              "signature": 100159,
+              "version": "26.189.0928.0009"
+            },
+            {
+              "signature": 100159,
+              "version": "26.195.1006.0007"
             }
           ],
           "labels": [],
@@ -48474,6 +48856,14 @@ SUPPORT_CHARTS = {
             {
               "signature": 100004,
               "version": "156.0.8078.74"
+            },
+            {
+              "signature": 100004,
+              "version": "156.0.8078.80"
+            },
+            {
+              "signature": 100004,
+              "version": "157.0.8103.39"
             }
           ],
           "labels": [],
@@ -50246,6 +50636,10 @@ SUPPORT_CHARTS = {
             {
               "signature": 100292,
               "version": "159.0"
+            },
+            {
+              "signature": 100292,
+              "version": "159.0.1"
             }
           ],
           "labels": [],
@@ -61762,6 +62156,18 @@ SUPPORT_CHARTS = {
             {
               "signature": 100474,
               "version": "156.0.4314.50"
+            },
+            {
+              "signature": 100474,
+              "version": "156.0.4314.56"
+            },
+            {
+              "signature": 100474,
+              "version": "156.0.4314.58"
+            },
+            {
+              "signature": 100474,
+              "version": "157.0.4341.42"
             }
           ],
           "labels": [],
@@ -62634,6 +63040,10 @@ SUPPORT_CHARTS = {
             {
               "signature": 100495,
               "version": "26.8.0"
+            },
+            {
+              "signature": 100495,
+              "version": "26.8.0.217"
             }
           ],
           "labels": [],
@@ -96600,6 +97010,10 @@ SUPPORT_CHARTS = {
             {
               "signature": 100428,
               "version": "5367"
+            },
+            {
+              "signature": 100428,
+              "version": "5371"
             }
           ],
           "labels": [],
@@ -99644,6 +100058,10 @@ SUPPORT_CHARTS = {
             {
               "signature": 100495,
               "version": "26.8.0"
+            },
+            {
+              "signature": 100495,
+              "version": "26.8.0.217"
             }
           ],
           "labels": [],
@@ -105933,8 +106351,9 @@ SUPPORT_CHARTS = {
           "id": 100605,
           "tested_points": [
             {
+              "certification": "gold",
               "signature": 100663,
-              "version": "0.0"
+              "version": "50.3.0"
             }
           ],
           "labels": [],
@@ -105965,6 +106384,324 @@ SUPPORT_CHARTS = {
                     "id": 103,
                     "code": -11,
                     "name": "TerminateProcesses"
+                  }
+                },
+                "manageability": {
+                  "100": {
+                    "id": 100,
+                    "meta_data": {
+                      "param_support": {
+                        "input": {
+                          "instance_id": {
+                            "_supported": false,
+                            "_optional": true
+                          }
+                        },
+                        "output": {
+                          "version": {
+                            "_supported": true,
+                            "_optional": false
+                          },
+                          "architecture": {
+                            "_supported": false,
+                            "_optional": true,
+                            "name": {
+                              "_supported": false,
+                              "_optional": true
+                            },
+                            "bitness": {
+                              "_supported": false,
+                              "_optional": true
+                            }
+                          },
+                          "language": {
+                            "_supported": false,
+                            "_optional": true,
+                            "code": {
+                              "_supported": false,
+                              "_optional": true
+                            },
+                            "name": {
+                              "_supported": false,
+                              "_optional": true
+                            }
+                          },
+                          "channel": {
+                            "_supported": false,
+                            "_optional": true
+                          },
+                          "release": {
+                            "_supported": false,
+                            "_optional": true
+                          }
+                        }
+                      },
+                      "admin_required": false,
+                      "notes": ""
+                    },
+                    "name": "GetVersion"
+                  },
+                  "1000": {
+                    "id": 1000,
+                    "meta_data": {
+                      "param_support": {
+                        "input": {
+                          "skip_connection_check": {
+                            "_supported": false,
+                            "_optional": true
+                          }
+                        },
+                        "output": {
+                          "enabled": {
+                            "_supported": true,
+                            "_optional": false
+                          },
+                          "state": {
+                            "_supported": false,
+                            "_optional": true,
+                            "_values": {
+                              "enabled": false,
+                              "disabled": false,
+                              "initializing": false,
+                              "unknown": false
+                            }
+                          },
+                          "has_internet_connectivity": {
+                            "_supported": false,
+                            "_optional": true
+                          },
+                          "details": {
+                            "_supported": true,
+                            "_optional": false,
+                            "antivirus": {
+                              "_supported": false,
+                              "_optional": true
+                            },
+                            "antispyware": {
+                              "_supported": false,
+                              "_optional": true
+                            },
+                            "other": {
+                              "_supported": false,
+                              "_optional": true,
+                              "name": {
+                                "_supported": false,
+                                "_optional": true
+                              },
+                              "state": {
+                                "_supported": false,
+                                "_optional": true
+                              }
+                            }
+                          },
+                          "managed_by_3rd_party_products": {
+                            "_supported": false,
+                            "_optional": true,
+                            "product_name": {
+                              "_supported": false,
+                              "_optional": true
+                            },
+                            "remediation_path": {
+                              "_supported": false,
+                              "_optional": true
+                            },
+                            "signature": {
+                              "_supported": false,
+                              "_optional": true
+                            }
+                          }
+                        }
+                      },
+                      "admin_required": false,
+                      "notes": ""
+                    },
+                    "name": "GetRealTimeProtectionState"
+                  },
+                  "1001": {
+                    "id": 1001,
+                    "meta_data": {
+                      "param_support": {
+                        "input": {
+                          "timeframe": {
+                            "_supported": false,
+                            "_optional": true
+                          },
+                          "skip_connection_check": {
+                            "_supported": false,
+                            "_optional": true
+                          }
+                        },
+                        "output": {
+                          "is_recent": {
+                            "_supported": true,
+                            "_optional": false
+                          },
+                          "has_internet_connectivity": {
+                            "_supported": false,
+                            "_optional": true
+                          },
+                          "definitions": {
+                            "_supported": true,
+                            "_optional": false,
+                            "name": {
+                              "_supported": true,
+                              "_optional": false
+                            },
+                            "type": {
+                              "_supported": true,
+                              "_optional": false,
+                              "_values": {
+                                "antimalware": false,
+                                "antivirus": false,
+                                "antispyware": false
+                              }
+                            },
+                            "version": {
+                              "_supported": true,
+                              "_optional": false
+                            },
+                            "engine_version": {
+                              "_supported": false,
+                              "_optional": true
+                            },
+                            "last_update": {
+                              "_optional": false,
+                              "_supported": true,
+                              "_optional_override": true
+                            },
+                            "source_time": {
+                              "_optional": false,
+                              "_supported": true,
+                              "_optional_override": true
+                            },
+                            "count": {
+                              "_supported": false,
+                              "_optional": true
+                            }
+                          }
+                        }
+                      },
+                      "admin_required": false,
+                      "notes": ""
+                    },
+                    "name": "GetDefinitionState"
+                  },
+                  "102": {
+                    "id": 102,
+                    "meta_data": {
+                      "param_support": {
+                        "input": {
+                          "instance_id": {
+                            "_supported": false,
+                            "_optional": true
+                          }
+                        },
+                        "output": []
+                      },
+                      "admin_required": false,
+                      "notes": ""
+                    },
+                    "name": "Run"
+                  },
+                  "104": {
+                    "id": 104,
+                    "meta_data": {
+                      "param_support": {
+                        "input": {
+                          "instance_id": {
+                            "_supported": false,
+                            "_optional": true
+                          }
+                        },
+                        "output": {
+                          "main": {
+                            "_supported": true,
+                            "_optional": false
+                          },
+                          "directories": {
+                            "_supported": true,
+                            "_optional": false
+                          }
+                        }
+                      },
+                      "admin_required": false,
+                      "notes": ""
+                    },
+                    "name": "GetInstallationDirectories"
+                  },
+                  "108": {
+                    "id": 108,
+                    "meta_data": {
+                      "param_support": {
+                        "input": {
+                          "instance_id": {
+                            "_supported": false,
+                            "_optional": true
+                          },
+                          "hash_binary": {
+                            "_supported": false,
+                            "_optional": true
+                          }
+                        },
+                        "output": {
+                          "authentic": {
+                            "_supported": true,
+                            "_optional": false
+                          },
+                          "details": {
+                            "_supported": true,
+                            "_optional": false,
+                            "file": {
+                              "_supported": true,
+                              "_optional": false
+                            },
+                            "status": {
+                              "_supported": true,
+                              "_optional": false
+                            },
+                            "signing_code": {
+                              "_supported": true,
+                              "_optional": false
+                            },
+                            "sha256": {
+                              "_supported": false,
+                              "_optional": true
+                            },
+                            "certificate_info": {
+                              "_supported": true,
+                              "_optional": true,
+                              "issuer": {
+                                "_supported": true,
+                                "_optional": true
+                              },
+                              "subject": {
+                                "_supported": true,
+                                "_optional": true
+                              },
+                              "valid_from": {
+                                "_supported": true,
+                                "_optional": true
+                              },
+                              "valid_to": {
+                                "_supported": true,
+                                "_optional": true
+                              },
+                              "serial_number": {
+                                "_supported": true,
+                                "_optional": true
+                              },
+                              "thumbprint": {
+                                "_supported": false,
+                                "_optional": true
+                              }
+                            }
+                          }
+                        }
+                      },
+                      "admin_required": true,
+                      "notes": ""
+                    },
+                    "name": "IsAuthentic"
                   }
                 }
               }
@@ -106421,6 +107158,14 @@ SUPPORT_CHARTS = {
             {
               "signature": 100004,
               "version": "156.0.8078.74"
+            },
+            {
+              "signature": 100004,
+              "version": "156.0.8078.80"
+            },
+            {
+              "signature": 100004,
+              "version": "157.0.8103.39"
             }
           ],
           "labels": [],
@@ -108244,6 +108989,10 @@ SUPPORT_CHARTS = {
             {
               "signature": 100292,
               "version": "159.0"
+            },
+            {
+              "signature": 100292,
+              "version": "159.0.1"
             }
           ],
           "labels": [],
@@ -109690,6 +110439,18 @@ SUPPORT_CHARTS = {
             {
               "signature": 100474,
               "version": "156.0.4314.50"
+            },
+            {
+              "signature": 100474,
+              "version": "156.0.4314.56"
+            },
+            {
+              "signature": 100474,
+              "version": "156.0.4314.58"
+            },
+            {
+              "signature": 100474,
+              "version": "157.0.4341.42"
             }
           ],
           "labels": [],
@@ -122727,6 +123488,10 @@ SUPPORT_CHARTS = {
             {
               "signature": 100495,
               "version": "26.8.0"
+            },
+            {
+              "signature": 100495,
+              "version": "26.8.0.217"
             }
           ],
           "labels": [],
@@ -126394,6 +127159,10 @@ SUPPORT_CHARTS = {
             {
               "signature": 100282,
               "version": "7.2.2"
+            },
+            {
+              "signature": 100282,
+              "version": "7.2.5"
             }
           ],
           "labels": [
@@ -127101,6 +127870,10 @@ SUPPORT_CHARTS = {
             {
               "signature": 100513,
               "version": "26276.505.5234.9924"
+            },
+            {
+              "signature": 100513,
+              "version": "26289.204.5281.6363"
             }
           ],
           "labels": [],
@@ -128283,6 +129056,73 @@ SUPPORT_CHARTS = {
                   },
                   "1008": {
                     "id": 1008,
+                    "meta_data": {
+                      "param_support": {
+                        "input": [],
+                        "output": {
+                          "last_backup_activity": {
+                            "_supported": true,
+                            "_optional": false
+                          },
+                          "backup_active": {
+                            "_supported": false,
+                            "_optional": true
+                          },
+                          "backups": {
+                            "_supported": true,
+                            "_optional": false,
+                            "path": {
+                              "_supported": false,
+                              "_optional": true
+                            },
+                            "time_started": {
+                              "_supported": false,
+                              "_optional": true
+                            },
+                            "time_ended": {
+                              "_supported": false,
+                              "_optional": true
+                            },
+                            "type": {
+                              "_supported": false,
+                              "_optional": true,
+                              "_values": {
+                                "partial": false,
+                                "system": false
+                              }
+                            },
+                            "device": {
+                              "_supported": false,
+                              "_optional": true,
+                              "_values": {
+                                "local": false,
+                                "network": false,
+                                "cloud": false,
+                                "tape": false,
+                                "disc": false
+                              }
+                            },
+                            "status": {
+                              "_supported": false,
+                              "_optional": false,
+                              "_values": {
+                                "success": false,
+                                "in_progress": false,
+                                "paused": false,
+                                "failed": false,
+                                "unknown": false
+                              }
+                            },
+                            "destination": {
+                              "_supported": false,
+                              "_optional": true
+                            }
+                          }
+                        }
+                      },
+                      "admin_required": false,
+                      "notes": "Reads Box Sync's own log file ($HOME/Library/Logs/Box/Box Sync) for the most recent 'Sync app status is now Complete' entry to derive last_backup_activity. backups[] is always empty - this product publishes no per-item backup record, only a rolling log of sync completions."
+                    },
                     "name": "GetBackupState"
                   },
                   "101": {
@@ -128674,6 +129514,10 @@ SUPPORT_CHARTS = {
             {
               "signature": 100148,
               "version": "277.4.4974"
+            },
+            {
+              "signature": 100148,
+              "version": "278.4.3944"
             }
           ],
           "labels": [],
@@ -130336,6 +131180,14 @@ SUPPORT_CHARTS = {
             {
               "signature": 100159,
               "version": "26.173.0906.0008"
+            },
+            {
+              "signature": 100159,
+              "version": "26.189.0928.0009"
+            },
+            {
+              "signature": 100159,
+              "version": "26.195.1006.0007"
             }
           ],
           "labels": [],
@@ -131356,6 +132208,6 @@ SUPPORT_CHARTS = {
       "name": "CLOUD_STORAGE"
     }
   },
-  "timestamp": "1793250186",
+  "timestamp": "1794223777",
   "support_chart_type": "CATEGORY"
 }
